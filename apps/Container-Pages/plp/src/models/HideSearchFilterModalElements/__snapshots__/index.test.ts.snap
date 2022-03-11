@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - HideSearchFilterModalElements:  should match the HideSearchFilterModalElements 1`] = `
+Object {
+  "letterNav": false,
+  "searchBox": true,
+}
+`;

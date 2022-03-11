@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component -  should match the snapshot template 1`] = `
+<DocumentFragment>
+  <div
+    class="components__Wrapper-sc-1piawcx-1 iKCyuV countrylangselector"
+    data-testid="header-country-lang-selector"
+  >
+    <button
+      class="components__Container-sc-1piawcx-5 eGkZmG"
+    >
+      <img
+        alt="gb"
+        class="components__CountryFlagImg-sc-1piawcx-7 kAbTiM"
+        data-testid="header-country-lang-flag"
+        src=""
+      />
+    </button>
+    <div
+      class="MuiDrawer-root MuiDrawer-modal"
+      data-testid="drawer-container"
+      role="presentation"
+      style="position: fixed; z-index: 1300; right: 0px; bottom: 0px; top: 0px; left: 0px;"
+    >
+      <div
+        aria-hidden="true"
+        class="MuiBackdrop-root"
+        style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      />
+      <div
+        data-test="sentinelStart"
+        tabindex="0"
+      />
+      <div
+        class="MuiPaper-root MuiDrawer-paper MuiDrawer-paperAnchorBottom MuiPaper-elevation16"
+        tabindex="-1"
+      >
+        <div
+          class="components__CountrySelectorContainer-sc-1piawcx-8 ZMjdK"
+        >
+          <div
+            class="components__CountrySelectorContainerHeader-sc-1piawcx-9 eZdfAP"
+          >
+            <h4
+              class="MuiTypography-root components__Title-sc-1piawcx-13 drkruc MuiTypography-h4"
+            >
+              CHANGE COUNTRY
+            </h4>
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-text components__CloseButton-sc-1piawcx-4 iNziXg"
+              data-testid="country-selector-close-button"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Close
+              </span>
+            </button>
+          </div>
+          <div
+            class="components__CountrySelectorContainerElement-sc-1piawcx-10 fgsBHC"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Location
+            </p>
+            <div
+              class="MuiFormControl-root component__SelectedFormControl-sc-12h4p17-2 ehNeAz"
+            >
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root component__StyledOutlinedInput-sc-12h4p17-1 fjSKrf component__StyledSelect-sc-12h4p17-0 dbmTf MuiInputBase-formControl"
+                data-testid="country-selector-select-menu"
+              >
+                <div
+                  aria-haspopup="listbox"
+                  aria-labelledby="mui-component-select-country-selector-select"
+                  class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+                  id="mui-component-select-country-selector-select"
+                  role="button"
+                  tabindex="0"
+                >
+                  <span>
+                    ​
+                  </span>
+                </div>
+                <input
+                  id="country-selector-select"
+                  name="country-selector-select"
+                  type="hidden"
+                  value="GB"
+                />
+                <img
+                  class="component__StyledIcon-sc-12h4p17-4 cgiFIu material-icons MuiSelect-icon MuiSelect-iconOutlined"
+                  src="/icons/shared/chevron.svg"
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="PrivateNotchedOutline-root-5 MuiOutlinedInput-notchedOutline"
+                  style="padding-left: 8px;"
+                >
+                  <legend
+                    class="PrivateNotchedOutline-legend-6"
+                    style="width: 0.01px;"
+                  >
+                    <span>
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+          <div
+            class="components__CountrySelectorROW-sc-1piawcx-6 eDKywE"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Can't find the country you're looking for?
+            </p>
+            <a
+              class="components__ROWLink-sc-1piawcx-3 eWSxro"
+              data-testid="country-selector-ROWLink"
+              href=""
+            >
+              View All Countries
+            </a>
+          </div>
+          <div
+            class="components__CountrySelectorContainerElement-sc-1piawcx-10 fgsBHC"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Language
+            </p>
+            <div
+              class="components__CountrySelectorContainerLanguage-sc-1piawcx-14 cAZjSP"
+            >
+              <button
+                class="components__CountrySelectorContainerLanguageButtons-sc-1piawcx-12 hQrKyf"
+                data-ga-v1="Country Language"
+                data-ga-v2="United Kingdom"
+                data-ga-v3="English"
+                data-testid="country-selector-language-button-0"
+              >
+                English
+              </button>
+            </div>
+          </div>
+          <div
+            class="components__CountrySelectorCTAWrapper-sc-1piawcx-11 pFreY"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-text cta-Button-sc-l8o4k1 hmwEFu"
+              data-testid="country-selector-CTA-button"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Shop now
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        data-test="sentinelEnd"
+        tabindex="0"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

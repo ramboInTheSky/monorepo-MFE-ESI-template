@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Featurers - SearchBar:  GetAutoCompleteComponent should return Default div when searchBar empty string 1`] = `
+<DocumentFragment>
+  <div>
+    simple AutoComplete
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Featurers - SearchBar:  GetAutoCompleteComponent should return enriched AutoComplete text when searchBar EnrichSearch 1`] = `
+<DocumentFragment>
+  <div>
+    ENRICHED AutoComplete
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Featurers - SearchBar:  GetAutoCompleteComponent should return simple AutoComplete text when searchBar SimpleSearch 1`] = `
+<DocumentFragment>
+  <div>
+    simple AutoComplete
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Featurers - SearchBar:  GetModalComponent should return Default div when searchBar empty string 1`] = `
+<DocumentFragment>
+  <div>
+    Default
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Featurers - SearchBar:  GetModalComponent should return enriched AutoComplete text when searchBar EnrichSearch 1`] = `
+<DocumentFragment>
+  <div>
+    ENRICHED MODAL
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Featurers - SearchBar:  GetModalComponent should return simple AutoComplete text when searchBar SimpleSearch 1`] = `
+<DocumentFragment>
+  <div>
+    simple Modal
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Featurers - SearchBar:  GetRecentSearchesComponent should return Default div when searchBar empty string 1`] = `
+<DocumentFragment>
+  <div>
+    simple RecentSearches
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Featurers - SearchBar:  GetRecentSearchesComponent should return enriched AutoComplete text when searchBar EnrichSearch 1`] = `
+<DocumentFragment>
+  <div>
+    ENRICHED RecentSearches
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Featurers - SearchBar:  GetRecentSearchesComponent should return simple AutoComplete text when searchBar SimpleSearch 1`] = `
+<DocumentFragment>
+  <div>
+    simple RecentSearches
+  </div>
+</DocumentFragment>
+`;

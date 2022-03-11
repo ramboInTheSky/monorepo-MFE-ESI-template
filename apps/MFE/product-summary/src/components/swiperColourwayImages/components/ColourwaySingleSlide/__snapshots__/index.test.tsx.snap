@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a ColourwaySingleSlide component should match the snapshot when isOnServer set to false 1`] = `
+<DocumentFragment>
+  .c0 {
+  overflow: hidden;
+  width: 100%;
+  padding-top: 150%;
+  height: 0;
+  position: relative;
+  margin-bottom: 0.625rem;
+}
+
+.c0 .product-swiper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.c0 .swiper-wrapper {
+  height: auto;
+}
+
+@media (max-width:1023px) {
+  .c0 {
+    margin-bottom: 0.1875rem;
+  }
+}
+
+@media (max-width:1023px) {
+
+}
+
+<div
+    class="c0"
+  >
+    <div>
+      ColourwayImageSlide
+    </div>
+  </div>
+  .c0 {
+  margin-bottom: 0.64rem;
+}
+
+@media (max-width:1023px) {
+
+}
+
+@media (max-width:1023px) {
+  .c0 {
+    margin-bottom: 2.125rem;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Given a ColourwaySingleSlide component should match the snapshot when isOnServer set to true 1`] = `
+<DocumentFragment>
+  .c0 {
+  overflow: hidden;
+  width: 100%;
+  padding-top: 150%;
+  height: 0;
+  position: relative;
+  margin-bottom: 0.625rem;
+}
+
+.c0 .product-swiper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.c0 .swiper-wrapper {
+  height: auto;
+}
+
+@media (max-width:1023px) {
+  .c0 {
+    margin-bottom: 0.1875rem;
+  }
+}
+
+@media (max-width:1023px) {
+
+}
+
+<div
+    class="c0"
+  >
+    <div>
+      ColourwayImageSlide
+    </div>
+  </div>
+  .c0 {
+  margin-bottom: 0.64rem;
+}
+
+@media (max-width:1023px) {
+
+}
+
+@media (max-width:1023px) {
+  .c0 {
+    margin-bottom: 2.125rem;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;

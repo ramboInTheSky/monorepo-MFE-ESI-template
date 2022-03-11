@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a cypress fixture config should match snapshot 1`] = `
+Object {
+  "devices": Array [
+    Object {
+      "device": "iphone-5",
+      "orientation": Array [
+        "landscape",
+        "portrait",
+      ],
+      "type": "mobile",
+    },
+    Object {
+      "device": "iphone-6+",
+      "orientation": Array [
+        "landscape",
+        "portrait",
+      ],
+      "type": "mobile",
+    },
+    Object {
+      "device": "ipad-2",
+      "orientation": Array [
+        "landscape",
+        "portrait",
+      ],
+      "type": "tablet",
+    },
+    Object {
+      "device": "macbook-13",
+      "orientation": Array [
+        "landscape",
+        "portrait",
+      ],
+      "type": "desktop",
+    },
+  ],
+  "realmType": "",
+  "settings": Object {
+    "gb": Object {
+      "language": "en",
+      "territory": "GB",
+    },
+    "saLTR": Object {
+      "language": "en",
+      "siteUrl": "https://www.amido.sa/en",
+      "territory": "SA",
+    },
+    "saRTL": Object {
+      "language": "ar",
+      "siteUrl": "https://www.amido.sa/ar",
+      "territory": "SA",
+    },
+  },
+}
+`;

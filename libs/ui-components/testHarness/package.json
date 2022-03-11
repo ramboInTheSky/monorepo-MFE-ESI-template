@@ -1,0 +1,69 @@
+{
+  "name": "@monorepo/test-harness",
+  "version": "2.3.0",
+  "description": "Test Harness Utility",
+  "author": "",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "module": "./lib/index.es.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "rollup -c && yalc push --safe --replace",
+    "build-ci": "rollup -c rollup.config.prod.js",
+    "lint": "eslint --ext .tsx,.ts src/",
+    "tsc": "tsc",
+    "test": "jest src/"
+  },
+  "resolutions": {
+    "@babel/preset-env": "^7.8.7"
+  },
+  "dependencies": {
+    "rxjs": "6.5.4"
+  },
+  "devDependencies": {
+    "@babel/compat-data": "^7.8.0",
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.8.7",
+    "@babel/plugin-proposal-numeric-separator": "^7.8.3",
+    "@monorepo/babelconfig": "^3.3.0",
+    "@monorepo/eslint": "^3.3.0",
+    "@testing-library/jest-dom": "5.1.1",
+    "@testing-library/react": "9.4.0",
+    "@types/jest": "24.9.1",
+    "@types/node": "12.12.28",
+    "@types/react": "16.9.34",
+    "@typescript-eslint/parser": "2.19.2",
+    "babel-eslint": "10.0.2",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "8.1.0",
+    "babel-plugin-dynamic-import-node": "^2.2.0",
+    "babel-plugin-named-asset-import": "^0.3.3",
+    "babel-plugin-styled-components": "^1.10.0",
+    "babel-preset-react-app": "^9.1.1",
+    "jest": "24.9.0",
+    "jest-coverage-ratchet": "0.2.3",
+    "jest-junit": "10.0.0",
+    "ts-jest": "24.3.0",
+    "typescript": "3.8.2",
+    "yalc": "^1.0.0-pre.53"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "rxjs": "6.5.4",
+    "styled-components": "^5.1.0"
+  },
+  "jest": {
+    "setupFiles": [
+      "./setupTests.ts"
+    ],
+    "moduleNameMapper": {
+      "@mockData/(.*)": "<rootDir>/__mocks__/$1",
+      "@app/(.*)$": "<rootDir>/src/$1"
+    }
+  },
+  "gitHead": ""
+}

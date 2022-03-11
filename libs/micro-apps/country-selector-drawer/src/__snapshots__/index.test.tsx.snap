@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Country Selector Drawer Package -  should match the snapshot template 1`] = `
+<DocumentFragment>
+  <div
+    class="components__Wrapper-sc-1piawcx-1 iKCyuV countrylangselector"
+    data-testid="header-country-lang-selector"
+  >
+    <button
+      class="components__Container-sc-1piawcx-5 eGkZmG"
+    >
+      <img
+        alt="gb"
+        class="components__CountryFlagImg-sc-1piawcx-7 kAbTiM"
+        data-testid="header-country-lang-flag"
+        src="/icons/shared/countryflags/gb.png"
+      />
+    </button>
+  </div>
+</DocumentFragment>
+`;

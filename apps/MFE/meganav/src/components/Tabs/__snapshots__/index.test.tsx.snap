@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    aria-label="tabs"
+    class="component__Container-sc-1qs3e0-1 hNheqb"
+    role="tablist"
+  >
+    <div
+      class="component__TabShocks-sc-1qs3e0-0 crCZni"
+    />
+    <div
+      aria-controls="panel-all"
+      class="component__Container-sc-1g3gad9-0 gAJFND"
+      role="tab"
+    >
+      <span>
+        all
+      </span>
+    </div>
+    <div
+      aria-controls="panel-more"
+      class="component__Container-sc-1g3gad9-0 hRXPUQ"
+      role="tab"
+    >
+      <span>
+        more
+      </span>
+    </div>
+    <div
+      class="component__TabShocks-sc-1qs3e0-0 crCZni"
+    />
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,194 @@
+﻿{
+  "Empire": {
+    "EmpireName": "MONOREPO.FOOTER.API",
+    "Realms": [
+      {
+        "RealmName": "Amido",
+        "Settings": {
+          "footer.api.realmName": {
+            "Value": "amido"
+          }
+        },
+        "Territories": [
+          {
+            "TerritoryName": "GB",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.api.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.api.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.api.territoryName": {
+                "Value": "GB"
+              }
+            }
+          },
+          {
+            "TerritoryName": "FR",
+            "Languages": [
+              {
+                "LanguageName": "fr",
+                "Settings": {
+                  "footer.api.languageName": {
+                    "Value": "fr"
+                  },
+                  "footer.api.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.api.territoryName": {
+                "Value": "FR"
+              }
+            }
+          },
+          {
+            "TerritoryName": "DE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.api.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.api.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.api.territoryName": {
+                "Value": "DE"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "RealmName": "LittleLabel",
+        "Settings": {
+          "footer.api.realmName": {
+            "Value": "LittleLabel"
+          }
+        },
+        "Territories": [
+          {
+            "TerritoryName": "GB",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.api.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.api.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.api.territoryName": {
+                "Value": "GB"
+              }
+            }
+          },
+          {
+            "TerritoryName": "FR",
+            "Languages": [
+              {
+                "LanguageName": "fr",
+                "Settings": {
+                  "footer.api.languageName": {
+                    "Value": "fr"
+                  },
+                  "footer.api.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.api.territoryName": {
+                "Value": "FR"
+              }
+            }
+          },
+          {
+            "TerritoryName": "DE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.api.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.api.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.api.territoryName": {
+                "Value": "DE"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "RealmName": "Mobile",
+        "Settings": {
+          "footer.api.realmName": {
+            "Value": "mobile"
+          }
+        },
+        "Territories": [
+          {
+            "TerritoryName": "GB",
+            "Languages": [],
+            "Settings": {
+              "footer.api.territoryName": {
+                "Value": "GB"
+              }
+            }
+          },
+          {
+            "TerritoryName": "DE",
+            "Languages": [],
+            "Settings": {
+              "footer.api.territoryName": {
+                "Value": "DE-MOB"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Personas": [
+    {
+      "PersonaName": "CustomerA",
+      "Settings": {
+        "footer.api.direction": {
+          "Value": "rtl"
+        },
+        "footer.enableMainMenu": {
+          "Value": "false"
+        }
+      }
+    }
+  ]
+}

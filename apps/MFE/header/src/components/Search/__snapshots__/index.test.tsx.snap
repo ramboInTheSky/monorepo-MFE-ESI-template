@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - Search:  should match the snapshot 1 1`] = `
+<DocumentFragment>
+  .c1 {
+  width: 5.375rem;
+}
+
+.c1 > div {
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.c0 {
+  padding: 0.625rem 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+.c0 img {
+  width: 5.375rem;
+  height: 2.75rem;
+}
+
+<div
+    class="header-adaptive-search"
+    data-testid="header-adaptive-search"
+  >
+    <div
+      class="PrivateHiddenCss-mdUp-8"
+    >
+      <div
+        data-testid="header-small-screen-search"
+      >
+        <div
+          class="c0"
+          data-ga-v1="Search"
+          data-ga-v2="Open Search"
+          role="link"
+        >
+          <img
+            alt="Search Icon"
+            class=""
+            src="sample"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="PrivateHiddenCss-smDown-6"
+    >
+      <div
+        class="c1"
+        data-testid="header-big-screen-search"
+      >
+        <div>
+          SearchBox
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - Search:  should match the snapshot 2 1`] = `
+<DocumentFragment>
+  .c1 {
+  width: 5.375rem;
+}
+
+.c1 > div {
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.c0 {
+  padding: 0.625rem 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+.c0 img {
+  width: 5.375rem;
+  height: 2.75rem;
+}
+
+<div
+    class="header-adaptive-search"
+    data-testid="header-adaptive-search"
+  >
+    <div
+      class="PrivateHiddenCss-mdUp-23"
+    >
+      <div
+        data-testid="header-small-screen-search"
+      >
+        <div
+          class="c0"
+          data-ga-v1="Search"
+          data-ga-v2="Open Search"
+          role="link"
+        >
+          <img
+            alt="Search Icon"
+            class=""
+            src="sample"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="PrivateHiddenCss-smDown-21"
+    >
+      <div
+        class="c1"
+        data-testid="header-big-screen-search"
+        open=""
+      >
+        <div>
+          SearchBox
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - Search:  should match the snapshot 3 1`] = `
+<DocumentFragment>
+  .c1 {
+  width: 5.375rem;
+}
+
+.c1 > div {
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.c0 {
+  padding: 0.625rem 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+.c0 img {
+  width: 5.375rem;
+  height: 2.75rem;
+}
+
+<div
+    class="header-adaptive-search"
+    data-testid="header-adaptive-search"
+  >
+    <div
+      class="PrivateHiddenCss-mdUp-38"
+    >
+      <div
+        data-testid="header-small-screen-search"
+      >
+        <div
+          class="c0"
+          data-ga-v1="Search"
+          data-ga-v2="Open Search"
+          role="link"
+        >
+          <img
+            alt="Search Icon"
+            class=""
+            src="sample"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="PrivateHiddenCss-smDown-36"
+    >
+      <div
+        class="c1"
+        data-testid="header-big-screen-search"
+        open=""
+      >
+        <div>
+          SearchBox
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

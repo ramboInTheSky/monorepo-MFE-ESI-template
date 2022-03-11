@@ -1,0 +1,83 @@
+{
+  "id": "42667955-2f83-4cf3-827a-75060152ece3",
+  "title": "Home",
+  "target": "https://www.next.mx/en",
+  "viewType": "primary-navbar",
+  "realm": "amido",
+  "territory": "GB",
+  "language": "en",
+  "items": [
+    {
+      "title": "BABY",
+      "path": "BABY",
+      "target": "/baby",
+      "linkColour": "",
+      "fontWeight": "",
+      "fontFamily": null
+    },
+    {
+      "title": "BOYS",
+      "path": "BOYS",
+      "target": "/boys",
+      "linkColour": "",
+      "fontWeight": "",
+      "fontFamily": null
+    },
+    {
+      "title": "GIRLS",
+      "path": "GIRLS",
+      "target": "/girls",
+      "linkColour": "",
+      "fontWeight": "",
+      "fontFamily": null
+    },
+    {
+      "title": "WOMEN",
+      "path": "WOMEN",
+      "target": "/women",
+      "linkColour": "",
+      "fontWeight": "",
+      "fontFamily": null
+    },
+    {
+      "title": "MEN",
+      "path": "MEN",
+      "target": "/men",
+      "linkColour": "",
+      "fontWeight": "",
+      "fontFamily": null
+    },
+    {
+      "title": "HOME",
+      "path": "HOME",
+      "target": "/homeware",
+      "linkColour": "",
+      "fontWeight": "",
+      "fontFamily": null
+    },
+    {
+      "title": "SPORTS",
+      "path": "SPORTS",
+      "target": "/sports",
+      "linkColour": "",
+      "fontWeight": "",
+      "fontFamily": null
+    },
+    {
+      "title": "BRANDS",
+      "path": "BRANDS",
+      "target": "/branded",
+      "linkColour": "",
+      "fontWeight": "",
+      "fontFamily": null
+    },
+    {
+      "title": "NEW IN",
+      "path": "NEW IN",
+      "target": "/new-in",
+      "linkColour": "",
+      "fontWeight": "",
+      "fontFamily": null
+    }
+  ]
+}

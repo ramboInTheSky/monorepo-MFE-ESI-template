@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a seo headings api When api returns data should have match the snapshot 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "<h1>i am heading</h1>",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;

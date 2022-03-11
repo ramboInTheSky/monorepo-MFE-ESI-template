@@ -1,0 +1,352 @@
+{
+  "itemNumber": "919461",
+  "title": "Matt Emulsion 100ml Tester Pot",
+  "currencyCode": "GBP",
+  "brand": "nike",
+  "department": "shirt",
+  "fit": "tall",
+  "colourways": [
+    {
+      "fits": ["Regular", "Petite", "Tall"],
+      "url": "g7190s5/962950#962950",
+      "title": "Matt 1",
+      "colour": "Dark",
+      "itemNumber": "919461",
+      "itemPrice": {
+        "minPrice": 12,
+        "maxPrice": 20,
+        "saleMinPrice": 1,
+        "saleMaxPrice": 2,
+        "wasMinPrice": 12,
+        "wasMaxPrice": 20
+      },
+      "overallStarRating": 3
+    },
+    {
+      "fits": ["Regular", "Tall"],
+      "url": "g7190s5/962950#962950",
+      "title": "Matt 2",
+      "colour": "Bleach Wash",
+      "itemNumber": "920427",
+      "itemPrice": {
+        "minPrice": 20,
+        "maxPrice": 20,
+        "saleMinPrice": 10,
+        "saleMaxPrice": 10,
+        "wasMinPrice": 20,
+        "wasMaxPrice": 20
+      },
+      "overallStarRating": 0
+    },
+    {
+      "fits": ["Regular", "Petite"],
+      "url": "g7190s5/962950#962950",
+      "title": "Matt 3",
+      "colour": "Dark yellow",
+      "itemNumber": "503290",
+      "itemPrice": {
+        "minPrice": 10.0,
+        "maxPrice": 12.0,
+        "saleMinPrice": null,
+        "saleMaxPrice": null,
+        "wasMinPrice": null,
+        "wasMaxPrice": null
+      },
+      "overallStarRating": 2
+    },
+    {
+      "fits": ["Regular"],
+      "url": "g7190s5/962950#962950",
+      "title": "Matt 4",
+      "colour": "Dark brown",
+      "itemNumber": "940736",
+      "itemPrice": {
+        "minPrice": 10.0,
+        "maxPrice": 12.0,
+        "saleMinPrice": null,
+        "saleMaxPrice": null,
+        "wasMinPrice": null,
+        "wasMaxPrice": null
+      },
+      "overallStarRating": 2
+    },
+    {
+      "fits": ["Regular", "Tall", "Petite"],
+      "url": "g7190s5/962950#962950",
+      "title": "Matt 5",
+      "colour": "Dark blue",
+      "itemNumber": "495341",
+      "itemPrice": {
+        "minPrice": 10.0,
+        "maxPrice": 12.0,
+        "saleMinPrice": null,
+        "saleMaxPrice": null,
+        "wasMinPrice": null,
+        "wasMaxPrice": null
+      },
+      "overallStarRating": 0
+    },
+    {
+      "fits": ["Regular", "Petite"],
+      "url": "g7190s5/962950#962950",
+      "title": "Matt 6",
+      "colour": "Dark pink",
+      "itemNumber": "507422",
+      "itemPrice": {
+        "minPrice": 10.0,
+        "maxPrice": 12.0,
+        "saleMinPrice": null,
+        "saleMaxPrice": null,
+        "wasMinPrice": null,
+        "wasMaxPrice": null
+      },
+      "overallStarRating": 1
+    },
+    {
+      "fits": ["Regular", "Petite"],
+      "url": "g7190s5/962950#962950",
+      "title": "Matt 7",
+      "colour": "Hot pink",
+      "itemNumber": "608072",
+      "itemPrice": {
+        "minPrice": 10.0,
+        "maxPrice": 12.0,
+        "saleMinPrice": null,
+        "saleMaxPrice": null,
+        "wasMinPrice": null,
+        "wasMaxPrice": null
+      },
+      "overallStarRating": 2
+    },
+    {
+      "fits": ["Regular", "Petite"],
+      "url": "g7190s5/962950#962950",
+      "title": "Matt 8",
+      "colour": "Dark",
+      "itemNumber": "705031",
+      "itemPrice": {
+        "minPrice": 10.0,
+        "maxPrice": 12.0,
+        "saleMinPrice": null,
+        "saleMaxPrice": null,
+        "wasMinPrice": null,
+        "wasMaxPrice": null
+      },
+      "overallStarRating": 2
+    },
+    {
+      "fits": ["Regular", "Petite"],
+      "url": "g7190s5/962950#962950",
+      "title": "Matt 9",
+      "colour": "Dark",
+      "itemNumber": "803745",
+      "itemPrice": {
+        "minPrice": 10.0,
+        "maxPrice": 12.0,
+        "saleMinPrice": null,
+        "saleMaxPrice": null,
+        "wasMinPrice": null,
+        "wasMaxPrice": null
+      },
+      "overallStarRating": 3
+    },
+    {
+      "fits": ["Regular", "Petite"],
+      "url": "g7190s5/962950#962950",
+      "title": "Matt 10",
+      "colour": "Dark",
+      "itemNumber": "630710",
+      "itemPrice": {
+        "minPrice": 10.0,
+        "maxPrice": 12.0,
+        "saleMinPrice": null,
+        "saleMaxPrice": null,
+        "wasMinPrice": null,
+        "wasMaxPrice": null
+      },
+      "overallStarRating": 2
+    },
+    {
+      "fits": ["Regular", "Petite"],
+      "url": "g7190s5/962950#962950",
+      "title": "Matt 11",
+      "colour": "Dark",
+      "itemNumber": "326828",
+      "itemPrice": {
+        "minPrice": 10.0,
+        "maxPrice": 12.0,
+        "saleMinPrice": null,
+        "saleMaxPrice": null,
+        "wasMinPrice": null,
+        "wasMaxPrice": null
+      },
+      "overallStarRating": 4
+    },
+    {
+      "fits": ["Regular", "Petite"],
+      "url": "g7190s5/962950#962950",
+      "title": "Matt 12",
+      "colour": "Dark",
+      "itemNumber": "768334",
+      "itemPrice": {
+        "minPrice": 10.0,
+        "maxPrice": 12.0,
+        "saleMinPrice": null,
+        "saleMaxPrice": null,
+        "wasMinPrice": null,
+        "wasMaxPrice": null
+      },
+      "overallStarRating": 1
+    },
+    {
+      "fits": ["Regular", "Petite"],
+      "url": "g7190s5/962950#962950",
+      "title": "Matt 13",
+      "colour": "Dark",
+      "itemNumber": "966813",
+      "itemPrice": {
+        "minPrice": 10.0,
+        "maxPrice": 12.0,
+        "saleMinPrice": null,
+        "saleMaxPrice": null,
+        "wasMinPrice": null,
+        "wasMaxPrice": null
+      },
+      "overallStarRating": 1
+    },
+    {
+      "fits": ["Regular", "Petite"],
+      "url": "g7190s5/962950#962950",
+      "title": "Matt 14",
+      "colour": "Dark",
+      "itemNumber": "745348",
+      "itemPrice": {
+        "minPrice": 10.0,
+        "maxPrice": 12.0,
+        "saleMinPrice": null,
+        "saleMaxPrice": null,
+        "wasMinPrice": null,
+        "wasMaxPrice": null
+      },
+      "overallStarRating": 4
+    },
+    {
+      "fits": ["Regular", "Petite"],
+      "url": "g7190s5/962950#962950",
+      "title": "Matt 15",
+      "colour": "Dark",
+      "itemNumber": "969758",
+      "itemPrice": {
+        "minPrice": 10.0,
+        "maxPrice": 12.0,
+        "saleMinPrice": null,
+        "saleMaxPrice": null,
+        "wasMinPrice": null,
+        "wasMaxPrice": null
+      },
+      "overallStarRating": 3
+    },
+    {
+      "fits": ["Regular", "Petite"],
+      "url": "g7190s5/962950#962950",
+      "title": "Matt 16",
+      "colour": "Dark",
+      "itemNumber": "819434",
+      "itemPrice": {
+        "minPrice": 10.0,
+        "maxPrice": 12.0,
+        "saleMinPrice": null,
+        "saleMaxPrice": null,
+        "wasMinPrice": null,
+        "wasMaxPrice": null
+      },
+      "overallStarRating": 5
+    },
+    {
+      "fits": ["Regular", "Petite"],
+      "url": "g7190s5/962950#962950",
+      "title": "Matt 17",
+      "colour": "Dark",
+      "itemNumber": "466748",
+      "itemPrice": {
+        "minPrice": 10.0,
+        "maxPrice": 12.0,
+        "saleMinPrice": null,
+        "saleMaxPrice": null,
+        "wasMinPrice": null,
+        "wasMaxPrice": null
+      },
+      "overallStarRating": 5
+    },
+    {
+      "fits": ["Regular", "Petite"],
+      "url": "g7190s5/962950#962950",
+      "title": "Matt 18",
+      "colour": "Dark",
+      "itemNumber": "313332",
+      "itemPrice": {
+        "minPrice": 10.0,
+        "maxPrice": 12.0,
+        "saleMinPrice": null,
+        "saleMaxPrice": null,
+        "wasMinPrice": null,
+        "wasMaxPrice": null
+      },
+      "overallStarRating": 4
+    },
+    {
+      "fits": ["Regular", "Petite"],
+      "url": "g7190s5/962950#962950",
+      "title": "Matt 19",
+      "colour": "Dark",
+      "itemNumber": "479087",
+      "itemPrice": {
+        "minPrice": 10.0,
+        "maxPrice": 12.0,
+        "saleMinPrice": null,
+        "saleMaxPrice": null,
+        "wasMinPrice": null,
+        "wasMaxPrice": null
+      },
+      "overallStarRating": 1
+    },
+    {
+      "fits": ["Regular", "Petite"],
+      "url": "g7190s5/962950#962950",
+      "title": "Matt 20",
+      "colour": "Dark",
+      "itemNumber": "757786",
+      "itemPrice": {
+        "minPrice": 10.0,
+        "maxPrice": 12.0,
+        "saleMinPrice": null,
+        "saleMaxPrice": null,
+        "wasMinPrice": null,
+        "wasMaxPrice": null
+      },
+      "overallStarRating": 2
+    },
+    {
+      "fits": ["Regular", "Petite"],
+      "url": "g7190s5/962950#962950",
+      "title": "Matt 21",
+      "colour": "Dark",
+      "itemNumber": "999204",
+      "itemPrice": {
+        "minPrice": 10.0,
+        "maxPrice": 12.0,
+        "saleMinPrice": null,
+        "saleMaxPrice": null,
+        "wasMinPrice": null,
+        "wasMaxPrice": null
+      },
+      "overallStarRating": 2,
+      "personalisedType": "madeToMeasure"
+    }
+  ],
+  "_rid": "l5NGAJWLW3NHAAAAAAAAAA==",
+  "_self": "dbs/l5NGAA==/colls/l5NGAJWLW3M=/docs/l5NGAJWLW3NHAAAAAAAAAA==/",
+  "_etag": "\"0c00a9e1-0000-0c00-0000-5ebe46160000\"",
+  "_attachments": "attachments/",
+  "_ts": 1589528086
+}

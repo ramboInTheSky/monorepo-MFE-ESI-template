@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model: SecondaryNav should match the Banner 1`] = `
+Banner {
+  "imageUrl": "",
+  "target": "",
+}
+`;
+
+exports[`Model: SecondaryNav should match the CategoryLink 1`] = `
+CategoryLink {
+  "target": "",
+  "title": "",
+}
+`;
+
+exports[`Model: SecondaryNav should match the Column 1`] = `
+Category {
+  "excludeFrom": undefined,
+  "fontFamily": "",
+  "fontWeight": "",
+  "icon": null,
+  "items": Array [
+    Link {
+      "excludeFrom": undefined,
+      "fontFamily": "",
+      "fontWeight": "",
+      "icon": null,
+      "linkColour": "",
+      "target": "",
+      "title": "",
+      "type": "",
+    },
+  ],
+  "linkColour": "",
+  "title": "",
+  "type": "",
+}
+`;
+
+exports[`Model: SecondaryNav should match the DefaultConfig 1`] = `
+DefaultConfig {
+  "country": "",
+  "version": "",
+}
+`;
+
+exports[`Model: SecondaryNav should match the Icon 1`] = `
+Icon {
+  "height": undefined,
+  "url": "",
+  "width": undefined,
+}
+`;
+
+exports[`Model: SecondaryNav should match the Item 1`] = `
+Link {
+  "excludeFrom": undefined,
+  "fontFamily": "",
+  "fontWeight": "",
+  "icon": null,
+  "linkColour": "",
+  "target": "",
+  "title": "",
+  "type": "",
+}
+`;
+
+exports[`Model: SecondaryNav should match the Mission 1`] = `
+Mission {
+  "categoryLink": CategoryLink {
+    "target": "",
+    "title": "",
+  },
+  "excludeFrom": undefined,
+  "items": Array [
+    MissionItem {
+      "excludeFrom": undefined,
+      "imageUrl": "",
+      "target": "",
+      "title": "",
+    },
+  ],
+  "noOfColumns": 0,
+  "title": "",
+}
+`;
+
+exports[`Model: SecondaryNav should match the MissionItem 1`] = `
+MissionItem {
+  "excludeFrom": undefined,
+  "imageUrl": "",
+  "target": "",
+  "title": "",
+}
+`;
+
+exports[`Model: SecondaryNav should match the SecondaryNav 1`] = `
+SecondaryNav {
+  "banner": Banner {
+    "imageUrl": "",
+    "target": "",
+  },
+  "id": "",
+  "items": Array [
+    Tab {
+      "excludeFrom": undefined,
+      "items": Array [
+        Column {
+          "excludeFrom": undefined,
+          "items": Array [
+            Category {
+              "excludeFrom": undefined,
+              "fontFamily": "",
+              "fontWeight": "",
+              "icon": null,
+              "items": Array [
+                Link {
+                  "excludeFrom": undefined,
+                  "fontFamily": "",
+                  "fontWeight": "",
+                  "icon": null,
+                  "linkColour": "",
+                  "target": "",
+                  "title": "",
+                  "type": "",
+                },
+              ],
+              "linkColour": "",
+              "title": "",
+              "type": "",
+            },
+          ],
+          "title": "",
+          "type": "",
+        },
+      ],
+      "missions": null,
+      "title": "",
+      "type": "",
+    },
+  ],
+  "language": "",
+  "realm": "",
+  "target": "",
+  "territory": "",
+  "title": "",
+  "viewType": "",
+}
+`;
+
+exports[`Model: SecondaryNav should match the SecondaryNavItem 1`] = `
+Tab {
+  "excludeFrom": undefined,
+  "items": Array [
+    Column {
+      "excludeFrom": undefined,
+      "items": Array [
+        Category {
+          "excludeFrom": undefined,
+          "fontFamily": "",
+          "fontWeight": "",
+          "icon": null,
+          "items": Array [
+            Link {
+              "excludeFrom": undefined,
+              "fontFamily": "",
+              "fontWeight": "",
+              "icon": null,
+              "linkColour": "",
+              "target": "",
+              "title": "",
+              "type": "",
+            },
+          ],
+          "linkColour": "",
+          "title": "",
+          "type": "",
+        },
+      ],
+      "title": "",
+      "type": "",
+    },
+  ],
+  "missions": null,
+  "title": "",
+  "type": "",
+}
+`;
+
+exports[`Model: SecondaryNav should match the SecondaryNavItems 1`] = `
+Column {
+  "excludeFrom": undefined,
+  "items": Array [
+    Category {
+      "excludeFrom": undefined,
+      "fontFamily": "",
+      "fontWeight": "",
+      "icon": null,
+      "items": Array [
+        Link {
+          "excludeFrom": undefined,
+          "fontFamily": "",
+          "fontWeight": "",
+          "icon": null,
+          "linkColour": "",
+          "target": "",
+          "title": "",
+          "type": "",
+        },
+      ],
+      "linkColour": "",
+      "title": "",
+      "type": "",
+    },
+  ],
+  "title": "",
+  "type": "",
+}
+`;

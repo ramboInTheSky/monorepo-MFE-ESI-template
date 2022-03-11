@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  padding: 0;
+}
+
+<div
+    class="MuiContainer-root c0 MuiContainer-maxWidthXl"
+    id="plp"
+  >
+    <div>
+      Test
+    </div>
+  </div>
+  ,
+</DocumentFragment>
+`;

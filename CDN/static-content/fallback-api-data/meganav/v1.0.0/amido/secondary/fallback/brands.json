@@ -1,0 +1,583 @@
+{
+  "id": "898e74ef-ddd9-4ef4-ac5f-0a17e2a0b127",
+  "title": "BRANDS",
+  "target": "/branded",
+  "viewType": "secondary-navigation",
+  "realm": "next",
+  "territory": "MX",
+  "language": "en",
+  "items": [
+    {
+      "title": "BRANDS",
+      "type": "tab",
+      "items": [
+        {
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "excludeFrom": ["WideView"],
+              "title": "",
+              "type": "category",
+              "items": [
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "A-Z Brands",
+                  "type": "link",
+                  "target": "/brands/all",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "bolder",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "title": "What's New",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Womens New In",
+                  "type": "link",
+                  "target": "/shop/gender-women-editorial-label/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Mens New In",
+                  "type": "link",
+                  "target": "/shop/gender-men-editorial-label/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Girls New In",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-oldergirls-gender-youngergirls-editorial-label/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Boys New In",
+                  "type": "link",
+                  "target": "/shop/gender-newbornboys-gender-olderboys-gender-youngerboys-editorial-label/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Baby New in",
+                  "type": "link",
+                  "target": "/shop/gender-newbornboys-gender-newborngirls-gender-newbornunisex-editorial-label/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Home New In",
+                  "type": "link",
+                  "target": "/shop/department-homeware-editorial-label/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        },
+        {
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "title": "All Brands",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Womens",
+                  "type": "link",
+                  "target": "/shop/gender-women-editorial-label",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Mens",
+                  "type": "link",
+                  "target": "/shop/gender-men-editorial-label",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Girls",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-oldergirls-gender-youngergirls-editorial-label",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Boys",
+                  "type": "link",
+                  "target": "/shop/gender-newbornboys-gender-olderboys-gender-youngerboys-editorial-label",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Baby",
+                  "type": "link",
+                  "target": "/shop/gender-newbornboys-gender-newborngirls-gender-newbornunisex-editorial-label-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Home",
+                  "type": "link",
+                  "target": "/shop/department-homeware-editorial-label",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "A-Z Brands",
+                  "type": "link",
+                  "target": "/brands/all",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        },
+        {
+          "excludeFrom": ["WideView"],
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Popular Brands",
+              "type": "category",
+              "items": [
+                {
+                  "title": "A-Z Brands",
+                  "type": "link",
+                  "target": "/brands/all",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Ted Baker",
+                  "type": "link",
+                  "target": "/shop/brand-tedbaker-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "adidas",
+                  "type": "link",
+                  "target": "/shop/brand-adidas-brand-adidasgolf-brand-adidasoriginals",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Boden",
+                  "type": "link",
+                  "target": "/shop/brand-boden-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "River Island",
+                  "type": "link",
+                  "target": "/shop/brand-riverisland-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Fat Face",
+                  "type": "link",
+                  "target": "/shop/brand-fatface-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Tommy Hilfiger",
+                  "type": "link",
+                  "target": "/shop/brand-tommyhilfiger-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "White Stuff",
+                  "type": "link",
+                  "target": "/shop/brand-whitestuff-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Armani",
+                  "type": "link",
+                  "target": "/shop/brand-armaniexchange-brand-ea7-brand-emporioarmani-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Popular Kids Brands",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Baker by Ted Baker",
+                  "type": "link",
+                  "target": "/shop/brand-bakerbytedbaker-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "adidas",
+                  "type": "link",
+                  "target": "/shop/department-childrenswear-brand-adidas-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Boden",
+                  "type": "link",
+                  "target": "/shop/department-childrenswear-brand-boden-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "River Island",
+                  "type": "link",
+                  "target": "/shop/department-childrenswear-brand-riverisland-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Fat Face",
+                  "type": "link",
+                  "target": "/shop/department-childrenswear-brand-fatface-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Frugi",
+                  "type": "link",
+                  "target": "/shop/department-childrenswear-brand-frugi-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Angel & Rocket",
+                  "type": "link",
+                  "target": "/shop/brand-angelrocket-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Converse",
+                  "type": "link",
+                  "target": "/shop/department-childrenswear-brand-converse-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        },
+        {
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "title": "Sport Brands",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Adidas",
+                  "type": "link",
+                  "target": "/shop/brand-adidas-brand-adidasgolf-brand-adidasoriginals-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Converse",
+                  "type": "link",
+                  "target": "/shop/brand-converse-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Ellesse",
+                  "type": "link",
+                  "target": "/shop/brand-ellesse-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Lacoste",
+                  "type": "link",
+                  "target": "/shop/productaffiliation-sportswear/brand-lacoste",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Next NX Sport",
+                  "type": "link",
+                  "target": "/shop/productaffiliation-sportswear/brand-amido",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Pineapple",
+                  "type": "link",
+                  "target": "/shop/brand-pineapple-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Reebok",
+                  "type": "link",
+                  "target": "/shop/brand-reebok-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Regatta",
+                  "type": "link",
+                  "target": "/shop/brand-regatta-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        },
+        {
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "excludeFrom": ["NarrowView"],
+              "title": "Trending",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Luxe Loungewear",
+                  "type": "link",
+                  "target": "/shop/promotion-luxeloungewear",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Colour Injection",
+                  "type": "link",
+                  "target": "/shop/promotion-kidscolourinjection",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Kids' Athleisure",
+                  "type": "link",
+                  "target": "/shop/promotion-kidsathleisure",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Trending",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Day Dress",
+                  "type": "link",
+                  "target": "/shop/promotion-womensalldaydress-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Mens Pastels",
+                  "type": "link",
+                  "target": "/shop/promotion-menspastels-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Kids pastels",
+                  "type": "link",
+                  "target": "/shop/department-childrenswear-promotion-pastels-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Garden Museum x Love & Roses",
+                  "type": "link",
+                  "target": "/shop/promotion-gardenmuseum-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Resort shirts",
+                  "type": "link",
+                  "target": "/shop/promotion-mensresortshirts-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        }
+      ],
+      "missions": {
+        "noOfColumns": 3,
+        "title": "Inspire Me / Lookbook",
+        "items": [
+          {
+            "title": "Adidas",
+            "imageUrl": "/nxtcms/resource/blob/4187532/96e80e286285f37c15c78d770031e3c1/adidas-g57-ol-it209879-sm-051-data.jpg",
+            "target": "/shop/brand-adidas-0"
+          },
+          {
+            "title": "River Island",
+            "imageUrl": "/nxtcms/resource/blob/4187530/e8820455210a7d3b084bb122c945f1a9/ri-m19704s-data.jpg",
+            "target": "/shop/brand-riverisland-0"
+          },
+          {
+            "title": "Lipsy",
+            "imageUrl": "/nxtcms/resource/blob/4188974/8bf9ae046d48dc42c82abeec2318b7bc/lipsy-data.jpg",
+            "target": "/shop/brand-lipsy-0"
+          }
+        ],
+        "categoryLink": {
+          "title": "THE SHOP BRANDS",
+          "target": "/branded"
+        }
+      }
+    }
+  ],
+  "banner": null
+}

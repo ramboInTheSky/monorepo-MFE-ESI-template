@@ -1,0 +1,2990 @@
+[
+  {
+    "Name": "al",
+    "Country": "Albania",
+    "CountryCode": "AL",
+    "DisplayText": "Albania ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "dz",
+    "Country": "Algeria",
+    "CountryCode": "DZ",
+    "DisplayText": "Algeria ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "ao",
+    "Country": "Angola",
+    "CountryCode": "AO",
+    "DisplayText": "Angola ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "ar",
+    "Country": "Argentina",
+    "CountryCode": "AR",
+    "DisplayText": "Argentina ($)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/ar/en",
+        "AccountDomainUrl": "account.amidodirect.com/ar/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Americas",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "am",
+    "Country": "Armenia",
+    "CountryCode": "AM",
+    "DisplayText": "Armenia ($)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/am/en",
+        "AccountDomainUrl": "account.amidodirect.com/am/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "au",
+    "Country": "Australia",
+    "CountryCode": "AU",
+    "DisplayText": "Australia ($)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.com.au/en",
+        "AccountDomainUrl": "account.amido.com.au/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "at",
+    "Country": "Austria",
+    "CountryCode": "AT",
+    "DisplayText": "Austria (€)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "de",
+    "Languages": [
+      {
+        "Name": "de",
+        "Value": "Deutsch ",
+        "TargetUrl": "http://www.amido.at/de",
+        "AccountDomainUrl": "account.amido.at/de"
+      },
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.at/en",
+        "AccountDomainUrl": "account.amido.at/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "az",
+    "Country": "Azerbaijan",
+    "CountryCode": "AZ",
+    "DisplayText": "Azerbaijan ($)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.com.az/en",
+        "AccountDomainUrl": "account.amido.com.az/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "bh",
+    "Country": "Bahrain",
+    "CountryCode": "BH",
+    "DisplayText": "Bahrain (BD)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/bh/en",
+        "AccountDomainUrl": "account.amidodirect.com/bh/en"
+      },
+      {
+        "Name": "ar",
+        "Value": "العربية ",
+        "TargetUrl": "http://www.amidodirect.com/bh/ar",
+        "AccountDomainUrl": "account.amidodirect.com/bh/ar"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "bd",
+    "Country": "Bangladesh",
+    "CountryCode": "BD",
+    "DisplayText": "Bangladesh ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "by",
+    "Country": "Belarus",
+    "CountryCode": "BY",
+    "DisplayText": "Belarus ($)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.com.by/en",
+        "AccountDomainUrl": "account.amido.com.by/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "be",
+    "Country": "Belgium",
+    "CountryCode": "BE",
+    "DisplayText": "Belgium (€)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "fr",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/be/en",
+        "AccountDomainUrl": "account.amidodirect.com/be/en"
+      },
+      {
+        "Name": "fr",
+        "Value": "Français",
+        "TargetUrl": "http://www.amidodirect.com/be/fr",
+        "AccountDomainUrl": "account.amidodirect.com/be/fr"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "ba",
+    "Country": "Bosnia and Herzegovina",
+    "CountryCode": "BA",
+    "DisplayText": "Bosnia and Herzegovina ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "bw",
+    "Country": "Botswana",
+    "CountryCode": "BW",
+    "DisplayText": "Botswana ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "br",
+    "Country": "Brazil",
+    "CountryCode": "BR",
+    "DisplayText": "Brazil ($)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.com.br/en",
+        "AccountDomainUrl": "account.amido.com.br/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Americas",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "bg",
+    "Country": "Bulgaria",
+    "CountryCode": "BG",
+    "DisplayText": "Bulgaria (BGN)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/bg/en",
+        "AccountDomainUrl": "account.amidodirect.com/bg/en"
+      },
+      {
+        "Name": "bg",
+        "Value": "български",
+        "TargetUrl": "http://www.amidodirect.com/bg/bg",
+        "AccountDomainUrl": "account.amidodirect.com/bg/bg"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "bf",
+    "Country": "Burkina Faso",
+    "CountryCode": "BF",
+    "DisplayText": "Burkina Faso ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "kh",
+    "Country": "Cambodia",
+    "CountryCode": "KH",
+    "DisplayText": "Cambodia ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "cm",
+    "Country": "Cameroon",
+    "CountryCode": "CM",
+    "DisplayText": "Cameroon ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "ca",
+    "Country": "Canada",
+    "CountryCode": "CA",
+    "DisplayText": "Canada (CA$)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/ca/en",
+        "AccountDomainUrl": "account.amidodirect.com/ca/en"
+      },
+      {
+        "Name": "fr",
+        "Value": "Français ",
+        "TargetUrl": "http://www.amidodirect.com/ca/fr",
+        "AccountDomainUrl": "account.amidodirect.com/ca/fr"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Americas",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "cf",
+    "Country": "Central African Republic",
+    "CountryCode": "CF",
+    "DisplayText": "Central African Republic ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "td",
+    "Country": "Chad",
+    "CountryCode": "TD",
+    "DisplayText": "Chad ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "cl",
+    "Country": "Chile",
+    "CountryCode": "CL",
+    "DisplayText": "Chile ($)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/cl/en",
+        "AccountDomainUrl": "account.amidodirect.com/cl/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Americas",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "cn",
+    "Country": "China",
+    "CountryCode": "CN",
+    "DisplayText": "China ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "cr",
+    "Country": "Costa Rica",
+    "CountryCode": "CR",
+    "DisplayText": "Costa Rica ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Americas",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "hr",
+    "Country": "Croatia",
+    "CountryCode": "HR",
+    "DisplayText": "Croatia (HRK)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/hr/en",
+        "AccountDomainUrl": "account.amidodirect.com/hr/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "cy",
+    "Country": "Cyprus",
+    "CountryCode": "CY",
+    "DisplayText": "Cyprus (€)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/cy/en",
+        "AccountDomainUrl": "account.amidodirect.com/cy/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "cz",
+    "Country": "Czech Republic",
+    "CountryCode": "CZ",
+    "DisplayText": "Czech Republic (Kč)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "cs",
+    "Languages": [
+      {
+        "Name": "cs",
+        "Value": "Čeština",
+        "TargetUrl": "http://www.amidodirect.com/cz/cs",
+        "AccountDomainUrl": "account.amidodirect.com/cz/cs"
+      },
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/cz/en",
+        "AccountDomainUrl": "account.amidodirect.com/cz/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "dk",
+    "Country": "Denmark",
+    "CountryCode": "DK",
+    "DisplayText": "Denmark (DKK)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/dk/en",
+        "AccountDomainUrl": "account.amidodirect.com/dk/en"
+      },
+      {
+        "Name": "da",
+        "Value": "Dansk",
+        "TargetUrl": "http://www.amidodirect.com/dk/da",
+        "AccountDomainUrl": "account.amidodirect.com/dk/da"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "do",
+    "Country": "Dominican Republic",
+    "CountryCode": "DO",
+    "DisplayText": "Dominican Republic ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Americas",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "tl",
+    "Country": "East Timor",
+    "CountryCode": "TL",
+    "DisplayText": "East Timor ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "eg",
+    "Country": "Egypt",
+    "CountryCode": "EG",
+    "DisplayText": "Egypt (EGP)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/eg/en",
+        "AccountDomainUrl": "account.amidodirect.com/eg/en"
+      },
+      {
+        "Name": "ar",
+        "Value": "العربية ",
+        "TargetUrl": "http://www.amidodirect.com/eg/ar",
+        "AccountDomainUrl": "account.amidodirect.com/eg/ar"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "sv",
+    "Country": "El Salvador",
+    "CountryCode": "SV",
+    "DisplayText": "El Salvador ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Americas",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "gq",
+    "Country": "Equatorial Guinea",
+    "CountryCode": "GQ",
+    "DisplayText": "Equatorial Guinea ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "ee",
+    "Country": "Estonia",
+    "CountryCode": "EE",
+    "DisplayText": "Estonia (€)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.com.ee/en",
+        "AccountDomainUrl": "account.amido.com.ee/en"
+      },
+      {
+        "Name": "ru",
+        "Value": "Русский ",
+        "TargetUrl": "http://www.amido.com.ee/ru",
+        "AccountDomainUrl": "account.amido.com.ee/ru"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "et",
+    "Country": "Ethiopia",
+    "CountryCode": "ET",
+    "DisplayText": "Ethiopia ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "fi",
+    "Country": "Finland",
+    "CountryCode": "FI",
+    "DisplayText": "Finland (€)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.fi/en",
+        "AccountDomainUrl": "account.amido.fi/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "fr",
+    "Country": "France (Monaco)",
+    "CountryCode": "FR",
+    "DisplayText": "France (Monaco) (€)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "fr",
+    "Languages": [
+      {
+        "Name": "fr",
+        "Value": "Français",
+        "TargetUrl": "http://www.amidodirect.com/fr/fr",
+        "AccountDomainUrl": "account.amidodirect.com/fr/fr"
+      },
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/fr/en",
+        "AccountDomainUrl": "account.amidodirect.com/fr/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "ga",
+    "Country": "Gabon",
+    "CountryCode": "GA",
+    "DisplayText": "Gabon ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "gm",
+    "Country": "Gambia",
+    "CountryCode": "GM",
+    "DisplayText": "Gambia ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "ge",
+    "Country": "Georgia",
+    "CountryCode": "GE",
+    "DisplayText": "Georgia ($)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/ge/en",
+        "AccountDomainUrl": "account.amidodirect.com/ge/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "de",
+    "Country": "Germany",
+    "CountryCode": "DE",
+    "DisplayText": "Germany (€)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "de",
+    "Languages": [
+      {
+        "Name": "de",
+        "Value": "Deutsch ",
+        "TargetUrl": "http://www.amido.de/de",
+        "AccountDomainUrl": "account.amido.de/de"
+      },
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.de/en",
+        "AccountDomainUrl": "account.amido.de/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 5,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "gh",
+    "Country": "Ghana",
+    "CountryCode": "GH",
+    "DisplayText": "Ghana ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "gi",
+    "Country": "Gibraltar",
+    "CountryCode": "GI",
+    "DisplayText": "Gibraltar (€)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/gi/en",
+        "AccountDomainUrl": "account.amidodirect.com/gi/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "gr",
+    "Country": "Greece",
+    "CountryCode": "GR",
+    "DisplayText": "Greece (€)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/gr/en",
+        "AccountDomainUrl": "account.amidodirect.com/gr/en"
+      },
+      {
+        "Name": "el",
+        "Value": "Ελληνικά",
+        "TargetUrl": "http://www.amidodirect.com/gr/el",
+        "AccountDomainUrl": "account.amidodirect.com/gr/el"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "gn",
+    "Country": "Guinea",
+    "CountryCode": "GN",
+    "DisplayText": "Guinea ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "gw",
+    "Country": "Guinea-Bissau",
+    "CountryCode": "GW",
+    "DisplayText": "Guinea-Bissau ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "ht",
+    "Country": "Haiti",
+    "CountryCode": "HT",
+    "DisplayText": "Haiti ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Americas",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "hk",
+    "Country": "Hong Kong",
+    "CountryCode": "HK",
+    "DisplayText": "Hong Kong (HK$)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/hk/en",
+        "AccountDomainUrl": "account.amidodirect.com/hk/en"
+      },
+      {
+        "Name": "zh",
+        "Value": "中文 ",
+        "TargetUrl": "http://www.amidodirect.com/hk/zh",
+        "AccountDomainUrl": "account.amidodirect.com/hk/zh"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "hu",
+    "Country": "Hungary",
+    "CountryCode": "HU",
+    "DisplayText": "Hungary (€)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/hu/en",
+        "AccountDomainUrl": "account.amidodirect.com/hu/en"
+      },
+      {
+        "Name": "hu",
+        "Value": "Magyar",
+        "TargetUrl": "http://www.amidodirect.com/hu/hu",
+        "AccountDomainUrl": "account.amidodirect.com/hu/hu"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "is",
+    "Country": "Iceland",
+    "CountryCode": "IS",
+    "DisplayText": "Iceland (€)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/is/en",
+        "AccountDomainUrl": "account.amidodirect.com/is/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "in",
+    "Country": "India",
+    "CountryCode": "IN",
+    "DisplayText": "India (INR)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/in/en",
+        "AccountDomainUrl": "account.amidodirect.com/in/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "id",
+    "Country": "Indonesia",
+    "CountryCode": "ID",
+    "DisplayText": "Indonesia ($)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/id/en",
+        "AccountDomainUrl": "account.amidodirect.com/id/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "ie",
+    "Country": "Ireland",
+    "CountryCode": "IE",
+    "DisplayText": "Ireland (€)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.ie/en",
+        "AccountDomainUrl": "account.amido.ie/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 2,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "il",
+    "Country": "Israel",
+    "CountryCode": "IL",
+    "DisplayText": "Israel (₪)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "he",
+    "Languages": [
+      {
+        "Name": "he",
+        "Value": "עברית ",
+        "TargetUrl": "http://www.amido.co.il/he",
+        "AccountDomainUrl": "account.amido.com/he"
+      },
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.co.il/en",
+        "AccountDomainUrl": "account.amido.com/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 11,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "it",
+    "Country": "Italy",
+    "CountryCode": "IT",
+    "DisplayText": "Italy (€)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "it",
+    "Languages": [
+      {
+        "Name": "it",
+        "Value": "Italiano ",
+        "TargetUrl": "http://www.amidodirect.com/it/it",
+        "AccountDomainUrl": "account.amidodirect.com/it/it"
+      },
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/it/en",
+        "AccountDomainUrl": "account.amidodirect.com/it/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "jm",
+    "Country": "Jamaica",
+    "CountryCode": "JM",
+    "DisplayText": "Jamaica ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Americas",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "jp",
+    "Country": "Japan",
+    "CountryCode": "JP",
+    "DisplayText": "Japan (￥)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "ja",
+    "Languages": [
+      {
+        "Name": "ja",
+        "Value": "日本語 ",
+        "TargetUrl": "http://www.amidodirect.com/jp/ja",
+        "AccountDomainUrl": "account.amidodirect.com/jp/ja"
+      },
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/jp/en",
+        "AccountDomainUrl": "account.amidodirect.com/jp/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "jo",
+    "Country": "Jordan",
+    "CountryCode": "JO",
+    "DisplayText": "Jordan ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "kz",
+    "Country": "Kazakhstan",
+    "CountryCode": "KZ",
+    "DisplayText": "Kazakhstan (тг)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "ru",
+    "Languages": [
+      {
+        "Name": "ru",
+        "Value": "Русский ",
+        "TargetUrl": "http://www.amido.com.kz/ru",
+        "AccountDomainUrl": "account.amido.com.kz/ru"
+      },
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.com.kz/en",
+        "AccountDomainUrl": "account.amido.com.kz/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 10,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "ke",
+    "Country": "Kenya",
+    "CountryCode": "KE",
+    "DisplayText": "Kenya ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "kw",
+    "Country": "Kuwait",
+    "CountryCode": "KW",
+    "DisplayText": "Kuwait (KWD)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "ar",
+        "Value": "العربية ",
+        "TargetUrl": "http://www.amidodirect.com/kw/ar",
+        "AccountDomainUrl": "account.amidodirect.com/kw/ar"
+      },
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/kw/en",
+        "AccountDomainUrl": "account.amidodirect.com/kw/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "kg",
+    "Country": "Kyrgyzstan",
+    "CountryCode": "KG",
+    "DisplayText": "Kyrgyzstan ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "lv",
+    "Country": "Latvia",
+    "CountryCode": "LV",
+    "DisplayText": "Latvia (€)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "ru",
+        "Value": "Русский ",
+        "TargetUrl": "http://www.amido.com.lv/ru",
+        "AccountDomainUrl": "account.amido.com.lv/ru"
+      },
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.com.lv/en",
+        "AccountDomainUrl": "account.amido.com.lv/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "lb",
+    "Country": "Lebanon",
+    "CountryCode": "LB",
+    "DisplayText": "Lebanon ($)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "ar",
+        "Value": "العربية ",
+        "TargetUrl": "http://www.amidodirect.com/lb/ar",
+        "AccountDomainUrl": "account.amidodirect.com/lb/ar"
+      },
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/lb/en",
+        "AccountDomainUrl": "account.amidodirect.com/lb/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "ls",
+    "Country": "Lesotho",
+    "CountryCode": "LS",
+    "DisplayText": "Lesotho ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "lt",
+    "Country": "Lithuania",
+    "CountryCode": "LT",
+    "DisplayText": "Lithuania (€)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.lt/en",
+        "AccountDomainUrl": "account.amido.lt/en"
+      },
+      {
+        "Name": "ru",
+        "Value": "Русский ",
+        "TargetUrl": "http://www.amido.lt/ru",
+        "AccountDomainUrl": "account.amido.lt/ru"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "lu",
+    "Country": "Luxembourg",
+    "CountryCode": "LU",
+    "DisplayText": "Luxembourg (€)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "fr",
+    "Languages": [
+      {
+        "Name": "fr",
+        "Value": "Français",
+        "TargetUrl": "http://www.amido.lu/fr",
+        "AccountDomainUrl": "account.amido.lu/fr"
+      },
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.lu/en",
+        "AccountDomainUrl": "account.amido.lu/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "mo",
+    "Country": "Macao",
+    "CountryCode": "MO",
+    "DisplayText": "Macao ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "mk",
+    "Country": "Macedonia",
+    "CountryCode": "MK",
+    "DisplayText": "Macedonia ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "mg",
+    "Country": "Madagascar",
+    "CountryCode": "MG",
+    "DisplayText": "Madagascar ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "mw",
+    "Country": "Malawi",
+    "CountryCode": "MW",
+    "DisplayText": "Malawi ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "my",
+    "Country": "Malaysia",
+    "CountryCode": "MY",
+    "DisplayText": "Malaysia (MYR)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/my/en",
+        "AccountDomainUrl": "account.amidodirect.com/my/en"
+      },
+      {
+        "Name": "ms",
+        "Value": "Bahasa Melayu",
+        "TargetUrl": "http://www.amidodirect.com/my/ms",
+        "AccountDomainUrl": "account.amidodirect.com/my/ms"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "ml",
+    "Country": "Mali",
+    "CountryCode": "ML",
+    "DisplayText": "Mali ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "mt",
+    "Country": "Malta",
+    "CountryCode": "MT",
+    "DisplayText": "Malta (€)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.com.mt/en",
+        "AccountDomainUrl": "account.amido.com.mt/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "mr",
+    "Country": "Mauritania",
+    "CountryCode": "MR",
+    "DisplayText": "Mauritania ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "mu",
+    "Country": "Mauritius",
+    "CountryCode": "MU",
+    "DisplayText": "Mauritius ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "mx",
+    "Country": "Mexico",
+    "CountryCode": "MX",
+    "DisplayText": "Mexico ($)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.mx/en",
+        "AccountDomainUrl": "account.amido.mx/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Americas",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "md",
+    "Country": "Moldova",
+    "CountryCode": "MD",
+    "DisplayText": "Moldova ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "mn",
+    "Country": "Mongolia",
+    "CountryCode": "MN",
+    "DisplayText": "Mongolia ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "ma",
+    "Country": "Morocco",
+    "CountryCode": "MA",
+    "DisplayText": "Morocco ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "mz",
+    "Country": "Mozambique",
+    "CountryCode": "MZ",
+    "DisplayText": "Mozambique ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "na",
+    "Country": "Namibia",
+    "CountryCode": "NA",
+    "DisplayText": "Namibia ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "np",
+    "Country": "Nepal",
+    "CountryCode": "NP",
+    "DisplayText": "Nepal ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "nl",
+    "Country": "Netherlands",
+    "CountryCode": "NL",
+    "DisplayText": "Netherlands (€)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "nl",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/nl/en",
+        "AccountDomainUrl": "account.amidodirect.com/nl/en"
+      },
+      {
+        "Name": "nl",
+        "Value": "Nederlands ",
+        "TargetUrl": "http://www.amidodirect.com/nl/nl",
+        "AccountDomainUrl": "account.amidodirect.com/nl/nl"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "nz",
+    "Country": "New Zealand",
+    "CountryCode": "NZ",
+    "DisplayText": "New Zealand ($)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/nz/en",
+        "AccountDomainUrl": "account.amidodirect.com/nz/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "ni",
+    "Country": "Nicaragua",
+    "CountryCode": "NI",
+    "DisplayText": "Nicaragua ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Americas",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "ne",
+    "Country": "Niger",
+    "CountryCode": "NE",
+    "DisplayText": "Niger ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "ng",
+    "Country": "Nigeria",
+    "CountryCode": "NG",
+    "DisplayText": "Nigeria ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "no",
+    "Country": "Norway",
+    "CountryCode": "NO",
+    "DisplayText": "Norway (kr)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.no/en",
+        "AccountDomainUrl": "account.amido.no/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "om",
+    "Country": "Oman",
+    "CountryCode": "OM",
+    "DisplayText": "Oman (OMR)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "ar",
+        "Value": "العربية ",
+        "TargetUrl": "http://www.amido.om/ar",
+        "AccountDomainUrl": "account.amido.om/ar"
+      },
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.om/en",
+        "AccountDomainUrl": "account.amido.om/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "pk",
+    "Country": "Pakistan",
+    "CountryCode": "PK",
+    "DisplayText": "Pakistan ($)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/pk/en",
+        "AccountDomainUrl": "account.amidodirect.com/pk/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "pa",
+    "Country": "Panama",
+    "CountryCode": "PA",
+    "DisplayText": "Panama ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Americas",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "pg",
+    "Country": "Papau New Guinea",
+    "CountryCode": "PG",
+    "DisplayText": "Papau New Guinea ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "pe",
+    "Country": "Peru",
+    "CountryCode": "PE",
+    "DisplayText": "Peru ($)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/pe/en",
+        "AccountDomainUrl": "account.amidodirect.com/pe/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Americas",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "ph",
+    "Country": "Philippines",
+    "CountryCode": "PH",
+    "DisplayText": "Philippines ($)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/ph/en",
+        "AccountDomainUrl": "account.amidodirect.com/ph/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "pl",
+    "Country": "Poland",
+    "CountryCode": "PL",
+    "DisplayText": "Poland (zł)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "pl",
+    "Languages": [
+      {
+        "Name": "pl",
+        "Value": "Polski ",
+        "TargetUrl": "http://www.amido.pl/pl",
+        "AccountDomainUrl": "account.amido.pl/pl"
+      },
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.pl/en",
+        "AccountDomainUrl": "account.amido.pl/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 6,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "pt",
+    "Country": "Portugal",
+    "CountryCode": "PT",
+    "DisplayText": "Portugal (€)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/pt/en",
+        "AccountDomainUrl": "account.amidodirect.com/pt/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "pr",
+    "Country": "Puerto Rico",
+    "CountryCode": "PR",
+    "DisplayText": "Puerto Rico ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Americas",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "qa",
+    "Country": "Qatar",
+    "CountryCode": "QA",
+    "DisplayText": "Qatar (QAR)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.qa/en",
+        "AccountDomainUrl": "account.amido.qa/en"
+      },
+      {
+        "Name": "ar",
+        "Value": "العربية ",
+        "TargetUrl": "http://www.amido.qa/ar",
+        "AccountDomainUrl": "account.amido.qa/ar"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "ro",
+    "Country": "Romania",
+    "CountryCode": "RO",
+    "DisplayText": "Romania (LEI)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "ro",
+    "Languages": [
+      {
+        "Name": "ro",
+        "Value": "Română ",
+        "TargetUrl": "http://www.amido.ro/ro",
+        "AccountDomainUrl": "account.amido.ro/ro"
+      },
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.ro/en",
+        "AccountDomainUrl": "account.amido.ro/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "ru",
+    "Country": "Russia",
+    "CountryCode": "RU",
+    "DisplayText": "Russia (руб)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "ru",
+    "Languages": [
+      {
+        "Name": "ru",
+        "Value": "Русский ",
+        "TargetUrl": "http://www.amido.com.ru/ru",
+        "AccountDomainUrl": "account.amido.com.ru/ru"
+      },
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.com.ru/en",
+        "AccountDomainUrl": "account.amido.com.ru/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 7,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "rw",
+    "Country": "Rwanda",
+    "CountryCode": "RW",
+    "DisplayText": "Rwanda ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "sa",
+    "Country": "Saudi Arabia",
+    "CountryCode": "SA",
+    "DisplayText": "Saudi Arabia (ر.س)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "ar",
+    "Languages": [
+      {
+        "Name": "ar",
+        "Value": "العربية ",
+        "TargetUrl": "http://www.amido.sa/ar",
+        "AccountDomainUrl": "account.amido.sa/ar"
+      },
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.sa/en",
+        "AccountDomainUrl": "account.amido.sa/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "sn",
+    "Country": "Senegal",
+    "CountryCode": "SN",
+    "DisplayText": "Senegal ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "rs",
+    "Country": "Serbia",
+    "CountryCode": "RS",
+    "DisplayText": "Serbia (RSD)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/rs/en",
+        "AccountDomainUrl": "account.amidodirect.com/rs/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "sl",
+    "Country": "Sierra Leone",
+    "CountryCode": "SL",
+    "DisplayText": "Sierra Leone ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "sg",
+    "Country": "Singapore",
+    "CountryCode": "SG",
+    "DisplayText": "Singapore (SGD)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.sg/en",
+        "AccountDomainUrl": "account.amido.sg/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "sk",
+    "Country": "Slovakia",
+    "CountryCode": "SK",
+    "DisplayText": "Slovakia (€)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "sk",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/sk/en",
+        "AccountDomainUrl": "account.amidodirect.com/sk/en"
+      },
+      {
+        "Name": "sk",
+        "Value": "Slovenčina ",
+        "TargetUrl": "http://www.amidodirect.com/sk/sk",
+        "AccountDomainUrl": "account.amidodirect.com/sk/sk"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "si",
+    "Country": "Slovenia",
+    "CountryCode": "SI",
+    "DisplayText": "Slovenia (€)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "sl",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.si/en",
+        "AccountDomainUrl": "account.amido.si/en"
+      },
+      {
+        "Name": "sl",
+        "Value": "Slovenščina ",
+        "TargetUrl": "http://www.amido.si/sl",
+        "AccountDomainUrl": "account.amido.si/sl"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "za",
+    "Country": "South Africa",
+    "CountryCode": "ZA",
+    "DisplayText": "South Africa (R)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/za/en",
+        "AccountDomainUrl": "account.amidodirect.com/za/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "kr",
+    "Country": "South Korea",
+    "CountryCode": "KR",
+    "DisplayText": "South Korea ($)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/kr/en",
+        "AccountDomainUrl": "account.amidodirect.com/kr/en"
+      },
+      {
+        "Name": "ko",
+        "Value": "한국어",
+        "TargetUrl": "http://www.amidodirect.com/kr/ko",
+        "AccountDomainUrl": "account.amidodirect.com/kr/ko"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "es",
+    "Country": "Spain",
+    "CountryCode": "ES",
+    "DisplayText": "Spain (€)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "es",
+    "Languages": [
+      {
+        "Name": "es",
+        "Value": "Español",
+        "TargetUrl": "http://www.amido.es/es",
+        "AccountDomainUrl": "account.amido.es/es"
+      },
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.es/en",
+        "AccountDomainUrl": "account.amido.es/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "lk",
+    "Country": "Sri Lanka",
+    "CountryCode": "LK",
+    "DisplayText": "Sri Lanka ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "sz",
+    "Country": "Swaziland",
+    "CountryCode": "SZ",
+    "DisplayText": "Swaziland ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "se",
+    "Country": "Sweden",
+    "CountryCode": "SE",
+    "DisplayText": "Sweden (kr)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.se/en",
+        "AccountDomainUrl": "account.amido.se/en"
+      },
+      {
+        "Name": "sv",
+        "Value": "Svenska",
+        "TargetUrl": "http://www.amido.se/sv",
+        "AccountDomainUrl": "account.amido.se/sv"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "ch",
+    "Country": "Switzerland",
+    "CountryCode": "CH",
+    "DisplayText": "Switzerland (CHF)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "de",
+        "Value": "Deutsch ",
+        "TargetUrl": "http://www.amidodirect.com/ch/de",
+        "AccountDomainUrl": "account.amidodirect.com/ch/de"
+      },
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/ch/en",
+        "AccountDomainUrl": "account.amidodirect.com/ch/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "tw",
+    "Country": "Taiwan",
+    "CountryCode": "TW",
+    "DisplayText": "Taiwan (NT$)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "zh",
+    "Languages": [
+      {
+        "Name": "zh",
+        "Value": "中文 ",
+        "TargetUrl": "http://www.amido.tw/zh",
+        "AccountDomainUrl": "account.amido.tw/zh"
+      },
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.tw/en",
+        "AccountDomainUrl": "account.amido.tw/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "tj",
+    "Country": "Tajikistan",
+    "CountryCode": "TJ",
+    "DisplayText": "Tajikistan ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "th",
+    "Country": "Thailand",
+    "CountryCode": "TH",
+    "DisplayText": "Thailand ($)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/th/en",
+        "AccountDomainUrl": "account.amidodirect.com/th/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "tg",
+    "Country": "Togo",
+    "CountryCode": "TG",
+    "DisplayText": "Togo ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "tt",
+    "Country": "Trinidad and Tobago",
+    "CountryCode": "TT",
+    "DisplayText": "Trinidad and Tobago ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Americas",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "tr",
+    "Country": "Turkey",
+    "CountryCode": "TR",
+    "DisplayText": "Turkey (TRY)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amidodirect.com/tr/en",
+        "AccountDomainUrl": "account.amidodirect.com/tr/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "ug",
+    "Country": "Uganda",
+    "CountryCode": "UG",
+    "DisplayText": "Uganda ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "ua",
+    "Country": "Ukraine",
+    "CountryCode": "UA",
+    "DisplayText": "Ukraine (грн)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "ru",
+    "Languages": [
+      {
+        "Name": "ru",
+        "Value": "Русский ",
+        "TargetUrl": "http://www.amido.ua/ru",
+        "AccountDomainUrl": "account.amido.ua/ru"
+      },
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.ua/en",
+        "AccountDomainUrl": "account.amido.ua/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 9,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "ae",
+    "Country": "United Arab Emirates",
+    "CountryCode": "AE",
+    "DisplayText": "United Arab Emirates (AED)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.ae/en",
+        "AccountDomainUrl": "account.amido.ae/en"
+      },
+      {
+        "Name": "ar",
+        "Value": "العربية ",
+        "TargetUrl": "http://www.amido.ae/ar",
+        "AccountDomainUrl": "account.amido.ae/ar"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "gb",
+    "Country": "United Kingdom",
+    "CountryCode": "GB",
+    "DisplayText": "United Kingdom (£)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "//www.amido.com",
+        "AccountDomainUrl": "www.amido.com/"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 1,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "us",
+    "Country": "USA",
+    "CountryCode": "US",
+    "DisplayText": "USA ($)",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "en",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.us/en",
+        "AccountDomainUrl": "account.amido.us/en"
+      }
+    ],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 3,
+    "Region": "Americas",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  },
+  {
+    "Name": "ve",
+    "Country": "Venezuela",
+    "CountryCode": "VE",
+    "DisplayText": "Venezuela ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Americas",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "vn",
+    "Country": "Vietnam",
+    "CountryCode": "VN",
+    "DisplayText": "Vietnam ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Asia Pacific",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "zm",
+    "Country": "Zambia",
+    "CountryCode": "ZM",
+    "DisplayText": "Zambia ",
+    "NativeCountryText": "",
+    "RedirectUrl": "",
+    "DefaultLanguageName": "",
+    "Languages": [],
+    "DisplaySequenceAttribute": "",
+    "PromotedFlagIndex": 0,
+    "Region": "Middle East / Africa",
+    "DomainType": "",
+    "HideInDropdown": true,
+    "HideInPage": true,
+    "IsROW": true
+  },
+  {
+    "Name": "",
+    "Country": "British Forces Post Office",
+    "CountryCode": "",
+    "DisplayText": "British Forces Post Office ",
+    "NativeCountryText": "",
+    "RedirectUrl": "http://www.amido.com/bfpo",
+    "DefaultLanguageName": "",
+    "Languages": [
+      {
+        "Name": "en",
+        "Value": "English",
+        "TargetUrl": "http://www.amido.com/bfpo",
+        "AccountDomainUrl": ""
+      }
+    ],
+    "DisplaySequenceAttribute": "AAAAAAZ",
+    "PromotedFlagIndex": 0,
+    "Region": "Europe",
+    "DomainType": "",
+    "HideInDropdown": false,
+    "HideInPage": false,
+    "IsROW": false
+  }
+]

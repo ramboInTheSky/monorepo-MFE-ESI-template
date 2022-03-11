@@ -1,0 +1,54 @@
+replicaCount: 'REPLACE_ME' # this must be 3 or more
+replicaCount_max: '20' # for hpa
+Environment: Development
+image:
+  useImagePullSecrets: true
+  pullPolicy: Always
+  imagePullSecret: 'productsummary-imagesecret'
+
+service:
+  type: ClusterIP
+  port: 80
+  internalPort: 3001
+  externalPort: 80
+  containerServicePort: 3333
+  containerServiceName: productsummary-ui-container-service
+
+ingress:
+  enabled: true
+  annotations: {kubernetes.io/ingress.class: 'nginx', nginx.ingress.kubernetes.io/use-regex: 'true'}
+  path: '/product-summary(/|$)(.*)'
+  pathStatic: '/productsummarystatic(/|$)(.*)'
+  pathContainerPage: '/productsummarycontainer(/|$)(.*)'
+  host:
+domain: 'test.local'
+enabled: true
+
+resources:
+  requests:
+    cpu: 250m
+    memory: 300Mi
+  limits:
+    cpu: 1000m
+    memory: 600Mi
+average_cpu_utilisation: '200' # for hpa
+average_memory_utilisation: '150' # for hpa
+nodeSelector: {}
+tolerations: []
+affinity: {}
+podSecurityContext: {}
+securityContext: {}
+
+application:
+  appInsightsKey: 'REPLACE_ME'
+  apiBaseUrl: 'REPLACE_ME'
+  cdnBaseUrl: 'REPLACE_ME'
+  app_serve_path_prefix: 'REPLACE_ME'
+  assets_path: 'REPLACE_ME'
+  appUrl: 'REPLACE_ME'
+  generate_sourcemap: 'REPLACE_ME'
+  log_level: 'REPLACE_ME'
+  useTimeMachineCookie: 'REPLACE_ME'
+  environmentName: 'REPLACE_ME'
+  blobStorageSSRBaseURL: 'REPLACE_ME'
+  blob_storage_override: 'REPLACE_ME'

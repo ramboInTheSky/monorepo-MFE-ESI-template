@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - QuickLink:  should match the snapshot template 1`] = `
+<DocumentFragment>
+  <a
+    aria-label="My Account"
+    class="MuiTypography-root MuiLink-root MuiLink-underlineHover components__Link-ytnyaj-0 imVFdS MuiTypography-colorPrimary"
+    data-testid="footer-quick-links-myaccountloggedin-<username>"
+    href="https://www.amido.com/secure/accounts/transfer"
+    target="_self"
+  >
+    <img
+      alt="My Account"
+      aria-hidden="true"
+      class="components__QuickLinkImg-ytnyaj-4 gUQesl"
+      src="/static-content/icons/footer/amido/default/myaccount.svg"
+    />
+    <span
+      class="components__QuickLinkContent-ytnyaj-1 bInyjx"
+    >
+      <h5
+        class="MuiTypography-root components__QuickLinkTitle-ytnyaj-2 BdIes MuiTypography-h5"
+        data-testid="footer-quick-links-title-<username>"
+      >
+        &lt;username&gt;
+      </h5>
+      <h4
+        class="MuiTypography-root components__QuickLinkDescription-ytnyaj-3 kNmWGw MuiTypography-subtitle1"
+        data-testid="footer-quick-links-description-sign-in-to-your-account"
+      >
+        Sign-in to your account
+      </h4>
+    </span>
+  </a>
+</DocumentFragment>
+`;

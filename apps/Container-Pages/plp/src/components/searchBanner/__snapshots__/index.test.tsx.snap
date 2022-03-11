@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given SearchBanner - Feature Switch OFF should not render search banner even if there is html 1`] = `<DocumentFragment />`;
+
+exports[`Given SearchBanner - Index renders correctly with html if IS_BROWSER 1`] = `
+<DocumentFragment>
+  <div
+    id="plp-search-banner-entrypoint"
+  >
+    <div>
+      Test
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given SearchBanner - Index renders correctly with html if there are no search-banners 1`] = `
+<DocumentFragment>
+  <div
+    id="plp-search-banner-entrypoint"
+  >
+    <div>
+      Test
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given SearchBanner - Index renders correctly without html 1`] = `
+<DocumentFragment>
+  <div
+    id="plp-search-banner-entrypoint"
+  >
+    <div>
+      Test
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given SearchBanner - Index renders correctly without html if IS_BROWSER 1`] = `
+<DocumentFragment>
+  <div
+    id="plp-search-banner-entrypoint"
+  />
+</DocumentFragment>
+`;
+
+exports[`Given SearchBanner - Index should not render search banner if browser and html is null 1`] = `
+<DocumentFragment>
+  <div
+    id="plp-search-banner-entrypoint"
+  />
+</DocumentFragment>
+`;
+
+exports[`Given SearchBanner - Index should not render search banner if includedComponents is wrong 1`] = `
+<DocumentFragment>
+  <div
+    id="plp-search-banner-entrypoint"
+  />
+</DocumentFragment>
+`;

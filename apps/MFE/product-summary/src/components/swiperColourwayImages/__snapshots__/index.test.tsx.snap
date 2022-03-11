@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a SwiperColourwayImages component When component is rendered on the client and When only one slide exists should render the component correctly to match the snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    ColourwaySingleSlide
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given a SwiperColourwayImages component When component is rendered on the client should render the component correctly to match the snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    SwiperCarousel
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given a SwiperColourwayImages component When component is rendered on the client when displayNewIn is true, it should match the snapshot  1`] = `
+<DocumentFragment>
+  <div>
+    SwiperCarousel
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given a SwiperColourwayImages component When component is rendered on the client when isOnSale is true, it should match the snapshot  1`] = `
+<DocumentFragment>
+  <div>
+    SwiperCarousel
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given a SwiperColourwayImages component When component is rendered on the client when it has fits, it should match the snapshot  1`] = `
+<DocumentFragment>
+  <div>
+    SwiperCarousel
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given a SwiperColourwayImages component When it is server side rendered should match snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    ColourwaySingleSlide
+  </div>
+</DocumentFragment>
+`;

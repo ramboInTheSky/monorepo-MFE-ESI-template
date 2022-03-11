@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal component:  Wrapper:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 > div {
+  position: absolute !important;
+  right: auto !important;
+  left: auto !important;
+  top: 3rem !important;
+  bottom: auto !important;
+}
+
+.c0 > div > div:first-child {
+  top: 3rem;
+  background: rgba(0,0,0,0.9);
+  opacity: 0 !important;
+}
+
+@media (min-width:768px) {
+  .c0 > div > div:first-child {
+    top: 2.75rem !important;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 > div > div:first-child {
+    top: 2.75rem !important;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <h1>
+      Example
+    </h1>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - ItemsPerPage:  should match the ItemsPerPage 1`] = `
+Object {
+  "initial": Object {
+    "desktop": 6,
+    "mobile": 4,
+    "tablet": 4,
+  },
+  "subsequent": Object {
+    "desktop": 7,
+    "mobile": 5,
+    "tablet": 5,
+  },
+}
+`;

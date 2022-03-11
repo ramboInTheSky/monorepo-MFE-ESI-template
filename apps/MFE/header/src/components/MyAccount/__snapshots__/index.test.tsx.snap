@@ -1,0 +1,398 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - MyAccount:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: inherit;
+  font-size: 12px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c1:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c2.c2 {
+  text-overflow: ellipsis;
+  max-width: 105px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.c0 {
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.c0 a {
+  padding: 0.625rem 0;
+  font-size: 0.9375rem;
+}
+
+.c0 img {
+  width: 5.375rem;
+  height: 5.375rem;
+  vertical-align: initial;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #ffffff;
+  padding: 0.625rem 0;
+}
+
+.c4 a:active,
+.c4 a:hover,
+.c4 a:focus,
+.c4 a:visited {
+  color: #ffffff;
+}
+
+.c4 img {
+  width: 5.375rem;
+  height: 2.75rem;
+}
+
+.c3 {
+  width: 5.375rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+@media (min-width:1280px) {
+  .c2.c2 {
+    white-space: unset;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 a {
+    display: initial;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 a {
+    padding: 0.625rem;
+  }
+
+  .c0 img {
+    width: 5.375rem;
+    height: 2.75rem;
+  }
+}
+
+@media (min-width:1024px) {
+
+}
+
+<div
+    class="header-adaptive-my-account"
+    data-testid="header-adaptive-my-account"
+  >
+    <div
+      class="PrivateHiddenCss-lgUp-11"
+    >
+      <div
+        class="c0"
+        data-testid="header-adaptive-my-account-smallIcon"
+      >
+        <a
+          class="c1"
+          data-testid="header-adaptive-my-account-smallIcon-container-link"
+          href="https://amido.com"
+          rel="nofollow"
+        >
+          <img
+            alt="sample"
+            class=""
+            src="https://amido.com/icon"
+          />
+          <span
+            class="c2"
+          >
+              
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="PrivateHiddenCss-mdDown-9"
+    >
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+          data-testid="header-adaptive-my-account-icon-container"
+        >
+          <a
+            class="c1"
+            data-testid="header-adaptive-my-account-icon-container-link"
+            href="https://amido.com"
+            rel="nofollow"
+          >
+            <img
+              alt="sample"
+              class=""
+              src="https://amido.com/icon"
+            />
+            <span
+              class="c2"
+            >
+               Mike 
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - MyAccount:  should match the snapshot when userUpdated is false  1`] = `
+<DocumentFragment>
+  .c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: inherit;
+  font-size: 12px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c1:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c2.c2 {
+  text-overflow: ellipsis;
+  max-width: 105px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.c0 {
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.c0 a {
+  padding: 0.625rem 0;
+  font-size: 0.9375rem;
+}
+
+.c0 img {
+  width: 5.375rem;
+  height: 5.375rem;
+  vertical-align: initial;
+}
+
+.c4 {
+  display: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #ffffff;
+  padding: 0.625rem 0;
+}
+
+.c4 a:active,
+.c4 a:hover,
+.c4 a:focus,
+.c4 a:visited {
+  color: #ffffff;
+}
+
+.c4 img {
+  width: 5.375rem;
+  height: 2.75rem;
+}
+
+.c3 {
+  width: 5.375rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+@media (min-width:1280px) {
+  .c2.c2 {
+    white-space: unset;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 a {
+    display: initial;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 a {
+    padding: 0.625rem;
+  }
+
+  .c0 img {
+    width: 5.375rem;
+    height: 2.75rem;
+  }
+}
+
+@media (min-width:1024px) {
+
+}
+
+<div
+    class="header-adaptive-my-account"
+    data-testid="header-adaptive-my-account"
+  >
+    <div
+      class="PrivateHiddenCss-lgUp-26"
+    >
+      <div
+        class="c0"
+        data-testid="header-adaptive-my-account-smallIcon"
+      >
+        <a
+          class="c1"
+          data-testid="header-adaptive-my-account-smallIcon-container-link"
+          href="https://amido.com"
+          rel="nofollow"
+        >
+          <img
+            alt="sample"
+            class=""
+            src="https://amido.com/icon"
+          />
+          <span
+            class="c2"
+          >
+              
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      class="PrivateHiddenCss-mdDown-24"
+    >
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+          data-testid="header-adaptive-my-account-icon-container"
+        >
+          <a
+            class="c1"
+            data-testid="header-adaptive-my-account-icon-container-link"
+            href="https://amido.com"
+            rel="nofollow"
+          >
+            <img
+              alt="sample"
+              class=""
+              src="https://amido.com/icon"
+            />
+            <span
+              class="c2"
+            >
+               Mike 
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,75 @@
+{
+  "id": "4bf60698-c497-4fb5-8413-48d254fa11aa",
+  "title": "Home",
+  "target": "/dummy",
+  "viewType": "primary-navbar",
+  "realm": "amido",
+  "territory": "GB",
+  "language": "en",
+  "items": [
+    {
+      "title": "DESIGNERS",
+      "path": "DESIGNERS",
+      "target": "/brands/all",
+      "linkColour": "",
+      "fontWeight": "",
+      "fontFamily": null
+    },
+    {
+      "title": "BOYS",
+      "path": "BOYS",
+      "target": "/shop/gender-babyboys-gender-babyunisex-gender-boys-gender-unisex-0",
+      "linkColour": "",
+      "fontWeight": "",
+      "fontFamily": null
+    },
+    {
+      "title": "GIRLS",
+      "path": "GIRLS",
+      "target": "/shop/gender-babygirls-gender-babyunisex-gender-girls-gender-unisex-0",
+      "linkColour": "",
+      "fontWeight": "",
+      "fontFamily": null
+    },
+    {
+      "title": "BABY",
+      "path": "BABY",
+      "target": "/shop/productaffiliation-baby-0",
+      "linkColour": "",
+      "fontWeight": "",
+      "fontFamily": null
+    },
+    {
+      "title": "SHOES",
+      "path": "SHOES",
+      "target": "/shop/productaffiliation-footwear-0",
+      "linkColour": "",
+      "fontWeight": "",
+      "fontFamily": null
+    },
+    {
+      "title": "NEW IN",
+      "path": "NEW IN",
+      "target": "/shop/feat-newin-0",
+      "linkColour": "",
+      "fontWeight": "",
+      "fontFamily": null
+    },
+    {
+      "title": "GIFTS",
+      "path": "GIFTS",
+      "target": "/shop/promotion-gifts-0",
+      "linkColour": "",
+      "fontWeight": "",
+      "fontFamily": null
+    },
+    {
+      "title": "ESSENTIALS",
+      "path": "ESSENTIALS",
+      "target": "/shop/promotion-essentials-0",
+      "linkColour": "",
+      "fontWeight": "",
+      "fontFamily": null
+    }
+  ]
+}

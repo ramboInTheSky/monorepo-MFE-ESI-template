@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a searchApiRequestBuilder When building a Category request Create a category request object 1`] = `
+SearchApiRequest {
+  "contextid": "testBRUID2",
+  "criteria": "http://amido.com/shop/gender-men-category-shirts/use-formal",
+  "fields": null,
+  "pagesize": 24,
+  "searchTerm": "1234",
+  "segment": "testBRMTSeach",
+  "start": 0,
+  "type": "Category",
+}
+`;
+
+exports[`Given a searchApiRequestBuilder When building a Search request Create a keyword request object 1`] = `
+SearchApiRequest {
+  "contextid": "testBRUID2",
+  "criteria": "http://amido.com/search?w=red",
+  "fields": null,
+  "pagesize": 24,
+  "searchTerm": "1234",
+  "segment": "testBRMTSeach",
+  "start": 0,
+  "type": "Keyword",
+}
+`;
+
+exports[`Given a searchApiRequestBuilder When building a data shaped request Create a category request object 1`] = `
+SearchApiRequest {
+  "contextid": "testBRUID2",
+  "criteria": "http://amido.com/shop/gender-men-category-shirts/use-formal",
+  "fields": "items,sorting",
+  "pagesize": 24,
+  "searchTerm": "1234",
+  "segment": "testBRMTSeach",
+  "start": 24,
+  "type": "Category",
+}
+`;
+
+exports[`Given a searchApiRequestBuilder When building a request with disabled bloomreachPersonalization cookies Create a category request object 1`] = `
+SearchApiRequest {
+  "contextid": "TODO CONTEXT ID",
+  "criteria": "http://amido.com/shop/gender-men-category-shirts/use-formal",
+  "fields": null,
+  "pagesize": 24,
+  "searchTerm": "1234",
+  "segment": "",
+  "start": 0,
+  "type": "Category",
+}
+`;

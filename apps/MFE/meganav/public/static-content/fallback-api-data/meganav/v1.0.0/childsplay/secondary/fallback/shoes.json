@@ -1,0 +1,307 @@
+{
+  "id": "34f5161d-f91c-40a6-8c5b-f22fe2c834b6",
+  "title": "SHOES",
+  "target": "/shop/productaffiliation-footwear-0",
+  "viewType": "secondary-navigation",
+  "realm": "amido",
+  "territory": "GB",
+  "language": "en",
+  "items": [
+    {
+      "title": "SHOES",
+      "type": "tab",
+      "items": [
+        {
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "title": "GIRLS SHOES",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Shoes",
+                  "type": "link",
+                  "target": "/shop/gender-babygirls-gender-babyunisex-gender-girls-gender-unisex-productaffiliation-footwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Boots",
+                  "type": "link",
+                  "target": "/shop/gender-babygirls-gender-babyunisex-gender-girls-gender-unisex-productaffiliation-footwear/category-boots",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Pram Shoes",
+                  "type": "link",
+                  "target": "/shop/gender-babygirls-gender-babyunisex-productaffiliation-footwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sandals & Sliders",
+                  "type": "link",
+                  "target": "/shop/gender-babygirls-gender-babyunisex-gender-girls-gender-unisex-productaffiliation-footwear/category-sandals",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Shoes & Pumps",
+                  "type": "link",
+                  "target": "/shop/gender-babygirls-gender-babyunisex-gender-girls-gender-unisex-productaffiliation-footwear/category-pumps-category-shoes",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Trainers",
+                  "type": "link",
+                  "target": "/shop/gender-babygirls-gender-babyunisex-gender-girls-gender-unisex-productaffiliation-footwear/category-trainers",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "title": "BOYS SHOES",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Shoes",
+                  "type": "link",
+                  "target": "/shop/gender-babyboys-gender-babyunisex-gender-boys-gender-unisex-productaffiliation-footwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Boots",
+                  "type": "link",
+                  "target": "https://www.amido.co.uk/shop/gender-babyboys-gender-babyunisex-gender-boys-gender-unisex-productaffiliation-footwear/category-boots",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Pram Shoes",
+                  "type": "link",
+                  "target": "/shop/gender-babyboys-gender-babyunisex-productaffiliation-footwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sandals & Sliders",
+                  "type": "link",
+                  "target": "/shop/gender-babyboys-gender-babyunisex-gender-boys-gender-unisex-productaffiliation-footwear/category-sandals",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Shoes & Pumps",
+                  "type": "link",
+                  "target": "/shop/gender-babyboys-gender-babyunisex-gender-boys-gender-unisex-productaffiliation-footwear/category-pumps-category-shoes",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Trainers",
+                  "type": "link",
+                  "target": "/shop/gender-babyboys-gender-babyunisex-gender-boys-gender-unisex-productaffiliation-footwear/category-trainers",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "title": "SHOP SHOES BY DESIGNER",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Shop All A-Z Designers",
+                  "type": "link",
+                  "target": "/brands/footwear",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Alexander McQueen",
+                  "type": "link",
+                  "target": "/shop/brand-alexandermcqueen-productaffiliation-footwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Balenciaga Kids",
+                  "type": "link",
+                  "target": "/shop/productaffiliation-footwear/brand-balenciagakids",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Burberry Kids",
+                  "type": "link",
+                  "target": "/shop/productaffiliation-footwear/brand-burberrykids",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Dolce & Gabbana Kids",
+                  "type": "link",
+                  "target": "/shop/productaffiliation-footwear/brand-dolcegabbanakids",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Fendi Kids",
+                  "type": "link",
+                  "target": "/shop/brand-fendikids-productaffiliation-footwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Golden Goose",
+                  "type": "link",
+                  "target": "/shop/productaffiliation-footwear/brand-goldengoosekids",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Gucci Kids",
+                  "type": "link",
+                  "target": "/shop/productaffiliation-footwear/brand-guccikids",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Moon Boots",
+                  "type": "link",
+                  "target": "/shop/productaffiliation-footwear/brand-moonboots",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Moschino Kids",
+                  "type": "link",
+                  "target": "/shop/productaffiliation-footwear/brand-moschinokids",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "UGG",
+                  "type": "link",
+                  "target": "/shop/productaffiliation-footwear/brand-ugg",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Versace",
+                  "type": "link",
+                  "target": "/shop/brand-versace-productaffiliation-footwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        }
+      ],
+      "missions": {
+        "noOfColumns": 3,
+        "title": null,
+        "items": [
+          {
+            "title": "New In Shoes",
+            "imageUrl": "/nxtcms/blueprint/servlet/resource/blob/4172236/dec2475d61a959c0d8735175acabc277/shoes-newin-june-data.jpg",
+            "target": "/shop/productaffiliation-footwear/feat-newin"
+          },
+          {
+            "title": "Baby Shoes",
+            "imageUrl": "/nxtcms/blueprint/servlet/resource/blob/4172242/5301435eeaab2b587390f94f03958015/shoes-baby-june-data.jpg",
+            "target": "/shop/gender-babyboys-gender-babygirls-gender-babyunisex-productaffiliation-footwear-0"
+          },
+          {
+            "title": "Boys Shoes",
+            "imageUrl": "/nxtcms/blueprint/servlet/resource/blob/4172244/b8a4edcad452285256a9982031d3b944/shoes-boy-june-data.jpg",
+            "target": "/shop/gender-babyboys-gender-babyunisex-gender-boys-gender-unisex-productaffiliation-footwear-0"
+          },
+          {
+            "title": "Girls Shoes",
+            "imageUrl": "/nxtcms/blueprint/servlet/resource/blob/4172234/fa5216da9b775c8387f6ab98057ecc71/shoes-girl-june-data.jpg",
+            "target": "/shop/gender-babygirls-gender-babyunisex-gender-girls-gender-unisex-productaffiliation-footwear-0"
+          },
+          {
+            "title": "Trainers",
+            "imageUrl": "/nxtcms/blueprint/servlet/resource/blob/4172240/0c37f5ad698585b49866a675525018ea/shoes-trainer-june-data.jpg",
+            "target": "/shop/productaffiliation-footwear/category-trainers"
+          },
+          {
+            "title": "Sliders",
+            "imageUrl": "/nxtcms/blueprint/servlet/resource/blob/4172238/7bb6a9e536144764e59fdba29565b58b/shoes-sliders-june-data.jpg",
+            "target": "/shop/productaffiliation-footwear/category-sandals"
+          }
+        ],
+        "categoryLink": null
+      }
+    }
+  ],
+  "banner": null
+}

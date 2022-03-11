@@ -1,0 +1,306 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Menu:  When clicking the button, it should render the options 1`] = `
+<DocumentFragment>
+  .c0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 {
+  width: 100%;
+  height: 2.75rem;
+  padding: 0;
+  text-transform: uppercase;
+  background: none;
+  background-color: transparent;
+  color: #000000;
+}
+
+.c1:hover {
+  background-color: transparent;
+}
+
+.c1.c1:focus {
+  border: none;
+}
+
+.c2 {
+  z-index: 1;
+}
+
+.c2[x-placement*="bottom"] .arrow {
+  width: 0;
+  height: 0;
+  border-bottom: 0.625rem solid #000000;
+  border-left: 0.625rem solid transparent;
+  border-right: 0.625rem solid transparent;
+  margin-top: -0.625rem;
+}
+
+.c3 {
+  position: absolute;
+  font-size: 0.4375rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.c4 {
+  border-top: 0.25rem solid #000000;
+  margin-top: 0.875rem;
+  padding: 0;
+}
+
+.c5 {
+  padding: 0.8125rem 0.9375rem 0.8125rem 0.625rem;
+}
+
+.c6 {
+  min-width: 1.875rem;
+}
+
+<div
+    class="c0"
+  >
+    <button
+      aria-controls="menu-list-grow"
+      aria-describedby="styled-options-menu"
+      aria-haspopup="true"
+      class="MuiButtonBase-root MuiButton-root MuiButton-text c1 MuiButton-disableElevation"
+      data-testid="plp-menu-button-sort"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        Close
+      </span>
+    </button>
+    <div
+      class="c2"
+      data-testid="plp-menu-options-sort"
+      id="styled-options-menu"
+      style="position: absolute;"
+      x-placement="bottom"
+    >
+      <div
+        class="MuiPaper-root MuiPaper-elevation3 MuiPaper-rounded"
+        style="opacity: 1; transform: scale(1, 1); transform-origin: center top; transition: opacity 0ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 0ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      >
+        <span
+          class="c3 arrow"
+        />
+        <ul
+          class="MuiList-root c4 MuiList-padding"
+          data-testid="menu-list-grow"
+          id="menu-list-grow"
+          role="menu"
+          tabindex="-1"
+        >
+          <li
+            aria-disabled="false"
+            class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root c5 selected Mui-selected MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button Mui-selected Mui-focusVisible Mui-focusVisible"
+            role="menuitem"
+            tabindex="-1"
+          >
+            <div
+              class="MuiListItemIcon-root c6"
+            >
+              <img
+                alt="check icon"
+                src="/static-content/icons/shared/sort-check.svg"
+              />
+            </div>
+            <div
+              class="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root-1"
+            >
+              <span
+                class="MuiTypography-root MuiListItemText-primary MuiTypography-h5 MuiTypography-displayBlock"
+              >
+                red
+              </span>
+            </div>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </li>
+          <li
+            aria-disabled="false"
+            class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root c5 MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+            role="menuitem"
+            tabindex="-1"
+          >
+            <div
+              class="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root-1 MuiListItemText-inset WithStyles(ForwardRef(ListItemText))-inset-2"
+            >
+              <span
+                class="MuiTypography-root MuiListItemText-primary MuiTypography-h5 MuiTypography-displayBlock"
+              >
+                blue
+              </span>
+            </div>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given a Menu:  When clicking the button, it should render the options 2`] = `
+.c0 {
+  z-index: 1;
+}
+
+.c0[x-placement*="bottom"] .arrow {
+  width: 0;
+  height: 0;
+  border-bottom: 0.625rem solid #000000;
+  border-left: 0.625rem solid transparent;
+  border-right: 0.625rem solid transparent;
+  margin-top: -0.625rem;
+}
+
+.c1 {
+  position: absolute;
+  font-size: 0.4375rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.c2 {
+  border-top: 0.25rem solid #000000;
+  margin-top: 0.875rem;
+  padding: 0;
+}
+
+.c3 {
+  padding: 0.8125rem 0.9375rem 0.8125rem 0.625rem;
+}
+
+.c4 {
+  min-width: 1.875rem;
+}
+
+<div
+  class="c0"
+  data-testid="plp-menu-options-sort"
+  id="styled-options-menu"
+  style="position: absolute;"
+  x-placement="bottom"
+>
+  <div
+    class="MuiPaper-root MuiPaper-elevation3 MuiPaper-rounded"
+    style="opacity: 1; transform: scale(1, 1); transform-origin: center top; transition: opacity 0ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 0ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+  >
+    <span
+      class="c1 arrow"
+    />
+    <ul
+      class="MuiList-root c2 MuiList-padding"
+      data-testid="menu-list-grow"
+      id="menu-list-grow"
+      role="menu"
+      tabindex="-1"
+    >
+      <li
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root c3 selected Mui-selected MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button Mui-selected Mui-focusVisible Mui-focusVisible"
+        role="menuitem"
+        tabindex="-1"
+      >
+        <div
+          class="MuiListItemIcon-root c4"
+        >
+          <img
+            alt="check icon"
+            src="/static-content/icons/shared/sort-check.svg"
+          />
+        </div>
+        <div
+          class="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root-1"
+        >
+          <span
+            class="MuiTypography-root MuiListItemText-primary MuiTypography-h5 MuiTypography-displayBlock"
+          >
+            red
+          </span>
+        </div>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </li>
+      <li
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root c3 MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+        role="menuitem"
+        tabindex="-1"
+      >
+        <div
+          class="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root-1 MuiListItemText-inset WithStyles(ForwardRef(ListItemText))-inset-2"
+        >
+          <span
+            class="MuiTypography-root MuiListItemText-primary MuiTypography-h5 MuiTypography-displayBlock"
+          >
+            blue
+          </span>
+        </div>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Given a Menu:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 {
+  width: 100%;
+  height: 2.75rem;
+  padding: 0;
+  text-transform: uppercase;
+  background: none;
+  background-color: transparent;
+  color: #000000;
+}
+
+.c1:hover {
+  background-color: transparent;
+}
+
+.c1.c1:focus {
+  border: none;
+}
+
+<div
+    class="c0"
+  >
+    <button
+      aria-haspopup="true"
+      class="MuiButtonBase-root MuiButton-root MuiButton-text c1 MuiButton-disableElevation"
+      data-testid="plp-menu-button-sort"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        SORT
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;

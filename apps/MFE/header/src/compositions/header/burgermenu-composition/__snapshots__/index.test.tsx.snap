@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages: Header -  When the header renders with regions  should show the header 1`] = `
+<DocumentFragment>
+  <header
+    class="components__Header-sc-1mfi5wt-0 shtmq"
+    dir="ltr"
+  >
+    <div>
+      TEST UpperHeader COMPONENT
+    </div>
+    <div>
+      TEST MeganavESI COMPONENT
+    </div>
+    <div>
+      TEST CookieConsent COMPONENT
+    </div>
+  </header>
+</DocumentFragment>
+`;
+
+exports[`Pages: Header -  When the header renders with showModal true  should show the header 1`] = `
+<DocumentFragment>
+  <header
+    class="components__Header-sc-1mfi5wt-0 shtmq"
+    dir="ltr"
+  >
+    <div>
+      TEST UpperHeader COMPONENT
+    </div>
+    <div>
+      TEST MeganavESI COMPONENT
+    </div>
+    <div
+      class="component__Container-sc-6day1w-0 cHoyKv"
+      data-testid="modal"
+      role="presentation"
+      style="position: fixed; z-index: 1300; right: 0px; bottom: 0px; top: 0px; left: 0px;"
+    >
+      <div
+        aria-hidden="true"
+        class="MuiBackdrop-root"
+        style="opacity: 1; webkit-transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      />
+      <div
+        data-test="sentinelStart"
+        tabindex="0"
+      />
+      <div
+        class="component__Container-sc-1urara5-0 iBonvi"
+        data-testid="header-country-change-modal-wrapper"
+      >
+        <h5
+          class="MuiTypography-root component__StyledTitle-sc-1urara5-1 bmfdAr MuiTypography-h5"
+        >
+          Confirm country change
+        </h5>
+        <p
+          class="MuiTypography-root component__StyledText-sc-1urara5-2 iCGpgE MuiTypography-body1"
+        >
+          Are you sure you want to navigate away from this site?
+        </p>
+        <p
+          class="MuiTypography-root component__StyledText-sc-1urara5-2 iCGpgE MuiTypography-body1"
+        >
+          If you navigate away from this site you will leave your shopping bag and it’s contents.
+        </p>
+        <div
+          class="component__StyledButtonWrapper-sc-1urara5-3 dYRhTk"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text component__StyledButtonConfirm-sc-1urara5-4 hrTMTa"
+            data-testid="header-country-change-modal-confirm"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              CONTINUE
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text component__StyledButtonCancel-sc-1urara5-5 bYbqYj"
+            data-testid="header-country-change-modal-cancel"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              CANCEL
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        data-test="sentinelEnd"
+        tabindex="0"
+      />
+    </div>
+    <div>
+      TEST CookieConsent COMPONENT
+    </div>
+  </header>
+</DocumentFragment>
+`;

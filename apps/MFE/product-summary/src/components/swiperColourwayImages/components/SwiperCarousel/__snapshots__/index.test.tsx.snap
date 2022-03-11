@@ -1,0 +1,483 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a SwiperCarousel component When is desktop breakpoint should render the component correctly to match the snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  overflow: hidden;
+  width: 100%;
+  padding-top: 150%;
+  height: 0;
+  position: relative;
+  margin-bottom: 0.625rem;
+}
+
+.c0 .product-swiper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.c0 .swiper-wrapper {
+  height: auto;
+}
+
+@media (max-width:1023px) {
+  .c0 {
+    margin-bottom: 0.1875rem;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="swiper-container swiper-container-virtual swiper-container-initialized swiper-container-horizontal product-swiper"
+    >
+      <div
+        class="swiper-wrapper"
+        style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+      >
+        <div
+          class="swiper-slide swiper-slide-active"
+          data-swiper-slide-index="0"
+          style="left: 0px;"
+        >
+          <div>
+            ColourwayImageSlide
+          </div>
+        </div>
+        <div
+          class="swiper-slide swiper-slide-next"
+          data-swiper-slide-index="1"
+          style="left: 0px;"
+        >
+          <div>
+            ColourwayImageSlide
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given a SwiperCarousel component When is desktop breakpoint should render the component correctly to match the snapshot with SALE item 1`] = `
+<DocumentFragment>
+  .c0 {
+  overflow: hidden;
+  width: 100%;
+  padding-top: 150%;
+  height: 0;
+  position: relative;
+  margin-bottom: 0.625rem;
+}
+
+.c0 .product-swiper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.c0 .swiper-wrapper {
+  height: auto;
+}
+
+@media (max-width:1023px) {
+  .c0 {
+    margin-bottom: 0.1875rem;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="swiper-container swiper-container-virtual swiper-container-initialized swiper-container-horizontal product-swiper"
+    >
+      <div
+        class="swiper-wrapper"
+        style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+      >
+        <div
+          class="swiper-slide swiper-slide-active"
+          data-swiper-slide-index="0"
+          style="left: 0px;"
+        >
+          <div>
+            ColourwayImageSlide
+          </div>
+        </div>
+        <div
+          class="swiper-slide swiper-slide-next"
+          data-swiper-slide-index="1"
+          style="left: 0px;"
+        >
+          <div>
+            ColourwayImageSlide
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given a SwiperCarousel component when is not desktop breakpoint should render the component correctly to match the snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  overflow: hidden;
+  width: 100%;
+  padding-top: 150%;
+  height: 0;
+  position: relative;
+  margin-bottom: 0.625rem;
+}
+
+.c0 .product-swiper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.c0 .swiper-wrapper {
+  height: auto;
+}
+
+@media (max-width:1023px) {
+  .c0 {
+    margin-bottom: 0.1875rem;
+  }
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:894px) {
+
+}
+
+@media (min-width:1024px) {
+
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="swiper-container swiper-container-virtual swiper-container-initialized swiper-container-horizontal product-swiper"
+    >
+      <div
+        class="swiper-wrapper"
+        style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+      >
+        <div
+          class="swiper-slide swiper-slide-active"
+          data-swiper-slide-index="0"
+          style="left: 0px;"
+        >
+          <div>
+            ColourwayImageSlide
+          </div>
+        </div>
+        <div
+          class="swiper-slide swiper-slide-next"
+          data-swiper-slide-index="1"
+          style="left: 0px;"
+        >
+          <div>
+            ColourwayImageSlide
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  .c0 {
+  overflow-x: auto;
+  margin-bottom: 1.25rem;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c0::-webkit-scrollbar {
+  display: none;
+}
+
+.c0 .swiper-container {
+  min-width: 24px;
+}
+
+.c0 .swiper-scrollbar {
+  background: none !important;
+  height: 0.1875rem !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  width: 24px !important;
+  z-index: 0 !important;
+}
+
+.c0 .thumb-scrollbar {
+  background: #000000;
+  height: 100%;
+  min-width: 1.5rem;
+}
+
+.c0 + div.product-summary-favourites-container {
+  bottom: 2.225rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width:1023px) {
+
+}
+
+@media (min-width:768px) {
+  .c0 {
+    max-width: 25rem;
+  }
+}
+
+@media (min-width:894px) {
+  .c0 {
+    max-width: 30rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+    class="c0"
+    data-testid="product_summary_thumbs_gallery"
+    width="24"
+  >
+    <div
+      class="c1"
+    >
+      <div>
+        ThumbColourChip
+      </div>
+    </div>
+    <div
+      class="swiper-container swiper-container-virtual swiper-container-initialized swiper-container-horizontal thumb-swiper"
+    >
+      <div
+        class="swiper-scrollbar"
+      >
+        <div
+          class="thumb-scrollbar"
+          style="width: 24px; transform: translate3d(NaNpx, 0, 0);"
+        />
+      </div>
+      <div
+        class="swiper-wrapper"
+        style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+      >
+        <div
+          class="swiper-slide swiper-slide-active"
+          data-swiper-slide-index="0"
+          style="left: 0px;"
+        >
+          <div />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given a SwiperCarousel component when is not desktop breakpoint should render the component correctly to match the snapshot with SALE item 1`] = `
+<DocumentFragment>
+  .c0 {
+  overflow: hidden;
+  width: 100%;
+  padding-top: 150%;
+  height: 0;
+  position: relative;
+  margin-bottom: 0.625rem;
+}
+
+.c0 .product-swiper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.c0 .swiper-wrapper {
+  height: auto;
+}
+
+@media (max-width:1023px) {
+  .c0 {
+    margin-bottom: 0.1875rem;
+  }
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:894px) {
+
+}
+
+@media (min-width:1024px) {
+
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="swiper-container swiper-container-virtual swiper-container-initialized swiper-container-horizontal product-swiper"
+    >
+      <div
+        class="swiper-wrapper"
+        style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+      >
+        <div
+          class="swiper-slide swiper-slide-active"
+          data-swiper-slide-index="0"
+          style="left: 0px;"
+        >
+          <div>
+            ColourwayImageSlide
+          </div>
+        </div>
+        <div
+          class="swiper-slide swiper-slide-next"
+          data-swiper-slide-index="1"
+          style="left: 0px;"
+        >
+          <div>
+            ColourwayImageSlide
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  .c0 {
+  overflow-x: auto;
+  margin-bottom: 1.25rem;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c0::-webkit-scrollbar {
+  display: none;
+}
+
+.c0 .swiper-container {
+  min-width: 24px;
+}
+
+.c0 .swiper-scrollbar {
+  background: none !important;
+  height: 0.1875rem !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  width: 24px !important;
+  z-index: 0 !important;
+}
+
+.c0 .thumb-scrollbar {
+  background: #000000;
+  height: 100%;
+  min-width: 1.5rem;
+}
+
+.c0 + div.product-summary-favourites-container {
+  bottom: 2.225rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width:1023px) {
+
+}
+
+@media (min-width:768px) {
+  .c0 {
+    max-width: 25rem;
+  }
+}
+
+@media (min-width:894px) {
+  .c0 {
+    max-width: 30rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+    class="c0"
+    data-testid="product_summary_thumbs_gallery"
+    width="24"
+  >
+    <div
+      class="c1"
+    >
+      <div>
+        ThumbColourChip
+      </div>
+    </div>
+    <div
+      class="swiper-container swiper-container-virtual swiper-container-initialized swiper-container-horizontal thumb-swiper"
+    >
+      <div
+        class="swiper-scrollbar"
+      >
+        <div
+          class="thumb-scrollbar"
+          style="width: 24px; transform: translate3d(NaNpx, 0, 0);"
+        />
+      </div>
+      <div
+        class="swiper-wrapper"
+        style="transition-duration: 0ms; transform: translate3d(NaNpx, 0px, 0px);"
+      >
+        <div
+          class="swiper-slide swiper-slide-active"
+          data-swiper-slide-index="0"
+          style="left: 0px;"
+        >
+          <div />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

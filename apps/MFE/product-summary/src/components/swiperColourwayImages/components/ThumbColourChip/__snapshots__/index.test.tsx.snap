@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a ThumbColourChip should render the components to match the snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  min-width: 1.5rem;
+  height: 0.5rem;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.c1 {
+  height: auto;
+  width: 100%;
+}
+
+<div
+    class="c0"
+    data-testid="product_summary_thumb_colourchip_test-id"
+  >
+    <img
+      alt="test-image-url"
+      class="c1 c1 lazyload"
+      data-src="test-image-url"
+      src="spiderman/Common/Items/Default/Default/ItemImages/AltItemSwatch/21x21/greySquarePlaceholder.jpg"
+    />
+  </div>
+</DocumentFragment>
+`;

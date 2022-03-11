@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Constants should match CHEVRON_ICON_URL 1`] = `"/icons/shared/chevron.svg"`;
+
+exports[`Constants should match COUNTRY_LANG_SELECTOR_DATA_GA 1`] = `"Country Language"`;
+
+exports[`Constants should match COUNTRY_SELECT_DROPDOWN_DATA_GA 1`] = `"Country Select"`;
+
+exports[`Constants should match COUNTRY_SELECTOR_DRAWER_BREAKPOINT 1`] = `"524px"`;
+
+exports[`Constants should match COUNTRY_SELECTOR_URL 1`] = `"/countryselect"`;

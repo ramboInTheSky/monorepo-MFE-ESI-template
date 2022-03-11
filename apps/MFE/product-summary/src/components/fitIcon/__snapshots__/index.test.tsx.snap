@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a FitIcons Component should match the snapshot with isLazyloadFitIcons as false 1`] = `
+<DocumentFragment>
+  .c1 {
+  margin-bottom: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+}
+
+.c0 {
+  position: absolute;
+  left: 0.5rem;
+  bottom: 0rem;
+  max-width: 1rem;
+  z-index: 2;
+}
+
+<div
+    class="c0"
+  >
+    <img
+      alt="Product Summary fit icon Petite"
+      class="c1"
+      data-testid="product_summary_fit_icon_petite"
+      src="/static-content/icons/shared/fit-petite.svg"
+    />
+    <img
+      alt="Product Summary fit icon Tall"
+      class="c1"
+      data-testid="product_summary_fit_icon_tall"
+      src="/static-content/icons/shared/fit-tall.svg"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given a FitIcons Component should match the snapshot with isLazyloadFitIcons as true 1`] = `
+<DocumentFragment>
+  .c1 {
+  margin-bottom: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+}
+
+.c0 {
+  position: absolute;
+  left: 0.5rem;
+  bottom: 0rem;
+  max-width: 1rem;
+  z-index: 2;
+}
+
+<div
+    class="c0"
+  >
+    <img
+      alt="Product Summary fit icon Petite"
+      class="c1 lazyload"
+      data-src="/static-content/icons/shared/fit-petite.svg"
+      data-testid="product_summary_fit_icon_petite"
+      src="/static-content/images/shared/transparent-image.png"
+    />
+    <img
+      alt="Product Summary fit icon Tall"
+      class="c1 lazyload"
+      data-src="/static-content/icons/shared/fit-tall.svg"
+      data-testid="product_summary_fit_icon_tall"
+      src="/static-content/images/shared/transparent-image.png"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given a FitIcons Component when no fits are provided, it should match the snapshot  1`] = `<DocumentFragment />`;
+
+exports[`Given a FitIcons Component when undefined fits are provided, it should match the snapshot  1`] = `<DocumentFragment />`;

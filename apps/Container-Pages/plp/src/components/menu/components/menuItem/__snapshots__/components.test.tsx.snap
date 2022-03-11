@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given components for the MenuPopper StyledListItemIcon 1`] = `
+<DocumentFragment>
+  .c0 {
+  min-width: 1.875rem;
+}
+
+<div
+    class="MuiListItemIcon-root c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Given components for the MenuPopper StyledListItemText 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root-1"
+  />
+</DocumentFragment>
+`;
+
+exports[`Given components for the MenuPopper StyledMenuItem 1`] = `
+<DocumentFragment>
+  .c0 {
+  padding: 0.8125rem 0.9375rem 0.8125rem 0.625rem;
+}
+
+<li
+    aria-disabled="false"
+    class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root c0 MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+    role="menuitem"
+    tabindex="-1"
+  >
+    Test
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </li>
+</DocumentFragment>
+`;

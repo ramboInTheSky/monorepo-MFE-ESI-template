@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - ViewportSize:  should match the desktop 1`] = `"desktop"`;
+
+exports[`Model - ViewportSize:  should match the deviceBreakpoints 1`] = `
+Object {
+  "desktop": "lg",
+  "mobile": "sm",
+  "tablet": "md",
+}
+`;
+
+exports[`Model - ViewportSize:  should match the mobile 1`] = `"mobile"`;
+
+exports[`Model - ViewportSize:  should match the tablet 1`] = `"tablet"`;

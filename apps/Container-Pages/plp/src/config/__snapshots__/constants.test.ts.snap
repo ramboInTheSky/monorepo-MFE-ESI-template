@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given Constants Should match expected should match BASELINECSS_CUSTOM 1`] = `"custom"`;
+
+exports[`Given Constants Should match expected should match BASELINECSS_MATERIALUI 1`] = `"materialui"`;
+
+exports[`Given Constants Should match expected should match BR_MT_SEARCH 1`] = `"_br_mt_search"`;
+
+exports[`Given Constants Should match expected should match BR_UID_2 1`] = `"_br_uid_2"`;
+
+exports[`Given Constants Should match expected should match BR_UID_DEFAULT_VALUE 1`] = `"uid%3D9624001141133%3Av%3D13.0%3Ats%3D1578565383488%3Ahc%3D138"`;
+
+exports[`Given Constants Should match expected should match BRAND 1`] = `"brand"`;
+
+exports[`Given Constants Should match expected should match BRAND_0_9 1`] = `"0-9"`;
+
+exports[`Given Constants Should match expected should match CACHE_HEADERS_CACHE_CONTROL 1`] = `"cache-control"`;
+
+exports[`Given Constants Should match expected should match CACHE_HEADERS_EDGE_CACHE_TAG 1`] = `"edge-cache-tag"`;
+
+exports[`Given Constants Should match expected should match CACHE_HEADERS_LAST_MODIFIED 1`] = `"last-modified"`;
+
+exports[`Given Constants Should match expected should match CATEGORY_FILTERS_REGEX 1`] = `/\\(\\(\\[a-z, 0-9\\]\\*\\)\\.-\\[a-z, 0-9,%\\]\\*\\)\\+/g`;
+
+exports[`Given Constants Should match expected should match DEFAULT_FILTER_SPINNER_TIMEOUT 1`] = `5000`;
+
+exports[`Given Constants Should match expected should match ESISeparator 1`] = `
+Object {
+  "ProductFragment": "<=ProductFragment=>",
+  "SearchBanner": "<=SearchBanner=>",
+}
+`;
+
+exports[`Given Constants Should match expected should match FACETS_CONTAINER_OFFSET 1`] = `25`;
+
+exports[`Given Constants Should match expected should match FILTER_GRID_SCROLL_HEIGHT 1`] = `690`;
+
+exports[`Given Constants Should match expected should match FILTER_GRID_TOP_SPACER_HEIGHT 1`] = `25`;
+
+exports[`Given Constants Should match expected should match FILTER_SETTINGS_COOKIE 1`] = `"filterSettings"`;
+
+exports[`Given Constants Should match expected should match FILTERS_SHOW_VIEW_ALL_COUNT 1`] = `20`;
+
+exports[`Given Constants Should match expected should match FILTERS_SHOW_VIEW_MORE_COUNT 1`] = `8`;
+
+exports[`Given Constants Should match expected should match FOOTER_ID 1`] = `"footer-entrypoint"`;
+
+exports[`Given Constants Should match expected should match GENDER 1`] = `"gender"`;
+
+exports[`Given Constants Should match expected should match GTM_PRODUCT_IMPRESSIONS_EVENT 1`] = `"ee-productImpression"`;
+
+exports[`Given Constants Should match expected should match GTM_SEARCH_RESULTS 1`] = `"searchResults"`;
+
+exports[`Given Constants Should match expected should match ITEM_NUMBER_REGEX 1`] = `/\\^\\\\s\\?\\\\w\\\\d\\{2\\}-\\?\\\\d\\{3\\}\\\\s\\?\\$/`;
+
+exports[`Given Constants Should match expected should match JSS_SERVERSIDE 1`] = `"plp-jss-server-side-"`;
+
+exports[`Given Constants Should match expected should match LOCAL_STORAGE_ACTIVE_DEPT_NAME 1`] = `"PrimaryNavDeptSelector"`;
+
+exports[`Given Constants Should match expected should match REALM_HEADER 1`] = `"x-monorepo-realm"`;
+
+exports[`Given Constants Should match expected should match REGION_INTERNATIONAL 1`] = `"international"`;
+
+exports[`Given Constants Should match expected should match REGION_UK 1`] = `"uk"`;
+
+exports[`Given Constants Should match expected should match SEARCH_BANNER_CACHE_TAG 1`] = `"searchbannerui"`;
+
+exports[`Given Constants Should match expected should match SEARCH_BANNER_HEADER 1`] = `"x-monorepo-banner-format"`;
+
+exports[`Given Constants Should match expected should match SEARCH_BANNER_HEADER_DEFAULT 1`] = `"html"`;
+
+exports[`Given Constants Should match expected should match SEARCH_BANNER_INCLUDE_COMPONENTS 1`] = `"search-banner"`;
+
+exports[`Given Constants Should match expected should match SEARCH_CACHE_TAG 1`] = `"plpui"`;
+
+exports[`Given Constants Should match expected should match SEARCH_CATEGORY_SEGMENT 1`] = `"shop"`;
+
+exports[`Given Constants Should match expected should match SEO_METADATA_INCLUDE_COMPONENTS 1`] = `"seo-metadata"`;
+
+exports[`Given Constants Should match expected should match STICKY_HEADER_SCROLL_TRIGGER 1`] = `44`;
+
+exports[`Given Constants Should match expected should match SWIPER_ITEMS_PER_PAGE 1`] = `4`;
+
+exports[`Given Constants Should match expected should match TERRITORY_GB 1`] = `"gb"`;
+
+exports[`Given Constants Should match expected should match TIME_MACHINE_DATE_HEADER 1`] = `"x-monorepo-time-machine-date"`;
+
+exports[`Given Constants Should match expected should match TOKEN_CANCELLATION_FLAG 1`] = `"TOKEN_CANCELLATION"`;
+
+exports[`Given Constants Should match expected should match ViewLinkOptions 1`] = `
+Object {
+  "0": "none",
+  "1": "viewMore",
+  "2": "viewAll",
+  "none": 0,
+  "viewAll": 2,
+  "viewMore": 1,
+}
+`;
+
+exports[`Given Constants Should match expected should match expected Horizontal 1`] = `
+Object {
+  "ltr": "left",
+  "rtl": "right",
+}
+`;
+
+exports[`Given Constants Should match expected should match featAvailable 1`] = `"feat:available"`;
+
+exports[`Given Constants Should match expected should match featBackInStock 1`] = `"feat:backinstock"`;
+
+exports[`Given Constants Should match expected should match featDeliverBy 1`] = `"feat:deliveryby"`;
+
+exports[`Given Constants Should match expected should match the expected search request types 1`] = `
+Object {
+  "Category": "Category",
+  "Keyword": "Keyword",
+}
+`;

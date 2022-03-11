@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SnailTrail component:  Container:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <ul
+    class="component__Container-sc-3ipjnx-0 bLXtFq"
+  />
+   
+</DocumentFragment>
+`;
+
+exports[`SnailTrail component:  Container:  should match the snapshot when loaded is false 1`] = `
+<DocumentFragment>
+  <ul
+    class="component__Container-sc-3ipjnx-0 iONEyH"
+  />
+   
+</DocumentFragment>
+`;

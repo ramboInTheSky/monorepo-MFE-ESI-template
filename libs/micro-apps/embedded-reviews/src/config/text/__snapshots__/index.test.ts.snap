@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given the text dictionary should not have changed unexpectedly 1`] = `
+Object {
+  "logo": Object {
+    "imageAlt": "Reviews at",
+  },
+  "mpEnd": "<!-- mp_trans_enable_end -->",
+  "mpStart": "<!-- mp_trans_enable_start -->",
+  "panel": Object {
+    "title": "Reviews",
+  },
+  "summary": Object {
+    "noReviews": "No reviews have been submitted yet.",
+  },
+}
+`;

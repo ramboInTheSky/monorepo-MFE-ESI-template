@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SaleBagWarningModal component:  ButtonContainer:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  height: 2.75rem;
+}
+
+.c0 button:first-child {
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    float: right;
+    width: 90%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0.5rem;
+  }
+
+  .c0 button:first-child {
+    margin-right: 1rem;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    height: 2.25rem;
+    width: 80%;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`SaleBagWarningModal component:  ModalContainer:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  background: #ffffff;
+  color: #000000;
+  padding: 1.375rem 1.5rem;
+  width: 90%;
+  min-height: 16.625rem;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    min-height: 12.5rem;
+    width: 80%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    width: 55%;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;

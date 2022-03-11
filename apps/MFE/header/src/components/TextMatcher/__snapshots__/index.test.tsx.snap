@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - TextMatcher:  should match case sensitive texts 1`] = `
+<DocumentFragment>
+  .c0 {
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+}
+
+<span
+    class="c0"
+  >
+    ce
+  </span>
+  <span>
+    lio
+  </span>
+  .c0 {
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+}
+
+<span
+    class="c0"
+  >
+    ce
+  </span>
+  <span>
+    lio
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Components - TextMatcher:  should match multiple occurance of text 1`] = `
+<DocumentFragment>
+  .c0 {
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+}
+
+<span
+    class="c0"
+  >
+    ce
+  </span>
+  <span>
+    lio
+  </span>
+  .c0 {
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+}
+
+<span
+    class="c0"
+  >
+    ce
+  </span>
+  <span>
+    lio
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Components - TextMatcher:  should match occurance at end of text 1`] = `
+<DocumentFragment>
+  <span>
+    cel
+  </span>
+  .c0 {
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+}
+
+<span
+    class="c0"
+  >
+    io
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Components - TextMatcher:  should match occurance at start of text 1`] = `
+<DocumentFragment>
+  .c0 {
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+}
+
+<span
+    class="c0"
+  >
+    ce
+  </span>
+  <span>
+    lio
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Components - TextMatcher:  should match occurance in middle text 1`] = `
+<DocumentFragment>
+  <span>
+    ce
+  </span>
+  .c0 {
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+}
+
+<span
+    class="c0"
+  >
+    li
+  </span>
+  <span>
+    o
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Components - TextMatcher:  should match the snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+}
+
+<span
+    class="c0"
+  >
+    ce
+  </span>
+  <span>
+    lio
+  </span>
+</DocumentFragment>
+`;

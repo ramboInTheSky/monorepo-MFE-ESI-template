@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - footerModel:  should match the FooterModel 1`] = `
+FooterModel {
+  "id": "",
+  "language": "",
+  "name": "",
+  "realm": "",
+  "regions": Array [],
+  "territory": "",
+}
+`;
+
+exports[`Model - footerModel:  should match the RegionModel 1`] = `
+RegionModel {
+  "accessibilityTitle": "",
+  "subRegions": Array [],
+  "title": "",
+  "type": "",
+}
+`;
+
+exports[`Model - footerModel:  should match the SubRegionElementModel 1`] = `
+SubRegionElementModel {
+  "accessibilityDescription": "",
+  "accessibilityText": "",
+  "accessibilityTooltip": "",
+  "description": "",
+  "icon": "",
+  "name": "",
+  "openInNewWindow": false,
+  "text": "",
+  "tooltip": "",
+  "type": "",
+  "url": "",
+}
+`;
+
+exports[`Model - footerModel:  should match the SubRegionModel 1`] = `
+SubRegionModel {
+  "accessibilityTitle": "",
+  "elements": Array [],
+  "title": "",
+}
+`;

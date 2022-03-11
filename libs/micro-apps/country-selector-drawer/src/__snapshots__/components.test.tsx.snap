@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CloseButton component:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <button
+    class="MuiButtonBase-root MuiButton-root MuiButton-text components__CloseButton-sc-1piawcx-4 iNziXg"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      Text
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`CountryFlagImg component:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <img
+    alt="image"
+    class="components__CountryFlagImg-sc-1piawcx-7 kAbTiM"
+    src="/abc/abe.jpg"
+  />
+</DocumentFragment>
+`;
+
+exports[`CountrySelectorContainerLanguageButtons component:  should match the snapshot if not selected 1`] = `
+<DocumentFragment>
+  <button
+    class="components__CountrySelectorContainerLanguageButtons-sc-1piawcx-12 hQrKyf"
+  />
+</DocumentFragment>
+`;
+
+exports[`CountrySelectorContainerLanguageButtons component:  should match the snapshot if selected 1`] = `
+<DocumentFragment>
+  <button
+    class="components__CountrySelectorContainerLanguageButtons-sc-1piawcx-12 eQUfhX"
+  />
+</DocumentFragment>
+`;
+
+exports[`StayText component:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <span
+    class="MuiTypography-root components__StayText-sc-1piawcx-15 dlprgL MuiTypography-body1"
+  />
+</DocumentFragment>
+`;
+
+exports[`StyledIcon component:  should match the snapshot when ltr 1`] = `
+<DocumentFragment>
+  <img
+    class="components__StyledIcon-sc-1piawcx-2 iesqUV"
+  />
+</DocumentFragment>
+`;
+
+exports[`StyledIcon component:  should match the snapshot when rtl 1`] = `
+<DocumentFragment>
+  <img
+    class="components__StyledIcon-sc-1piawcx-2 bmboBF"
+  />
+</DocumentFragment>
+`;

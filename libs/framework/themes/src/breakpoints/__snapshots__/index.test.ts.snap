@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a set of breakpoints should match snapshot 1`] = `
+Object {
+  "values": Object {
+    "lg": 1024,
+    "md": 768,
+    "sm": 400,
+    "xl": 1280,
+    "xs": 0,
+  },
+}
+`;

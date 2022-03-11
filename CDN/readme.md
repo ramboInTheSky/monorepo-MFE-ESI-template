@@ -1,0 +1,1 @@
+this is not an app, it doesn't partake to the Lerna Monorepo rules but it is a shared repo fior artefact and a pipeline to be able to manage versioning, testing and deployments (pipelines).

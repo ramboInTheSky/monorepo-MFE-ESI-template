@@ -1,0 +1,71 @@
+parameters:
+  - name: "akamai_access_token"
+    type: string
+    default: ''
+  - name: "akamai_client_secret"
+    type: string
+    default: ''
+  - name: "akamai_client_token"
+    type: string
+    default: ''
+  - name: "akamai_host"
+    type: string
+    default: ''
+  - name: akamai_edgerc_path
+    type: string
+    default: CDN/akamai.edgerc
+  - name: storage_account_name
+    type: string
+    default: ''
+  - name: storage_account_container
+    type: string
+    default: 'static-content'
+  - name: storage_account_path
+    type: string
+    default: 'configs/abplatform'
+  - name: azure_subscription
+    type: string
+    default: ''
+  - name: site_url
+    type: string
+    default: ''
+
+
+steps:
+- checkout: self
+
+- task: qetza.replacetokens.replacetokens-task.replacetokens@3
+  displayName: 'Akamai - Replace tokens in .edgerc'
+  inputs:
+    targetFiles: '${{parameters.akamai_edgerc_path}}'
+    tokenPrefix: '#{'
+    tokenSuffix: '}#'
+    escapeType: 'none'
+    rootDirectory: '$(Build.SourcesDirectory)'
+
+- bash: |
+    echo "Downloading Akamai CLI Tool...."
+    curl --location --request GET 'https://github.com/akamai/cli/releases/download/1.2.1/akamai-1.2.1-linuxamd64' --output akamai-1.2.1-linuxamd64
+    chmod +x akamai-1.2.1-linuxamd64
+    sudo mv akamai-1.2.1-linuxamd64 /usr/local/bin/akamai
+    echo "Installing Akamai Cache Purge...."
+    akamai install purge
+  displayName : Install Akamai CLI
+
+- bash: |
+    az config set extension.use_dynamic_install=yes_without_prompt
+    az account set --subscription ${{parameters.azure_subscription}}
+    echo "Getting list of config files...."
+    # configs=$(az storage blob directory list -c static-content -d configs/abplatform --account-name ecmuicdnstosxeun | jq -r '.[].name')
+    configs=$(az storage blob directory list -c ${{parameters.storage_account_container}} -d ${{parameters.storage_account_path}} --account-name ${{parameters.storage_account_name}} | jq -r '.[].name')
+    echo "List of configs"
+    echo $configs
+    for config in $configs; do
+      echo "Purging ${{parameters.site_url}}/$config....."
+      akamai purge --edgerc ${{parameters.akamai_edgerc_path}} invalidate --production ${{parameters.site_url}}/$config
+    done
+  displayName : Akamai Purge URLs
+
+- bash: |
+    sleep 10
+  displayName: 'Pause 10s to allow cache to clear'

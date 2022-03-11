@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a OVERRIDE_SEO_METADATA should return the esi html 1`] = `
+"
+    <esi:try>
+      <esi:attempt> 
+        <esi:include src=\\"SITEURL/seo/seo-metadata?urlPath=/URLPATH/SHOES\\" alt=\\"SITEURL/seo/seo-metadata?urlPath=/URLPATH/SHOES\\" dca=\\"none\\"/>
+      </esi:attempt> 
+      <esi:except> 
+        <title>TITLE</title>
+        <meta name=\\"description\\" content=\\"DESCRIPTION\\"/>
+        <meta name=\\"keywords\\" content=\\"KEYWORDS\\"/>
+        <meta name=\\"robots\\" content=\\"ROOBOTS\\"/>
+        <link rel=\\"canonical\\" href=\\"siteurl/urlpath/shoes\\" />
+      </esi:except>
+    </esi:try>
+    "
+`;

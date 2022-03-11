@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrevNextSpinner should render as expected 1`] = `
+<DocumentFragment>
+  .c0 {
+  -webkit-flex: 100%;
+  -ms-flex: 100%;
+  flex: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 5rem;
+  margin: 2rem 0;
+}
+
+.c0 img {
+  width: 3rem;
+  height: 3rem;
+}
+
+<div
+    aria-valuetext="abc"
+    class="c0"
+    data-testid="testid_abc"
+    role="progressbar"
+  >
+    <img
+      alt="Loading"
+      src="/static-content/icons/shared/brand/amido/loader.gif"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Spinner should render as expected 1`] = `
+<DocumentFragment>
+  .c0 {
+  z-index: 1;
+  position: fixed;
+  margin: 0;
+  height: 100vh;
+  background: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 985px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 img {
+  margin-top: -60vh;
+  width: 3rem;
+  height: 3rem;
+}
+
+@media (max-width:1280px) {
+  .c0 {
+    width: 80vw;
+  }
+}
+
+@media (max-width:1023px) {
+  .c0 {
+    width: 100vw;
+    left: 0;
+  }
+}
+
+<div
+    aria-valuetext="abc"
+    class="c0"
+    data-testid="testid_abc"
+    role="progressbar"
+  >
+    <img
+      alt="Loading"
+      src="/static-content/icons/shared/brand/amido/loader.gif"
+    />
+  </div>
+</DocumentFragment>
+`;

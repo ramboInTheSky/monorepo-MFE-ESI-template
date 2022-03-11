@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{include seo-metadata-ui.fullname" .}}
+  labels: {{- include seo-metadata-ui.labels" . | nindent 4}}
+spec:
+  type: {{.Values.service.type}}
+  ports:
+    - port: {{.Values.service.externalPort}}
+      protocol: TCP
+      name: http
+      targetPort: {{.Values.service.internalPort}}
+  selector: {{- include seo-metadata-ui.selectorLabels" . | nindent 4}}

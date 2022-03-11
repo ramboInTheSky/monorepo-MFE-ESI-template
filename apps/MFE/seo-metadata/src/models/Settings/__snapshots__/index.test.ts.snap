@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - settings:  should match the SettingsSdkKeys 1`] = `
+Object {
+  "CacheControl": "seometadata.ui.cache-control",
+  "Enabled": "seometadata.ui.enabled",
+}
+`;

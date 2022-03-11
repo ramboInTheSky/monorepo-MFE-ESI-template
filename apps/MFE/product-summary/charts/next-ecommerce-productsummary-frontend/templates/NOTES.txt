@@ -1,0 +1,18 @@
+Application Version
+---------------------------------------
+Version: {{ .Values.image.repository }}:{{ .Chart.AppVersion }}
+Deployment Time: {{ now | quote }}
+
+Environment Variables 
+---------------------------------------
+REACT_APP_API_BASEURL: {{ .Values.application.apiBaseUrl }}
+REACT_APP_CDN_BASEURL: {{ .Values.application.cdnBaseUrl }}
+REACT_APP_BLOB_STORAGE_SSR_BASEURL: {{ .Values.application.blobStorageSSRBaseURL }}
+REACT_APP_APPINSIGHTS_KEY: {{ .Values.application.appInsightsKey }}
+REACT_APP_SERVE_PATH_PREFIX: {{ .Values.application.app_serve_path_prefix }}
+REACT_APP_USE_TIME_MACHINE_COOKIE: {{ .Values.application.useTimeMachineCookie }}
+ASSETS_PATH: {{ .Values.application.assets_path }}
+PORT: '3001'
+GENERATE_SOURCEMAP: {{ .Values.application.generate_sourcemap }}
+LOG_LEVEL: {{ .Values.application.log_level }}
+ENVIRONMENT_NAME: {{ .Values.application.environmentName }}  

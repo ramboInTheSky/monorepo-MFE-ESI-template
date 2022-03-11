@@ -1,0 +1,50 @@
+{
+  "responseHeader": {"zkConnected": true, "status": 0, "QTime": 0},
+  "response": {
+    "q": "shirt",
+    "suggestions": [
+      {"q": "shirt dress", "dq": "shirt dress"},
+      {"q": "shirt", "dq": "shirt"},
+      {"q": "denim shirt", "dq": "denim shirt"},
+      {"q": "long sleeve t shirt", "dq": "long sleeve t shirt"}
+    ],
+    "numFound": 21,
+    "products": [
+      {
+        "sale_price": 28,
+        "url": "http://localhost:3333/style/st578614/339915?_br_psugg_q=shirt+dress#339915",
+        "pid": "339915",
+        "thumb_image": "https://xcdn.amido.com/Common/Items/Default/Default/ItemImages/AltItemZoom/339915.jpg",
+        "title": "blue animal shirt dress"
+      },
+      {
+        "sale_price": 38,
+        "url": "http://localhost:3333/style/st468131/289313?_br_psugg_q=shirt+dress#289313",
+        "pid": "289313",
+        "thumb_image": "https://xcdn.amido.com/Common/Items/Default/Default/ItemImages/AltItemZoom/289313.jpg",
+        "title": "tan ditsy animal midi shirt dress"
+      },
+      {
+        "sale_price": 28,
+        "url": "http://localhost:3333/style/st578614/898408?_br_psugg_q=shirt+dress#898408",
+        "pid": "898408",
+        "thumb_image": "https://xcdn.amido.com/Common/Items/Default/Default/ItemImages/AltItemZoom/898408.jpg",
+        "title": "neutral snake shirt dress"
+      },
+      {
+        "sale_price": 38,
+        "url": "http://localhost:3333/g61152s12?_br_psugg_q=shirt+dress#665396",
+        "pid": "665396",
+        "thumb_image": "https://xcdn.amido.com/Common/Items/Default/Default/ItemImages/AltItemZoom/665396.jpg",
+        "title": "navy spot utility dress"
+      },
+      {
+        "sale_price": 38,
+        "url": "http://localhost:3333/g61426s14/791467?_br_psugg_q=shirt+dress#791467",
+        "pid": "791467",
+        "thumb_image": "https://xcdn.amido.com/Common/Items/Default/Default/ItemImages/AltItemZoom/791467.jpg",
+        "title": "blue animal shirt dress"
+      }
+    ]
+  }
+}

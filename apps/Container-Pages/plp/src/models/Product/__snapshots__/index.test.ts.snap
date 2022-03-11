@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - Product:  should match the Product 1`] = `
+Product {
+  "colourways": undefined,
+  "currencyCode": undefined,
+  "itemNumber": undefined,
+  "title": undefined,
+}
+`;
+
+exports[`Model - ProductItem:  should match the ProductItem 1`] = `
+ProductItem {
+  "html": undefined,
+  "itemNumber": undefined,
+  "newIn": undefined,
+  "type": undefined,
+}
+`;

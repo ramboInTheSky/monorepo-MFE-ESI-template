@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductReviewStars component -  should render correctly 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: auto;
+}
+
+<div
+    class="c0"
+  >
+    <div>
+      TEST STARRATING COMPONENT
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ProductReviewStars component -  should render correctly when no reviews 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: auto;
+}
+
+<div
+    class="c0 no-reviews"
+  >
+    <div>
+      TEST STARRATING COMPONENT
+    </div>
+  </div>
+</DocumentFragment>
+`;

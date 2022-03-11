@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Models/regions -  RegionsModel:  should match the RegionsModel 1`] = `
+Object {
+  "Brand": Object {
+    "background": "#fff",
+    "borderColor": "#fff",
+    "color": "#000000",
+    "containerSpacing": 1,
+  },
+  "BurgerButton": Object {
+    "background": "#fff",
+    "borderColor": "#fff",
+    "color": "#000000",
+    "containerSpacing": 1,
+  },
+  "Checkout": Object {
+    "background": "#fff",
+    "borderColor": "#fff",
+    "color": "#000000",
+    "containerSpacing": 1,
+  },
+  "CountryLangSelector": Object {
+    "background": "#fff",
+    "borderColor": "#fff",
+    "color": "#000000",
+    "containerSpacing": 1,
+  },
+  "Favourites": Object {
+    "background": "#fff",
+    "borderColor": "#fff",
+    "color": "#000000",
+    "containerSpacing": 1,
+  },
+  "PrimaryNav": Object {
+    "background": "#fff",
+    "borderColor": "#fff",
+    "color": "#000000",
+    "containerSpacing": 1,
+  },
+  "QuickLinks": Object {
+    "background": "#fff",
+    "borderColor": "#fff",
+    "color": "#000000",
+    "containerSpacing": 1,
+  },
+  "SearchBox": Object {
+    "background": "#fff",
+    "borderColor": "#fff",
+    "color": "#000000",
+    "containerSpacing": 1,
+  },
+  "ShoppingBag": Object {
+    "background": "#fff",
+    "borderColor": "#fff",
+    "color": "#000000",
+    "containerSpacing": 1,
+  },
+}
+`;
+
+exports[`Models/regions -  RegionsModel:  should snapshot the RegionsModel 1`] = `
+RegionsModel {
+  "Brand": Object {
+    "background": "#fff",
+    "borderColor": "#fff",
+    "color": "#000000",
+    "containerSpacing": 1,
+  },
+  "BurgerButton": Object {
+    "background": "#fff",
+    "borderColor": "#fff",
+    "color": "#000000",
+    "containerSpacing": 1,
+  },
+  "Checkout": Object {
+    "background": "#fff",
+    "borderColor": "#fff",
+    "color": "#000000",
+    "containerSpacing": 1,
+  },
+  "CountryLangSelector": Object {
+    "background": "#fff",
+    "borderColor": "#fff",
+    "color": "#000000",
+    "containerSpacing": 1,
+  },
+  "Favourites": Object {
+    "background": "#fff",
+    "borderColor": "#fff",
+    "color": "#000000",
+    "containerSpacing": 1,
+  },
+  "PrimaryNav": Object {
+    "background": "#fff",
+    "borderColor": "#fff",
+    "color": "#000000",
+    "containerSpacing": 1,
+  },
+  "QuickLinks": Object {
+    "background": "#fff",
+    "borderColor": "#fff",
+    "color": "#000000",
+    "containerSpacing": 1,
+  },
+  "SearchBox": Object {
+    "background": "#fff",
+    "borderColor": "#fff",
+    "color": "#000000",
+    "containerSpacing": 1,
+  },
+  "ShoppingBag": Object {
+    "background": "#fff",
+    "borderColor": "#fff",
+    "color": "#000000",
+    "containerSpacing": 1,
+  },
+}
+`;
+
+exports[`Models/regions -  SupportedRegionTypes:  should match the SupportedRegionTypes 1`] = `"Brand"`;
+
+exports[`Models/regions -  SupportedRegionTypes:  should match the SupportedRegionTypes 2`] = `"SearchBox"`;
+
+exports[`Models/regions -  SupportedRegionTypes:  should match the SupportedRegionTypes 3`] = `"QuickLinks"`;
+
+exports[`Models/regions -  SupportedRegionTypes:  should match the SupportedRegionTypes 4`] = `"Checkout"`;
+
+exports[`Models/regions -  SupportedRegionTypes:  should match the SupportedRegionTypes 5`] = `"CountryLangSelector"`;
+
+exports[`Models/regions -  SupportedRegionTypes:  should match the SupportedRegionTypes 6`] = `"Favourites"`;
+
+exports[`Models/regions -  SupportedRegionTypes:  should match the SupportedRegionTypes 7`] = `"ShoppingBag"`;
+
+exports[`Models/regions -  SupportedRegionTypes:  should match the SupportedRegionTypes 8`] = `"PrimaryNav"`;
+
+exports[`QuickLinks:  should match the snapshot - SUPPORTED_MY_ACCOUNT_TYPES 1`] = `
+Object {
+  "loggedIn": "MyAccountLoggedIn",
+  "loggedOut": "MyAccountLoggedOut",
+}
+`;
+
+exports[`QuickLinks:  should match the snapshot - SUPPORTED_QUICKLINK_TYPES 1`] = `
+Object {
+  "Link": "link",
+  "MyAccount": "MyAccount",
+}
+`;

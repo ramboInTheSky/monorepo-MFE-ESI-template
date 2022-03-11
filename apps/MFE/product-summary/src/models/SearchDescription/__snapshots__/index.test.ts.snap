@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - EnableSearchDescription:  should match the EnableSearchDescription 1`] = `
+Object {
+  "Value": false,
+}
+`;

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoResults:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  font-family: "AzoSansItalic","Helvetica Neue",Arial,sans-serif;
+  font-weight: normal;
+}
+
+<h3
+    class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom"
+    data-testid="plp-no-results-header"
+  >
+    We found no results that closely match your search for 
+    <i
+      class="c0"
+    >
+      "TEST SEARCH TERM"
+    </i>
+  </h3>
+  <h5
+    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+  >
+    Suggestions:
+  </h5>
+  .c0 {
+  padding-inline-start: 1.25rem;
+}
+
+.c1 {
+  padding-bottom: 0.75rem;
+}
+
+<span
+    class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+  >
+    <ul
+      class="c0"
+    >
+      <li
+        class="c1"
+      >
+        You may have typed your word incorrectly - please check for misspellings
+      </li>
+      <li
+        class="c1"
+      >
+        You may have been too specific - please broaden your search by using fewer keywords
+      </li>
+      <li
+        class="c1"
+      >
+        Browse our products by selecting a category above
+      </li>
+      <li
+        class="c1"
+      >
+        If you know it, please search by entering a product code
+      </li>
+    </ul>
+  </span>
+</DocumentFragment>
+`;

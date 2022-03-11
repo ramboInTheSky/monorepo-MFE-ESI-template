@@ -1,0 +1,20 @@
+{
+  "name": "footer_container_server",
+  "version": "0.0.0",
+  "description": "this is the cache server that proxyies through to Header UI and does the ESI replacement",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0",
+    "morgan": "^1.10.0",
+    "nodesi": "^1.13.0"
+  }
+}

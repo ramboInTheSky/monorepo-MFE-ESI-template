@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given some Global Styles When rendering on a page should attach expected CSS rules to the header 1`] = `
+HTMLCollection [
+  @media (min-width:1024px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:1024px) {
+
+}
+
+<style
+    data-styled="active"
+    data-styled-version="5.1.0"
+  >
+    body{margin:0;font-synthesis:none;}
+    img:-moz-loading{visibility:hidden;}
+    *{box-sizing:border-box;}
+    .platform_modernisation_plp button:focus,.platform_modernisation_plp a:focus{outline:none;}
+    .platform_modernisation_plp *[data-focus-visible-added]:not(input):focus{outline:2px solid #1d89dd;}
+    .platform_modernisation_plp input[data-focus-visible-added]:focus + label{outline:2px solid #1d89dd;}
+    .platform_modernisation_plp input[data-focus-visible-added][type="button"]:focus{outline:2px solid #1d89dd;}
+    #header-entrypoint{position:fixed;z-index:3;}
+    #footer-entrypoint{position:relative;}
+    @media (min-width:1024px){#footer-entrypoint{z-index:2;}}
+    #plp-entrypoint,#plp-entrypoint:focus{outline:0;}
+    #plp-entrypoint[data-container-page]{position:relative;margin-top:0;padding-top:5.5rem;}
+    @media (min-width:768px){#plp-entrypoint[data-container-page]{padding-top:6.5625rem;}}
+    @media (min-width:1024px){#plp-entrypoint[data-container-page]{padding-top:6.5625rem;}}
+  </style>,
+]
+`;

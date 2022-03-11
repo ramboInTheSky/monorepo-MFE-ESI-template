@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter Tooltip Components Given a CloseIcon should match the snapshot correctly 1`] = `
+<DocumentFragment>
+  .c0 {
+  height: 13.4px;
+  width: 13.4px;
+}
+
+<img
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Filter Tooltip Components Given a CloseIconButton should match the snapshot correctly 1`] = `
+<DocumentFragment>
+  .c0 {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  padding-right: 0.9375rem;
+}
+
+<button
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Filter Tooltip Components Given a FacetTooltip should match the snapshot correctly 1`] = `
+<DocumentFragment>
+  .c0 {
+  opacity: 1;
+  position: absolute;
+  right: 1.3125rem;
+  padding-top: 0rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  z-index: 0;
+}
+
+<img
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Filter Tooltip Components Given a Tooltip should match the snapshot correctly 1`] = `
+<DocumentFragment>
+  .c0 {
+  z-index: 4;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Filter Tooltip Components Given a TooltipArrowNoShadow When LTR it should match the snapshot correctly 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 1.1875rem;
+  height: 1.1875rem;
+  margin: -1.5625rem 0.875rem 0.6875rem 15.0625rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-left: solid 0.0625rem gray;
+  border-bottom: solid 0.0625rem gray;
+  background-color: white;
+  position: absolute;
+  z-index: 3;
+}
+
+<span
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Filter Tooltip Components Given a TooltipArrowNoShadow When RTL it should match the snapshot correctly 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 1.1875rem;
+  height: 1.1875rem;
+  margin: -1.5625rem 0.875rem 0.6875rem 15.0625rem;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  border-left: solid 0.0625rem gray;
+  border-bottom: solid 0.0625rem gray;
+  background-color: white;
+  position: absolute;
+  z-index: 3;
+}
+
+<span
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Filter Tooltip Components Given a TooltipArrowShadow When LTR it should match the snapshot correctly 1`] = `
+<DocumentFragment>
+  .c0 {
+  box-shadow: 0rem 0.1875rem 0.25rem 0rem #888888;
+  width: 1.1875rem;
+  height: 1.1875rem;
+  margin: -1.5625rem 0.875rem 0.6875rem 15.0625rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-left: solid 0.0625rem gray;
+  border-bottom: solid 0.0625rem gray;
+  background-color: white;
+  position: absolute;
+  z-index: 2;
+}
+
+<span
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Filter Tooltip Components Given a TooltipArrowShadow When RTL it should match the snapshot correctly 1`] = `
+<DocumentFragment>
+  .c0 {
+  box-shadow: 0rem 0.1875rem 0.25rem 0rem #888888;
+  width: 1.1875rem;
+  height: 1.1875rem;
+  margin: -1.5625rem 0.875rem 0.6875rem 15.0625rem;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  border-left: solid 0.0625rem gray;
+  border-bottom: solid 0.0625rem gray;
+  background-color: white;
+  position: absolute;
+  z-index: 2;
+}
+
+<span
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Filter Tooltip Components Given a TooltipBody should match the snapshot correctly 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 14.875rem;
+  margin: 0.0625rem 0.8125rem 0 0.125rem;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Filter Tooltip Components Given a TooltipTitle should match the snapshot correctly 1`] = `
+<DocumentFragment>
+  .c0 {
+  height: 1.3125rem;
+  margin: 1rem 0rem 0.75rem 0.125rem;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 1.4;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Filter Tooltip Components Given a TooltipTitleWrapper should match the snapshot correctly 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Filter Tooltip Components Given a TooltipWrapper should match the snapshot correctly 1`] = `
+<DocumentFragment>
+  .c0 {
+  box-shadow: 0rem 0.1875rem 0.25rem 0.0625rem #888888;
+  position: absolute;
+  left: 15.625rem;
+  width: 16.9375rem;
+  padding: 0 0.25rem 1rem 0.875rem;
+  border: solid 0.0625rem gray;
+  border-radius: 0.25rem;
+  background-color: white;
+  z-index: 2;
+  margin-top: -3.3rem;
+  min-height: 5.3125rem;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;

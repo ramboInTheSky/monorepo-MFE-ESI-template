@@ -1,0 +1,67 @@
+{
+  "name": "@monorepo/accordion",
+  "version": "7.3.0",
+  "description": "Accordion based on material UI Expansion Panel",
+  "author": "",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "module": "./lib/index.es.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build-lib": "rollup -c && yalc push --safe --replace",
+    "build-ci": "rollup -c rollup.config.prod.js",
+    "watch": "rollup -cw",
+    "lint": "eslint --ext .tsx,.ts src/",
+    "tsc": "tsc",
+    "test": "jest src/"
+  },
+  "devDependencies": {
+    "@monorepo/babelconfig": "^3.3.0",
+    "@monorepo/eslint": "^3.3.0",
+    "@testing-library/jest-dom": "5.1.1",
+    "@testing-library/react": "9.4.0",
+    "@types/jest": "24.9.1",
+    "@types/node": "12.12.28",
+    "@types/react": "16.9.34",
+    "@typescript-eslint/parser": "2.19.2",
+    "babel-jest": "24.9.0",
+    "babel-plugin-styled-components": "1.10.7",
+    "jest": "24.9.0",
+    "jest-coverage-ratchet": "0.2.3",
+    "jest-junit": "10.0.0",
+    "ts-jest": "24.3.0",
+    "typescript": "3.8.2",
+    "yalc": "^1.0.0-pre.53"
+  },
+  "peerDependencies": {
+    "@mui/material": "^5.2.8",
+    "@mui/styles": "^5.2.3",
+    "@monorepo/core-logger": "^7.3.0",
+    "@monorepo/utils": "^6.4.0",
+    "@testing-library/react": "9.4.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "styled-components": "^5.1.0"
+  },
+  "dependencies": {
+    "@monorepo/core-logger": "^7.3.0",
+    "@monorepo/utils": "^6.4.0",
+    "@testing-library/react": "9.4.0"
+  },
+  "jest": {
+    "setupFiles": [
+      "./setupTests.ts"
+    ],
+    "setupFilesAfterEnv": [
+      "./setupTestsAfterEnv.ts"
+    ],
+    "moduleNameMapper": {
+      "@mockData/(.*)": "<rootDir>/__mocks__/$1",
+      "@app/(.*)$": "<rootDir>/src/$1"
+    }
+  },
+  "gitHead": ""
+}

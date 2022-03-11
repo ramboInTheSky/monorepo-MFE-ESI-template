@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - features:  should match the SupportedFeatureSwitch 1`] = `
+SupportedFeatureSwitch {
+  "SearchBar": FeatureSwitchData {
+    "Autocomplete": SearchBarType {
+      "MaxItems": 0,
+      "ProductsMaxItems": ProductsMaxItemsData {
+        "lg": 0,
+        "md": 0,
+        "sm": 0,
+        "xl": 0,
+        "xs": 0,
+      },
+    },
+    "RecentSearch": SearchBarType {
+      "MaxItems": 0,
+      "ProductsMaxItems": ProductsMaxItemsData {
+        "lg": 0,
+        "md": 0,
+        "sm": 0,
+        "xl": 0,
+        "xs": 0,
+      },
+    },
+    "Value": "",
+  },
+}
+`;
+
+exports[`Model - features:  should match the SupportedFeatureTypes 1`] = `
+Object {
+  "SearchBar": "SearchBar",
+}
+`;
+
+exports[`Model - features:  should match the SupportedFeatures 1`] = `
+SupportedFeatures {
+  "features": SupportedFeatureSwitch {
+    "SearchBar": FeatureSwitchData {
+      "Autocomplete": SearchBarType {
+        "MaxItems": 0,
+        "ProductsMaxItems": ProductsMaxItemsData {
+          "lg": 0,
+          "md": 0,
+          "sm": 0,
+          "xl": 0,
+          "xs": 0,
+        },
+      },
+      "RecentSearch": SearchBarType {
+        "MaxItems": 0,
+        "ProductsMaxItems": ProductsMaxItemsData {
+          "lg": 0,
+          "md": 0,
+          "sm": 0,
+          "xl": 0,
+          "xs": 0,
+        },
+      },
+      "Value": "",
+    },
+  },
+}
+`;

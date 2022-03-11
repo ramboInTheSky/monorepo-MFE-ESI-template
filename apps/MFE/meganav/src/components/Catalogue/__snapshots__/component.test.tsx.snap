@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Catalogue component:  Column should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="component__Column-sc-1e724dy-2 bwlVOK"
+  />
+</DocumentFragment>
+`;
+
+exports[`Catalogue component:  Container should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="component__Container-sc-1e724dy-1 glcbds"
+  />
+</DocumentFragment>
+`;
+
+exports[`Catalogue component:  Container should match the snapshot when it has Missions 1`] = `
+<DocumentFragment>
+  <div
+    class="component__Container-sc-1e724dy-1 kTrXNe"
+  />
+</DocumentFragment>
+`;
+
+exports[`Catalogue component:  Hr should match the snapshot  1`] = `
+<DocumentFragment>
+  <hr
+    class="component__Hr-sc-1e724dy-0 dXejSx"
+  />
+</DocumentFragment>
+`;

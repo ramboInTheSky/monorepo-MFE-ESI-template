@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuickLink:  Link:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <a
+    class="MuiTypography-root MuiLink-root MuiLink-underlineHover components__Link-ytnyaj-0 imVFdS MuiTypography-colorPrimary"
+    href="/sad"
+  >
+    Batman
+  </a>
+</DocumentFragment>
+`;
+
+exports[`QuickLink:  QuickLinkContent:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <span
+    class="components__QuickLinkContent-ytnyaj-1 bInyjx"
+  >
+    Batman
+  </span>
+</DocumentFragment>
+`;
+
+exports[`QuickLink:  QuickLinkDescription:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <h4
+    class="MuiTypography-root components__QuickLinkDescription-ytnyaj-3 kNmWGw MuiTypography-body1"
+  >
+    Batman
+  </h4>
+</DocumentFragment>
+`;
+
+exports[`QuickLink:  QuickLinkImg:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <img
+    class="components__QuickLinkImg-ytnyaj-4 gUQesl"
+    src="/imgs/myjpg.jpg"
+  />
+</DocumentFragment>
+`;
+
+exports[`QuickLink:  QuickLinkTitle:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <p
+    class="MuiTypography-root components__QuickLinkTitle-ytnyaj-2 BdIes MuiTypography-body1"
+  >
+    anc
+  </p>
+</DocumentFragment>
+`;

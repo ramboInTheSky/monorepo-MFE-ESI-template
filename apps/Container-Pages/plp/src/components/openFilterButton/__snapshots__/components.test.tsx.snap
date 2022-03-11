@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filters Components ButtonContainer 1`] = `
+<DocumentFragment>
+  .c0 {
+  border-top: 0.0625rem solid #d1d1d1;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  cursor: pointer;
+}
+
+<div
+    class="c0"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Filters Components OpenFiltersButton 1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  background: #ffffff;
+  border: .0625rem solid #000000;
+  color: #000000;
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  font-size: 0.75rem;
+  height: 2.25rem;
+  text-transform: uppercase;
+  width: 7.0625rem;
+  margin-bottom: 0.375rem;
+}
+
+.c0.c0:hover,
+.c0.c0:active,
+.c0.c0:focus {
+  background: #ffffff;
+  border: .0625rem solid #000000;
+  color: #000000;
+}
+
+<button
+    class="MuiButtonBase-root MuiButton-root MuiButton-text c0"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      Test
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+</DocumentFragment>
+`;

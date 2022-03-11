@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given Constants should match expected CACHE_HEADER_CACHE_TAGS 1`] = `"edge-cache-tag"`;
+
+exports[`Given Constants should match expected CACHE_HEADER_LAST_MODIFIED 1`] = `"last-modified"`;

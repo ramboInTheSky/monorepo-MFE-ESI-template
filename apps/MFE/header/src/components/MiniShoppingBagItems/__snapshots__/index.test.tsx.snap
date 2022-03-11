@@ -1,0 +1,337 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - MiniShoppingBagItems:  Items in the Bag- MiniShoppingBagItems:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 0.0625rem solid #eaeaea;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: inherit;
+  font-size: 12px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c3:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c5 {
+  height: 2.75rem;
+  width: 5.375rem;
+}
+
+.c4 {
+  padding: 1rem;
+}
+
+.c8 {
+  white-space: nowrap;
+  padding-right: 0.938rem;
+}
+
+.c9 {
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  margin: 0.25rem 0 0 0;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  color: #d88f31;
+}
+
+.c6 {
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.c6.c6 > p {
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  color: #515151;
+  word-break: break-all;
+  padding-right: 0.613rem;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c7 > h3:first-child {
+  word-wrap: break-word;
+  max-width: 10.3125rem;
+  padding-right: 0.625rem;
+}
+
+.c7 > h3:last-child {
+  white-space: nowrap;
+}
+
+.c0 {
+  color: #000000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-radius: 0.25rem;
+  background-color: #f7f7f7;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-size: 0.875rem;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 0 1rem;
+}
+
+.c12 {
+  font-size: 0.75rem;
+  padding: 0 1rem 0.5rem 1.125rem;
+  border-bottom: .0625rem solid #9e9e9e;
+}
+
+.c12.c12 > p {
+  font-size: 0.75rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+  word-break: break-all;
+}
+
+.c1 {
+  min-width: 100%;
+  overflow-y: auto;
+  -ms-overflow-style: auto;
+  -webkit-scrollbar-width: auto;
+  -moz-scrollbar-width: auto;
+  -ms-scrollbar-width: auto;
+  scrollbar-width: auto;
+  max-width: 19.875rem;
+  border-bottom: 0.0625rem solid #eaeaea;
+  background-color: #f7f7f7;
+}
+
+.c1 > div:first-child {
+  border-top: 0;
+}
+
+.c1::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 0.475rem;
+}
+
+.c1::-webkit-scrollbar-thumb {
+  border-radius: 0.25rem;
+  background-color: rgba(0,0,0,0.5);
+  box-shadow: 0 0 1px rgba(255,255,255,0.5);
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1"
+      data-testid="header-mini-shopping-bag-items"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="undefined#436441"
+        >
+          <div
+            class="c4"
+          >
+            <img
+              alt="UGO Herman Melange Jacket"
+              class="c5"
+              data-testid="header-mini-shopping-bag-item-image"
+            />
+          </div>
+        </a>
+        <div
+          class="c6"
+        >
+          <div
+            class="c7"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5"
+              data-testid="header-mini-shopping-bag-item-description"
+            >
+              UGO Herman Melange Jacket
+            </h5>
+            <div
+              class="c8"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 MuiTypography-alignRight"
+              />
+            </div>
+          </div>
+          <p
+            class="MuiTypography-root MuiTypography-body1"
+          >
+            Size: 10 S
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body1"
+          >
+            Qty: 5
+          </p>
+          <div
+            class="c9"
+          >
+            In Stock at LEICESTER - HIGH CROSS SHOPPING CENTRE
+          </div>
+        </div>
+      </div>
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="undefined#436461"
+        >
+          <div
+            class="c4"
+          >
+            <img
+              alt="UGO Herman Melange Jacket"
+              class="c5"
+              data-testid="header-mini-shopping-bag-item-image"
+            />
+          </div>
+        </a>
+        <div
+          class="c6"
+        >
+          <div
+            class="c7"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5"
+              data-testid="header-mini-shopping-bag-item-description"
+            >
+              UGO Herman Melange Jacket
+            </h5>
+            <div
+              class="c8"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 MuiTypography-alignRight"
+              />
+            </div>
+          </div>
+          <p
+            class="MuiTypography-root MuiTypography-body1"
+          >
+            Size: 10 S
+          </p>
+          <p
+            class="MuiTypography-root MuiTypography-body1"
+          >
+            Qty: 5
+          </p>
+          <div
+            class="c9"
+          >
+            Delayed 
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c10"
+    >
+      <h5
+        class="MuiTypography-root MuiTypography-h5"
+      >
+        Promotional Savings
+      </h5>
+      <h5
+        class="MuiTypography-root MuiTypography-h5"
+        data-testid="header-mini-shopping-bag-multibuy-discount"
+      >
+        -£1.00
+      </h5>
+    </div>
+    <div
+      class="c11"
+    >
+      <span>
+        Total
+      </span>
+      <span
+        data-testid="header-mini-shopping-bag-total"
+      >
+        £89.00
+      </span>
+    </div>
+    <div
+      class="c12"
+    >
+      <span>
+        Excluding UK Standard Delivery (Normally £3.99)
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;

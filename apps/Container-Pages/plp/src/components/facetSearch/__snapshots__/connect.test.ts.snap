@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given connect - mapStateToProps() should project state and only return filters 1`] = `
+Object {
+  "displayName": "",
+  "facets": Object {
+    "opt1": Object {
+      "c": 1,
+      "d": false,
+      "incompatibleWith": Array [],
+      "n": "opt1",
+      "v": "opt1",
+    },
+    "opt2": Object {
+      "c": 1,
+      "d": false,
+      "incompatibleWith": Array [
+        "opt3",
+      ],
+      "n": "opt2",
+      "v": "opt2",
+    },
+    "opt3": Object {
+      "c": 1,
+      "d": false,
+      "incompatibleWith": Array [
+        "opt2",
+      ],
+      "n": "opt3",
+      "v": "opt3",
+    },
+  },
+  "searchFacets": Array [
+    Object {
+      "n": "opt1",
+      "v": "opt1",
+    },
+    Object {
+      "n": "opt2",
+      "v": "opt2",
+    },
+    Object {
+      "n": "opt3",
+      "v": "opt3",
+    },
+  ],
+  "text": Object {
+    "assetsAlt": Object {
+      "chevron": "Accordion chevron icon",
+      "closeIcon": "Close icon",
+    },
+    "buttons": Object {
+      "backToTop": "Back to top",
+      "clear": "Clear",
+      "clearAll": "Clear All",
+      "close": "Close",
+      "confirm": "Confirm",
+      "openFilters": "Open Filters",
+      "viewAll": "View all",
+      "viewLess": "View less",
+      "viewMore": "View more",
+      "viewProducts": "Products",
+      "viewResults": "View",
+    },
+    "imageAlts": Object {
+      "backToTopIcon": "Arrow up",
+      "sortCheck": "check icon",
+      "spinner": "Loading",
+      "tabbedSearchBrands": "Search Icon",
+    },
+    "labels": Object {
+      "clearText": "Clear All",
+      "close": "Close",
+      "filterMenu": "Filter",
+      "filtersMobileTitle": "Filter Products",
+      "loadingNextPage": "Loading next page...",
+      "loadingPreviousPage": "Loading previous page...",
+      "loadingProducts": "Loading products...",
+      "loadingResults": "Loading results...",
+      "next": "View Amido",
+      "noOptionsAvailable": "This option isn't available with your current selection(s)",
+      "previous": "View Previous",
+      "products": "Products",
+      "shopNow": "Shop Now",
+      "sortMenu": "Sort",
+    },
+    "pages": Object {
+      "collaspedFilters": Object {
+        "from": "From",
+      },
+      "filters": Object {
+        "clearText": "Clear",
+        "priceFilterAriaLabels": Object {
+          "ariaLabelMax": "Set maximum value",
+          "ariaLabelMin": "Set minimum value",
+        },
+        "priceRange": "Price Range:",
+        "searchBrands": "Search Brands",
+      },
+      "noResults": Object {
+        "body": Object {
+          "item1": "You may have typed your word incorrectly - please check for misspellings",
+          "item2": "You may have been too specific - please broaden your search by using fewer keywords",
+          "item3": "Browse our products by selecting a category above",
+          "item4": "If you know it, please search by entering a product code",
+        },
+        "header": "We found no results that closely match your search for",
+        "subHeader": "Suggestions:",
+      },
+      "products": Object {
+        "noResults": "We found no results matching your search.",
+        "showingResultsFor": "Showing results for",
+        "showingResultsNearestMatches": "Showing results for nearest matches",
+        "zeroResultsFor": "0 results for",
+      },
+      "searchBanners": Object {
+        "readLess": "- Read less",
+        "readMore": "+ Read more",
+      },
+      "seoMetaData": Object {
+        "genderValues": Object {
+          "babyboys": "Baby Boys'",
+          "babygirls": "Baby Girls'",
+          "babyunisex": "Baby",
+          "boys": "Boys'",
+          "girls": "Girls'",
+          "men": "Men's",
+          "newbornboys": "Baby Boys'",
+          "newborngirls": "Baby Girls'",
+          "newbornunisex": "Baby",
+          "olderboys": "Older Boys'",
+          "oldergirls": "Older Girls'",
+          "unisex": "Unisex",
+          "women": "Women's",
+          "youngerboys": "Younger Boys'",
+          "youngergirls": "Younger Girls'",
+        },
+      },
+      "viewAllModal": Object {
+        "all": "All",
+        "alphabet": "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z",
+        "noResults": "No results",
+        "remove": "Remove",
+        "searchForA": "Search for a",
+        "selected": "Selected",
+      },
+    },
+  },
+}
+`;

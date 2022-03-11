@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given <CategoryQuickLinks /> by default should match the snapshot 1`] = `
+<DocumentFragment>
+  .c3 {
+  width: 7.5rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c4 {
+  width: 7.5rem;
+  height: 11.25rem;
+}
+
+.c5 {
+  width: 100%;
+}
+
+.c6 {
+  font-size: 0.875rem;
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  line-height: 1.3125rem;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+  margin-top: 0.625rem;
+}
+
+.c6:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c0 {
+  width: 100%;
+}
+
+.c0 >:not(:first-child) {
+  margin-top: 0.875rem;
+}
+
+.c0 .swiper-container {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.c0 .swiper-wrapper {
+  height: auto;
+}
+
+.c0 .swiper-slide {
+  width: 7.5rem;
+}
+
+.c0 .swiper-slide:last-child {
+  margin-right: 0 !important;
+}
+
+.c0 .swiper-button-prev,
+.c0 .swiper-button-next {
+  color: #000;
+  width: 1.75rem;
+  height: 2.25rem;
+  background: rgba(255,255,255,1);
+  display: none;
+  top: 38%;
+}
+
+.c0 .swiper-button-prev.swiper-button-disabled,
+.c0 .swiper-button-next.swiper-button-disabled {
+  display: none;
+}
+
+.c0 .swiper-button-prev:after,
+.c0 .swiper-button-next:after {
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.c0 .swiper-button-prev {
+  left: 0;
+  border-left: 0;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.c0 .swiper-button-prev:after {
+  margin-left: -0.125rem;
+}
+
+.c0 .swiper-button-next {
+  right: 0;
+  border-right: 0;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.c0 .swiper-button-next:after {
+  margin-right: -0.125rem;
+}
+
+.c1 {
+  font-size: 1rem;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-weight: 500;
+  line-height: 1.5rem;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c2 {
+  width: 100%;
+  overflow-x: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width:768px) {
+  .c3 {
+    width: 11.25rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 {
+    width: 11.25rem;
+    height: 16.875rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 .swiper-slide {
+    width: 11.25rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 .swiper-button-prev,
+  .c0 .swiper-button-next {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media all and (-ms-high-contrast:none) {
+  .c0 .swiper-button-prev,
+  .c0 .swiper-button-next {
+    position: absolute;
+    top: 36%;
+    width: 1.6875rem;
+    margin-top: -1.375rem;
+    z-index: 10;
+    cursor: pointer;
+    background-size: 1.25rem 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .c0 .swiper-button-prev.swiper-button-disabled,
+  .c0 .swiper-button-next.swiper-button-disabled {
+    opacity: 0.35;
+    cursor: auto;
+    pointer-events: none;
+  }
+
+  .c0 .swiper-button-prev,
+  .c0 .swiper-container-rtl .swiper-button-next {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E");
+    left: -0.0625rem;
+    right: auto;
+  }
+
+  .c0 .swiper-button-next,
+  .c0 .swiper-container-rtl .swiper-button-prev {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E");
+    right: -0.0625rem;
+    left: auto;
+  }
+}
+
+<div
+    class="c0"
+    data-testid="plp-category-quick-links"
+  >
+    <h1
+      class="MuiTypography-root c1 MuiTypography-body1"
+    >
+      Shop Now
+    </h1>
+    <div
+      class="c2"
+    >
+      <div
+        class="swiper"
+      >
+        <div
+          class="swiper-slide"
+        >
+          <a
+            class="c3"
+            data-testid="plp-category-quick-link-item"
+            href="/women/0"
+          >
+            <div
+              class="c4"
+            >
+              <img
+                alt="women"
+                class="c5"
+                data-testid="plp-category-quick-link-item-image"
+                src="/some/image/src.jpg"
+              />
+            </div>
+            <p
+              class="MuiTypography-root c6 MuiTypography-body1"
+              data-testid="plp-category-quick-link-item-title"
+            >
+              Women
+            </p>
+          </a>
+        </div>
+        <div
+          class="swiper-slide"
+        >
+          <a
+            class="c3"
+            data-testid="plp-category-quick-link-item"
+            href="/women/1"
+          >
+            <div
+              class="c4"
+            >
+              <img
+                alt="women"
+                class="c5"
+                data-testid="plp-category-quick-link-item-image"
+                src="/some/image/src.jpg"
+              />
+            </div>
+            <p
+              class="MuiTypography-root c6 MuiTypography-body1"
+              data-testid="plp-category-quick-link-item-title"
+            >
+              Women
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

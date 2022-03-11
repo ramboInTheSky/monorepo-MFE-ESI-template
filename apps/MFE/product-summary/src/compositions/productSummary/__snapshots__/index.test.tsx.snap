@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages: Product Summary -  When I try provide the data to the Product Summary and an error has occured:  should show the default Product Summary 1`] = `
+<DocumentFragment>
+  <div>
+    TEST PRODUCT
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Pages: Product Summary -  When the Product Summary renders with regions  should show the default Product Summary 1`] = `
+<DocumentFragment>
+  <div>
+    TEST PRODUCT
+  </div>
+</DocumentFragment>
+`;

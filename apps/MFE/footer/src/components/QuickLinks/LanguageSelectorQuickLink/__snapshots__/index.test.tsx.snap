@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - LanguageSelectorQuicklink:  should match the snapshot template 1`] = `
+<DocumentFragment>
+  <div
+    aria-label="Select Language"
+    class="components__LanguageSelectorWrapper-g9j3h5-0 bcqvDc"
+    data-testid="footer-quick-links-language-selector"
+  >
+    <div
+      class="MuiGrid-root components__LanguageSelectorElement-g9j3h5-2 bVDeWU"
+    >
+      <img
+        alt="Select Language"
+        aria-hidden="true"
+        class="components__LanguageSelectorImg-g9j3h5-1 kbpJUb"
+        src="/static-content/icons/footer/amido/default/account_circle"
+      />
+      <h4
+        class="MuiTypography-root components__LanguageSelectorTitle-g9j3h5-4 XkARD MuiTypography-h4"
+        data-testid="quicklinktext"
+      >
+        Select Language
+      </h4>
+      <h6
+        class="MuiTypography-root components__LanguageSelectorDescription-g9j3h5-5 jZoRIz MuiTypography-subtitle1"
+      >
+        es
+      </h6>
+    </div>
+    <div
+      class="MuiGrid-root components__LanguageSelectorElement-g9j3h5-2 bVDeWU"
+    >
+      <span>
+        zzz | 
+      </span>
+      <a
+        class="MuiTypography-root MuiLink-root MuiLink-underlineHover components__LanguageSelectorLink-g9j3h5-3 gIOjmS altLanguageLink MuiTypography-colorPrimary"
+        data-testid="footer-quick-links-alt-language-link"
+        href="http://abc.superman.com"
+      >
+        <strong>
+          <!--mp_trans_disable_start-->
+          zzz
+          <!--mp_trans_disable_end-->
+        </strong>
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

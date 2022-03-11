@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - Icon:  should match the snapshot 1`] = `
+<DocumentFragment>
+  <img
+    alt="sample-alt-text"
+    class="component__Container-sc-1gwcfqo-0 hPzrHm"
+    src="/sample-image-url"
+    width="0.4375"
+  />
+</DocumentFragment>
+`;

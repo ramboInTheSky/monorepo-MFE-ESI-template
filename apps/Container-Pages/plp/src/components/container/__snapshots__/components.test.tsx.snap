@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshots - Container PlpContainerComponent when pageinfiltersbreakpoint is lg  1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  padding: 0;
+}
+
+<div
+    class="MuiContainer-root c0 MuiContainer-maxWidthLg"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Snapshots - Container PlpContainerComponent when pageinfiltersbreakpoint is md 1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  padding: 0;
+}
+
+<div
+    class="MuiContainer-root c0 MuiContainer-maxWidthLg"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;

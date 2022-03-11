@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given Constants Should match expected should match PRODUCT_SUMMARY_ID 1`] = `"plp-product-summary-entrypoint"`;
+
+exports[`Given Constants Should match expected should match expected CACHE_HEADER_CACHE_TAGS 1`] = `"edge-cache-tag"`;
+
+exports[`Given Constants Should match expected should match expected CACHE_HEADER_LAST_MODIFIED 1`] = `"last-modified"`;
+
+exports[`Given Constants Should match expected should match expected COLOUR_CHIP_PREFIX 1`] = `"AltItemSwatch/21x21"`;
+
+exports[`Given Constants Should match expected should match expected COLOURCHIP_GREY_PLACEHOLDER_URL 1`] = `"/Common/Items/Default/Default/ItemImages/AltItemSwatch/21x21/greySquarePlaceholder.jpg"`;
+
+exports[`Given Constants Should match expected should match expected COLOURCHIP_UNEXPANDED_HEIGHT 1`] = `48`;
+
+exports[`Given Constants Should match expected should match expected DEPARTMENT_HOMEWARE 1`] = `"homeware"`;
+
+exports[`Given Constants Should match expected should match expected DEPARTMENT_MENSWEAR 1`] = `"menswear"`;
+
+exports[`Given Constants Should match expected should match expected FAV_TIMER_LENGTH 1`] = `1000`;
+
+exports[`Given Constants Should match expected should match expected FIT_ICON_PLACEHOLDER_URL 1`] = `"/images/shared/transparent-image.png"`;
+
+exports[`Given Constants Should match expected should match expected Fits 1`] = `
+Object {
+  "Petite": "Petite",
+  "Regular": "Regular",
+  "Tall": "Tall",
+}
+`;
+
+exports[`Given Constants Should match expected should match expected FitsIcons 1`] = `
+Object {
+  "Petite": "next_fit-petite.svg",
+  "Tall": "next_fit-tall.svg",
+}
+`;
+
+exports[`Given Constants Should match expected should match expected GTM_ADD_FAVOURITES 1`] = `"addFavourites"`;
+
+exports[`Given Constants Should match expected should match expected GTM_ERROR_ADD_FAVOURITES 1`] = `"errorAddFromFavourites"`;
+
+exports[`Given Constants Should match expected should match expected GTM_ERROR_REMOVE_FAVOURITES 1`] = `"errorRemoveFromFavourites"`;
+
+exports[`Given Constants Should match expected should match expected GTM_FAVOURITES 1`] = `"favourites"`;
+
+exports[`Given Constants Should match expected should match expected GTM_PRODUCT_CLICK_EVENT 1`] = `"ee-productClick"`;
+
+exports[`Given Constants Should match expected should match expected GTM_PRODUCT_IMPRESSIONS_EVENT 1`] = `"ee-productImpression"`;
+
+exports[`Given Constants Should match expected should match expected GTM_REMOVE_FAVOURITES 1`] = `"removeFromFavourites"`;
+
+exports[`Given Constants Should match expected should match expected IMAGE_EXTENSION 1`] = `".jpg"`;
+
+exports[`Given Constants Should match expected should match expected LANG_EN 1`] = `"en"`;
+
+exports[`Given Constants Should match expected should match expected LANGUAGE_HEADER 1`] = `"x-monorepo-language"`;
+
+exports[`Given Constants Should match expected should match expected LAZY_SIZES_CLASSNAME 1`] = `"lazyload"`;
+
+exports[`Given Constants Should match expected should match expected LG_IMAGE_PATH 1`] = `"224x336"`;
+
+exports[`Given Constants Should match expected should match expected LTR 1`] = `"ltr"`;
+
+exports[`Given Constants Should match expected should match expected MADE_TO_MEASURE 1`] = `"madeToMeasure"`;
+
+exports[`Given Constants Should match expected should match expected MAX_LIMIT_FAVOURITES_FALLBACK 1`] = `150`;
+
+exports[`Given Constants Should match expected should match expected PLP_DEFAULT_TITLE_CONTAINER 1`] = `"plp-results-title-container"`;
+
+exports[`Given Constants Should match expected should match expected PRODUCT_IMAGE_GREY_PLACEHOLDER_URL 1`] = `"/Common/Items/Default/Default/ItemImages/Search/224x336/greyPlaceholder.jpg?X56"`;
+
+exports[`Given Constants Should match expected should match expected PRODUCT_SCROLLBAR_SIZE 1`] = `24`;
+
+exports[`Given Constants Should match expected should match expected PRODUCT_SUMMARY_CACHE_TAG 1`] = `"productsummaryui"`;
+
+exports[`Given Constants Should match expected should match expected SHOW_INITIAL_COLOURCHIPS 1`] = `18`;
+
+exports[`Given Constants Should match expected should match expected SOFA_COLOUR_CHIP_PREFIX 1`] = `"SofaSwatchView"`;
+
+exports[`Given Constants Should match expected should match expected SWIPER_LAZYLOAD_CLASSNAME 1`] = `"swiper-lazy"`;
+
+exports[`Given Constants Should match expected should match expected SaleSashPosition 1`] = `
+Object {
+  "BL": "BL",
+  "BR": "BR",
+  "TL": "TL",
+  "TR": "TR",
+}
+`;
+
+exports[`Given Constants Should match expected should match expected SofaType 1`] = `"sofa"`;

@@ -1,0 +1,70 @@
+{
+  "id": "c_j667975_t351045",
+  "itemNumber": "667975",
+  "title": "Check Suit: Jacket",
+  "brand": null,
+  "department": null,
+  "currencyCode": "GBP",
+  "type": "Suit",
+  "colourways": [
+    {
+      "fits": [
+        "Slim Fit"
+      ],
+      "itemNumber": "667975",
+      "title": "Mid Blue Slim Fit Check Suit: Jacket",
+      "colour": "Mid Blue",
+      "url": "g27517s7/667975",
+      "itemPrice": {
+        "minPrice": 74,
+        "maxPrice": 74,
+        "saleMinPrice": null,
+        "saleMaxPrice": null,
+        "wasMinPrice": null,
+        "wasMaxPrice": null
+      },
+      "type": "SuitJacket",
+      "associatedColourway": {
+        "itemPrice": {
+          "minPrice": 35,
+          "maxPrice": 35,
+          "saleMinPrice": null,
+          "saleMaxPrice": null,
+          "wasMinPrice": null,
+          "wasMaxPrice": null
+        },
+        "type": "SuitTrousers"
+      }
+    },
+    {
+      "fits": [
+        "Slim Fit",
+        "Regular Fit"
+      ],
+      "itemNumber": "549770",
+      "title": "Navy/Black Slim Fit Check Suit: Jacket",
+      "colour": "Navy/Black",
+      "url": "g27517s8/549770",
+      "itemPrice": {
+        "minPrice": 80,
+        "maxPrice": 80,
+        "saleMinPrice": null,
+        "saleMaxPrice": null,
+        "wasMinPrice": null,
+        "wasMaxPrice": null
+      },
+      "type": "SuitJacket",
+      "associatedColourway": {
+        "itemPrice": {
+          "minPrice": 40,
+          "maxPrice": 40,
+          "saleMinPrice": null,
+          "saleMaxPrice": null,
+          "wasMinPrice": null,
+          "wasMaxPrice": null
+        },
+        "type": "SuitTrousers"
+      }
+    }
+  ]
+}

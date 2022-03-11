@@ -1,0 +1,2955 @@
+{
+  "Empire": {
+    "EmpireName": "MONOREPO.PRODUCTSUMMARY.FRONTEND",
+    "Settings": {
+      "productsummary.frontend.imageCdnUrl": {
+        "Value": "https://xcdn.amido.com/Common/Items/Default/Default/ItemImages/"
+      },
+      "productsummary.frontend.appCacheTTL": {
+        "Value": 0
+      },
+      "productsummary.frontend.themeVersion": {
+        "Value": "v1.0.0"
+      },
+      "productsummary.frontend.textData": {
+        "Value": "default-text"
+      },
+      "productsummary.frontend.cache-control.max-age": {
+        "Value": "172800"
+      },
+      "productsummary.frontend.cache-control.default-productsummary.max-age": {
+        "Value": "no-store"
+      },
+      "productsummary.frontend.saleSash": {
+        "Value": "FLASH_LEFT_EN.png"
+      },
+      "productsummary.frontend.saleSashPosition": {
+        "Value": "TL"
+      },
+      "productsummary.frontend.enableFavourites": {
+        "Value": true
+      },
+      "productsummary.frontend.enableReviewStars": {
+        "Value": false
+      },
+      "productsummary.frontend.enableCenteredContent": {
+        "Value": false
+      },
+      "productsummary.frontend.lazyloadConfig": {
+        "Value": {
+          "colourchips": true,
+          "productImages": false,
+          "fitIcons": true
+        }
+      },
+      "productsummary.frontend.enableSearchDescription": {
+        "Value": true
+      },
+      "productsummary.frontend.enableBrandsDisplay": {
+        "Value": false
+      }
+    },
+    "Realms": [
+      {
+        "RealmName": "amido",
+        "Settings": {
+          "productsummary.frontend.realmName": {
+            "Value": "amido"
+          }
+        },
+        "Territories": [
+          {
+            "TerritoryName": "AE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  },
+                  "productsummary.frontend.saleSashPosition": {
+                    "Value": "TL"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_RIGHT_AR.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "rtl"
+                  },
+                  "productsummary.frontend.saleSashPosition": {
+                    "Value": "TR"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "AE"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ],
+              "productsummary.frontend.lazyloadConfig": {
+                "Value": {
+                  "colourchips": true,
+                  "productImages": false,
+                  "fitIcons": false
+                }
+              }
+            }
+          },
+          {
+            "TerritoryName": "AM",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "AM"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "AR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "AR"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "AT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "de",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "de"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "AT"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "6"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "AU",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "AU"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "AZ",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_LEFT_RU.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "AZ"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "BE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "fr",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "fr"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_LEFT_FR.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "BE"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.frontend.textData": {
+                "Value": "text-no-price-was-desktop"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "9"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "BG",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "bg",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "bg"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "BG"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "2"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "BH",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_LEFT_AR.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "BH"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "BR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "BR"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "BY",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_LEFT_RU.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "BY"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "CA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "fr",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "fr"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_LEFT_FR.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "CA"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "9"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "CH",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "de",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "de"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "CH"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "6"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "CL",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "CL"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "CY",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "CY"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "CZ",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "cs",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "cs"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "CZ"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "3"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "DE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  },
+                  "productsummary.frontend.lazyloadConfig": {
+                    "Value": {
+                      "colourchips": false
+                    }
+                  }
+                }
+              },
+              {
+                "LanguageName": "de",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "de"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "DE"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.frontend.textData": {
+                "Value": "text-no-price-was-desktop"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "6"
+                }
+              ],
+              "productsummary.frontend.lazyloadConfig": {
+                "Value": {
+                  "colourchips": false,
+                  "productImages": false,
+                  "fitIcons": false
+                }
+              }
+            }
+          },
+          {
+            "TerritoryName": "DK",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "da",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "da"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "DK"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "5"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "EE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_LEFT_RU.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "EE"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "EG",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_LEFT_AR.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "EG"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "ES",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "es",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "es"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "ES"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "8"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "FI",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "FI"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "FR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "fr",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "fr"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_LEFT_FR.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "FR"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "9"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "GB",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "GB"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "Search"
+              },
+              "productsummary.frontend.textData": {
+                "Value": "default-text"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+              "productsummary.frontend.lazyloadConfig": {
+                "Value": {
+                  "colourchips": false,
+                  "productImages": false,
+                  "fitIcons": false
+                }
+              }
+            }
+          },
+          {
+            "TerritoryName": "GE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "GE"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "GI",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "GI"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "GR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "el",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "el"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "GR"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "20"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "HK",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "zh",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "zh"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "HK"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.frontend.textData": {
+                "Value": "text-no-price-was-desktop"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "4"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "HR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "HR"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "HU",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "hu",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "hu"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "HU"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "12"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "ID",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "ID"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "IE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "IE"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.frontend.textData": {
+                "Value": "text-no-price-was-desktop"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "IL",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "he",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "he"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "IL"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "10"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "IN",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "IN"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "IS",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "IS"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "IT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "it",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "it"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "IT"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "11"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "JP",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ja",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "ja"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "JP"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "23"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "KR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ko",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "ko"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "KR"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "22"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "KW",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_LEFT_AR.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "KW"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "KZ",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_LEFT_RU.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "KZ"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "LB",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_LEFT_AR.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "LB"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "LT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_LEFT_RU.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "LT"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "LU",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "fr",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "fr"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_LEFT_FR.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "LU"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "9"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "LV",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_LEFT_RU.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "LV"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "MT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "MT"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "MX",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "es",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "es"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "MX"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "8"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "MY",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ms",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "ms"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "MY"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "1"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "NL",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "nl",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "nl"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_LEFT_NL.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "NL"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.frontend.textData": {
+                "Value": "text-no-price-was-desktop"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "13"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "NO",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "NO"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "NZ",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "NZ"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "OM",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_LEFT_AR.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "OM"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "PE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "PE"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "PH",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "PH"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "PK",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "PK"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "PL",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "pl",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "pl"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_LEFT_PL.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "PL"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.frontend.textData": {
+                "Value": "text-no-price-was-desktop"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "14"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "PT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "PT"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "QA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_LEFT_AR.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "QA"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "RO",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ro",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "ro"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "RO"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "15"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "RS",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "RS"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "RU",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_LEFT_RU.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "RU"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.frontend.textData": {
+                "Value": "text-no-price-was-desktop"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "SA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_LEFT_AR.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "SA"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "SE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "sv",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "sv"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "SE"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "19"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "SG",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "SG"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "SI",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "sl",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "sl"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "SI"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.frontend.textData": {
+                "Value": "text-no-price-was-desktop"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "18"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "SK",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "sk",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "sk"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_LEFT_SK.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "SK"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.frontend.textData": {
+                "Value": "text-no-price-was-desktop"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "17"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "TH",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "TH"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "TR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "TR"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "TW",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "zh",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "zh"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "TW"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "4"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "UA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "productsummary.frontend.saleSash": {
+                    "Value": "FLASH_LEFT_RU.png"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "UA"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "US",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "US"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.frontend.textData": {
+                "Value": "text-no-price-was-desktop"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "ZA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "productsummary.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "productsummary.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "productsummary.frontend.territoryName": {
+                "Value": "ZA"
+              },
+              "productsummary.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "productsummary.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Personas": [
+    {
+      "PersonaName": "CustomerA",
+      "Settings": {
+        "productsummary.frontend.direction": {
+          "Value": "rtl"
+        },
+        "productsummary.enableMainMenu": {
+          "Value": "false"
+        }
+      }
+    },
+    {
+      "PersonaName": "ReviewsEnabled",
+      "Settings": {
+        "productsummary.frontend.enableReviewStars": {
+          "Value": true
+        }
+      }
+    },
+    {
+      "PersonaName": "FavouritesDisabled",
+      "Settings": {
+        "productsummary.frontend.enableFavourites": {
+          "Value": false
+        }
+      }
+    },
+    {
+      "PersonaName": "BatchOneRelease",
+      "Settings": {
+        "productsummary.frontend.enableFavourites": {
+          "Value": true
+        },
+        "productsummary.frontend.enableReviewStars": {
+          "Value": false
+        }
+      }
+    },
+    {
+      "PersonaName": "BatchOneReleasePrdSumOnly",
+      "Settings": {
+        "productsummary.frontend.enableFavourites": {
+          "Value": true
+        },
+        "productsummary.frontend.enableReviewStars": {
+          "Value": false
+        }
+      }
+    },
+    {
+      "PersonaName": "PolandRelease",
+      "Settings": {
+        "productsummary.frontend.enableFavourites": {
+          "Value": true
+        },
+        "productsummary.frontend.enableReviewStars": {
+          "Value": true
+        }
+      }
+    },
+    {
+      "PersonaName": "PolandReleasePrdSumOnly",
+      "Settings": {
+        "productsummary.frontend.enableFavourites": {
+          "Value": true
+        },
+        "productsummary.frontend.enableReviewStars": {
+          "Value": true
+        }
+      }
+    },
+    {
+      "PersonaName": "UKRelease",
+      "Settings": {
+        "productsummary.frontend.enableFavourites": {
+          "Value": true
+        },
+        "productsummary.frontend.enableReviewStars": {
+          "Value": true
+        }
+      }
+    },
+    {
+      "PersonaName": "UKReleasePrdSumOnly",
+      "Settings": {
+        "productsummary.frontend.enableFavourites": {
+          "Value": true
+        },
+        "productsummary.frontend.enableReviewStars": {
+          "Value": true
+        }
+      }
+    }
+  ]
+}

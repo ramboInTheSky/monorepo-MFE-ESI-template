@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model: SEOData should match the SEOData 1`] = `
+SEOData {
+  "id": "",
+  "items": Array [
+    SEOItems {
+      "items": Array [
+        SecondarySEOItems {
+          "target": "",
+          "title": "",
+        },
+      ],
+      "target": "",
+      "title": "",
+    },
+  ],
+  "language": "",
+  "realm": "",
+  "target": "",
+  "territory": "",
+  "title": "",
+  "viewType": "",
+}
+`;
+
+exports[`Model: SEOData should match the SEOItems 1`] = `
+SEOItems {
+  "items": Array [
+    SecondarySEOItems {
+      "target": "",
+      "title": "",
+    },
+  ],
+  "target": "",
+  "title": "",
+}
+`;
+
+exports[`Model: SEOData should match the SecondarySEOItems 1`] = `
+SecondarySEOItems {
+  "target": "",
+  "title": "",
+}
+`;

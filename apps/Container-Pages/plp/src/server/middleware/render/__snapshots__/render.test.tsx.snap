@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a renderMiddleware When language header is set should match the snapshot 1`] = `
+"L
+lang=\\"en-gb\\"
+MY APP RENDERED HTML
+{\\"testState\\":\\"test\\",\\"search\\":{\\"includedComponents\\":[\\"seo-metadata\\"],\\"seoFilters\\":null}}
+<style id=\\"plp-jss-server-side-custom\\" data-reactroot=\\"\\">NaN</style>
+{\\"mockAppProps\\":\\"EXPECTED SSR PROPS\\",\\"appScope\\":\\"plp\\"}
+
+/productsummary
+"
+`;
+
+exports[`Given a renderMiddleware When running as middleware should call response send with expected html 1`] = `
+"L
+
+MY APP RENDERED HTML
+{\\"testState\\":\\"test\\",\\"search\\":{\\"includedComponents\\":[\\"seo-metadata\\"],\\"seoFilters\\":null}}
+<style id=\\"plp-jss-server-side-custom\\" data-reactroot=\\"\\">NaN</style>
+{\\"mockAppProps\\":\\"EXPECTED SSR PROPS\\",\\"appScope\\":\\"plp\\"}
+
+/productsummary
+"
+`;
+
+exports[`Given a renderMiddleware When running as middleware should call response send with expected html for IE 1`] = `
+"L
+
+MY APP RENDERED HTML
+{\\"testState\\":\\"test\\",\\"search\\":{\\"includedComponents\\":[\\"seo-metadata\\"],\\"seoFilters\\":null}}
+<style id=\\"plp-jss-server-side-custom\\" data-reactroot=\\"\\">NaN</style>
+{\\"mockAppProps\\":\\"EXPECTED SSR PROPS\\",\\"appScope\\":\\"plp\\"}
+
+/productsummary
+"
+`;
+
+exports[`Given a renderMiddleware When running as middleware snapshotgetState 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [],
+    Array [],
+    Array [],
+    Array [],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Object {
+        "search": Object {
+          "includedComponents": Array [
+            "seo-metadata",
+          ],
+        },
+        "testState": "test",
+      },
+    },
+    Object {
+      "type": "return",
+      "value": Object {
+        "search": Object {
+          "includedComponents": Array [
+            "seo-metadata",
+          ],
+        },
+        "testState": "test",
+      },
+    },
+    Object {
+      "type": "return",
+      "value": Object {
+        "search": Object {
+          "includedComponents": Array [
+            "seo-metadata",
+          ],
+        },
+        "testState": "test",
+      },
+    },
+    Object {
+      "type": "return",
+      "value": Object {
+        "search": Object {
+          "includedComponents": Array [
+            "seo-metadata",
+          ],
+        },
+        "testState": "test",
+      },
+    },
+  ],
+}
+`;

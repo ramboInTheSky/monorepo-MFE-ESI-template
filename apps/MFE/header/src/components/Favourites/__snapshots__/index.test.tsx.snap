@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - Favourites:  should match the snapshot when enableFavourites is false 1`] = `<DocumentFragment />`;
+
+exports[`Components - Favourites:  should match the snapshot when enableFavourites is true 1`] = `
+<DocumentFragment>
+  .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.c1 a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 2.75rem;
+}
+
+.c1 img {
+  width: 5.375rem;
+  height: 2.75rem;
+  padding: 0.625rem 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (min-width:768px) {
+  .c1 a {
+    height: 2.75rem;
+    margin: 10rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 img {
+    width: 5.375rem;
+    height: 2.75rem;
+  }
+}
+
+<div
+    class="c0 favourites"
+    data-testid="header-favourites"
+  >
+    <div
+      class="PrivateHiddenCss-mdUp-8"
+    >
+      <div
+        class="c1"
+        data-testid="header-favourites-container"
+      >
+        <a
+          href="http://superman.com/favourites"
+          rel="nofollow"
+        >
+          <img
+            alt="favourites"
+            src="/inactive"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

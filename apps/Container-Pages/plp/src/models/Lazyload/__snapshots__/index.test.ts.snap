@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - Lazyload:  should match the FILTERING 1`] = `"filtering"`;
+
+exports[`Model - Lazyload:  should match the NEXT_PAGE 1`] = `"next_page"`;
+
+exports[`Model - Lazyload:  should match the NO_LAZYLOAD 1`] = `"no-lazyload"`;
+
+exports[`Model - Lazyload:  should match the PREV_PAGE 1`] = `"prev_page"`;

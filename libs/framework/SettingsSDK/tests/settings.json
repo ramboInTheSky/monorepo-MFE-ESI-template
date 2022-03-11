@@ -1,0 +1,117 @@
+﻿{
+  "Empire": {
+    "EmpireName": "BrowseAndShop",
+    "Realms": [
+      {
+        "RealmName": "Desktop",
+        "Territories": [
+          {
+            "TerritoryName": "GB",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "amidoo.browsing.textdirection": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "amidoo.browseandshop.currencycode": {
+                "Value": "GBP"
+              },
+              "amidoo.browseandshop.currencysymbol": {
+                "Value": "£"
+              },
+              "amidoo.browseandshop.dateformat": {
+                "Value": "dd/mm/yyyy"
+              },
+              "amidoo.sales.xmas.gb": {
+                "Value": "false",
+                "TimedValues": [
+                  {
+                    "Value": "true",
+                    "cronStart": "0 0 25 12 *",
+                    "cronEnd": "0 0 26 12 *"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "TerritoryName": "RU",
+            "Languages": [
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "amidoo.browsing.textdirection": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "amidoo.browseandshop.currencycode": {
+                "Value": "RUB"
+              },
+              "amidoo.browseandshop.currencysymbol": {
+                "Value": "$"
+              },
+              "amidoo.browseandshop.dateformat": {
+                "Value": "dd-mm-yyyy"
+              },
+              "amidoo.sales.xmas.orthodox.ru": {
+                "Value": "false",
+                "TimedValues": [
+                  {
+                    "Value": "true",
+                    "cronStart": "0 0 25 12 *",
+                    "cronEnd": "0 0 26 12 *"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "RealmName": "Mobile",
+        "Territories": null,
+        "Settings": {}
+      }
+    ],
+    "Settings": {
+      "errorEmail": {
+        "Value": "error@monorepo.co.uk"
+      }
+    }
+  },
+  "Personas": [
+    {
+      "PersonaName": "Grinch",
+      "Settings": {
+        "amidoo.sales.xmas.gb": {
+          "Value": false
+        },
+        "amidoo.sales.xmas.orthodox.ru": {
+          "Value": false
+        }
+      }
+    },
+    {
+      "PersonaName": "Santa",
+      "Settings": {
+        "amidoo.sales.xmas.gb": {
+          "Value": true
+        },
+        "amidoo.sales.xmas.orthodox.ru": {
+          "Value": true
+        },
+        "amidoo.browsing.textdirection": {
+          "Value": "rtl"
+        }
+      }
+    }
+  ]
+}

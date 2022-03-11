@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LogoutQuickLink:  LogoutContainer:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__LogoutContainer-sc-19qf9d4-2 iGbDKo"
+  />
+</DocumentFragment>
+`;
+
+exports[`LogoutQuickLink:  LogoutHidden:  should match the snapshot  1`] = `<DocumentFragment />`;
+
+exports[`LogoutQuickLink:  LogoutWrapper:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="components__LogoutWrapper-sc-19qf9d4-1 kehuth"
+  />
+</DocumentFragment>
+`;

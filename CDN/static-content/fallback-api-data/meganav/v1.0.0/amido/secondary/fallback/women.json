@@ -1,0 +1,2359 @@
+{
+  "id": "9c347efd-7516-4214-870c-a9c20c3713fe",
+  "title": "WOMEN",
+  "target": "/women",
+  "viewType": "secondary-navigation",
+  "realm": "next",
+  "territory": "MX",
+  "language": "en",
+  "items": [
+    {
+      "title": "WOMEN",
+      "type": "tab",
+      "items": [
+        {
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "excludeFrom": ["WideView"],
+              "title": "",
+              "type": "category",
+              "items": [
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Womens New In",
+                  "type": "link",
+                  "target": "/shop/gender-women/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "bolder",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "All Clothing",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Clothing",
+                  "type": "link",
+                  "target": "/shop/gender-women-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New In",
+                  "type": "link",
+                  "target": "/shop/gender-women/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Blouses & Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-shirtsandblouses-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Coats & Jackets ",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-coatsandjackets-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Dresses ",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-dresses-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Hoodies & Sweatshirts ",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-sweatshirtsandhoodies-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Jeans",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-jeans-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sweaters & Cardigans",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-knitwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Jumpsuits & Rompers",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-jumpsuitsandplaysuits-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Leggings & Joggers",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-trousersleggings/category-jeans-category-joggers-category-leggings",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Lingerie",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-lingerie-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Pyjamas & Nightwear",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-nightwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Loungewear",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-loungewear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Shoes & Boots",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Shorts",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-shorts-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Skirts",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-shortsandskirts/category-skirts",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Activewear & Joggers",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-sportswear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Suits & Workwear",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-tailoring-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Swim & Beachwear",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-swimwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Tops & T-Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-tops-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Pants & Leggings",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-trousersleggings-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Accessories",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-accessories-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Occasionwear",
+                  "type": "link",
+                  "target": "/shop/gender-women/use-occasionwear",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["NarrowView"],
+              "title": "All Clothing",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Clothing",
+                  "type": "link",
+                  "target": "/shop/gender-women-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New In",
+                  "type": "link",
+                  "target": "/shop/gender-women/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Blouses & Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-shirtsandblouses-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Coats & Jackets ",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-coatsandjackets-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Dresses ",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-dresses-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Hoodies & Sweatshirts ",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-sweatshirtsandhoodies-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Jeans",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-jeans-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sweaters & Cardigans",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-knitwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Jumpsuits & Rompers",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-jumpsuitsandplaysuits-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Pants & Leggings",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-trousersleggings-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Shorts & Skirts",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-shortsandskirts-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Activewear & Joggers",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-sportswear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Suits & Workwear",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-tailoring-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Swim & Beachwear",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-swimwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Dresses",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Dresses",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-dresses-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New Dresses",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-dresses/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Maxi Dresses",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-dresses/length-maxi",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Midi Dresses",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-dresses/length-midi",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Shirt Dresses",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-dresses/style-shirtdress",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Wrap Dresses",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-dresses/style-wrap",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Denim Dresses",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-dresses/style-denim",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Black Dresses",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-dresses/colour-black",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Occasion Dresses",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-dresses/use-occasionwear",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Casual Summer Dresses",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-dresses/use-casual",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Linen Dresses",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-dresses/madewith-linen",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        },
+        {
+          "excludeFrom": ["NarrowView"],
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "excludeFrom": ["NarrowView"],
+              "title": null,
+              "type": "category",
+              "items": [
+                {
+                  "title": "Tops & T-Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-tops-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["NarrowView"],
+              "title": "Shoes & Accessories",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Shoes",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New In",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sandals",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear/category-sandals",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Boots",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear/category-boots",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Flats",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear/category-sandals-category-shoes-heel-flat",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Heels",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear/category-sandals-category-shoes-heel-high-heel-low-heel-mid",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sneakers",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear/category-trainers",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Wedges & Flatforms",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear/category-sandals-category-shoes-style-flatforms-style-platforms-style-wedge",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "All Accessories",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-accessories-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Bags",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-accessories/category-bags",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Hats, Gloves & Scarves",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-hatsglovesscarves-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        },
+        {
+          "excludeFrom": ["WideView"],
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "excludeFrom": ["NarrowView"],
+              "title": "Lingerie & Sleepwear",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Lingerie",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-lingerie-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "All Sleepwear and Lounge",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-nightwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Slippers",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-nightwear/category-slippers",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Socks, Tights & Pantyhose",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-hosieryandsocks/category-socks",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "title": "Tops & Tshirts",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Tops",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-tops-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New In",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-tops/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "T-Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-tops/category-tshirts",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Blouses & Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-shirtsandblouses-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Camis & Vests",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-tops/category-vests",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Tunics",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-tops/category-tunics",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sweaters",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-knitwear/category-jumpers",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Cardigans",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-knitwear/category-cardigans",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sweat Tops & Hoodies",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-sweatshirtsandhoodies-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "title": "Jeans",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Jeans",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-jeans-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New In",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-jeans/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Black Jeans",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-jeans/colour-black",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Skinny",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-jeans/fit-skinny",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Straight",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-jeans/fit-straight",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Crop",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-jeans/fit-crop",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Bootcut",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-jeans/fit-bootcut",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Slim",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-jeans/fit-slim",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Mom",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-jeans/fit-mom",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Shape Enhancer",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-jeans/style-shapeenhancer",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Jeggings",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-jeans/style-jeggings",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Petite",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-jeans/sizetype-petite",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "title": "Pants & Leggings",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Pants & Leggings",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-trousersleggings",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New In",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-trousersleggings/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Pants",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-trousers-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Leggings",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-leggings-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Jeans",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-jeans-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Joggers",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-joggers-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Linen ",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-trousers/madewith-linen",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Chino ",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-trousers/style-chino",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Cropped ",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-trousers/fit-crop",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "title": "Nightwear & Loungewear",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Nightwear",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-nightwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "All Loungewear",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-loungewear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New In",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-nightwear/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Pyjamas",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-nightwear/category-pyjamas",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Leggings",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-leggings-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Joggers",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-trousersleggings/category-joggers",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Hoodies",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-sweatshirtsandhoodies/category-hoodies",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sweat Tops",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-sweatshirtsandhoodies/category-sweattops",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Nighties & Slips",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-nightwear/category-nighties-category-nightshirts-category-slips",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Dressing Gowns",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-nightwear/category-robes",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Slippers",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-nightwear/category-slippers",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        },
+        {
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Footwear",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Shoes",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New In",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Boots",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear/category-boots",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sneakers",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear/category-trainers",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sandals",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear/category-sandals",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Wedges & Flatforms",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear/category-sandals-category-shoes-style-flatforms-style-platforms-style-wedge",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Mules",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear/category-sandals-category-shoes-category-trainers-style-mules",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Flip Flops & Sliders",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear/category-sandals-style-flipflop-style-sliders",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Slippers",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear/category-slippers",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Flats",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear/category-sandals-category-shoes-heel-flat",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Heels",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear/category-sandals-category-shoes-heel-high-heel-low-heel-mid",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Leather",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear/madewith-leather",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Wide Fit & Extra Wide Fit",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear/fit-regularwide-fit-wide-fit-xwide",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Forever Comfort",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear/style-forevercomfort",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Shorts & Skirts",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Shorts & Skirts",
+                  "type": "link",
+                  "target": "/shop/gender-women/category-shorts-category-skirts-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New Shorts & Skirts",
+                  "type": "link",
+                  "target": "/shop/gender-women/category-shorts-category-skirts-feat-newin-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "All Shorts",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-shorts",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Denim Shorts",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-shorts/designfeature-denim",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Linen Shorts",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-shorts/madewith-linen",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "All Skirts",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-skirts-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Midi Skirts",
+                  "type": "link",
+                  "target": "/shop/gender-women/category-skirts-length-midi-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Maxi Skirts",
+                  "type": "link",
+                  "target": "/shop/gender-women/category-skirts-length-maxi-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Swim & Beach",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Swimwear",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-swimwear/category-bikinis-category-swimsuits-category-tankinis",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "All Beachwear",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-swimwear",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Swimsuits",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-swimwear/category-swimsuits",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Bikinis",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-swimwear/category-bikinis",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Tankinis",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-swimwear/category-tankinis",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Cover Ups",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-swimwear/category-coverups",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Beach Towels",
+                  "type": "link",
+                  "target": "/shop/department-homeware-productaffiliation-bathroomtextiles/category-beachtowels",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Dresses",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-swimwear/category-dresses",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Tshirts & Vests",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-tops/category-tshirts-category-vests-sleeve-shortsleeve-sleeve-strappy",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Shorts",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-shortsandskirts/category-shorts",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Beach Bags",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-holidayshop/category-bags",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sandals",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-holidayshop/category-sandals",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Maternity",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Maternity",
+                  "type": "link",
+                  "target": "/shop/sizetype-maternity-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "All Nursing",
+                  "type": "link",
+                  "target": "/shop/gender-women/use-nursingwear",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Bras",
+                  "type": "link",
+                  "target": "/shop/gender-women/category-bras-use-maternitybras",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Maternity Dresses",
+                  "type": "link",
+                  "target": "/shop/gender-women/category-dresses-sizetype-maternity",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Maternity Tops",
+                  "type": "link",
+                  "target": "/shop/gender-women/category-blouses-category-shirts-category-tshirts-sizetype-maternity",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Maternity Jeans",
+                  "type": "link",
+                  "target": "/shop/gender-women/category-jeans-sizetype-maternity-isort-score",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Maternity Trousers & Leggings",
+                  "type": "link",
+                  "target": "/shop/gender-women/category-joggers-category-leggings-category-trousers-sizetype-maternity",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Maternity Nightwear",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-nightwear/sizetype-maternity",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Nursing Bras",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-lingerie/category-bras-use-nursingwear",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Nursing Tops",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-tops/use-nursingwear",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Shop Baby",
+                  "type": "link",
+                  "target": "/shop/gender-newbornboys-gender-newborngirls-gender-newbornunisex-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Shop Nursery",
+                  "type": "link",
+                  "target": "/shop/department-homeware-productaffiliation-nurseryandbaby-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Lingerie",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Lingerie",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-lingerie-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New In",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-lingerie/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "All Bras",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-lingerie/category-bras",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "All Knickers",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-lingerie/category-briefs-category-knickers",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Shapewear",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-lingerie/category-shapewearsolutions",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Socks, Tights & Pantyhose",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-hosieryandsocks/category-socks",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Comfort Bras",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-lingerie/category-bras-use-comfortbras",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Bralettes",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-lingerie/category-bras-style-bralettes",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "T-Shirt Bras",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-lingerie/category-bras-use-tshirtbras",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sports Bras",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-lingerie/category-bras-style-sportsbra",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Multipack Bras",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-lingerie/benefit-multipack-category-bras",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Lace & Embroidery Bras",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-lingerie/category-bras-pattern-embroidery-pattern-lace",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Strapless & Multiway Bras",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-lingerie/category-bras-use-straplessmultiway",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Maternity & Nursing Bras",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-lingerie/category-bras-sizetype-maternity",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Multipack Knickers",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-lingerie/category-knickers-benefit-multipack",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Comfort Knickers",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-lingerie/category-knickers-use-comfortknickers",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Thongs",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-lingerie/category-knickers-style-thong",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Bodies",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-lingerie/category-bodies",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Slips & Camis",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-lingerie/category-camisandvests-category-slips",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Accessories",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Accessories",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-accessories-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New In Accessories",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-accessories/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Socks & Tights",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-hosieryandsocks-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Bags",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-accessories/category-bags",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Hats, Gloves & Scarves",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-hatsglovesscarves-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Jewellery",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-jewellery-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Purses",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-accessories/category-purses",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Belts",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-accessories/category-belts",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Hair Accessories",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-accessories/category-hairaccessories",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Luggage",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-accessories/category-luggage",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Umbrella",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-accessories/category-umbrellas",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["NarrowView"],
+              "title": "Lingerie & Sleepwear",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Lingerie",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-lingerie-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "All Sleepwear and Lounge",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-nightwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Slippers",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-nightwear/category-slippers",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Socks, Tights & Pantyhose",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-hosieryandsocks/category-socks",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["NarrowView"],
+              "title": "Petite, Tall & Curve",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Petite",
+                  "type": "link",
+                  "target": "/shop/gender-women/sizetype-petite",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Tall",
+                  "type": "link",
+                  "target": "/shop/sizetype-longxlong-sizetype-tall/gender-women",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Curve",
+                  "type": "link",
+                  "target": "/shop/gender-women/sizetype-curve-sizetype-plussizes",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["NarrowView"],
+                  "title": "Maternity",
+                  "type": "link",
+                  "target": "/shop/gender-women/sizetype-maternity",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["NarrowView"],
+              "title": "Trending",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Summer Indigo Blues",
+                  "type": "link",
+                  "target": "/shop/promotion-summerindigoblues-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        },
+        {
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Sportswear",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Womens Sports",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-performancesportswear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New In",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-sportswear/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sneakers",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-sportswear/category-trainers",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Tops & Vests",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-sportswear/category-fleeces-category-poloshirts-category-rugbyshirts-category-tanktops-category-thermals-category-tshirts-category-vests",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Leggings, Joggers & Shorts",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-performancesportswear/category-joggers-category-leggings-category-shorts",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Hoodies & Sweatshirts",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-sportswear/category-hoodies-category-sweattops",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Jackets",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-sportswear/category-gilets-category-jackets",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sports Bras",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-sportswear/category-bras",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Swimwear",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-sportswear/category-swimshorts-category-swimsuits",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Accessories",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-accessories/use-sportswear",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Next NX Sport",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-sportswear/brand-amido",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Petite, Tall & Curve",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Petite",
+                  "type": "link",
+                  "target": "/shop/gender-women/sizetype-petite",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Tall",
+                  "type": "link",
+                  "target": "/shop/sizetype-longxlong-sizetype-tall/gender-women",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Curve",
+                  "type": "link",
+                  "target": "/shop/gender-women/sizetype-curve-sizetype-plussizes",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["NarrowView"],
+                  "title": "Maternity",
+                  "type": "link",
+                  "target": "/shop/gender-women/sizetype-maternity",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Shop by Brand",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Shop Womens Brands",
+                  "type": "link",
+                  "target": "/shop/gender-women-editorial-label",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New In",
+                  "type": "link",
+                  "target": "/shop/gender-women-editorial-label/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "A-Z Brands",
+                  "type": "link",
+                  "target": "/brands/all",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "adidas",
+                  "type": "link",
+                  "target": "/shop/gender-women-brand-adidas-brand-adidasgolf-brand-adidasoriginals-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "River Island",
+                  "type": "link",
+                  "target": "/shop/gender-women-brand-riverisland-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Fatface",
+                  "type": "link",
+                  "target": "/shop/gender-women-brand-fatface-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Boden",
+                  "type": "link",
+                  "target": "/shop/gender-women-brand-boden-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Calvin Klein",
+                  "type": "link",
+                  "target": "/shop/gender-women-brand-calvinklein-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Figleaves",
+                  "type": "link",
+                  "target": "/shop/gender-women-brand-figleaves-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Ted Baker",
+                  "type": "link",
+                  "target": "/shop/gender-women-brand-tedbaker-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Lipsy",
+                  "type": "link",
+                  "target": "/shop/gender-women-brand-lipsy-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Trending",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Morris & Co x Next",
+                  "type": "link",
+                  "target": "/shop/gender-women/collaboration-williammorrisxnext",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Indigo Blues",
+                  "type": "link",
+                  "target": "/shop/promotion-summerindigoblues-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Mother & Daughter ",
+                  "type": "link",
+                  "target": "/shop/promotion-motheranddaughter-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Must Have Mules",
+                  "type": "link",
+                  "target": "/shop/promotion-trendingmules-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Summer Outdoors",
+                  "type": "link",
+                  "target": "/shop/promotion-greatoutdoors-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Seamfree Lingerie",
+                  "type": "link",
+                  "target": "/shop/promotion-seamfreelingerie-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        }
+      ],
+      "missions": {
+        "noOfColumns": 3,
+        "title": "Inspire Me / Lookbook",
+        "items": [
+          {
+            "title": "Must Have Linen",
+            "imageUrl": "/nxtcms/resource/blob/4187488/197a39a57568036cd0b602793ad12819/must-have-linen-281-969s-data.jpg",
+            "target": "/shop/gender-women/madewith-linen"
+          },
+          {
+            "title": "Summer Casuals",
+            "imageUrl": "/nxtcms/resource/blob/4188366/3745b27f768d3e4aec614e50a7ed1920/summer-casuals-data.jpg",
+            "target": "/shop/gender-women-productaffiliation-clothing/use-casual"
+          },
+          {
+            "title": "Night & Lounge",
+            "imageUrl": "/nxtcms/resource/blob/4187216/2cef7cc2644b54b13f4d7b28f4c92106/womens-nightwear-793-354s-data.jpg",
+            "target": "/shop/gender-women-productaffiliation-nightwear-0"
+          }
+        ],
+        "categoryLink": {
+          "title": "THE WOMENS SHOP",
+          "target": "/women"
+        }
+      }
+    }
+  ],
+  "banner": null
+}

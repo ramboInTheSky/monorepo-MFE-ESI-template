@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - Accordion:  should match the snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    Accordion 
+    <img
+      alt="arrow"
+      src="/static-content/icons/shared/chevron.svg"
+    />
+  </div>
+</DocumentFragment>
+`;

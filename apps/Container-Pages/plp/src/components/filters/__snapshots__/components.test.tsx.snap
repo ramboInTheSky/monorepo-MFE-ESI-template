@@ -1,0 +1,421 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filters Components ClearAllLink 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: #257f39;
+  background: none;
+  border: none;
+  padding: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  line-height: 1.2;
+  -webkit-letter-spacing: 0.008rem;
+  -moz-letter-spacing: 0.008rem;
+  -ms-letter-spacing: 0.008rem;
+  letter-spacing: 0.008rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  text-align: right;
+  margin-top: 0.25rem;
+}
+
+[dir="rtl"] .c0 {
+  margin-left: 0;
+  margin-right: 1rem;
+  text-align: left;
+}
+
+.c0:hover {
+  background: none;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<button
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Filters Components FacetContainer 1`] = `
+<DocumentFragment>
+  .c0 {
+  z-index: 1;
+  margin-left: 1rem;
+  width: calc(100% - 2rem);
+  height: 100%;
+}
+
+<div
+    class="c0"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Filters Components FilterFlexContainer 1`] = `
+<DocumentFragment>
+  .c0 {
+  min-width: 0;
+  position: relative;
+  display: none;
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    display: inherit;
+    -webkit-flex: 1 0 25%;
+    -ms-flex: 1 0 25%;
+    flex: 1 0 25%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    -webkit-flex: 1 0 25%;
+    -ms-flex: 1 0 25%;
+    flex: 1 0 25%;
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    -webkit-flex: 1 0 20%;
+    -ms-flex: 1 0 20%;
+    flex: 1 0 20%;
+  }
+}
+
+<div
+    class="MuiBox-root MuiBox-root-1 c0"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Filters Components FiltersContainer has more top padding when totalProductHeight is above 24 1`] = `
+<DocumentFragment>
+  .c0 {
+  background: #ffffff;
+  max-width: 13.400625rem;
+  visibility: unset;
+  padding-top: 73px;
+  position: fixed;
+  width: calc(20% - 2.5rem);
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    width: calc(75% - 2.5rem);
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    width: calc(25% - 2.5rem);
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    width: calc(20% - 2.5rem);
+  }
+}
+
+<div
+    class="c0"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Filters Components FiltersContainer in absolute position when showOpenFilterBtn is false 1`] = `
+<DocumentFragment>
+  .c0 {
+  background: #ffffff;
+  max-width: 13.400625rem;
+  visibility: unset;
+  padding-top: 49px;
+  position: fixed;
+  width: calc(20% - 2.5rem);
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    width: calc(75% - 2.5rem);
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    width: calc(25% - 2.5rem);
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    width: calc(20% - 2.5rem);
+  }
+}
+
+<div
+    class="c0"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Filters Components FiltersContainer in absolute position when showOpenFilterBtn is true 1`] = `
+<DocumentFragment>
+  .c0 {
+  background: #ffffff;
+  max-width: 13.400625rem;
+  visibility: hidden;
+  padding-top: 49px;
+  position: fixed;
+  width: calc(20% - 2.5rem);
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    width: calc(75% - 2.5rem);
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    width: calc(25% - 2.5rem);
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    width: calc(20% - 2.5rem);
+  }
+}
+
+<div
+    class="c0"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Filters Components FiltersContainer in fixed position 1`] = `
+<DocumentFragment>
+  .c0 {
+  background: #ffffff;
+  max-width: 13.400625rem;
+  visibility: unset;
+  padding-top: 49px;
+  position: fixed;
+  width: calc(20% - 2.5rem);
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    width: calc(75% - 2.5rem);
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    width: calc(25% - 2.5rem);
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    width: calc(20% - 2.5rem);
+  }
+}
+
+<div
+    class="c0"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Filters Components FiltersContainer in fixed position when showOpenFilterBtn is true 1`] = `
+<DocumentFragment>
+  .c0 {
+  background: #ffffff;
+  max-width: 13.400625rem;
+  visibility: hidden;
+  padding-top: 49px;
+  position: fixed;
+  width: calc(20% - 2.5rem);
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    width: calc(75% - 2.5rem);
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    width: calc(25% - 2.5rem);
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    width: calc(20% - 2.5rem);
+  }
+}
+
+<div
+    class="c0"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Filters Components FixedInfoContainer with a top value and falsy 'hide' value 1`] = `
+<DocumentFragment>
+  .c0 {
+  background: #ffffff;
+  border-bottom: 0.0625rem solid #d1d1d1;
+  min-height: 3.75rem;
+  margin-bottom: 0.75rem;
+  max-width: 13.400625rem;
+  padding-top: 1.175rem;
+  padding-bottom: 1rem;
+  -webkit-transform: translateY(-0.75rem);
+  -ms-transform: translateY(-0.75rem);
+  transform: translateY(-0.75rem);
+  z-index: 1;
+  margin-top: 100px;
+  position: absolute;
+  width: 100%;
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    width: calc(100% - 2rem);
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    width: calc(100% - 2rem);
+  }
+}
+
+<div
+    class="c0"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Filters Components FixedInfoContainer with no top value and falsy 'hide' value 1`] = `
+<DocumentFragment>
+  .c0 {
+  background: #ffffff;
+  border-bottom: 0.0625rem solid #d1d1d1;
+  min-height: 3.75rem;
+  margin-bottom: 0.75rem;
+  max-width: 13.400625rem;
+  padding-top: 1.175rem;
+  padding-bottom: 1rem;
+  -webkit-transform: translateY(-0.75rem);
+  -ms-transform: translateY(-0.75rem);
+  transform: translateY(-0.75rem);
+  z-index: 1;
+  margin-top: 0px;
+  position: fixed;
+  width: calc(20% - 2.5rem);
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    width: calc(75% - 2.5rem);
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    width: calc(25% - 2.5rem);
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    width: calc(20% - 2.5rem);
+  }
+}
+
+<div
+    class="c0"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Filters Components FixedInfoContainer with no top value and truthy 'hide' value 1`] = `
+<DocumentFragment>
+  .c0 {
+  background: #ffffff;
+  border-bottom: 0.0625rem solid #d1d1d1;
+  min-height: 3.75rem;
+  margin-bottom: 0.75rem;
+  max-width: 13.400625rem;
+  padding-top: 1.175rem;
+  padding-bottom: 1rem;
+  -webkit-transform: translateY(-0.75rem);
+  -ms-transform: translateY(-0.75rem);
+  transform: translateY(-0.75rem);
+  z-index: 1;
+  display: none;
+}
+
+<div
+    class="c0"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Filters Components TotalProductsResult 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;

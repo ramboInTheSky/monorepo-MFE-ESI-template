@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components/MainLinks/CountrySelector - Components should match the snapshot - CountrySelectorLanguageLink 1`] = `
+<DocumentFragment>
+  <a
+    class="MuiTypography-root MuiLink-root MuiLink-underlineHover components__CountrySelectorLanguageLink-sprnyc-0 jSxFFF MuiTypography-colorPrimary"
+  />
+</DocumentFragment>
+`;
+
+exports[`Components/MainLinks/CountrySelector - Components should match the snapshot - CountrySelectorLanguageList 1`] = `
+<DocumentFragment>
+  <li
+    class="components__CountrySelectorLanguageList-sprnyc-1 jSffgl"
+  >
+    <a
+      href="/"
+    >
+      abc
+    </a>
+  </li>
+  ,
+</DocumentFragment>
+`;

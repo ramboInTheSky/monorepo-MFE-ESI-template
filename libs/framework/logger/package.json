@@ -1,0 +1,27 @@
+{
+  "name": "@monorepo/core-logger",
+  "version": "7.3.1",
+  "description": "Shared eventing service for communication between front end components",
+  "author": "",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "module": "./lib/index.es.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build-lib": "rollup -c && yalc push --safe --replace",
+    "build-ci": "rollup -c rollup.config.prod.js",
+    "lint": "eslint --ext .tsx,.ts src/",
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "@monorepo/eslint": "^3.3.0",
+    "@types/node": "12.12.28",
+    "jest": "24.9.0",
+    "typescript": "3.8.2",
+    "yalc": "^1.0.0-pre.53"
+  },
+  "gitHead": "ddc830c814fe0ca4d5cb49e91bf965128ce83536"
+}

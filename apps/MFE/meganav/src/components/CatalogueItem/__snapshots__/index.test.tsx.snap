@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Catalogue Item should match the snapshot - catalogueListTitle value null 1`] = `
+<DocumentFragment>
+  <li
+    class="component__Container-sc-1cuh8iw-0 eEBgGL"
+    font-family="test"
+    font-weight=""
+  >
+    <a
+      data-ga-v1="sample department"
+      data-ga-v2="sample tab"
+      data-ga-v3="sample"
+      data-testid="catalogueItem-href"
+      href="/en/gb/sampler"
+      title="sample"
+    >
+      <div
+        class="component__TitleAndImageContainer-sc-1cuh8iw-2 fniIDt"
+      >
+        sample
+      </div>
+    </a>
+  </li>
+</DocumentFragment>
+`;
+
+exports[`Catalogue Item should match the snapshot - when RTL text alignment 1`] = `
+<DocumentFragment>
+  <li
+    class="component__Container-sc-1cuh8iw-0 eEBgGL"
+    font-family="test"
+    font-weight=""
+  >
+    <a
+      data-ga-v1="sample department"
+      data-ga-v2="sample tab"
+      data-ga-v3="sample"
+      data-testid="catalogueItem-href"
+      href="/en/gb/sampler"
+      title="sample"
+    >
+      <div
+        class="component__TitleAndImageContainer-sc-1cuh8iw-2 fniIDt"
+      >
+        sample
+      </div>
+    </a>
+  </li>
+</DocumentFragment>
+`;
+
+exports[`Catalogue Item should match the snapshot 1`] = `
+<DocumentFragment>
+  <li
+    class="component__Container-sc-1cuh8iw-0 bIWHTp"
+    font-family="test"
+    font-weight=""
+  >
+    <a
+      data-ga-v1="sample department"
+      data-ga-v2="sample tab"
+      data-ga-v3="sample"
+      data-testid="catalogueItem-href"
+      href="/en/gb/sampler"
+      title="sample"
+    >
+      <div
+        class="component__TitleAndImageContainer-sc-1cuh8iw-2 fniIDt"
+      >
+        sample
+      </div>
+    </a>
+  </li>
+</DocumentFragment>
+`;
+
+exports[`Catalogue Item should match the snapshot with icon 1`] = `
+<DocumentFragment>
+  <li
+    class="component__Container-sc-1cuh8iw-0 bIWHTp"
+    font-family="test"
+    font-weight=""
+  >
+    <a
+      data-ga-v1="sample department"
+      data-ga-v2="sample tab"
+      data-ga-v3="sample"
+      data-testid="catalogueItem-href"
+      href="/en/gb/sampler"
+      title="sample"
+    >
+      <div
+        class="component__TitleAndImageContainer-sc-1cuh8iw-2 fniIDt"
+      >
+        sample
+        <img
+          class="component__Image-sc-1cuh8iw-1 gLEbav"
+          src="/cool-image-path"
+        />
+      </div>
+    </a>
+  </li>
+</DocumentFragment>
+`;
+
+exports[`Catalogue Item should match the snapshot with icon if element is not on the first column 1`] = `
+<DocumentFragment>
+  <li
+    class="component__Container-sc-1cuh8iw-0 bIWHTp"
+    font-family="test"
+    font-weight=""
+  >
+    <a
+      data-ga-v1="sample department"
+      data-ga-v2="sample tab"
+      data-ga-v3="sample"
+      data-testid="catalogueItem-href"
+      href="/en/gb/sampler"
+      title="sample"
+    >
+      <div
+        class="component__TitleAndImageContainer-sc-1cuh8iw-2 fniIDt"
+      >
+        sample
+        <img
+          class="component__Image-sc-1cuh8iw-1 gLEbav"
+          src="/cool-image-path"
+        />
+      </div>
+    </a>
+  </li>
+</DocumentFragment>
+`;

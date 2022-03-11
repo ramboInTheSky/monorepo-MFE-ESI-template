@@ -1,0 +1,68 @@
+{
+  "ci": {
+    "collect": {
+      "url": [
+        "#{lh_test_target_domain}#/footercontainer"
+      ],
+      "numberOfRuns" : 5,
+      "settings": {
+          "onlyCategories": [
+              "performance", 
+              "accessibility"
+          ],
+          "emulatedFormFactor": "desktop",
+          "throttling": {
+            "cpuSlowdownMultiplier": 1
+          }
+      }
+    },
+    "assert": {
+      "assertions": {
+        "categories:performance": ["error", { "aggregationMethod": "median", "minScore": 0.90 }],
+        "first-contentful-paint": ["error", { "aggregationMethod": "median", "maxNumericValue": 750 }],
+        "first-meaningful-paint": ["error", { "aggregationMethod": "median", "maxNumericValue": 1000 }],
+        "speed-index": ["error", { "aggregationMethod": "median", "maxNumericValue": 2000 }],
+        "first-cpu-idle": ["error", { "aggregationMethod": "median", "maxNumericValue": 4000 }],
+        "interactive": ["error", { "aggregationMethod": "median", "maxNumericValue": 2000 }],
+        "max-potential-fid": ["error", { "aggregationMethod": "median", "maxNumericValue": 100 }],
+        
+        "accesskeys": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "aria-allowed-attr": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "aria-required-attr": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "aria-required-children": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "aria-required-parent": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "aria-roles": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "aria-valid-attr-value": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "aria-valid-attr": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "button-name": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "color-contrast": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "definition-list": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "dlitem": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "duplicate-id-aria": ["error", { "aggregationMethod": "median", "minScore": 1}],
+        "duplicate-id-active": ["error", { "aggregationMethod": "median", "minScore": 1}],
+        "frame-title": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "image-alt": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "input-image-alt": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "label": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "layout-table": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "link-name": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "list": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "listitem": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "meta-refresh": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "meta-viewport": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "object-alt": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "tabindex": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "td-headers-attr": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "th-has-data-cells": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "document-title": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "html-has-lang": ["error", {"aggregationMethod": "median", "minScore": 1}],
+        "html-lang-valid": ["error", {"aggregationMethod": "median", "minScore": 1}]
+      }
+    },
+    "upload": {
+      "target": "lhci",
+      "token": "",
+      "serverBaseUrl": ""
+    }
+  }
+}

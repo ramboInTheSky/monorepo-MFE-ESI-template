@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Common - AmidoThemeProvider:  When RTL, it should match the snapshot template 1`] = `
+<DocumentFragment>
+  <h2
+    class="indextest__H2-pcoxax-0 bgRxUP"
+  >
+    Text
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Common - AmidoThemeProvider:  should match the snapshot template 1`] = `
+<DocumentFragment>
+  <h2
+    class="indextest__H2-pcoxax-0 frGjLw"
+  >
+    Text
+  </h2>
+</DocumentFragment>
+`;
+
+exports[`Common - SCThemeProvider:  should match the snapshot template 1`] = `
+<DocumentFragment>
+  <h2
+    class="indextest__H2-pcoxax-0 frGjLw"
+  >
+    Text
+  </h2>
+</DocumentFragment>
+`;

@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Feature/Searchbar - enrich - components  ClearButton:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  color: #257f39;
+  background: none;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.43;
+  padding: 0;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  border: 0;
+}
+
+.c0.c0:hover,
+.c0.c0:active {
+  background: inherit;
+  border: 0;
+}
+
+.c0.c0:focus {
+  border: 0;
+  border-radius: 0;
+}
+
+<button
+    class="MuiButtonBase-root MuiButton-root MuiButton-text c0"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Feature/Searchbar - enrich - components  CloseIcon:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  height: 2.75rem;
+  width: 2.75rem;
+}
+
+<img
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Feature/Searchbar - enrich - components  ContentContainerStyled:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  padding: 0.25rem 1rem;
+}
+
+@media (min-width:768px) {
+  .c0.c0 {
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width:1280px) {
+  .c0.c0 {
+    padding: 0 2.5rem;
+  }
+}
+
+<div
+    class="MuiContainer-root c0 MuiContainer-maxWidthLg"
+  />
+</DocumentFragment>
+`;
+
+exports[`Feature/Searchbar - enrich - components  HeaderContainer:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f7f7f7;
+  border-bottom: 0.0625rem solid #eaeaea;
+  border-top: 0.0625rem solid #eaeaea;
+  color: #000000;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    background: white;
+    border: none;
+    padding: 1.5rem 0 0;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Feature/Searchbar - enrich - components  Title:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+}
+
+@media (min-width:768px) {
+  .c0.c0 {
+    -webkit-letter-spacing: 0.0075rem;
+    -moz-letter-spacing: 0.0075rem;
+    -ms-letter-spacing: 0.0075rem;
+    letter-spacing: 0.0075rem;
+  }
+}
+
+<p
+    class="MuiTypography-root c0 MuiTypography-body1"
+  />
+</DocumentFragment>
+`;
+
+exports[`Feature/Searchbar - enrich - components  TitleContainerStyled:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  padding: 0.75rem 1rem;
+}
+
+@media (min-width:768px) {
+  .c0.c0 {
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width:1280px) {
+  .c0.c0 {
+    padding: 0 2.5rem;
+  }
+}
+
+<div
+    class="MuiContainer-root c0 MuiContainer-maxWidthLg"
+  />
+</DocumentFragment>
+`;

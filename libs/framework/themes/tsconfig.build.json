@@ -1,0 +1,4 @@
+{
+  "extends": "../../../tools/config/tsconfig.build",
+  "exclude": ["**/*.test.ts"]
+}

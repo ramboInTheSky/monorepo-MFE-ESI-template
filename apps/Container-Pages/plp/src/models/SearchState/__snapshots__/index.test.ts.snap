@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - SearchState:  should match the SearchState 1`] = `
+Object {
+  "autoCorrectQuery": null,
+  "bloomreachCookiesInitialVal": Object {
+    "brMtSearch": "",
+    "brUid2": "",
+  },
+  "currentBreakpoint": "md",
+  "debounceTime": 300,
+  "endPage": 1,
+  "facets": Object {
+    "opt1": Object {
+      "c": 1,
+      "d": false,
+      "incompatibleWith": Array [],
+      "n": "opt1",
+      "v": "opt1",
+    },
+    "opt2": Object {
+      "c": 1,
+      "d": false,
+      "incompatibleWith": Array [
+        "opt3",
+      ],
+      "n": "opt2",
+      "v": "opt2",
+    },
+    "opt3": Object {
+      "c": 1,
+      "d": false,
+      "incompatibleWith": Array [
+        "opt2",
+      ],
+      "n": "opt3",
+      "v": "opt3",
+    },
+  },
+  "fetchTriggerOffset": Object {
+    "lg": 6,
+    "md": 6,
+    "sm": 4,
+    "xl": 8,
+    "xs": 4,
+  },
+  "fetchTriggerOffsetRows": Object {
+    "lg": 2,
+    "md": 2,
+    "sm": 2,
+    "xl": 2,
+    "xs": 2,
+  },
+  "filters": Object {
+    "Price": Object {
+      "currencyCode": "GBP",
+      "displayName": "",
+      "isFilterOpen": false,
+      "max": 100,
+      "min": 0,
+      "name": "Test2 with options",
+      "selectedMax": 70,
+      "selectedMin": 30,
+      "type": "price",
+    },
+    "Test1": Object {
+      "displayName": "Test 1",
+      "facets": Array [
+        "opt1",
+      ],
+      "isFilterOpen": true,
+      "isViewMoreOpen": true,
+      "name": "Test1",
+      "type": "feat",
+    },
+    "Test2": Object {
+      "displayName": "Test 2",
+      "facets": Array [
+        "opt2",
+      ],
+      "isFilterOpen": false,
+      "isViewMoreOpen": false,
+      "name": "Test2 with options",
+      "type": "filter",
+    },
+    "Test3": Object {
+      "currencyCode": "GBP",
+      "displayName": "",
+      "isFilterOpen": false,
+      "max": 100,
+      "min": 0,
+      "name": "Test2 with options",
+      "selectedMax": 70,
+      "selectedMin": 30,
+      "type": "price",
+    },
+    "brand": Object {
+      "displayName": "Test 1",
+      "facets": Array [
+        "brand:znth",
+        "brand:one",
+        "brand:oops",
+        "brand:two",
+        "brand:tcas",
+        "brand:three",
+        "brand:four",
+        "brand:five",
+        "brand:six",
+        "brand:2 size",
+      ],
+      "isFilterOpen": true,
+      "isViewMoreOpen": true,
+      "name": "Brand",
+      "type": "filter",
+    },
+  },
+  "filtersSort": Array [
+    "Test1",
+    "Test2",
+  ],
+  "includedComponents": Array [],
+  "initialItemsPerPage": 8,
+  "isFetchingNextPage": false,
+  "isFetchingPageItems": false,
+  "isFetchingPreviousPage": false,
+  "items": Array [
+    Object {
+      "itemNumber": "111111",
+      "newIn": true,
+    },
+    Object {
+      "itemNumber": "222222",
+      "newIn": true,
+    },
+  ],
+  "itemsPerPage": Object {
+    "initial": Object {
+      "desktop": 24,
+      "mobile": 8,
+      "tablet": 12,
+    },
+    "subsequent": Object {
+      "desktop": 28,
+      "mobile": 10,
+      "tablet": 16,
+    },
+  },
+  "itemsPerRow": Object {
+    "default": Object {
+      "lg": 6,
+      "md": 6,
+      "sm": 4,
+      "xl": 8,
+      "xs": 4,
+    },
+    "inPageFiltersEnabled": Object {
+      "lg": 6,
+      "md": 6,
+      "sm": 4,
+      "xl": 8,
+      "xs": 4,
+    },
+  },
+  "relaxedQuery": "",
+  "searchBannerHtml": null,
+  "searchCategory": Object {
+    "id": "",
+    "name": "",
+  },
+  "seoFilters": "",
+  "shouldFacetsBeFixed": false,
+  "singleOptionFacetList": Array [
+    "personalised",
+    "feat",
+    "sizetype",
+    "deliverby",
+  ],
+  "sorting": Object {
+    "options": Array [
+      Object {
+        "name": "Most Relevant",
+        "value": "score",
+      },
+      Object {
+        "name": "Most Popular",
+        "value": "newpop",
+      },
+      Object {
+        "name": "Alphabetical",
+        "value": "alpha",
+      },
+      Object {
+        "name": "Price: Low - High",
+        "value": "pricelow",
+      },
+      Object {
+        "name": "Price: High - Low",
+        "value": "pricehi",
+      },
+    ],
+    "selected": "score",
+  },
+  "startPage": 1,
+  "subsequentPagesNonLazyloadRows": Object {
+    "lg": 2,
+    "md": 2,
+    "sm": 2,
+    "xl": 2,
+    "xs": 2,
+  },
+  "title": "",
+  "totalResults": 1234,
+}
+`;

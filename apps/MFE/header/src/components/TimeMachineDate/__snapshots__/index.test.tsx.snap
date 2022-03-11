@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - TimeMachineDate:  should match the snapshot when time-machine-date cookie doesn't exist 1`] = `<DocumentFragment />`;
+
+exports[`Components - TimeMachineDate:  should match the snapshot when time-machine-date cookie exist 1`] = `<DocumentFragment />`;

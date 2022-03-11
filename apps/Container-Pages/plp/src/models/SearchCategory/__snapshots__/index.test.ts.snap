@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model: SearchCategory should match the snapshot 1`] = `
+SearchCategories {
+  "id": "",
+  "name": "",
+}
+`;

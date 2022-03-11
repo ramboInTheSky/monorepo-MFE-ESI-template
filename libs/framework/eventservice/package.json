@@ -1,0 +1,41 @@
+{
+  "name": "@monorepo/eventservice",
+  "version": "6.4.1",
+  "description": "Shared eventing service for communication between front end components",
+  "author": "",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "module": "./lib/index.es.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build-lib": "rollup -c && yalc push --safe --replace",
+    "build-ci": "rollup -c rollup.config.prod.js",
+    "lint": "eslint --ext .tsx,.ts src/",
+    "tsc": "tsc",
+    "test": "jest src/"
+  },
+  "dependencies": {
+    "rxjs": "6.5.4"
+  },
+  "devDependencies": {
+    "@monorepo/eslint": "^3.3.0",
+    "@types/jest": "24.9.1",
+    "@types/node": "12.12.28",
+    "@types/react": "16.9.32",
+    "jest": "24.9.0",
+    "ts-jest": "24.3.0",
+    "typescript": "3.8.3",
+    "yalc": "^1.0.0-pre.53"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0",
+    "rxjs": "6.5.4"
+  },
+  "gitHead": "ddc830c814fe0ca4d5cb49e91bf965128ce83536",
+  "jest": {
+    "preset": "ts-jest"
+  }
+}

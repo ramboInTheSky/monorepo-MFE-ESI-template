@@ -1,0 +1,1 @@
+This is a repo for static content delivered to the CDN via pipelines

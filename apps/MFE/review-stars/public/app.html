@@ -1,0 +1,13 @@
+__DEVELOPER_MODE__
+<script id="next-review-stars-script-__RAW_ITEM_NUMBER__">
+  window.ssrClientSettings = window.ssrClientSettings || {}
+  window.ssrClientSettings.reviewStars = window.ssrClientSettings.reviewStars || {}
+  window.ssrClientSettings.reviewStars.itemNumbers = window.ssrClientSettings.reviewStars.itemNumbers || []
+  window.ssrClientSettings.reviewStars.itemNumbers.push(__ITEM_NUMBER__)
+  window.ssrClientSettings.reviewStars[__ITEM_NUMBER__] = {
+    _STATE_: __INITIAL_STATE__,
+    appProps: __APP_PROPS__,
+  }
+</script>
+<div id="next-review-stars-entrypoint-__RAW_ITEM_NUMBER__">__HTML_CONTENT__</div>
+__END_DEVELOPER_MODE__

@@ -1,0 +1,53 @@
+{
+  "itemNumber": "jackson_82_262919",
+  "title": "Jackson",
+  "type": "sofa",
+  "currencyCode": "GBP",
+  "colourways": [
+    {
+      "itemNumber": "jackson_82_262919",
+      "colour": "Chunky Weave/Dove",
+      "url": "/homeware/sofas-chairs/jackson/size-power-recliner-large-sofa-fabric-chunky-weave-dove",
+      "mainImage": "262919_82.jpg",
+      "colourChipImage": "chunkyweave_dove.jpg",
+      "itemPrice": {
+        "minPrice": 775,
+        "maxPrice": 1350,
+        "saleMinPrice": 600,
+        "saleMaxPrice": 600,
+        "wasMinPrice": 1000,
+        "wasMaxPrice": 1000
+      }
+    },
+    {
+      "itemNumber": "jackson_82_202546",
+      "colour": "Monza Faux Leather/Charcoal",
+      "url": "/homeware/sofas-chairs/jackson/size-power-recliner-large-sofa-fabric-monza-faux-leather-charcoal",
+      "mainImage": "202546_82.jpg",
+      "colourChipImage": "monzafauxleather_charcoal.jpg",
+      "itemPrice": {
+        "minPrice": 775,
+        "maxPrice": 1350,
+        "saleMinPrice": 600,
+        "saleMaxPrice": 700,
+        "wasMinPrice": 1000,
+        "wasMaxPrice": 1200
+      }
+    },
+    {
+      "itemNumber": "jackson_82_286382",
+      "colour": "Matt Velvet/Navy Jackson",
+      "url": "/homeware/sofas-chairs/jackson/size-power-recliner-large-sofa-fabric-matt-velvet-navy",
+      "mainImage": "286382_82.jpg",
+      "colourChipImage": "mattvelvet_navy.jpg",
+      "itemPrice": {
+        "minPrice": 775,
+        "maxPrice": 1350,
+        "saleMinPrice": null,
+        "saleMaxPrice": null,
+        "wasMinPrice": null,
+        "wasMaxPrice": null
+      }
+    }
+  ]
+}

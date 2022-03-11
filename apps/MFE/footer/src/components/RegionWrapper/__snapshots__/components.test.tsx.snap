@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegionWrapper:  should match the snapshot with RegionContainer 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiContainer-root components__RegionContainer-sc-1i0u80d-0 fFEJge MuiContainer-maxWidthLg"
+  />
+</DocumentFragment>
+`;
+
+exports[`RegionWrapper:  should match the snapshot with RegionGrid  1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__RegionGrid-sc-1i0u80d-1 jNaVdi"
+  />
+</DocumentFragment>
+`;

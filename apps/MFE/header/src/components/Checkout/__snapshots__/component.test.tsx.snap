@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkout component:  should match the snapshot when isinternationalcountry is false  1`] = `
+<DocumentFragment>
+  @media (min-width:768px) {
+  .c0 {
+    width: 5.375rem;
+    height: 2.75rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    width: 5.375rem;
+    height: 2.75rem;
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    width: 5.375rem;
+    height: 2.75rem;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Checkout component:  should match the snapshot when isinternationalcountry is true  1`] = `
+<DocumentFragment>
+  @media (min-width:768px) {
+  .c0 {
+    width: 5.375rem;
+    height: 2.75rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    width: 5.375rem;
+    height: 2.75rem;
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    width: 10rem;
+    height: 2.75rem;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;

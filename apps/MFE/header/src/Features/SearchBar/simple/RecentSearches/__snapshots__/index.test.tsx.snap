@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - RecentSearches:  should match the snapshot 1`] = `
+<DocumentFragment>
+  .c3.c3 {
+  color: #257f39;
+  background: none;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.43;
+  padding: 0;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  border: 0;
+}
+
+.c3.c3:hover,
+.c3.c3:active {
+  background: inherit;
+  border: 0;
+}
+
+.c3.c3:focus {
+  border: 0;
+  border-radius: 0;
+}
+
+.c2.c2 {
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f7f7f7;
+  border-top: 0.0625rem solid #eaeaea;
+  border-bottom: 0.0625rem solid #eaeaea;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: calc(0.75rem - 1px) 1.025rem calc(0.812rem - 1px) 1rem;
+  color: #000000;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0.25rem 1rem;
+  color: #000000;
+}
+
+.c4 ul {
+  margin: 0;
+  padding: 0;
+}
+
+.c0 {
+  background: white;
+}
+
+@media (min-width:768px) {
+  .c1 {
+    background: #f7f7f7;
+    padding: 0.5rem 0.625rem;
+    border-top: 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 {
+    padding: 0.125rem 0.625rem;
+  }
+}
+
+@media (min-width:400px) and (max-width:767px) {
+  .c4 ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .c4 ul li {
+    -webkit-flex-basis: calc(100% / 2);
+    -ms-flex-preferred-size: calc(100% / 2);
+    flex-basis: calc(100% / 2);
+    padding-right: 1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    border-radius: 0.25rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: 0.0625rem solid #eaeaea;
+    width: 5.375rem;
+  }
+}
+
+<div
+    class="c0"
+    data-testid="header-simple-recent-searches"
+  >
+    <div
+      class="c1 recents-header"
+      data-testid="recents-header"
+    >
+      <h4
+        class="MuiTypography-root c2 MuiTypography-h4"
+      >
+        <div
+          class="PrivateHiddenCss-mdUp-8"
+        >
+          RECENT SEARCHES
+        </div>
+        <div
+          class="PrivateHiddenCss-smDown-6"
+        >
+          RECENT SEARCHES
+        </div>
+      </h4>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text c3"
+        data-ga-v1="Search"
+        data-ga-v2="Clear All Previous Search"
+        data-ga-v3="Previously Searched"
+        data-testid="header-recent-searches-clear-button"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Clear all
+        </span>
+      </button>
+    </div>
+    <div
+      class="c4"
+      data-testid="recents-body"
+    >
+      <ul>
+        <li>
+          <a
+            href="/abc"
+          >
+            abc
+          </a>
+        </li>
+        <li>
+          <a
+            href="/abcdef"
+          >
+            abcdef
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,2493 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model: Feature setting should match the feature setting 1`] = `
+Object {
+  "Empire": Object {
+    "EmpireName": "MONOREPO.MEGANAV.API",
+    "Realms": Array [
+      Object {
+        "RealmName": "next",
+        "Settings": Object {
+          "meganav.api.realmName": Object {
+            "Value": "next",
+          },
+          "meganav.frontend.ImagePlaceholder": Object {
+            "EnableImagePlaceholder": true,
+          },
+        },
+        "Territories": Array [
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "ar",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "rtl",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "ar",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "16",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "AE",
+              },
+            },
+            "TerritoryName": "AE",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "AM",
+              },
+            },
+            "TerritoryName": "AM",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "AR",
+              },
+            },
+            "TerritoryName": "AR",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "de",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "de",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "6",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "AT",
+              },
+            },
+            "TerritoryName": "AT",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "AU",
+              },
+            },
+            "TerritoryName": "AU",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "ru",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "ru",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "21",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "AZ",
+              },
+            },
+            "TerritoryName": "AZ",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "fr",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "fr",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "9",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "BE",
+              },
+            },
+            "TerritoryName": "BE",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "bg",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "bg",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "2",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "BG",
+              },
+            },
+            "TerritoryName": "BG",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "ar",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "rtl",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "ar",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "16",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "BH",
+              },
+            },
+            "TerritoryName": "BH",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "BR",
+              },
+            },
+            "TerritoryName": "BR",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "ru",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "ru",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "21",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "BY",
+              },
+            },
+            "TerritoryName": "BY",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "fr",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "fr",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "9",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "CA",
+              },
+            },
+            "TerritoryName": "CA",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "de",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "de",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "6",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "CH",
+              },
+            },
+            "TerritoryName": "CH",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "CL",
+              },
+            },
+            "TerritoryName": "CL",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "CY",
+              },
+            },
+            "TerritoryName": "CY",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "cs",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "cs",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "3",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "CZ",
+              },
+            },
+            "TerritoryName": "CZ",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "de",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "de",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "6",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "DE",
+              },
+            },
+            "TerritoryName": "DE",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "da",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "da",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "5",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "DK",
+              },
+            },
+            "TerritoryName": "DK",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "ru",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "ru",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "21",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "EE",
+              },
+            },
+            "TerritoryName": "EE",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "ar",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "rtl",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "ar",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "16",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "EG",
+              },
+            },
+            "TerritoryName": "EG",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "es",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "es",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "8",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "ES",
+              },
+            },
+            "TerritoryName": "ES",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "FI",
+              },
+            },
+            "TerritoryName": "FI",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "fr",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "fr",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "9",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "FR",
+              },
+            },
+            "TerritoryName": "FR",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "GB",
+              },
+            },
+            "TerritoryName": "GB",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "GE",
+              },
+            },
+            "TerritoryName": "GE",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "GI",
+              },
+            },
+            "TerritoryName": "GI",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "el",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "el",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "20",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "GR",
+              },
+            },
+            "TerritoryName": "GR",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "zh",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "zh",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "4",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "HK",
+              },
+            },
+            "TerritoryName": "HK",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "HR",
+              },
+            },
+            "TerritoryName": "HR",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "hu",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "hu",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "12",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "HU",
+              },
+            },
+            "TerritoryName": "HU",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "ID",
+              },
+            },
+            "TerritoryName": "ID",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "IE",
+              },
+            },
+            "TerritoryName": "IE",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "he",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "rtl",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "he",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "10",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "IL",
+              },
+            },
+            "TerritoryName": "IL",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "IN",
+              },
+            },
+            "TerritoryName": "IN",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "IS",
+              },
+            },
+            "TerritoryName": "IS",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "it",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "it",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "11",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "IT",
+              },
+            },
+            "TerritoryName": "IT",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "ja",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "ja",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "23",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "JP",
+              },
+            },
+            "TerritoryName": "JP",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "ko",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "ko",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "22",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "KR",
+              },
+            },
+            "TerritoryName": "KR",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "ar",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "rtl",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "ar",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "16",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "KW",
+              },
+            },
+            "TerritoryName": "KW",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "ru",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "ru",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "21",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "KZ",
+              },
+            },
+            "TerritoryName": "KZ",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "ar",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "rtl",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "ar",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "16",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "LB",
+              },
+            },
+            "TerritoryName": "LB",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "ru",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "ru",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "21",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "LT",
+              },
+            },
+            "TerritoryName": "LT",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "fr",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "fr",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "9",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "LU",
+              },
+            },
+            "TerritoryName": "LU",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "ru",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "ru",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "21",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "LV",
+              },
+            },
+            "TerritoryName": "LV",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "MT",
+              },
+            },
+            "TerritoryName": "MT",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "MX",
+              },
+            },
+            "TerritoryName": "MX",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "ms",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "ms",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "1",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "MY",
+              },
+            },
+            "TerritoryName": "MY",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "nl",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "nl",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "13",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "NL",
+              },
+            },
+            "TerritoryName": "NL",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "NO",
+              },
+            },
+            "TerritoryName": "NO",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "NZ",
+              },
+            },
+            "TerritoryName": "NZ",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "ar",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "rtl",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "ar",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "16",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "OM",
+              },
+            },
+            "TerritoryName": "OM",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "PE",
+              },
+            },
+            "TerritoryName": "PE",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "PH",
+              },
+            },
+            "TerritoryName": "PH",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "PK",
+              },
+            },
+            "TerritoryName": "PK",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "pl",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "pl",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "14",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "PL",
+              },
+            },
+            "TerritoryName": "PL",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "PT",
+              },
+            },
+            "TerritoryName": "PT",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "ar",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "rtl",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "ar",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "16",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "QA",
+              },
+            },
+            "TerritoryName": "QA",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "ro",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "ro",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "15",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "RO",
+              },
+            },
+            "TerritoryName": "RO",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "RS",
+              },
+            },
+            "TerritoryName": "RS",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "ru",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "ru",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "21",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "RU",
+              },
+            },
+            "TerritoryName": "RU",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "ar",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "rtl",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "ar",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "16",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "SA",
+              },
+            },
+            "TerritoryName": "SA",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "sv",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "sv",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "19",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "SE",
+              },
+            },
+            "TerritoryName": "SE",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "SG",
+              },
+            },
+            "TerritoryName": "SG",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "sl",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "sl",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "18",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "SI",
+              },
+            },
+            "TerritoryName": "SI",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "sk",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "sk",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "17",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "SK",
+              },
+            },
+            "TerritoryName": "SK",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "TH",
+              },
+            },
+            "TerritoryName": "TH",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "TR",
+              },
+            },
+            "TerritoryName": "TR",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "zh",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "zh",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "4",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "TW",
+              },
+            },
+            "TerritoryName": "TW",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+              Object {
+                "LanguageName": "ru",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "ru",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+                Object {
+                  "Value": "21",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "UA",
+              },
+            },
+            "TerritoryName": "UA",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "US",
+              },
+            },
+            "TerritoryName": "US",
+          },
+          Object {
+            "Languages": Array [
+              Object {
+                "LanguageName": "en",
+                "Settings": Object {
+                  "meganav.api.direction": Object {
+                    "Value": "ltr",
+                  },
+                  "meganav.api.languageName": Object {
+                    "Value": "en",
+                  },
+                },
+              },
+            ],
+            "Settings": Object {
+              "meganav.alternativeLanguages": Array [
+                Object {
+                  "Value": "7",
+                },
+              ],
+              "meganav.api.territoryName": Object {
+                "Value": "ZA",
+              },
+            },
+            "TerritoryName": "ZA",
+          },
+        ],
+      }
+    ],
+    "Settings": Object {
+      "meganav.frontend.appCacheTTL": Object {
+        "Value": "3600",
+      },
+      "meganav.frontend.cache-control.default-meganav.max-age": Object {
+        "Value": "no-store",
+      },
+      "meganav.frontend.cache-control.max-age": Object {
+        "Value": "3600",
+      },
+      "meganav.frontend.defaultPrimaryConfig": Object {
+        "country": "mx",
+        "version": "v1.0.0",
+      },
+      "meganav.frontend.defaultSecondaryConfig": Object {
+        "country": "mx",
+        "version": "v1.0.0",
+      },
+      "meganav.frontend.themeVersion": Object {
+        "Value": "v8.0.0",
+      },
+    },
+  },
+  "Personas": Array [
+    Object {
+      "PersonaName": "CustomerA",
+      "Settings": Object {
+        "meganav.api.direction": Object {
+          "Value": "rtl",
+        },
+        "meganav.enableMainMenu": Object {
+          "Value": "false",
+        },
+      },
+    },
+  ],
+}
+`;

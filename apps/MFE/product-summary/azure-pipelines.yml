@@ -1,0 +1,953 @@
+trigger:
+  branches:
+    include:
+      - feature/*
+      - master
+      - release/*
+
+  paths:
+    exclude:
+      - .azuredevops/*
+
+resources:
+  repositories:
+    - repository: AmidoEcommerce
+      type: git
+      name: Amido.Ecommerce.Infrastructure/Amido.Ecommerce.Infrastructure.Templates
+      ref: refs/tags/stable
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  # Global Variables
+  - group: 'Platform Modernization ACR Dev'
+  - name: project
+    value: productsummary-frontend'
+  - name: tag
+    value: '$(Build.BuildId)'
+  - name: namespace
+    value: 'product'
+  # Registrys
+  - name: registryName_sx
+    value: ecmbrowse01acrsxeuw
+  - name: registryName_ci
+    value: ecmbrowse01acrcieuw
+  - name: registryName_pp
+    value: ecmbrowse01acrppeuw
+  - name: registryName_pd
+    value: ecmbrowse01acrpdeuw
+  # Subscriptions
+  - name: sx_subscription
+    value: 'ecmbrowse01spnsxeuw'
+  - name: ci_subscription
+    value: 'ecmbrowse01spncieuw'
+  - name: pp_subscription
+    value: 'ecmbrowse01spnppeuw'
+  - name: pd_subscription
+    value: 'ecmbrowse01spnpdeuw'
+  # Versioning
+  - name: Version.Major
+    value: 0
+  - name: Version.Minor
+    value: 1
+  - name: Version.Revision
+    value: $[counter(variables['Version.Minor'], 0)]
+  - name: helm_version
+    value: 3.3.1
+  # Application
+  - name: replica_count
+    value: '3'
+  - name: helmOverrides
+    value: 'replicaCount=$(replica_count),domain=$(ingress_domain),ingress.enabled=true,domain=$(ingress_domain),application.appInsightsKey=$(appInsightsKey),application.apiBaseUrl=$(apiBaseUrl),application.cdnBaseUrl=$(cdnBaseUrl),application.appUrl=$(appUrl),application.app_serve_path_prefix=$(app_serve_path_prefix),application.assets_path=$(assets_path),application.generate_sourcemap=$(generate_sourcemap),application.log_level=$(log_level),application.blobStorageSSRBaseURL=$(blobStorageSSRBaseURL),application.useTimeMachineCookie=$(useTimeMachineCookie),application.environmentName=$(environmentName),application.blob_storage_override=$(blob_storage_override)'
+  - name: qa_helmOverrides
+    value: 'replicaCount=$(replica_count),domain=$(ingress_domain),ingress.enabled=true,domain=$(ingress_domain),ingress.host=$(qa_ingress_host),application.appInsightsKey=$(appInsightsKey),application.apiBaseUrl=$(qa_apiBaseUrl),application.cdnBaseUrl=$(cdnBaseUrl),application.appUrl=$(appUrl),application.app_serve_path_prefix=$(app_serve_path_prefix),application.assets_path=$(assets_path),application.generate_sourcemap=$(generate_sourcemap),application.log_level=$(log_level),application.blobStorageSSRBaseURL=$(blobStorageSSRBaseURL),application.environmentName=$(environmentName),application.blob_storage_override=$(blob_storage_override)'
+  - name: artefact_name
+    value: 'static-content'
+
+parameters:
+  - name: dev_environment
+    displayName: 'Deployment Environment'
+    type: string
+    default: 'Build'
+    values:
+      - Build
+      - SXEUN
+      - SXEUW
+      - QAEUN
+      - QAEUW
+
+  - name: cypress_parallel_enabled
+    displayName: 'Enable Parallel Cypress Tests'
+    type: boolean
+    default: True
+
+stages:
+  - stage: Prereqs
+    displayName: 'Prerequisites'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/build-updatebuildnumber.yml
+        parameters:
+          build_number: '$(Version.Major).$(Version.Minor).$(Version.Revision)'
+
+  - stage: Build
+    displayName: 'Build'
+    dependsOn: Prereqs
+    ${{ if eq(parameters.cypress_parallel_enabled, False)}}:
+      variables:
+        - group: Veracode
+        - group: 'Sandbox.eCommerce.ProductSummary.Frontend.EUN'
+        - name: dockerfile_name
+          value: Dockerfile-cypress
+        - name: parallel_agents
+          value: 0
+    ${{ if eq(parameters.cypress_parallel_enabled, True)}}:
+      variables:
+        - group: Veracode
+        - group: 'Sandbox.eCommerce.ProductSummary.Frontend.EUN'
+        - name: dockerfile_name
+          value: Dockerfile
+        - name: parallel_agents
+          value: 3
+    jobs:
+      - template: azDevOps/azure/templates/jobs/build-docker.yml
+        parameters:
+          projectName: $(project)
+          registryName: $(registryName_sx)
+          dockerContext: $(system.defaultWorkingDirectory)
+          docker_build_args:
+            '--build-arg ASSETS_PATH=$(assets_path) --build-arg
+            REACT_APP_BLOB_STORAGE_SSR_BASEURL=$(blobStorageSSRBaseURL) --build-arg LOG_LEVEL=$(log_level)'
+          dockerfile_name: $(dockerfile_name)
+          nugetRestore: false
+          dockerBuildTarget: 'test'
+          testfileString: 'junit.xml'
+          search: true
+          searchfolders: |
+            /app
+          sourceFolder: '/testresults'
+          imagefilter: 'label=test=true'
+          testresultsfiles: '**/junit.xml'
+          testResultsFormat: 'JUnit'
+          host_port: 3001
+          disabledruleoptions: 'document-title,html-has-lang'
+          subscription: '$(sx_subscription)'
+          accessibilityTesting: false #Remove this line once tests are written.
+          veracodeScan: false
+          appId: '785342'
+          appName: 'Amido.Ecommerce.ProductSummary.Frontend'
+          wrapperZip: $(wrapper_zip)
+          vId: $(vid)
+          vKey: $(vkey)
+          autoScan: true
+          applicationType: 'frontend'
+          scan_image: 'true'
+          service_connection: 'prisma_compute'
+      - ${{ if eq(parameters.cypress_parallel_enabled, 'true') }}:
+          - template: azDevOps/azure/templates/jobs/test-cypress.yml
+            parameters:
+              parallel_agents: ${{ variables['parallel_agents'] }}
+              npm_build_command: 'build:local'
+              cypress_npm_command: 'test:parallel'
+              library_group: 'Cypress.ProductSummary'
+      - template: azDevOps/azure/templates/jobs/publish-docker-content.yml
+        parameters:
+          DependsOn: 'Build'
+          imagefilter: 'label=production=true'
+          destination: 'static-content'
+          filestring: '*.*'
+          sourceFolder: '/app/build/public/static'
+          projectName: $(project)
+          registryName: $(registryName_sx)
+          Subscription: '$(sx_subscription)'
+          tag: $(Build.BuildNumber)
+          publish_artefact: true
+          artefact_name: $(artefact_name)
+
+      - job: Helm_Build
+        pool:
+          vmImage: 'ubuntu-latest'
+        steps:
+          - template: azDevOps/azure/templates/steps/pack-helm.yml # Template reference
+            parameters:
+              projectName: $(project)
+              registryName: $(registryName_sx)
+              Subscription: '$(sx_subscription)'
+              context: $(system.defaultWorkingDirectory)/charts/productsummary-frontend/
+
+  - stage: ConventionalCommit
+    displayName: 'Conventional Commit'
+    variables:
+      - group: 'Sandbox.eCommerce.plp.Frontend.EUN'
+    dependsOn: Build
+    condition:
+      and( succeeded('Build'), and (eq(variables['Build.Reason'], 'IndividualCI'),
+      contains(variables['Build.SourceBranch'], 'master'), contains(variables['Build.SourceVersionMessage'], 'Merged
+      PR') ) )
+    jobs:
+      - template: azDevOps/azure/templates/jobs/conventional-commit.yml
+        parameters:
+          service_connection: 'ecmbrowse01spnsxeuw'
+          pat: $(cc_pat)
+
+  - stage: upload_files_sandbox_eun
+    displayName: 'Upload Files Sandbox EUN'
+    dependsOn: Build
+    condition:
+      and( succeeded('Build'), eq('${{parameters.dev_environment}}', 'SXEUN'),
+      not(or(startsWith(variables['Build.SourceBranch'],
+      'refs/heads/release/'),startsWith(variables['Build.SourceBranch'], 'refs/heads/master'))) )
+    variables:
+      - group: SX.eCommerce.ProductSummary.Static-Content.Keys.EUN
+      - group: ProductSummary.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml
+        parameters:
+          environmentName: 'sx'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/productsummary'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: upload_files_sandbox_euw
+    displayName: 'Upload Files Sandbox EUW'
+    dependsOn: Build
+    condition:
+      and( succeeded('Build'), eq('${{parameters.dev_environment}}', 'SXEUW'),
+      not(or(startsWith(variables['Build.SourceBranch'],
+      'refs/heads/release/'),startsWith(variables['Build.SourceBranch'], 'refs/heads/master'))) )
+    variables:
+      - group: SX.eCommerce.ProductSummary.Static-Content.Keys.EUW
+      - group: ProductSummary.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml
+        parameters:
+          environmentName: 'sx'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/productsummary'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: deploy_sandbox_eun
+    displayName: 'Deploy Sandbox EUN'
+    dependsOn:
+      - Build
+      - upload_files_sandbox_eun
+      - upload_files_sandbox_euw
+    condition:
+      and( succeeded('Build'), eq('${{parameters.dev_environment}}', 'SXEUN'),
+      not(or(startsWith(variables['Build.SourceBranch'],
+      'refs/heads/release/'),startsWith(variables['Build.SourceBranch'], 'refs/heads/master'))) )
+    variables:
+      - group: 'Sandbox.eCommerce.ProductSummary.Frontend.EUN'
+      - group: 'Sandbox.Akamai.Purge'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml
+        parameters:
+          environmentName: 'sx-plp' #This is used as a temp environment to allow us to manually gate sx
+          kubernetes_service_connection: 'Kubernetes_Sandbox.eCommerce_Browse01_EUN'
+          registry_name: $(registryName_sx)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: productsummary-frontend'
+          overrides: $(helmOverrides)
+          namespace: $(namespace)
+          acr_service_connection: '$(sx_subscription)'
+          purge_cache: 'true'
+          akamai_access_token: $(akamai_access_token)
+          akamai_client_secret: $(akamai_client_secret)
+          akamai_client_token: $(parameters.akamai_client_token)
+          akamai_host: $(akamai_host)
+          purge_tags: sx-productsummaryui
+          akamai_edgerc_path: akamai.edgerc
+      - job: run_cypress_sxeun
+        dependsOn: Helm_Deployment
+        displayName: 'Run Functional Tests'
+        steps:
+          - template: azDevOps\azure\templates\steps\deploy-cypress-tests.yml
+            parameters:
+              cypress_test_url: '$(appUrl)'
+
+  - stage: deploy_sandbox_euw
+    displayName: 'Deploy Sandbox EUW'
+    dependsOn:
+      - Build
+      - upload_files_sandbox_eun
+      - upload_files_sandbox_euw
+    condition:
+      and( succeeded('Build'), eq('${{parameters.dev_environment}}', 'SXEUW'),
+      not(or(startsWith(variables['Build.SourceBranch'],
+      'refs/heads/release/'),startsWith(variables['Build.SourceBranch'], 'refs/heads/master'))) )
+    variables:
+      - group: 'Sandbox.eCommerce.ProductSummary.Frontend.EUW'
+      - group: 'Sandbox.Akamai.Purge'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml
+        parameters:
+          environmentName: 'sx-plp' #This is used as a temp environment to allow us to manually gate sx
+          kubernetes_service_connection: 'Kubernetes_Sandbox.eCommerce_Browse01_EUW'
+          registry_name: $(registryName_sx)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: productsummary-frontend'
+          overrides: $(helmOverrides)
+          namespace: $(namespace)
+          acr_service_connection: '$(sx_subscription)'
+          purge_cache: 'true'
+          akamai_access_token: $(akamai_access_token)
+          akamai_client_secret: $(akamai_client_secret)
+          akamai_client_token: $(parameters.akamai_client_token)
+          akamai_host: $(akamai_host)
+          purge_tags: sx-productsummaryui
+          akamai_edgerc_path: akamai.edgerc
+      - job: run_cypress_sxeuw
+        dependsOn: Helm_Deployment
+        displayName: 'Run Functional Tests'
+        steps:
+          - template: azDevOps\azure\templates\steps\deploy-cypress-tests.yml
+            parameters:
+              cypress_test_url: '$(appUrl)'
+
+  - stage: upload_files_qa_eun
+    displayName: 'Upload Files QA EUN'
+    dependsOn: Build
+    condition:
+      and( succeeded('Build'), eq('${{parameters.dev_environment}}', 'QAEUN'),
+      not(or(startsWith(variables['Build.SourceBranch'],
+      'refs/heads/release/'),startsWith(variables['Build.SourceBranch'], 'refs/heads/master'))) )
+    variables:
+      - group: SX.eCommerce.ProductSummary.Static-Content.Keys.EUN
+      - group: ProductSummary.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml
+        parameters:
+          environmentName: 'qa'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/productsummary'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: upload_files_qa_euw
+    displayName: 'Upload Files QA EUW'
+    dependsOn: Build
+    condition:
+      and( succeeded('Build'), eq('${{parameters.dev_environment}}', 'QAEUW'),
+      not(or(startsWith(variables['Build.SourceBranch'],
+      'refs/heads/release/'),startsWith(variables['Build.SourceBranch'], 'refs/heads/master'))) )
+    variables:
+      - group: SX.eCommerce.ProductSummary.Static-Content.Keys.EUW
+      - group: ProductSummary.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml
+        parameters:
+          environmentName: 'qa'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/productsummary'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: deploy_qa_eun
+    displayName: 'Deploy QA EUN'
+    dependsOn:
+      - Build
+      - upload_files_qa_eun
+      - upload_files_qa_euw
+    condition: and(succeeded('Build'), eq('${{parameters.dev_environment}}', 'QAEUN'))
+    variables:
+      - group: 'Sandbox.eCommerce.ProductSummary.Frontend.EUN'
+      - group: 'Sandbox.Akamai.Purge'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml
+        parameters:
+          environmentName: 'sx'
+          kubernetes_service_connection: 'Kubernetes_Sandbox.eCommerce_Browse01_EUN'
+          registry_name: $(registryName_sx)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: productsummary-frontend'
+          overrides: $(qa_helmOverrides)
+          namespace: $(namespace)-qa
+          acr_service_connection: '$(sx_subscription)'
+          purge_cache: 'true'
+          akamai_access_token: $(akamai_access_token)
+          akamai_client_secret: $(akamai_client_secret)
+          akamai_client_token: $(akamai_client_token)
+          akamai_host: $(akamai_host)
+          purge_cp_codes: '961075'
+          akamai_edgerc_path: akamai.edgerc
+      - job: run_cypress_qaeun
+        dependsOn: Helm_Deployment
+        displayName: 'Run Functional Tests'
+        steps:
+          - template: azDevOps\azure\templates\steps\deploy-cypress-tests.yml
+            parameters:
+              cypress_test_url: '$(qa_appUrl)'
+
+  - stage: deploy_qa_euw
+    displayName: 'Deploy QA EUW'
+    dependsOn:
+      - Build
+      - upload_files_qa_eun
+      - upload_files_qa_euw
+    condition: and(succeeded('Build'), eq('${{parameters.dev_environment}}', 'QAEUW'))
+    variables:
+      - group: 'Sandbox.eCommerce.ProductSummary.Frontend.EUW'
+      - group: 'Sandbox.Akamai.Purge'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml
+        parameters:
+          environmentName: 'sx'
+          kubernetes_service_connection: 'Kubernetes_Sandbox.eCommerce_Browse01_EUW'
+          registry_name: $(registryName_sx)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: productsummary-frontend'
+          overrides: $(qa_helmOverrides)
+          namespace: $(namespace)-qa
+          acr_service_connection: '$(sx_subscription)'
+          purge_cache: 'true'
+          akamai_access_token: $(akamai_access_token)
+          akamai_client_secret: $(akamai_client_secret)
+          akamai_client_token: $(akamai_client_token)
+          akamai_host: $(akamai_host)
+          purge_cp_codes: '961075'
+          akamai_edgerc_path: akamai.edgerc
+      - job: run_cypress_qaeuw
+        dependsOn: Helm_Deployment
+        displayName: 'Run Functional Tests'
+        steps:
+          - template: azDevOps\azure\templates\steps\deploy-cypress-tests.yml
+            parameters:
+              cypress_test_url: '$(qa_appUrl)'
+
+  - stage: promote_ci
+    displayName: 'Promote to CI'
+    dependsOn:
+      - Build
+      - deploy_sandbox_eun
+      - deploy_sandbox_euw
+    condition:
+      and(succeeded('Build'), or(eq(variables['Build.SourceBranch'], 'refs/heads/master'),
+      startsWith(variables['Build.SourceBranch'], 'refs/heads/release/')))
+    jobs:
+      - template: azDevOps/azure/templates/jobs/promote-container.yml
+        parameters:
+          source_container_name: $(project)
+          destination_container_name: $(project)
+          source_acr: $(registryName_sx)
+          destination_acr: $(registryName_ci)
+          source_subscription: '$(sx_subscription)'
+          destination_subscription: '$(ci_subscription)'
+          tag: $(Build.BuildNumber)
+
+  - stage: upload_files_ci_eun
+    displayName: 'Upload Files CI EUN'
+    dependsOn:
+      - promote_ci
+    condition: succeeded('promote_ci')
+    variables:
+      - group: CI.eCommerce.ProductSummary.Static-Content.Keys.EUN
+      - group: ProductSummary.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml
+        parameters:
+          environmentName: 'ci'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/productsummary'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: upload_files_ci_euw
+    displayName: 'Upload Files CI EUW'
+    dependsOn:
+      - promote_ci
+    condition: succeeded('promote_ci')
+    variables:
+      - group: CI.eCommerce.ProductSummary.Static-Content.Keys.EUW
+      - group: ProductSummary.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml
+        parameters:
+          environmentName: 'ci'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/productsummary'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: deploy_ci_eun
+    displayName: 'Deploy CI EUN'
+    dependsOn:
+      - upload_files_ci_eun
+      - upload_files_ci_euw
+    condition: succeeded('upload_files_ci_eun')
+    variables:
+      - group: 'CI.eCommerce.ProductSummary.Frontend.EUN'
+      - group: 'CI.Akamai.Purge'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml
+        parameters:
+          environmentName: 'ci'
+          kubernetes_service_connection: 'Kubernetes_CI.eCommerce_Browse01_EUN'
+          registry_name: $(registryName_ci)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: productsummary-frontend'
+          overrides: $(helmOverrides)
+          namespace: $(namespace)
+          acr_service_connection: '$(ci_subscription)'
+          purge_cache: 'true'
+          akamai_access_token: $(akamai_access_token)
+          akamai_client_secret: $(akamai_client_secret)
+          akamai_client_token: $(akamai_client_token)
+          akamai_host: $(akamai_host)
+          purge_tags: 'ci-productsummaryui'
+          akamai_edgerc_path: akamai.edgerc
+
+  - stage: deploy_ci_euw
+    displayName: 'Deploy CI EUW'
+    dependsOn:
+      - upload_files_ci_eun
+      - upload_files_ci_euw
+    condition: succeeded('upload_files_ci_euw')
+    variables:
+      - group: 'CI.eCommerce.ProductSummary.Frontend.EUW'
+      - group: 'CI.Akamai.Purge'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml
+        parameters:
+          environmentName: 'ci'
+          kubernetes_service_connection: 'Kubernetes_CI.eCommerce_Browse01_EUW'
+          registry_name: $(registryName_ci)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: productsummary-frontend'
+          overrides: $(helmOverrides)
+          namespace: $(namespace)
+          acr_service_connection: '$(ci_subscription)'
+          purge_cache: 'true'
+          akamai_access_token: $(akamai_access_token)
+          akamai_client_secret: $(akamai_client_secret)
+          akamai_client_token: $(akamai_client_token)
+          akamai_host: $(akamai_host)
+          purge_tags: 'ci-productsummaryui'
+          akamai_edgerc_path: akamai.edgerc
+
+  - stage: ci_testing
+    displayName: 'CI Testing'
+    dependsOn:
+      - deploy_ci_eun
+      - deploy_ci_euw
+    condition: and(succeeded('deploy_ci_eun'), succeeded('deploy_ci_euw'))
+    variables:
+      - group: 'CI.eCommerce.ProductSummary.Frontend.EUN'
+    jobs:
+      - job: run_cypress_ci
+        displayName: 'Run Functional Tests'
+        steps:
+          - template: azDevOps\azure\templates\steps\deploy-cypress-tests.yml
+            parameters:
+              cypress_test_url: '$(cypress_test_url)'
+
+  # Promote To PP ACR
+  - stage: promote_pp
+    displayName: 'Promotion to Pre-Prod'
+    dependsOn:
+      - Build
+      - deploy_ci_eun
+      - deploy_ci_euw
+      - ci_testing
+    condition:
+      and(succeeded('Build'), succeeded('deploy_ci_eun'), succeeded('deploy_ci_euw'),
+      startsWith(variables['Build.SourceBranch'], 'refs/heads/release/'))
+    jobs:
+      - template: azDevOps/azure/templates/jobs/promote-container.yml
+        parameters:
+          source_container_name: $(project)
+          destination_container_name: $(project)
+          source_acr: $(registryName_ci)
+          destination_acr: $(registryName_pp)
+          source_subscription: '$(ci_subscription)'
+          destination_subscription: '$(pp_subscription)'
+          tag: $(Build.BuildNumber)
+
+  - stage: upload_files_pp_eun
+    displayName: 'Upload Files PP EUN'
+    dependsOn:
+      - promote_pp
+    condition: succeeded('promote_pp')
+    variables:
+      - group: PP.eCommerce.ProductSummary.Static-Content.Keys.EUN
+      - group: ProductSummary.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml
+        parameters:
+          environmentName: 'pp'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/productsummary'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: upload_files_pp_euw
+    displayName: 'Upload Files PP EUW'
+    dependsOn:
+      - promote_pp
+    condition: succeeded('promote_pp')
+    variables:
+      - group: PP.eCommerce.ProductSummary.Static-Content.Keys.EUW
+      - group: ProductSummary.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml
+        parameters:
+          environmentName: 'pp'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/productsummary'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: deploy_preprod_eun
+    displayName: Deploy PreProd EUN'
+    dependsOn:
+      - upload_files_pp_eun
+      - upload_files_pp_euw
+    condition: succeeded('upload_files_pp_eun')
+    variables:
+      - group: PreProd.eCommerce.ProductSummary.Frontend.EUN
+      - group: 'PP.Akamai.Purge'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml
+        parameters:
+          environmentName: 'pp'
+          kubernetes_service_connection: 'Kubernetes_PreProd.eCommerce_Browse01_EUN'
+          registry_name: $(registryName_pp)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: productsummary-frontend'
+          overrides: $(helmOverrides)
+          namespace: $(namespace)
+          acr_service_connection: '$(pp_subscription)'
+          purge_cache: 'true'
+          akamai_access_token: $(akamai_access_token)
+          akamai_client_secret: $(akamai_client_secret)
+          akamai_client_token: $(akamai_client_token)
+          akamai_host: $(akamai_host)
+          purge_tags: 'pp-productsummaryui'
+          akamai_edgerc_path: akamai.edgerc
+
+  - stage: deploy_preprod_euw
+    displayName: Deploy PreProd EUW'
+    dependsOn:
+      - upload_files_pp_eun
+      - upload_files_pp_euw
+    condition: succeeded('upload_files_pp_euw')
+    variables:
+      - group: PreProd.eCommerce.ProductSummary.Frontend.EUW
+      - group: 'PP.Akamai.Purge'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml
+        parameters:
+          environmentName: 'pp'
+          kubernetes_service_connection: 'Kubernetes_PreProd.eCommerce_Browse01_EUW'
+          registry_name: $(registryName_pp)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: productsummary-frontend'
+          overrides: $(helmOverrides)
+          namespace: $(namespace)
+          acr_service_connection: '$(pp_subscription)'
+          purge_cache: 'true'
+          akamai_access_token: $(akamai_access_token)
+          akamai_client_secret: $(akamai_client_secret)
+          akamai_client_token: $(akamai_client_token)
+          akamai_host: $(akamai_host)
+          purge_tags: 'pp-productsummaryui'
+          akamai_edgerc_path: akamai.edgerc
+
+  - stage: pp_testing
+    displayName: 'PP Testing'
+    dependsOn:
+      - deploy_preprod_eun
+      - deploy_preprod_euw
+    condition: and(succeeded('deploy_preprod_eun'), succeeded('deploy_preprod_euw'))
+    variables:
+      - group: 'PreProd.eCommerce.ProductSummary.Frontend.EUN'
+    jobs:
+      - job: run_cypress_pp
+        displayName: 'Run Functional Tests'
+        steps:
+          - template: azDevOps\azure\templates\steps\deploy-cypress-tests.yml
+            parameters:
+              cypress_test_url: '$(cypress_test_url)'
+
+  # Raise Service Now Ticket
+  - stage: 'Create_ServiceNow_Change'
+    displayName: 'Raise ServiceNow Change'
+    dependsOn:
+      - Build
+      - deploy_preprod_eun
+      - deploy_preprod_euw
+      - pp_testing
+    condition:
+      and(succeeded('Build'), succeeded('deploy_preprod_eun'), succeeded('deploy_preprod_euw'),
+      startsWith(variables['Build.SourceBranch'], 'refs/heads/release/'))
+    variables:
+      - group: 'ServiceNow'
+      - name: 'Environment'
+        value: 'Production'
+    jobs:
+      - deployment: ServiceNowChangeRaise
+        environment: 'pd'
+      - job: servicenow_raise_change
+        displayName: 'Raise Change'
+        steps:
+          - task: ServiceNow-Change-Rasiser@0
+            inputs:
+              apiEndpoint: $(snowApi)
+              deploymentsDictionaryAPI: $(deploymentsApi)
+              buildNumber: '$(Build.BuildId)' #Must match in both stages
+              currentRepository: '$(Build.Repository.Name)' #Must match in both stages
+              deploymentEnvironment: '$(Environment)' #Must match in both stages
+              apiUser: $(snowUsername)
+              apiPassword: $(snowPassword)
+              snShortDescription: 'Deployment of $(Build.Repository.Name) to $(Environment) AKS Clusters'
+              snDescription:
+                'Deploy Release $(Build.BuildId) of the Cloud Based Product Summary onto the Production AKS clusters
+                (ecombrowse01akspdeun/ecmbrowse01akspdeuw).'
+              snJustification:
+                'This change is required to allow the automated update of $(Build.Repository.Name) onto $(Environment)'
+              snCategory: 'Applications Software'
+              snTestPlan:
+                'This change has been tested on the UAT and Conv environments. Once this has been deployed onto
+                $(Environment), our QA team will carry out any testing that is required and provide signoff.'
+              snRiskImpactAnalaysis:
+                'Any issues could mean that the Product Summary does not render correctly throughout the countries where
+                it is currently enabled. Loss of, or incorrect behaviour of, the Product Summary may affect trading.'
+              snImplementationPlan:
+                'The pipeline will continue to run once this change is approved -
+                $(System.TeamFoundationCollectionUri)$(System.TeamProject)/_build/?buildId=$(Build.BuildId) This will
+                deploy $(Build.Repository.Name) onto $(Environment). The pipeline is being run from the following branch
+                - $(Build.SourceBranch).'
+              snBackoutPlan:
+                'The current working release will be redeployed onto $(Environment) and the QA team will re-test to
+                ensure that we are back to a working state.'
+              snAssignmentGroup: 'eCommerce'
+              snCmdbCi: amido.com'
+
+  - stage: 'Check_ServiceNow_Change'
+    displayName: 'Check ServiceNow Change'
+    dependsOn:
+      - Create_ServiceNow_Change
+    condition: succeeded('Create_ServiceNow_Change')
+    variables:
+      - group: 'ServiceNow'
+      - name: 'Environment'
+        value: 'Production'
+    jobs:
+      - deployment: 'ServiceNowChangeCheck'
+        environment: 'pd'
+      - job: servicenow_change_status_check
+        displayName: 'Check Change Status on ServiceNow'
+        steps:
+          - task: ServiceNow-Change-Status-Checker@0
+            inputs:
+              apiEndpoint: $(snowApi)
+              deploymentsDictionaryAPI: $(deploymentsApi)
+              buildNumber: '$(Build.BuildId)' #Must match in both stages
+              currentRepository: '$(Build.Repository.Name)' #Must match in both stages
+              deploymentEnvironment: '$(Environment)' #Must match in both stages
+              apiUser: '$(snowUsername)'
+              apiPassword: '$(snowPassword)'
+
+  # Promote To PD ACR
+  - stage: promote_pd
+    displayName: 'Promotion to Prod'
+    dependsOn:
+      - Check_ServiceNow_Change
+    condition: succeeded('Check_ServiceNow_Change')
+    jobs:
+      - template: azDevOps/azure/templates/jobs/promote-container.yml
+        parameters:
+          source_container_name: $(project)
+          destination_container_name: $(project)
+          source_acr: $(registryName_pp)
+          destination_acr: $(registryName_pd)
+          source_subscription: '$(pp_subscription)'
+          destination_subscription: '$(pd_subscription)'
+          tag: $(Build.BuildNumber)
+
+  - stage: upload_files_pd_eun
+    displayName: 'Upload Files PD EUN'
+    dependsOn:
+      - promote_pd
+    condition: succeeded('promote_pd')
+    variables:
+      - group: PD.eCommerce.ProductSummary.Static-Content.Keys.EUN
+      - group: ProductSummary.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml
+        parameters:
+          environmentName: 'pd'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/productsummary'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: upload_files_pd_euw
+    displayName: 'Upload Files PD EUW'
+    dependsOn:
+      - promote_pd
+    condition: succeeded('promote_pd')
+    variables:
+      - group: PD.eCommerce.ProductSummary.Static-Content.Keys.EUW
+      - group: ProductSummary.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml
+        parameters:
+          environmentName: 'pp'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/productsummary'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: deploy_prod_eun
+    displayName: Deploy Prod EUN'
+    dependsOn:
+      - upload_files_pd_eun
+      - upload_files_pd_euw
+    condition: succeeded('upload_files_pd_eun')
+    variables:
+      - group: Prod.eCommerce.ProductSummary.Frontend.EUN
+      - group: 'PD.Akamai.Purge'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml
+        parameters:
+          environmentName: 'pd'
+          kubernetes_service_connection: 'Kubernetes_Prod.eCommerce_Browse01_EUN'
+          registry_name: $(registryName_pd)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: productsummary-frontend'
+          overrides: $(helmOverrides)
+          namespace: $(namespace)
+          acr_service_connection: '$(pd_subscription)'
+          purge_cache: 'true'
+          akamai_access_token: $(akamai-purge-access-token)
+          akamai_client_secret: $(akamai-purge-client-secret)
+          akamai_client_token: $(akamai-purge-client-token)
+          akamai_host: $(akamai-purge-host)
+          purge_tags: 'pd-productsummaryui'
+          akamai_edgerc_path: akamai.edgerc
+
+  - stage: deploy_prod_euw
+    displayName: Deploy Prod EUW'
+    dependsOn:
+      - upload_files_pd_eun
+      - upload_files_pd_euw
+    condition: succeeded('upload_files_pd_euw')
+    variables:
+      - group: Prod.eCommerce.ProductSummary.Frontend.EUW
+      - group: 'PD.Akamai.Purge'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml
+        parameters:
+          environmentName: 'pd'
+          kubernetes_service_connection: 'Kubernetes_Prod.eCommerce_Browse01_EUW'
+          registry_name: $(registryName_pd)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: productsummary-frontend'
+          overrides: $(helmOverrides)
+          namespace: $(namespace)
+          acr_service_connection: '$(pd_subscription)'
+          purge_cache: 'true'
+          akamai_access_token: $(akamai-purge-access-token)
+          akamai_client_secret: $(akamai-purge-client-secret)
+          akamai_client_token: $(akamai-purge-client-token)
+          akamai_host: $(akamai-purge-host)
+          purge_tags: 'pd-productsummaryui'
+          akamai_edgerc_path: akamai.edgerc
+
+  - stage: pd_testing
+    displayName: 'PD Testing'
+    dependsOn:
+      - deploy_prod_eun
+      - deploy_prod_euw
+    condition: and(succeeded('deploy_prod_eun'), succeeded('deploy_prod_euw'))
+    variables:
+      - group: 'Prod.eCommerce.ProductSummary.Frontend.EUN'
+    jobs:
+      - job: run_cypress_pd
+        displayName: 'Run Functional Tests'
+        steps:
+          - template: azDevOps\azure\templates\steps\deploy-cypress-tests.yml
+            parameters:
+              cypress_test_url: '$(cypress_test_url)'

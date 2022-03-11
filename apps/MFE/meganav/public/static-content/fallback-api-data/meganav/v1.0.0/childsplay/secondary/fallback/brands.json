@@ -1,0 +1,407 @@
+{
+  "id": "843b19ed-4533-4d3d-b8df-34ff34ccd5a3",
+  "title": "BRANDS",
+  "target": "/branded",
+  "viewType": "secondary-navigation",
+  "realm": "next",
+  "territory": "MX",
+  "language": "en",
+  "excludeFromMobile": false,
+  "items": [
+    {
+      "title": "BRANDS",
+      "type": "tab",
+      "items": [
+        {
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "title": "",
+              "type": "category",
+              "items": [
+                {
+                  "title": "A-Z Brands",
+                  "type": "link",
+                  "target": "/brands/all",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "bolder",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null
+            },
+            {
+              "title": "What's New",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Womens New In",
+                  "type": "link",
+                  "target": "/shop/gender-women-editorial-label/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Mens New In",
+                  "type": "link",
+                  "target": "/shop/gender-men-editorial-label/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Girls New In",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-oldergirls-gender-youngergirls-editorial-label/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Boys New In",
+                  "type": "link",
+                  "target": "/shop/gender-newbornboys-gender-olderboys-gender-youngerboys-editorial-label/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Home New In",
+                  "type": "link",
+                  "target": "/shop/department-homeware-editorial-label/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "",
+              "fontFamily": null
+            },
+            {
+              "title": "All Brands",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Womens",
+                  "type": "link",
+                  "target": "/shop/gender-women-editorial-label",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Mens",
+                  "type": "link",
+                  "target": "/shop/gender-men-editorial-label",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Girls",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-oldergirls-gender-youngergirls-editorial-label",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Boys",
+                  "type": "link",
+                  "target": "/shop/gender-newbornboys-gender-olderboys-gender-youngerboys-editorial-label",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Baby",
+                  "type": "link",
+                  "target": "/shop/gender-newbornboys-editorial-label",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Home",
+                  "type": "link",
+                  "target": "/shop/department-homeware-editorial-label",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "A-Z Brands",
+                  "type": "link",
+                  "target": "/brands/all",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "",
+              "fontFamily": null
+            }
+          ]
+        },
+        {
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "title": "Popular Brands",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Lipsy",
+                  "type": "link",
+                  "target": "/shop/brand-lipsy-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "adidas",
+                  "type": "link",
+                  "target": "/shop/gender-men-brand-adidas-brand-adidasgolf-brand-adidasoriginals-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Fat Face",
+                  "type": "link",
+                  "target": "/shop/brand-fatface-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Lacoste",
+                  "type": "link",
+                  "target": "/shop/brand-lacoste-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Tommy Hilfiger",
+                  "type": "link",
+                  "target": "/shop/brand-tommyhilfiger-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Quiz",
+                  "type": "link",
+                  "target": "/shop/brand-quiz-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Converse",
+                  "type": "link",
+                  "target": "/shop/brand-converse-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Angel & Rocket",
+                  "type": "link",
+                  "target": "/shop/brand-angelrocket-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "",
+              "fontFamily": null
+            },
+            {
+              "title": "Popular Kids Brands",
+              "type": "category",
+              "items": [
+                {
+                  "title": "adidas",
+                  "type": "link",
+                  "target": "/shop/gender-newbornboys-gender-newborngirls-gender-newbornunisex-gender-olderboys-gender-oldergirls-gender-youngerboys-gender-youngergirls/brand-adidas",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Boss Kids",
+                  "type": "link",
+                  "target": "/shop/gender-newbornboys-gender-newborngirls-gender-newbornunisex-gender-olderboys-gender-oldergirls-gender-youngerboys-gender-youngergirls/brand-boss",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "River Island",
+                  "type": "link",
+                  "target": "/shop/gender-newbornboys-gender-newborngirls-gender-newbornunisex-gender-olderboys-gender-oldergirls-gender-youngerboys-gender-youngergirls/brand-riverisland",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Monsoon",
+                  "type": "link",
+                  "target": "/shop/gender-newbornboys-gender-newborngirls-gender-newbornunisex-gender-olderboys-gender-oldergirls-gender-youngerboys-gender-youngergirls/brand-monsoon",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Tommy Hilfiger",
+                  "type": "link",
+                  "target": "/shop/gender-newbornboys-gender-newborngirls-gender-newbornunisex-gender-olderboys-gender-oldergirls-gender-youngerboys-gender-youngergirls/brand-tommyhilfiger",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "The Little Tailor",
+                  "type": "link",
+                  "target": "/shop/gender-newbornboys-gender-newborngirls-gender-newbornunisex-gender-olderboys-gender-oldergirls-gender-youngerboys-gender-youngergirls/brand-thelittletailor",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "U.S. Polo Assn",
+                  "type": "link",
+                  "target": "/shop/gender-newbornboys-gender-newborngirls-gender-newbornunisex-gender-olderboys-gender-oldergirls-gender-youngerboys-gender-youngergirls/brand-uspoloassn",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Underarmour",
+                  "type": "link",
+                  "target": "/shop/gender-newbornboys-gender-newborngirls-gender-newbornunisex-gender-olderboys-gender-oldergirls-gender-youngerboys-gender-youngergirls/brand-underarmour",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Lipsy Girl",
+                  "type": "link",
+                  "target": "/shop/gender-oldergirls-gender-youngergirls/brand-lipsy",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "",
+              "fontFamily": null
+            }
+          ]
+        },
+        {
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "title": "Trending",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Checks",
+                  "type": "link",
+                  "target": "/shop/editorial-label-editorial-lipsyandcompany/pattern-check",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Lipsy Occasion Dresses",
+                  "type": "link",
+                  "target": "/shop/gender-women-category-dresses/brand-lipsy-use-occasionwear",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Animal Print",
+                  "type": "link",
+                  "target": "/shop/gender-women-editorial-label/pattern-animalprint",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sports",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-perfromancesportswear-productaffiliation-sportswear-editorial-label",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Home Brands",
+                  "type": "link",
+                  "target": "/shop/department-homeware-editorial-label-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "",
+              "fontFamily": null
+            }
+          ]
+        }
+      ],
+      "missions": null
+    }
+  ],
+  "banner": null
+}

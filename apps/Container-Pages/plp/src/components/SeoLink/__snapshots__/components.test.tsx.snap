@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshots - products title StyledProductTitle 1`] = `
+<DocumentFragment>
+  .c0 {
+  margin-top: 2rem;
+  padding: 1rem 4rem;
+  border: 1px solid black;
+  color: black;
+  display: block;
+  list-style: none;
+}
+
+<a
+    class="c0"
+  />
+</DocumentFragment>
+`;

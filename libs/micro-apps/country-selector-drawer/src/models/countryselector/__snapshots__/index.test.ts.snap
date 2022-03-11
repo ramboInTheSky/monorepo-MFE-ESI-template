@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - Country Selector:  should match the Country 1`] = `
+Country {
+  "countryCode": "",
+  "isNonStandard": false,
+  "languages": Array [],
+  "name": "",
+  "nameWithCurrency": "",
+  "promotedCountryIndex": 0,
+  "region": "",
+}
+`;
+
+exports[`Model - Country Selector:  should match the CountryLanguage 1`] = `
+Language {
+  "default": false,
+  "id": "",
+  "name": "",
+  "targetUrl": "",
+}
+`;

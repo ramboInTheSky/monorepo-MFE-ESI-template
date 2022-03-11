@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given the text dictionary should not have changed unexpectedly 1`] = `
+Object {
+  "ROWLinkText": "View All Countries",
+  "ROWText": "Can't find the country you're looking for?",
+  "closeText": "Close",
+  "headerTitle": "CHANGE COUNTRY",
+  "languageText": "Language",
+  "locationText": "Location",
+  "mpEnd": "<!-- mp_trans_enable_end -->",
+  "mpStart": "<!-- mp_trans_enable_start -->",
+  "shopNowText": "Shop now",
+  "stayText": "Stay on amido.com",
+}
+`;

@@ -1,0 +1,393 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - MiniShoppingBagItem:  Item in the Bag- MiniShoppingBagItem:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 0.0625rem solid #eaeaea;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: inherit;
+  font-size: 12px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c1:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c3 {
+  height: 2.75rem;
+  width: 5.375rem;
+}
+
+.c2 {
+  padding: 1rem;
+}
+
+.c6 {
+  white-space: nowrap;
+  padding-right: 0.938rem;
+}
+
+.c7 {
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  margin: 0.25rem 0 0 0;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  color: #d88f31;
+}
+
+.c4 {
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.c4.c4 > p {
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  color: #515151;
+  word-break: break-all;
+  padding-right: 0.613rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c5 > h3:first-child {
+  word-wrap: break-word;
+  max-width: 10.3125rem;
+  padding-right: 0.625rem;
+}
+
+.c5 > h3:last-child {
+  white-space: nowrap;
+}
+
+<div
+    class="c0"
+  >
+    <a
+      class="c1"
+      href="/test-url#436441"
+    >
+      <div
+        class="c2"
+      >
+        <img
+          alt="UGO Herman Melange Jacket"
+          class="c3"
+          data-testid="header-mini-shopping-bag-item-image"
+        />
+      </div>
+    </a>
+    <div
+      class="c4"
+    >
+      <div
+        class="c5"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5"
+          data-testid="header-mini-shopping-bag-item-description"
+        >
+          UGO Herman Melange Jacket
+        </h5>
+        <div
+          class="c6"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 MuiTypography-alignRight"
+          />
+        </div>
+      </div>
+      <p
+        class="MuiTypography-root MuiTypography-body1"
+      >
+        Size: 10 S
+      </p>
+      <p
+        class="MuiTypography-root MuiTypography-body1"
+      >
+        Qty: 5
+      </p>
+      <div
+        class="c7"
+      >
+        In Stock at LEICESTER - HIGH CROSS SHOPPING CENTRE
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - MiniShoppingBagItem:  Item in the Bag- MiniShoppingBagItem:  should match the snapshot with alternative description  1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 0.0625rem solid #eaeaea;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: inherit;
+  font-size: 12px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c1:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c3 {
+  height: 2.75rem;
+  width: 5.375rem;
+}
+
+.c2 {
+  padding: 1rem;
+}
+
+<div
+    class="c0"
+  >
+    <a
+      class="c1"
+      href="undefined#436441"
+    >
+      <div
+        class="c2"
+      >
+        <img
+          alt="UGO Herman Melange Jacket"
+          class="c3"
+          data-testid="header-mini-shopping-bag-item-image"
+        />
+      </div>
+    </a>
+    <default
+      alternativedescription="Alternative UGO Herman Melange Jacket"
+      cistorename="at LEICESTER - HIGH CROSS SHOPPING CENTRE"
+      description="UGO Herman Melange Jacket"
+      qtytext="Qty:"
+      quantity="5"
+      sizedescription="10 S"
+      sizetext="Size:"
+      stockmessage="In Stock"
+      text="[object Object]"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - MiniShoppingBagItem:  Item in the Bag- MiniShoppingBagItem:  should match the snapshot with discount element  1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 0.0625rem solid #eaeaea;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: inherit;
+  font-size: 12px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c1:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c3 {
+  height: 2.75rem;
+  width: 5.375rem;
+}
+
+.c2 {
+  padding: 1rem;
+}
+
+.c6 {
+  white-space: nowrap;
+  padding-right: 0.938rem;
+}
+
+.c7 {
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  margin: 0.25rem 0 0 0;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  color: #d88f31;
+}
+
+.c4 {
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.c4.c4 > p {
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  color: #515151;
+  word-break: break-all;
+  padding-right: 0.613rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c5 > h3:first-child {
+  word-wrap: break-word;
+  max-width: 10.3125rem;
+  padding-right: 0.625rem;
+}
+
+.c5 > h3:last-child {
+  white-space: nowrap;
+}
+
+<div
+    class="c0"
+  >
+    <a
+      class="c1"
+      href="undefined#436441"
+    >
+      <div
+        class="c2"
+      >
+        <img
+          alt="UGO Herman Melange Jacket"
+          class="c3"
+          data-testid="header-mini-shopping-bag-item-image"
+        />
+      </div>
+    </a>
+    <div
+      class="c4"
+    >
+      <div
+        class="c5"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5"
+          data-testid="header-mini-shopping-bag-item-description"
+        >
+          Alternative UGO Herman Melange Jacket
+        </h5>
+        <div
+          class="c6"
+        >
+          <h5
+            class="MuiTypography-root MuiTypography-h5 MuiTypography-alignRight"
+          />
+          <h5
+            class="MuiTypography-root MuiTypography-h5 MuiTypography-colorError"
+            data-testid="header-mini-shopping-bag-item-sale-price"
+          >
+            Sale Price
+          </h5>
+        </div>
+      </div>
+      <p
+        class="MuiTypography-root MuiTypography-body1"
+      >
+        Size: 10 S
+      </p>
+      <p
+        class="MuiTypography-root MuiTypography-body1"
+      >
+        Qty: 5
+      </p>
+      <div
+        class="c7"
+      >
+        In Stock at LEICESTER - HIGH CROSS SHOPPING CENTRE
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,27 @@
+trigger:
+  branches:
+    include:
+      - feature/*
+      - master
+  paths:
+    exclude:
+      - azure-pipelines.yml
+
+resources:
+  repositories:
+    - repository: AmidoEcommerce
+      type: git
+      name: Amido.Ecommerce.Infrastructure/Amido.Ecommerce.Infrastructure.Templates
+
+stages:
+  - stage: Build
+    displayName: 'PublishNPM'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/publish-npm.yml
+        parameters:
+          workingDirectory: 'SettingsSDK'
+          repositoryName: ''
+          packageName: 'settings-sdk'
+          run_vulnerability_scan: false
+          run_static_code_analysis: false
+          branchName: $(Build.SourceBranchName)

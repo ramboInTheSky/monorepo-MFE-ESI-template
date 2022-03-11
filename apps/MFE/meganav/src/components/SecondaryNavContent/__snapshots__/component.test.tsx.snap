@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SecondaryNavContent component:  CatalogueAndMissionsContainer:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="component__CatalogueAndMissionsContainer-sc-1p8041r-3 cBCdqN"
+  />
+</DocumentFragment>
+`;
+
+exports[`SecondaryNavContent component:  CatalogueContainer:  should match the snapshot hasMissions and hasBanner are false 1`] = `
+<DocumentFragment>
+  <section
+    class="component__CatalogueContainer-sc-1p8041r-1 cRJxRQ"
+  />
+</DocumentFragment>
+`;
+
+exports[`SecondaryNavContent component:  CatalogueContainer:  should match the snapshot when hasMissions and hasBanner are true 1`] = `
+<DocumentFragment>
+  <section
+    class="component__CatalogueContainer-sc-1p8041r-1 pezjY"
+  />
+</DocumentFragment>
+`;
+
+exports[`SecondaryNavContent component:  CatalogueContainer:  should match the snapshot when hasMissions is false and hasBanner is true 1`] = `
+<DocumentFragment>
+  <section
+    class="component__CatalogueContainer-sc-1p8041r-1 dzthKp"
+  />
+</DocumentFragment>
+`;
+
+exports[`SecondaryNavContent component:  CatalogueContainer:  should match the snapshot when hasMissions is true and hasBanner is false 1`] = `
+<DocumentFragment>
+  <section
+    class="component__CatalogueContainer-sc-1p8041r-1 cjdUDR"
+  />
+</DocumentFragment>
+`;
+
+exports[`SecondaryNavContent component:  Container:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <nav
+    class="component__Container-sc-1p8041r-0 erNhow"
+  />
+</DocumentFragment>
+`;

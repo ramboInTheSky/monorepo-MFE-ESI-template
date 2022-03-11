@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App:  Section:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  left: 0;
+}
+
+<section
+    class="c0"
+  />
+</DocumentFragment>
+`;

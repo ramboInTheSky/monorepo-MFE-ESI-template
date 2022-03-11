@@ -1,0 +1,45 @@
+{
+  "labels": {
+    "newIn": "new in",
+    "suitPrice": "Suit Price",
+    "jacket": "Jacket",
+    "trousers": "Trousers",
+    "apostrophe": "'s",
+    "favouritesList": "favourites list.",
+    "favouritesAddedInfo": "This item has been added to",
+    "favouritesSavePermanently": "an account to save these items permanently.",
+    "not": "Not",
+    "or": "or",
+    "questionSymbol": "?",
+    "maxLimitReached": "Max limit reached",
+    "maxLimitReachedItems": "You have reached your limit of",
+    "maxLimitReachedReview": "items. Please review your Favourites List to keep this item.",
+    "pleaseTryAgain": "Please try again",
+    "continueShopping": "Continue shopping"
+  },
+  "buttons": {
+    "viewMoreColourchips": "View more colours",
+    "viewLessColourchips": "View less colours",
+    "chevronAlt": "Accordion chevron icon",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "register": "Register",
+    "manageFavourites": "MANAGE FAVOURITES"
+  },
+  "price": {
+    "was": "Was",
+    "now": "Now",
+    "mobileWas": "Was",
+    "mobileNow": "Now",
+    "from": "From"
+  },
+  "fitIconAltText": "Product Summary fit icon",
+  "product": {
+    "favourites": "Favourites"
+  },
+  "favouriteStates" : {
+    "inactive" : "Inactive",
+    "loading" : "Loading",
+    "active" : "Active"
+  }
+}

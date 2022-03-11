@@ -1,0 +1,21 @@
+{
+  "path": "/icons/header",
+  "rel": "apple-touch-icon-precomposed",
+  "icons": {
+    "60x60": {
+      "name": ["ios-notification-60x60.png"]
+    },
+    "120x120": {
+      "name": ["ios-iphone-120x120.png"]
+    },
+    "152x152": {
+      "name": ["ios-ipad-152x152.png"]
+    },
+    "167x167": {
+      "name": ["ios-ipad-pro-167x167.png"]
+    },
+    "180x180": {
+      "name": ["ios-iphone-180x180.png"]
+    }
+  }
+}

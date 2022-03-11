@@ -1,0 +1,12 @@
+{
+  "projectId": "14gfap",
+  "chromeWebSecurity": false,
+  "testFiles": "**/*.cy.{ts,tsx}",
+  "integrationFolder": "./src",
+  "retries": {
+    "runMode": 2,
+    "openMode": 0
+  },
+  "defaultCommandTimeout": 10000,
+  "pageLoadTimeout": 200000
+}

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - Sorting:  should match the Sorting 1`] = `
+Sorting {
+  "options": Array [
+    SortingOption {
+      "name": undefined,
+      "value": undefined,
+    },
+  ],
+  "selected": undefined,
+}
+`;

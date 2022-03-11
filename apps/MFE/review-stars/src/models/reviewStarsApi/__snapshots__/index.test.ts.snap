@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - ReviewStars:  should match the expected ReviewStars model structure 1`] = `
+ReviewStarsApiContract {
+  "itemNumber": "1234",
+  "overallStarRating": 2.5,
+  "totalReviewCount": 10,
+}
+`;

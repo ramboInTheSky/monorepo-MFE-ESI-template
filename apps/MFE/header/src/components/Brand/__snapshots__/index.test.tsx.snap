@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - Brand:  should match the snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  cursor: pointer;
+}
+
+.c0 a,
+.c0 img {
+  display: block;
+  width: 100%;
+  height: 2.75rem;
+  width: 5.375rem;
+  font-size: 0.9375rem;
+}
+
+@media (min-width:768px) {
+  .c0 a,
+  .c0 img {
+    height: 2.75rem;
+    width: 5.375rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 a,
+  .c0 img {
+    height: 2.75rem;
+    width: 5.375rem;
+  }
+}
+
+<div
+    class="c0 header-adaptive-brand"
+    data-testid="header-adaptive-brand"
+  >
+    <a
+      aria-label="Amido logo"
+      href="https://pageurl.com"
+      title="Click here to go to homepage"
+    >
+      <div
+        class="PrivateHiddenCss-mdUp-8"
+      >
+        <img
+          alt="Amido logo"
+          class="c1"
+          src="narrowicon"
+        />
+      </div>
+      <div
+        class="PrivateHiddenCss-smDown-6"
+      >
+        <img
+          alt="Amido logo"
+          class="c1"
+          src="wideicon"
+        />
+      </div>
+    </a>
+  </div>
+</DocumentFragment>
+`;

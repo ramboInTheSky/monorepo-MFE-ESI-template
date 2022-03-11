@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - CookieConsent:  should match the snapshot when cookie policy feature is disabled 1`] = `<DocumentFragment />`;
+
+exports[`Components - CookieConsent:  should match the snapshot when cookie policy is enabled 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: fixed;
+  bottom: 0.625rem;
+  right: 0.625rem;
+  width: 16.5rem;
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 0.0625rem solid #eaeaea;
+  border-radius: 0.25rem;
+}
+
+.c2 {
+  padding-bottom: 0.35rem;
+}
+
+.c3 {
+  color: #000000;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c1 {
+  position: absolute;
+  right: 0.625rem;
+  top: 0.625rem;
+  cursor: pointer;
+}
+
+<div
+    style="transition: opacity 300ms ease-in-out; opacity: 1;"
+  >
+    <div
+      class="c0"
+      data-testid="header-cookie-consent"
+      id="cookie-consent"
+    >
+      <img
+        alt="Close"
+        class="c1"
+        data-testid="header-cookie-consent-close"
+        src="/static-content/icons/shared/close.svg"
+      />
+      <h5
+        class="MuiTypography-root c2 MuiTypography-h5"
+      >
+        Cookie Policy
+      </h5>
+      <p
+        class="MuiTypography-root MuiTypography-body1"
+      >
+        We use cookies to provide you with the best posible experience. By continuing to use our site, you agree to our use of cookies.
+      </p>
+      <p
+        class="MuiTypography-root MuiTypography-body1"
+      >
+        <a
+          class="c3"
+          data-testid="header-cookie-consent-privacy-link"
+          href="/privacy"
+        >
+          Find out more
+        </a>
+         about managing your cookie settings.
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

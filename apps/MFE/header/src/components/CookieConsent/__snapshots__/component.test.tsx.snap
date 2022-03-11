@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container component:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  position: fixed;
+  bottom: 0.625rem;
+  right: 0.625rem;
+  width: 16.5rem;
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 0.0625rem solid #eaeaea;
+  border-radius: 0.25rem;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Link component:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  color: #000000;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<a
+    class="c0"
+    href="/testurl"
+  >
+    Link
+  </a>
+</DocumentFragment>
+`;
+
+exports[`StyledIcon component:  should match the snapshot if selected 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: absolute;
+  right: 0.625rem;
+  top: 0.625rem;
+  cursor: pointer;
+}
+
+<img
+    alt="icon"
+    class="c0"
+    src="/abc/abe.svg"
+  />
+</DocumentFragment>
+`;
+
+exports[`StyledTitle component:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  padding-bottom: 0.35rem;
+}
+
+<h5
+    class="MuiTypography-root c0 MuiTypography-h5"
+  >
+    Title
+  </h5>
+</DocumentFragment>
+`;

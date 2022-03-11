@@ -1,0 +1,401 @@
+{
+  "id": "ad350ad3-cbca-4e38-84ee-b75e6c30a927",
+  "name": "Default",
+  "realm": "amido",
+  "territory": "SA",
+  "language": "ar",
+  "regions": [
+    {
+      "type": "SocialMedia",
+      "title": "Our Social Networks",
+      "accessibilityTitle": "Our Social Networks",
+      "subRegions": [
+        {
+          "title": "",
+          "accessibilityTitle": "",
+          "elements": [
+            {
+              "type": "Link",
+              "url": "https://www.facebook.com/amidoofficial",
+              "openInNewWindow": true,
+              "name": "Facebook",
+              "icon": "/icons/footer/amido/socialmedia/icon-social-facebook.svg",
+              "text": "",
+              "accessibilityText": "facebook",
+              "tooltip": "facebook.com/amidoofficial",
+              "accessibilityTooltip": "facebook.com/amidoofficial",
+              "description": null,
+              "accessibilityDescription": null,
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "https://www.twitter.com/amidoofficial",
+              "openInNewWindow": true,
+              "name": "Twitter",
+              "icon": "/icons/footer/amido/socialmedia/icon-social-twitter.svg",
+              "text": "Twitter",
+              "accessibilityText": "twitter",
+              "tooltip": "twitter.com/amidoofficial",
+              "accessibilityTooltip": "twitter.com/amidoofficial",
+              "description": null,
+              "accessibilityDescription": null,
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "https://instagram.com/amidoofficial/",
+              "openInNewWindow": true,
+              "name": "Instagram",
+              "icon": "/icons/footer/amido/socialmedia/icon-social-instagram.svg",
+              "text": "Instagram",
+              "accessibilityText": "instagram",
+              "tooltip": "instagram.com/amidoofficial",
+              "accessibilityTooltip": "instagram.com/amidoofficial",
+              "description": null,
+              "accessibilityDescription": null,
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "https://www.pinterest.com/amidoofficial",
+              "openInNewWindow": true,
+              "name": "Pinterest",
+              "icon": "/icons/footer/amido/socialmedia/icon-social-pinterest.svg",
+              "text": "Pinterest",
+              "accessibilityText": "pinterest",
+              "tooltip": "pinterest.com/amidoofficial",
+              "accessibilityTooltip": "pinterest.com/amidoofficial",
+              "description": null,
+              "accessibilityDescription": null,
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "https://www.youtube.com/user/amidoshopping",
+              "openInNewWindow": true,
+              "name": "YouTube",
+              "icon": "/icons/footer/amido/socialmedia/icon-social-youtube.svg",
+              "text": "YouTube",
+              "accessibilityText": "youtube",
+              "tooltip": "youtube.com/amidoshopping",
+              "accessibilityTooltip": "youtube.com/amidoshopping",
+              "description": null,
+              "accessibilityDescription": null,
+              "className": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "QuickLinks",
+      "title": "QuickLinks",
+      "accessibilityTitle": "Quick Links",
+      "subRegions": [
+        {
+          "title": "",
+          "accessibilityTitle": "",
+          "elements": [
+            {
+              "type": "MyAccountLoggedIn",
+              "url": "/secure/accounts/transfer",
+              "openInNewWindow": false,
+              "name": "MyAccountLoggedIn",
+              "icon": "/icons/footer/amido/quicklinks/myaccount.svg",
+              "text": "<username>",
+              "accessibilityText": "My Account",
+              "tooltip": null,
+              "accessibilityTooltip": null,
+              "description": "View your Amido account",
+              "accessibilityDescription": "View your Amido account",
+              "className": null
+            },
+            {
+              "type": "MyAccountLoggedOut",
+              "url": "/secure/accounts/transfer",
+              "openInNewWindow": false,
+              "name": "MyAccountLoggedOut",
+              "icon": "/icons/footer/amido/quicklinks/myaccount.svg",
+              "text": "My Account",
+              "accessibilityText": "My Account",
+              "tooltip": null,
+              "accessibilityTooltip": null,
+              "description": "Sign-in to your account",
+              "accessibilityDescription": "Sign-in to your account",
+              "className": null
+            },
+            {
+              "type": "LanguageSelector",
+              "url": "",
+              "openInNewWindow": false,
+              "name": "LanguageSelector",
+              "icon": "/icons/footer/amido/quicklinks/languageselector.svg",
+              "text": "Select Language",
+              "accessibilityText": "Select Language",
+              "tooltip": null,
+              "accessibilityTooltip": null,
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            }
+          ]
+        },
+        {
+          "title": "Logout",
+          "accessibilityTitle": "",
+          "elements": [
+            {
+              "type": "Logout",
+              "url": "/forget-me",
+              "openInNewWindow": false,
+              "name": "Logout",
+              "icon": "account_circle",
+              "text": "Not <username>?",
+              "accessibilityText": "Not <username>?",
+              "tooltip": null,
+              "accessibilityTooltip": null,
+              "description": "Logout of your account",
+              "accessibilityDescription": "Logout of your account",
+              "className": null
+            },
+            {
+              "type": "LogoutButton",
+              "url": "/forget-me",
+              "openInNewWindow": false,
+              "name": "LogoutButton",
+              "icon": "account_circle",
+              "text": "Sign Out",
+              "accessibilityText": "Sign Out",
+              "tooltip": null,
+              "accessibilityTooltip": null,
+              "description": "Logout of your account",
+              "accessibilityDescription": "Logout of your account",
+              "className": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "MainLinks",
+      "title": "MainLinks",
+      "accessibilityTitle": "MainLinks",
+      "subRegions": [
+        {
+          "title": "Help",
+          "accessibilityTitle": "Help",
+          "elements": [
+            {
+              "type": "Link",
+              "url": "/faqs#returnskeyinformation",
+              "openInNewWindow": false,
+              "name": "ReturnsInfo",
+              "icon": null,
+              "text": "Returns Information",
+              "accessibilityText": "Returns Information",
+              "tooltip": "Arrange a Return",
+              "accessibilityTooltip": "Arrange a Return",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "/faqs#deliverykeyinformation",
+              "openInNewWindow": false,
+              "name": "ShippingInfo",
+              "icon": null,
+              "text": "Shipping Information",
+              "accessibilityText": "Shipping Information",
+              "tooltip": "Shipping Information",
+              "accessibilityTooltip": "Shipping Information",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "/faqs#contactus",
+              "openInNewWindow": false,
+              "name": "ContactUs",
+              "icon": null,
+              "text": "Contact Us",
+              "accessibilityText": "Contact Us",
+              "tooltip": "How to contact Amido",
+              "accessibilityTooltip": "How to contact Amido",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "/sitemap",
+              "openInNewWindow": false,
+              "name": "Sitemap",
+              "icon": null,
+              "text": "Sitemap",
+              "accessibilityText": "Sitemap",
+              "tooltip": "Sitemap",
+              "accessibilityTooltip": "Sitemap",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            }
+          ]
+        },
+        {
+          "title": "Privacy & Legal",
+          "accessibilityTitle": "Privacy&Legal",
+          "elements": [
+            {
+              "type": "Link",
+              "url": "/privacypolicy",
+              "openInNewWindow": false,
+              "name": "PrivacyPolicy",
+              "icon": null,
+              "text": "Privacy Policy",
+              "accessibilityText": "Privacy Policy",
+              "tooltip": "Amido privacy policy",
+              "accessibilityTooltip": "Amido privacy policy",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "/terms",
+              "openInNewWindow": false,
+              "name": "Terms",
+              "icon": null,
+              "text": "Terms & Conditions",
+              "accessibilityText": "Terms & Conditions",
+              "tooltip": "Amido Terms and Conditions",
+              "accessibilityTooltip": "Amido Terms and Conditions",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            }
+          ]
+        },
+        {
+          "title": "Other Services",
+          "accessibilityTitle": "OtherServices",
+          "elements": [
+            {
+              "type": "Link",
+              "url": "https://www.amido.com/media/media-contacts",
+              "openInNewWindow": true,
+              "name": "Media",
+              "icon": null,
+              "text": "Media & Press",
+              "accessibilityText": "Media & Press",
+              "tooltip": "Media",
+              "accessibilityTooltip": "Media",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "https://www.amido.com/",
+              "openInNewWindow": true,
+              "name": "TheCompany",
+              "icon": null,
+              "text": "The Company",
+              "accessibilityText": "The Company",
+              "tooltip": "The Company",
+              "accessibilityTooltip": "The Company",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "https://careers.amido.com/",
+              "openInNewWindow": true,
+              "name": "Careers",
+              "icon": null,
+              "text": "Careers@monorepo",
+              "accessibilityText": "Careers@monorepo",
+              "tooltip": "Careers@monorepo",
+              "accessibilityTooltip": "Careers@monorepo",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "/franchise",
+              "openInNewWindow": false,
+              "name": "AmidoFranchise",
+              "icon": null,
+              "text": "Amido Franchise",
+              "accessibilityText": "Amido Franchise",
+              "tooltip": "Franchise Information",
+              "accessibilityTooltip": "Franchise Information",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Copyright",
+      "title": "Copyright",
+      "accessibilityTitle": "Copyright",
+      "subRegions": [
+        {
+          "title": "",
+          "accessibilityTitle": "",
+          "elements": [
+            {
+              "type": "MobileToggle",
+              "url": "/changedevice/mobile",
+              "openInNewWindow": true,
+              "name": "MobileToggle",
+              "icon": null,
+              "text": "View mobile site",
+              "accessibilityText": "View mobile site",
+              "tooltip": null,
+              "accessibilityTooltip": null,
+              "description": null,
+              "accessibilityDescription": null,
+              "className": null
+            },
+            {
+              "type": "DesktopToggle",
+              "url": "/changedevice/desktop",
+              "openInNewWindow": true,
+              "name": "DesktopToggle",
+              "icon": null,
+              "text": "View desktop site",
+              "accessibilityText": "View desktop site",
+              "tooltip": null,
+              "accessibilityTooltip": null,
+              "description": null,
+              "accessibilityDescription": null,
+              "className": null
+            },
+            {
+              "type": "Copyright",
+              "url": "",
+              "openInNewWindow": true,
+              "name": "Copyright",
+              "icon": null,
+              "text": "© <yyyy> Amido Retail Ltd. All rights reserved.",
+              "accessibilityText": "© <yyyy> Amido Retail Ltd. All rights reserved.",
+              "tooltip": null,
+              "accessibilityTooltip": null,
+              "description": null,
+              "accessibilityDescription": null,
+              "className": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

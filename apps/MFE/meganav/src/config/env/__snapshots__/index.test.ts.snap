@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ENV:  should match the SettingsSdkKeys 1`] = `
+Object {
+  "ASSETS_PATH": "/meganavstatic",
+  "DEVELOPMENT": false,
+  "LOG_LEVEL": undefined,
+  "NODE_ENV": "<NODE_ENV>",
+  "POD_NAME": undefined,
+  "PORT": 3005,
+  "PRODUCTION": false,
+  "REACT_APP_API_BASEURL": "<REACT_APP_API_BASEURL>",
+  "REACT_APP_APPINSIGHTS_KEY": "c620fe2b-48e7-4354-be16-d4cc42937bbd",
+  "REACT_APP_BLOB_STORAGE_PATH": "/static-content",
+  "REACT_APP_BLOB_STORAGE_SSR_BASEURL": "https://ecmbrowsefdsxeuw.azurefd.net",
+  "REACT_APP_CDN_BASEURL": "https://xcdn.amido.com/content",
+  "REACT_APP_DEV_URL_OVERRIDE": "",
+  "REACT_APP_SERVE_PATH_PREFIX": "",
+  "REACT_APP_USE_TIME_MACHINE_COOKIE": "false",
+}
+`;

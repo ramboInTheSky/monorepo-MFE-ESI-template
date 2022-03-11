@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` Assets Middleware BUNDLE match snapshot 1`] = `
+"
+  <script src=\\"A_URL/static/js/2.1.2.3.4.chunk.js\\" ></script>
+  <script src=\\"A_URL/static/js/main.1.2.3.4.chunk.js\\" ></script>
+  <script src=\\"A_URL/static/js/runtime~main.1.2.3.4.js\\" ></script>
+"
+`;
+
+exports[` Assets Middleware BUNDLE_VENDOR match snapshot 1`] = `
+"
+        <script nomodule src=\\"spiderman/platmod/vendors/core-js/2.6.11/core.min.js\\"></script>
+        <script src=\\"spiderman/platmod/vendors/react/16.13.1/umd/react.production.min.js\\"></script>
+        <script src=\\"spiderman/platmod/vendors/react/16.13.1/umd/react-dom.production.min.js\\"></script>
+        
+  <script src=\\"A_URL/static/js/2.1.2.3.4.chunk.js\\" ></script>
+  <script src=\\"A_URL/static/js/main.1.2.3.4.chunk.js\\" ></script>
+  <script src=\\"A_URL/static/js/runtime~main.1.2.3.4.js\\" ></script>
+
+    "
+`;
+
+exports[` Assets Middleware PRELOAD match snapshot 1`] = `
+"
+  <link rel=\\"preload\\" as=\\"script\\" href=\\"A_URL/static/js/2.1.2.3.4.chunk.js\\" />
+  <link rel=\\"preload\\" as=\\"script\\" href=\\"A_URL/static/js/main.1.2.3.4.chunk.js\\" />
+  <link rel=\\"preload\\" as=\\"script\\" href=\\"A_URL/static/js/runtime~main.1.2.3.4.js\\" />
+
+  <script name=\\"themeColours\\">
+    window.themeColours = window.themeColours || {};
+    window.themeColours[\\"v1.4.4\\"] = {}
+
+  </script>
+"
+`;
+
+exports[` Assets Middleware PRELOAD_VENDOR match snapshot 1`] = `
+"
+        <link rel=\\"preload\\" as=\\"script\\" href=\\"spiderman/platmod/vendors/react/16.13.1/umd/react.production.min.js\\" />
+        <link rel=\\"preload\\" as=\\"script\\" href=\\"spiderman/platmod/vendors/react/16.13.1/umd/react-dom.production.min.js\\" />
+        
+  <link rel=\\"preload\\" as=\\"script\\" href=\\"A_URL/static/js/2.1.2.3.4.chunk.js\\" />
+  <link rel=\\"preload\\" as=\\"script\\" href=\\"A_URL/static/js/main.1.2.3.4.chunk.js\\" />
+  <link rel=\\"preload\\" as=\\"script\\" href=\\"A_URL/static/js/runtime~main.1.2.3.4.js\\" />
+
+  <script name=\\"themeColours\\">
+    window.themeColours = window.themeColours || {};
+    window.themeColours[\\"v1.4.4\\"] = {}
+
+  </script>
+
+    "
+`;

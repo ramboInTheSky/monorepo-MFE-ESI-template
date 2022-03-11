@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`config: constants should match the snapshot for BASELINECSS_MATERIALUI 1`] = `"materialui"`;
+
+exports[`config: constants should match the snapshot for HIDE_LINKS_FOR_AMIDO_INTERNATIONAL 1`] = `
+Array [
+  "Sitemap",
+  "WhoareAmido",
+  "AmidoFranchise",
+]
+`;
+
+exports[`config: constants should match the snapshot for REALM_HEADER 1`] = `"x-monorepo-realm"`;
+
+exports[`config: constants should match the snapshot for REPLACE_USERNAME 1`] = `"<username>"`;
+
+exports[`config: constants should match the snapshot for REPLACE_YEAR 1`] = `"<yyyy>"`;
+
+exports[`config: constants should match the snapshot for SITE_URL_HEADER 1`] = `"x-monorepo-siteurl"`;
+
+exports[`config: constants should match the snapshot for TERRITORY_HEADER 1`] = `"x-monorepo-territory"`;
+
+exports[`config: constants should match the snapshot for VARIANT_DEFAULT 1`] = `"default"`;

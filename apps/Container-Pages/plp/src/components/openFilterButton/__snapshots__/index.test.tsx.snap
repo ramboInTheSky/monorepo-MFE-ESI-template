@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OpenFilterComponent : should render the button to match the snapshot 1`] = `
+<DocumentFragment>
+  .c1.c1 {
+  background: #ffffff;
+  border: .0625rem solid #000000;
+  color: #000000;
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  font-size: 0.75rem;
+  height: 2.25rem;
+  text-transform: uppercase;
+  width: 7.0625rem;
+  margin-bottom: 0.375rem;
+}
+
+.c1.c1:hover,
+.c1.c1:active,
+.c1.c1:focus {
+  background: #ffffff;
+  border: .0625rem solid #000000;
+  color: #000000;
+}
+
+.c0 {
+  border-top: 0.0625rem solid #d1d1d1;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  cursor: pointer;
+}
+
+<div
+    style="transition: opacity 300ms ease-in-out; opacity: 1;"
+  >
+    <div
+      class="c0"
+      data-testid="plp-facets-collapsed-container"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text c1"
+        data-testid="plp-facets-open-filters-btn"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Open Filters
+        </span>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

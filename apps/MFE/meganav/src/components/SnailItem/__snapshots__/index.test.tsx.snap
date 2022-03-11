@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SnailItem should match the snapshot 1`] = `
+<DocumentFragment>
+  <li
+    class="component__Container-sc-1lp21az-0 eQHQxB"
+    data-index="1"
+    data-testid="meganav-primarynav-link-sample"
+  >
+    <a
+      data-ga-v1="Nav Bar"
+      data-ga-v2="sample"
+      href="http://IamSiteUrl/sampler"
+      id="meganav-link-1"
+      title="sample"
+    >
+      <div
+        class="component__Title-sc-1lp21az-1 bBoOkQ"
+      >
+        sample
+      </div>
+    </a>
+  </li>
+</DocumentFragment>
+`;

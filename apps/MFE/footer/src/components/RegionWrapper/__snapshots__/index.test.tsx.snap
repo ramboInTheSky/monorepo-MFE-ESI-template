@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Common/RegionWrapper:  when region type is Copyright should show the regionWrapper with hello world 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__RegionGrid-sc-1i0u80d-1 jNaVdi Copyright MuiGrid-container"
+    data-testid="footer-region-copyright"
+  >
+    <div
+      class="MuiContainer-root components__RegionContainer-sc-1i0u80d-0 fFEJge MuiContainer-maxWidthXl"
+    >
+      <h1>
+        Hello World
+      </h1>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Common/RegionWrapper:  when region type is SocialMedia should show the regionWrapper with hello world and HR element 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__RegionGrid-sc-1i0u80d-1 jNaVdi SocialMedia MuiGrid-container"
+    data-testid="footer-region-socialmedia"
+  >
+    <div
+      class="MuiContainer-root components__RegionContainer-sc-1i0u80d-0 fFEJge MuiContainer-maxWidthXl"
+    >
+      <h1>
+        Hello World
+      </h1>
+    </div>
+  </div>
+</DocumentFragment>
+`;

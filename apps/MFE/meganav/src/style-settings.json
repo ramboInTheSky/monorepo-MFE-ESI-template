@@ -1,0 +1,87 @@
+{
+  "amido": {
+    "Missions": {
+      "Container": {
+        "xs": {
+          "padding": "1rem"
+        },
+        "md": {
+          "width": "20rem"
+        },
+        "lg": {
+          "width": "21.375rem"
+        },
+        "xl": {
+          "width": "22.875rem"
+        }
+      },
+      "Item": {
+        "xs": {
+          "padding": "125% 0 0 0",
+          "margin": "0 0 1rem 0"
+        }
+      }
+    },
+    "UpperHeader": {
+      "xs": {
+        "height": "5.5rem"
+      },
+      "md": {
+        "height": "6.5rem"
+      },
+      "lg": {
+        "height": "6.5rem"
+      }
+    },
+    "PrimaryNav": {
+      "xs": {
+        "width": "1280px",
+        "height": "2.75rem",
+        "padding": "0"
+      },
+      "md": {
+        "height": "2.5rem",
+        "padding": "1.565rem",
+        "justifyContent": "space-between"
+      },
+      "lg": {
+        "padding": "1rem"
+      },
+      "xl": {
+        "width": "76.5rem",
+        "height": "2.5rem",
+        "padding": "1.8125rem"
+      }
+    },
+    "SecondaryNav": {
+      "xs": {
+        "height": "100%",
+        "padding": "0 0 2.5rem"
+      },
+      "md": {
+        "padding": "0"
+      },
+      "lg": {
+        "width": "1280px",
+        "height": "20rem",
+        "padding": "0 1.565rem"
+      },
+      "xl": {
+        "width": "76.5rem",
+        "padding": "0 1.8125rem"
+      }
+    },
+    "SnailItem": {
+      "xs": {
+        "border": "none",
+        "padding": "0 0.5rem"
+      },
+      "md": {
+        "border": "none"
+      },
+      "xl": {
+        "padding": " 0 0.625rem"
+      }
+    }
+  }
+}

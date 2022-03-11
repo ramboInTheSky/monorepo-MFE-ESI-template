@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` Assets Middleware BUNDLE match snapshot 1`] = `
+"
+    <script src=\\"/static-content/plp/js/2.1.2.3.4.chunk.js\\" ></script>
+    <script src=\\"/static-content/plp/js/main.1.2.3.4.chunk.js\\" ></script>
+"
+`;
+
+exports[` Assets Middleware FAV_ICON_PATH should match snapshot 1`] = `"http://superman.cdn/icons/favicon/amido.ico"`;
+
+exports[` Assets Middleware HEADER When not using dev esi, it should not match snapshot 1`] = `
+"
+    <esi:include src=\\"ww.test.co.uk/header\\" onerror=\\"continue\\" />
+    <esi:include src=\\"ww.test.co.uk/meganavstatic/seo-content/home\\" onerror=\\"continue\\" dca=\\"none\\" />
+    "
+`;
+
+exports[` Assets Middleware HEADER When using dev esi, it should match snapshot 1`] = `
+"
+    <esi:include src=\\"ww.test.co.uk/header\\" onerror=\\"continue\\" />
+    <esi:include src=\\"ww.test.co.uk/meganavstatic/seo-content/home\\" onerror=\\"continue\\" dca=\\"none\\" />
+    "
+`;
+
+exports[` Assets Middleware PRELOAD When using dev esi, it should match snapshot 1`] = `
+"
+            <link href=\\"/static-content/plp/css/2.1.2.3.4.chunk.css\\" rel=\\"stylesheet\\">
+            <esi:include src=\\"www.test.co.uk/headerstatic/dependencies/preloadvendor\\" onerror=\\"continue\\" />
+            <link rel=\\"preload\\" as=\\"script\\" href=\\"/static-content/plp/js/2.1.2.3.4.chunk.js\\" />
+            <link rel=\\"preload\\" as=\\"script\\" href=\\"/static-content/plp/js/main.1.2.3.4.chunk.js\\" />
+            <esi:include src=\\"esiurl/productsummarystatic/dependencies/preload\\" onerror=\\"continue\\" dca=\\"none\\" />
+           
+            <esi:include src=\\"www.test.co.uk/footerstatic/dependencies/preload\\" onerror=\\"continue\\" dca=\\"none\\" />
+            
+            <style>#plp-entrypoint{font-family: \\"AzoSansRegular\\", \\"Helvetica Neue\\", Arial, sans-serif;}</style>"
+`;
+
+exports[` Assets Middleware PRELOAD not using dev esi, it should match snapshot 1`] = `
+"
+            <link href=\\"/static-content/plp/css/2.1.2.3.4.chunk.css\\" rel=\\"stylesheet\\">
+            <esi:include src=\\"www.test.co.uk/headerstatic/dependencies/preloadvendor\\" onerror=\\"continue\\" />
+            <link rel=\\"preload\\" as=\\"script\\" href=\\"/static-content/plp/js/2.1.2.3.4.chunk.js\\" />
+            <link rel=\\"preload\\" as=\\"script\\" href=\\"/static-content/plp/js/main.1.2.3.4.chunk.js\\" />
+            <esi:include src=\\"www.test.co.uk/productsummarystatic/dependencies/preload\\" onerror=\\"continue\\" dca=\\"none\\" />
+           
+            <esi:include src=\\"www.test.co.uk/footerstatic/dependencies/preload\\" onerror=\\"continue\\" dca=\\"none\\" />
+            
+            <style>#plp-entrypoint{font-family: \\"AzoSansRegular\\", \\"Helvetica Neue\\", Arial, sans-serif;}</style>"
+`;
+
+exports[` Assets Middleware PRODUCT_SUMMARY_BUNDLES When not using dev esi, it should not match snapshot 1`] = `
+"
+            <esi:include src=\\"ww.test.co.uk/productsummarystatic/dependencies/bundle\\" onerror=\\"continue\\" dca=\\"none\\" />
+            "
+`;
+
+exports[` Assets Middleware PRODUCT_SUMMARY_BUNDLES When using dev esi, it should match snapshot 1`] = `
+"
+            <esi:include src=\\"esiurl/productsummarystatic/dependencies/bundle\\" onerror=\\"continue\\" dca=\\"none\\" />
+            "
+`;
+
+exports[` Assets Middleware THEME match snapshot 1`] = `
+"
+    <script id=\\"themeColours\\">
+        window.themeColours = window.themeColours || {};
+        window.themeColours[\\"v1.1.0\\"] = \\"{}\\"
+    </script>
+"
+`;
+
+exports[` Assets Middleware VENDORS match snapshot 1`] = `
+"
+        <script nomodule src=\\"/static-content/vendors/core-js/3.18.3/core.min.js\\"></script>
+        <script src=\\"/static-content/vendors/react/16.13.1/umd/react.production.min.js\\"></script>
+        <script src=\\"/static-content/vendors/react/16.13.1/umd/react-dom.production.min.js\\" ></script>
+        "
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Url content Should match snapshot 1`] = `
+Object {
+  "arrowIconUrl": "/static-content/icons/shared/chevron.svg",
+  "burgerMenu": Object {
+    "iconUrl": "/static-content/icons/meganav/shared/menu.svg",
+  },
+  "drawerCloseIcon": "/static-content/icons/shared/close-white.svg",
+  "leftWhiteArrowIconUrl": "/static-content/icons/shared/chevron-white-left.svg",
+  "rightWhiteArrowIconUrl": "/static-content/icons/shared/chevron-white-right.svg",
+}
+`;

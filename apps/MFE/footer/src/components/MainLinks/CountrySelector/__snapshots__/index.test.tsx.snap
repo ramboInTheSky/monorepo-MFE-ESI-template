@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - MainLinks/CountrySelector:  should match the snapshot template 1`] = `
+<DocumentFragment>
+  <li
+    class="components__CountrySelectorLanguageList-sprnyc-1 jSffgl"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-space-between"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5"
+          data-testid="footer-main-links-country-selector-title-saudi-arabia"
+        >
+          Saudi Arabia
+        </h5>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item"
+      >
+        <a
+          aria-label="Change to Saudi Arabia in Arabic"
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover components__CountrySelectorLanguageLink-sprnyc-0 jSxFFF MuiTypography-colorPrimary"
+          data-testid="footer-main-links-country-selector-saudi-arabia-ar"
+          href="http://superman.com//www.amido.com/sa/ar"
+          target="_self"
+        >
+          AR
+        </a>
+        <span>
+          |
+        </span>
+        <a
+          aria-label="Change to Saudi Arabia in English"
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover components__CountrySelectorLanguageLink-sprnyc-0 jSxFFF MuiTypography-colorPrimary"
+          data-testid="footer-main-links-country-selector-saudi-arabia-en"
+          href="http://superman.com//www.amido.com/sa/en"
+          target="_self"
+        >
+          <span>
+            <!--mp_trans_disable_start-->
+            EN
+            <!--mp_trans_disable_end-->
+          </span>
+        </a>
+      </div>
+    </div>
+  </li>
+  <li
+    class="components__CountrySelectorLanguageList-sprnyc-1 jSffgl"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-justify-xs-space-between"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5"
+          data-testid="footer-main-links-country-selector-title-united-arab-emirates"
+        >
+          United Arab Emirates
+        </h5>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item"
+      >
+        <a
+          aria-label="Change to United Arab Emirates in Arabic"
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover components__CountrySelectorLanguageLink-sprnyc-0 jSxFFF MuiTypography-colorPrimary"
+          data-testid="footer-main-links-country-selector-united-arab-emirates-ar"
+          href="http://superman.com//www.amido.com/ae/ar"
+          target="_self"
+        >
+          AR
+        </a>
+      </div>
+    </div>
+  </li>
+</DocumentFragment>
+`;
+
+exports[`Components - MainLinks/CountrySelector:  should match the snapshot template when there is no languages in CountryLink 1`] = `<DocumentFragment />`;

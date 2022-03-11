@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - Pagination:  should match the Pagination 1`] = `
+Pagination {
+  "nextPageUrl": "",
+  "numberOfItems": 0,
+  "previousPageUrl": "",
+  "start": 0,
+  "totalResults": 0,
+}
+`;

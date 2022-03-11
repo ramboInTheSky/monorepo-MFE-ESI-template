@@ -1,0 +1,452 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColourChips:  When there are no colourchips should match the snapshot  1`] = `<DocumentFragment />`;
+
+exports[`ColourChips:  should match the snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.c2 {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0;
+  overflow: hidden;
+  max-width: 13.5rem;
+  margin: 0;
+}
+
+.c2 > li:nth-child(9n) {
+  margin-right: 0;
+}
+
+.c0 > div:nth-child(2n) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0 0.5rem 0 0.5rem;
+  cursor: pointer;
+}
+
+.c0 > div:nth-child(2n) > button {
+  border: 0;
+  padding: 0;
+  background: none;
+  margin-right: 0.5rem;
+  color: #257f39;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  margin-right: 0.5rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.c0 > div:nth-child(2n) > button > img {
+  margin-left: 0.5rem;
+}
+
+@media (max-width:1023px) {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="MuiCollapse-container c1"
+      data-testid="product_summary_colourchips_collapse_wrapper"
+      style="min-height: 48px;"
+    >
+      <div
+        class="MuiCollapse-wrapper"
+      >
+        <div
+          class="MuiCollapse-wrapperInner"
+        >
+          <ul
+            class="c2"
+            data-testid="product_summary_colourchips"
+          >
+            <div>
+              1 - TEST CHIP
+            </div>
+            <div>
+              2 - TEST CHIP
+            </div>
+            <div>
+              3 - TEST CHIP
+            </div>
+            <div>
+              4 - TEST CHIP
+            </div>
+            <div>
+              5 - TEST CHIP
+            </div>
+            <div>
+              6 - TEST CHIP
+            </div>
+            <div>
+              7 - TEST CHIP
+            </div>
+            <div>
+              8 - TEST CHIP
+            </div>
+            <div>
+              9 - TEST CHIP
+            </div>
+            <div>
+              10 - TEST CHIP
+            </div>
+            <div>
+              11 - TEST CHIP
+            </div>
+            <div>
+              12 - TEST CHIP
+            </div>
+            <div>
+              13 - TEST CHIP
+            </div>
+            <div>
+              14 - TEST CHIP
+            </div>
+            <div>
+              15 - TEST CHIP
+            </div>
+            <div>
+              16 - TEST CHIP
+            </div>
+            <div>
+              17 - TEST CHIP
+            </div>
+            <div>
+              18 - TEST CHIP
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ColourChips:  should render 18 colourchips at first load, it should match the snapshot and have the correct min-heigh 1`] = `
+<DocumentFragment>
+  .c1 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.c2 {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0;
+  overflow: hidden;
+  max-width: 13.5rem;
+  margin: 0;
+}
+
+.c2 > li:nth-child(9n) {
+  margin-right: 0;
+}
+
+.c0 > div:nth-child(2n) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0 0.5rem 0 0.5rem;
+  cursor: pointer;
+}
+
+.c0 > div:nth-child(2n) > button {
+  border: 0;
+  padding: 0;
+  background: none;
+  margin-right: 0.5rem;
+  color: #257f39;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  margin-right: 0.5rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.c0 > div:nth-child(2n) > button > img {
+  margin-left: 0.5rem;
+}
+
+@media (max-width:1023px) {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="MuiCollapse-container c1"
+      data-testid="product_summary_colourchips_collapse_wrapper"
+      style="min-height: 48px;"
+    >
+      <div
+        class="MuiCollapse-wrapper"
+      >
+        <div
+          class="MuiCollapse-wrapperInner"
+        >
+          <ul
+            class="c2"
+            data-testid="product_summary_colourchips"
+          >
+            <div>
+              1 - TEST CHIP
+            </div>
+            <div>
+              2 - TEST CHIP
+            </div>
+            <div>
+              3 - TEST CHIP
+            </div>
+            <div>
+              4 - TEST CHIP
+            </div>
+            <div>
+              5 - TEST CHIP
+            </div>
+            <div>
+              6 - TEST CHIP
+            </div>
+            <div>
+              7 - TEST CHIP
+            </div>
+            <div>
+              8 - TEST CHIP
+            </div>
+            <div>
+              9 - TEST CHIP
+            </div>
+            <div>
+              10 - TEST CHIP
+            </div>
+            <div>
+              11 - TEST CHIP
+            </div>
+            <div>
+              12 - TEST CHIP
+            </div>
+            <div>
+              13 - TEST CHIP
+            </div>
+            <div>
+              14 - TEST CHIP
+            </div>
+            <div>
+              15 - TEST CHIP
+            </div>
+            <div>
+              16 - TEST CHIP
+            </div>
+            <div>
+              17 - TEST CHIP
+            </div>
+            <div>
+              18 - TEST CHIP
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      class=""
+    >
+      <button
+        data-testid="product_summary_colourchips_view_more_button"
+        type="button"
+      >
+        <span>
+          View more colours
+        </span>
+        <img
+          alt="Accordion chevron icon"
+          src="/static-content/icons/shared/chevron.svg"
+        />
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ColourChips:  should render 19 colourchips when view more colours is clicked, it should match the snapshot and have the correct min-height 1`] = `
+<DocumentFragment>
+  .c1 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.c2 {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0;
+  overflow: hidden;
+  max-width: 13.5rem;
+  margin: 0;
+}
+
+.c2 > li:nth-child(9n) {
+  margin-right: 0;
+}
+
+.c0 > div:nth-child(2n) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0 0.5rem 0 0.5rem;
+  cursor: pointer;
+}
+
+.c0 > div:nth-child(2n) > button {
+  border: 0;
+  padding: 0;
+  background: none;
+  margin-right: 0.5rem;
+  color: #257f39;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  margin-right: 0.5rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.c0 > div:nth-child(2n) > button > img {
+  margin-left: 0.5rem;
+}
+
+@media (max-width:1023px) {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="MuiCollapse-container c1"
+      data-testid="product_summary_colourchips_collapse_wrapper"
+      style="min-height: 48px; height: 0px; transition-duration: 311.11111111111114ms;"
+    >
+      <div
+        class="MuiCollapse-wrapper"
+      >
+        <div
+          class="MuiCollapse-wrapperInner"
+        >
+          <ul
+            class="c2"
+            data-testid="product_summary_colourchips"
+          >
+            <div>
+              1 - TEST CHIP
+            </div>
+            <div>
+              2 - TEST CHIP
+            </div>
+            <div>
+              3 - TEST CHIP
+            </div>
+            <div>
+              4 - TEST CHIP
+            </div>
+            <div>
+              5 - TEST CHIP
+            </div>
+            <div>
+              6 - TEST CHIP
+            </div>
+            <div>
+              7 - TEST CHIP
+            </div>
+            <div>
+              8 - TEST CHIP
+            </div>
+            <div>
+              9 - TEST CHIP
+            </div>
+            <div>
+              10 - TEST CHIP
+            </div>
+            <div>
+              11 - TEST CHIP
+            </div>
+            <div>
+              12 - TEST CHIP
+            </div>
+            <div>
+              13 - TEST CHIP
+            </div>
+            <div>
+              14 - TEST CHIP
+            </div>
+            <div>
+              15 - TEST CHIP
+            </div>
+            <div>
+              16 - TEST CHIP
+            </div>
+            <div>
+              17 - TEST CHIP
+            </div>
+            <div>
+              18 - TEST CHIP
+            </div>
+            <div>
+              19 - TEST CHIP
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      class=""
+    >
+      <button
+        data-testid="product_summary_colourchips_view_more_button"
+        type="button"
+      >
+        <span>
+          View less colours
+        </span>
+        <img
+          alt="Accordion chevron icon"
+          src="/static-content/icons/shared/chevron-up.svg"
+        />
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

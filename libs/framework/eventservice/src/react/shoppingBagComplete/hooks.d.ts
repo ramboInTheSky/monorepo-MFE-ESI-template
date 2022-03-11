@@ -1,0 +1,10 @@
+export declare const useShoppingBagGetCallbackObservable: (callback: (data: import("../..").GeneralCallbackContractModel) => void) => void;
+export declare const useShoppingBagAddCallbackObservable: (callback: (data: import("../..").GeneralCallbackContractModel) => void) => void;
+export declare const useShoppingBagAddCistCallbackObservable: (callback: (data: import("../..").GeneralCallbackContractModel) => void) => void;
+export declare const useShoppingBagAddEVoucherCallbackObservable: (callback: (data: import("../..").GeneralCallbackContractModel) => void) => void;
+export declare const useShoppingBagAddLinkedItemCallbackObservable: (callback: (data: import("../..").GeneralCallbackContractModel) => void) => void;
+export declare const useShoppingBagAddMultipleCallbackObservable: (callback: (data: import("../..").GeneralCallbackContractModel) => void) => void;
+export declare const useShoppingBagAddWarrantyCallbackObservable: (callback: (data: import("../..").GeneralCallbackContractModel) => void) => void;
+export declare const useShoppingBagRemoveCallbackObservable: (callback: (data: import("../..").GeneralCallbackContractModel) => void) => void;
+export declare const useShoppingBagUpdateSizeCallbackObservable: (callback: (data: import("../..").GeneralCallbackContractModel) => void) => void;
+export declare const useShoppingBagUpdateQuantityCallbackObservable: (callback: (data: import("../..").GeneralCallbackContractModel) => void) => void;

@@ -1,0 +1,74 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include productsummary-frontend.fullname" . }}
+  labels:
+    {{- include productsummary-frontend.labels" . | nindent 4 }}
+    "restartEnabled": "true"
+  annotations:
+    'kubernetes.io/change-cause': '{{ .Values.image.repository }}:{{ .Chart.AppVersion }} Deployed on {{ now | date "2006-01-02T15:04:05Z" }}'
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      {{- include productsummary-frontend.selectorLabels" . | nindent 6 }}
+  template:
+    metadata:
+      labels:
+        {{- include productsummary-frontend.selectorLabels" . | nindent 8 }}
+      annotations:
+        'kubernetes.io/change-cause': '{{ .Values.image.repository }}:{{ .Chart.AppVersion }} Deployed on {{ now | date "2006-01-02T15:04:05Z" }}'
+    spec:
+      imagePullSecrets:
+        - name: {{ .Values.image.imagePullSecret }}
+      securityContext:
+        {{- toYaml .Values.podSecurityContext | nindent 8 }}
+      containers:
+        - name: {{ .Chart.Name }}
+          securityContext:
+            {{- toYaml .Values.securityContext | nindent 12 }}
+          image: "{{ .Values.image.repository }}:{{ .Chart.AppVersion }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          ports:
+            - name: http
+              containerPort: 80
+          livenessProbe:
+            httpGet:
+              path: /product-summary/health
+              port: 3001
+          readinessProbe:
+            httpGet:
+              path: /product-summary/health
+              port: 3001
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}
+          env:
+            - name: REACT_APP_API_BASEURL
+              value: {{ .Values.application.apiBaseUrl }}
+            - name: REACT_APP_CDN_BASEURL
+              value: {{ .Values.application.cdnBaseUrl }}
+            - name: REACT_APP_BLOB_STORAGE_SSR_BASEURL
+              value: {{ .Values.application.blobStorageSSRBaseURL }}
+            - name: REACT_APP_APPINSIGHTS_KEY
+              value: {{ .Values.application.appInsightsKey }}
+            - name: REACT_APP_SERVE_PATH_PREFIX
+              value: {{ .Values.application.app_serve_path_prefix }}
+            - name: REACT_APP_USE_TIME_MACHINE_COOKIE
+              value: {{ .Values.application.useTimeMachineCookie }}
+            - name: ASSETS_PATH
+              value: {{ .Values.application.assets_path }}
+            - name: PORT
+              value: '3001'
+            - name: GENERATE_SOURCEMAP
+              value: {{ .Values.application.generate_sourcemap }}
+            - name: LOG_LEVEL
+              value: {{ .Values.application.log_level }}
+            - name: ENVIRONMENT_NAME
+              value: {{ .Values.application.environmentName }}  
+            - name: REACT_APP_BLOB_STORAGE_OVERRIDE
+              value: {{ .Values.application.blob_storage_override }}  
+      dnsConfig:
+        options:
+          - name: single-request-reopen
+          - name: ndots
+            value: "3"

@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - textAlignment:  should match the textAlignment 1`] = `
+Object {
+  "Ltr": "ltr",
+  "Rtl": "rtl",
+}
+`;

@@ -1,0 +1,1012 @@
+trigger:
+  branches:
+    include:
+      - feature/*
+      - master
+      - release/*
+
+resources:
+  repositories:
+    - repository: MonorepoEcommerce
+      type: git
+      name: Amido.Ecommerce.Infrastructure/Amido.Ecommerce.Infrastructure.Templates
+      ref: refs/tags/stable
+      # ref: refs/heads/feature/docker-context-issue
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  # Global Variables
+  - group: 'Platform Modernization ACR Dev'
+  - name: project
+    value: 'monorepo-plp-frontend'
+  - name: tag
+    value: '$(Build.BuildId)'
+  - name: namespace
+    value: 'plp'
+  # Registrys
+  - name: registryName_sx
+    value: ecmbrowse01acrsxeuw
+  - name: registryName_ci
+    value: ecmbrowse01acrcieuw
+  - name: registryName_pp
+    value: ecmbrowse01acrppeuw
+  - name: registryName_pd
+    value: ecmbrowse01acrpdeuw
+  # Subscriptions
+  - name: sx_subscription
+    value: 'ecmbrowse01spnsxeuw'
+  - name: ci_subscription
+    value: 'ecmbrowse01spncieuw'
+  - name: pp_subscription
+    value: 'ecmbrowse01spnppeuw'
+  - name: pd_subscription
+    value: 'ecmbrowse01spnpdeuw'
+  # Versioning
+  - name: Version.Major
+    value: 0
+  - name: Version.Minor
+    value: 1
+  - name: Version.Revision
+    value: $[counter(variables['Version.Minor'], 0)]
+  # Application
+  - name: replica_count
+    value: '3'
+  - name: ignore_resource_limits
+    value: false
+  - name: helmOverrides
+    value: 'replicaCount=$(replica_count),resources.limits.cpu=$(cpu_limit),resources.limits.memory=$(memory_limit),ignore_resource_limits=$(ignore_resource_limits),domain=$(ingress_domain),ingress.enabled=true,domain=$(ingress_domain),application.appInsightsKey=$(appInsightsKey),application.apiBaseUrlSearch=$(apiBaseUrlSearch),application.apiBaseUrlSearchBanner=$(apiBaseUrlSearchBanner),application.apiBaseUrlProductSummary=$(apiBaseUrlProductSummary),application.cdnBaseUrl=$(cdnBaseUrl),application.blobStorageSSRBaseURL=$(blobStorageSSRBaseURL),application.appUrl=$(appUrl),application.appProdSummBaseUrl=$(appProdSummBaseUrl),application.appProdSummAssetsPath=$(appProdSummAssetsPath),application.appHeaderBaseUrl=$(appHeaderBaseUrl),application.appHeaderAssetsPath=$(appHeaderAssetsPath),application.appMeganavBaseUrl=$(appMeganavBaseUrl),application.appFooterBaseUrl=$(appFooterBaseUrl),application.appFooterAssetsPath=$(appFooterAssetsPath),application.app_serve_path_prefix=$(app_serve_path_prefix),application.assets_path=$(assets_path),application.useTimeMachineCookie=$(useTimeMachineCookie),application.useDevEsi=$(useDevEsi),service.internalPort=$(internalPort),application.environmentName=$(environmentName),application.log_level=$(log_level),application.blob_storage_override=$(blob_storage_override)'
+  - name: dev_helmOverrides
+    value: 'replicaCount=$(replica_count),ignore_resource_limits=$(ignore_resource_limits),domain=$(ingress_domain),ingress.enabled=true,domain=$(ingress_domain),application.appInsightsKey=$(appInsightsKey),application.apiBaseUrlSearch=$(apiBaseUrlSearch),application.apiBaseUrlSearchBanner=$(apiBaseUrlSearchBanner),application.apiBaseUrlProductSummary=$(apiBaseUrlProductSummary),application.cdnBaseUrl=$(cdnBaseUrl),application.blobStorageSSRBaseURL=$(blobStorageSSRBaseURL),application.appUrl=$(appUrl),application.appProdSummBaseUrl=$(appProdSummBaseUrl),application.appProdSummAssetsPath=$(appProdSummAssetsPath),application.appHeaderBaseUrl=$(appHeaderBaseUrl),application.appHeaderAssetsPath=$(appHeaderAssetsPath),application.appMeganavBaseUrl=$(appMeganavBaseUrl),application.appFooterBaseUrl=$(appFooterBaseUrl),application.appFooterAssetsPath=$(appFooterAssetsPath),application.app_serve_path_prefix=$(app_serve_path_prefix),application.assets_path=$(assets_path),application.useTimeMachineCookie=$(useTimeMachineCookie),application.useDevEsi=$(useDevEsi),service.internalPort=$(internalPort),application.environmentName=$(environmentName),application.log_level=$(log_level),ingress.pathSearch=$(ingress_pathSearch),ingress.pathSearchBanners=$(ingress_pathSearchBanners),ingress.pathProductsFragment=$(ingress_pathProductsFragment),ingress.pathShop=$(ingress_pathShop),ingress.pathPlpstatic=$(ingress_pathPlpstatic),ingress.pathProxy=$(ingress_pathProxy),ingress.pathStaticContent=$(ingress_pathStaticContent),application.blob_storage_override=$(blob_storage_override)'
+  - name: qa_helmOverrides
+    value: 'replicaCount=$(replica_count),ignore_resource_limits=$(ignore_resource_limits),domain=$(ingress_domain),ingress.enabled=true,ingress.host=$(qa_ingress_host),domain=$(ingress_domain),application.appInsightsKey=$(appInsightsKey),application.apiBaseUrlSearch=$(qa_apiBaseUrlSearch),application.apiBaseUrlSearchBanner=$(qa_apiBaseUrlSearchBanner),application.apiBaseUrlProductSummary=$(qa_apiBaseUrlProductSummary),application.cdnBaseUrl=$(cdnBaseUrl),application.blobStorageSSRBaseURL=$(blobStorageSSRBaseURL),application.appUrl=$(qa_appUrl),application.appProdSummBaseUrl=$(qa_appProdSummBaseUrl),application.appProdSummAssetsPath=$(appProdSummAssetsPath),application.appHeaderBaseUrl=$(qa_appHeaderBaseUrl),application.appHeaderAssetsPath=$(appHeaderAssetsPath),application.appMeganavBaseUrl=$(qa_appMeganavBaseUrl),application.appFooterBaseUrl=$(qa_appFooterBaseUrl),application.appFooterAssetsPath=$(appFooterAssetsPath),application.app_serve_path_prefix=$(app_serve_path_prefix),application.assets_path=$(assets_path),application.useDevEsi=$(useDevEsi),service.internalPort=$(internalPort),application.environmentName=$(environmentName),application.log_level=$(log_level),application.blob_storage_override=$(blob_storage_override)'
+  - name: qadev_helmOverrides
+    value: 'replicaCount=$(replica_count),ignore_resource_limits=$(ignore_resource_limits),domain=$(ingress_domain),ingress.enabled=true,ingress.host=$(qa_ingress_host),domain=$(ingress_domain),application.appInsightsKey=$(appInsightsKey),application.apiBaseUrlSearch=$(qa_apiBaseUrlSearch),application.apiBaseUrlSearchBanner=$(qa_apiBaseUrlSearchBanner),application.apiBaseUrlProductSummary=$(qa_apiBaseUrlProductSummary),application.cdnBaseUrl=$(cdnBaseUrl),application.blobStorageSSRBaseURL=$(blobStorageSSRBaseURL),application.appUrl=$(qa_appUrl),application.appProdSummBaseUrl=$(qa_appProdSummBaseUrl),application.appProdSummAssetsPath=$(appProdSummAssetsPath),application.appHeaderBaseUrl=$(qa_appHeaderBaseUrl),application.appHeaderAssetsPath=$(appHeaderAssetsPath),application.appMeganavBaseUrl=$(qa_appMeganavBaseUrl),application.appFooterBaseUrl=$(qa_appFooterBaseUrl),application.appFooterAssetsPath=$(appFooterAssetsPath),application.app_serve_path_prefix=$(app_serve_path_prefix),application.assets_path=$(assets_path),application.useDevEsi=$(useDevEsi),service.internalPort=$(internalPort),application.environmentName=$(environmentName),application.log_level=$(log_level),ingress.pathSearch=$(ingress_pathSearch),ingress.pathSearchBanners=$(ingress_pathSearchBanners),ingress.pathProductsFragment=$(ingress_pathProductsFragment),ingress.pathShop=$(ingress_pathShop),ingress.pathPlpstatic=$(ingress_pathPlpstatic),ingress.pathProxy=$(ingress_pathProxy),ingress.pathStaticContent=$(ingress_pathStaticContent),application.blob_storage_override=$(blob_storage_override)'
+  - name: helm_version
+    value: 3.5.2
+  - name: artefact_name
+    value: 'static-content'
+
+parameters:
+  - name: dev_environment
+    displayName: 'Deployment Environment'
+    type: string
+    default: 'Build'
+    values:
+      - Build
+      - SXEUN
+      - SXEUW
+      - QAEUN
+      - QAEUW
+      - DEV01EUN
+      - DEV01EUW
+      - DEV02EUN
+      - DEV02EUW
+      - DEV03EUN
+      - DEV03EUW
+      - DEV04EUN
+      - DEV04EUW
+      - QADEV01EUN
+      - QADEV01EUW
+      - QADEV02EUN
+      - QADEV02EUW
+
+  - name: cypress_parallel_enabled
+    displayName: 'Enable Parallel Cypress Tests'
+    type: boolean
+    default: True
+
+stages:
+  - stage: Prereqs
+    displayName: 'Prerequisites'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/build-updatebuildnumber.yml@MonorepoEcommerce
+        parameters:
+          build_number: '$(Version.Major).$(Version.Minor).$(Version.Revision)'
+
+  - stage: Build
+    displayName: 'Build'
+    dependsOn: Prereqs
+    ${{ if eq(parameters.cypress_parallel_enabled, False)}}:
+      variables:
+        - group: 'Sandbox.eCommerce.plp.Frontend.EUN'
+        - name: dockerfile_name
+          value: Dockerfile-cypress
+        - name: parallel_agents
+          value: 0
+    ${{ if eq(parameters.cypress_parallel_enabled, True)}}:
+      variables:
+        - group: 'Sandbox.eCommerce.plp.Frontend.EUN'
+        - name: dockerfile_name
+          value: Dockerfile
+        - name: parallel_agents
+          value: 3
+    jobs:
+      - template: azDevOps/azure/templates/jobs/build-docker.yml@MonorepoEcommerce
+        parameters:
+          projectName: $(project)
+          registryName: $(registryName_sx)
+          dockerContext: $(system.defaultWorkingDirectory)
+          docker_build_args:
+            '--build-arg ASSETS_PATH=$(assets_path) --build-arg
+            REACT_APP_BLOB_STORAGE_SSR_BASEURL=$(blobStorageSSRBaseURL) --build-arg LOG_LEVEL=$(log_level) --build-arg
+            REACT_APP_SERVE_PATH_PREFIX=$(app_serve_path_prefix)'
+          dockerfile_name: $(dockerfile_name)
+          nugetRestore: false
+          dockerBuildTarget: 'test'
+          testfileString: 'junit.xml'
+          search: true
+          searchfolders: |
+            /app
+          sourceFolder: '/testresults'
+          imagefilter: 'label=test=true'
+          testresultsfiles: '**/junit.xml'
+          testResultsFormat: 'JUnit'
+          host_port: 3009
+          disabledruleoptions: 'document-title'
+          subscription: '$(sx_subscription)'
+          veracodeScan: false
+          appId: '785022'
+          applicationType: 'frontend'
+          scan_image: 'true'
+          service_connection: 'prisma_compute'
+      - template: azDevOps/azure/templates/jobs/publish-docker-content.yml@MonorepoEcommerce
+        parameters:
+          DependsOn: 'Build'
+          imagefilter: 'label=production=true'
+          destination: 'static-content'
+          filestring: '*.*'
+          sourceFolder: '/app/build/public/static'
+          projectName: $(project)
+          registryName: $(registryName_sx)
+          Subscription: '$(sx_subscription)'
+          tag: $(Build.BuildNumber)
+          publish_artefact: true
+          artefact_name: $(artefact_name)
+      - ${{ if eq(parameters.cypress_parallel_enabled, 'true') }}:
+          - template: azDevOps/azure/templates/jobs/test-cypress.yml@MonorepoEcommerce
+            parameters:
+              parallel_agents: ${{ variables['parallel_agents'] }}
+              npm_build_command: 'build:local'
+              cypress_npm_command: 'test:parallel'
+              library_group: 'Cypress.PLP'
+      - job: Helm_Build
+        pool:
+          vmImage: 'ubuntu-20.04'
+        steps:
+          - template: azDevOps/azure/templates/steps/pack-helm.yml@MonorepoEcommerce # Template reference
+            parameters:
+              projectName: $(project)
+              registryName: $(registryName_sx)
+              Subscription: '$(sx_subscription)'
+              context: $(system.defaultWorkingDirectory)/charts/monorepo-plp-frontend/
+
+  - stage: ConventionalCommit
+    displayName: 'Conventional Commit'
+    variables:
+      - group: 'Sandbox.eCommerce.plp.Frontend.EUN'
+    dependsOn: Build
+    condition:
+      and( succeeded('Build'), and (eq(variables['Build.Reason'], 'IndividualCI'),
+      contains(variables['Build.SourceBranch'], 'master'), contains(variables['Build.SourceVersionMessage'], 'Merged
+      PR') ) )
+    jobs:
+      - template: azDevOps/azure/templates/jobs/conventional-commit.yml@MonorepoEcommerce
+        parameters:
+          service_connection: 'ecmbrowse01spnsxeuw'
+          pat: $(cc_pat)
+
+  - stage: upload_files_sandbox_eun
+    displayName: 'Upload Files Sandbox EUN'
+    dependsOn: Build
+    condition:
+      and( succeeded('Build'), eq('${{parameters.dev_environment}}', 'SXEUN'),
+      not(or(startsWith(variables['Build.SourceBranch'],
+      'refs/heads/release/'),startsWith(variables['Build.SourceBranch'], 'refs/heads/master'))) )
+    variables:
+      - group: SX.eCommerce.PLP.Static-Content.Keys.EUN
+      - group: PLP.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml@MonorepoEcommerce
+        parameters:
+          environmentName: 'sx'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/plp'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: upload_files_sandbox_euw
+    displayName: 'Upload Files Sandbox EUW'
+    dependsOn: Build
+    condition:
+      and( succeeded('Build'), eq('${{parameters.dev_environment}}', 'SXEUW'),
+      not(or(startsWith(variables['Build.SourceBranch'],
+      'refs/heads/release/'),startsWith(variables['Build.SourceBranch'], 'refs/heads/master'))) )
+    variables:
+      - group: SX.eCommerce.PLP.Static-Content.Keys.EUW
+      - group: PLP.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml@MonorepoEcommerce
+        parameters:
+          environmentName: 'sx'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/plp'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: deploy_sandbox_eun
+    displayName: 'Sandbox EUN'
+    dependsOn:
+      - Build
+      - upload_files_sandbox_eun
+    condition: succeeded('upload_files_sandbox_eun')
+    variables:
+      - group: 'Sandbox.eCommerce.plp.Frontend.EUN'
+      - name: ignore_resource_limits
+        value: true
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@MonorepoEcommerce
+        parameters:
+          environmentName: 'sx-plp'
+          kubernetes_service_connection: 'Kubernetes_Sandbox.eCommerce_Browse01_EUN'
+          registry_name: $(registryName_sx)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: 'monorepo-plp-frontend'
+          overrides: $(helmOverrides)
+          namespace: $(namespace)
+          acr_service_connection: '$(sx_subscription)'
+          lighthouse_settings:
+            lighthouse_test: 'true'
+            lh_test_folder_path: '/lighthouse'
+            lh_config_file_relative_path: './config/non-production_config.json'
+            lh_test_target_domain: '$(appUrl)'
+            lh_server_upload: false
+            lh_artefact_name: 'sxeun_attempt-$(System.StageAttempt)'
+      - job: run_cypress_sxeun
+        dependsOn: Helm_Deployment
+        displayName: 'Run Functional Tests'
+        steps:
+          - template: azDevOps\azure\templates\steps\deploy-cypress-tests.yml@MonorepoEcommerce
+            parameters:
+              cypress_test_url: '$(appUrl)'
+
+  - stage: deploy_sandbox_euw
+    displayName: 'Sandbox EUW'
+    dependsOn:
+      - Build
+      - upload_files_sandbox_euw
+    condition: succeeded('upload_files_sandbox_euw')
+    variables:
+      - group: 'Sandbox.eCommerce.plp.Frontend.EUW'
+      - name: ignore_resource_limits
+        value: true
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@MonorepoEcommerce
+        parameters:
+          environmentName: 'sx-plp'
+          kubernetes_service_connection: 'Kubernetes_Sandbox.eCommerce_Browse01_EUW'
+          registry_name: $(registryName_sx)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: 'monorepo-plp-frontend'
+          overrides: $(helmOverrides)
+          namespace: $(namespace)
+          acr_service_connection: '$(sx_subscription)'
+          lighthouse_settings:
+            lighthouse_test: 'true'
+            lh_test_folder_path: '/lighthouse'
+            lh_config_file_relative_path: './config/non-production_config.json'
+            lh_test_target_domain: '$(appUrl)'
+            lh_server_upload: false
+            lh_artefact_name: 'sxeuw_attempt-$(System.StageAttempt)'
+      - job: run_cypress_sxeuw
+        dependsOn: Helm_Deployment
+        displayName: 'Run Functional Tests'
+        steps:
+          - template: azDevOps\azure\templates\steps\deploy-cypress-tests.yml@MonorepoEcommerce
+            parameters:
+              cypress_test_url: '$(appUrl)'
+
+  - ? ${{ if and(ne(parameters.dev_environment, 'Build'), ne(parameters.dev_environment, 'SXEUN'),
+      ne(parameters.dev_environment, 'SXEUW'), ne(parameters.dev_environment, 'QAEUN'), ne(parameters.dev_environment,
+      'QAEUW')) }}
+    : - stage: upload_files_${{parameters.dev_environment}}
+        displayName: 'Upload Files ${{parameters.dev_environment}}'
+        dependsOn: Build
+        condition:
+          and(succeeded('Build'), ne('${{parameters.dev_environment}}', 'Build'), ne('${{parameters.dev_environment}}',
+          'SXEUN'), ne('${{parameters.dev_environment}}', 'SXEUW'))
+        ${{ if contains(parameters.dev_environment, 'EUN')}}:
+          variables:
+            - group: SX.eCommerce.PLP.Static-Content.Keys.EUN
+            - group: PLP.Static-Content
+            - group: '${{parameters.dev_environment}}.eCommerce.plp.Frontend'
+        ${{ if contains(parameters.dev_environment, 'EUW')}}:
+          variables:
+            - group: SX.eCommerce.PLP.Static-Content.Keys.EUW
+            - group: PLP.Static-Content
+            - group: '${{parameters.dev_environment}}.eCommerce.plp.Frontend'
+        jobs:
+          - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml@MonorepoEcommerce
+            parameters:
+              environmentName: 'sx'
+              from_artefact: true
+              artefact_name: $(artefact_name)
+              artefact_download_path: 'static-content/plp$(app_serve_path_prefix)'
+              source_directory: '$(System.DefaultWorkingDirectory)'
+              storage_account_name: '$(CDN-StorageAccount-Name)'
+              storage_account_key: '$(CDN-StorageAccount-Key)'
+              storage_container_name: '$(storage_container_name)'
+              file_extentions: '$(file_extentions)'
+              content_folder: '$(content_folder)'
+              git_diff_upload: false
+
+      - stage: deploy_${{parameters.dev_environment}}
+        displayName: 'Deploy ${{parameters.dev_environment}}'
+        dependsOn: Build
+        condition:
+          and(succeeded('Build'), ne('${{parameters.dev_environment}}', 'Build'), ne('${{parameters.dev_environment}}',
+          'SXEUN'), ne('${{parameters.dev_environment}}', 'SXEUW'))
+        variables:
+          - group: '${{parameters.dev_environment}}.eCommerce.plp.Frontend'
+          - name: ignore_resource_limits
+            value: true
+        jobs:
+          - template: azDevOps/azure/templates/jobs/deploy-helm.yml@MonorepoEcommerce
+            parameters:
+              environmentName: 'sx'
+              ${{ if contains(parameters.dev_environment, 'EUN')}}:
+                kubernetes_service_connection: 'Kubernetes_Sandbox.eCommerce_Browse01_EUN'
+              ${{ if contains(parameters.dev_environment, 'EUW')}}:
+                kubernetes_service_connection: 'Kubernetes_Sandbox.eCommerce_Browse01_EUW'
+              registry_name: $(registryName_sx)
+              registry_login: '$(registryLogin)'
+              registry_pass: '$(registryPassword)'
+              helm_version: $(helm_version)
+              chart_name: 'monorepo-plp-frontend'
+              ${{ if not(contains(parameters.dev_environment, 'QA'))}}:
+                overrides: $(dev_helmOverrides)
+              ${{ if contains(parameters.dev_environment, 'QA')}}:
+                overrides: $(qadev_helmOverrides)
+              namespace: '$(namespace)-${{lower(parameters.dev_environment)}}'
+              acr_service_connection: '$(sx_subscription)'
+              lighthouse_settings:
+                lighthouse_test: 'true'
+                lh_test_folder_path: '/lighthouse'
+                lh_config_file_relative_path: './config/non-production_config.json'
+                lh_test_target_domain: '$(appUrl)$(app_serve_path_prefix)'
+                lh_server_upload: false
+                lh_artefact_name: '${{parameters.dev_environment}}_attempt-$(System.StageAttempt)'
+          - job: run_cypress_${{parameters.dev_environment}}
+            dependsOn: Helm_Deployment
+            displayName: 'Run Functional Tests'
+            steps:
+              - template: azDevOps\azure\templates\steps\deploy-cypress-tests.yml@MonorepoEcommerce
+                parameters:
+                  cypress_test_url: '$(appUrl)$(app_serve_path_prefix)'
+
+  - stage: upload_files_qa_eun
+    displayName: 'Upload Files QA EUN'
+    dependsOn: Build
+    condition: and(succeeded('Build'), eq('${{parameters.dev_environment}}', 'QAEUN'))
+    variables:
+      - group: SX.eCommerce.PLP.Static-Content.Keys.EUN
+      - group: PLP.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml@MonorepoEcommerce
+        parameters:
+          environmentName: 'qa'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/plp'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: upload_files_qa_euw
+    displayName: 'Upload Files QA EUW'
+    dependsOn: Build
+    condition: and(succeeded('Build'), eq('${{parameters.dev_environment}}', 'QAEUW'))
+    variables:
+      - group: SX.eCommerce.PLP.Static-Content.Keys.EUW
+      - group: PLP.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml@MonorepoEcommerce
+        parameters:
+          environmentName: 'qa'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/plp'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: deploy_qa_eun
+    displayName: 'QA EUN'
+    dependsOn:
+      - Build
+      - upload_files_qa_eun
+    condition: succeeded('upload_files_qa_eun')
+    variables:
+      - group: 'Sandbox.eCommerce.plp.Frontend.EUN'
+      - name: ignore_resource_limits
+        value: true
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@MonorepoEcommerce
+        parameters:
+          environmentName: 'qa'
+          kubernetes_service_connection: 'Kubernetes_Sandbox.eCommerce_Browse01_EUN'
+          registry_name: $(registryName_sx)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: 'monorepo-plp-frontend'
+          overrides: $(qa_helmOverrides)
+          namespace: $(namespace)-qa
+          acr_service_connection: '$(sx_subscription)'
+          lighthouse_settings:
+            lighthouse_test: 'true'
+            lh_test_folder_path: '/lighthouse'
+            lh_config_file_relative_path: './config/non-production_config.json'
+            lh_test_target_domain: '$(qa_appUrl)'
+            lh_server_upload: false
+            lh_artefact_name: 'qaeun_attempt-$(System.StageAttempt)'
+      - job: run_cypress_qaeun
+        dependsOn: Helm_Deployment
+        displayName: 'Run Functional Tests'
+        steps:
+          - template: azDevOps\azure\templates\steps\deploy-cypress-tests.yml@MonorepoEcommerce
+            parameters:
+              cypress_test_url: '$(qa_appUrl)'
+
+  - stage: deploy_qa_euw
+    displayName: 'QA EUW'
+    dependsOn:
+      - Build
+      - upload_files_qa_euw
+    condition: succeeded('upload_files_qa_euw')
+    variables:
+      - group: 'Sandbox.eCommerce.plp.Frontend.EUW'
+      - name: ignore_resource_limits
+        value: true
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@MonorepoEcommerce
+        parameters:
+          environmentName: 'qa'
+          kubernetes_service_connection: 'Kubernetes_Sandbox.eCommerce_Browse01_EUW'
+          registry_name: $(registryName_sx)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: 'monorepo-plp-frontend'
+          overrides: $(qa_helmOverrides)
+          namespace: $(namespace)-qa
+          acr_service_connection: '$(sx_subscription)'
+          lighthouse_settings:
+            lighthouse_test: 'true'
+            lh_test_folder_path: '/lighthouse'
+            lh_config_file_relative_path: './config/non-production_config.json'
+            lh_test_target_domain: '$(qa_appUrl)'
+            lh_server_upload: false
+            lh_artefact_name: 'qaeuw_attempt-$(System.StageAttempt)'
+      - job: run_cypress_qaeuw
+        dependsOn: Helm_Deployment
+        displayName: 'Run Functional Tests'
+        steps:
+          - template: azDevOps\azure\templates\steps\deploy-cypress-tests.yml@MonorepoEcommerce
+            parameters:
+              cypress_test_url: '$(qa_appUrl)'
+
+  - stage: promote_ci
+    displayName: 'Promote to CI'
+    dependsOn:
+      - Build
+      - deploy_sandbox_eun
+      - deploy_sandbox_euw
+    condition:
+      and(succeeded('Build'), or(eq(variables['Build.SourceBranch'], 'refs/heads/master'),
+      startsWith(variables['Build.SourceBranch'], 'refs/heads/release/')))
+    jobs:
+      - template: azDevOps/azure/templates/jobs/promote-container.yml@MonorepoEcommerce
+        parameters:
+          source_container_name: $(project)
+          destination_container_name: $(project)
+          source_acr: $(registryName_sx)
+          destination_acr: $(registryName_ci)
+          source_subscription: '$(sx_subscription)'
+          destination_subscription: '$(ci_subscription)'
+          tag: $(Build.BuildNumber)
+
+  - stage: upload_files_ci_eun
+    displayName: 'Upload Files CI EUN'
+    dependsOn:
+      - promote_ci
+    condition: succeeded('promote_ci')
+    variables:
+      - group: CI.eCommerce.PLP.Static-Content.Keys.EUN
+      - group: PLP.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml@MonorepoEcommerce
+        parameters:
+          environmentName: 'ci'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/plp'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: upload_files_ci_euw
+    displayName: 'Upload Files CI EUW'
+    dependsOn:
+      - promote_ci
+    condition: succeeded('promote_ci')
+    variables:
+      - group: CI.eCommerce.PLP.Static-Content.Keys.EUW
+      - group: PLP.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml@MonorepoEcommerce
+        parameters:
+          environmentName: 'ci'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/plp'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: deploy_ci_eun
+    displayName: 'CI EUN'
+    dependsOn:
+      - promote_ci
+      - upload_files_ci_eun
+      - upload_files_ci_euw
+    condition: succeeded('upload_files_ci_eun')
+    variables:
+      - group: 'CI.eCommerce.plp.Frontend.EUN'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@MonorepoEcommerce
+        parameters:
+          environmentName: 'ci'
+          kubernetes_service_connection: 'Kubernetes_CI.eCommerce_Browse01_EUN'
+          registry_name: $(registryName_ci)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: 'monorepo-plp-frontend'
+          overrides: $(helmOverrides)
+          namespace: $(namespace)
+          acr_service_connection: '$(ci_subscription)'
+
+  - stage: deploy_ci_euw
+    displayName: 'CI EUW'
+    dependsOn:
+      - promote_ci
+      - upload_files_ci_eun
+      - upload_files_ci_euw
+    condition: succeeded('upload_files_ci_euw')
+    variables:
+      - group: 'CI.eCommerce.plp.Frontend.EUW'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@MonorepoEcommerce
+        parameters:
+          environmentName: 'ci'
+          kubernetes_service_connection: 'Kubernetes_CI.eCommerce_Browse01_EUW'
+          registry_name: $(registryName_ci)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: 'monorepo-plp-frontend'
+          overrides: $(helmOverrides)
+          namespace: $(namespace)
+          acr_service_connection: '$(ci_subscription)'
+
+  - stage: ci_testing
+    displayName: 'CI Testing'
+    dependsOn:
+      - deploy_ci_eun
+      - deploy_ci_euw
+    condition: and(succeeded('deploy_ci_eun'), succeeded('deploy_ci_euw'))
+    variables:
+      - group: 'CI.eCommerce.plp.Frontend.EUN'
+      - name: lh_test_target_domain #This variable must be set and available in the stage context so that the token replace step (Lighthouse) works correctly
+        value: $(test_url)
+    jobs:
+      - job: run_cypress_ci
+        displayName: 'Run Functional Tests'
+        steps:
+          - template: azDevOps\azure\templates\steps\deploy-cypress-tests.yml@MonorepoEcommerce
+            parameters:
+              cypress_test_url: '$(test_url)'
+      - job: Run_Lighthouse
+        dependsOn: run_cypress_ci
+        steps:
+          - template: azDevOps\azure\templates\steps\deploy-lighthouse-tests.yml@MonorepoEcommerce
+            parameters:
+              lh_test_folder_path: '/lighthouse'
+              lh_config_file_relative_path: './config/non-production_config.json'
+              lh_server_upload: 'false'
+              lh_artefact_name: 'ci_attempt-$(System.StageAttempt)'
+
+  - stage: promote_preprod
+    displayName: 'Promote to Pre-Prod'
+    dependsOn:
+      - Build
+      - deploy_ci_eun
+      - deploy_ci_euw
+      - ci_testing
+    condition:
+      and(succeeded('Build'), succeeded('deploy_ci_eun'), succeeded('deploy_ci_euw'), succeeded('ci_testing'),
+      startsWith(variables['Build.SourceBranch'], 'refs/heads/release/'))
+    jobs:
+      - template: azDevOps/azure/templates/jobs/promote-container.yml@MonorepoEcommerce
+        parameters:
+          source_container_name: $(project)
+          destination_container_name: $(project)
+          source_acr: $(registryName_ci)
+          destination_acr: $(registryName_pp)
+          source_subscription: '$(ci_subscription)'
+          destination_subscription: '$(pp_subscription)'
+          tag: $(Build.BuildNumber)
+
+  - stage: upload_files_pp_eun
+    displayName: 'Upload Files PP EUN'
+    dependsOn:
+      - promote_preprod
+    condition: succeeded('promote_preprod')
+    variables:
+      - group: PP.eCommerce.PLP.Static-Content.Keys.EUN
+      - group: PLP.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml@MonorepoEcommerce
+        parameters:
+          environmentName: 'pp'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/plp'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: upload_files_pp_euw
+    displayName: 'Upload Files PP EUW'
+    dependsOn:
+      - promote_preprod
+    condition: succeeded('promote_preprod')
+    variables:
+      - group: PP.eCommerce.PLP.Static-Content.Keys.EUW
+      - group: PLP.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml@MonorepoEcommerce
+        parameters:
+          environmentName: 'pp'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/plp'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: deploy_preprod_eun
+    displayName: 'PreProd EUN'
+    dependsOn:
+      - promote_preprod
+      - upload_files_pp_eun
+    condition: succeeded('upload_files_pp_eun')
+    variables:
+      - group: 'PreProd.eCommerce.plp.Frontend.EUN'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@MonorepoEcommerce
+        parameters:
+          environmentName: 'pp'
+          kubernetes_service_connection: 'Kubernetes_PreProd.eCommerce_Browse01_EUN'
+          registry_name: $(registryName_pp)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: 'monorepo-plp-frontend'
+          overrides: $(helmOverrides)
+          namespace: $(namespace)
+          acr_service_connection: '$(pp_subscription)'
+
+  - stage: deploy_preprod_euw
+    displayName: 'Deploy PreProd EUW'
+    dependsOn:
+      - promote_preprod
+      - upload_files_pp_euw
+    condition: succeeded('upload_files_pp_euw')
+    variables:
+      - group: 'PreProd.eCommerce.plp.Frontend.EUW'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@MonorepoEcommerce
+        parameters:
+          environmentName: 'pp'
+          kubernetes_service_connection: 'Kubernetes_PreProd.eCommerce_Browse01_EUW'
+          registry_name: $(registryName_pp)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: 'monorepo-plp-frontend'
+          overrides: $(helmOverrides)
+          namespace: $(namespace)
+          acr_service_connection: '$(pp_subscription)'
+
+  - stage: pp_testing
+    displayName: 'PP Testing'
+    dependsOn:
+      - deploy_preprod_eun
+      - deploy_preprod_euw
+    condition: and(succeeded('deploy_preprod_eun'), succeeded('deploy_preprod_euw'))
+    variables:
+      - group: 'PreProd.eCommerce.plp.Frontend.EUN'
+      - name: lh_test_target_domain #This variable must be set and available in the stage context so that the token replace step (Lighthouse) works correctly
+        value: $(test_url)
+    jobs:
+      - job: run_cypress_pp
+        displayName: 'Run Functional Tests'
+        steps:
+          - template: azDevOps\azure\templates\steps\deploy-cypress-tests.yml@MonorepoEcommerce
+            parameters:
+              cypress_test_url: '$(test_url)'
+      - job: Run_Lighthouse
+        dependsOn: run_cypress_pp
+        steps:
+          - template: azDevOps\azure\templates\steps\deploy-lighthouse-tests.yml@MonorepoEcommerce
+            parameters:
+              lh_test_folder_path: '/lighthouse'
+              lh_config_file_relative_path: './config/production_config.json'
+              lh_server_upload: 'false'
+              lh_artefact_name: 'pp_attempt-$(System.StageAttempt)'
+
+  # Raise Service Now Ticket
+  - stage: 'Create_ServiceNow_Change'
+    displayName: 'Raise ServiceNow Change'
+    dependsOn:
+      - Build
+      - deploy_preprod_eun
+      - deploy_preprod_euw
+      - pp_testing
+    condition:
+      and(succeeded('Build'), succeeded('deploy_preprod_eun'), succeeded('deploy_preprod_euw'), succeeded('pp_testing'),
+      startsWith(variables['Build.SourceBranch'], 'refs/heads/release/'))
+    variables:
+      - group: 'ServiceNow'
+      - name: 'Environment'
+        value: 'Production'
+    jobs:
+      - deployment: ServiceNowChangeRaise
+        environment: 'pd'
+      - job: servicenow_raise_change
+        displayName: 'Raise Change'
+        steps:
+          - task: ServiceNow-Change-Rasiser@0
+            inputs:
+              apiEndpoint: $(snowApi)
+              deploymentsDictionaryAPI: $(deploymentsApi)
+              buildNumber: '$(Build.BuildId)' #Must match in both stages
+              currentRepository: '$(Build.Repository.Name)' #Must match in both stages
+              deploymentEnvironment: '$(Environment)' #Must match in both stages
+              apiUser: $(snowUsername)
+              apiPassword: $(snowPassword)
+              snShortDescription: 'Deployment of $(Build.Repository.Name) to $(Environment) AKS Clusters'
+              snDescription:
+                'Deploy Release $(Build.BuildId) of the Cloud Based PLP onto the Production AKS clusters
+                (ecombrowse01akspdeun/ecmbrowse01akspdeuw).'
+              snJustification:
+                'This change is required to allow the automated update of $(Build.Repository.Name) onto $(Environment)'
+              snCategory: 'Applications Software'
+              snTestPlan:
+                'This change has been tested on the UAT and Conv environments. Once this has been deployed onto
+                $(Environment), our QA team will carry out any testing that is required and provide signoff.'
+              snRiskImpactAnalaysis:
+                'Any issues could mean that the PLP does not render correctly throughout the countries where it is
+                currently enabled. Loss of, or incorrect behaviour of, the PLP may affect trading.'
+              snImplementationPlan:
+                'The pipeline will continue to run once this change is approved -
+                $(System.TeamFoundationCollectionUri)$(System.TeamProject)/_build/?buildId=$(Build.BuildId) This will
+                deploy $(Build.Repository.Name) onto $(Environment). The pipeline is being run from the following branch
+                - $(Build.SourceBranch).'
+              snBackoutPlan:
+                'The current working release will be redeployed onto $(Environment) and the QA team will re-test to
+                ensure that we are back to a working state.'
+              snAssignmentGroup: 'eCommerce'
+              snCmdbCi: amido.com'
+
+  - stage: 'Check_ServiceNow_Change'
+    displayName: 'Check ServiceNow Change'
+    dependsOn:
+      - Create_ServiceNow_Change
+    condition: succeeded('Create_ServiceNow_Change')
+    variables:
+      - group: 'ServiceNow'
+      - name: 'Environment'
+        value: 'Production'
+    jobs:
+      - deployment: 'ServiceNowChangeCheck'
+        environment: 'pd'
+      - job: servicenow_change_status_check
+        displayName: 'Check Change Status on ServiceNow'
+        steps:
+          - task: ServiceNow-Change-Status-Checker@0
+            inputs:
+              apiEndpoint: $(snowApi)
+              deploymentsDictionaryAPI: $(deploymentsApi)
+              buildNumber: '$(Build.BuildId)' #Must match in both stages
+              currentRepository: '$(Build.Repository.Name)' #Must match in both stages
+              deploymentEnvironment: '$(Environment)' #Must match in both stages
+              apiUser: '$(snowUsername)'
+              apiPassword: '$(snowPassword)'
+
+  - stage: promote_prod
+    displayName: 'Promote to Prod'
+    dependsOn:
+      - Check_ServiceNow_Change
+    condition: succeeded('Check_ServiceNow_Change')
+    jobs:
+      - template: azDevOps/azure/templates/jobs/promote-container.yml@MonorepoEcommerce
+        parameters:
+          source_container_name: $(project)
+          destination_container_name: $(project)
+          source_acr: $(registryName_pp)
+          destination_acr: $(registryName_pd)
+          source_subscription: '$(pp_subscription)'
+          destination_subscription: '$(pd_subscription)'
+          tag: $(Build.BuildNumber)
+
+  - stage: upload_files_pd_eun
+    displayName: 'Upload Files PD EUN'
+    dependsOn:
+      - promote_prod
+    condition: succeeded('promote_prod')
+    variables:
+      - group: PD.eCommerce.PLP.Static-Content.Keys.EUN
+      - group: PLP.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml@MonorepoEcommerce
+        parameters:
+          environmentName: 'pd'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/plp'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: deploy_prod_eun
+    displayName: 'Prod EUN'
+    dependsOn:
+      - promote_prod
+      - upload_files_pd_eun
+    condition: succeeded('upload_files_pd_eun') #Inherits promote_prod conditions
+    variables:
+      - group: 'Prod.eCommerce.plp.Frontend.EUN'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@MonorepoEcommerce
+        parameters:
+          environmentName: 'pd'
+          kubernetes_service_connection: 'Kubernetes_Prod.eCommerce_Browse01_EUN'
+          registry_name: $(registryName_pd)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: 'monorepo-plp-frontend'
+          overrides: $(helmOverrides)
+          namespace: $(namespace)
+          acr_service_connection: '$(pd_subscription)'
+
+  - stage: upload_files_pd_euw
+    displayName: 'Upload Files PD EUW'
+    dependsOn:
+      - deploy_prod_eun
+    condition: succeeded('deploy_prod_eun')
+    variables:
+      - group: PD.eCommerce.PLP.Static-Content.Keys.EUW
+      - group: PLP.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml@MonorepoEcommerce
+        parameters:
+          environmentName: 'pp'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/plp'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: deploy_prod_euw
+    displayName: 'Prod EUW'
+    dependsOn:
+      - promote_prod
+      - deploy_prod_eun
+      - upload_files_pd_euw
+    condition: and(succeeded('promote_prod'), succeeded('deploy_prod_eun'), succeeded('upload_files_pd_euw')) # Requires EUN deployment so we never have both regions down at the same time
+    variables:
+      - group: 'Prod.eCommerce.plp.Frontend.EUW'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@MonorepoEcommerce
+        parameters:
+          environmentName: 'pd'
+          kubernetes_service_connection: 'Kubernetes_Prod.eCommerce_Browse01_EUW'
+          registry_name: $(registryName_pd)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: 'monorepo-plp-frontend'
+          overrides: $(helmOverrides)
+          namespace: $(namespace)
+          acr_service_connection: '$(pd_subscription)'
+
+  - stage: pd_testing
+    displayName: 'PD Testing'
+    dependsOn:
+      - deploy_prod_eun
+      - deploy_prod_euw
+    condition: and(succeeded('deploy_prod_eun'), succeeded('deploy_prod_euw'))
+    variables:
+      - group: 'Prod.eCommerce.plp.Frontend.EUN'
+      - name: lh_test_target_domain #This variable must be set and available in the stage context so that the token replace step (Lighthouse) works correctly
+        value: $(test_url)
+    jobs:
+      - job: run_cypress_pd
+        displayName: 'Run Functional Tests'
+        steps:
+          - template: azDevOps\azure\templates\steps\deploy-cypress-tests.yml@MonorepoEcommerce
+            parameters:
+              cypress_test_url: '$(test_url)'
+      - job: Run_Lighthouse
+        dependsOn: run_cypress_pd
+        steps:
+          - template: azDevOps\azure\templates\steps\deploy-lighthouse-tests.yml@MonorepoEcommerce
+            parameters:
+              lh_test_folder_path: '/lighthouse'
+              lh_config_file_relative_path: './config/production_config.json'
+              lh_server_upload: 'false'
+              lh_artefact_name: 'pd_attempt-$(System.StageAttempt)'

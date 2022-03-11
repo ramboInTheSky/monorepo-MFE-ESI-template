@@ -1,0 +1,68 @@
+{
+    "ci": {
+      "collect": {
+        "url": [
+          "#{lh_test_target_domain}#/search?w=dresses",
+          "#{lh_test_target_domain}#/shop/gender-women-productaffiliation-coatsandjackets-0"
+        ],
+        "numberOfRuns" : "5",
+        "settings": {
+            "onlyCategories": [
+                "performance", 
+                "accessibility"
+            ],
+            "emulatedFormFactor": "desktop",
+            "throttling": {
+              "cpuSlowdownMultiplier": 1
+            }
+        }
+      },
+      "assert": {
+        "assertions": {
+          "categories:performance": ["warn", {"aggregationMethod": "median", "minScore": 0.19}],
+          "largest-contentful-paint": ["warn", {"aggregationMethod": "median", "maxNumericValue": 5500}],
+          "total-blocking-time": ["warn", {"aggregationMethod": "median", "maxNumericValue": 1200}],
+          "cumulative-layout-shift": ["warn", {"aggregationMethod": "median", "maxNumericValue": 0.1}],
+          "speed-index": ["warn", {"aggregationMethod": "median", "maxNumericValue": 4700}],
+          "interactive": ["warn", {"aggregationMethod": "median", "maxNumericValue": 7600}],
+  
+          "accesskeys": ["error", {"aggregationMethod": "median", "minScore": 1}],
+          "aria-allowed-attr": ["warn", {"aggregationMethod": "median", "minScore": 1}],
+          "aria-required-attr": ["warn", {"aggregationMethod": "median", "minScore": 1}],
+          "aria-required-children": ["warn", {"aggregationMethod": "median", "minScore": 1}],
+          "aria-required-parent": ["error", {"aggregationMethod": "median", "minScore": 1}],
+          "aria-roles": ["error", {"aggregationMethod": "median", "minScore": 1}],
+          "aria-valid-attr-value": ["error", {"aggregationMethod": "median", "minScore": 1}],
+          "aria-valid-attr": ["error", {"aggregationMethod": "median", "minScore": 1}],
+          "button-name": ["error", {"aggregationMethod": "median", "minScore": 1}],
+          "color-contrast": ["warn", {"aggregationMethod": "median", "minScore": 1}],
+          "definition-list": ["error", {"aggregationMethod": "median", "minScore": 1}],
+          "dlitem": ["error", {"aggregationMethod": "median", "minScore": 1}],
+          "duplicate-id-aria": ["error", { "aggregationMethod": "median", "minScore": 1}],
+          "duplicate-id-active": ["error", { "aggregationMethod": "median", "minScore": 1}],
+          "frame-title": ["error", {"aggregationMethod": "median", "minScore": 1}],
+          "image-alt": ["warn", {"aggregationMethod": "median", "minScore": 1}],
+          "input-image-alt": ["error", {"aggregationMethod": "median", "minScore": 1}],
+          "label": ["error", {"aggregationMethod": "median", "minScore": 1}],
+          "layout-table": ["error", {"aggregationMethod": "median", "minScore": 1}],
+          "link-name": ["warn", {"aggregationMethod": "median", "minScore": 1}],
+          "list": ["error", {"aggregationMethod": "median", "minScore": 1}],
+          "listitem": ["error", {"aggregationMethod": "median", "minScore": 1}],
+          "meta-refresh": ["error", {"aggregationMethod": "median", "minScore": 1}],
+          "meta-viewport": ["error", {"aggregationMethod": "median", "minScore": 1}],
+          "object-alt": ["error", {"aggregationMethod": "median", "minScore": 1}],
+          "tabindex": ["error", {"aggregationMethod": "median", "minScore": 1}],
+          "td-headers-attr": ["error", {"aggregationMethod": "median", "minScore": 1}],
+          "th-has-data-cells": ["error", {"aggregationMethod": "median", "minScore": 1}],
+          "document-title": ["error", {"aggregationMethod": "median", "minScore": 1}],
+          "html-has-lang": ["error", {"aggregationMethod": "median", "minScore": 1}],
+          "html-lang-valid": ["error", {"aggregationMethod": "median", "minScore": 1}]
+        }
+      },
+      "upload": {
+        "target": "lhci",
+        "token": "",
+        "serverBaseUrl": ""
+      }
+    }
+  }

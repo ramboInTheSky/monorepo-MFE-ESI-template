@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a createHeadingEsiTag When supplied with heading params When not using the devEsi solution it should return an ESI tag 1`] = `
+"<esi:try>
+        <esi:attempt> 
+            <esi:include src=\\"www.test.com/seo/seo-headings?urlPath=%2Fshop%2Fwomen\\"/>
+        </esi:attempt> 
+        <esi:except> 
+            <h1>10&nbsp;t-shirts</h1>
+        </esi:except>
+    </esi:try>"
+`;
+
+exports[`Given a createHeadingEsiTag When supplied with heading params should return an ESI tag 1`] = `
+"<esi:try>
+        <esi:attempt> 
+            <esi:include src=\\"www.test123.com/seo/seo-headings?urlPath=%2Fshop%2Fwomen\\"/>
+        </esi:attempt> 
+        <esi:except> 
+            <h1>10&nbsp;t-shirts</h1>
+        </esi:except>
+    </esi:try>"
+`;

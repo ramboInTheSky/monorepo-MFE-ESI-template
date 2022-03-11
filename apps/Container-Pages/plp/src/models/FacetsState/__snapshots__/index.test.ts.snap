@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - FacetsState:  should match FiltersAlphabetValues 1`] = `
+Object {
+  "All": "All",
+  "Numeric": "0-9",
+}
+`;
+
+exports[`Model - FacetsState:  should match the FacetsState 1`] = `
+FacetsState {
+  "test": FacetState {
+    "c": 0,
+    "d": false,
+    "incompatibleWith": Array [],
+    "n": "",
+    "s": undefined,
+    "v": "",
+  },
+}
+`;

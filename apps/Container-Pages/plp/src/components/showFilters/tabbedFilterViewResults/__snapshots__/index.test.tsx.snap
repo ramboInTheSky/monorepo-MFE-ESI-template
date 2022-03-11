@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a TabbedFilterViewResults component should render the component correctly to match the snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  height: 2.75rem;
+  text-transform: uppercase;
+}
+
+.c0:hover,
+.c0:active,
+.c0:focus {
+  background: #30a74b;
+  border: 0;
+  color: #ffffff;
+}
+
+<button
+    class="MuiButtonBase-root MuiButton-root MuiButton-text c0"
+    data-testid="plp-filters-view-products-cta-button"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      View 123 Products
+    </span>
+  </button>
+</DocumentFragment>
+`;

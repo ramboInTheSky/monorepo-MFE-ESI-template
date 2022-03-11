@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Catalogue List BigScreen:  Should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="component__Title-z12n81-5 bZZclI"
+    font-family=""
+    font-weight=""
+  >
+     
+    <span>
+       sample 
+    </span>
+  </div>
+  <ul
+    class="component__List-z12n81-6 jXsPjN"
+  >
+    <li>
+      <a
+        data-ga-v2="sample"
+        data-ga-v3="dress"
+        href="/dress"
+        title="dress"
+      >
+        dress
+      </a>
+    </li>
+    <li>
+      <a
+        data-ga-v2="sample"
+        data-ga-v3="shirt"
+        href="/shirt"
+        title="shirt"
+      >
+        shirt
+      </a>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`Catalogue List CatalogueList:  Should match the snapshot with Icon Enabled 1`] = `
+<DocumentFragment>
+  <div
+    class="component__Container-z12n81-4 bGAZEG"
+  />
+</DocumentFragment>
+`;
+
+exports[`Catalogue List CatalogueList:  Should match the snapshot with Icon disabled 1`] = `
+<DocumentFragment>
+  <div
+    class="component__Container-z12n81-4 bGAZEG"
+  />
+</DocumentFragment>
+`;
+
+exports[`Catalogue List CatalogueListContent:  Should match the snapshot 1`] = `
+<DocumentFragment>
+  <ul
+    class="component__List-z12n81-6 jXsPjN"
+  >
+    <li>
+      <a
+        data-ga-v3="sample"
+        href="test"
+        title="sample"
+      >
+        sample
+      </a>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`Catalogue List CatalogueListTitle:  Should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="component__Title-z12n81-5 bZZclI"
+    font-weight=""
+  >
+    <span
+      class="component__ImagePlaceholder-z12n81-7 hZgTSL"
+      data-testid="meganav-secondary-nav-small-screen-image-placeholder"
+      height="25"
+      width="24"
+    />
+     
+    <span>
+       sample 
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Catalogue List SmallScreens:  Should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiExpansionPanel-root component__Accordion-z12n81-0 fPINyK MuiPaper-elevation1"
+  >
+    <div
+      aria-disabled="false"
+      aria-expanded="false"
+      class="MuiButtonBase-root MuiExpansionPanelSummary-root component__AccordionPanelSummary-z12n81-2 hyjHLB"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="MuiExpansionPanelSummary-content"
+      >
+        <div
+          class="component__Title-z12n81-5 iUVXTe"
+          font-family=""
+          font-weight=""
+        >
+           
+          <span>
+             sample 
+          </span>
+        </div>
+      </div>
+      <div
+        aria-disabled="false"
+        aria-hidden="true"
+        class="MuiButtonBase-root MuiIconButton-root MuiExpansionPanelSummary-expandIcon MuiIconButton-edgeEnd"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <img
+            alt="Chevron icon"
+            class="component__Container-sc-1gwcfqo-0 kWQybn"
+            src="/static-content/icons/shared/chevron.svg"
+            width="0.4375"
+          />
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </div>
+    </div>
+    <div
+      class="MuiCollapse-container MuiCollapse-hidden"
+      style="min-height: 0px;"
+    >
+      <div
+        class="MuiCollapse-wrapper"
+      >
+        <div
+          class="MuiCollapse-wrapperInner"
+        >
+          <div
+            role="region"
+          >
+            <div
+              class="MuiExpansionPanelDetails-root component__AccordionPanelDetails-z12n81-1 hPeBtL"
+            >
+              <ul
+                class="component__List-z12n81-6 jXsPjN"
+              >
+                <li>
+                  <a
+                    data-ga-v1="sports"
+                    data-ga-v2="running"
+                    data-ga-v3="dress"
+                    href="/dress"
+                    title="dress"
+                  >
+                    dress
+                  </a>
+                </li>
+                <li>
+                  <a
+                    data-ga-v1="sports"
+                    data-ga-v2="running"
+                    data-ga-v3="shirt"
+                    href="/shirt"
+                    title="shirt"
+                  >
+                    shirt
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Catalogue List SmallScreens:  Should match the snapshot when there is no title 1`] = `
+<DocumentFragment>
+  <ul
+    class="component__List-z12n81-6 jXsPjN"
+  >
+    <li>
+      <a
+        data-ga-v1="sports"
+        data-ga-v2="running"
+        data-ga-v3="dress"
+        href="/dress"
+        title="dress"
+      >
+        dress
+      </a>
+    </li>
+    <li>
+      <a
+        data-ga-v1="sports"
+        data-ga-v2="running"
+        data-ga-v3="shirt"
+        href="/shirt"
+        title="shirt"
+      >
+        shirt
+      </a>
+    </li>
+  </ul>
+</DocumentFragment>
+`;

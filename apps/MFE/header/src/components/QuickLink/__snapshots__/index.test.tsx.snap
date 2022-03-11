@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - QuickLink:  should match the snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: inherit;
+  font-size: 12px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c1:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c0 {
+  list-style: none;
+  margin: 0 1rem 0 0;
+}
+
+.c0:last-child {
+  margin: "0 0.75rem 0 0";
+}
+
+.c2 {
+  margin-right: 0.1rem;
+}
+
+.c3 {
+  cursor: pointer;
+}
+
+<li
+    class="c0"
+  >
+    <div
+      data-testid="quicklink-container"
+    >
+      <a
+        class="c1"
+        data-ga-v1="Quick Links"
+        data-ga-v2="Help"
+        href="http://hello.com/help"
+        rel="nofollow"
+      >
+        <span
+          class="c2"
+        >
+          help
+        </span>
+        <img
+          alt="help"
+          class="c3"
+          src="/stores.svg"
+        />
+      </a>
+    </div>
+  </li>
+</DocumentFragment>
+`;

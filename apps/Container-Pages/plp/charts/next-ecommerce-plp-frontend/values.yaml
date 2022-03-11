@@ -1,0 +1,64 @@
+replicaCount: 'REPLACE_ME' # this must be 3 or more
+replicaCount_max: '20' # for hpa
+Environment: Development
+image:
+  useImagePullSecrets: true
+  pullPolicy: Always
+  imagePullSecret: 'plp-imagesecret'
+
+service:
+  type: ClusterIP
+  port: 80
+  internalPort: 3009
+  externalPort: 80
+
+ingress:
+  enabled: true
+  annotations: {kubernetes.io/ingress.class: 'nginx', nginx.ingress.kubernetes.io/use-regex: 'true'}
+  pathSearch: '/search(/|$)(.*)'
+  pathSearchBanners: '/search-banners(/|$)(.*)'
+  pathProductsFragment: '/products-fragment(/|$)(.*)'
+  pathShop: '/shop(/|$)(.*)'
+  pathPlpstatic: '/plpstatic(/|$)(.*)'
+  pathProxy: '/proxy(/|$)(.*)'
+  pathStaticContent: '/static-content(/|$)(.*)'
+  host:
+domain: 'test.local'
+enabled: true
+ignore_resource_limits: false
+resources:
+  requests:
+    cpu: 250m
+    memory: 300Mi
+  limits:
+    cpu: 1000m
+    memory: 600Mi
+average_cpu_utilisation: '150' # for hpa
+average_memory_utilisation: '150' # for hpa    
+nodeSelector: {}
+tolerations: []
+affinity: {}
+podSecurityContext: {}
+securityContext: {}
+
+application:
+  appInsightsKey: 'REPLACE_ME'
+  apiBaseUrlSearch: 'REPLACE_ME'
+  apiBaseUrlProductSummary: 'REPLACE_ME'
+  apiBaseUrlSearchBanner: 'REPLACE_ME'
+  cdnBaseUrl: 'REPLACE_ME'
+  appProdSummBaseUrl: 'REPLACE_ME'
+  appProdSummAssetsPath: 'REPLACE_ME'
+  appHeaderBaseUrl: 'REPLACE_ME'
+  appHeaderAssetsPath: 'REPLACE_ME'
+  appMeganavBaseUrl: 'REPLACE_ME'
+  appFooterBaseUrl: 'REPLACE_ME'
+  appFooterAssetsPath: 'REPLACE_ME'
+  app_serve_path_prefix: 'REPLACE_ME'
+  assets_path: 'REPLACE_ME'
+  appUrl: 'REPLACE_ME'
+  useTimeMachineCookie: 'REPLACE_ME'
+  useDevEsi: 'REPLACE_ME'
+  environmentName: 'REPLACE_ME'
+  log_level: 'REPLACE_ME'
+  blob_storage_override: 'REPLACE_ME'

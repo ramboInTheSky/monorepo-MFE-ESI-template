@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - TabsScroll:  should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="component__Container-sc-1vshyrh-0 etNKFQ"
+  >
+    <div
+      class="component__PositionedChevron-sc-1vshyrh-1 hZnPZt"
+    >
+      <div
+        style="transition: opacity 350ms ease-in-out; opacity: 0;"
+      >
+        <div
+          class="component__Container-sc-9bgwvf-1 cLZraf"
+        >
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            data-testid="meganav-primarynav-arrow-left"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <img
+                alt="Chevron icon"
+                class="component__Container-sc-1gwcfqo-0 kWQybn"
+                src="/static-content/icons/shared/chevron-white-left.svg"
+                width="0.4375"
+              />
+            </span>
+          </button>
+          <div
+            class="component__Gradient-sc-9bgwvf-0 hjYBjK"
+          />
+        </div>
+      </div>
+    </div>
+    null
+    <div
+      class="component__PositionedChevron-sc-1vshyrh-1 bDugPI"
+    >
+      <div
+        style="transition: opacity 350ms ease-in-out; opacity: 0;"
+      >
+        <div
+          class="component__Container-sc-9bgwvf-1 eMcUZE"
+        >
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            data-testid="meganav-primarynav-arrow-right"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <img
+                alt="Chevron icon"
+                class="component__Container-sc-1gwcfqo-0 kWQybn"
+                src="/static-content/icons/shared/chevron-white-left.svg"
+                width="0.4375"
+              />
+            </span>
+          </button>
+          <div
+            class="component__Gradient-sc-9bgwvf-0 hjYBjK"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - TabsScroll:  when rtl, it should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="component__Container-sc-1vshyrh-0 etNKFQ"
+  >
+    <div
+      class="component__PositionedChevron-sc-1vshyrh-1 hZnPZt"
+    >
+      <div
+        style="transition: opacity 350ms ease-in-out; opacity: 0;"
+      >
+        <div
+          class="component__Container-sc-9bgwvf-1 cLZraf"
+        >
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            data-testid="meganav-primarynav-arrow-left"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <img
+                alt="Chevron icon"
+                class="component__Container-sc-1gwcfqo-0 cZxKkG"
+                src="/static-content/icons/shared/chevron-white-left.svg"
+                width="0.4375"
+              />
+            </span>
+          </button>
+          <div
+            class="component__Gradient-sc-9bgwvf-0 hjYBjK"
+          />
+        </div>
+      </div>
+    </div>
+    null
+    <div
+      class="component__PositionedChevron-sc-1vshyrh-1 bDugPI"
+    >
+      <div
+        style="transition: opacity 350ms ease-in-out; opacity: 0;"
+      >
+        <div
+          class="component__Container-sc-9bgwvf-1 eMcUZE"
+        >
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            data-testid="meganav-primarynav-arrow-right"
+            tabindex="-1"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <img
+                alt="Chevron icon"
+                class="component__Container-sc-1gwcfqo-0 cZxKkG"
+                src="/static-content/icons/shared/chevron-white-left.svg"
+                width="0.4375"
+              />
+            </span>
+          </button>
+          <div
+            class="component__Gradient-sc-9bgwvf-0 hjYBjK"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

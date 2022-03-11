@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Util: QuickLinks should match the snapshot for QuickLinkTypes 1`] = `
+Object {
+  "LanguageSelector": "LanguageSelector",
+  "MyAccount": "MyAccount",
+  "Standard": "Link",
+}
+`;
+
+exports[`Util: QuickLinks should match the snapshot for maxElements 1`] = `3`;
+
+exports[`Util: QuickLinks should match the snapshot for quickLinkColumnTotal 1`] = `
+Object {
+  "LanguageSelector": 2,
+  "Link": 1,
+}
+`;

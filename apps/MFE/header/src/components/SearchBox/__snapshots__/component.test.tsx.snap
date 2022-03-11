@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search component:  ClearButton:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  position: absolute;
+  right: 2.8rem;
+  color: #000000;
+  height: inherit;
+  width: 2.5rem;
+  margin: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    padding: 0.4375rem 0.5rem;
+  }
+}
+
+<a
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Search component:  Container 1:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  color: #000;
+  background: #fff;
+  height: 2.75rem;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    border: 0.0625rem solid #eaeaea;
+    border-radius: 0.25rem;
+    width: 5.375rem;
+    height: 2.75rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c0:focus-within {
+    background: #ffffff;
+  }
+
+  .c0:focus-within button {
+    background: #ffffff;
+  }
+
+  .c0:focus-within button:hover,
+  .c0:focus-within button:active {
+    background: #ffffff;
+  }
+}
+
+@media (max-width:767px) {
+  .c0:focus-within {
+    border: 0;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Search component:  Container 2:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  color: #000;
+  background: #fff;
+  height: 2.75rem;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    border: 0.0625rem solid #eaeaea;
+    border-radius: 0.25rem;
+    width: 5.375rem;
+    height: 2.75rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c0:focus-within {
+    background: #ffffff;
+  }
+
+  .c0:focus-within button {
+    background: #ffffff;
+  }
+
+  .c0:focus-within button:hover,
+  .c0:focus-within button:active {
+    background: #ffffff;
+  }
+}
+
+@media (max-width:767px) {
+  .c0:focus-within {
+    border: 0;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Search component:  HiddenLabel:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+<label
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Search component:  Input:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  height: 100%;
+  width: calc(100% + 2rem);
+}
+
+.c0 input {
+  padding: 0.625rem 0;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  font-size: 0.875rem;
+}
+
+.c0 input::-ms-clear {
+  display: none;
+}
+
+.c0 input::-webkit-input-placeholder {
+  color: #515151;
+  opacity: 1;
+}
+
+.c0 input::-moz-placeholder {
+  color: #515151;
+  opacity: 1;
+}
+
+.c0 input:-ms-input-placeholder {
+  color: #515151;
+  opacity: 1;
+}
+
+.c0 input::placeholder {
+  color: #515151;
+  opacity: 1;
+}
+
+@media (min-width:768px) {
+  .c0 input {
+    padding: 0.625rem 0;
+  }
+}
+
+<div
+    class="MuiInputBase-root c0"
+  >
+    <input
+      class="MuiInputBase-input"
+      type="text"
+      value=""
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Search component:  SubmitButton  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  width: 3.25rem;
+  padding: 0;
+  background: #fff;
+  min-width: auto;
+  border: inherit;
+}
+
+.c0.c0:hover,
+.c0.c0:active {
+  background: #fff;
+  border: 0;
+}
+
+.c0.c0:focus {
+  border: 0;
+  border-radius: 0;
+}
+
+<button
+    class="MuiButtonBase-root MuiButton-root MuiButton-text c0"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    />
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+</DocumentFragment>
+`;

@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Language Selector Quicklinks:  LanguageSelectorDescription:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <p
+    class="MuiTypography-root components__LanguageSelectorDescription-g9j3h5-5 jZoRIz MuiTypography-body1"
+  >
+    Batman
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Language Selector Quicklinks:  LanguageSelectorGrid:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__LanguageSelectorElement-g9j3h5-2 bVDeWU"
+  >
+    Batman
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Language Selector Quicklinks:  LanguageSelectorImg:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <img
+    alt="Batmans website"
+    aria-hidden="true"
+    class="components__LanguageSelectorImg-g9j3h5-1 kbpJUb"
+    src="http://batman.co.uk"
+  />
+</DocumentFragment>
+`;
+
+exports[`Language Selector Quicklinks:  LanguageSelectorLink:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <a
+    class="MuiTypography-root MuiLink-root MuiLink-underlineHover components__LanguageSelectorLink-g9j3h5-3 gIOjmS MuiTypography-colorPrimary"
+  >
+    Batman
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Language Selector Quicklinks:  LanguageSelectorTitle:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <p
+    class="MuiTypography-root components__LanguageSelectorTitle-g9j3h5-4 XkARD MuiTypography-body1"
+  >
+    Batman
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Language Selector Quicklinks:  LanguageSelectorWrapper:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="components__LanguageSelectorWrapper-g9j3h5-0 bcqvDc"
+  >
+    Batman
+  </div>
+</DocumentFragment>
+`;

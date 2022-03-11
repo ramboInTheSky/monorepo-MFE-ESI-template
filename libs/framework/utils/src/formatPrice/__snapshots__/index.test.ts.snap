@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a price formatter When formatting the price with the config locale: ar-eg should render with no range  1`] = `"10 ج.م"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: ar-eg should render with range 1`] = `"10 ج.م - 15 ج.م"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: ar-lb should render with no range  1`] = `"$10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: ar-lb should render with range 1`] = `"$10 - $15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: ar-om should render with no range  1`] = `"10 ر.ع"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: ar-om should render with range 1`] = `"10 ر.ع - 15 ر.ع"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: bg-bg should render with no range  1`] = `"BGN10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: bg-bg should render with range 1`] = `"BGN10 - BGN15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: cs-cz should render with no range  1`] = `"10 Kč"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: cs-cz should render with range 1`] = `"10 Kč - 15 Kč"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: da-dk should render with no range  1`] = `"DKK10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: da-dk should render with range 1`] = `"DKK10 - DKK15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: de-at should render with no range  1`] = `"10 €"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: de-at should render with range 1`] = `"10 € - 15 €"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: de-ch should render with no range  1`] = `"CHF 10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: de-ch should render with range 1`] = `"CHF 10 - CHF 15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: el-gr should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: el-gr should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-am should render with no range  1`] = `"$10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-am should render with range 1`] = `"$10 - $15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-ar should render with no range  1`] = `"$10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-ar should render with range 1`] = `"$10 - $15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-at should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-at should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-az should render with no range  1`] = `"$10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-az should render with range 1`] = `"$10 - $15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-bg should render with no range  1`] = `"BGN 10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-bg should render with range 1`] = `"BGN 10 - BGN 15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-br should render with no range  1`] = `"$10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-br should render with range 1`] = `"$10 - $15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-by should render with no range  1`] = `"$10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-by should render with range 1`] = `"$10 - $15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-ca should render with no range  1`] = `"CA$10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-ca should render with range 1`] = `"CA$10 - CA$15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-ch should render with no range  1`] = `"CHF 10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-ch should render with range 1`] = `"CHF 10 - CHF 15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-cl should render with no range  1`] = `"$10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-cl should render with range 1`] = `"$10 - $15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-cy should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-cy should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-cz should render with no range  1`] = `"Kč10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-cz should render with range 1`] = `"Kč10 - Kč15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-dk should render with no range  1`] = `"DKK10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-dk should render with range 1`] = `"DKK10 - DKK15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-ee should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-ee should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-eg should render with no range  1`] = `"EGP10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-eg should render with range 1`] = `"EGP10 - EGP15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-es should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-es should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-fi should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-fi should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-fr should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-fr should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-ge should render with no range  1`] = `"$10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-ge should render with range 1`] = `"$10 - $15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-gi should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-gi should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-gr should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-gr should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-hr should render with no range  1`] = `"HRK 10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-hr should render with range 1`] = `"HRK 10 - HRK 15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-hu should render with no range  1`] = `"10 Ft"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-hu should render with range 1`] = `"10 Ft - 15 Ft"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-id should render with no range  1`] = `"$10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-id should render with range 1`] = `"$10 - $15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-in should render with no range  1`] = `"INR 10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-in should render with range 1`] = `"INR 10 - INR 15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-is should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-is should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-it should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-it should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-kr should render with no range  1`] = `"KRW10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-kr should render with range 1`] = `"KRW10 - KRW15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-lb should render with no range  1`] = `"$10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-lb should render with range 1`] = `"$10 - $15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-lt should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-lt should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-lu should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-lu should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-lv should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-lv should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-mx should render with no range  1`] = `"$10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-mx should render with range 1`] = `"$10 - $15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-my should render with no range  1`] = `"MYR 10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-my should render with range 1`] = `"MYR 10 - MYR 15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-no should render with no range  1`] = `"kr10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-no should render with range 1`] = `"kr10 - kr15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-nz should render with no range  1`] = `"$10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-nz should render with range 1`] = `"$10 - $15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-om should render with no range  1`] = `"OMR10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-om should render with range 1`] = `"OMR10 - OMR15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-pe should render with no range  1`] = `"$10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-pe should render with range 1`] = `"$10 - $15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-ph should render with no range  1`] = `"$10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-ph should render with range 1`] = `"$10 - $15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-pk should render with no range  1`] = `"$10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-pk should render with range 1`] = `"$10 - $15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-pt should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-pt should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-rs should render with no range  1`] = `"10 RSD"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-rs should render with range 1`] = `"10 RSD - 15 RSD"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-se should render with no range  1`] = `"kr10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-se should render with range 1`] = `"kr10 - kr15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-sg should render with no range  1`] = `"SGD 10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-sg should render with range 1`] = `"SGD 10 - SGD 15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-si should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-si should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-th should render with no range  1`] = `"$10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-th should render with range 1`] = `"$10 - $15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-tr should render with no range  1`] = `"TRY 10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-tr should render with range 1`] = `"TRY 10 - TRY 15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-tw should render with no range  1`] = `"NT$10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-tw should render with range 1`] = `"NT$10 - NT$15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-za should render with no range  1`] = `"R10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: en-za should render with range 1`] = `"R10 - R15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: es-es should render with no range  1`] = `"10 €"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: es-es should render with range 1`] = `"10 € - 15 €"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: fr-ca should render with no range  1`] = `"CA$10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: fr-ca should render with range 1`] = `"CA$10 - CA$15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: fr-fr should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: fr-fr should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: fr-lu should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: fr-lu should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: hu-hu should render with no range  1`] = `"10 Ft"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: hu-hu should render with range 1`] = `"10 Ft - 15 Ft"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: it-it should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: it-it should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: ko-kr should render with no range  1`] = `"KRW10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: ko-kr should render with range 1`] = `"KRW10 - KRW15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: ms-my should render with no range  1`] = `"MYR 10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: ms-my should render with range 1`] = `"MYR 10 - MYR 15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: ru-ee should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: ru-ee should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: ru-lt should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: ru-lt should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: ru-lv should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: ru-lv should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: sl-si should render with no range  1`] = `"€10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: sl-si should render with range 1`] = `"€10 - €15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: sv-se should render with no range  1`] = `"kr10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: sv-se should render with range 1`] = `"kr10 - kr15"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: zh-tw should render with no range  1`] = `"NT$10"`;
+
+exports[`Given a price formatter When formatting the price with the config locale: zh-tw should render with range 1`] = `"NT$10 - NT$15"`;

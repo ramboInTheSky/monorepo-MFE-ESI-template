@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - GeolocationModel:  should match the GeolocationModel snapshot 1`] = `
+GeolocationModel {
+  "ISOCountryCode": undefined,
+  "ISOCountryName": undefined,
+  "RedirectUrl": undefined,
+}
+`;

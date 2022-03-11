@@ -1,0 +1,10 @@
+{
+  "projectId": "uyx795",
+  "chromeWebSecurity": false,
+  "testFiles": "**/*.cy.{ts,tsx}",
+  "integrationFolder": "./src",
+  "retries": {
+    "runMode": 2,
+    "openMode": 0
+  }
+}

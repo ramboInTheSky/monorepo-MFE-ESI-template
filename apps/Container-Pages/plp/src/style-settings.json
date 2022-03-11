@@ -1,0 +1,12 @@
+{
+  "default": {
+    "plpSection": {
+      "default": {
+        "productWidthSize": 75
+      },
+      "enabledPageInFilters": {
+        "productWidthSize": 67
+      }
+    }
+  }
+}

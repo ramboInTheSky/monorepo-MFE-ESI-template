@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`config: constants should match CHEVRON_WIDTH 1`] = `8`;
+
+exports[`config: constants should match DEFAULT_IMAGE_PLACEHOLDER 1`] = `"https://xcdn.amido.com/common/Items/Default/Default/NavigationMenu/_menu/Default-2x.png"`;
+
+exports[`config: constants should match DRAWER_GAP 1`] = `48`;
+
+exports[`config: constants should match DRAWER_RESET_HEIGHT_SCROLL_TRIGGER 1`] = `47`;
+
+exports[`config: constants should match LTR 1`] = `"ltr"`;
+
+exports[`config: constants should match NAV_BAR 1`] = `"Nav Bar"`;
+
+exports[`config: constants should match NEXT_DIRECT_PATH 1`] = `"nextdirect"`;
+
+exports[`config: constants should match OVERLAY_TIMEOUT 1`] = `0`;
+
+exports[`config: constants should match RTL 1`] = `"rtl"`;
+
+exports[`config: constants should match SELECTED_DEPARTMENT_DETAILS 1`] = `"PrimaryNavDeptSelector"`;
+
+exports[`config: constants should match VISITED_PAGES 1`] = `"VisitedPages"`;
+
+exports[`config: constants should match the snapshot for BASELINECSS_MATERIALUI 1`] = `"materialui"`;
+
+exports[`config: constants should match the snapshot for COUNTRY_GB 1`] = `"gb"`;
+
+exports[`config: constants should match the snapshot for Direction 1`] = `
+Object {
+  "LTR": "ltr",
+  "RTL": "rtl",
+}
+`;
+
+exports[`config: constants should match the snapshot for NEXT_REALM 1`] = `"next"`;
+
+exports[`config: constants should match the snapshot for PRIMARY_NAV_ITEM_ACTIVE_HOVER_DELAY 1`] = `50`;
+
+exports[`config: constants should match the snapshot for PRIMARY_NAV_ITEM_HOVER_DELAY 1`] = `300`;

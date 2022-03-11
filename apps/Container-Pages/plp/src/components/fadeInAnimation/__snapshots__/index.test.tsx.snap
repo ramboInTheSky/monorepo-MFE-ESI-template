@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FadeInAnimation should show children when in on state 1`] = `
+<DocumentFragment>
+  <div
+    style="transition: opacity 100ms ease-in-out; opacity: 0;"
+  >
+     
+    <div>
+      ciao mamma
+    </div>
+     
+  </div>
+</DocumentFragment>
+`;

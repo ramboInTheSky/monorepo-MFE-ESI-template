@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - PrimaryNav:  should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="component__Container-sc-1lxer2w-0 hzSxHY"
+    data-testid="primary-meganav"
+  >
+    <div
+      class="component__SnailTrailWrapper-sc-1lxer2w-1 gdKftL"
+    >
+      <div>
+        SnailTrail
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

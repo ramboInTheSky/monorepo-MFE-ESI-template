@@ -1,0 +1,125 @@
+{
+  "id": "63f70cc6-cc32-4068-8548-fff54ad8943a",
+  "title": "CLOTHING",
+  "target": "/shop/feat-sale",
+  "viewType": "secondary-navigation",
+  "realm": "amido",
+  "territory": "GB",
+  "language": "en",
+  "items": [
+    {
+      "title": "CLOTHING",
+      "type": "tab",
+      "items": [
+        {
+          "title": "CLOTHING",
+          "type": "column",
+          "items": [
+            {
+              "title": "CLOTHING",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Clothing",
+                  "type": "link",
+                  "target": "/dummy",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Coats & Jackets",
+                  "type": "link",
+                  "target": "/dummy",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "T-Shirts",
+                  "type": "link",
+                  "target": "/dummy",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Polo Shirts",
+                  "type": "link",
+                  "target": "/dummy",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Shirts",
+                  "type": "link",
+                  "target": "/dummy",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Knitwear",
+                  "type": "link",
+                  "target": "/dummy",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sweatshirts & Hoodies",
+                  "type": "link",
+                  "target": "/dummy",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Trousers & Jeans",
+                  "type": "link",
+                  "target": "/dummy",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Loungewear & Pyjamas",
+                  "type": "link",
+                  "target": "/dummy",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Underwear & Socks",
+                  "type": "link",
+                  "target": "/dummy",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        }
+      ],
+      "missions": null
+    }
+  ],
+  "banner": null
+}

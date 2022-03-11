@@ -1,0 +1,915 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Facet:  should render correctly 1`] = `
+<DocumentFragment>
+  .c0 {
+  opacity: 0;
+  position: absolute;
+  left: -200px;
+}
+
+<input
+    class="c0"
+    data-testid="plp-facet-checkbox-opt1"
+    id="plp-facet-checkbox-opt1"
+    name="plp-facet-checkbox-opt1"
+    type="checkbox"
+    value="opt1"
+  />
+  .c2 {
+  color: #515151;
+  display: inline-block;
+  margin-left: 0.125rem;
+}
+
+.c1 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: auto;
+}
+
+.c0.c0 {
+  outline: none;
+  position: relative;
+  margin: 0;
+  padding-left: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+}
+
+.c0.c0:before {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0.3125rem;
+  left: 0;
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  pointer-events: auto;
+  content: "";
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0.0625rem solid #949494;
+  border-radius: 0.25rem;
+  margin: 0.0625rem;
+  -webkit-transition: background-color 0.1s ease-out,border-color 0.1s ease-out,boxShadow 0.1s ease-out;
+  transition: background-color 0.1s ease-out,border-color 0.1s ease-out,boxShadow 0.1s ease-out;
+}
+
+.c0.c0:after {
+  position: absolute;
+  display: block;
+  content: "";
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  width: 0.625rem;
+  height: 0.25rem;
+  top: 0.75rem;
+  left: 0.3125rem;
+  border-color: #000;
+  border: 0.125rem solid;
+  border-top: none;
+  opacity: 0;
+}
+
+.c0.c0.c0.c0:after {
+  flip: false;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  top: 0.75rem;
+  opacity: 0;
+  /*! @noflip */
+  border-right: none;
+  -webkit-transform: scale(0.25) rotate(-45deg);
+  -ms-transform: scale(0.25) rotate(-45deg);
+  transform: scale(0.25) rotate(-45deg);
+}
+
+<label
+    class="MuiTypography-root c0 MuiTypography-body1"
+    data-testid="plp-facet-checkbox-label-opt1"
+    for="plp-facet-checkbox-opt1"
+    id="plp-facet-checkbox-label-opt1"
+    tabindex="-1"
+  >
+    <span
+      class="c1"
+      data-testid="plp-facet-modal-label-opt1"
+      title="opt1"
+    >
+      opt1
+    </span>
+    <span
+      class="c2"
+      data-testid="plp-facet-modal-count-label-opt1-1"
+    >
+      (1)
+    </span>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Facet:  should render correctly as a modal facet 1`] = `
+<DocumentFragment>
+  .c0 {
+  opacity: 0;
+  position: absolute;
+  left: -200px;
+}
+
+<input
+    class="c0"
+    data-testid="plp-facet-checkbox-modal-opt1"
+    id="plp-facet-checkbox-modal-opt1"
+    name="plp-facet-checkbox-modal-opt1"
+    type="checkbox"
+    value="opt1"
+  />
+  .c2 {
+  color: #515151;
+  display: inline-block;
+  margin-left: 0.125rem;
+}
+
+.c1 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: auto;
+}
+
+.c0.c0 {
+  outline: none;
+  position: relative;
+  margin: 0;
+  padding-left: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+}
+
+.c0.c0:before {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0.3125rem;
+  left: 0;
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  pointer-events: auto;
+  content: "";
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0.0625rem solid #949494;
+  border-radius: 0.25rem;
+  margin: 0.0625rem;
+  -webkit-transition: background-color 0.1s ease-out,border-color 0.1s ease-out,boxShadow 0.1s ease-out;
+  transition: background-color 0.1s ease-out,border-color 0.1s ease-out,boxShadow 0.1s ease-out;
+}
+
+.c0.c0:after {
+  position: absolute;
+  display: block;
+  content: "";
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  width: 0.625rem;
+  height: 0.25rem;
+  top: 0.75rem;
+  left: 0.3125rem;
+  border-color: #000;
+  border: 0.125rem solid;
+  border-top: none;
+  opacity: 0;
+}
+
+.c0.c0.c0.c0:after {
+  flip: false;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  top: 0.75rem;
+  opacity: 0;
+  /*! @noflip */
+  border-right: none;
+  -webkit-transform: scale(0.25) rotate(-45deg);
+  -ms-transform: scale(0.25) rotate(-45deg);
+  transform: scale(0.25) rotate(-45deg);
+}
+
+<label
+    class="MuiTypography-root c0 MuiTypography-body1"
+    data-testid="plp-facet-checkbox-modal-label-opt1"
+    for="plp-facet-checkbox-modal-opt1"
+    id="plp-facet-checkbox-modal-label-opt1"
+    tabindex="-1"
+  >
+    <span
+      class="c1"
+      data-testid="plp-facet-modal-label-opt1"
+      title="opt1"
+    >
+      opt1
+    </span>
+    <span
+      class="c2"
+      data-testid="plp-facet-modal-count-label-opt1-1"
+    >
+      (1)
+    </span>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Facet:  should render correctly if a facet with tooltip 1`] = `
+<DocumentFragment>
+  .c0 {
+  opacity: 0;
+  position: absolute;
+  left: -200px;
+}
+
+<input
+    class="c0"
+    data-testid="plp-facet-checkbox-feat:backinstock"
+    id="plp-facet-checkbox-feat:backinstock"
+    name="plp-facet-checkbox-feat:backinstock"
+    type="checkbox"
+    value="feat:backinstock"
+  />
+  .c2 {
+  color: #515151;
+  display: inline-block;
+  margin-left: 0.125rem;
+}
+
+.c1 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: auto;
+}
+
+.c0.c0 {
+  outline: none;
+  position: relative;
+  margin: 0;
+  padding-left: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+}
+
+.c0.c0:before {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0.3125rem;
+  left: 0;
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  pointer-events: auto;
+  content: "";
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0.0625rem solid #949494;
+  border-radius: 0.25rem;
+  margin: 0.0625rem;
+  -webkit-transition: background-color 0.1s ease-out,border-color 0.1s ease-out,boxShadow 0.1s ease-out;
+  transition: background-color 0.1s ease-out,border-color 0.1s ease-out,boxShadow 0.1s ease-out;
+}
+
+.c0.c0:after {
+  position: absolute;
+  display: block;
+  content: "";
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  width: 0.625rem;
+  height: 0.25rem;
+  top: 0.75rem;
+  left: 0.3125rem;
+  border-color: #000;
+  border: 0.125rem solid;
+  border-top: none;
+  opacity: 0;
+}
+
+.c0.c0.c0.c0:after {
+  flip: false;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  top: 0.75rem;
+  opacity: 0;
+  /*! @noflip */
+  border-right: none;
+  -webkit-transform: scale(0.25) rotate(-45deg);
+  -ms-transform: scale(0.25) rotate(-45deg);
+  transform: scale(0.25) rotate(-45deg);
+}
+
+<label
+    class="MuiTypography-root c0 MuiTypography-body1"
+    data-testid="plp-facet-checkbox-label-feat:backinstock"
+    for="plp-facet-checkbox-feat:backinstock"
+    id="plp-facet-checkbox-label-feat:backinstock"
+    tabindex="-1"
+  >
+    <span
+      class="c1"
+      data-testid="plp-facet-modal-label-feat:backinstock"
+      title="Back In Stock"
+    >
+      Back In Stock
+    </span>
+    <span
+      class="c2"
+      data-testid="plp-facet-modal-count-label-feat:backinstock-1"
+    >
+      (1)
+    </span>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Facet:  should render correctly if a facet with tooltip and tooltip is open 1`] = `
+<DocumentFragment>
+  .c0 {
+  opacity: 0;
+  position: absolute;
+  left: -200px;
+}
+
+@media (min-width:1024px) {
+
+}
+
+<input
+    class="c0"
+    data-testid="plp-facet-checkbox-feat:backinstock"
+    id="plp-facet-checkbox-feat:backinstock"
+    name="plp-facet-checkbox-feat:backinstock"
+    type="checkbox"
+    value="feat:backinstock"
+  />
+  .c2 {
+  color: #515151;
+  display: inline-block;
+  margin-left: 0.125rem;
+}
+
+.c3 {
+  display: none;
+  opacity: 1;
+  position: absolute;
+  right: -0.3125rem;
+  padding-top: 0rem;
+  width: 2rem;
+  height: 2rem;
+  z-Index: 0;
+}
+
+.c1 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: auto;
+}
+
+.c0.c0 {
+  outline: none;
+  position: relative;
+  margin: 0;
+  padding-left: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+}
+
+.c0.c0:before {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0.3125rem;
+  left: 0;
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  pointer-events: auto;
+  content: "";
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0.0625rem solid #949494;
+  border-radius: 0.25rem;
+  margin: 0.0625rem;
+  -webkit-transition: background-color 0.1s ease-out,border-color 0.1s ease-out,boxShadow 0.1s ease-out;
+  transition: background-color 0.1s ease-out,border-color 0.1s ease-out,boxShadow 0.1s ease-out;
+}
+
+.c0.c0:after {
+  position: absolute;
+  display: block;
+  content: "";
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  width: 0.625rem;
+  height: 0.25rem;
+  top: 0.75rem;
+  left: 0.3125rem;
+  border-color: #000;
+  border: 0.125rem solid;
+  border-top: none;
+  opacity: 0;
+}
+
+.c0.c0.c0.c0:after {
+  flip: false;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  top: 0.75rem;
+  opacity: 0;
+  /*! @noflip */
+  border-right: none;
+  -webkit-transform: scale(0.25) rotate(-45deg);
+  -ms-transform: scale(0.25) rotate(-45deg);
+  transform: scale(0.25) rotate(-45deg);
+}
+
+@media (min-width:1024px) {
+  .c3 {
+    display: block;
+  }
+}
+
+<label
+    class="MuiTypography-root c0 MuiTypography-body1"
+    data-testid="plp-facet-checkbox-label-feat:backinstock"
+    for="plp-facet-checkbox-feat:backinstock"
+    id="plp-facet-checkbox-label-feat:backinstock"
+    tabindex="-1"
+  >
+    <span
+      class="c1"
+      data-testid="plp-facet-modal-label-feat:backinstock"
+      title="Back In Stock"
+    >
+      Back In Stock
+    </span>
+    <span
+      class="c2"
+      data-testid="plp-facet-modal-count-label-feat:backinstock-1"
+    >
+      (1)
+    </span>
+    <img
+      alt="Back In Stock Tooltip Icon"
+      aria-label="feat:backinstock-filter-tooltip-open"
+      class="c3"
+      data-testid="plp-facet-tooltip-icon-feat:backinstock"
+      src="/static-content/icons/shared/help-question.svg"
+    />
+  </label>
+  .c0 {
+  z-index: 4;
+}
+
+.c1 {
+  box-shadow: 0rem 0.1875rem 0.25rem 0rem #888888;
+  width: 1.1875rem;
+  height: 1.1875rem;
+  margin: -1.5625rem 0.875rem 0.6875rem 15.0625rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-left: solid 0.0625rem gray;
+  border-bottom: solid 0.0625rem gray;
+  background-color: white;
+  position: absolute;
+  z-index: 2;
+}
+
+.c2 {
+  width: 1.1875rem;
+  height: 1.1875rem;
+  margin: -1.5625rem 0.875rem 0.6875rem 15.0625rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-left: solid 0.0625rem gray;
+  border-bottom: solid 0.0625rem gray;
+  background-color: white;
+  position: absolute;
+  z-index: 3;
+}
+
+.c3 {
+  box-shadow: 0rem 0.1875rem 0.25rem 0.0625rem #888888;
+  position: absolute;
+  left: 15.625rem;
+  width: 16.9375rem;
+  padding: 0 0.25rem 1rem 0.875rem;
+  border: solid 0.0625rem gray;
+  border-radius: 0.25rem;
+  background-color: white;
+  z-index: 2;
+  margin-top: -3.3rem;
+  min-height: 5.3125rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c5 {
+  height: 1.3125rem;
+  margin: 1rem 0rem 0.75rem 0.125rem;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 1.4;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c8 {
+  width: 14.875rem;
+  margin: 0.0625rem 0.8125rem 0 0.125rem;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c6 {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  padding-right: 0.9375rem;
+}
+
+.c7 {
+  height: 13.4px;
+  width: 13.4px;
+}
+
+@media (min-width:1024px) {
+
+}
+
+<div
+    class="c0"
+    data-testid="plp-facet-tooltip-feat:backinstock"
+  >
+    <span
+      class="c1"
+    />
+    <span
+      class="c2"
+    />
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <div
+          class="c5"
+          data-testid="plp-facet-tooltip-title-feat:backinstock"
+        >
+          Back in stock
+        </div>
+        <button
+          class="c6"
+          data-testid="plp-filters-close-button"
+        >
+          <img
+            alt="Close Icon"
+            aria-label="feat:backinstock-filter-tooltip-close"
+            class="c7"
+            src="/static-content/icons/shared/close-black.svg"
+          />
+        </button>
+      </div>
+      <div
+        class="c8"
+        data-testid="plp-facet-tooltip-body-feat:backinstock"
+      >
+         
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Facet:  should render correctly when a facet is selected 1`] = `
+<DocumentFragment>
+  .c0 {
+  opacity: 0;
+  position: absolute;
+  left: -200px;
+}
+
+<input
+    checked=""
+    class="c0"
+    data-testid="plp-facet-checkbox-opt1"
+    id="plp-facet-checkbox-opt1"
+    name="plp-facet-checkbox-opt1"
+    type="checkbox"
+    value="opt1"
+  />
+  .c2 {
+  color: #515151;
+  display: inline-block;
+  margin-left: 0.125rem;
+}
+
+.c1 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: auto;
+}
+
+.c0.c0 {
+  outline: none;
+  position: relative;
+  margin: 0;
+  padding-left: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+}
+
+.c0.c0:before {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0.3125rem;
+  left: 0;
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  pointer-events: auto;
+  content: "";
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0.0625rem solid #949494;
+  border-radius: 0.25rem;
+  margin: 0.0625rem;
+  -webkit-transition: background-color 0.1s ease-out,border-color 0.1s ease-out,boxShadow 0.1s ease-out;
+  transition: background-color 0.1s ease-out,border-color 0.1s ease-out,boxShadow 0.1s ease-out;
+}
+
+.c0.c0:after {
+  position: absolute;
+  display: block;
+  content: "";
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  width: 0.625rem;
+  height: 0.25rem;
+  top: 0.75rem;
+  left: 0.3125rem;
+  border-color: #000;
+  border: 0.125rem solid;
+  border-top: none;
+  opacity: 0;
+}
+
+.c0.c0.c0.c0:after {
+  flip: false;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  top: 0.75rem;
+  opacity: 0;
+  /*! @noflip */
+  border-right: none;
+  -webkit-transform: scale(0.25) rotate(-45deg);
+  -ms-transform: scale(0.25) rotate(-45deg);
+  transform: scale(0.25) rotate(-45deg);
+}
+
+.c0.c0:before {
+  border: 0.125rem solid #257f39;
+  background-color: rgba(48,167,75,0.05);
+}
+
+.c0.c0.c0.c0:after {
+  flip: false;
+  -webkit-transform: scale(1) rotate(-45deg);
+  -ms-transform: scale(1) rotate(-45deg);
+  transform: scale(1) rotate(-45deg);
+  top: 0.75rem;
+  opacity: 1;
+}
+
+<label
+    class="MuiTypography-root c0 MuiTypography-body1"
+    data-testid="plp-facet-checkbox-label-opt1"
+    for="plp-facet-checkbox-opt1"
+    id="plp-facet-checkbox-label-opt1"
+    tabindex="-1"
+  >
+    <span
+      class="c1"
+      data-testid="plp-facet-modal-label-opt1"
+      title="opt1"
+    >
+      opt1
+    </span>
+    <span
+      class="c2"
+      data-testid="plp-facet-modal-count-label-opt1-1"
+    >
+      (1)
+    </span>
+  </label>
+</DocumentFragment>
+`;
+
+exports[`Facet:  should render correctly when disabled 1`] = `
+<DocumentFragment>
+  .c0 {
+  opacity: 0;
+  position: absolute;
+  left: -200px;
+}
+
+<input
+    class="c0"
+    data-testid="plp-facet-checkbox-opt1"
+    disabled=""
+    id="plp-facet-checkbox-opt1"
+    name="plp-facet-checkbox-opt1"
+    type="checkbox"
+    value="opt1"
+  />
+  .c2 {
+  color: #515151;
+  display: inline-block;
+  margin-left: 0.125rem;
+}
+
+.c1 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: auto;
+}
+
+.c0.c0 {
+  outline: none;
+  position: relative;
+  margin: 0;
+  padding-left: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+  opacity: 0.3;
+}
+
+.c0.c0:before {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0.3125rem;
+  left: 0;
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  pointer-events: auto;
+  content: "";
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0.0625rem solid #949494;
+  border-radius: 0.25rem;
+  margin: 0.0625rem;
+  -webkit-transition: background-color 0.1s ease-out,border-color 0.1s ease-out,boxShadow 0.1s ease-out;
+  transition: background-color 0.1s ease-out,border-color 0.1s ease-out,boxShadow 0.1s ease-out;
+}
+
+.c0.c0:after {
+  position: absolute;
+  display: block;
+  content: "";
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  width: 0.625rem;
+  height: 0.25rem;
+  top: 0.75rem;
+  left: 0.3125rem;
+  border-color: #000;
+  border: 0.125rem solid;
+  border-top: none;
+  opacity: 0;
+}
+
+.c0.c0.c0.c0:after {
+  flip: false;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  top: 0.75rem;
+  opacity: 0;
+  /*! @noflip */
+  border-right: none;
+  -webkit-transform: scale(0.25) rotate(-45deg);
+  -ms-transform: scale(0.25) rotate(-45deg);
+  transform: scale(0.25) rotate(-45deg);
+}
+
+<label
+    class="MuiTypography-root c0 MuiTypography-body1"
+    data-testid="plp-facet-checkbox-label-opt1"
+    for="plp-facet-checkbox-opt1"
+    id="plp-facet-checkbox-label-opt1"
+    tabindex="-1"
+  >
+    <span
+      class="c1"
+      data-testid="plp-facet-modal-label-opt1"
+      title="opt1"
+    >
+      opt1
+    </span>
+    <span
+      class="c2"
+      data-testid="plp-facet-modal-count-label-opt1-1"
+    >
+      (1)
+    </span>
+  </label>
+</DocumentFragment>
+`;

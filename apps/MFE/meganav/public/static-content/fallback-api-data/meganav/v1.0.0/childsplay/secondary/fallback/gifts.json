@@ -1,0 +1,189 @@
+{
+    "id": "20727afc-9316-466b-b6d1-9a7a6caa4a8c",
+    "title": "GIFTS",
+    "target": "/shop/promotion-gifts-0",
+    "viewType": "secondary-navigation",
+    "realm": "amido",
+    "territory": "GB",
+    "language": "en",
+    "items": [
+        {
+            "title": "GIFTS",
+            "type": "tab",
+            "items": [
+                {
+                    "title": null,
+                    "type": "column",
+                    "items": [
+                        {
+                            "title": "GIFTS",
+                            "type": "category",
+                            "items": [
+                                {
+                                    "title": "All Gifts",
+                                    "type": "link",
+                                    "target": "/shop/promotion-gifts-0",
+                                    "icon": null,
+                                    "linkColour": "",
+                                    "fontWeight": "",
+                                    "fontFamily": null
+                                },
+                                {
+                                    "title": "Gifts for Boys",
+                                    "type": "link",
+                                    "target": "/shop/gender-boys-gender-unisex/promotion-gifts",
+                                    "icon": null,
+                                    "linkColour": "",
+                                    "fontWeight": "",
+                                    "fontFamily": null
+                                },
+                                {
+                                    "title": "Gifts for Girls",
+                                    "type": "link",
+                                    "target": "/shop/gender-girls-gender-unisex/promotion-gifts",
+                                    "icon": null,
+                                    "linkColour": "",
+                                    "fontWeight": "",
+                                    "fontFamily": null
+                                },
+                                {
+                                    "title": "Gifts for Baby Boys",
+                                    "type": "link",
+                                    "target": "/shop/gender-babyboys-gender-babyunisex/promotion-gifts",
+                                    "icon": null,
+                                    "linkColour": "",
+                                    "fontWeight": "",
+                                    "fontFamily": null
+                                },
+                                {
+                                    "title": "Gifts for Baby Girls",
+                                    "type": "link",
+                                    "target": "/shop/gender-babygirls-gender-babyunisex/promotion-gifts",
+                                    "icon": null,
+                                    "linkColour": "",
+                                    "fontWeight": "",
+                                    "fontFamily": null
+                                }
+                            ],
+                            "linkColour": "",
+                            "fontWeight": "",
+                            "fontFamily": null,
+                            "icon": null
+                        },
+                        {
+                            "title": "SHOP BY CATEGORY",
+                            "type": "category",
+                            "items": [
+                                {
+                                    "title": "Accessories",
+                                    "type": "link",
+                                    "target": "/shop/productaffiliation-accessories-promotion-gifts-0",
+                                    "icon": null,
+                                    "linkColour": "",
+                                    "fontWeight": "",
+                                    "fontFamily": null
+                                },
+                                {
+                                    "title": "Bonpoint Skincare",
+                                    "type": "link",
+                                    "target": "/shop/productaffiliation-perfumeskincare-0",
+                                    "icon": null,
+                                    "linkColour": "",
+                                    "fontWeight": "",
+                                    "fontFamily": null
+                                },
+                                {
+                                    "title": "Gift Sets",
+                                    "type": "link",
+                                    "target": "/shop/category-sets-promotion-gifts",
+                                    "icon": null,
+                                    "linkColour": "",
+                                    "fontWeight": "",
+                                    "fontFamily": null
+                                },
+                                {
+                                    "title": "Hats, Gloves & Scarves",
+                                    "type": "link",
+                                    "target": "/shop/productaffiliation-hatsglovesscarves-promotion-gifts-0",
+                                    "icon": null,
+                                    "linkColour": "",
+                                    "fontWeight": "",
+                                    "fontFamily": null
+                                },
+                                {
+                                    "title": "Babygrows & Sleepsuits",
+                                    "type": "link",
+                                    "target": "/shop/category-sleepsuits-promotion-gifts-0",
+                                    "icon": null,
+                                    "linkColour": "",
+                                    "fontWeight": "",
+                                    "fontFamily": null
+                                },
+                                {
+                                    "title": "Shoes",
+                                    "type": "link",
+                                    "target": "shop/productaffiliation-footwear-promotion-gifts-0",
+                                    "icon": null,
+                                    "linkColour": "",
+                                    "fontWeight": "",
+                                    "fontFamily": null
+                                },
+                                {
+                                    "title": "Toys",
+                                    "type": "link",
+                                    "target": "/shop/category-toys-0",
+                                    "icon": null,
+                                    "linkColour": "",
+                                    "fontWeight": "",
+                                    "fontFamily": null
+                                }
+                            ],
+                            "linkColour": "",
+                            "fontWeight": "",
+                            "fontFamily": null,
+                            "icon": null
+                        }
+                    ]
+                }
+            ],
+            "missions": {
+                "noOfColumns": 3,
+                "title": null,
+                "items": [
+                    {
+                        "title": "Gifts for Boys",
+                        "imageUrl": "/nxtcms/blueprint/servlet/resource/blob/4172306/193ddf5fb96deab42b4fe8bd77736aaa/gifts-boys-data.jpg",
+                        "target": "/shop/gender-boys-gender-unisex/promotion-gifts"
+                    },
+                    {
+                        "title": "Gifts for Girls",
+                        "imageUrl": "/nxtcms/blueprint/servlet/resource/blob/4172308/8af010867a79cc9f61cd25c60bc48e1c/gifts-girls-data.jpg",
+                        "target": "/shop/gender-girls-gender-unisex/promotion-gifts"
+                    },
+                    {
+                        "title": "Gifts for Babies",
+                        "imageUrl": "/nxtcms/blueprint/servlet/resource/blob/4172314/88d4f97f0a137cd78123b63c1678822b/gifts-baby-data.jpg",
+                        "target": "/shop/productaffiliation-baby-promotion-gifts-0"
+                    },
+                    {
+                        "title": "Bags",
+                        "imageUrl": "/nxtcms/blueprint/servlet/resource/blob/4172304/7c378c4673abf1c25ee28113f22c5a2d/gifts-bags-data.jpg",
+                        "target": "/shop/promotion-gifts/category-bags"
+                    },
+                    {
+                        "title": "Accessories",
+                        "imageUrl": "/nxtcms/blueprint/servlet/resource/blob/4172312/de50d974ddfe2742bcf597f5613e47a1/gifts-accessories-data.jpg",
+                        "target": "/shop/productaffiliation-accessories-promotion-gifts-0"
+                    },
+                    {
+                        "title": "Toys",
+                        "imageUrl": "/nxtcms/blueprint/servlet/resource/blob/4172310/6a796c96c893cff1f98cc6d1d83417a2/gifts-toys-data.jpg",
+                        "target": "/shop/category-toys-0"
+                    }
+                ],
+                "categoryLink": null
+            }
+        }
+    ],
+    "banner": null
+}

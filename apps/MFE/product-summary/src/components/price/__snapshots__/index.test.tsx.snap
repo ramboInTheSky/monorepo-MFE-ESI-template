@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Price:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  display: block;
+  margin-right: 0.3rem;
+}
+
+.c0 a {
+  display: inline-block;
+}
+
+.c3 {
+  margin: inherit;
+  color: #d91440;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-weight: 500;
+}
+
+.c2 {
+  margin: inherit;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-weight: 500;
+  margin-right: 0.4rem;
+}
+
+.c4 {
+  display: none;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    display: inline-block;
+  }
+}
+
+@media (max-width:1023px) {
+  .c1 {
+    display: none;
+  }
+}
+
+@media (max-width:1023px) {
+  .c4 {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <a
+      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-h5 MuiTypography-colorPrimary"
+      data-testid="product_summary_price"
+      href="www.test.com"
+      title="test title"
+    >
+      <div
+        aria-label="test title Was £20.99 Now £10"
+      >
+        <div
+          class="c1"
+        >
+          <p
+            class="MuiTypography-root c2 MuiTypography-body1"
+            data-testid="product_summary_was_price"
+          >
+            Was £20.99
+          </p>
+          <p
+            class="MuiTypography-root c3 MuiTypography-body1"
+            data-testid="product_summary_sale_price"
+          >
+            Now £10
+          </p>
+        </div>
+        <div
+          class="c4"
+        >
+          <p
+            class="MuiTypography-root c2 MuiTypography-body1"
+            data-testid="product_summary_was_price"
+          >
+            Was £20.99
+          </p>
+          <p
+            class="MuiTypography-root c3 MuiTypography-body1"
+            data-testid="product_summary_sale_price"
+          >
+            Now £10
+          </p>
+        </div>
+      </div>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Price:  should show the correct items if madeToMeasure is true 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: block;
+  margin-right: 0.3rem;
+}
+
+.c0 a {
+  display: inline-block;
+}
+
+.c1 {
+  font-weight: 700;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    display: inline-block;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <a
+      class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-h5 MuiTypography-colorPrimary"
+      data-testid="product_summary_price"
+      href="www.test.com"
+      title="test title"
+    >
+      <div
+        class="c1"
+        data-testid="product_summary_from_price"
+      >
+        From £10
+      </div>
+    </a>
+  </div>
+</DocumentFragment>
+`;

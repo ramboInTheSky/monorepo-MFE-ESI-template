@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - LazyloadState:  should match the LazyloadState 1`] = `
+Object {
+  "colourchips": true,
+  "fitIcons": false,
+  "productImages": true,
+}
+`;

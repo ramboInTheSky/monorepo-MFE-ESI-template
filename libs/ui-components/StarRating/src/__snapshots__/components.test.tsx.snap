@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Common/StarRating - Components StarRatingContainer should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__StarRatingContainer-sc-1cxyj6d-0 gFUPMk"
+  >
+    test
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Common/StarRating - Components StarRatingsCount should match the snapshot  1`] = `
+<DocumentFragment>
+  <span
+    class="components__StarRatingsCount-sc-1cxyj6d-1 leVdRF"
+  >
+    (100)
+  </span>
+</DocumentFragment>
+`;

@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuickLinks: LogoutQuickLink Testing old logout path should snapshot the logoutElement when the user is logged in state 1`] = `
+<DocumentFragment>
+  <div
+    class="components__LogoutHidden-sc-19qf9d4-0 hHmoib PrivateHiddenCss-lgUp-11"
+  >
+    <div
+      class="MuiGrid-root components__LogoutContainer-sc-19qf9d4-2 iGbDKo MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center MuiGrid-align-content-xs-center MuiGrid-justify-xs-center MuiGrid-grid-xs-12"
+    >
+      <div
+        class="components__LogoutWrapper-sc-19qf9d4-1 kehuth"
+      >
+        <h5
+          class="MuiTypography-root components__LogoutText-sc-19vs0oc-0 cAjUiP MuiTypography-h5"
+          data-testid="footer-quick-links-logout-text"
+        >
+          Not John?
+        </h5>
+      </div>
+      <div
+        class="components__LogoutWrapper-sc-19qf9d4-1 kehuth"
+      >
+        <a
+          aria-label="Sign Out"
+          class="components__LogoutLinkComponent-ovo0ct-0 FqbdK"
+          data-testid="footer-quick-links-sign-out-button"
+          href="https://localhost.superman:2000/forget-me"
+          target="_self"
+        >
+          Sign Out
+        </a>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`QuickLinks: LogoutQuickLink When the type is Logout should render null when the user is not logged in state 1`] = `<DocumentFragment />`;
+
+exports[`QuickLinks: LogoutQuickLink When the type is Logout should return null and output an warning 1`] = `<DocumentFragment />`;
+
+exports[`QuickLinks: LogoutQuickLink When the type is Logout should snapshot the logoutElement when the user is logged in state 1`] = `
+<DocumentFragment>
+  <div
+    class="components__LogoutHidden-sc-19qf9d4-0 hHmoib PrivateHiddenCss-lgUp-26"
+  >
+    <div
+      class="MuiGrid-root components__LogoutContainer-sc-19qf9d4-2 iGbDKo MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center MuiGrid-align-content-xs-center MuiGrid-justify-xs-center MuiGrid-grid-xs-12"
+    >
+      <div
+        class="components__LogoutWrapper-sc-19qf9d4-1 kehuth"
+      >
+        <h5
+          class="MuiTypography-root components__LogoutText-sc-19vs0oc-0 cAjUiP MuiTypography-h5"
+          data-testid="footer-quick-links-logout-text"
+        >
+          Not John?
+        </h5>
+      </div>
+      <div
+        class="components__LogoutWrapper-sc-19qf9d4-1 kehuth"
+      >
+        <a
+          aria-label="Sign Out"
+          class="components__LogoutLinkComponent-ovo0ct-0 FqbdK"
+          data-testid="footer-quick-links-sign-out-button"
+          href="https://localhost.superman:2000/forget-me"
+          target="_self"
+        >
+          Sign Out
+        </a>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

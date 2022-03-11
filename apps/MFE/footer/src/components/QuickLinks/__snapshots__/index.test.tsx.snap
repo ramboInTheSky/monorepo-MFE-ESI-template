@@ -1,0 +1,379 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - QuickLinks:   - conditional elements When I see the quick links should set MuiGrid-grid-lg-3 for Logged In 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__GridContainer-sc-1jbgekn-0 eQdFAO MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+  >
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-3"
+      data-testid="footer-quicklinks-myaccount-my-account"
+    >
+      <div>
+        MyAccountQuickLink component
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-3"
+      data-testid="footer-quicklinks-link-store-locator"
+    >
+      <div>
+        QuickLink component Store Locator
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - QuickLinks:   - conditional elements When I see the quick links should set MuiGrid-grid-lg-3 for Sign In 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__GridContainer-sc-1jbgekn-0 eQdFAO MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+  >
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-3"
+      data-testid="footer-quicklinks-myaccount-username"
+    >
+      <div>
+        MyAccountQuickLink component
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-3"
+      data-testid="footer-quicklinks-link-store-locator"
+    >
+      <div>
+        QuickLink component Store Locator
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - QuickLinks:   - conditional elements When I see the quick links should set MuiGrid-grid-lg-5 for Language selection 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__GridContainer-sc-1jbgekn-0 eQdFAO MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+  >
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-5"
+      data-testid="footer-quicklinks-languageselector-language-selector"
+    >
+      <div>
+        LanguageSelectorQuickLink component
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - QuickLinks:   - conditional elements When I see the quick links should set MuiGrid-grid-lg-6 for Logged In 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__GridContainer-sc-1jbgekn-0 eQdFAO MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+  >
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-6"
+      data-testid="footer-quicklinks-myaccount-my-account"
+    >
+      <div>
+        MyAccountQuickLink component
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-5"
+      data-testid="footer-quicklinks-languageselector-language-selector"
+    >
+      <div>
+        LanguageSelectorQuickLink component
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - QuickLinks:   - conditional elements When I see the quick links should set MuiGrid-grid-lg-6 for Sign In and Language Selector 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__GridContainer-sc-1jbgekn-0 eQdFAO MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+  >
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-6"
+      data-testid="footer-quicklinks-myaccount-username"
+    >
+      <div>
+        MyAccountQuickLink component
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-5"
+      data-testid="footer-quicklinks-languageselector-language-selector"
+    >
+      <div>
+        LanguageSelectorQuickLink component
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - QuickLinks:   - conditional elements When I see the quick links should set MuiGrid-grid-lg-6 for only Logged In 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__GridContainer-sc-1jbgekn-0 eQdFAO MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+  >
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-6"
+      data-testid="footer-quicklinks-myaccount-my-account"
+    >
+      <div>
+        MyAccountQuickLink component
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - QuickLinks:   - conditional elements When I see the quick links should set MuiGrid-grid-lg-6 for only Sign In 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__GridContainer-sc-1jbgekn-0 eQdFAO MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+  >
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-6"
+      data-testid="footer-quicklinks-myaccount-username"
+    >
+      <div>
+        MyAccountQuickLink component
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - QuickLinks:   - conditional elements should match the snapshot template when accessibilityText is '' in the elements 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__GridContainer-sc-1jbgekn-0 eQdFAO MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+  />
+</DocumentFragment>
+`;
+
+exports[`Components - QuickLinks:   - conditional elements should match the snapshot template when text is '' in the elements 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__GridContainer-sc-1jbgekn-0 eQdFAO MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+  />
+</DocumentFragment>
+`;
+
+exports[`Components - QuickLinks:   - conditional elements should match the snapshot template when the elements are valid 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__GridContainer-sc-1jbgekn-0 eQdFAO MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+  >
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-6"
+      data-testid="footer-quicklinks-link-quickshop"
+    >
+      <div>
+        QuickLink component Quickshop
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - QuickLinks:   - conditional elements should match the snapshot template when the language selector element is valid 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__GridContainer-sc-1jbgekn-0 eQdFAO MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+  >
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-5"
+      data-testid="footer-quicklinks-languageselector-language-selector"
+    >
+      <div>
+        LanguageSelectorQuickLink component
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - QuickLinks:   - conditional elements should match the snapshot template when the my account element is valid 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__GridContainer-sc-1jbgekn-0 eQdFAO MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+  >
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-6"
+      data-testid="footer-quicklinks-myaccount-undefined"
+    >
+      <div>
+        MyAccountQuickLink component
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - QuickLinks:   - conditional elements should match the snapshot template when url and accessibilityText is '' in the elements 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__GridContainer-sc-1jbgekn-0 eQdFAO MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+  />
+</DocumentFragment>
+`;
+
+exports[`Components - QuickLinks:   - conditional elements should match the snapshot template when url is '' in the elements 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__GridContainer-sc-1jbgekn-0 eQdFAO MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+  />
+</DocumentFragment>
+`;
+
+exports[`Components - QuickLinks:  when the AmidoBasket FirstName is TEST NAME should match the snapshot template 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__GridContainer-sc-1jbgekn-0 eQdFAO MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+  >
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-3"
+      data-testid="footer-quicklinks-myaccount-undefined"
+    >
+      <div>
+        MyAccountQuickLink component
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-3"
+      data-testid="footer-quicklinks-link-quickshop"
+    >
+      <div>
+        QuickLink component Quickshop
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-3"
+      data-testid="footer-quicklinks-link-store-locator"
+    >
+      <div>
+        QuickLink component Store Locator
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-3"
+      data-testid="footer-quicklinks-link-start-a-chat"
+    >
+      <div>
+        QuickLink component Start A Chat
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiGrid-root components__GridContainer-sc-1jbgekn-0 eQdFAO MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+  >
+    <div>
+      LogoutQuickLink component
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - QuickLinks:  when the AmidoBasket FirstName is null should match the snapshot template 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__GridContainer-sc-1jbgekn-0 eQdFAO MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+  >
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-3"
+      data-testid="footer-quicklinks-myaccount-undefined"
+    >
+      <div>
+        MyAccountQuickLink component
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-3"
+      data-testid="footer-quicklinks-link-quickshop"
+    >
+      <div>
+        QuickLink component Quickshop
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-3"
+      data-testid="footer-quicklinks-link-store-locator"
+    >
+      <div>
+        QuickLink component Store Locator
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-3"
+      data-testid="footer-quicklinks-link-start-a-chat"
+    >
+      <div>
+        QuickLink component Start A Chat
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiGrid-root components__GridContainer-sc-1jbgekn-0 eQdFAO MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+  >
+    <div>
+      LogoutQuickLink component
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - QuickLinks:  when the showLangSelector is false should match the snapshot template 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__GridContainer-sc-1jbgekn-0 eQdFAO MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+  >
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-3"
+      data-testid="footer-quicklinks-myaccount-undefined"
+    >
+      <div>
+        MyAccountQuickLink component
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-3"
+      data-testid="footer-quicklinks-link-quickshop"
+    >
+      <div>
+        QuickLink component Quickshop
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-3"
+      data-testid="footer-quicklinks-link-store-locator"
+    >
+      <div>
+        QuickLink component Store Locator
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root components__QuickLinksWrapper-sc-1jbgekn-1 plpKI quicklink__wrapper MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-3"
+      data-testid="footer-quicklinks-link-start-a-chat"
+    >
+      <div>
+        QuickLink component Start A Chat
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiGrid-root components__GridContainer-sc-1jbgekn-0 eQdFAO MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+  >
+    <div>
+      LogoutQuickLink component
+    </div>
+  </div>
+</DocumentFragment>
+`;

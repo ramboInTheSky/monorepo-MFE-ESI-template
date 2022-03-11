@@ -1,0 +1,203 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container component:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 18rem;
+  height: 18.1875rem;
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 0.0625rem solid #eaeaea;
+  border-radius: 0.25rem;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    width: 35rem;
+    height: 13.1875rem;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`StyledButtonCancel component:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  font-size: 0.75rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+  margin: 0px;
+  border: 0px;
+  color: #000000;
+  opacity: 1;
+  border-radius: 0.25rem;
+  border: 1px solid black;
+  background: #ffffff;
+  padding: 0.5625rem 0.5rem;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    width: 12.5rem;
+    height: 2.75rem;
+  }
+}
+
+<button
+    class="MuiButtonBase-root MuiButton-root MuiButton-text c0"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      Cancel
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`StyledButtonConfirm component:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  font-size: 0.75rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+  margin: 0rem 0rem 0.75rem;
+  border: 0px;
+  color: #ffffff;
+  opacity: 1;
+  border-radius: 0.25rem;
+  background: #30a74b;
+  padding: 0.5625rem 0.5rem;
+}
+
+.c0:hover,
+.c0:active,
+.c0:focus {
+  background: #30a74b;
+  border: 0;
+  color: #ffffff;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    width: 12.5rem;
+    height: 2.75rem;
+    margin: 0rem 1rem;
+  }
+}
+
+<button
+    class="MuiButtonBase-root MuiButton-root MuiButton-text c0"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      Continue
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`StyledButtonWrapper component:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  display: block;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`StyledText component:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 16rem;
+  margin: 0.4375rem 0 1rem;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.43;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    width: 34rem;
+  }
+}
+
+<h5
+    class="MuiTypography-root c0 MuiTypography-h5"
+  >
+    Text
+  </h5>
+</DocumentFragment>
+`;
+
+exports[`StyledTitle component:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 16rem;
+  height: 1.625rem;
+  margin: 0 0 0.4375rem;
+  font-size: 1.0625rem;
+  font-weight: bold;
+  line-height: 1.5;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+<h5
+    class="MuiTypography-root c0 MuiTypography-h5"
+  >
+    Title
+  </h5>
+</DocumentFragment>
+`;

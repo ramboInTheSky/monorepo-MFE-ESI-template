@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `"<div>[object Object]<div>[object Object]<section data-testid=\\"meganav\\" id=\\"platform_modernisation_meganav\\" class=\\"x-monorepo-plat-mod\\"><div> dasd </div></section></div></div>"`;

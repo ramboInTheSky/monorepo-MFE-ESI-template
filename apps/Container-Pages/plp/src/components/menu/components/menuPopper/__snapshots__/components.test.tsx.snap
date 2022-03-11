@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given components for the MenuPopper Arrow 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: absolute;
+  font-size: 0.4375rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+<span
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Given components for the MenuPopper StyledMenuItem 1`] = `
+<DocumentFragment>
+  .c0 {
+  padding: 0.8125rem 0.9375rem 0.8125rem 0.625rem;
+}
+
+<li
+    aria-disabled="false"
+    class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root c0 MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+    role="menuitem"
+    tabindex="-1"
+  >
+    Test
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </li>
+</DocumentFragment>
+`;
+
+exports[`Given components for the MenuPopper StyledMenuList 1`] = `
+<DocumentFragment>
+  .c0 {
+  border-top: 0.25rem solid #000000;
+  margin-top: 0.875rem;
+  padding: 0;
+}
+
+<ul
+    class="MuiList-root c0 MuiList-padding"
+    role="menu"
+    tabindex="-1"
+  />
+</DocumentFragment>
+`;
+
+exports[`Given components for the MenuPopper StyledPopper 1`] = `
+.c0 {
+  z-index: 1;
+}
+
+.c0[x-placement*="bottom"] .arrow {
+  width: 0;
+  height: 0;
+  border-bottom: 0.625rem solid #000000;
+  border-left: 0.625rem solid transparent;
+  border-right: 0.625rem solid transparent;
+  margin-top: -0.625rem;
+}
+
+<body>
+  <div />
+  <div
+    class="c0"
+    id="test"
+    style="position: fixed; top: 0px; left: 0px;"
+  >
+    TEST
+  </div>
+</body>
+`;

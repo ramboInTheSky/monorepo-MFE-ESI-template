@@ -1,0 +1,43 @@
+{
+  "name": "@monorepo/apiconfig",
+  "version": "3.3.0",
+  "description": "Shared service for building api config objects",
+  "author": "",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "module": "./lib/index.es.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build-lib": "rollup -c && yalc push --safe --replace",
+    "build-ci": "rollup -c rollup.config.prod.js",
+    "lint": "eslint --ext .tsx,.ts src/",
+    "tsc": "tsc",
+    "test": "jest src/"
+  },
+  "dependencies": {
+    "axios": "0.19.2"
+  },
+  "peerDependencies": {
+    "axios": "0.19.2"
+  },
+  "devDependencies": {
+    "@monorepo/babelconfig": "^3.3.0",
+    "@monorepo/eslint": "^3.3.0",
+    "@testing-library/jest-dom": "5.1.1",
+    "@testing-library/react": "9.4.0",
+    "@types/jest": "24.9.1",
+    "@types/node": "12.12.28",
+    "@typescript-eslint/parser": "2.19.2",
+    "babel-jest": "^24.9.0",
+    "jest": "24.9.0",
+    "jest-coverage-ratchet": "0.2.3",
+    "jest-junit": "10.0.0",
+    "ts-jest": "24.3.0",
+    "typescript": "3.8.2",
+    "yalc": "^1.0.0-pre.53"
+  },
+  "gitHead": "ddc830c814fe0ca4d5cb49e91bf965128ce83536"
+}

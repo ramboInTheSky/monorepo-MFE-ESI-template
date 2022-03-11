@@ -1,0 +1,874 @@
+trigger:
+  branches:
+    include:
+      - feature/*
+      - master
+      - release/*
+
+  paths:
+    include:
+      - apps/MFE/footer
+    exclude:
+      - /
+
+pool:
+  vmImage: ubuntu-latest
+
+resources:
+  repositories:
+    - repository: AmidoEcommerce
+      type: git
+      name: Amido.Ecommerce.Infrastructure/Amido.Ecommerce.Infrastructure.Templates
+      ref: refs/tags/stable
+      # ref: refs/heads/feature/cypress-tests-monorepo
+
+variables:
+  # Global Variables
+  # - group: 'Platform Modernization ACR Dev'
+  - name: project
+    value: 'amido-ecommerce-footer-ui'
+  - name: tag
+    value: '$(Build.BuildId)'
+  - name: namespace
+    value: 'footer'
+  # Registrys
+  - name: registryName_sx
+    value: ecmbrowse01acrsxeuw
+  - name: registryName_ci
+    value: ecmbrowse01acrcieuw
+  - name: registryName_pp
+    value: ecmbrowse01acrppeuw
+  - name: registryName_pd
+    value: ecmbrowse01acrpdeuw
+  # Application Variables
+  - name: qa_helm_overrides
+    value: 'ingress.enabled=true,ignore_resource_limits=$(ignore_resource_limits),ingress.host=$(qa_ingress_host),application.appInsightsKey=$(appInsightsKey),application.apiBaseUrl=$(qa_apiBaseUrl),application.cdnBaseUrl=$(cdnBaseUrl),application.appUrl=$(qa_appUrl),application.blobStorageSSRBaseURL=$(blobStorageSSRBaseURL),application.app_entrypoint=$(app_entrypoint),application.assets_path=$(assets_path),application.generate_sourcemap=$(generate_sourcemap),application.log_level=$(log_level),application.blob_storage_override=$(blob_storage_override)'
+  - name: helm_overrides
+    value: 'domain=$(ingress_domain),ignore_resource_limits=$(ignore_resource_limits),ingress.enabled=true,application.appInsightsKey=$(appInsightsKey),application.apiBaseUrl=$(apiBaseUrl),application.cdnBaseUrl=$(cdnBaseUrl),application.blobStorageSSRBaseURL=$(blobStorageSSRBaseURL),application.app_entrypoint=$(app_entrypoint),application.assets_path=$(assets_path),application.generate_sourcemap=$(generate_sourcemap),application.log_level=$(log_level),application.blob_storage_override=$(blob_storage_override)'
+  - name: artefact_name
+    value: 'static-content'
+  - name: ignore_resource_limits
+    value: false
+
+  # Versioning
+  - name: Version.Major
+    value: 0
+  - name: Version.Minor
+    value: 1
+  - name: Version.Revision
+    value: $[counter(variables['Version.Minor'], 0)]
+  - name: helm_version
+    value: 3.3.1
+
+parameters:
+  - name: cypress_parallel_enabled
+    displayName: 'Enable Parallel Cypress Tests'
+    type: boolean
+    default: True
+
+stages:
+  - stage: Prereqs
+    displayName: 'Prerequisites'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/build-updatebuildnumber.yml@AmidoEcommerce
+        parameters:
+          build_number: '$(Version.Major).$(Version.Minor).$(Version.Revision)'
+
+  - stage: Build
+    displayName: 'Build'
+    dependsOn: Prereqs
+    ${{ if eq(parameters.cypress_parallel_enabled, False)}}:
+      variables:
+        # - group: Veracode
+        - group: 'Sandbox.eCommerce.Footer.Frontend.EUN'
+        - name: dockerfile_name
+          value: Dockerfile-cypress
+        - name: parallel_agents
+          value: 0
+    ${{ if eq(parameters.cypress_parallel_enabled, True)}}:
+      variables:
+        # - group: Veracode
+        - group: 'Sandbox.eCommerce.Footer.Frontend.EUN'
+        - name: dockerfile_name
+          value: Dockerfile
+        - name: parallel_agents
+          value: 3
+    jobs:
+      - template: azDevOps/azure/templates/jobs/build-docker.yml@AmidoEcommerce
+        parameters:
+          projectName: $(project)
+          registryName: $(registryName_sx)
+          dockerContext: 'apps/MFE/footer/'
+          docker_build_args:
+            '--build-arg ASSETS_PATH=$(assets_path) --build-arg REACT_APP_API_BASEURL=$(apiBaseUrl) --build-arg
+            REACT_APP_CDN_BASEURL=$(cdnBaseUrl) --build-arg LOG_LEVEL=$(log_level) --build-arg
+            REACT_APP_BLOB_STORAGE_SSR_BASEURL=$(blobStorageSSRBaseURL)'
+          dockerfile_name: $(dockerfile_name)
+          nugetRestore: false
+          npmInstall: true
+          dockerBuildTarget: 'test'
+          testfileString: 'junit.xml'
+          search: true
+          searchfolders: |
+            /app
+          sourceFolder: '/testresults'
+          imagefilter: 'label=test=true'
+          testresultsfiles: '**/junit.xml'
+          testResultsFormat: 'JUnit'
+          host_port: 3002
+          disabledruleoptions: 'document-title,html-has-lang'
+          subscription: 'ecmbrowse01spnsxeuw'
+          # accessibilityTesting: false  >> To Do Remove this line once test are written
+          # veracodeScan: false
+          # appId: '776302'
+          # appName: 'Amido.Ecommerce.Footer.Frontend'
+          # wrapperZip: $(wrapper_zip)
+          # vId: $(vid)
+          # vKey: $(vkey)
+          # autoScan: true
+          # applicationType: 'frontend'
+          scan_image: 'true'
+          service_connection: 'prisma_compute'
+      - ${{ if eq(parameters.cypress_parallel_enabled, 'true') }}:
+          - template: azDevOps/azure/templates/jobs/test-cypress.yml@AmidoEcommerce
+            parameters:
+              parallel_agents: ${{ variables['parallel_agents'] }}
+              test_directory: $(System.DefaultWorkingDirectory)/apps/MFE/footer
+              npm_build_command: 'build'
+              cypress_npm_command: 'test:parallel'
+              library_group: 'Cypress.Footer'
+      - template: azDevOps/azure/templates/jobs/publish-docker-content.yml@AmidoEcommerce
+        parameters:
+          DependsOn: 'Build'
+          imagefilter: 'label=production=true'
+          destination: 'static-content'
+          filestring: '*.*'
+          sourceFolder: '/app/build/public/static'
+          projectName: $(project)
+          registryName: $(registryName_sx)
+          Subscription: 'ecmbrowse01spnsxeuw'
+          tag: $(Build.BuildNumber)
+          publish_artefact: true
+          artefact_name: $(artefact_name)
+
+      - job: Helm_Build
+        pool:
+          vmImage: 'ubuntu-latest'
+        steps:
+          - template: azDevOps/azure/templates/steps/pack-helm.yml@AmidoEcommerce # Template reference
+            parameters:
+              projectName: $(project)
+              registryName: $(registryName_sx)
+              Subscription: 'ecmbrowse01spnsxeuw'
+              context: $(system.defaultWorkingDirectory)/apps/MFE/footer/charts/amido-ecommerce-footer-ui/
+
+  - stage: ConventionalCommit
+    displayName: 'Conventional Commit'
+    variables:
+      - group: 'ConventionalCommit'
+    dependsOn: Build
+    condition:
+      and( succeeded('Build'), and (eq(variables['Build.Reason'], 'IndividualCI'),
+      contains(variables['Build.SourceBranch'], 'master'), contains(variables['Build.SourceVersionMessage'], 'Merged
+      PR') ) )
+    jobs:
+      - template: azDevOps/azure/templates/jobs/conventional-commit.yml@AmidoEcommerce
+        parameters:
+          service_connection: 'ecmbrowse01spnsxeuw'
+          pat: $(cc_pat)
+          service_path: '$(system.defaultWorkingDirectory)/apps/MFE/footer/'
+
+  - stage: upload_files_sandbox_eun
+    displayName: 'Upload Files Sandbox EUN'
+    dependsOn: Build
+    condition:
+      and( succeeded('Build'), or( eq(variables['Build.Reason'], 'PullRequest'),
+      contains(variables['Build.SourceBranch'], '/TeamHeaderFooterPLP/EUN/'), contains(variables['Build.SourceBranch'],
+      '/TeamHeaderFooterPLP/EUW/'), and (eq(variables['Build.Reason'], 'Manual'),
+      or(contains(variables['Build.SourceBranch'], '/TeamHeaderFooterPLP/EUN/'),
+      contains(variables['Build.SourceBranch'], '/TeamHeaderFooterPLP/EUW/')))), not(eq(variables['QAEUN'],true)),
+      not(eq(variables['QAEUW'],true)), not(or(startsWith(variables['Build.SourceBranch'],
+      'refs/heads/release/'),startsWith(variables['Build.SourceBranch'], 'refs/heads/master'))) )
+    variables:
+      - group: SX.eCommerce.Footer.Static-Content.Keys.EUN
+      - group: Footer.Static-Content
+      - name: ignore_resource_limits
+        value: true
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'sx'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/footer'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: upload_files_sandbox_euw
+    displayName: 'Upload Files Sandbox EUW'
+    dependsOn: Build
+    condition:
+      and( succeeded('Build'), or( eq(variables['Build.Reason'], 'PullRequest'),
+      contains(variables['Build.SourceBranch'], '/TeamHeaderFooterPLP/EUN/'), contains(variables['Build.SourceBranch'],
+      '/TeamHeaderFooterPLP/EUW/'), and (eq(variables['Build.Reason'], 'Manual'),
+      or(contains(variables['Build.SourceBranch'], '/TeamHeaderFooterPLP/EUN/'),
+      contains(variables['Build.SourceBranch'], '/TeamHeaderFooterPLP/EUW/')))), not(eq(variables['QAEUN'],true)),
+      not(eq(variables['QAEUW'],true)), not(or(startsWith(variables['Build.SourceBranch'],
+      'refs/heads/release/'),startsWith(variables['Build.SourceBranch'], 'refs/heads/master'))) )
+    variables:
+      - group: SX.eCommerce.Footer.Static-Content.Keys.EUW
+      - group: Footer.Static-Content
+      - name: ignore_resource_limits
+        value: true
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'sx'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/footer'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: deploy_sandbox_eun
+    displayName: 'Deploy to Sandbox EUN'
+    dependsOn:
+      - Build
+      - upload_files_sandbox_eun
+      - upload_files_sandbox_euw
+    condition:
+      and( succeeded('Build'), succeeded('upload_files_sandbox_eun'), succeeded('upload_files_sandbox_euw'),
+      contains(variables['Build.SourceBranch'], '/TeamHeaderFooterPLP/EUN/') )
+    variables:
+      - group: 'Sandbox.eCommerce.Footer.Frontend.EUN'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'sx'
+          kubernetes_service_connection: 'Kubernetes_Sandbox.eCommerce_Browse01_EUN'
+          registry_name: $(registryName_sx)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: 'amido-ecommerce-footer-ui'
+          overrides: $(helm_overrides)
+          namespace: $(namespace)
+          acr_service_connection: 'ecmbrowse01spnsxeuw'
+
+  - stage: deploy_sandbox_euw
+    displayName: 'Deploy to Sandbox EUW'
+    dependsOn:
+      - Build
+      - upload_files_sandbox_eun
+      - upload_files_sandbox_euw
+    condition:
+      and( succeeded('Build'), succeeded('upload_files_sandbox_eun'), succeeded('upload_files_sandbox_euw'),
+      contains(variables['Build.SourceBranch'], '/TeamHeaderFooterPLP/EUW/') )
+    variables:
+      - group: 'Sandbox.eCommerce.Footer.Frontend.EUW'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'sx'
+          kubernetes_service_connection: 'Kubernetes_Sandbox.eCommerce_Browse01_EUW'
+          registry_name: $(registryName_sx)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: 'amido-ecommerce-footer-ui'
+          overrides: $(helm_overrides)
+          namespace: $(namespace)
+          acr_service_connection: 'ecmbrowse01spnsxeuw'
+
+  - stage: sx_testing
+    displayName: 'Sandbox Testing'
+    dependsOn:
+      - deploy_sandbox_eun
+      - deploy_sandbox_euw
+    condition: and(succeeded('deploy_sandbox_eun'), succeeded('deploy_sandbox_euw'))
+    variables:
+      - group: 'Sandbox.eCommerce.Footer.Frontend.EUN'
+      - name: lh_test_target_domain #This variable must be set and available in the stage context so that the token replace step (Lighthouse) works correctly
+        value: $(appUrl)
+    jobs:
+      - job: Run_Lighthouse
+        steps:
+          - template: azDevOps\azure\templates\steps\deploy-lighthouse-tests.yml@AmidoEcommerce
+            parameters:
+              lh_test_folder_path: '/apps/MFE/footer/lighthouse'
+              lh_config_file_relative_path: './config/non-production_config.json'
+              lh_artefact_name: 'sandbox'
+              lh_server_upload: 'false'
+
+  - stage: upload_files_qa_eun
+    displayName: 'Upload Files QA EUN'
+    dependsOn: Build
+    condition: and(succeeded('Build'), or(eq(variables['QAEUN'], true),eq(variables['QAEUW'], true)))
+    variables:
+      - group: SX.eCommerce.Footer.Static-Content.Keys.EUN
+      - group: Footer.Static-Content
+      - name: ignore_resource_limits
+        value: true
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'qa'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/footer'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: upload_files_qa_euw
+    displayName: 'Upload Files QA EUW'
+    dependsOn: Build
+    condition: and(succeeded('Build'), or(eq(variables['QAEUN'], true),eq(variables['QAEUW'], true)))
+    variables:
+      - group: SX.eCommerce.Footer.Static-Content.Keys.EUW
+      - group: Footer.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'qa'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/footer'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: deploy_qa_eun
+    displayName: 'Deploy to QA EUN'
+    dependsOn:
+      - Build
+      - upload_files_qa_eun
+      - upload_files_qa_euw
+    condition: and(succeeded('Build'), succeeded('upload_files_qa_eun'))
+    variables:
+      - group: 'Sandbox.eCommerce.Footer.Frontend.EUN'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'qa'
+          kubernetes_service_connection: 'Kubernetes_Sandbox.eCommerce_Browse01_EUN'
+          registry_name: $(registryName_sx)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: 'amido-ecommerce-footer-ui'
+          overrides: $(qa_helm_overrides)
+          namespace: '$(namespace)-qa'
+          acr_service_connection: 'ecmbrowse01spnsxeuw'
+
+  - stage: deploy_qa_euw
+    displayName: 'Deploy to QA EUW'
+    dependsOn:
+      - Build
+      - upload_files_qa_eun
+      - upload_files_qa_euw
+    condition: and(succeeded('Build'), succeeded('upload_files_qa_euw'))
+    variables:
+      - group: 'Sandbox.eCommerce.Footer.Frontend.EUW'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'qa'
+          kubernetes_service_connection: 'Kubernetes_Sandbox.eCommerce_Browse01_EUW'
+          registry_name: $(registryName_sx)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: 'amido-ecommerce-footer-ui'
+          overrides: $(qa_helm_overrides)
+          namespace: '$(namespace)-qa'
+          acr_service_connection: 'ecmbrowse01spnsxeuw'
+
+  - stage: promote_ci
+    displayName: 'Promotion: SX ACR --> CI ACR'
+    dependsOn:
+      - Build
+      - sx_testing
+    condition:
+      and(succeeded('Build'), or(eq(variables['Build.SourceBranch'], 'refs/heads/master'),
+      startsWith(variables['Build.SourceBranch'], 'refs/heads/release/')))
+    jobs:
+      - template: azDevOps/azure/templates/jobs/promote-container.yml@AmidoEcommerce
+        parameters:
+          source_container_name: $(project)
+          destination_container_name: $(project)
+          source_acr: $(registryName_sx)
+          destination_acr: $(registryName_ci)
+          source_subscription: 'ecmbrowse01spnsxeuw'
+          destination_subscription: 'ecmbrowse01spncieuw'
+          tag: $(Build.BuildNumber)
+
+  - stage: upload_files_ci_eun
+    displayName: 'Upload Files CI EUN'
+    dependsOn: promote_ci
+    condition: succeeded('promote_ci')
+    variables:
+      - group: CI.eCommerce.Footer.Static-Content.Keys.EUN
+      - group: Footer.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'ci'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/footer'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: upload_files_ci_euw
+    displayName: 'Upload Files CI EUW'
+    dependsOn: promote_ci
+    condition: succeeded('promote_ci')
+    variables:
+      - group: CI.eCommerce.Footer.Static-Content.Keys.EUW
+      - group: Footer.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'ci'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/footer'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: deploy_ci_eun
+    displayName: 'Deploy to CI EUN'
+    dependsOn:
+      - promote_ci
+      - upload_files_ci_eun
+      - upload_files_ci_euw
+    condition: and(succeeded('Build'), succeeded('upload_files_ci_eun'), succeeded('upload_files_ci_euw'))
+    variables:
+      - group: 'CI.eCommerce.Footer.Frontend.EUN'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'ci'
+          kubernetes_service_connection: 'Kubernetes_CI.eCommerce_Browse01_EUN'
+          registry_name: $(registryName_ci)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: 'amido-ecommerce-footer-ui'
+          overrides: $(helm_overrides)
+          namespace: $(namespace)
+          acr_service_connection: 'ecmbrowse01spncieuw'
+
+  - stage: deploy_ci_euw
+    displayName: 'Deploy to CI EUW'
+    dependsOn:
+      - promote_ci
+      - upload_files_ci_eun
+      - upload_files_ci_euw
+    condition: and(succeeded('Build'), succeeded('upload_files_ci_eun'), succeeded('upload_files_ci_euw'))
+    variables:
+      - group: 'CI.eCommerce.Footer.Frontend.EUW'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'ci'
+          kubernetes_service_connection: 'Kubernetes_CI.eCommerce_Browse01_EUW'
+          registry_name: $(registryName_ci)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: 'amido-ecommerce-footer-ui'
+          overrides: $(helm_overrides)
+          namespace: $(namespace)
+          acr_service_connection: 'ecmbrowse01spncieuw'
+
+  - stage: ci_testing
+    displayName: 'CI Testing'
+    dependsOn:
+      - deploy_ci_eun
+      - deploy_ci_euw
+    condition: and(succeeded('deploy_ci_eun'), succeeded('deploy_ci_euw'))
+    variables:
+      - group: 'CI.eCommerce.Footer.Frontend.EUN'
+      - name: lh_test_target_domain #This variable must be set and available in the stage context so that the token replace step (Lighthouse) works correctly
+        value: $(appUrl) #This needs to be the Load Balanced endpoint
+    jobs:
+      - job: Run_Lighthouse
+        pool:
+          vmImage: 'ubuntu-latest'
+        steps:
+          - template: azDevOps\azure\templates\steps\deploy-lighthouse-tests.yml@AmidoEcommerce
+            parameters:
+              lh_test_folder_path: '/apps/MFE/footer/lighthouse'
+              lh_config_file_relative_path: './config/non-production_config.json'
+              lh_artefact_name: 'ci'
+              lh_server_upload: 'false'
+
+  - stage: promote_preprod
+    displayName: 'Promotion: CI ACR --> PP ACR'
+    dependsOn:
+      - Build
+      - ci_testing
+    condition:
+      and(succeeded('Build'), succeeded('deploy_ci_eun'), succeeded('deploy_ci_euw'),
+      startsWith(variables['Build.SourceBranch'], 'refs/heads/release/'))
+    jobs:
+      - template: azDevOps/azure/templates/jobs/promote-container.yml@AmidoEcommerce
+        parameters:
+          source_container_name: $(project)
+          destination_container_name: $(project)
+          source_acr: $(registryName_ci)
+          destination_acr: $(registryName_pp)
+          source_subscription: 'ecmbrowse01spncieuw'
+          destination_subscription: 'ecmbrowse01spnppeuw'
+          tag: $(Build.BuildNumber)
+
+  - stage: upload_files_preprod_eun
+    displayName: 'Upload Files PreProd EUN'
+    dependsOn: promote_preprod
+    condition: succeeded('promote_preprod')
+    variables:
+      - group: PP.eCommerce.Footer.Static-Content.Keys.EUN
+      - group: Footer.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'pp'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/footer'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: upload_files_preprod_euw
+    displayName: 'Upload Files PreProd EUW'
+    dependsOn: promote_preprod
+    condition: succeeded('promote_preprod')
+    variables:
+      - group: PP.eCommerce.Footer.Static-Content.Keys.EUW
+      - group: Footer.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'pp'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/footer'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: deploy_preprod_eun
+    displayName: 'Deploy to PreProd EUN'
+    dependsOn:
+      - promote_preprod
+      - upload_files_preprod_eun
+      - upload_files_preprod_euw
+    condition: and(succeeded('Build'), succeeded('upload_files_preprod_eun'), succeeded('upload_files_preprod_euw'))
+    variables:
+      - group: 'PreProd.eCommerce.Footer.Frontend.EUN'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'pp'
+          kubernetes_service_connection: 'Kubernetes_PreProd.eCommerce_Browse01_EUN'
+          registry_name: $(registryName_pp)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: 'amido-ecommerce-footer-ui'
+          overrides: $(helm_overrides)
+          namespace: $(namespace)
+          acr_service_connection: 'ecmbrowse01spnppeuw'
+
+  - stage: deploy_preprod_euw
+    displayName: 'Deploy to PreProd EUW'
+    dependsOn:
+      - promote_preprod
+      - upload_files_preprod_eun
+      - upload_files_preprod_euw
+    condition: and(succeeded('Build'), succeeded('upload_files_preprod_eun'), succeeded('upload_files_preprod_euw'))
+    variables:
+      - group: 'PreProd.eCommerce.Footer.Frontend.EUW'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'pp'
+          kubernetes_service_connection: 'Kubernetes_PreProd.eCommerce_Browse01_EUW'
+          registry_name: $(registryName_pp)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: 'amido-ecommerce-footer-ui'
+          overrides: $(helm_overrides)
+          namespace: $(namespace)
+          acr_service_connection: 'ecmbrowse01spnppeuw'
+
+  - stage: pp_testing
+    displayName: 'PreProd Testing'
+    dependsOn:
+      - deploy_preprod_eun
+      - deploy_preprod_euw
+    condition: and(succeeded('deploy_preprod_eun'), succeeded('deploy_preprod_euw'))
+    variables:
+      - group: 'PreProd.eCommerce.Footer.Frontend.EUN'
+      - name: lh_test_target_domain #This variable must be set and available in the stage context so that the token replace step (Lighthouse) works correctly
+        value: $(appUrl) #This needs to be the Load Balanced endpoint
+    jobs:
+      - job: Run_Lighthouse
+        steps:
+          - template: azDevOps\azure\templates\steps\deploy-lighthouse-tests.yml@AmidoEcommerce
+            parameters:
+              lh_test_folder_path: '/apps/MFE/footer/lighthouse'
+              lh_config_file_relative_path: './config/production_config.json'
+              lh_artefact_name: 'pp'
+              lh_server_upload: 'false'
+
+  - stage: 'Create_ServiceNow_Change'
+    displayName: 'Raise ServiceNow Change'
+    dependsOn:
+      - Build
+      - deploy_preprod_eun
+      - deploy_preprod_euw
+      - pp_testing
+    condition:
+      and(succeeded('Build'), succeeded('deploy_preprod_eun'), succeeded('deploy_preprod_euw'),
+      startsWith(variables['Build.SourceBranch'], 'refs/heads/release/'))
+    variables:
+      - group: 'ServiceNow'
+      - name: 'Environment'
+        value: 'Production'
+    jobs:
+      - deployment: ServiceNowChangeRaise
+        environment: 'pd'
+      - job: servicenow_raise_change
+        displayName: 'Raise Change'
+        steps:
+          - task: ServiceNow-Change-Rasiser@0
+            inputs:
+              apiEndpoint: $(snowApi)
+              deploymentsDictionaryAPI: $(deploymentsApi)
+              buildNumber: '$(Build.BuildId)' #Must match in both stages
+              currentRepository: '$(Build.Repository.Name)' #Must match in both stages
+              deploymentEnvironment: '$(Environment)' #Must match in both stages
+              apiUser: $(snowUsername)
+              apiPassword: $(snowPassword)
+              snShortDescription: 'Deployment of $(Build.Repository.Name) to $(Environment) AKS Clusters'
+              snDescription: 'Deploy Release $(Build.BuildId) of the Cloud Based Footer onto the Production AKS clusters
+                (ecombrowse01akspdeun/ecmbrowse01akspdeuw). $(Build.SourceVersionMessage)' #Commit message gets inserted as the description
+              snJustification:
+                'This change is required to allow the automated update of $(Build.Repository.Name) onto $(Environment)'
+              snCategory: 'Applications Software'
+              snTestPlan:
+                'This change has been tested on the UAT and Conv environments. Once this has been deployed onto
+                $(Environment), our QA team will carry out any testing that is required and provide signoff.'
+              snRiskImpactAnalaysis:
+                'Any issues could mean that the Footer does not render correctly throughout the countries where it is
+                currently enabled. This will not affect trading but may impact the overall user experience.'
+              snImplementationPlan:
+                'The pipeline will continue to run once this change is approved -
+                $(System.TeamFoundationCollectionUri)$(System.TeamProject)/_build/?buildId=$(Build.BuildId). This will
+                deploy $(Build.Repository.Name) onto $(Environment). The pipeline is being run from the following branch
+                - $(Build.SourceBranch).'
+              snBackoutPlan:
+                'The current working release will be redeployed onto $(Environment) and the QA team will re-test to
+                ensure that we are back to a working state.'
+              snAssignmentGroup: 'eCommerce'
+              snCmdbCi: amido.com'
+
+  - stage: 'Check_ServiceNow_Change'
+    displayName: 'Check ServiceNow Change'
+    dependsOn:
+      - Create_ServiceNow_Change
+    condition: succeeded('Create_ServiceNow_Change')
+    variables:
+      - group: 'ServiceNow'
+      - name: 'Environment'
+        value: 'Production'
+    jobs:
+      - deployment: 'ServiceNowChangeCheck'
+        environment: 'pd'
+      - job: servicenow_change_status_check
+        displayName: 'Check Change Status on ServiceNow'
+        steps:
+          - task: ServiceNow-Change-Status-Checker@0
+            inputs:
+              apiEndpoint: $(snowApi)
+              deploymentsDictionaryAPI: $(deploymentsApi)
+              buildNumber: '$(Build.BuildId)' #Must match in both stages
+              currentRepository: '$(Build.Repository.Name)' #Must match in both stages
+              deploymentEnvironment: '$(Environment)' #Must match in both stages
+              apiUser: '$(snowUsername)'
+              apiPassword: '$(snowPassword)'
+
+  - stage: promote_prod
+    displayName: 'Promotion: PP ACR --> PD ACR'
+    dependsOn:
+      - 'Check_ServiceNow_Change'
+    condition: succeeded('Check_ServiceNow_Change')
+    jobs:
+      - template: azDevOps/azure/templates/jobs/promote-container.yml@AmidoEcommerce
+        parameters:
+          source_container_name: $(project)
+          destination_container_name: $(project)
+          source_acr: $(registryName_pp)
+          destination_acr: $(registryName_pd)
+          source_subscription: 'ecmbrowse01spnppeuw'
+          destination_subscription: 'ecmbrowse01spnpdeuw'
+          tag: $(Build.BuildNumber)
+
+  - stage: upload_files_prod_eun
+    displayName: 'Upload Files Prod EUN'
+    dependsOn:
+      - promote_prod
+      - Check_ServiceNow_Change
+    condition: and(succeeded('promote_prod'), succeeded('Check_ServiceNow_Change'))
+    variables:
+      - group: PD.eCommerce.Footer.Static-Content.Keys.EUN
+      - group: Footer.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'pd'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/footer'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: upload_files_prod_euw
+    displayName: 'Upload Files Prod EUW'
+    dependsOn:
+      - promote_prod
+      - Check_ServiceNow_Change
+      - upload_files_prod_eun
+    condition: and(succeeded('promote_prod'), succeeded('upload_files_prod_eun'), succeeded('Check_ServiceNow_Change')) # Requires EUN deployment so we never have both regions down at the same time
+    variables:
+      - group: PD.eCommerce.Footer.Static-Content.Keys.EUW
+      - group: Footer.Static-Content
+    jobs:
+      - template: azDevOps/azure/templates/jobs/upload-files-storageaccount.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'pd'
+          from_artefact: true
+          artefact_name: $(artefact_name)
+          artefact_download_path: 'static-content/footer'
+          source_directory: '$(System.DefaultWorkingDirectory)'
+          storage_account_name: '$(CDN-StorageAccount-Name)'
+          storage_account_key: '$(CDN-StorageAccount-Key)'
+          storage_container_name: '$(storage_container_name)'
+          file_extentions: '$(file_extentions)'
+          content_folder: '$(content_folder)'
+          git_diff_upload: false
+
+  - stage: deploy_prod_eun
+    displayName: 'Deploy to Prod EUN'
+    dependsOn:
+      - promote_prod
+      - Check_ServiceNow_Change
+      - upload_files_prod_eun
+      - upload_files_prod_euw
+    condition:
+      and(succeeded('promote_prod'), succeeded('Check_ServiceNow_Change'), succeeded('upload_files_prod_eun'),
+      succeeded('upload_files_prod_euw'))
+    variables:
+      - group: 'Prod.eCommerce.Footer.Frontend.EUN'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'pd'
+          kubernetes_service_connection: 'Kubernetes_Prod.eCommerce_Browse01_EUN'
+          registry_name: $(registryName_pd)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: 'amido-ecommerce-footer-ui'
+          overrides: $(helm_overrides)
+          namespace: $(namespace)
+          acr_service_connection: 'ecmbrowse01spnpdeuw'
+
+  - stage: deploy_prod_euw
+    displayName: 'Deploy to Prod EUW'
+    dependsOn:
+      - promote_prod
+      - deploy_prod_eun
+      - Check_ServiceNow_Change
+    condition: and(succeeded('promote_prod'), succeeded('deploy_prod_eun'), succeeded('Check_ServiceNow_Change')) # Requires EUN deployment so we never have both regions down at the same time
+    variables:
+      - group: 'Prod.eCommerce.Footer.Frontend.EUW'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'pd'
+          kubernetes_service_connection: 'Kubernetes_Prod.eCommerce_Browse01_EUW'
+          registry_name: $(registryName_pd)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: 'amido-ecommerce-footer-ui'
+          overrides: $(helm_overrides)
+          namespace: $(namespace)
+          acr_service_connection: 'ecmbrowse01spnpdeuw'
+
+  - stage: pd_testing
+    displayName: 'Prod Testing'
+    dependsOn:
+      - deploy_prod_eun
+      - deploy_prod_euw
+    condition: and(succeeded('deploy_prod_eun'), succeeded('deploy_prod_euw'))
+    variables:
+      - group: 'Prod.eCommerce.Footer.Frontend.EUN'
+      - name: lh_test_target_domain #This variable must be set and available in the stage context so that the token replace step (Lighthouse) works correctly
+        value: $(appUrl) #This needs to be the Load Balanced endpoint
+    jobs:
+      - job: Run_Lighthouse
+        steps:
+          - template: azDevOps\azure\templates\steps\deploy-lighthouse-tests.yml@AmidoEcommerce
+            parameters:
+              lh_test_folder_path: '/apps/MFE/footer/lighthouse'
+              lh_config_file_relative_path: './config/production_config.json'
+              lh_artefact_name: 'pd'
+              lh_server_upload: 'false'

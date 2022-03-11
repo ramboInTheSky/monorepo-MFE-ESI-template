@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a FacetsPrice When rendering should match the snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: calc(100% - 2rem);
+  margin: auto;
+}
+
+.c1 {
+  margin-right: -1rem;
+}
+
+.c2 {
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+}
+
+<div
+    class="c0"
+  >
+    <p
+      class="MuiTypography-root c1 MuiTypography-body1 MuiTypography-gutterBottom"
+      data-testid="plp-price-slider-label"
+      id="plp-price-slider"
+    >
+      Price Range:
+      <span
+        class="c2"
+      >
+         £2 - £8
+      </span>
+    </p>
+    <div
+      id="TEST-SLIDER"
+    >
+      getAriaValueText - 10
+      <span
+        aria-label="Set minimum value"
+        data-testid="slider-min-thumb"
+      />
+      <span
+        aria-label="Set maximum value"
+        data-testid="slider-max-thumb"
+      />
+      <span
+        aria-label=""
+        data-testid="dummy-switch-default-thumb"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

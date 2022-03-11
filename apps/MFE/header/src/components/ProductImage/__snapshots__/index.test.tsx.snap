@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - MiniShoppingBagItem:  Item in the Bag- MiniShoppingBagItem:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: inherit;
+  font-size: 12px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c0:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c2 {
+  height: 2.75rem;
+  width: 5.375rem;
+}
+
+.c1 {
+  padding: 1rem;
+}
+
+<a
+    class="c0"
+    href="/test-url999#12345"
+  >
+    <div
+      class="c1"
+    >
+      <img
+        alt="UGO Herman Melange Jacket"
+        class="c2"
+        data-testid="header-mini-shopping-bag-item-image"
+      />
+    </div>
+  </a>
+</DocumentFragment>
+`;

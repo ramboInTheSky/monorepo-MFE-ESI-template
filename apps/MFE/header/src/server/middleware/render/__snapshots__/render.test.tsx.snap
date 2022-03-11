@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a renderMiddleware When running as middleware should generate the expected html 1`] = `
+"TEST HTML
+<html><head>
+                            <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\" />
+                            <noscript id=\\"jss-insertion-point\\"></noscript>
+                            <style>mock font</style>
+                            
+    <meta name=\\"apple-mobile-web-app-title\\" content=\\"Next\\"/>
+    <meta name=\\"application-name\\" content=\\"Next\\"/>
+
+                            <link rel=\\"apple-touch-icon-precomposed\\" sizes=\\"60x60\\" href=\\"/static-content/iconshttp://localhost:123/header/amido/shared/splashicons/ios-notification-60x60.png\\" /> <link rel=\\"apple-touch-icon-precomposed\\" sizes=\\"120x120\\" href=\\"/static-content/iconshttp://localhost:123/header/amido/shared/splashicons/ios-iphone-120x120.png\\" /> <link rel=\\"apple-touch-icon-precomposed\\" sizes=\\"152x152\\" href=\\"/static-content/iconshttp://localhost:123/header/amido/shared/splashicons/ios-ipad-152x152.png\\" /> <link rel=\\"apple-touch-icon-precomposed\\" sizes=\\"167x167\\" href=\\"/static-content/iconshttp://localhost:123/header/amido/shared/splashicons/ios-ipad-pro-167x167.png\\" /> <link rel=\\"apple-touch-icon-precomposed\\" sizes=\\"180x180\\" href=\\"/static-content/iconshttp://localhost:123/header/amido/shared/splashicons/ios-iphone-180x180.png\\" /> 
+                            <script id=\\"themeColours\\">
+                                window.themeColours = {}
+                            </script>
+                            <script nomodule src=\\"/static-content/vendors/core-js/3.18.3/core.min.js\\"></script>
+                            <script src=\\"/static-content/vendors/react/16.13.1/umd/react.development.js\\"></script>
+                            <script src=\\"/static-content/vendors/react/16.13.1/umd/react-dom.development.js\\" ></script>
+                            
+                            <script type=\\"text/javascript\\">var monetateT = new Date().getTime();</script>
+                            <script type=\\"text/javascript\\" src=></script>
+                        
+                            <script src=\\"/static-content/monetate-sdk/monetate.js\\" ></script>
+                            <script src=\\"/static-content/gtm-sdk/gtm.js\\" ></script>
+                        </head><body> 
+ 
+MY APP RENDERED HTML 
+
+__SPLASH_SCREEN_HTML__
+<script>
+  window.ssrClientSettings = window.ssrClientSettings || {}
+  window.ssrClientSettings.header = {
+    _STATE_: {\\"testState\\":\\"test\\"},
+    appProps: {\\"mockAppProps\\":\\"EXPECTED SSR PROPS\\",\\"appScope\\":\\"header\\",\\"siteUrl\\":\\"http://localhost:123\\",\\"useDevEsi\\":false},
+  }
+  window.AmidoFavourites = window.AmidoFavourites || {}
+</script>
+
+<noscript>You need to enable JavaScript to run thisapp.</noscript>
+<div id=\\"header-entrypoint\\">MY APP RENDERED HTML</div>
+<script type=\\"text/javascript\\"> 
+            if (window.document.getElementById(\\"platform_modernisation\\") || (window.platmodflags && window.platmodflags.googleAnalytics) && GoogleAnalyticsNext) {
+                 GoogleAnalyticsNext.GoogleTagManager(\\"test account\\", \\"test env key\\") 
+            }
+        </script> </body></html>
+http://localhost:123/header
+"
+`;

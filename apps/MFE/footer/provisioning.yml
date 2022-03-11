@@ -1,0 +1,429 @@
+name: $(build.SourceBranchName)-init
+
+trigger:
+  branches:
+    include:
+      - feature/*
+      - master
+      - release/*
+
+  paths:
+    include:
+      - apps/MFE/footer/deploy/terraform/azure/*
+      - apps/MFE/footer/provisioning.yml
+    exclude:
+      - '*'
+
+variables:
+  # Domain
+  - name: global_domain
+    value: 'footer'
+  - name: ad_domain
+    value: 'browse01'
+  # DevOps Package Config
+  - name: devops_package_feed_name
+    value: 'Amido-Ecommerce'
+  - name: devops_package_definition
+    value: 'Amido.Ecommerce.Infrastructure.Package.Scripts'
+  - name: devops_package_version
+    value: '1.20210323.1'
+  - name: devops_package_downloadpath
+    value: '$(Agent.BuildDirectory)/packages'
+  - name: devops_artefact_name
+    value: 'DevOps'
+  # Versioning
+  - name: Version.Major
+    value: 0
+  - name: Version.Minor
+    value: 1
+  - name: Version.Revision
+    value: $[counter(variables['Version.Minor'], 0)]
+
+# Only build PR's into Master (i.e. 'going live')
+pr:
+  - master
+
+resources:
+  repositories:
+    - repository: templates
+      type: git
+      name: Amido.Ecommerce.Infrastructure/Amido.Ecommerce.Infrastructure.Templates
+
+stages:
+  - stage: Prereqs
+    displayName: 'Prerequisites'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/build-updatebuildnumber.yml@templates
+        parameters:
+          build_number: '$(Version.Major).$(Version.Minor).$(Version.Revision)'
+
+  - stage: Build
+    jobs:
+      - template: ./azDevOps/azure/templates/jobs/build-terraform.yml@templates
+        parameters:
+          terraform_filepath: '$(Build.SourcesDirectory)/apps/MFE/footer/deploy/terraform/azure/'
+          terraform_artefact_name: 'terraform'
+
+      - template: azDevOps/azure/templates/jobs/publish-artefact.yml@templates
+        parameters:
+          # Publishing packages to the pipeline
+          publish_artefact: true
+          package_feed_name: '$(devops_package_feed_name)'
+          package_definition: '$(devops_package_definition)'
+          package_version: '$(devops_package_version)'
+          package_downloadpath: '$(devops_package_downloadpath)'
+          artefact_name: 'DevOps'
+          # Publishing local files to the pipeline
+          publish_local_file: false
+
+  - stage: provision_sandbox_eun
+    displayName: 'Sandbox EUN'
+    dependsOn: Build
+    condition:
+      and(succeeded('Build'), or(eq(variables['Build.Reason'], 'PullRequest'), eq(variables['Build.Reason'], 'Manual')))
+    variables:
+      - group: SX.eCommerce.Footer.Static-Content.Provisioning
+    jobs:
+      - template: ./azDevOps/azure/templates/jobs/deploy-terraform.yml@templates
+        parameters:
+          environment: 'sx'
+          # Devops Package Name
+          devops_artefact_name: 'DevOps'
+          # Terraform Configuration
+          terraform_artefact_name: 'terraform'
+          terraform_state_rg: '$(terraform_state_rg)'
+          terraform_state_storage: '$(terraform_state_storage_account)'
+          terraform_state_container: '$(terraform_state_container)'
+          terraform_state_key: '$(terraform_state_key)-eun'
+          # Terraform Parameters:
+          tf_job_input_params:
+            - key: 'ad_domain'
+              value: $(ad_domain)
+            - key: 'name_domain'
+              value: $(global_domain)
+            - key: 'location'
+              value: 'northeurope'
+            - key: 'build_info'
+              value: $(Build.DefinitionName)
+            - key: 'build_repouri'
+              value: $(Build.Repository.Uri)
+          tf_job_output_params:
+            - cdn_storage_account_name
+            - cdn_storage_account_key
+            - keyvault_id
+            - keyvault_uri
+          # Parameters specific to bootstrapping an AKS cluster:
+          bootstrap_aks_cluster: false
+          # Destroy all TF resources - WARNING: THIS WILL DESTROY EVERYTHING IF SET TO TRUE!:
+          # tf_destroy_all_resources: false
+
+  - stage: provision_sandbox_euw
+    displayName: 'Sandbox EUW'
+    dependsOn: Build
+    condition:
+      and(succeeded('Build'), or(eq(variables['Build.Reason'], 'PullRequest'), eq(variables['Build.Reason'], 'Manual')))
+    variables:
+      - group: SX.eCommerce.Footer.Static-Content.Provisioning
+    jobs:
+      - template: ./azDevOps/azure/templates/jobs/deploy-terraform.yml@templates
+        parameters:
+          environment: 'sx'
+          # Devops Package Name
+          devops_artefact_name: 'DevOps'
+          # Terraform Configuration
+          terraform_artefact_name: 'terraform'
+          terraform_state_rg: '$(terraform_state_rg)'
+          terraform_state_storage: '$(terraform_state_storage_account)'
+          terraform_state_container: '$(terraform_state_container)'
+          terraform_state_key: '$(terraform_state_key)-euw'
+          # Terraform Parameters:
+          tf_job_input_params:
+            - key: 'ad_domain'
+              value: $(ad_domain)
+            - key: 'name_domain'
+              value: $(global_domain)
+            - key: 'location'
+              value: 'westeurope'
+            - key: 'build_info'
+              value: $(Build.DefinitionName)
+            - key: 'build_repouri'
+              value: $(Build.Repository.Uri)
+          tf_job_output_params:
+            - cdn_storage_account_name
+            - cdn_storage_account_key
+            - keyvault_id
+            - keyvault_uri
+          # Parameters specific to bootstrapping an AKS cluster:
+          bootstrap_aks_cluster: false
+          # Destroy all TF resources - WARNING: THIS WILL DESTROY EVERYTHING IF SET TO TRUE!:
+          # tf_destroy_all_resources: false
+
+  - stage: provision_ci_eun
+    displayName: 'CI EUN'
+    dependsOn:
+      - Build
+      - provision_sandbox_eun
+      - provision_sandbox_euw
+    condition:
+      and(succeeded('Build'), or(succeeded('provision_sandbox_eun'), succeeded('provision_sandbox_euw')),
+      eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    variables:
+      - group: CI.eCommerce.Footer.Static-Content.Provisioning
+    jobs:
+      - template: ./azDevOps/azure/templates/jobs/deploy-terraform.yml@templates
+        parameters:
+          environment: 'ci'
+          # Devops Package Name
+          devops_artefact_name: 'DevOps'
+          # Terraform Configuration
+          terraform_artefact_name: 'terraform'
+          terraform_state_rg: '$(terraform_state_rg)'
+          terraform_state_storage: '$(terraform_state_storage_account)'
+          terraform_state_container: '$(terraform_state_container)'
+          terraform_state_key: '$(terraform_state_key)-eun'
+          # Terraform Parameters:
+          tf_job_input_params:
+            - key: 'ad_domain'
+              value: $(ad_domain)
+            - key: 'name_domain'
+              value: $(global_domain)
+            - key: 'location'
+              value: 'northeurope'
+            - key: 'build_info'
+              value: $(Build.DefinitionName)
+            - key: 'build_repouri'
+              value: $(Build.Repository.Uri)
+          tf_job_output_params:
+            - cdn_storage_account_name
+            - cdn_storage_account_key
+            - keyvault_id
+            - keyvault_uri
+          # Parameters specific to bootstrapping an AKS cluster:
+          bootstrap_aks_cluster: false
+          # Destroy all TF resources - WARNING: THIS WILL DESTROY EVERYTHING IF SET TO TRUE!:
+          # tf_destroy_all_resources: false
+
+  - stage: provision_ci_euw
+    displayName: 'CI EUW'
+    dependsOn:
+      - Build
+      - provision_sandbox_eun
+      - provision_sandbox_euw
+    condition:
+      and(succeeded('Build'), or(succeeded('provision_sandbox_eun'), succeeded('provision_sandbox_euw')),
+      eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    variables:
+      - group: CI.eCommerce.Footer.Static-Content.Provisioning
+    jobs:
+      - template: ./azDevOps/azure/templates/jobs/deploy-terraform.yml@templates
+        parameters:
+          environment: 'ci'
+          # Devops Package Name
+          devops_artefact_name: 'DevOps'
+          # Terraform Configuration
+          terraform_artefact_name: 'terraform'
+          terraform_state_rg: '$(terraform_state_rg)'
+          terraform_state_storage: '$(terraform_state_storage_account)'
+          terraform_state_container: '$(terraform_state_container)'
+          terraform_state_key: '$(terraform_state_key)-euw'
+          # Terraform Parameters:
+          tf_job_input_params:
+            - key: 'ad_domain'
+              value: $(ad_domain)
+            - key: 'name_domain'
+              value: $(global_domain)
+            - key: 'location'
+              value: 'westeurope'
+            - key: 'build_info'
+              value: $(Build.DefinitionName)
+            - key: 'build_repouri'
+              value: $(Build.Repository.Uri)
+          tf_job_output_params:
+            - cdn_storage_account_name
+            - cdn_storage_account_key
+            - keyvault_id
+            - keyvault_uri
+          # Parameters specific to bootstrapping an AKS cluster:
+          bootstrap_aks_cluster: false
+          # Destroy all TF resources - WARNING: THIS WILL DESTROY EVERYTHING IF SET TO TRUE!:
+          # tf_destroy_all_resources: false
+
+  - stage: provision_preprod_eun
+    displayName: 'PreProd EUN'
+    dependsOn:
+      - Build
+      - provision_ci_eun
+      - provision_ci_euw
+    condition:
+      and(succeeded('Build'), or(succeeded('provision_ci_eun'), succeeded('provision_ci_eun')),
+      eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    variables:
+      - group: PP.eCommerce.Footer.Static-Content.Provisioning
+    jobs:
+      - template: ./azDevOps/azure/templates/jobs/deploy-terraform.yml@templates
+        parameters:
+          environment: 'pp'
+          # Devops Package Name
+          devops_artefact_name: 'DevOps'
+          # Terraform Configuration
+          terraform_artefact_name: 'terraform'
+          terraform_state_rg: '$(terraform_state_rg)'
+          terraform_state_storage: '$(terraform_state_storage_account)'
+          terraform_state_container: '$(terraform_state_container)'
+          terraform_state_key: '$(terraform_state_key)-eun'
+          # Terraform Parameters:
+          tf_job_input_params:
+            - key: 'ad_domain'
+              value: $(ad_domain)
+            - key: 'name_domain'
+              value: $(global_domain)
+            - key: 'location'
+              value: 'northeurope'
+            - key: 'build_info'
+              value: $(Build.DefinitionName)
+            - key: 'build_repouri'
+              value: $(Build.Repository.Uri)
+          tf_job_output_params:
+            - cdn_storage_account_name
+            - cdn_storage_account_key
+            - keyvault_id
+            - keyvault_uri
+          # Parameters specific to bootstrapping an AKS cluster:
+          bootstrap_aks_cluster: false
+          # Destroy all TF resources - WARNING: THIS WILL DESTROY EVERYTHING IF SET TO TRUE!:
+          # tf_destroy_all_resources: false
+
+  - stage: provision_preprod_euw
+    displayName: 'PreProd EUW'
+    dependsOn:
+      - Build
+      - provision_ci_eun
+      - provision_ci_euw
+    condition:
+      and(succeeded('Build'), or(succeeded('provision_ci_eun'), succeeded('provision_ci_euw')),
+      eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    variables:
+      - group: PP.eCommerce.Footer.Static-Content.Provisioning
+    jobs:
+      - template: ./azDevOps/azure/templates/jobs/deploy-terraform.yml@templates
+        parameters:
+          environment: 'pp'
+          # Devops Package Name
+          devops_artefact_name: 'DevOps'
+          # Terraform Configuration
+          terraform_artefact_name: 'terraform'
+          terraform_state_rg: '$(terraform_state_rg)'
+          terraform_state_storage: '$(terraform_state_storage_account)'
+          terraform_state_container: '$(terraform_state_container)'
+          terraform_state_key: '$(terraform_state_key)-euw'
+          # Terraform Parameters:
+          tf_job_input_params:
+            - key: 'ad_domain'
+              value: $(ad_domain)
+            - key: 'name_domain'
+              value: $(global_domain)
+            - key: 'location'
+              value: 'westeurope'
+            - key: 'build_info'
+              value: $(Build.DefinitionName)
+            - key: 'build_repouri'
+              value: $(Build.Repository.Uri)
+          tf_job_output_params:
+            - cdn_storage_account_name
+            - cdn_storage_account_key
+            - keyvault_id
+            - keyvault_uri
+          # Parameters specific to bootstrapping an AKS cluster:
+          bootstrap_aks_cluster: false
+          # Destroy all TF resources - WARNING: THIS WILL DESTROY EVERYTHING IF SET TO TRUE!:
+          # tf_destroy_all_resources: false
+
+  - stage: provision_prod_eun
+    displayName: 'Prod EUN'
+    dependsOn:
+      - Build
+      - provision_preprod_eun
+      - provision_preprod_euw
+    condition:
+      and(succeeded('Build'), or(succeeded('provision_preprod_eun'), succeeded('provision_preprod_euw')),
+      eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    variables:
+      - group: PD.eCommerce.Footer.Static-Content.Provisioning
+    jobs:
+      - template: ./azDevOps/azure/templates/jobs/deploy-terraform.yml@templates
+        parameters:
+          environment: 'pd'
+          # Devops Package Name
+          devops_artefact_name: 'DevOps'
+          # Terraform Configuration
+          terraform_artefact_name: 'terraform'
+          terraform_state_rg: '$(terraform_state_rg)'
+          terraform_state_storage: '$(terraform_state_storage_account)'
+          terraform_state_container: '$(terraform_state_container)'
+          terraform_state_key: '$(terraform_state_key)-eun'
+          # Terraform Parameters:
+          tf_job_input_params:
+            - key: 'ad_domain'
+              value: $(ad_domain)
+            - key: 'name_domain'
+              value: $(global_domain)
+            - key: 'location'
+              value: 'northeurope'
+            - key: 'build_info'
+              value: $(Build.DefinitionName)
+            - key: 'build_repouri'
+              value: $(Build.Repository.Uri)
+          tf_job_output_params:
+            - cdn_storage_account_name
+            - cdn_storage_account_key
+            - keyvault_id
+            - keyvault_uri
+          # Parameters specific to bootstrapping an AKS cluster:
+          bootstrap_aks_cluster: false
+          # Destroy all TF resources - WARNING: THIS WILL DESTROY EVERYTHING IF SET TO TRUE!:
+          # tf_destroy_all_resources: false
+
+  - stage: provision_prod_euw
+    displayName: 'Prod EUW'
+    dependsOn:
+      - Build
+      - provision_preprod_eun
+      - provision_preprod_euw
+    condition:
+      and(succeeded('Build'), or(succeeded('provision_preprod_eun'), succeeded('provision_preprod_euw')),
+      eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    variables:
+      - group: PD.eCommerce.Footer.Static-Content.Provisioning
+    jobs:
+      - template: ./azDevOps/azure/templates/jobs/deploy-terraform.yml@templates
+        parameters:
+          environment: 'pd'
+          # Devops Package Name
+          devops_artefact_name: 'DevOps'
+          # Terraform Configuration
+          terraform_artefact_name: 'terraform'
+          terraform_state_rg: '$(terraform_state_rg)'
+          terraform_state_storage: '$(terraform_state_storage_account)'
+          terraform_state_container: '$(terraform_state_container)'
+          terraform_state_key: '$(terraform_state_key)-euw'
+          # Terraform Parameters:
+          tf_job_input_params:
+            - key: 'ad_domain'
+              value: $(ad_domain)
+            - key: 'name_domain'
+              value: $(global_domain)
+            - key: 'location'
+              value: 'westeurope'
+            - key: 'build_info'
+              value: $(Build.DefinitionName)
+            - key: 'build_repouri'
+              value: $(Build.Repository.Uri)
+          tf_job_output_params:
+            - cdn_storage_account_name
+            - cdn_storage_account_key
+            - keyvault_id
+            - keyvault_uri
+          # Parameters specific to bootstrapping an AKS cluster:
+          bootstrap_aks_cluster: false
+          # Destroy all TF resources - WARNING: THIS WILL DESTROY EVERYTHING IF SET TO TRUE!:
+          # tf_destroy_all_resources: false

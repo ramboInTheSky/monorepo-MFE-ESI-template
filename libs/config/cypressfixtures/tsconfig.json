@@ -1,0 +1,9 @@
+{
+  "extends": "../../../tsconfig.root",
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  }
+}

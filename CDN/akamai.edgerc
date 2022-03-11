@@ -1,0 +1,5 @@
+[ccu]
+host = #{akamai_host}#
+client_token = #{akamai_client_token}#
+client_secret = #{akamai_client_secret}#
+access_token = #{akamai_access_token}#

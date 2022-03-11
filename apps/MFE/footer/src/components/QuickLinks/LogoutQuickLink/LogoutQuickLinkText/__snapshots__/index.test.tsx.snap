@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuickLinks - LogoutQuickLinkText When it replaces <username> with TestFirstName should match the snapshot 1`] = `
+<DocumentFragment>
+  <h5
+    class="MuiTypography-root components__LogoutText-sc-19vs0oc-0 cAjUiP MuiTypography-h5"
+    data-testid="footer-quick-links-logout-text"
+  >
+    Not TestFirstName?
+  </h5>
+</DocumentFragment>
+`;
+
+exports[`QuickLinks - LogoutQuickLinkText When logs out as <username> does not exist should return null from the snapshot and return a message from the logger.error() 1`] = `<DocumentFragment />`;

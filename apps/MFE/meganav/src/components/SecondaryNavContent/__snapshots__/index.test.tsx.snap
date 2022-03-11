@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - SecondaryNavContent: should match the snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    aria-labelledby="meganav-link-0"
+    class="component__Container-sc-1p8041r-0 erNhow"
+    data-testid="sec-nav-content"
+    id="sec-nav-content"
+  >
+    <div
+      style="transition: opacity 350ms ease-in-out; opacity: 1;"
+    >
+      <div>
+        Banner
+      </div>
+      <div
+        class="component__CatalogueAndMissionsContainer-sc-1p8041r-3 cBCdqN"
+      >
+        <section
+          class="component__CatalogueContainer-sc-1p8041r-1 dzthKp"
+        >
+          <div>
+            Catalogue
+          </div>
+        </section>
+      </div>
+    </div>
+  </nav>
+  )
+</DocumentFragment>
+`;

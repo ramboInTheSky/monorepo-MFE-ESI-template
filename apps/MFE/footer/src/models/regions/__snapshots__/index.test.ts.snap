@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Models/regions -  DeviceType:  should match the RegionsModel 1`] = `
+Object {
+  "Desktop": "Desktop",
+  "Mobile": "Mobile",
+}
+`;
+
+exports[`Models/regions -  SupportedCopyrightTypes:  should match the RegionsModel 1`] = `
+Object {
+  "Copyright": "Copyright",
+  "DesktopToggle": "DesktopToggle",
+  "MobileToggle": "MobileToggle",
+}
+`;
+
+exports[`Models/regions -  SupportedRegionTypes:  should match the SupportedRegionTypes 1`] = `"SocialMedia"`;
+
+exports[`Models/regions -  SupportedRegionTypes:  should match the SupportedRegionTypes 2`] = `"MainLinks"`;
+
+exports[`Models/regions -  SupportedRegionTypes:  should match the SupportedRegionTypes 3`] = `"QuickLinks"`;
+
+exports[`Models/regions -  SupportedRegionTypes:  should match the SupportedRegionTypes 4`] = `"Copyright"`;
+
+exports[`Models/regions -  deviceSwitcherUtils:  should match the RegionsModel 1`] = `
+Object {
+  "cookieKey": "AmidoDeviceType",
+  "regex": "=([^;]+)",
+}
+`;

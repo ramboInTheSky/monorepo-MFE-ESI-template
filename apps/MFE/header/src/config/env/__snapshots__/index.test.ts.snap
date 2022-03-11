@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ENV:  should match the SettingsSdkKeys 1`] = `
+Object {
+  "ASSETS_PATH": "/headerstatic",
+  "BLOOMREACH_BASE_URL": "https://brm-suggest-0.brsrvr.com/api/v1/suggest/",
+  "DEVELOPMENT": false,
+  "DEV_URL_OVERRIDE": "",
+  "ENVIRONMENT": "dev",
+  "FNC_NAME": undefined,
+  "GEOLOCATION_BASEURL": "https://services-uat.test.ecomm.systems.next/geolocation",
+  "LOG_LEVEL": undefined,
+  "NODE_ENV": "<NODE_ENV>",
+  "POD_NAME": undefined,
+  "PORT": 3004,
+  "PRODUCTION": false,
+  "REACT_APP_API_BASEURL": "<REACT_APP_API_BASEURL>",
+  "REACT_APP_APPINSIGHTS_KEY": "c620fe2b-48e7-4354-be16-d4cc42937bbd",
+  "REACT_APP_BLOB_STORAGE_PATH": "/static-content",
+  "REACT_APP_BLOB_STORAGE_SSR_BASEURL": "https://ecmbrowsefdsxeuw.azurefd.net",
+  "REACT_APP_CDN_BASEURL": "https://xcdn.amido.com/content",
+  "REACT_APP_MEGANAV_ASSETS_PATH": "/meganavstatic",
+  "REACT_APP_MEGANAV_BASEURL": "",
+  "REACT_APP_SERVE_PATH_PREFIX": "",
+  "REACT_APP_USE_TIME_MACHINE_COOKIE": "false",
+  "USEDEVESI": undefined,
+  "USE_LOCAL_STATIC_CONTENT": "true",
+}
+`;

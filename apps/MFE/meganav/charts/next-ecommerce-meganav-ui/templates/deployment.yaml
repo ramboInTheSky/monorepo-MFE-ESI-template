@@ -1,0 +1,62 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{include meganav-ui.fullname" .}}
+  labels: 
+    {{- include meganav-ui.labels" . | nindent 4}}
+    'restartEnabled': 'true'
+spec:
+  replicas: {{.Values.replicaCount}}
+  selector:
+    matchLabels: {{- include meganav-ui.selectorLabels" . | nindent 6}}
+  template:
+    metadata:
+      labels: {{- include meganav-ui.selectorLabels" . | nindent 8}}
+    spec:
+      imagePullSecrets:
+        - name: {{.Values.image.imagePullSecret}}
+      securityContext: {{- toYaml .Values.podSecurityContext | nindent 8}}
+      containers:
+        - name: {{.Chart.Name}}
+          securityContext: {{- toYaml .Values.securityContext | nindent 12}}
+          image: '{{ .Values.image.repository }}:{{ .Chart.AppVersion }}'
+          imagePullPolicy: {{.Values.image.pullPolicy}}
+          ports:
+            - name: http
+              containerPort: 80
+          #   httpGet:
+          #     path: /
+          #     port: http
+          {{- if  .Values.ignore_resource_limits -}}
+          {{ else }}
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}
+          {{- end }}  
+          env:
+            - name: REACT_APP_API_BASEURL
+              value: {{.Values.application.apiBaseUrl}}
+            - name: REACT_APP_CDN_BASEURL
+              value: {{.Values.application.cdnBaseUrl}}
+            - name: REACT_APP_APPINSIGHTS_KEY
+              value: {{.Values.application.appInsightsKey}}
+            - name: REACT_APP_SERVE_PATH_PREFIX
+              value: {{.Values.application.app_serve_path_prefix}}
+            - name: REACT_APP_USE_TIME_MACHINE_COOKIE
+              value: {{.Values.application.useTimeMachineCookie}}
+            - name: ASSETS_PATH
+              value: {{.Values.application.assets_path}}
+            - name: GENERATE_SOURCEMAP
+              value: {{.Values.application.generate_sourcemap}}
+            - name: LOG_LEVEL
+              value: {{.Values.application.log_level}}
+            - name: REACT_APP_BLOB_STORAGE_SSR_BASEURL
+              value: {{ .Values.application.blobStorageSSRBaseURL }}
+            - name: REACT_APP_APP_URL
+              value: {{ .Values.application.appUrl }}
+            - name: REACT_APP_BLOB_STORAGE_OVERRIDE
+              value: {{.Values.application.blob_storage_override}}
+      dnsConfig:
+        options:
+          - name: single-request-reopen
+          - name: ndots
+            value: "3"

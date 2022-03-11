@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Url content Should match snapshot 1`] = `
+Object {
+  "abPlatformTesting": Object {
+    "baseFile": "abplatform.js",
+    "configFile": "abplatformconfig.js",
+    "configsPath": "/configs/abplatform/",
+  },
+  "autoComplete": Object {
+    "images": Object {
+      "newDirectoryName": "search/224x336",
+      "oldDirectoryName": "AltItemZoom",
+    },
+  },
+  "burgerMenu": Object {
+    "iconUrl": [Function],
+  },
+  "checkout": Object {
+    "url": "/secure/checkout/transfer/checkoutcta",
+  },
+  "countryLangSelector": Object {
+    "countrySelectUrl": "/countryselect",
+  },
+  "drawer": Object {
+    "iconUrl": "/static-content/icons/shared/amido_close-white.svg",
+  },
+  "favourites": Object {
+    "activeIconUrl": [Function],
+    "inactiveIconUrl": [Function],
+    "url": "/favourites",
+  },
+  "myAccount": Object {
+    "loginUrl": "/secure/accounts/transfer",
+    "signoutUrl": "/forget-me",
+    "tooltipIconUrl": [Function],
+  },
+  "queueIt": Object {
+    "clientUrl": "//static.queue-it.net/script/queueclient.min.js",
+    "configLoader": "//static.queue-it.net/script/queueconfigloader.js",
+  },
+  "searchBox": Object {
+    "clearButton": Object {
+      "path": "/static-content/icons/shared/clear.svg",
+    },
+    "searchIconUrl": [Function],
+    "searchInputButtonUrl": [Function],
+  },
+  "shoppingBag": Object {
+    "iconUrl": [Function],
+    "url": "/shoppingbag",
+  },
+}
+`;

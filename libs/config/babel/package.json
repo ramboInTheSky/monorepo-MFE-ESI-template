@@ -1,0 +1,30 @@
+{
+  "name": "@monorepo/babelconfig",
+  "version": "3.3.0",
+  "author": "",
+  "description": "A babel config for conistent transpilation at Next plc",
+  "main": "./src/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build-lib": "rollup -c && yalc push --safe --replace",
+    "build-ci": "rollup -c rollup.config.prod.js"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.8.7",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.8.7",
+    "@babel/plugin-proposal-optional-chaining": "^7.8.7",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-styled-components": "^1.10.7",
+    "babel-preset-react-app": "^9.1.1"
+  },
+  "devDependencies": {
+    "yalc": "^1.0.0-pre.53"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE < 11"
+  ],
+  "gitHead": "ddc830c814fe0ca4d5cb49e91bf965128ce83536"
+}

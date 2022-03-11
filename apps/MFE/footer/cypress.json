@@ -1,0 +1,7 @@
+{
+    "projectId": "vmpv2c",
+    "chromeWebSecurity": false,
+    "testFiles": "**/*.cy.{ts,tsx}",
+    "integrationFolder": "./src"
+  }
+  

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container component:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  width: auto;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;

@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{include seo-metadata-ui.fullname" .}}
+  labels: {{- include seo-metadata-ui.labels" . | nindent 4}}
+spec:
+  replicas: {{.Values.replicaCount}}
+  selector:
+    matchLabels: {{- include seo-metadata-ui.selectorLabels" . | nindent 6}}
+  template:
+    metadata:
+      labels: {{- include seo-metadata-ui.selectorLabels" . | nindent 8}}
+    spec:
+      imagePullSecrets:
+        - name: {{.Values.image.imagePullSecret}}
+      securityContext: {{- toYaml .Values.podSecurityContext | nindent 8}}
+      containers:
+        - name: {{.Chart.Name}}
+          securityContext: {{- toYaml .Values.securityContext | nindent 12}}
+          image: '{{ .Values.image.repository }}:{{ .Chart.AppVersion }}'
+          imagePullPolicy: {{.Values.image.pullPolicy}}
+          ports:
+            - name: http
+              containerPort: 80
+          #   httpGet:
+          #     path: /
+          #     port: http
+          resources: {{- toYaml .Values.resources | nindent 12}}
+          env:
+            - name: REACT_APP_API_BASEURL
+              value: {{.Values.application.apiBaseUrl}}
+            - name: REACT_APP_APPINSIGHTS_KEY
+              value: {{.Values.application.appInsightsKey}}
+            - name: PORT
+              value: '3000'
+            - name: GENERATE_SOURCEMAP
+              value: {{.Values.application.generate_sourcemap}}
+            - name: LOG_LEVEL
+              value: {{.Values.application.log_level}}

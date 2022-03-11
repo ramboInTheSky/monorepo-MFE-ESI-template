@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Common/Accordion:  should match the snapshot template when accordion is opened  1`] = `
+<DocumentFragment>
+  <div
+    border="1px solid blue"
+    class="MuiPaper-root MuiExpansionPanel-root components__ExpansionPanel-mv3xf4-1 gNEmOw Mui-expanded MuiPaper-elevation1"
+    data-testid="accordions-title-1"
+    titlecolor="red"
+  >
+    <div
+      aria-disabled="false"
+      aria-expanded="true"
+      class="MuiButtonBase-root MuiExpansionPanelSummary-root WithStyles(ForwardRef(ExpansionPanelSummary))-root-9 Mui-expanded WithStyles(ForwardRef(ExpansionPanelSummary))-expanded-12"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="MuiExpansionPanelSummary-content WithStyles(ForwardRef(ExpansionPanelSummary))-content-10 Mui-expanded WithStyles(ForwardRef(ExpansionPanelSummary))-expanded-12"
+      >
+        <h4
+          class="MuiTypography-root components__ExpansionTitle-mv3xf4-0 jqimTk MuiTypography-h4"
+          titlecolor="red"
+        >
+          Title 1
+        </h4>
+      </div>
+      <div
+        aria-disabled="false"
+        aria-hidden="true"
+        class="MuiButtonBase-root MuiIconButton-root MuiExpansionPanelSummary-expandIcon WithStyles(ForwardRef(ExpansionPanelSummary))-expandIcon-11 Mui-expanded WithStyles(ForwardRef(ExpansionPanelSummary))-expanded-12 MuiIconButton-edgeEnd"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <img
+            alt="Accordion chevron icon"
+            src="http://superman.com/icon/arrow.png"
+          />
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </div>
+    </div>
+    <div
+      class="MuiCollapse-container MuiCollapse-entered"
+      style="min-height: 0px;"
+    >
+      <div
+        class="MuiCollapse-wrapper"
+      >
+        <div
+          class="MuiCollapse-wrapperInner"
+        >
+          <div
+            role="region"
+          >
+            <div
+              class="MuiExpansionPanelDetails-root components__ExpansionPanelDetails-mv3xf4-2 kVYykJ"
+            >
+              <h1>
+                Test
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Common/Accordion:  should match the snapshot template with <h1> tag  1`] = `
+<DocumentFragment>
+  <div
+    border="1px solid blue"
+    class="MuiPaper-root MuiExpansionPanel-root components__ExpansionPanel-mv3xf4-1 gNEmOw MuiPaper-elevation1"
+    data-testid="accordions-title-1"
+    titlecolor="red"
+  >
+    <div
+      aria-disabled="false"
+      aria-expanded="false"
+      class="MuiButtonBase-root MuiExpansionPanelSummary-root WithStyles(ForwardRef(ExpansionPanelSummary))-root-1"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="MuiExpansionPanelSummary-content WithStyles(ForwardRef(ExpansionPanelSummary))-content-2"
+      >
+        <h4
+          class="MuiTypography-root components__ExpansionTitle-mv3xf4-0 jqimTk MuiTypography-h4"
+          titlecolor="red"
+        >
+          Title 1
+        </h4>
+      </div>
+      <div
+        aria-disabled="false"
+        aria-hidden="true"
+        class="MuiButtonBase-root MuiIconButton-root MuiExpansionPanelSummary-expandIcon WithStyles(ForwardRef(ExpansionPanelSummary))-expandIcon-3 MuiIconButton-edgeEnd"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <img
+            alt="Accordion chevron icon"
+            src="http://superman.com/icon/arrow.png"
+          />
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </div>
+    </div>
+    <div
+      class="MuiCollapse-container MuiCollapse-hidden"
+      style="min-height: 0px;"
+    >
+      <div
+        class="MuiCollapse-wrapper"
+      >
+        <div
+          class="MuiCollapse-wrapperInner"
+        >
+          <div
+            role="region"
+          >
+            <div
+              class="MuiExpansionPanelDetails-root components__ExpansionPanelDetails-mv3xf4-2 kVYykJ"
+            >
+              <h1>
+                Hello World
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Common/Accordion:  should match the snapshot with panelPadding prop  1`] = `
+<DocumentFragment>
+  <div
+    border="1px solid blue"
+    class="MuiPaper-root MuiExpansionPanel-root components__ExpansionPanel-mv3xf4-1 gNEmOw Mui-expanded MuiPaper-elevation1"
+    data-testid="accordions-title-1"
+    titlecolor="red"
+  >
+    <div
+      aria-disabled="false"
+      aria-expanded="true"
+      class="MuiButtonBase-root MuiExpansionPanelSummary-root WithStyles(ForwardRef(ExpansionPanelSummary))-root-13 Mui-expanded WithStyles(ForwardRef(ExpansionPanelSummary))-expanded-16"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="MuiExpansionPanelSummary-content WithStyles(ForwardRef(ExpansionPanelSummary))-content-14 Mui-expanded WithStyles(ForwardRef(ExpansionPanelSummary))-expanded-16"
+      >
+        <h4
+          class="MuiTypography-root components__ExpansionTitle-mv3xf4-0 jqimTk MuiTypography-h4"
+          titlecolor="red"
+        >
+          Title 1
+        </h4>
+      </div>
+      <div
+        aria-disabled="false"
+        aria-hidden="true"
+        class="MuiButtonBase-root MuiIconButton-root MuiExpansionPanelSummary-expandIcon WithStyles(ForwardRef(ExpansionPanelSummary))-expandIcon-15 Mui-expanded WithStyles(ForwardRef(ExpansionPanelSummary))-expanded-16 MuiIconButton-edgeEnd"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <img
+            alt="Accordion chevron icon"
+            src="http://superman.com/icon/arrow.png"
+          />
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </div>
+    </div>
+    <div
+      class="MuiCollapse-container MuiCollapse-entered"
+      style="min-height: 0px;"
+    >
+      <div
+        class="MuiCollapse-wrapper"
+      >
+        <div
+          class="MuiCollapse-wrapperInner"
+        >
+          <div
+            role="region"
+          >
+            <div
+              class="MuiExpansionPanelDetails-root components__ExpansionPanelDetails-mv3xf4-2 jvYxYY"
+            >
+              <h1>
+                Test
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

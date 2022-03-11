@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshots - quick link CategoryQuickLinkDescription 1`] = `
+<DocumentFragment>
+  .c0 {
+  font-size: 0.875rem;
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  line-height: 1.3125rem;
+  -webkit-letter-spacing: 0.12;
+  -moz-letter-spacing: 0.12;
+  -ms-letter-spacing: 0.12;
+  letter-spacing: 0.12;
+  margin-top: 0.5rem;
+}
+
+<p
+    class="MuiTypography-root c0 MuiTypography-body1"
+  >
+    Test
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Snapshots - quick link CategoryQuickLinkImage 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+}
+
+<img
+    class="c0"
+    src="foo"
+  />
+</DocumentFragment>
+`;
+
+exports[`Snapshots - quick link CategoryQuickLinkImageContainer 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 7.5rem;
+  height: 11.25rem;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    width: 11.25rem;
+    height: 16.875rem;
+  }
+}
+
+<div
+    class="c0"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Snapshots - quick link CategoryQuickLinkRoot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 7.5rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    width: 11.25rem;
+  }
+}
+
+<a
+    class="c0"
+  >
+    Test
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Snapshots - quick link CategoryQuickLinkTitle 1`] = `
+<DocumentFragment>
+  .c0 {
+  font-size: 0.875rem;
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  line-height: 1.3125rem;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+  margin-top: 0.625rem;
+}
+
+.c0:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<p
+    class="MuiTypography-root c0 MuiTypography-body1"
+  >
+    Test
+  </p>
+</DocumentFragment>
+`;

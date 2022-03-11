@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - features/searchBar:  should match the FeatureSwitchData 1`] = `
+FeatureSwitchData {
+  "Autocomplete": SearchBarType {
+    "MaxItems": 0,
+    "ProductsMaxItems": ProductsMaxItemsData {
+      "lg": 0,
+      "md": 0,
+      "sm": 0,
+      "xl": 0,
+      "xs": 0,
+    },
+  },
+  "RecentSearch": SearchBarType {
+    "MaxItems": 0,
+    "ProductsMaxItems": ProductsMaxItemsData {
+      "lg": 0,
+      "md": 0,
+      "sm": 0,
+      "xl": 0,
+      "xs": 0,
+    },
+  },
+  "Value": "",
+}
+`;
+
+exports[`Model - features/searchBar:  should match the SupportedSearchBar 1`] = `
+Object {
+  "EnrichSearch": "EnrichSearch",
+  "SimpleSearch": "SimpleSearch",
+}
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Client App Utils getProps should return the app props 1`] = `
+Object {
+  "name": "clark",
+  "surname": "kent",
+}
+`;
+
+exports[`Client App Utils getStore should retrieve the store from the window object when no argument is passed 1`] = `
+Object {
+  "dispatch": [Function],
+  "getState": [Function],
+  "replaceReducer": [Function],
+  "subscribe": [Function],
+  Symbol(observable): [Function],
+}
+`;
+
+exports[`Client App Utils getStore should return the store when a state object is passed 1`] = `
+Object {
+  "dispatch": [Function],
+  "getState": [Function],
+  "replaceReducer": [Function],
+  "subscribe": [Function],
+  Symbol(observable): [Function],
+}
+`;

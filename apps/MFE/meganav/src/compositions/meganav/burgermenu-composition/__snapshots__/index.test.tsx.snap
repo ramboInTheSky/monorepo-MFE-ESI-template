@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages: MegaNav -  When the meganav renders with regions  should show the burger menu meganav 1`] = `
+<DocumentFragment>
+  <div
+    class="PrivateHiddenCss-mdUp-8"
+  >
+    <div>
+      Burger Menu Button
+    </div>
+  </div>
+  <div
+    class="component__NavigationBar-u7wgby-0 hLSsBT"
+  >
+    <div>
+      I AM PRIMARY NAV COMPONENT
+    </div>
+    <div>
+      I AM Secondary NAV COMPONENT
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Missions component:  Container  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="component__Container-sc-133d1g8-0 fRlPBU"
+  />
+</DocumentFragment>
+`;

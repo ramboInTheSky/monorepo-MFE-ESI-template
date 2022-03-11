@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshots - CharacterLink should match snapshot 1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  padding: 0.1875rem;
+  overflow-anchor: none;
+  font-size: 0.875rem;
+  font-family: "AzoSansMedium";
+  font-weight: 500;
+  color: #257f39;
+  cursor: pointer;
+}
+
+.c0.c0:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<button
+    class="MuiTypography-root MuiLink-root MuiLink-underlineHover c0 MuiLink-button MuiTypography-colorPrimary"
+    focusoutlinecolour="pink"
+    textcolour="red"
+  >
+    Test
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Snapshots - CharacterLink should match snapshot when disabled 1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  padding: 0.1875rem;
+  overflow-anchor: none;
+  font-size: 0.875rem;
+  font-family: "AzoSansMedium";
+  font-weight: 500;
+  color: #c5c5c5;
+  cursor: default;
+}
+
+.c0.c0:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<button
+    class="MuiTypography-root MuiLink-root MuiLink-underlineHover c0 MuiLink-button MuiTypography-colorPrimary"
+    disabled=""
+    focusoutlinecolour="pink"
+    textcolour="red"
+  >
+    Test
+  </button>
+</DocumentFragment>
+`;

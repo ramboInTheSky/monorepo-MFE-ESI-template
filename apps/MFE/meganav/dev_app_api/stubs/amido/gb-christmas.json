@@ -1,0 +1,85 @@
+{
+  "id": "d62d81d8-3d09-41a1-b427-ac1a162a3976",
+  "title": "Home",
+  "target": "amido.com/home",
+  "path": "Home",
+  "viewType": "primary-navbar",
+  "items": [
+    {
+      "title": "Christmas",
+      "target": "/Christmas",
+      "path": "Christmas",
+      "linkColour": "#ff0000",
+      "fontWeight": "700",
+      "fontFamily": "Century Gothic"
+    },
+    {
+      "title": "New In",
+      "target": "/new-in",
+      "path": "New In"
+    },
+    {
+      "title": "Girls",
+      "target": "/girls",
+      "path": "Girls"
+    },
+    {
+      "title": "Lingerie",
+      "target": "/lingerie-shop",
+      "path": "Lingerie"
+    },
+    {
+      "title": "Women",
+      "target": "/women",
+      "path": "Women",
+      "linkColour": "#008001",
+      "fontWeight": "700",
+      "fontFamily": "Century Gothic"
+    },
+    {
+      "title": "Home",
+      "target": "/homeware",
+      "path": "Home"
+    },
+    {
+      "title": "Boys",
+      "target": "/boys",
+      "path": "Boys"
+    },
+    {
+      "title": "Men",
+      "target": "/men",
+      "path": "Men"
+    },
+    {
+      "title": "Shoes",
+      "target": "/shoes",
+      "path": "Shoes"
+    },
+    {
+      "title": "Beauty",
+      "target": "/beauty",
+      "path": "Beauty"
+    },
+    {
+      "title": "Brands",
+      "target": "/branded",
+      "path": "Brands"
+    },
+    {
+      "title": "Sports",
+      "target": "/sports",
+      "path": "Sports"
+    },
+    {
+      "title": "Gifts & Flowers",
+      "target": "/gifts-flowers",
+      "path": "Gifts & Flowers"
+    },
+    {
+      "title": "Clearance",
+      "target": "/clearance",
+      "path": "Clearance"
+    }
+  ]
+}

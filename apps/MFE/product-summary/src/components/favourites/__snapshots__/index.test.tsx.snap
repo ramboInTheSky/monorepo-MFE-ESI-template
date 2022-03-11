@@ -1,0 +1,302 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductFavourites component should match snapshot when favourites button clicked 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: absolute;
+  bottom: 1.125rem;
+  right: 0.625rem;
+  border: .0625rem solid #9e9e9e;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 100;
+  height: 2.25rem;
+  width: 2.25rem;
+}
+
+.c2.c2 {
+  -webkit-transform: rotateZ(-0.0000000001deg);
+  -ms-transform: rotateZ(-0.0000000001deg);
+  transform: rotateZ(-0.0000000001deg);
+  width: 100%;
+  height: 100%;
+  stroke-dasharray: 40;
+  stroke-dashoffset: 80;
+  stroke-linecap: round;
+  -webkit-animation: favourite-loading 0.8s linear infinite reverse;
+  animation: favourite-loading 0.8s linear infinite reverse;
+}
+
+.c1.c1 {
+  padding: 0.5rem 0.5rem;
+  height: 100%;
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media all and (-ms-high-contrast:none) {
+
+}
+
+@media all and (-ms-high-contrast:none) {
+  .c2.c2 {
+    background-image: url(/static-content/icons/shared/favourites-loading.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}
+
+<div
+    class="c0 product-summary-favourites-container"
+    data-testid="product-summary-favourites-button-container"
+  >
+    <button
+      aria-label="Favourites Selected Colourway Title Loading"
+      class="c1"
+      data-testid="product-summary-favourites-button"
+      title="Favourites Selected Colourway Title Loading"
+    >
+      <svg
+        class="c2"
+        data-testid="product-loading-favourite-icon"
+        id="product-summary-favourites-icon"
+      >
+        <title>
+          Favourites Selected Colourway Title Loading
+        </title>
+        <use
+          viewBox="0 0 26 24"
+          xlink:href="icon"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        />
+      </svg>
+    </button>
+    <div>
+      FavouritesToolTip component
+    </div>
+    <div>
+      FavouritesErrorToolTip component
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ProductFavourites component should match snapshot when getTranslatedFavState returns empty string 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: absolute;
+  bottom: 1.125rem;
+  right: 0.625rem;
+  border: .0625rem solid #9e9e9e;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 100;
+  height: 2.25rem;
+  width: 2.25rem;
+}
+
+.c2.c2 {
+  -webkit-transform: rotateZ(-0.0000000001deg);
+  -ms-transform: rotateZ(-0.0000000001deg);
+  transform: rotateZ(-0.0000000001deg);
+  width: 100%;
+  height: 100%;
+}
+
+.c1.c1 {
+  padding: 0.5rem 0.5rem;
+  height: 100%;
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+<div
+    class="c0 product-summary-favourites-container"
+    data-testid="product-summary-favourites-button-container"
+  >
+    <button
+      aria-label="Favourites Selected Colourway Title "
+      class="c1"
+      data-testid="product-summary-favourites-button"
+      title="Favourites Selected Colourway Title "
+    >
+      <svg
+        class="c2"
+        data-testid="product-dummy FavouriteState-favourite-icon"
+        id="product-summary-favourites-icon"
+      >
+        <title>
+          Favourites Selected Colourway Title 
+        </title>
+        <use
+          viewBox="0 0 26 24"
+          xlink:href="icon"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        />
+      </svg>
+    </button>
+    <div>
+      FavouritesToolTip component
+    </div>
+    <div>
+      FavouritesErrorToolTip component
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ProductFavourites component should match when it is active 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: absolute;
+  bottom: 1.125rem;
+  right: 0.625rem;
+  border: .0625rem solid #9e9e9e;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 100;
+  height: 2.25rem;
+  width: 2.25rem;
+}
+
+.c2.c2 {
+  -webkit-transform: rotateZ(-0.0000000001deg);
+  -ms-transform: rotateZ(-0.0000000001deg);
+  transform: rotateZ(-0.0000000001deg);
+  width: 100%;
+  height: 100%;
+}
+
+.c1.c1 {
+  padding: 0.5rem 0.5rem;
+  height: 100%;
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media all and (-ms-high-contrast:none) {
+  .c2.c2 {
+    background-image: url(/static-content/icons/shared/favourites-active.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}
+
+<div
+    class="c0 product-summary-favourites-container"
+    data-testid="product-summary-favourites-button-container"
+  >
+    <button
+      aria-label="Favourites Selected Colourway Title Active"
+      class="c1"
+      data-testid="product-summary-favourites-button"
+      title="Favourites Selected Colourway Title Active"
+    >
+      <svg
+        class="c2"
+        data-testid="product-active-favourite-icon"
+        id="product-summary-favourites-icon"
+      >
+        <title>
+          Favourites Selected Colourway Title Active
+        </title>
+        <use
+          viewBox="0 0 26 24"
+          xlink:href="icon"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        />
+      </svg>
+    </button>
+    <div>
+      FavouritesToolTip component
+    </div>
+    <div>
+      FavouritesErrorToolTip component
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ProductFavourites component should match when it is inactive 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: absolute;
+  bottom: 1.125rem;
+  right: 0.625rem;
+  border: .0625rem solid #9e9e9e;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 100;
+  height: 2.25rem;
+  width: 2.25rem;
+}
+
+.c2.c2 {
+  -webkit-transform: rotateZ(-0.0000000001deg);
+  -ms-transform: rotateZ(-0.0000000001deg);
+  transform: rotateZ(-0.0000000001deg);
+  width: 100%;
+  height: 100%;
+}
+
+.c1.c1 {
+  padding: 0.5rem 0.5rem;
+  height: 100%;
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media all and (-ms-high-contrast:none) {
+  .c2.c2 {
+    background-image: url(/static-content/icons/shared/favourites-inactive.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}
+
+<div
+    class="c0 product-summary-favourites-container"
+    data-testid="product-summary-favourites-button-container"
+  >
+    <button
+      aria-label="Favourites Selected Colourway Title Inactive"
+      class="c1"
+      data-testid="product-summary-favourites-button"
+      title="Favourites Selected Colourway Title Inactive"
+    >
+      <svg
+        class="c2"
+        data-testid="product-inactive-favourite-icon"
+        id="product-summary-favourites-icon"
+      >
+        <title>
+          Favourites Selected Colourway Title Inactive
+        </title>
+        <use
+          viewBox="0 0 26 24"
+          xlink:href="icon"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        />
+      </svg>
+    </button>
+    <div>
+      FavouritesToolTip component
+    </div>
+    <div>
+      FavouritesErrorToolTip component
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search components:  BigScreenContainer:  should match the snapshot - searchbartype = EnrichSearch and open = false 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 5.375rem;
+}
+
+.c0 > div {
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+<div
+    class="c0"
+  />
+  ,
+</DocumentFragment>
+`;
+
+exports[`Search components:  BigScreenContainer:  should match the snapshot - searchbartype = EnrichSearch and open = true 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 5.375rem;
+}
+
+.c0 > div {
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+<div
+    class="c0"
+    open=""
+  />
+  ,
+</DocumentFragment>
+`;
+
+exports[`Search components:  BigScreenContainer:  should match the snapshot - searchbartype = SimpleSearch and open = true  1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 5.375rem;
+}
+
+.c0 > div {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+<div
+    class="c0"
+    open=""
+  />
+  ,
+</DocumentFragment>
+`;
+
+exports[`Search components:  BigScreenContainer:  should match the snapshot - searchbartype SimpleSearch and open = false  1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 5.375rem;
+}
+
+.c0 > div {
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+<div
+    class="c0"
+  />
+  ,
+</DocumentFragment>
+`;
+
+exports[`Search components:  CloseButton:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 4.5rem;
+  height: 2.75rem;
+  background: #f7f7f7;
+  color: #257f39;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  border-radius: 0;
+  border: 0;
+}
+
+.c0.c0:hover,
+.c0.c0:active {
+  background: #f7f7f7;
+  border: 0;
+}
+
+.c0.c0:focus {
+  border: 0;
+  border-radius: 0;
+}
+
+<button
+    class="MuiButtonBase-root MuiButton-root MuiButton-text c0"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+       dummy 
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Search components:  IconContainer:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  padding: 0.625rem 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+.c0 img {
+  width: 5.375rem;
+  height: 2.75rem;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Search components:  SearchArea:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2.75rem;
+}
+
+.c0 > div:first-child {
+  width: calc(100% - 4.5rem);
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;

@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - FeatureSwitch:  should match the FeatureSwitch 1`] = `
+Object {
+  "enablePageInFilters": false,
+  "enableSearchBanners": false,
+}
+`;

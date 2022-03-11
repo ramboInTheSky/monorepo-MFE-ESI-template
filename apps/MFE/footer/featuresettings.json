@@ -1,0 +1,2470 @@
+{
+  "Empire": {
+    "EmpireName": "MONOREPO.FOOTER.FRONTEND",
+    "Settings": {
+      "footer.frontend.appCacheTTL": {
+        "Value": "3600"
+      },
+      "footer.frontend.themeVersion": {
+        "Value": "v1.0.0"
+      },
+      "footer.frontend.cache-control.max-age": {
+        "Value": "3600"
+      },
+      "footer.frontend.cache-control.default-footer.max-age": {
+        "Value": "no-store"
+      },
+      "footer.frontend.textData": {
+        "Value": "default-text"
+      },
+      "footer.frontend.variant": {
+        "Value": "default"
+      }
+    },
+    "Realms": [
+      {
+        "RealmName": "amido",
+        "Settings": {
+          "footer.frontend.realmName": {
+            "Value": "amido"
+          }
+        },
+        "Territories": [
+          {
+            "TerritoryName": "AE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "AE"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "AM",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "AM"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "AR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "AR"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "AT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "de",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "de"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "AT"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "6"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "AU",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "AU"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "AZ",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "AZ"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "BE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "fr",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "fr"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "BE"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "9"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "BG",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "bg",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "bg"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "BG"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "2"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "BH",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "BH"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "BR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "BR"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "BY",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "BY"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "CA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "fr",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "fr"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "CA"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "9"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "CH",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "de",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "de"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "CH"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "6"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "CL",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "CL"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "CY",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "CY"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "CZ",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "cs",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "cs"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "CZ"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "3"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "DE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "de",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "de"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "DE"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "6"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "DK",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "da",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "da"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "DK"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "5"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "EE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "EE"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "EG",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "EG"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "ES",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "es",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "es"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "ES"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "8"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "FI",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "FI"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "FR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "fr",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "fr"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "FR"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "9"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "GB",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "GB"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "GE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "GE"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "GI",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "GI"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "GR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "el",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "el"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "GR"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "20"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "HK",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "zh",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "zh"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "HK"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "4"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "HR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "HR"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "HU",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "hu",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "hu"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "HU"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "12"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "ID",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "ID"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "IE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "IE"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "IL",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "he",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "he"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "IL"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "10"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "IN",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "IN"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "IS",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "IS"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "IT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "it",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "it"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "IT"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "11"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "JP",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ja",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "ja"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "JP"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "23"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "KR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ko",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "ko"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "KR"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "22"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "KW",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "KW"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "KZ",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "KZ"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "LB",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "LB"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "LT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "LT"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "LU",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "fr",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "fr"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "LU"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "9"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "LV",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "LV"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "MT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "MT"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "MX",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "MX"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "MY",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ms",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "ms"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "MY"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "1"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "NL",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "nl",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "nl"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "NL"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "13"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "NO",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "NO"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "NZ",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "NZ"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "OM",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "OM"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "PE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "PE"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "PH",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "PH"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "PK",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "PK"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "PL",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "pl",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "pl"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "PL"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "14"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "PT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "PT"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "QA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "QA"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "RO",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ro",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "ro"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "RO"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "15"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "RS",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "RS"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "RU",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "RU"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "SA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "SA"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "SE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "sv",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "sv"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "SE"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "19"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "SG",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "SG"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "SI",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "sl",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "sl"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "SI"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "18"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "SK",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "sk",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "sk"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "SK"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "17"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "TH",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "TH"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "TR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "TR"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "TW",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "zh",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "zh"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "TW"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "4"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "UA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "UA"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "US",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "US"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "ZA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "footer.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "footer.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "footer.frontend.territoryName": {
+                "Value": "ZA"
+              },
+              "footer.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Personas": [
+    {
+      "PersonaName": "CustomerA",
+      "Settings": {
+        "footer.frontend.direction": {
+          "Value": "rtl"
+        },
+        "footer.enableMainMenu": {
+          "Value": "false"
+        }
+      }
+    }
+  ]
+}

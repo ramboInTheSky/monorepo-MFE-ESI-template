@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - Autocomplete:  should match the AutoCompleteInitial 1`] = `
+AutoCompleteInitial {
+  "response": AutoCompleteStateModel {
+    "isLoading": false,
+    "numFound": 0,
+    "parameters": AutoCompleteParameters {
+      "accountId": "",
+      "authKey": "",
+      "domainKey": "",
+    },
+    "products": Array [],
+    "q": "",
+    "suggestions": Array [],
+  },
+}
+`;
+
+exports[`Model - Autocomplete:  should match the AutoCompleteParameters 1`] = `
+AutoCompleteParameters {
+  "accountId": "",
+  "authKey": "",
+  "domainKey": "",
+}
+`;
+
+exports[`Model - Autocomplete:  should match the AutoCompleteProducts 1`] = `
+AutoCompleteProducts {
+  "pid": "",
+  "sale_price": 0,
+  "thumb_image": "",
+  "title": "",
+  "url": "",
+}
+`;
+
+exports[`Model - Autocomplete:  should match the AutoCompleteStateModel 1`] = `
+AutoCompleteStateModel {
+  "isLoading": false,
+  "numFound": 0,
+  "parameters": AutoCompleteParameters {
+    "accountId": "",
+    "authKey": "",
+    "domainKey": "",
+  },
+  "products": Array [],
+  "q": "",
+  "suggestions": Array [],
+}
+`;
+
+exports[`Model - Autocomplete:  should match the ProductItem 1`] = `
+ProductItem {
+  "pid": "",
+  "sale_price": 0,
+  "thumb_image": "",
+  "title": "",
+  "url": "",
+}
+`;
+
+exports[`Model - Autocomplete:  should match the SuggestionItem 1`] = `
+SuggestionItem {
+  "dq": "",
+  "q": "",
+}
+`;

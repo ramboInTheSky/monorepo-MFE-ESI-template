@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AutoComplete component:  AutocompleteContent:  should match the snapshot  1`] = `
+<DocumentFragment>
+  @media (min-width:400px) and (max-width:767px) {
+  .c0 ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .c0 ul li {
+    -webkit-flex-basis: calc(100% / 2);
+    -ms-flex-preferred-size: calc(100% / 2);
+    flex-basis: calc(100% / 2);
+    padding-right: 1rem;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`AutoComplete component:  AutocompleteGrid:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  border-bottom: 0.0625rem solid #eaeaea;
+  padding-bottom: 1rem;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    border-bottom: 0;
+    padding-bottom: 0rem;
+    border-right: 0.0625rem solid #eaeaea;
+  }
+}
+
+<div
+    class="MuiGrid-root c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`AutoComplete component:  AutocompleteProductsGrid:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  padding-top: 1rem;
+  min-height: 300px;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    padding-top: 0;
+    padding-left: 1rem;
+  }
+}
+
+<div
+    class="MuiGrid-root c0"
+  />
+</DocumentFragment>
+`;

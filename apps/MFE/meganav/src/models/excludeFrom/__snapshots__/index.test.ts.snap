@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model: exclude from should match the ExcludeFrom 1`] = `
+Array [
+  "NarrowView",
+  "WideView",
+]
+`;

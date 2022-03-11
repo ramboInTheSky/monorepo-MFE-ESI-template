@@ -1,0 +1,7 @@
+{
+  "extends": "../../tsconfig.root",
+  "compilerOptions": {
+    "declaration": true
+  },
+  "exclude": ["node_modules"]
+}

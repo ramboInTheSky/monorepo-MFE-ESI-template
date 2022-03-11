@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Common/Accordion - Components should match the snapshot - ExpandIcon 1`] = `
+<DocumentFragment>
+  <img
+    alt="Accordion chevron icon"
+    src="http://superman.com/icon/arrow.png"
+  />
+</DocumentFragment>
+`;
+
+exports[`Common/Accordion - Components should match the snapshot - ExpansionPanel 1`] = `
+<DocumentFragment>
+  <div
+    border="#000 solid 1px"
+    class="MuiPaper-root MuiExpansionPanel-root components__ExpansionPanel-mv3xf4-1 iMDwYZ MuiExpansionPanel-rounded MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1"
+    >
+      d
+    </p>
+    <div
+      class="MuiCollapse-container MuiCollapse-hidden"
+      style="min-height: 0px;"
+    >
+      <div
+        class="MuiCollapse-wrapper"
+      >
+        <div
+          class="MuiCollapse-wrapperInner"
+        >
+          <div
+            role="region"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Common/Accordion - Components should match the snapshot - ExpansionPanelDetails 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiExpansionPanelDetails-root components__ExpansionPanelDetails-mv3xf4-2 kVYykJ"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1"
+    >
+      d
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Common/Accordion - Components should match the snapshot - ExpansionTitle 1`] = `
+<DocumentFragment>
+  <p
+    class="MuiTypography-root components__ExpansionTitle-mv3xf4-0 iRRwAv MuiTypography-body1"
+    textcolor="#000"
+  />
+</DocumentFragment>
+`;

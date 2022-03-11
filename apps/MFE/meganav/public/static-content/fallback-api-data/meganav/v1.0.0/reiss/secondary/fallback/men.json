@@ -1,0 +1,1846 @@
+{
+  "id": "89b934b0-83a6-40ed-b3f4-3a3ad213e136",
+  "title": "MEN",
+  "target": "/men",
+  "viewType": "secondary-navigation",
+  "realm": "amido",
+  "territory": "MX",
+  "language": "en",
+  "items": [
+    {
+      "title": "MEN",
+      "type": "tab",
+      "items": [
+        {
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "excludeFrom": ["WideView"],
+              "title": "",
+              "type": "category",
+              "items": [
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "MENS NEW IN",
+                  "type": "link",
+                  "target": "/shop/gender-men/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "bolder",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "title": "All Clothing",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Clothing",
+                  "type": "link",
+                  "target": "/shop/gender-men-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New In",
+                  "type": "link",
+                  "target": "/shop/gender-men/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Blazers & Formal Jackets",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-blazersandformaljackets",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Jackets & Coats",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-coatsandjackets-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Jeans",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-jeans-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Joggers",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-joggers-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sweatshirts & Cardigans",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-knitwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Loungewear",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-hoodies-category-joggers-category-pyjamas-category-sweattops-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Multipacks",
+                  "type": "link",
+                  "target": "/shop/gender-men/benefit-multipack",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Polos Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-tops/category-poloshirts",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Pyjamas & Nightwear",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-nightwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "All Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-shirts",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Button Ups & Dress Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-shirts/use-casual",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Formal Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-shirts/use-formal",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Shorts",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-shortsswimwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Socks",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-socks-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Suits",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-suits-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sweatshirts & Hoodies",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-sweatshirtsandhoodies-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Swimwear",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-swimwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Trousers & Chinos",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-trousers-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Formal Trousers",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-trousers/use-formal-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "T-Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-tops-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Underwear",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-underwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Vests",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-tops/category-tanktops-category-vests",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Occasionwear",
+                  "type": "link",
+                  "target": "/shop/gender-men/use-occasionwear",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "T-Shirts & Polos",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All T-Shirts & Polos",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-tops-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New in",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-tops/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Graphic T-shirts",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-tops/pattern-graphic",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Long Sleeve T-Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-tops/category-tshirts-sleeve-longsleeve",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Multipack T-Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-tops/benefit-multipack",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Polos Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-tops/category-poloshirts",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Rugby Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-tops/category-rugbyshirts",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "T-Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-tops/category-tshirts",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Vests",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-tops/category-vests",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Suits & Tailoring",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Suits",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-suits-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Suits - Black",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-suits/colour-black",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Suits - Blue",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-suits/colour-blue",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Suits - Grey",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-suits/colour-grey",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Next Signature",
+                  "type": "link",
+                  "target": "/shop/gender-men/style-signature",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Blazers & Formal Jackets",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-blazersandformaljackets-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Formal Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-formalshirts/category-shirts-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Ties & Pocket Squares",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-accessories/category-ties-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Waistcoats",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-waistcoats",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        },
+        {
+          "excludeFrom": ["WideView"],
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Shirts",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-shirts-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New In",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-shirts/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Casual Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-shirts/use-casual",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Formal Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-shirts/use-formal",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Long Sleeve Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-shirts/sleeve-longsleeve",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Short Sleeve Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-shirts/sleeve-shortsleeve",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Shirt multipacks",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-shirts/benefit-multipack",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Shirt & Tie Set",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-shirts/style-shirttieset",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Shackets",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-coatsandjackets/style-shacket",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Shorts",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Shorts",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-shorts-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Swim Shorts",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-swimwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Chino",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-shortsswimwear/style-chino",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Cargo",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-shortsswimwear/style-cargo",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Denim",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-shortsswimwear/style-denim",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Jersey/Jogger",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-shortsswimwear/style-jersey",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Jeans & Trousers",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Jeans",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-jeans-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Jeans New In",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-jeans/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "All Trousers & Chinos",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-trousers-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Trousers New In",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-trousers/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Slim Fit Jeans",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-jeans/fit-slim",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Skinny Fit Jeans",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-jeans/fit-skinny",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Straight Fit Jeans",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-jeans/fit-straight",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Boot Cut Jeans",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-jeans/fit-bootcut",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Joggers",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-joggers-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Cargos",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-trousers/style-cargo-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Chinos",
+                  "type": "link",
+                  "target": "/shop/gender-men/style-chino",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Cords",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-trousers/style-cord",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Formal Trousers",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-trousers/use-formal",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Pyjamas & Nightwear",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Pyjamas & Nightwear",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-nightwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New In",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-loungewear/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Loungewear",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-loungewear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Dressing Gowns & Robes",
+                  "type": "link",
+                  "target": "/shop/gender-men/category-robes-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Pyjamas",
+                  "type": "link",
+                  "target": "/shop/gender-men/category-pyjamas-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Slippers",
+                  "type": "link",
+                  "target": "/shop/gender-men/category-slippers-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Footwear",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Footwear",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New In",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "All Shoes",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/category-shoes",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sneakers",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/category-trainers",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sandals, Sliders & Flipflops",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/category-sandals",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Casual Shoes",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/category-shoes-use-casual",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Boat Shoes",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/style-boatshoe",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Smart Shoes",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/category-shoes-use-formal",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Brogues",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/style-brogue",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Loafers",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/style-loafer",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Boots",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/category-boots",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Slippers",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-nightwear/category-slippers",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Sports Sneakers",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/category-trainers-use-sportswear",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Wellies",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/category-wellies",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Socks & Underwear",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Socks",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-socks-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Socks New In",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-socks/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "All Underwear",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-underwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Underwear New In",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-underwear/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "A-Fronts",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-underwear/category-afront",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Boxers",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-underwear/category-boxers",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Briefs",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-underwear/category-briefs",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Hipsters",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-underwear/category-hipster",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Trunks",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-underwear/category-trunks",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Swim & Beach",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Swimwear",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-swimwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "All Swim Shorts",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-shortsswimwear/category-swimshorts",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Plain Swim Shorts",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-shortsswimwear/category-swimshorts-pattern-plain",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Patterned Swim Shorts",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-shortsswimwear/category-swimshorts-pattern-animalprint-pattern-check-pattern-floral-pattern-geometric-pattern-print-pattern-stripe",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Beach Towels",
+                  "type": "link",
+                  "target": "/shop/department-homeware-productaffiliation-bathroomtextiles/category-beachtowels",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Tshirts",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-tops/category-tshirts-sleeve-shortsleeve",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Vests",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-tops/category-vests",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sandals, Sliders & Flip Flops",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/category-sandals",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Joggers, Hoodies & Sweaters",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Joggers, Hoodies & Sweats",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-loungewear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New In",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-loungewear/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Co-ords",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-coords-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Hoodies & Sweaters",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-sweatshirtsandhoodies-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Joggers",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-joggers-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Tracksuits",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-tracksuits",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        },
+        {
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Sportswear",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Mens Sportwear",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-sportswear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New in",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-sportswear/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Adidas",
+                  "type": "link",
+                  "target": "/shop/gender-men-brand-adidas-brand-adidasgolf-brand-adidasoriginals-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Accessories",
+                  "type": "link",
+                  "target": "/shop/gender-men-gender-unisex-productaffiliation-performancesportswear/category-drinksbottles-category-footballequipment-category-gloves-category-hats-category-socks",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Hoodies & Sweatshirts",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-performancesportswear/category-hoodies-category-sweattops",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Jackets",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-performancesportswear/category-jackets",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Joggers",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-performancesportswear/category-joggers-category-leggings",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Shorts",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-performancesportswear/category-shorts",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Swimwear",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-sportswear/category-swimshorts",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sneakers",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-performancesportswear/category-trainers",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "T-Shirts & Base Layers",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-performancesportswear/category-baselayers-category-tshirts",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "title": "Accessories",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Accessories",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-accessories-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New In",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-accessories/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Bags",
+                  "type": "link",
+                  "target": "/shop/gender-men-gender-unisex-productaffiliation-accessories/category-bags",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Belts & Braces",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-accessories/category-belts-category-braces",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Gifts & Gadgets",
+                  "type": "link",
+                  "target": "/shop/gender-men-gender-unisex-productaffiliation-gifts",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Hats, Scarves & Gloves",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-hatsglovesscarves-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Luggage & Travel Accessories",
+                  "type": "link",
+                  "target": "/shop/gender-men-gender-unisex-productaffiliation-accessories/category-luggage",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Socks",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-socks-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Ties & Pocket Squares",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-accessories/category-ties",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Underwear",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-underwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Wallets",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-accessories/category-wallets",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        },
+        {
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "excludeFrom": ["NarrowView"],
+              "title": "Underwear & Loungewear",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Socks",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-socks-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "All Underwear",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-underwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Slippers",
+                  "type": "link",
+                  "target": "/shop/gender-men/category-slippers-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Loungewear",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-hoodies-category-joggers-category-pyjamas-category-sweattops-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Mens Brands",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Shop All Brands",
+                  "type": "link",
+                  "target": "/shop/gender-men-editorial-label",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "New In",
+                  "type": "link",
+                  "target": "/shop/gender-men-editorial-label/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "A-Z Brands",
+                  "type": "link",
+                  "target": "/brands/all",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "adidas",
+                  "type": "link",
+                  "target": "/shop/brand-adidas-brand-adidasgolf-brand-adidasoriginals",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Armani",
+                  "type": "link",
+                  "target": "/shop/gender-men-brand-armaniexchange-brand-ea7-brand-emporioarmani-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Calvin Klein",
+                  "type": "link",
+                  "target": "/shop/gender-men-brand-calvinklein-brand-calvinkleingolf-brand-calvinkleinjeans-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Fat Face",
+                  "type": "link",
+                  "target": "/shop/gender-men-brand-fatface-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "GANT",
+                  "type": "link",
+                  "target": "/shop/gender-men-brand-gant-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Lacoste",
+                  "type": "link",
+                  "target": "/shop/gender-men-brand-lacoste-brand-lacostesport-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Levi's",
+                  "type": "link",
+                  "target": "/shop/gender-men-brand-levis-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Lyle & Scott",
+                  "type": "link",
+                  "target": "/shop/gender-men-brand-lylescott-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "River Island",
+                  "type": "link",
+                  "target": "/shop/gender-men-brand-riverisland-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "SuperDry",
+                  "type": "link",
+                  "target": "/shop/gender-men-brand-superdry-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Ted Baker",
+                  "type": "link",
+                  "target": "/shop/gender-men-brand-tedbaker-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Tommy Hilfiger",
+                  "type": "link",
+                  "target": "/shop/gender-men-brand-tommyhilfiger-brand-tommyjeans-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        },
+        {
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "excludeFrom": ["NarrowView"],
+              "title": "Footwear",
+              "type": "category",
+              "items": [
+                {
+                  "title": "New In Footwear",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "All Footwear",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Boots",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/category-boots-category-wellies",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Shoes",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/category-shoes",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sandals & Slides",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/category-pumps-category-sandals",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sneakers",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/category-trainers",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["NarrowView"],
+              "title": "Trends & Collections",
+              "type": "category",
+              "items": [
+                {
+                  "excludeFrom": ["NarrowView"],
+                  "title": "Sports",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-sportswear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Stripes",
+                  "type": "link",
+                  "target": "/shop/gender-men/pattern-stripe",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "excludeFrom": ["WideView"],
+              "title": "Trends & Collections",
+              "type": "category",
+              "items": [
+                {
+                  "title": "50's Vacay",
+                  "type": "link",
+                  "target": "/shop/promotion-50svacay-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Colour Blocking",
+                  "type": "link",
+                  "target": "/shop/gender-men/pattern-colourblock",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Coords",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-coords-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Graphic T-shirt's",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-tops/pattern-graphic",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Licensed T-Shirts",
+                  "type": "link",
+                  "target": "/shop/promotion-licensedtshirts-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Mr Blue Sky",
+                  "type": "link",
+                  "target": "/shop/promotion-mrbluesky",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Stripes",
+                  "type": "link",
+                  "target": "/shop/gender-men/pattern-stripe",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "excludeFrom": ["WideView"],
+                  "title": "Easy Dressing",
+                  "type": "link",
+                  "target": "/shop/promotion-easydressing-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        }
+      ],
+      "missions": {
+        "noOfColumns": 3,
+        "title": "Inspire Me / Lookbook",
+        "items": [
+          {
+            "title": "Graphic & License",
+            "imageUrl": "/nxtcms/resource/blob/4187494/bf0bf9d5be315df7954dea1dd05dbd4e/graphic-tees-354-198s-data.jpg",
+            "target": "/shop/gender-men-productaffiliation-tops/pattern-graphic"
+          },
+          {
+            "title": "Night & Lounge",
+            "imageUrl": "/nxtcms/resource/blob/4187496/a41ce849d773d21bb02a01810daa7f0e/mens-nightwear-782-739s-data.jpg",
+            "target": "/shop/gender-men-productaffiliation-nightwear-0"
+          },
+          {
+            "title": "Shorts",
+            "imageUrl": "/nxtcms/resource/blob/4187492/52d4614d3d4c2a763de79095a6db5f2d/shorts-350-339s2-data.jpg",
+            "target": "/shop/gender-men-productaffiliation-shorts"
+          }
+        ],
+        "categoryLink": {
+          "title": "THE MENS SHOP",
+          "target": "/men"
+        }
+      }
+    }
+  ],
+  "banner": null
+}

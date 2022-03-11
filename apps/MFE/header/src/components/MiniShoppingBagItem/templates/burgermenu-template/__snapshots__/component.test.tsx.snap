@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` components: GridW100PR16  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  width: 100%;
+  margin-right: 16px;
+  font-size: 12px;
+}
+
+.c0 .mt-5px {
+  margin-top: 5px;
+}
+
+.c0 .block {
+  display: block;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`StatusWrapper  should match the snapshot with In stock status 1`] = `
+<DocumentFragment>
+  .c0 {
+  font-weight: bold;
+  font-size: 12px;
+  text-align: right;
+  display: block;
+  margin-top: 18px;
+  color: black;
+}
+
+<span
+    class="c0"
+  />
+</DocumentFragment>
+`;

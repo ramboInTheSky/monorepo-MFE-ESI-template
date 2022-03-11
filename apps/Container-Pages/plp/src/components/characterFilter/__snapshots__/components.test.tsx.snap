@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshots - Characte Filter StyledCharacterFilterContainer 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  padding: 1.0625rem 1.0625rem 1.0625rem 1.0625rem;
+  margin: 0;
+  border-bottom: 0.0625rem solid #d1d1d1;
+}
+
+<div
+    class="c0"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;

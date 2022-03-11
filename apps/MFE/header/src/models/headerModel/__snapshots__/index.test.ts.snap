@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - headerModel:  should match the HeaderModel 1`] = `
+HeaderModel {
+  "id": "",
+  "language": "",
+  "name": "",
+  "realm": "",
+  "regions": Array [],
+  "territory": "",
+}
+`;
+
+exports[`Model - headerModel:  should match the RegionModel 1`] = `
+RegionModel {
+  "accessibilityTitle": "",
+  "elements": Array [],
+  "title": "",
+  "type": "",
+}
+`;
+
+exports[`Model - headerModel:  should match the SubRegionElementModel 1`] = `
+ElementModel {
+  "accessibilityText": "",
+  "elements": Array [],
+  "icon": "",
+  "narrowModeIcon": "",
+  "openInNewWindow": false,
+  "text": "",
+  "tooltip": "",
+  "type": "",
+  "url": "",
+  "wideModeIcon": "",
+}
+`;
+
+exports[`Model - headerModel:  should match the SubRegionModel 1`] = `
+MyAccountElements {
+  "elements": Array [],
+  "title": "",
+}
+`;

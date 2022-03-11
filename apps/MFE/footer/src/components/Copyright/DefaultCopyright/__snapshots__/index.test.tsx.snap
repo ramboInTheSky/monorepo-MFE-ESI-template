@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Copyright, DefaultCopyrights should show copyright text with 2019 when the date is mocked 1`] = `
+<DocumentFragment>
+  <h3
+    class="MuiTypography-root components__CopyrightText-sc-12mz8xb-0 jDvqEB MuiTypography-alignCenter"
+    data-testid="footer-copyright-default-text"
+  >
+    © 2019 Amido Retail Ltd. All rights reserved.
+  </h3>
+</DocumentFragment>
+`;

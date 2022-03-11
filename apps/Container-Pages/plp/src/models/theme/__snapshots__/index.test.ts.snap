@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model: Theme should match the snapshot 1`] = `
+Object {
+  "colours": Object {
+    "borders": Object {
+      "primary": Object {
+        "border": "0.0625rem solid #9e9e9e",
+        "radius": "0.125rem",
+      },
+      "secondary": Object {
+        "border": "0.0625rem solid #9e9e9e",
+        "radius": "0.3125rem",
+      },
+    },
+    "countrySelect": Object {
+      "accordionHeaderLetterSpacing": "0.0075rem",
+      "accordionHeaderTransform": "capitalize",
+      "headerBackground": "#000000",
+      "headerBarHeight": "2.75rem",
+      "headerBorderBottom": "none",
+      "logoPosition": "flex-start",
+    },
+    "drawer": Object {
+      "headerBackground": "#f7f7f7",
+      "headerBorder": ".0625rem solid #9e9e9e",
+    },
+    "font": Object {
+      "default": "\\"Helvetica Neue\\", Arial, sans-serif",
+      "primary": Object {
+        "italic": Object {
+          "family": "\\"AzoSansItalic\\"",
+          "filename": "AzoSans-Italic-webfont",
+          "formats": Array [
+            "woff",
+            "woff2",
+            "eot",
+          ],
+          "weight": 400,
+        },
+        "light": Object {
+          "family": "\\"AzoSans\\"",
+          "filename": "AzoSans-Light-webfont",
+          "formats": Array [
+            "woff",
+            "woff2",
+            "eot",
+          ],
+          "weight": 400,
+        },
+        "medium": Object {
+          "family": "\\"AzoSansMedium\\"",
+          "filename": "AzoSans-Medium-webfont",
+          "formats": Array [
+            "woff",
+            "woff2",
+            "eot",
+          ],
+          "weight": 500,
+        },
+        "regular": Object {
+          "family": "\\"AzoSansRegular\\"",
+          "filename": "AzoSans-Regular-webfont",
+          "formats": Array [
+            "woff",
+            "woff2",
+          ],
+          "weight": 700,
+        },
+      },
+      "secondary": Object {
+        "italic": Object {
+          "family": "\\"AzoSansItalic\\"",
+          "filename": "AzoSans-Italic-webfont",
+          "formats": Array [
+            "woff",
+            "woff2",
+            "eot",
+          ],
+          "weight": 400,
+        },
+        "light": Object {
+          "family": "\\"AzoSans\\"",
+          "filename": "AzoSans-Light-webfont",
+          "formats": Array [
+            "woff",
+            "woff2",
+            "eot",
+          ],
+          "weight": 400,
+        },
+        "medium": Object {
+          "family": "\\"AzoSansMedium\\"",
+          "filename": "AzoSans-Medium-webfont",
+          "formats": Array [
+            "woff",
+            "woff2",
+            "eot",
+          ],
+          "weight": 500,
+        },
+        "regular": Object {
+          "family": "\\"AzoSansRegular\\"",
+          "filename": "AzoSans-Regular-webfont",
+          "formats": Array [
+            "woff",
+            "woff2",
+          ],
+          "weight": 700,
+        },
+      },
+    },
+    "footer": Object {
+      "copyright": Object {
+        "background": "#f7f7f7",
+      },
+      "mainLinks": Object {
+        "background": "#f7f7f7",
+      },
+      "quickLinks": Object {
+        "background": "#f7f7f7",
+      },
+      "socialMedia": Object {
+        "background": "initial",
+      },
+    },
+    "form": Object {
+      "buttonPrimary": Object {
+        "background": "#30a74b",
+        "border": "0",
+        "color": "#ffffff",
+        "radius": "0.25rem",
+      },
+      "buttonSecondary": Object {
+        "background": "#ffffff",
+        "border": ".0625rem solid #000000",
+        "color": "#000000",
+        "radius": "0.25rem",
+      },
+      "buttonTertiary": Object {
+        "background": "#000000",
+        "border": "0",
+        "color": "#ffffff",
+        "radius": "0.25rem",
+      },
+      "default": Object {
+        "background": "#ffffff",
+        "border": ".0625rem solid #9e9e9e",
+        "radius": "0.25rem",
+      },
+      "disabled": Object {
+        "background": "#ffffff",
+        "border": ".0625rem solid #dedede",
+        "radius": "0.25rem",
+      },
+      "focusActive": Object {
+        "background": "#ffffff",
+        "border": ".0625rem solid #000000",
+        "radius": "0.25rem",
+      },
+      "input": Object {
+        "background": "#fff",
+        "border": "0.0625rem solid #eaeaea",
+        "color": "#000",
+        "focusActive": Object {
+          "background": "#ffffff",
+        },
+        "placeholder": "#515151",
+        "radius": "0.25rem",
+      },
+      "invalid": Object {
+        "background": "#ffffff",
+        "border": ".0625rem solid #d91440",
+        "radius": "0.25rem",
+      },
+      "selectedAccent": Object {
+        "background": "#ffffff",
+        "border": ".125rem solid #257F39",
+        "radius": "0.25rem",
+      },
+      "selectedBlock": Object {
+        "background": "rgba(255, 226, 216, 0.39)",
+        "border": ".125rem solid #257F39",
+        "radius": "0.25rem",
+      },
+      "success": Object {
+        "background": "#ffffff",
+        "border": ".0625rem solid #109449",
+        "radius": "0.25rem",
+      },
+    },
+    "header": Object {
+      "autoCompleteButton": Object {
+        "backgroundcolor": "#282828",
+        "color": "white",
+        "radius": "2px",
+      },
+      "myAccount": Object {
+        "background": "#fff",
+        "radius": "0.25rem",
+      },
+      "navLowerBackground": Object {
+        "active": "#ffffff",
+        "border": "0",
+        "default": "#1e1e1e",
+        "desktop": "#000000",
+      },
+      "navUpperBackground": Object {
+        "color": "#ffffff",
+        "default": "#000000",
+      },
+      "shoppingBag": Object {
+        "color": "#fff",
+        "fontSize": "0.688rem",
+        "fontWeight": "bold",
+      },
+    },
+    "palette": Object {
+      "modal": Object {
+        "backdrop": Object {
+          "primary": "0, 0, 0, 0.5",
+          "secondary": "0, 0, 0, 0.9",
+        },
+        "background": Object {
+          "primary": "#ffffff",
+          "secondary": "#f7f7f7",
+        },
+      },
+    },
+    "plp": Object {
+      "facetDivider": "0.0625rem solid #d1d1d1",
+      "filters": Object {
+        "titleTransform": "uppercase",
+      },
+      "layout": Object {
+        "flexDirection": "initial",
+        "hasBrandName": "none",
+        "hasColourChips": "none",
+      },
+      "listing": Object {
+        "textAlign": "left",
+      },
+    },
+    "popover": Object {
+      "backgroundColour": "#f7f7f7",
+      "border": "0.0625rem solid #9e9e9e",
+      "boxShadow": "0px 3px 4px 1px rgba(0, 0, 0, 0.4)",
+      "fontSize": "0.75rem",
+      "radius": "0.25rem",
+    },
+    "text": Object {
+      "default": "#000000",
+      "disabled": "#c5c5c5",
+      "error": "#d91440",
+      "hyperlink": "#257f39",
+      "muted": "#515151",
+      "navigation": Object {
+        "fontWeight": 500,
+        "link": "#ffffff",
+        "linkActive": "#000000",
+        "linkClearance": "#f28500",
+      },
+      "reversed": "#ffffff",
+      "strong": "#000000",
+      "success": "#257f39",
+      "warning": "#d88f31",
+    },
+    "utilities": Object {
+      "activeBorder": "0.125rem solid #257f39",
+      "backgroundAccent": "#f7f7f7",
+      "chipBorderRadius": "0.25rem",
+      "divider": "0.0625rem solid #eaeaea",
+      "dividerDark": ".0625rem solid #9e9e9e",
+    },
+  },
+  "dimensions": "",
+  "direction": "ltr",
+}
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - MonetateData:  Given a MonetateData, it should match the MonetateData snapshot 1`] = `
+MonetateData {
+  "enabled": "",
+  "environmentKeys": EnvironmentKeys {
+    "conv": "",
+    "live": "",
+    "uat": "",
+  },
+}
+`;

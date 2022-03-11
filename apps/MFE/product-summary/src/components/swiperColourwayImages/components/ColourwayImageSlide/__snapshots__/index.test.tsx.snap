@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a ColourwayImageSlide should render the components with tabindex as 0 1`] = `
+<DocumentFragment>
+  .c0 {
+  height: auto;
+  width: 100%;
+  background: #d1d1d1;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  padding: 0rem;
+  top: 0rem;
+  display: inline-block;
+  outline-offset: -0.125rem;
+}
+
+.c1 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+<a
+    class="MuiCardMedia-root c0"
+    data-testid="product_summary_image_media"
+    href="iamlinkurl"
+    tabindex="-1"
+    title="Dummy tooltipTitle"
+  >
+    <img
+      alt="Dummy tooltipTitle"
+      class="c1 c1 lazyload"
+      data-src="test-image-url"
+      data-testid="product_summary_image_abc123"
+      height="336"
+      src="spiderman/Common/Items/Default/Default/ANYTHING.jpg"
+      width="224"
+    />
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Given a ColourwayImageSlide should render the components with tabindex as 1  1`] = `
+<DocumentFragment>
+  .c0 {
+  height: auto;
+  width: 100%;
+  background: #d1d1d1;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  padding: 0rem;
+  top: 0rem;
+  display: inline-block;
+  outline-offset: -0.125rem;
+}
+
+.c1 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+<a
+    class="MuiCardMedia-root c0"
+    data-testid="product_summary_image_media"
+    href="iamlinkurl"
+    tabindex="0"
+    title="Dummy tooltipTitle"
+  >
+    <img
+      alt="Dummy tooltipTitle"
+      class="c1 c1 lazyload"
+      data-src="test-image-url"
+      data-testid="product_summary_image_abc123"
+      height="336"
+      src="spiderman/Common/Items/Default/Default/ANYTHING.jpg"
+      width="224"
+    />
+  </a>
+</DocumentFragment>
+`;

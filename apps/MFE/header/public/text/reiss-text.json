@@ -1,0 +1,95 @@
+{
+  "recentSearches": {
+    "enriched": {
+      "mobileHeader": "RECENT SEARCHES",
+      "desktopHeader": "Your recent searches: "
+    },
+    "simple": {
+      "mobileHeader": "RECENT SEARCHES",
+      "desktopHeader": "RECENT SEARCHES"
+    }
+  },
+  "searchBox": {
+    "label": "Search",
+    "bigPlaceholder": "Search",
+    "smallPlaceholder": "Search...",
+    "clearButton": {
+      "alt": "Clear search button"
+    },
+    "closeButton": {
+      "text": "Close"
+    }
+  },
+  "myAccount": {
+    "title": "Account Summary",
+    "buttonText": "SIGN OUT",
+    "altText": "My account icon",
+    "tooltipAltText": "icon",
+    "notText": "Not"
+  },
+  "checkout": {
+    "text": "Checkout"
+  },
+  "autoComplete": {
+    "loadingText": "Loading...",
+    "noResults": "No results found for ",
+    "headerText": "TOP MATCHES",
+    "searchLinktext": "See all results",
+    "enrich": {
+      "termTitle": "Top results for "
+    }
+  },
+  "drawer": {
+    "closeIconText": "Close icon"
+  },
+  "favourites": {
+    "altText": "Favourites icon"
+  },
+  "miniShoppingBag": {
+    "emptyBagText": "Your shopping bag is empty",
+    "totalText": "Total",
+    "promotionalText": "Promotional Savings",
+    "viewAndEditBag": "VIEW / EDIT BAG",
+    "sizeText": "Size:",
+    "qtyText": "Qty:",
+    "at": "at",
+    "negative": "-",
+    "itemText": "Item",
+    "itemsText": "Items",
+    "inBagText": "In Bag",
+    "salePrice": "Sale Price"
+  },
+  "shoppingBag": {
+    "altText": "Shopping bag icon",
+    "youhaveText": "You have",
+    "itemText": "item",
+    "itemsText": "items",
+    "inYourBagText": "in your bag"
+  },
+  "countryLangSelector": {
+    "headerTitle": "CHANGE COUNTRY",
+    "locationText": "Location",
+    "languageText": "Language",
+    "closeText": "Close",
+    "stayText": "Stay on Next.co.uk",
+    "shopNowText": "Shop now",
+    "ROWText": "Can't find the country you're looking for?",
+    "ROWLinkText": "View All Countries"
+  },
+  "countryChangeModal": {
+    "confirm": "CONTINUE",
+    "cancel": "CANCEL",
+    "bodyTextPt1": "Are you sure you want to navigate away from this site?",
+    "bodyTextPt2": "If you navigate away from this site you will leave your shopping bag and it’s contents.",
+    "titleText": "Confirm country change"
+  },
+  "cookiePolicy": {
+    "title": "Cookie Policy",
+    "body": "We use cookies to provide you with the best posible experience. By continuing to use our site, you agree to our use of cookies.",
+    "link": "Find out more",
+    "linkText": "about managing your cookie settings.",
+    "closeIconAltText": "Close"
+  },
+  "skipToMainContent": "Skip to main content"
+
+}

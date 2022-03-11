@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectedFacets:  should hide the Remove label by default 1`] = `
+<DocumentFragment>
+  .c0 {
+  margin: 1rem 1rem 0 0.5rem;
+  width: 16.25rem;
+}
+
+.c0 > button {
+  float: right;
+  padding: 0;
+  text-align: right;
+  display: block;
+}
+
+.c1 {
+  float: left;
+}
+
+.c2 {
+  width: 16.25rem;
+  border-top: 0.0625rem solid #d1d1d1;
+  float: left;
+  margin-top: 0.5rem;
+  overflow-y: auto;
+  height: 14.5rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c7 {
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 100%;
+  border: 0.0625rem solid #d1d1d1;
+  background: url(/static-content/icons/shared/close-black.svg) center no-repeat;
+  background-size: 0.5rem;
+  cursor: pointer;
+}
+
+.c5 {
+  height: 1.25rem;
+  line-height: 1.25rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 10.5rem;
+}
+
+.c3 {
+  list-style-type: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0.5rem 0.625rem 0.5rem 0;
+}
+
+<div
+    class="c0"
+  >
+    <h5
+      class="MuiTypography-root c1 MuiTypography-h5"
+    >
+      Selected test
+    </h5>
+    <div>
+      TEST FILTER BUTTON - Clear
+    </div>
+    <div
+      class="c2"
+    >
+      <ul
+        class="c3"
+      >
+        <li
+          class="c4"
+        >
+          <h6
+            class="MuiTypography-root c5 MuiTypography-h6"
+            data-testid="facet-test1"
+          >
+            Test1
+          </h6>
+          <div
+            class="c6"
+          >
+            <button
+              class="c7"
+              data-testid="remove-button-test1"
+            />
+          </div>
+        </li>
+        <li
+          class="c4"
+        >
+          <h6
+            class="MuiTypography-root c5 MuiTypography-h6"
+            data-testid="facet-test2"
+          >
+            Test2
+          </h6>
+          <div
+            class="c6"
+          >
+            <button
+              class="c7"
+              data-testid="remove-button-test2"
+            />
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`SelectedFacets:  should render correctly 1`] = `
+<DocumentFragment>
+  .c0 {
+  margin: 1rem 1rem 0 0.5rem;
+  width: 16.25rem;
+}
+
+.c0 > button {
+  float: right;
+  padding: 0;
+  text-align: right;
+  display: block;
+}
+
+.c1 {
+  float: left;
+}
+
+.c2 {
+  width: 16.25rem;
+  border-top: 0.0625rem solid #d1d1d1;
+  float: left;
+  margin-top: 0.5rem;
+  overflow-y: auto;
+  height: 14.5rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c7 {
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 100%;
+  border: 0.0625rem solid #d1d1d1;
+  background: url(/static-content/icons/shared/close-black.svg) center no-repeat;
+  background-size: 0.5rem;
+  cursor: pointer;
+}
+
+.c5 {
+  height: 1.25rem;
+  line-height: 1.25rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 10.5rem;
+}
+
+.c3 {
+  list-style-type: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0.5rem 0.625rem 0.5rem 0;
+}
+
+<div
+    class="c0"
+  >
+    <h5
+      class="MuiTypography-root c1 MuiTypography-h5"
+    >
+      Selected test
+    </h5>
+    <div>
+      TEST FILTER BUTTON - Clear
+    </div>
+    <div
+      class="c2"
+    >
+      <ul
+        class="c3"
+      >
+        <li
+          class="c4"
+        >
+          <h6
+            class="MuiTypography-root c5 MuiTypography-h6"
+            data-testid="facet-test1"
+          >
+            Test1
+          </h6>
+          <div
+            class="c6"
+          >
+            <button
+              class="c7"
+              data-testid="remove-button-test1"
+            />
+          </div>
+        </li>
+        <li
+          class="c4"
+        >
+          <h6
+            class="MuiTypography-root c5 MuiTypography-h6"
+            data-testid="facet-test2"
+          >
+            Test2
+          </h6>
+          <div
+            class="c6"
+          >
+            <button
+              class="c7"
+              data-testid="remove-button-test2"
+            />
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;

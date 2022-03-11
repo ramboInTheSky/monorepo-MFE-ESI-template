@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BorderLinearProgress component:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="MuiLinearProgress-root WithStyles(ForwardRef(LinearProgress))-root-1 MuiLinearProgress-colorPrimary WithStyles(ForwardRef(LinearProgress))-colorPrimary-2 MuiLinearProgress-indeterminate"
+    role="progressbar"
+  >
+    <div
+      class="MuiLinearProgress-bar WithStyles(ForwardRef(LinearProgress))-bar-3 MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Indeterminate"
+    />
+    <div
+      class="MuiLinearProgress-bar WithStyles(ForwardRef(LinearProgress))-bar-3 MuiLinearProgress-bar2Indeterminate MuiLinearProgress-barColorPrimary"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PercentageFillContainer component:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="component__PercentageFillContainer-sc-1jijta3-0 bmHKNY"
+  />
+</DocumentFragment>
+`;

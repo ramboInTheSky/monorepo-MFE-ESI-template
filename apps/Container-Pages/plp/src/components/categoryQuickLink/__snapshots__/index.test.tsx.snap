@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given <CategoryQuickLink /> by default should match the snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 7.5rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  width: 7.5rem;
+  height: 11.25rem;
+}
+
+.c2 {
+  width: 100%;
+}
+
+.c3 {
+  font-size: 0.875rem;
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  line-height: 1.3125rem;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+  margin-top: 0.625rem;
+}
+
+.c3:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    width: 11.25rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    width: 11.25rem;
+    height: 16.875rem;
+  }
+}
+
+<a
+    class="c0"
+    data-testid="plp-category-quick-link-item"
+    href="/some/href"
+  >
+    <div
+      class="c1"
+    >
+      <img
+        alt="women"
+        class="c2"
+        data-testid="plp-category-quick-link-item-image"
+        src="/some/image"
+      />
+    </div>
+    <p
+      class="MuiTypography-root c3 MuiTypography-body1"
+      data-testid="plp-category-quick-link-item-title"
+    >
+      Women
+    </p>
+  </a>
+</DocumentFragment>
+`;

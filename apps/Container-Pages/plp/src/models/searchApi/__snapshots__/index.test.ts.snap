@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - Search Api Request:  should match the expected search model structure 1`] = `
+SearchApiRequest {
+  "contextid": "",
+  "criteria": "",
+  "fields": null,
+  "pagesize": 0,
+  "searchTerm": "",
+  "segment": "",
+  "start": 0,
+  "type": "Category",
+}
+`;
+
+exports[`Model - Search Api Response:  should match the expected search model structure 1`] = `
+ExternalSearchApiResponse {
+  "autoCorrectQuery": "",
+  "filters": Array [
+    FilterFacetApiResponse {
+      "disabled": undefined,
+      "displayName": "",
+      "name": "",
+      "options": Array [
+        FacetApiResponse {
+          "c": 0,
+          "incompatibleWith": Array [],
+          "n": "",
+          "s": undefined,
+          "v": "",
+        },
+      ],
+      "type": "filter",
+    },
+  ],
+  "includedComponents": Array [],
+  "items": Array [
+    ProductItem {
+      "html": undefined,
+      "itemNumber": undefined,
+      "newIn": undefined,
+      "type": undefined,
+    },
+  ],
+  "keywordRedirect": KeywordRedirect {
+    "originalQuery": "",
+    "redirectedQuery": "",
+    "redirectedUrl": "",
+  },
+  "pagination": Pagination {
+    "nextPageUrl": "",
+    "numberOfItems": 0,
+    "previousPageUrl": "",
+    "start": 0,
+    "totalResults": 1,
+  },
+  "redirect": undefined,
+  "relaxedQuery": "",
+  "searchCategory": Object {
+    "id": "",
+    "name": "",
+  },
+  "sorting": Sorting {
+    "options": undefined,
+    "selected": undefined,
+  },
+  "title": "",
+  "totalResults": undefined,
+}
+`;

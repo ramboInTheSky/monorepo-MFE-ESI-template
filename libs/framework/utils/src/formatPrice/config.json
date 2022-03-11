@@ -1,0 +1,1311 @@
+{
+  "realms": {
+    "amido": {
+      "ae": {
+        "en": {
+          "currencies": {
+            "id": ""
+          }
+        },
+        "ar": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+      "am": {
+        "en": {
+          "currencies": {
+            "id": "124"
+          }
+        }
+      },
+      "ar": {
+        "en": {
+          "currencies": {
+            "id": "107"
+          }
+        }
+      },
+      "at": {
+        "en": {
+          "currencies": {
+            "id": "95"
+          }
+        },
+        "de": {
+          "currencies": {
+            "id": "11"
+          }
+        }
+      },
+      "au": {
+        "en": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+      "az": {
+        "en": {
+          "currencies": {
+            "id": "121"
+          }
+        },
+        "ru": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+      "be": {
+        "en": {
+          "currencies": {
+            "id": ""
+          }
+        },
+        "fr": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+      "bg": {
+        "en": {
+          "currencies": {
+            "id": "14"
+          }
+        },
+        "bg": {
+          "currencies": {
+            "id": "77"
+          }
+        }
+      },
+      "bh": {
+        "en": {
+          "currencies": {
+            "id": "106"
+          }
+        },
+        "ar": {
+          "currencies": {
+            "id": "77"
+          }
+        }
+      },
+      "br": {
+        "en": {
+          "currencies": {
+            "id": "106"
+          }
+        }
+      },
+      "by": {
+        "en": {
+          "currencies": {
+            "id": "123"
+          }
+        },
+        "ru": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+      "ca": {
+        "en": {
+          "currencies": {
+            "id": "15"
+          }
+        },
+        "fr": {
+          "currencies": {
+            "id": "16"
+          }
+        }
+      },
+      "ch": {
+        "en": {
+          "currencies": {
+            "id": "60"
+          }
+        },
+        "de": {
+          "currencies": {
+            "id": "59"
+          }
+        }
+      },
+      "cl": {
+        "en": {
+          "currencies": {
+            "id": "104"
+          }
+        }
+      },
+
+      "cy": {
+        "en": {
+          "currencies": {
+            "id": "97"
+          }
+        }
+      },
+
+      "cz": {
+        "en": {
+          "currencies": {
+            "id": "19"
+          }
+        },
+        "cs": {
+          "currencies": {
+            "id": "18"
+          }
+        }
+      },
+
+      "de": {
+        "en": {
+          "currencies": {
+            "id": ""
+          }
+        },
+        "de": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+
+      "dk": {
+        "en": {
+          "currencies": {
+            "id": "20"
+          }
+        },
+        "da": {
+          "currencies": {
+            "id": "80"
+          }
+        }
+      },
+
+      "ee": {
+        "en": {
+          "currencies": {
+            "id": "119"
+          }
+        },
+        "ru": {
+          "currencies": {
+            "id": "118"
+          }
+        }
+      },
+
+      "eg": {
+        "en": {
+          "currencies": {
+            "id": "21"
+          }
+        },
+        "ar": {
+          "currencies": {
+            "id": "22"
+          }
+        }
+      },
+
+      "es": {
+        "en": {
+          "currencies": {
+            "id": "91"
+          }
+        },
+        "es": {
+          "currencies": {
+            "id": "1"
+          }
+        }
+      },
+
+      "fi": {
+        "en": {
+          "currencies": {
+            "id": "98"
+          }
+        }
+      },
+
+      "fr": {
+        "en": {
+          "currencies": {
+            "id": "90"
+          }
+        },
+        "fr": {
+          "currencies": {
+            "id": "89"
+          }
+        }
+      },
+
+      "gb": {
+        "en": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+
+      "ge": {
+        "en": {
+          "currencies": {
+            "id": "125"
+          }
+        }
+      },
+
+      "gi": {
+        "en": {
+          "currencies": {
+            "id": "99"
+          }
+        }
+      },
+
+      "gr": {
+        "en": {
+          "currencies": {
+            "id": "96"
+          }
+        },
+        "el": {
+          "currencies": {
+            "id": "81"
+          }
+        }
+      },
+
+      "hk": {
+        "en": {
+          "currencies": {
+            "id": ""
+          }
+        },
+        "zh": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+
+      "hr": {
+        "en": {
+          "currencies": {
+            "id": "17"
+          }
+        }
+      },
+
+      "hu": {
+        "en": {
+          "currencies": {
+            "id": "79"
+          }
+        },
+        "hu": {
+          "currencies": {
+            "id": "75"
+          }
+        }
+      },
+
+      "id": {
+        "en": {
+          "currencies": {
+            "id": "110"
+          }
+        }
+      },
+
+      "ie": {
+        "en": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+
+      "il": {
+        "en": {
+          "currencies": {
+            "id": ""
+          }
+        },
+        "he": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+
+      "in": {
+        "en": {
+          "currencies": {
+            "id": "26"
+          }
+        }
+      },
+
+      "is": {
+        "en": {
+          "currencies": {
+            "id": "101"
+          }
+        }
+      },
+
+      "it": {
+        "en": {
+          "currencies": {
+            "id": "94"
+          }
+        },
+        "it": {
+          "currencies": {
+            "id": "6"
+          }
+        }
+      },
+      "jp": {
+        "en": {
+          "currencies": {
+            "id": ""
+          }
+        },
+        "ja": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+      "kr": {
+        "en": {
+          "currencies": {
+            "id": "73"
+          }
+        },
+        "ko": {
+          "currencies": {
+            "id": "76"
+          }
+        }
+      },
+      "kw": {
+        "en": {
+          "currencies": {
+            "id": ""
+          }
+        },
+        "ar": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+      "kz": {
+        "en": {
+          "currencies": {
+            "id": ""
+          }
+        },
+        "ru": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+      "lb": {
+        "en": {
+          "currencies": {
+            "id": "36"
+          }
+        },
+        "ar": {
+          "currencies": {
+            "id": "36"
+          }
+        }
+      },
+      "lt": {
+        "en": {
+          "currencies": {
+            "id": "117"
+          }
+        },
+        "ru": {
+          "currencies": {
+            "id": "116"
+          }
+        }
+      },
+      "lu": {
+        "en": {
+          "currencies": {
+            "id": "93"
+          }
+        },
+        "fr": {
+          "currencies": {
+            "id": "92"
+          }
+        }
+      },
+
+      "lv": {
+        "en": {
+          "currencies": {
+            "id": "115"
+          }
+        },
+        "ru": {
+          "currencies": {
+            "id": "114"
+          }
+        }
+      },
+      "mt": {
+        "en": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+      "mx": {
+        "en": {
+          "currencies": {
+            "id": "103"
+          }
+        }
+      },
+      "my": {
+        "en": {
+          "currencies": {
+            "id": "37"
+          }
+        },
+        "ms": {
+          "currencies": {
+            "id": "82"
+          }
+        }
+      },
+      "nl": {
+        "en": {
+          "currencies": {
+            "id": ""
+          }
+        },
+        "nl": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+      "no": {
+        "en": {
+          "currencies": {
+            "id": "40"
+          }
+        }
+      },
+      "nz": {
+        "en": {
+          "currencies": {
+            "id": "69"
+          }
+        }
+      },
+      "om": {
+        "en": {
+          "currencies": {
+            "id": "42"
+          }
+        },
+        "ar": {
+          "currencies": {
+            "id": "41"
+          }
+        }
+      },
+      "pe": {
+        "en": {
+          "currencies": {
+            "id": "105"
+          }
+        }
+      },
+      "ph": {
+        "en": {
+          "currencies": {
+            "id": "111"
+          }
+        }
+      },
+
+      "pk": {
+        "en": {
+          "currencies": {
+            "id": "108"
+          }
+        },
+        "fr": {
+          "currencies": {
+            "id": "89"
+          }
+        }
+      },
+      "pl": {
+        "en": {
+          "currencies": {
+            "id": ""
+          }
+        },
+        "pl": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+
+      "pt": {
+        "en": {
+          "currencies": {
+            "id": "100"
+          }
+        },
+        "fr": {
+          "currencies": {
+            "id": "89"
+          }
+        }
+      },
+
+      "qa": {
+        "en": {
+          "currencies": {
+            "id": ""
+          }
+        },
+        "ar": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+      "ro": {
+        "en": {
+          "currencies": {
+            "id": ""
+          }
+        },
+        "ro": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+      "rs": {
+        "en": {
+          "currencies": {
+            "id": "72"
+          }
+        }
+      },
+      "ru": {
+        "en": {
+          "currencies": {
+            "id": ""
+          }
+        },
+        "ru": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+      "sa": {
+        "en": {
+          "currencies": {
+            "id": ""
+          }
+        },
+        "ar": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+      "se": {
+        "en": {
+          "currencies": {
+            "id": "74"
+          }
+        },
+        "sv": {
+          "currencies": {
+            "id": "74"
+          }
+        }
+      },
+      "sg": {
+        "en": {
+          "currencies": {
+            "id": "53"
+          }
+        }
+      },
+      "si": {
+        "en": {
+          "currencies": {
+            "id": "113"
+          }
+        },
+        "sl": {
+          "currencies": {
+            "id": "56"
+          }
+        }
+      },
+      "sk": {
+        "en": {
+          "currencies": {
+            "id": ""
+          }
+        },
+        "sk": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+      "th": {
+        "en": {
+          "currencies": {
+            "id": "109"
+          }
+        }
+      },
+      "tr": {
+        "en": {
+          "currencies": {
+            "id": "63"
+          }
+        }
+      },
+      "tw": {
+        "en": {
+          "currencies": {
+            "id": "62"
+          }
+        },
+        "zh": {
+          "currencies": {
+            "id": "61"
+          }
+        }
+      },
+      "ua": {
+        "en": {
+          "currencies": {
+            "id": ""
+          }
+        },
+        "ru": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+      "us": {
+        "en": {
+          "currencies": {
+            "id": ""
+          }
+        }
+      },
+      "za": {
+        "en": {
+          "currencies": {
+            "id": "57"
+          }
+        }
+      }
+    }
+  },
+  "currencies": {
+    "107": {
+      "currencySymbol": "$",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "124": {
+      "currencySymbol": "$",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "11": {
+      "currencySymbol": "€",
+      "spaceRequired": true,
+      "position": "right",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "95": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "121": {
+      "currencySymbol": "$",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "123": {
+      "currencySymbol": "$",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "106": {
+      "currencySymbol": "$",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "77": {
+      "currencySymbol": "BGN",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "14": {
+      "currencySymbol": "BGN",
+      "spaceRequired": true,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "16": {
+      "currencySymbol": "CA$",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "15": {
+      "currencySymbol": "CA$",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "104": {
+      "currencySymbol": "$",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "17": {
+      "currencySymbol": "HRK",
+      "spaceRequired": true,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "97": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": ".",
+      "groupSeparatorSymbol": ",",
+      "showNumOfDecimalDigits": null
+    },
+    "19": {
+      "currencySymbol": "Kč",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "18": {
+      "currencySymbol": "Kč",
+      "spaceRequired": true,
+      "position": "right",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "80": {
+      "currencySymbol": "DKK",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "20": {
+      "currencySymbol": "DKK",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": ".",
+      "groupSeparatorSymbol": ",",
+      "showNumOfDecimalDigits": null
+    },
+    "22": {
+      "currencySymbol": "ج.م",
+      "spaceRequired": true,
+      "position": "right",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "21": {
+      "currencySymbol": "EGP",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "118": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "119": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "98": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": ".",
+      "groupSeparatorSymbol": ",",
+      "showNumOfDecimalDigits": null
+    },
+    "89": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "90": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": ".",
+      "groupSeparatorSymbol": ",",
+      "showNumOfDecimalDigits": null
+    },
+    "125": {
+      "currencySymbol": "$",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": ".",
+      "groupSeparatorSymbol": ",",
+      "showNumOfDecimalDigits": null
+    },
+    "99": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": ".",
+      "groupSeparatorSymbol": ",",
+      "showNumOfDecimalDigits": null
+    },
+    "81": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "96": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": ".",
+      "groupSeparatorSymbol": ",",
+      "showNumOfDecimalDigits": null
+    },
+    "79": {
+      "currencySymbol": "Ft",
+      "spaceRequired": true,
+      "position": "right",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "75": {
+      "currencySymbol": "Ft",
+      "spaceRequired": true,
+      "position": "right",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "101": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": ".",
+      "groupSeparatorSymbol": ",",
+      "showNumOfDecimalDigits": null
+    },
+    "26": {
+      "currencySymbol": "INR",
+      "spaceRequired": true,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "110": {
+      "currencySymbol": "$",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "6": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "94": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": ".",
+      "groupSeparatorSymbol": ",",
+      "showNumOfDecimalDigits": null
+    },
+    "114": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": ".",
+      "groupSeparatorSymbol": ",",
+      "showNumOfDecimalDigits": null
+    },
+    "115": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": ".",
+      "groupSeparatorSymbol": ",",
+      "showNumOfDecimalDigits": null
+    },
+    "36": {
+      "currencySymbol": "$",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "116": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "117": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": ".",
+      "groupSeparatorSymbol": ",",
+      "showNumOfDecimalDigits": null
+    },
+    "92": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "93": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": ".",
+      "groupSeparatorSymbol": ",",
+      "showNumOfDecimalDigits": null
+    },
+    "82": {
+      "currencySymbol": "MYR",
+      "spaceRequired": true,
+      "position": "left",
+      "decimalSeparatorSymbol": ".",
+      "groupSeparatorSymbol": ",",
+      "showNumOfDecimalDigits": 2
+    },
+    "37": {
+      "currencySymbol": "MYR",
+      "spaceRequired": true,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "103": {
+      "currencySymbol": "$",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "69": {
+      "currencySymbol": "$",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "40": {
+      "currencySymbol": "kr",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "42": {
+      "currencySymbol": "OMR",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": ".",
+      "groupSeparatorSymbol": ",",
+      "showNumOfDecimalDigits": null
+    },
+    "41": {
+      "currencySymbol": "ر.ع",
+      "spaceRequired": true,
+      "position": "right",
+      "decimalSeparatorSymbol": ".",
+      "groupSeparatorSymbol": ",",
+      "showNumOfDecimalDigits": null
+    },
+    "108": {
+      "currencySymbol": "$",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "105": {
+      "currencySymbol": "$",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "111": {
+      "currencySymbol": "$",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "100": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": ".",
+      "groupSeparatorSymbol": ",",
+      "showNumOfDecimalDigits": null
+    },
+    "72": {
+      "currencySymbol": "RSD",
+      "spaceRequired": true,
+      "position": "right",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "53": {
+      "currencySymbol": "SGD",
+      "spaceRequired": true,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "56": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "113": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": ".",
+      "groupSeparatorSymbol": ",",
+      "showNumOfDecimalDigits": null
+    },
+    "57": {
+      "currencySymbol": "R",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "76": {
+      "currencySymbol": "KRW",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "73": {
+      "currencySymbol": "KRW",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "1": {
+      "currencySymbol": "€",
+      "spaceRequired": true,
+      "position": "right",
+      "decimalSeparatorSymbol": ".",
+      "groupSeparatorSymbol": ",",
+      "showNumOfDecimalDigits": null
+    },
+    "91": {
+      "currencySymbol": "€",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": ".",
+      "groupSeparatorSymbol": ",",
+      "showNumOfDecimalDigits": null
+    },
+    "74": {
+      "currencySymbol": "kr",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": ".",
+      "groupSeparatorSymbol": " ",
+      "showNumOfDecimalDigits": null
+    },
+    "59": {
+      "currencySymbol": "CHF",
+      "spaceRequired": true,
+      "position": "left",
+      "decimalSeparatorSymbol": ",",
+      "groupSeparatorSymbol": ".",
+      "showNumOfDecimalDigits": null
+    },
+    "60": {
+      "currencySymbol": "CHF",
+      "spaceRequired": true,
+      "position": "left",
+      "decimalSeparatorSymbol": ".",
+      "groupSeparatorSymbol": ",",
+      "showNumOfDecimalDigits": null
+    },
+    "61": {
+      "currencySymbol": "NT$",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "62": {
+      "currencySymbol": "NT$",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "109": {
+      "currencySymbol": "$",
+      "spaceRequired": false,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    },
+    "63": {
+      "currencySymbol": "TRY",
+      "spaceRequired": true,
+      "position": "left",
+      "decimalSeparatorSymbol": null,
+      "groupSeparatorSymbol": null,
+      "showNumOfDecimalDigits": null
+    }
+  }
+}

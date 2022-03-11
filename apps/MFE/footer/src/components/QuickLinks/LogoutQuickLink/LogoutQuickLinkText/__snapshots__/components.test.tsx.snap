@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LogoutQuickLinkText:  LogoutText:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <p
+    class="MuiTypography-root components__LogoutText-sc-19vs0oc-0 cAjUiP MuiTypography-body1"
+  />
+</DocumentFragment>
+`;

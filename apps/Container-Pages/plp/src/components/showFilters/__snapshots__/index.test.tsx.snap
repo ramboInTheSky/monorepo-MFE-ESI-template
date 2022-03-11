@@ -1,0 +1,1824 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Show filters component: When break point is for larger screens should match the snapshot  1`] = `
+.c1 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  height: 2.75rem;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 0.875rem;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<body>
+  <div>
+    <div
+      class="components__CenteredFlexContainer-sc-1hp5vxi-7 c0"
+    >
+      <button
+        class="components__NoBorderButton-sc-1hp5vxi-0 c1"
+        data-testid="plp-filters-menu-btn"
+      >
+        Filter
+      </button>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Given a Show filters component: When break point is not for larger screens When filter drawer is closed after opening should close drawer and match the snapshot 1`] = `
+<body
+  style="padding-right: 0px; overflow: hidden;"
+>
+  .c1 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  height: 2.75rem;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 0.875rem;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (max-width:320px) {
+
+}
+
+<div
+    aria-hidden="true"
+  >
+    <div
+      class="c0"
+    >
+      <button
+        class="components__NoBorderButton-sc-1hp5vxi-0 c1"
+        data-testid="plp-filters-menu-btn"
+      >
+        Filter
+      </button>
+    </div>
+  </div>
+  .c4 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  position: fixed;
+  right: 30rem;
+  top: 0rem;
+  margin-right: 0;
+}
+
+.c5 {
+  height: 2.75rem;
+  width: 2.75rem;
+}
+
+.c19 {
+  width: 100%;
+  height: 2.75rem;
+  text-transform: uppercase;
+}
+
+.c19:hover,
+.c19:active,
+.c19:focus {
+  background: #30a74b;
+  border: 0;
+  color: #ffffff;
+}
+
+.c0 {
+  position: initial;
+}
+
+.c0.c0 > div:first-child {
+  background: rgba(0,0,0,0.9);
+}
+
+.c1 {
+  width: 30rem;
+  height: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+}
+
+.c6 {
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+}
+
+.c7.c7 {
+  padding: 0;
+  text-align: right;
+  overflow-wrap: anywhere;
+  background: #f7f7f7;
+  color: #257f39;
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  border-radius: 0;
+  border: 0;
+}
+
+.c7.c7:hover,
+.c7.c7:active {
+  background: #f7f7f7;
+  border: 0;
+}
+
+.c7.c7:focus {
+  border: 0;
+  border-radius: 0;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: #f7f7f7;
+  height: 2.75rem;
+  padding: 1rem;
+  border-bottom: .0625rem solid #9e9e9e;
+}
+
+.c18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: #f7f7f7;
+  border-top: 0.0625rem solid #eaeaea;
+  padding: 0 1.5rem;
+  height: 4.75rem;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: calc(100% - 7.5rem);
+  width: 100%;
+}
+
+.c11 {
+  width: 100%;
+  border-right: none;
+  border-bottom: .0625rem solid #9e9e9e;
+  background: #ffffff;
+}
+
+.c12 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  margin: 0;
+  min-height: -webkit-min-content;
+  min-height: -moz-min-content;
+  min-height: min-content;
+  padding: 0 1rem;
+  position: relative;
+  outline-offset: -0.13rem;
+  margin: 0;
+}
+
+.c14 {
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+  white-space: normal;
+  text-align: left;
+  opacity: 1;
+}
+
+.c14 span {
+  color: #515151;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  border-bottom: none;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.65rem 0;
+  width: 70%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  border-bottom: 0.0625rem solid #eaeaea;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.65rem 0;
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c10 {
+  width: 100%;
+  height: auto;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c10.c10::-webkit-scrollbar {
+  display: none;
+}
+
+.c16 {
+  width: 2.75rem;
+  height: 2.75rem;
+  outline: none;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c16.loading {
+  position: relative;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.c16.loading:after {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  border-radius: 100%;
+  width: 0px;
+  height: 0px;
+  border: 0.125rem solid rgba(102,143,112,0.05);
+  border-left-color: #30a74b;
+  border-top-color: #30a74b;
+  -webkit-animation: spin 0.6s infinite linear,grow 0.3s forwards ease-out;
+  animation: spin 0.6s infinite linear,grow 0.3s forwards ease-out;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.c15 {
+  position: absolute;
+  right: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  top: 0;
+  bottom: 0;
+}
+
+@media (max-width:320px) {
+  .c9 {
+    width: 100%;
+  }
+}
+
+<div
+    class="MuiDrawer-root MuiDrawer-modal c0 platform_modernisation_plp"
+    role="presentation"
+    style="position: fixed; z-index: 1300; right: 0px; bottom: 0px; top: 0px; left: 0px;"
+  >
+    <div
+      aria-hidden="true"
+      class="MuiBackdrop-root plp-filters-drawer-back-drop"
+      style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+    />
+    <div
+      data-test="sentinelStart"
+      tabindex="0"
+    />
+    <div
+      class="MuiPaper-root MuiDrawer-paper MuiDrawer-paperAnchorRight MuiPaper-elevation16"
+      style="webkit-transform: none; transform: none; webkit-transition: -webkit-transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms; transition: transform 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;"
+      tabindex="-1"
+    >
+      <div
+        class="c1"
+        data-testid="plp-filters-drawer-content"
+      >
+        <div
+          class="components__AccentedContainer-sc-1hp5vxi-11 c2"
+        >
+          <div
+            class="c3"
+          >
+            <button
+              class="components__NoBorderButton-sc-1hp5vxi-0 c4"
+              data-testid="plp-filters-close-button"
+            >
+              <img
+                alt="Close icon"
+                class="c5"
+                src="/static-content/icons/shared/close-white.svg"
+              />
+            </button>
+            <h4
+              class="MuiTypography-root c6 MuiTypography-h4"
+            >
+              Filter Products
+            </h4>
+          </div>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text c7"
+            data-testid="plp-filters-close-text-cta"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Close
+            </span>
+          </button>
+        </div>
+        <div
+          class="c8"
+          data-testid="plp-filters-body-container"
+        >
+          <div
+            class="c9"
+          >
+            <div
+              class="c10"
+            >
+              <div
+                class="c11"
+              >
+                <button
+                  class="components__NoBorderButton-sc-1hp5vxi-0 c12"
+                  data-testid="plp-tabbed-key-filter-button-opt1"
+                >
+                  <div
+                    class="c13"
+                  >
+                    <p
+                      class="MuiTypography-root c14 MuiTypography-body1"
+                    >
+                      opt1
+                       
+                      <span>
+                        (
+                        1
+                        )
+                      </span>
+                    </p>
+                    <div
+                      class="c15"
+                    >
+                      <span
+                        class="c16"
+                        data-testid="plp-tabbed-filter-spinner"
+                      />
+                    </div>
+                  </div>
+                </button>
+              </div>
+              <button
+                class="components__NoBorderButton-sc-1hp5vxi-0 c12"
+                data-testid="plp-tabbed-filter-button-Test2"
+              >
+                <div
+                  class="c17"
+                >
+                  <p
+                    class="MuiTypography-root c14 MuiTypography-body1"
+                  >
+                    Test 2
+                  </p>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="components__AccentedContainer-sc-1hp5vxi-11 c18"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text c19"
+            data-testid="plp-filters-view-products-cta-button"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              View
+               
+              1234
+               
+              Products
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      data-test="sentinelEnd"
+      tabindex="0"
+    />
+  </div>
+</body>
+`;
+
+exports[`Given a Show filters component: When break point is not for larger screens When filter drawer is opened and a filter is selected should match snapshot correctly 1`] = `
+<body
+  style="padding-right: 0px; overflow: hidden;"
+>
+  .c1 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  height: 2.75rem;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 0.875rem;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (max-width:320px) {
+
+}
+
+<div
+    aria-hidden="true"
+  >
+    <div
+      class="c0"
+    >
+      <button
+        class="components__NoBorderButton-sc-1hp5vxi-0 c1"
+        data-testid="plp-filters-menu-btn"
+      >
+        Filter
+      </button>
+    </div>
+  </div>
+  .c4 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  position: fixed;
+  right: 30rem;
+  top: 0rem;
+  margin-right: 0;
+}
+
+.c5 {
+  height: 2.75rem;
+  width: 2.75rem;
+}
+
+.c20 {
+  width: 100%;
+  height: 2.75rem;
+  text-transform: uppercase;
+}
+
+.c20:hover,
+.c20:active,
+.c20:focus {
+  background: #30a74b;
+  border: 0;
+  color: #ffffff;
+}
+
+.c0 {
+  position: initial;
+}
+
+.c0.c0 > div:first-child {
+  background: rgba(0,0,0,0.9);
+}
+
+.c1 {
+  width: 30rem;
+  height: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+}
+
+.c6 {
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+}
+
+.c7.c7 {
+  padding: 0;
+  text-align: right;
+  overflow-wrap: anywhere;
+  background: #f7f7f7;
+  color: #257f39;
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  border-radius: 0;
+  border: 0;
+}
+
+.c7.c7:hover,
+.c7.c7:active {
+  background: #f7f7f7;
+  border: 0;
+}
+
+.c7.c7:focus {
+  border: 0;
+  border-radius: 0;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: #f7f7f7;
+  height: 2.75rem;
+  padding: 1rem;
+  border-bottom: .0625rem solid #9e9e9e;
+}
+
+.c19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: #f7f7f7;
+  border-top: 0.0625rem solid #eaeaea;
+  padding: 0 1.5rem;
+  height: 4.75rem;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: calc(100% - 7.5rem);
+  width: 100%;
+}
+
+.c11 {
+  width: 100%;
+  border-right: none;
+  border-bottom: .0625rem solid #9e9e9e;
+  background: #ffffff;
+}
+
+.c12 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  margin: 0;
+  min-height: -webkit-min-content;
+  min-height: -moz-min-content;
+  min-height: min-content;
+  padding: 0 1rem;
+  position: relative;
+  outline-offset: -0.13rem;
+  margin: 0;
+}
+
+.c14 {
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+  white-space: normal;
+  text-align: left;
+  opacity: 1;
+}
+
+.c14 span {
+  color: #515151;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  border-bottom: none;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.65rem 0;
+  width: 70%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  border-bottom: 0.0625rem solid #eaeaea;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.65rem 0;
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c10 {
+  width: 100%;
+  height: auto;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c10.c10::-webkit-scrollbar {
+  display: none;
+}
+
+.c16 {
+  width: 2.75rem;
+  height: 2.75rem;
+  outline: none;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c16.loading {
+  position: relative;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.c16.loading:after {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  border-radius: 100%;
+  width: 0px;
+  height: 0px;
+  border: 0.125rem solid rgba(102,143,112,0.05);
+  border-left-color: #30a74b;
+  border-top-color: #30a74b;
+  -webkit-animation: spin 0.6s infinite linear,grow 0.3s forwards ease-out;
+  animation: spin 0.6s infinite linear,grow 0.3s forwards ease-out;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.c18 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  border-right: .0625rem solid #9e9e9e;
+  background: #f7f7f7;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  width: 35%;
+}
+
+.c15 {
+  position: absolute;
+  right: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  top: 0;
+  bottom: 0;
+}
+
+@media (max-width:320px) {
+  .c9 {
+    width: 40%;
+  }
+}
+
+<div
+    class="MuiDrawer-root MuiDrawer-modal c0 platform_modernisation_plp"
+    role="presentation"
+    style="position: fixed; z-index: 1300; right: 0px; bottom: 0px; top: 0px; left: 0px;"
+  >
+    <div
+      aria-hidden="true"
+      class="MuiBackdrop-root plp-filters-drawer-back-drop"
+      style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+    />
+    <div
+      data-test="sentinelStart"
+      tabindex="0"
+    />
+    <div
+      class="MuiPaper-root MuiDrawer-paper MuiDrawer-paperAnchorRight MuiPaper-elevation16"
+      tabindex="-1"
+    >
+      <div
+        class="c1"
+        data-testid="plp-filters-drawer-content"
+      >
+        <div
+          class="components__AccentedContainer-sc-1hp5vxi-11 c2"
+        >
+          <div
+            class="c3"
+          >
+            <button
+              class="components__NoBorderButton-sc-1hp5vxi-0 c4"
+              data-testid="plp-filters-close-button"
+            >
+              <img
+                alt="Close icon"
+                class="c5"
+                src="/static-content/icons/shared/close-white.svg"
+              />
+            </button>
+            <h4
+              class="MuiTypography-root c6 MuiTypography-h4"
+            >
+              Filter Products
+            </h4>
+          </div>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text c7"
+            data-testid="plp-filters-close-text-cta"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Clear All
+            </span>
+          </button>
+        </div>
+        <div
+          class="c8"
+          data-testid="plp-filters-body-container"
+        >
+          <div
+            class="c9"
+          >
+            <div
+              class="c10"
+            >
+              <div
+                class="c11"
+              >
+                <button
+                  class="components__NoBorderButton-sc-1hp5vxi-0 c12"
+                  data-testid="plp-tabbed-key-filter-button-opt1"
+                >
+                  <div
+                    class="c13"
+                  >
+                    <p
+                      class="MuiTypography-root c14 MuiTypography-body1"
+                    >
+                      opt1
+                       
+                      <span>
+                        (
+                        1
+                        )
+                      </span>
+                    </p>
+                    <div
+                      class="c15"
+                    >
+                      <span
+                        class="c16"
+                        data-testid="plp-tabbed-filter-spinner"
+                      />
+                    </div>
+                  </div>
+                </button>
+              </div>
+              <button
+                class="components__NoBorderButton-sc-1hp5vxi-0 c12"
+                data-testid="plp-tabbed-filter-button-Test2"
+              >
+                <div
+                  class="c17"
+                >
+                  <p
+                    class="MuiTypography-root c14 MuiTypography-body1"
+                  >
+                    Test 2
+                  </p>
+                </div>
+              </button>
+            </div>
+            <div
+              class="c18"
+            />
+          </div>
+        </div>
+        <div
+          class="components__AccentedContainer-sc-1hp5vxi-11 c19"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text c20"
+            data-testid="plp-filters-view-products-cta-button"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              View
+               
+              1234
+               
+              Products
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      data-test="sentinelEnd"
+      tabindex="0"
+    />
+  </div>
+</body>
+`;
+
+exports[`Given a Show filters component: When break point is not for larger screens When filter drawer is opened should match snapshot correctly 1`] = `
+<body
+  style="padding-right: 0px; overflow: hidden;"
+>
+  .c1 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  height: 2.75rem;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 0.875rem;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (max-width:320px) {
+
+}
+
+<div
+    aria-hidden="true"
+  >
+    <div
+      class="c0"
+    >
+      <button
+        class="components__NoBorderButton-sc-1hp5vxi-0 c1"
+        data-testid="plp-filters-menu-btn"
+      >
+        Filter
+      </button>
+    </div>
+  </div>
+  .c4 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  position: fixed;
+  right: 30rem;
+  top: 0rem;
+  margin-right: 0;
+}
+
+.c5 {
+  height: 2.75rem;
+  width: 2.75rem;
+}
+
+.c19 {
+  width: 100%;
+  height: 2.75rem;
+  text-transform: uppercase;
+}
+
+.c19:hover,
+.c19:active,
+.c19:focus {
+  background: #30a74b;
+  border: 0;
+  color: #ffffff;
+}
+
+.c0 {
+  position: initial;
+}
+
+.c0.c0 > div:first-child {
+  background: rgba(0,0,0,0.9);
+}
+
+.c1 {
+  width: 30rem;
+  height: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+}
+
+.c6 {
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+}
+
+.c7.c7 {
+  padding: 0;
+  text-align: right;
+  overflow-wrap: anywhere;
+  background: #f7f7f7;
+  color: #257f39;
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  border-radius: 0;
+  border: 0;
+}
+
+.c7.c7:hover,
+.c7.c7:active {
+  background: #f7f7f7;
+  border: 0;
+}
+
+.c7.c7:focus {
+  border: 0;
+  border-radius: 0;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: #f7f7f7;
+  height: 2.75rem;
+  padding: 1rem;
+  border-bottom: .0625rem solid #9e9e9e;
+}
+
+.c18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: #f7f7f7;
+  border-top: 0.0625rem solid #eaeaea;
+  padding: 0 1.5rem;
+  height: 4.75rem;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: calc(100% - 7.5rem);
+  width: 100%;
+}
+
+.c11 {
+  width: 100%;
+  border-right: none;
+  border-bottom: .0625rem solid #9e9e9e;
+  background: #ffffff;
+}
+
+.c12 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  margin: 0;
+  min-height: -webkit-min-content;
+  min-height: -moz-min-content;
+  min-height: min-content;
+  padding: 0 1rem;
+  position: relative;
+  outline-offset: -0.13rem;
+  margin: 0;
+}
+
+.c14 {
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+  white-space: normal;
+  text-align: left;
+  opacity: 1;
+}
+
+.c14 span {
+  color: #515151;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  border-bottom: none;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.65rem 0;
+  width: 70%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  border-bottom: 0.0625rem solid #eaeaea;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.65rem 0;
+  width: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c10 {
+  width: 100%;
+  height: auto;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c10.c10::-webkit-scrollbar {
+  display: none;
+}
+
+.c16 {
+  width: 2.75rem;
+  height: 2.75rem;
+  outline: none;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c16.loading {
+  position: relative;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.c16.loading:after {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  border-radius: 100%;
+  width: 0px;
+  height: 0px;
+  border: 0.125rem solid rgba(102,143,112,0.05);
+  border-left-color: #30a74b;
+  border-top-color: #30a74b;
+  -webkit-animation: spin 0.6s infinite linear,grow 0.3s forwards ease-out;
+  animation: spin 0.6s infinite linear,grow 0.3s forwards ease-out;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.c15 {
+  position: absolute;
+  right: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  top: 0;
+  bottom: 0;
+}
+
+@media (max-width:320px) {
+  .c9 {
+    width: 100%;
+  }
+}
+
+<div
+    class="MuiDrawer-root MuiDrawer-modal c0 platform_modernisation_plp"
+    role="presentation"
+    style="position: fixed; z-index: 1300; right: 0px; bottom: 0px; top: 0px; left: 0px;"
+  >
+    <div
+      aria-hidden="true"
+      class="MuiBackdrop-root plp-filters-drawer-back-drop"
+      style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+    />
+    <div
+      data-test="sentinelStart"
+      tabindex="0"
+    />
+    <div
+      class="MuiPaper-root MuiDrawer-paper MuiDrawer-paperAnchorRight MuiPaper-elevation16"
+      tabindex="-1"
+    >
+      <div
+        class="c1"
+        data-testid="plp-filters-drawer-content"
+      >
+        <div
+          class="components__AccentedContainer-sc-1hp5vxi-11 c2"
+        >
+          <div
+            class="c3"
+          >
+            <button
+              class="components__NoBorderButton-sc-1hp5vxi-0 c4"
+              data-testid="plp-filters-close-button"
+            >
+              <img
+                alt="Close icon"
+                class="c5"
+                src="/static-content/icons/shared/close-white.svg"
+              />
+            </button>
+            <h4
+              class="MuiTypography-root c6 MuiTypography-h4"
+            >
+              Filter Products
+            </h4>
+          </div>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text c7"
+            data-testid="plp-filters-close-text-cta"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Close
+            </span>
+          </button>
+        </div>
+        <div
+          class="c8"
+          data-testid="plp-filters-body-container"
+        >
+          <div
+            class="c9"
+          >
+            <div
+              class="c10"
+            >
+              <div
+                class="c11"
+              >
+                <button
+                  class="components__NoBorderButton-sc-1hp5vxi-0 c12"
+                  data-testid="plp-tabbed-key-filter-button-opt1"
+                >
+                  <div
+                    class="c13"
+                  >
+                    <p
+                      class="MuiTypography-root c14 MuiTypography-body1"
+                    >
+                      opt1
+                       
+                      <span>
+                        (
+                        1
+                        )
+                      </span>
+                    </p>
+                    <div
+                      class="c15"
+                    >
+                      <span
+                        class="c16"
+                        data-testid="plp-tabbed-filter-spinner"
+                      />
+                    </div>
+                  </div>
+                </button>
+              </div>
+              <button
+                class="components__NoBorderButton-sc-1hp5vxi-0 c12"
+                data-testid="plp-tabbed-filter-button-Test2"
+              >
+                <div
+                  class="c17"
+                >
+                  <p
+                    class="MuiTypography-root c14 MuiTypography-body1"
+                  >
+                    Test 2
+                  </p>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="components__AccentedContainer-sc-1hp5vxi-11 c18"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text c19"
+            data-testid="plp-filters-view-products-cta-button"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              View
+               
+              1234
+               
+              Products
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      data-test="sentinelEnd"
+      tabindex="0"
+    />
+  </div>
+</body>
+`;
+
+exports[`Given a Show filters component: When break point is not for larger screens should match the snapshot correctly 1`] = `
+<body>
+  .c1 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  height: 2.75rem;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 0.875rem;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<div>
+    <div
+      class="components__CenteredFlexContainer-sc-1hp5vxi-7 c0"
+    >
+      <button
+        class="components__NoBorderButton-sc-1hp5vxi-0 c1"
+        data-testid="plp-filters-menu-btn"
+      >
+        Filter
+      </button>
+    </div>
+  </div>
+</body>
+`;

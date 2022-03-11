@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - EnrichRecentSearches:  should match the snapshot 1`] = `
+<DocumentFragment>
+  .c8 > ul {
+  background: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+}
+
+.c8 > ul li {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f7f7f7;
+  border-bottom: 0.0625rem solid #eaeaea;
+  border-top: 0.0625rem solid #eaeaea;
+  color: #000000;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c5.c5 {
+  color: #257f39;
+  background: none;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.43;
+  padding: 0;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  border: 0;
+}
+
+.c5.c5:hover,
+.c5.c5:active {
+  background: inherit;
+  border: 0;
+}
+
+.c5.c5:focus {
+  border: 0;
+  border-radius: 0;
+}
+
+.c4.c4 {
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+}
+
+.c2.c2 {
+  padding: 0.75rem 1rem;
+}
+
+.c6.c6 {
+  padding: 0.25rem 1rem;
+}
+
+.c0 {
+  margin: 0;
+  background: white;
+  color: #000000;
+}
+
+.c7 ul li a {
+  -webkit-transition: -webkit-transform 0.1s ease,padding 0.15s ease;
+  -webkit-transition: transform 0.1s ease,padding 0.15s ease;
+  transition: transform 0.1s ease,padding 0.15s ease;
+}
+
+.c7 ul li a:hover {
+  padding-left: 0.5rem;
+}
+
+@media (min-width:400px) {
+  .c8 > ul {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media (min-width:400px) {
+  .c8 > ul li {
+    -webkit-flex-basis: calc(100% / 2);
+    -ms-flex-preferred-size: calc(100% / 2);
+    flex-basis: calc(100% / 2);
+  }
+}
+
+@media (min-width:768px) {
+  .c8 > ul li {
+    -webkit-flex-basis: calc(100% / 3);
+    -ms-flex-preferred-size: calc(100% / 3);
+    flex-basis: calc(100% / 3);
+  }
+}
+
+@media (min-width:1024px) {
+  .c8 > ul li {
+    -webkit-flex-basis: calc(100% / 4);
+    -ms-flex-preferred-size: calc(100% / 4);
+    flex-basis: calc(100% / 4);
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    background: white;
+    border: none;
+    padding: 1.5rem 0 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c4.c4 {
+    -webkit-letter-spacing: 0.0075rem;
+    -moz-letter-spacing: 0.0075rem;
+    -ms-letter-spacing: 0.0075rem;
+    letter-spacing: 0.0075rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c2.c2 {
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width:1280px) {
+  .c2.c2 {
+    padding: 0 2.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c6.c6 {
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width:1280px) {
+  .c6.c6 {
+    padding: 0 2.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c7 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem 0;
+  }
+}
+
+<div
+    data-testid="header-enrich-recent-searches"
+  >
+    <div
+      class="MuiGrid-root c0"
+    >
+      <div
+        class="c1 recents-header"
+        data-testid="recents-header"
+      >
+        <div
+          class="MuiContainer-root c2 MuiContainer-maxWidthXl"
+        >
+          <div
+            class="c3"
+          >
+            <h4
+              class="MuiTypography-root c4 MuiTypography-h4"
+            >
+              <div
+                class="PrivateHiddenCss-mdUp-8"
+              >
+                RECENT SEARCHES
+              </div>
+              <div
+                class="PrivateHiddenCss-smDown-6"
+              >
+                Your recent searches: 
+              </div>
+            </h4>
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-text c5"
+              data-ga-v1="Search"
+              data-ga-v2="Clear All Previous Search"
+              data-ga-v3="Previously Searched"
+              data-testid="header-recent-searches-clear-button"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Clear all
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiContainer-root c6 MuiContainer-maxWidthXl"
+      >
+        <div
+          class="MuiGrid-root c7"
+        >
+          <div
+            class="c8"
+            data-testid="recents-body"
+          >
+            <ul>
+              <li>
+                <a
+                  href="/abc"
+                >
+                  abc
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/abcdef"
+                >
+                  abcdef
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

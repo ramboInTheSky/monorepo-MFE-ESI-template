@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - FilterFacetApiResponse:  should match the FilterFacetApiResponse 1`] = `
+FilterFacetApiResponse {
+  "disabled": undefined,
+  "displayName": "",
+  "name": "",
+  "options": Array [
+    FacetApiResponse {
+      "c": 0,
+      "incompatibleWith": Array [],
+      "n": "",
+      "s": undefined,
+      "v": "",
+    },
+  ],
+  "type": "filter",
+}
+`;
+
+exports[`Model - FilterPriceApiResponse:  should match the FilterPriceApiResponse 1`] = `
+FilterFacetApiResponse {
+  "disabled": undefined,
+  "displayName": "",
+  "name": "",
+  "options": Array [],
+  "type": "filter",
+}
+`;
+
+exports[`Model - Filters:  should match the Filters 1`] = `
+Filters {
+  "Test": FilterFacet {
+    "disabled": undefined,
+    "displayName": "",
+    "facets": Array [],
+    "isFilterOpen": false,
+    "isViewMoreOpen": false,
+    "name": "",
+    "type": "filter",
+  },
+  "TestPrice": FilterPrice {
+    "currencyCode": "GBP",
+    "disabled": undefined,
+    "displayName": "",
+    "isFilterOpen": false,
+    "max": 0,
+    "min": 0,
+    "name": "",
+    "selectedMax": 0,
+    "selectedMin": 0,
+    "type": "price",
+  },
+}
+`;

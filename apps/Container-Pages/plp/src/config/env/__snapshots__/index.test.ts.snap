@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ENV:  should match the SettingsSdkKeys 1`] = `
+Object {
+  "ASSETS_PATH": "/plpstatic",
+  "DEVELOPMENT": false,
+  "ENVIRONMENT_NAME": undefined,
+  "FNC_NAME": undefined,
+  "LOG_LEVEL": undefined,
+  "NODE_ENV": "batman",
+  "POD_NAME": undefined,
+  "PORT": 3000,
+  "PRODUCTION": false,
+  "REACT_APP_API_BASEURL_PRODUCT_SUMMARY": "ironman",
+  "REACT_APP_API_BASEURL_SEARCH": "superman",
+  "REACT_APP_API_BASEURL_SEARCH_BANNER": "banneresiurl",
+  "REACT_APP_APPINSIGHTS_KEY": "c620fe2b-48e7-4354-be16-d4cc42937bbd",
+  "REACT_APP_APP_URL": "",
+  "REACT_APP_BLOB_STORAGE_PATH": "/static-content",
+  "REACT_APP_BLOB_STORAGE_SSR_BASEURL": "https://ecmbrowsefdsxeuw.azurefd.net",
+  "REACT_APP_CDN_BASEURL": "spiderman",
+  "REACT_APP_ENABLE_CYPRESS_SETTINGS": false,
+  "REACT_APP_FOOTER_ASSETS_PATH": "/footerstatic",
+  "REACT_APP_FOOTER_BASEURL": "",
+  "REACT_APP_HEADER_ASSETS_PATH": "/headerstatic",
+  "REACT_APP_HEADER_BASEURL": "",
+  "REACT_APP_INCLUDE_VENDORS": false,
+  "REACT_APP_LOCAL": undefined,
+  "REACT_APP_MEGANAV_BASEURL": "",
+  "REACT_APP_PROD_SUMM_ASSETS_PATH": "/productsummarystatic",
+  "REACT_APP_PROD_SUMM_BASEURL": "esiurl",
+  "REACT_APP_SERVE_PATH_PREFIX": "",
+  "REACT_APP_USE_TIME_MACHINE_COOKIE": "false",
+  "USE_LOCAL_STATIC_CONTENT": "true",
+}
+`;

@@ -1,0 +1,29 @@
+Application Version
+---------------------------------------
+Version: {{ .Values.image.repository }}:{{ .Chart.AppVersion }}
+Deployment Time: {{ now | quote }}
+
+Environment Variables 
+---------------------------------------
+REACT_APP_API_BASEURL_SEARCH: {{.Values.application.apiBaseUrlSearch}}
+REACT_APP_API_BASEURL_PRODUCT_SUMMARY: {{.Values.application.apiBaseUrlProductSummary}}
+REACT_APP_API_BASEURL_SEARCH_BANNER: {{.Values.application.apiBaseUrlSearchBanner}}
+REACT_APP_BLOB_STORAGE_SSR_BASEURL: {{.Values.application.blobStorageSSRBaseURL}}
+REACT_APP_CDN_BASEURL: {{.Values.application.cdnBaseUrl}}
+REACT_APP_APPINSIGHTS_KEY: {{.Values.application.appInsightsKey}}
+REACT_APP_APP_URL: {{.Values.application.appUrl}}
+REACT_APP_PROD_SUMM_BASEURL: {{.Values.application.appProdSummBaseUrl}}
+REACT_APP_PROD_SUMM_ASSETS_PATH {{.Values.application.appProdSummAssetsPath}}
+REACT_APP_HEADER_BASEURL: {{.Values.application.appHeaderBaseUrl}}
+REACT_APP_HEADER_ASSETS_PATH: {{.Values.application.appHeaderAssetsPath}}
+REACT_APP_MEGANAV_BASEURL: {{.Values.application.appMeganavBaseUrl}}
+REACT_APP_FOOTER_BASEURL: {{.Values.application.appFooterBaseUrl}}
+REACT_APP_FOOTER_ASSETS_PATH: {{.Values.application.appFooterAssetsPath}}
+REACT_APP_SERVE_PATH_PREFIX: {{.Values.application.app_serve_path_prefix}}
+REACT_APP_USE_TIME_MACHINE_COOKIE: {{.Values.application.useTimeMachineCookie}}
+ASSETS_PATH: {{.Values.application.assets_path}}
+PORT: '3000'
+USE_DEV_ESI: {{.Values.application.useDevEsi}}
+ENVIRONMENT_NAME: {{.Values.application.environmentName}}  
+LOG_LEVEL: {{.Values.application.log_level}}
+

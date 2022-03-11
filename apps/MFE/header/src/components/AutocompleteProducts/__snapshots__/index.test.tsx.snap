@@ -1,0 +1,315 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - AutocompleteProducts:  should match the snapshot for AutoCompleteContainer - Show loader 1`] = `
+<DocumentFragment>
+  .c0 span {
+  font-size: 0.875rem;
+  -webkit-letter-spacing: 0.12px;
+  -moz-letter-spacing: 0.12px;
+  -ms-letter-spacing: 0.12px;
+  letter-spacing: 0.12px;
+  line-height: 1.5;
+  display: inline-block;
+}
+
+.c0 span > strong {
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  text-transform: capitalize;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  color: #257f39;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.c2.c2 {
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  padding: 1rem;
+  padding-left: 0;
+}
+
+.c2.c2:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c2.c2 a {
+  color: #000000;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin: 0.125rem 0;
+  display: inline-block;
+  padding-top: 150%;
+  margin: 0;
+  height: 0px;
+  position: relative;
+  width: 100%;
+  background: #f7f7f7;
+  font-size: 0.875rem;
+  -webkit-letter-spacing: 0.12px;
+  -moz-letter-spacing: 0.12px;
+  -ms-letter-spacing: 0.12px;
+  letter-spacing: 0.12px;
+  line-height: 1.5;
+}
+
+.c2.c2 a img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.c2.c2 a:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  padding-left: 0;
+}
+
+.c2.c2 a h5 {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  margin: 0;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+}
+
+.c1 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c1::-webkit-scrollbar {
+  display: none;
+}
+
+.c1 li {
+  max-width: calc(1000px / (8));
+  -webkit-flex-basis: calc(1000px / (8));
+  -ms-flex-preferred-size: calc(1000px / (8));
+  flex-basis: calc(1000px / (8));
+}
+
+.c3.c3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  margin: 1rem 0 0;
+}
+
+@media (min-width:768px) {
+  .c0 span {
+    padding-top: 0.375rem;
+    margin-top: 0.125rem;
+  }
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:768px) {
+  .c4 {
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: white;
+    background-color: #282828;
+    padding: 0.625rem 0;
+    border-radius: 2px;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    overflow-x: initial;
+  }
+}
+
+@media (max-width:399px) {
+  .c1 li:nth-child(n + 9) {
+    display: none;
+  }
+}
+
+@media (max-width:767px) {
+  .c1 li {
+    min-width: 125px;
+  }
+}
+
+@media (min-width:400px) and (max-width:767px) {
+  .c1 li {
+    max-width: calc(100% / 8);
+    -webkit-flex-basis: calc(100% / 8);
+    -ms-flex-preferred-size: calc(100% / 8);
+    flex-basis: calc(100% / 8);
+  }
+
+  .c1 li:nth-child(n + 9) {
+    display: none;
+  }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+  .c1 li {
+    max-width: calc(100% / 4);
+    -webkit-flex-basis: calc(100% / 4);
+    -ms-flex-preferred-size: calc(100% / 4);
+    flex-basis: calc(100% / 4);
+  }
+
+  .c1 li:nth-child(n + 5) {
+    display: none;
+  }
+}
+
+@media (min-width:1024px) and (max-width:1279px) {
+  .c1 li {
+    max-width: calc(100% / 4);
+    -webkit-flex-basis: calc(100% / 4);
+    -ms-flex-preferred-size: calc(100% / 4);
+    flex-basis: calc(100% / 4);
+  }
+
+  .c1 li:nth-child(n + 5) {
+    display: none;
+  }
+}
+
+@media (min-width:1280px) {
+  .c1 li {
+    max-width: calc(100% / 5);
+    -webkit-flex-basis: calc(100% / 5);
+    -ms-flex-preferred-size: calc(100% / 5);
+    flex-basis: calc(100% / 5);
+  }
+
+  .c1 li:nth-child(n + 6) {
+    display: none;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <span
+      data-testid="header-autocomplete-products-title"
+    >
+      Top results for 
+      <strong>
+        'socks'
+      </strong>
+    </span>
+    <ul
+      class="c1"
+      data-testid="searchBar-products"
+    >
+      <li
+        class="c2"
+      >
+        <a
+          data-ga-v1="Search"
+          data-ga-v2="socks"
+          data-ga-v3="image"
+          data-ga-v4="abc"
+          data-testid="header-autocomplete-product-abc"
+          href="abc.abc.com/amido"
+        >
+          <img
+            alt="abc"
+            src="abc.jpg"
+          />
+          <div
+            class=""
+          >
+            <h6
+              class="MuiTypography-root c3 MuiTypography-subtitle1"
+            >
+              abc
+            </h6>
+            <h5
+              class="MuiTypography-root MuiTypography-h5"
+            >
+              £0
+            </h5>
+          </div>
+        </a>
+      </li>
+      <li
+        class="c2"
+      >
+        <a
+          data-ga-v1="Search"
+          data-ga-v2="socks"
+          data-ga-v3="image"
+          data-ga-v4="dfg"
+          data-testid="header-autocomplete-product-dfg"
+          href="dfg.dfg.com/amido"
+        >
+          <img
+            alt="dfg"
+            src="dfg.jpg"
+          />
+          <div
+            class=""
+          >
+            <h6
+              class="MuiTypography-root c3 MuiTypography-subtitle1"
+            >
+              dfg
+            </h6>
+            <h5
+              class="MuiTypography-root MuiTypography-h5"
+            >
+              £0
+            </h5>
+          </div>
+        </a>
+      </li>
+    </ul>
+    <div
+      class=""
+    >
+      <div
+        class="c4"
+        data-ga-v1="Search"
+        data-ga-v2="socks"
+        data-ga-v3="See All Results"
+        data-testid="header-autocomplete-product-button"
+      >
+        See all results
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

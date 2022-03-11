@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - InPageFilters:  should match the InPageFilters 1`] = `
+Object {
+  "disabled": Object {
+    "breakpoint": "sm",
+  },
+  "enabled": Object {
+    "breakpoint": "sm",
+  },
+}
+`;

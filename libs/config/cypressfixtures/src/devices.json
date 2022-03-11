@@ -1,0 +1,22 @@
+[
+  {
+    "device": "iphone-5",
+    "orientation": ["landscape", "portrait"],
+    "type": "mobile"
+  },
+  {
+    "device": "iphone-6+",
+    "orientation": ["landscape", "portrait"],
+    "type": "mobile"
+  },
+  {
+    "device": "ipad-2",
+    "orientation": ["landscape", "portrait"],
+    "type": "tablet"
+  },
+  {
+    "device": "macbook-13",
+    "orientation": ["landscape", "portrait"],
+    "type": "desktop"
+  }
+]

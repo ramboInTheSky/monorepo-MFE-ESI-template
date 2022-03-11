@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a PriceContainer component should render as expected 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: block;
+  margin-right: 0.3rem;
+}
+
+.c0 a {
+  display: inline-block;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    display: inline-block;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Given a PriceContainer component with centralised theme should render as expected 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: block;
+  margin-right: 0.3rem;
+}
+
+.c0 a {
+  display: inline-block;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    display: block;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Given a PriceLink component should render as expected with no sale price 1`] = `
+<DocumentFragment>
+  .c0 {
+  margin-right: 0.3rem;
+  display: inline-block;
+}
+
+<a
+    class="MuiTypography-root MuiLink-root MuiLink-underlineHover c0 MuiTypography-colorPrimary"
+  />
+</DocumentFragment>
+`;
+
+exports[`Given a PriceLink component should render as expected with sale price 1`] = `
+<DocumentFragment>
+  .c0 {
+  margin-right: 0;
+  display: inline-block;
+}
+
+<a
+    class="MuiTypography-root MuiLink-root MuiLink-underlineHover c0 MuiTypography-colorPrimary"
+    saleprice="4.3"
+  />
+</DocumentFragment>
+`;
+
+exports[`Given a PriceValue component should render as expected 1`] = `
+<DocumentFragment>
+  .c0 {
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-weight: 500;
+}
+
+<p
+    class="MuiTypography-root c0 MuiTypography-body1"
+  />
+</DocumentFragment>
+`;
+
+exports[`Given a RectangleDivider component should render as expected 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 1rem;
+  height: 0.0625rem;
+  background-color: gray;
+  display: block;
+  margin: 0.625rem auto 0.75rem;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Given a SalePrice component should render as expected when brandNameEnabled is false 1`] = `
+<DocumentFragment>
+  .c0 {
+  margin: inherit;
+  color: #d91440;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-weight: 500;
+}
+
+<p
+    class="MuiTypography-root c0 MuiTypography-body1"
+  />
+</DocumentFragment>
+`;
+
+exports[`Given a SalePrice component should render as expected when brandNameEnabled is true 1`] = `
+<DocumentFragment>
+  .c0 {
+  margin: 0rem;
+  color: #d91440;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-weight: 500;
+}
+
+<p
+    class="MuiTypography-root c0 MuiTypography-body1"
+  />
+</DocumentFragment>
+`;
+
+exports[`Given a WasPrice component should render as expected when brandNameEnabled is false 1`] = `
+<DocumentFragment>
+  .c0 {
+  margin: inherit;
+  color: #d91440;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-weight: 500;
+}
+
+<p
+    class="MuiTypography-root c0 MuiTypography-body1"
+  />
+</DocumentFragment>
+`;
+
+exports[`Given a WasPrice component should render as expected when brandNameEnabled is true 1`] = `
+<DocumentFragment>
+  .c0 {
+  margin: 0rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-weight: 500;
+  margin-right: 0.4rem;
+}
+
+<p
+    class="MuiTypography-root c0 MuiTypography-body1"
+  />
+</DocumentFragment>
+`;

@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mini ShoppingBag Components:  PriceParentWrapper  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  white-space: nowrap;
+  padding-right: 0.938rem;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Mini ShoppingBag Components:  ProductDetails  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.c0.c0 > p {
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  color: #515151;
+  word-break: break-all;
+  padding-right: 0.613rem;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Mini ShoppingBag Components:  StatusWrapper  should match the snapshot with In stock status 1`] = `
+<DocumentFragment>
+  .c0 {
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  margin: 0.25rem 0 0 0;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  color: #257f39;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Mini ShoppingBag Components:  StatusWrapper  should match the snapshot with delayed status 1`] = `
+<DocumentFragment>
+  .c0 {
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  margin: 0.25rem 0 0 0;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  color: #d88f31;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Mini ShoppingBag Components:  StatusWrapper  should match the snapshot with empty status 1`] = `
+<DocumentFragment>
+  .c0 {
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  margin: 0.25rem 0 0 0;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  color: #d88f31;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Mini ShoppingBag Components:  StatusWrapper  should match the snapshot with sold out status 1`] = `
+<DocumentFragment>
+  .c0 {
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  margin: 0.25rem 0 0 0;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  color: #d91440;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;

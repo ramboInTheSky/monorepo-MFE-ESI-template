@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColourwayTitle:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  height: 1.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  text-transform: capitalize;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+@media (max-width:1023px) {
+  .c0 {
+    height: 3em;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    margin-bottom: 0.25rem;
+  }
+
+  .c0:after {
+    position: relative;
+    content: "";
+    border-bottom: 0.0625rem solid #d1d1d1;
+    width: 1rem;
+    margin: auto;
+    display: block;
+    bottom: -0.8rem;
+  }
+}
+
+<a
+    class="MuiTypography-root MuiLink-root MuiLink-underlineHover c0 MuiTypography-body1 MuiTypography-colorPrimary"
+    data-desc="test_title"
+    data-label="test_title"
+    data-testid="product_summary_title"
+    data-usespan="False"
+    href="test_linkUrl"
+    title="test_tooltip_title"
+  >
+    test_title
+  </a>
+</DocumentFragment>
+`;

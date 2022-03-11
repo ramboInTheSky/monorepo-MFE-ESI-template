@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages: Plp -  When I try provide the data to the Plp and an error has occured:  should show the default Plp 1`] = `
+<DocumentFragment>
+  <div>
+    TEST CONTAINER 
+    <div>
+      TEST MOBILE HEADER
+    </div>
+    <div>
+      TEST RESULTS GRID 
+      <div>
+        TEST FILTERS
+      </div>
+      <div>
+        TEST PRODUCTS
+      </div>
+    </div>
+    <div>
+      TEST VIEW ALL MODAL
+    </div>
+  </div>
+</DocumentFragment>
+`;

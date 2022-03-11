@@ -1,0 +1,40 @@
+replicaCount: 3
+Environment: Development
+image:
+  useImagePullSecrets: true
+  pullPolicy: Always
+  imagePullSecret: 'reviewstars-imagesecret'
+
+service:
+  type: ClusterIP
+  port: 80
+  internalPort: 3007
+  externalPort: 80
+  containerServicePort: 3333
+  containerServiceName: reviewstars-ui-container-service
+
+ingress:
+  enabled: true
+  annotations: {kubernetes.io/ingress.class: 'nginx', nginx.ingress.kubernetes.io/use-regex: 'true'}
+  path: '/review-stars(/|$)(.*)'
+  pathStatic: '/reviewstarsstatic(/|$)(.*)'
+  pathContainerPage: '/reviewstarscontainer(/|$)(.*)'
+domain: 'test.local'
+enabled: true
+
+resources: {}
+nodeSelector: {}
+tolerations: []
+affinity: {}
+podSecurityContext: {}
+securityContext: {}
+
+application:
+  appInsightsKey: 'REPLACE_ME'
+  apiBaseUrl: 'REPLACE_ME'
+  cdnBaseUrl: 'REPLACE_ME'
+  app_serve_path_prefix: 'REPLACE_ME'
+  assets_path: 'REPLACE_ME'
+  appUrl: 'REPLACE_ME'
+  generate_sourcemap: 'REPLACE_ME'
+  log_level: 'REPLACE_ME'

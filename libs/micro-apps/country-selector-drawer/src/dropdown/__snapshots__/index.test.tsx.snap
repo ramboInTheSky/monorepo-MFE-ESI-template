@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - CountrySelectDropdown:  should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiFormControl-root component__SelectedFormControl-sc-12h4p17-2 ehNeAz"
+  >
+    <div
+      class="MuiInputBase-root MuiOutlinedInput-root component__StyledOutlinedInput-sc-12h4p17-1 fjSKrf component__StyledSelect-sc-12h4p17-0 dbmTf MuiInputBase-formControl"
+      data-testid="country-selector-select-menu"
+    >
+      <div
+        aria-haspopup="listbox"
+        aria-labelledby="mui-component-select-country-selector-select"
+        class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+        id="mui-component-select-country-selector-select"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiListItemIcon-root makeStyles-icon-4"
+        >
+          <img
+            alt="DE"
+            class="component__MenuItemCountryFlagImg-sc-12h4p17-5 csySpc"
+            data-testid="header-country-lang-flag"
+            src="http://amido.com/icons/shared/countryflags/de.png"
+          />
+        </div>
+        Germany (£)
+      </div>
+      <input
+        id="country-selector-select"
+        name="country-selector-select"
+        type="hidden"
+        value="DE"
+      />
+      <img
+        class="component__StyledIcon-sc-12h4p17-4 cgiFIu material-icons MuiSelect-icon MuiSelect-iconOutlined"
+        src="chevronIcon"
+      />
+      <fieldset
+        aria-hidden="true"
+        class="PrivateNotchedOutline-root-5 MuiOutlinedInput-notchedOutline"
+        style="padding-left: 8px;"
+      >
+        <legend
+          class="PrivateNotchedOutline-legend-6"
+          style="width: 0.01px;"
+        >
+          <span>
+            ​
+          </span>
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - CountrySelectDropdown:  should match the snapshot when countriesList is populated 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiFormControl-root component__SelectedFormControl-sc-12h4p17-2 ehNeAz"
+  >
+    <div
+      class="MuiInputBase-root MuiOutlinedInput-root component__StyledOutlinedInput-sc-12h4p17-1 fjSKrf component__StyledSelect-sc-12h4p17-0 dbmTf MuiInputBase-formControl"
+      data-testid="country-selector-select-menu"
+    >
+      <div
+        aria-haspopup="listbox"
+        aria-labelledby="mui-component-select-country-selector-select"
+        class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+        id="mui-component-select-country-selector-select"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiListItemIcon-root makeStyles-icon-12"
+        >
+          <img
+            alt="DE"
+            class="component__MenuItemCountryFlagImg-sc-12h4p17-5 csySpc"
+            data-testid="header-country-lang-flag"
+            src="http://amido.com/icons/shared/countryflags/de.png"
+          />
+        </div>
+        Germany (£)
+      </div>
+      <input
+        id="country-selector-select"
+        name="country-selector-select"
+        type="hidden"
+        value="DE"
+      />
+      <img
+        class="component__StyledIcon-sc-12h4p17-4 cgiFIu material-icons MuiSelect-icon MuiSelect-iconOutlined"
+        src="chevronIcon"
+      />
+      <fieldset
+        aria-hidden="true"
+        class="PrivateNotchedOutline-root-13 MuiOutlinedInput-notchedOutline"
+        style="padding-left: 8px;"
+      >
+        <legend
+          class="PrivateNotchedOutline-legend-14"
+          style="width: 0.01px;"
+        >
+          <span>
+            ​
+          </span>
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - CountrySelectDropdown:  should match the snapshot when text alignment is right to left 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiFormControl-root component__SelectedFormControl-sc-12h4p17-2 ehNeAz"
+  >
+    <div
+      class="MuiInputBase-root MuiOutlinedInput-root component__StyledOutlinedInput-sc-12h4p17-1 fjSKrf component__StyledSelect-sc-12h4p17-0 dbmTf MuiInputBase-formControl"
+      data-testid="country-selector-select-menu"
+    >
+      <div
+        aria-haspopup="listbox"
+        aria-labelledby="mui-component-select-country-selector-select"
+        class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+        id="mui-component-select-country-selector-select"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiListItemIcon-root makeStyles-icon-20"
+        >
+          <img
+            alt="DE"
+            class="component__MenuItemCountryFlagImg-sc-12h4p17-5 csySpc"
+            data-testid="header-country-lang-flag"
+            src="http://amido.com/icons/shared/countryflags/de.png"
+          />
+        </div>
+        Germany (£)
+      </div>
+      <input
+        id="country-selector-select"
+        name="country-selector-select"
+        type="hidden"
+        value="DE"
+      />
+      <img
+        class="component__StyledIcon-sc-12h4p17-4 cgiFIu material-icons MuiSelect-icon MuiSelect-iconOutlined"
+        src="chevronIcon"
+      />
+      <fieldset
+        aria-hidden="true"
+        class="PrivateNotchedOutline-root-21 MuiOutlinedInput-notchedOutline"
+        style="padding-left: 8px;"
+      >
+        <legend
+          class="PrivateNotchedOutline-legend-22"
+          style="width: 0.01px;"
+        >
+          <span>
+            ​
+          </span>
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+</DocumentFragment>
+`;

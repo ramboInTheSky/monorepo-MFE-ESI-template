@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrimaryNavItem component:  Li  should match the snapshot without overriding marketing styles  1`] = `
+<DocumentFragment>
+  <li
+    class="component__Container-sc-1lp21az-0 eQHQxB"
+  />
+</DocumentFragment>
+`;
+
+exports[`PrimaryNavItem component:  Title  should match the snapshot with overriding marketing styles 1`] = `
+<DocumentFragment>
+  <div
+    class="component__Title-sc-1lp21az-1 bBoOkQ"
+  />
+</DocumentFragment>
+`;

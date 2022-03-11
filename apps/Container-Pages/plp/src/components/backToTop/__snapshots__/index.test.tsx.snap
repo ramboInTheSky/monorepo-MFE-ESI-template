@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a BackToTop component When window is available When user has not scrolled should render component correctly to match snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  background-color: #000000;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  height: 2.75rem;
+  width: 2.75rem;
+  z-index: 3;
+}
+
+.c0:hover {
+  background-color: #000000;
+}
+
+<div>
+    <button
+      aria-label="Back to top"
+      class="MuiButtonBase-root MuiFab-root c0"
+      data-testid="plp-back-to-top-btn"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiFab-label"
+      >
+        <img
+          alt="Arrow up"
+          class="material-icons"
+          src="/static-content/icons/shared/back-to-top-chevron.svg"
+        />
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given a BackToTop component When window is available When user has scrolled should render component to match snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  background-color: #000000;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  height: 2.75rem;
+  width: 2.75rem;
+  z-index: 3;
+}
+
+.c0:hover {
+  background-color: #000000;
+}
+
+<div>
+    <button
+      aria-label="Back to top"
+      class="MuiButtonBase-root MuiFab-root c0"
+      data-testid="plp-back-to-top-btn"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiFab-label"
+      >
+        <img
+          alt="Arrow up"
+          class="material-icons"
+          src="/static-content/icons/shared/back-to-top-chevron.svg"
+        />
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</DocumentFragment>
+`;

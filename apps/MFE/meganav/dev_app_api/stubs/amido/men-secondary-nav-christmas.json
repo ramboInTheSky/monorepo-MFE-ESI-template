@@ -1,0 +1,365 @@
+{
+  "id": "314ae4fe-a543-4817-97be-88d815fb61f7",
+  "title": "MEN",
+  "target": "/men",
+  "path": "MEN",
+  "viewType": "secondary-navigation",
+  "realm": "next",
+  "territory": "GB",
+  "language": "en",
+  "items": [
+    {
+      "title": "MEN",
+      "type": "tab",
+      "items": [
+        {
+          "title": "column1",
+          "type": "column",
+          "items": [
+            {
+              "title": "",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Mens Christmas",
+                  "type": "link",
+                  "target": "/shop/gender-men/feat-newin",
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "title": "",
+              "type": "category",
+              "items": [
+                {
+                  "title": "The Mens Shop",
+                  "type": "link",
+                  "target": "/men",
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "title": "Clothing",
+              "type": "category",
+              "linkColour": "#0000ff",
+              "fontWeight": "900",
+              "fontFamily": "Arial",
+              "items": [
+                {
+                  "title": "Blazers & Formal Jackets",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-blazersandformaljackets-0",
+                  "icon": null
+                },
+                {
+                  "title": "Casual Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-casualshirts/category-shirts",
+                  "icon": null
+                },
+                {
+                  "title": "Coats & Jackets",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-coatsandjackets-0",
+                  "icon": null,
+                  "linkColour": "#008001",
+                  "fontWeight": "700",
+                  "fontFamily": "Century Gothic"
+                },
+                {
+                  "title": "Formal Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-formalshirts-0",
+                  "icon": null
+                },
+                {
+                  "title": "Jeans",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-jeans-0",
+                  "icon": null
+                },
+                {
+                  "title": "Joggers",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-joggers-0",
+                  "icon": null
+                },
+                {
+                  "title": "Knitwear",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-knitwear-0",
+                  "icon": null,
+                  "linkColour": "#008001",
+                  "fontWeight": "700",
+                  "fontFamily": "Century Gothic"
+                },
+                {
+                  "title": "New In",
+                  "type": "link",
+                  "target": "/shop/gender-men/feat-newin",
+                  "icon": null
+                },
+                {
+                  "title": "Pants & Chinos",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-trousers-0",
+                  "icon": null
+                },
+                {
+                  "title": "Shorts & Swimwear",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-shortsswimwear-0",
+                  "icon": null
+                },
+                {
+                  "title": "Sportswear",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-sportswear-0",
+                  "icon": null
+                },
+                {
+                  "title": "Suits",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-suits-0",
+                  "icon": null
+                },
+                {
+                  "title": "Sweatshirts & Hoodies",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-sweatshirtsandhoodies-0",
+                  "icon": null
+                },
+                {
+                  "title": "T-Shirts & Polos",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-tops-0",
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "title": "Underwear & Nightwear",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Night & Loungewear",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-nightwear-0",
+                  "icon": null
+                },
+                {
+                  "title": "Slippers",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/category-slippers",
+                  "icon": null
+                },
+                {
+                  "title": "Socks",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-socks-0",
+                  "icon": null
+                },
+                {
+                  "title": "Underwear",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-underwear-0",
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "title": "Accessories",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Accessories",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-accessories-0",
+                  "icon": null
+                },
+                {
+                  "title": "Bags & Luggage",
+                  "type": "link",
+                  "target": "/shop/gender-men-gender-unisex-productaffiliation-accessories/category-bags-category-luggage",
+                  "icon": null
+                },
+                {
+                  "title": "Belts & Wallets",
+                  "type": "link",
+                  "target": "/shop/gender-men-gender-unisex-productaffiliation-accessories/category-belts-category-wallets",
+                  "icon": null
+                },
+                {
+                  "title": "Cufflinks & Tie Clips",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-accessories/category-cufflinks",
+                  "icon": null
+                },
+                {
+                  "title": "Gifts",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-gifts-0",
+                  "icon": null
+                },
+                {
+                  "title": "Hats, Scarves & Gloves",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-hatsglovesscarves-0",
+                  "icon": null
+                },
+                {
+                  "title": "Ties & Pocket Squares",
+                  "type": "link",
+                  "target": "/shop/gender-men-category-pocketsquares-category-ties",
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "title": "Footwear",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Footwear",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear-0",
+                  "icon": null
+                },
+                {
+                  "title": "Boots",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/category-boots-category-wellies",
+                  "icon": null
+                },
+                {
+                  "title": "New In Footwear",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/feat-newin",
+                  "icon": null
+                },
+                {
+                  "title": "Sandals & Espadrilles",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/category-pumps-category-sandals",
+                  "icon": null
+                },
+                {
+                  "title": "Shoes",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/category-shoes",
+                  "icon": null
+                },
+                {
+                  "title": "Sliders & Flipflops",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/category-pumps-category-sandals",
+                  "icon": null
+                },
+                {
+                  "title": "Sneakers",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/category-trainers",
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "title": "Trending",
+              "type": "category",
+              "linkColour": "#0000ff",
+              "fontWeight": "900",
+              "fontFamily": "Arial",
+              "items": [
+                {
+                  "title": "Big & Tall",
+                  "type": "link",
+                  "target": "/shop/gender-men/sizetype-big-sizetype-tall",
+                  "icon": null
+                },
+                {
+                  "title": "Colour Blocking",
+                  "type": "link",
+                  "target": "/shop/gender-men/pattern-colourblock",
+                  "icon": null,
+                  "linkColour": "#008001",
+                  "fontWeight": "700",
+                  "fontFamily": "Century Gothic"
+                },
+                {
+                  "title": "Hollywood",
+                  "type": "link",
+                  "target": "https://www.amido.us/en/shop/promotion-70hollywood-0",
+                  "icon": null
+                },
+                {
+                  "title": "Matching Family",
+                  "type": "link",
+                  "target": "/shop/promotion-justlikeme",
+                  "icon": null
+                },
+                {
+                  "title": "Multipacks",
+                  "type": "link",
+                  "target": "/shop/benefit-multipack/gender-men",
+                  "icon": null
+                },
+                {
+                  "title": "Pastels",
+                  "type": "link",
+                  "target": "/shop/promotion-pastels/gender-men",
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "title": "Brands",
+              "type": "category",
+              "items": [
+                {
+                  "title": "New In Mens Brands",
+                  "type": "link",
+                  "target": "/shop/gender-men-editorial-label-editorial-lipsyandcompany/feat-newin",
+                  "icon": null
+                },
+                {
+                  "title": "Shop All Mens Brands",
+                  "type": "link",
+                  "target": "/shop/gender-men-editorial-label-editorial-lipsyandcompany",
+                  "icon": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "missions": {
+        "noOfColumns": 3,
+        "title": "Inspire Me / Lookbook",
+        "items": [
+          {
+            "title": "Emma Willis Collection",
+            "imageUrl": "https://preview-next.mgmt.qa.test/blueprint/servlet/resource/blob/179536/f33c65b90674d4985b0d137373d26725/-0000s-0000-emma-willis--1--data.jpg",
+            "target": null
+          },
+          {
+            "title": "Emma Willis Collection",
+            "imageUrl": "https://preview-next.mgmt.qa.test/blueprint/servlet/resource/blob/179536/f33c65b90674d4985b0d137373d26725/-0000s-0000-emma-willis--1--data.jpg",
+            "target": null
+          },
+          {
+            "title": "Emma Willis Collection",
+            "imageUrl": "https://preview-next.mgmt.qa.test/blueprint/servlet/resource/blob/179536/f33c65b90674d4985b0d137373d26725/-0000s-0000-emma-willis--1--data.jpg",
+            "target": null
+          }
+        ],
+        "categoryLink": null
+      }
+    }
+  ],
+  "banner": {
+    "target": "/next",
+    "imageUrl": "/nxtcms/resource/blob/2790570/2eb6a5649eec4b084195a800ccde1136/1-data.jpg"
+  }
+}

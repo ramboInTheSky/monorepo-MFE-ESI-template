@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MissionsItem components:  Container:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <a
+    class="component__Container-sc-1f3bafh-3 fcFMdR"
+  />
+</DocumentFragment>
+`;
+
+exports[`MissionsItem components:  Image Container:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <img
+    class="component__ImageContainer-sc-1f3bafh-2 cCcrTk"
+  />
+</DocumentFragment>
+`;
+
+exports[`MissionsItem components:  Image Title:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <span
+    class="component__ImageTitle-sc-1f3bafh-0 jRughh"
+  />
+</DocumentFragment>
+`;

@@ -1,0 +1,739 @@
+{
+  "Empire": {
+    "EmpireName": "MONOREPO.SEOMETADATA.UI",
+    "Settings": {
+      "seometadata.ui.cache-control": {
+        "Value": 604800
+      },
+      "seometadata.ui.enabled": {
+        "Value": false
+      }
+    },
+    "Realms": [
+      {
+        "RealmName": "next",
+        "Settings": {
+          "seometadata.ui.enabled": {
+            "Value": false
+          }
+        },
+        "Territories": [
+          {
+            "TerritoryName": "AE",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "ar"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "AM",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "AR",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "AT",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "de"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "AU",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "AZ",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "ru"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "BE",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "fr"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "BG",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "bg"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "BH",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "ar"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "BR",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "BY",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "ru"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "CA",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "fr"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "CH",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "de"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "CL",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "CY",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "CZ",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "cs"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "DE",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "de"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "DK",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "da"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "EE",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "ru"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "EG",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "ar"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "ES",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "es"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "FI",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "FR",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "fr"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "GB",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ],
+            "Settings": {
+              "seometadata.ui.enabled": {
+                "Value": true
+              }
+            }
+          },
+          {
+            "TerritoryName": "GE",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "GI",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "GR",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "el"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "HK",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "zh"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "HR",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "HU",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "hu"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "ID",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "IE",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "IL",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "he"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "IN",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "IS",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "IT",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "it"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "JP",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "ja"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "KR",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "ko"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "KW",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "ar"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "KZ",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "ru"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "LB",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "ar"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "LT",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "ru"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "LU",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "fr"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "LV",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "ru"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "MT",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "MX",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ],
+            "Settings": {
+              "seometadata.ui.enabled": {
+                "Value": true
+              }
+            }
+          },
+          {
+            "TerritoryName": "MY",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "ms"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "NL",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "nl"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "NO",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "NZ",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "OM",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "ar"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "PE",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "PH",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "PK",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "PL",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "pl"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "PT",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "QA",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "ar"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "RO",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "ro"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "RS",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "RU",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "ru"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "SA",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "ar"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "SE",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "sv"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "SG",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "SI",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "sl"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "SK",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "sk"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "TH",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "TR",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "TW",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "zh"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "UA",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              },
+              {
+                "LanguageName": "ru"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "US",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          },
+          {
+            "TerritoryName": "ZA",
+            "Languages": [
+              {
+                "LanguageName": "en"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Personas": [
+    {
+      "PersonaName": "CustomerA",
+      "Settings": {
+        "seometadata.ui.enabled": {
+          "Value": true
+        }
+      }
+    }
+  ]
+}

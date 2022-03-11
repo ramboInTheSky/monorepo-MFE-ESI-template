@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - FavouriteState:  should match the FavouriteState 1`] = `
+Object {
+  "Active": "active",
+  "Inactive": "inactive",
+  "Loading": "loading",
+}
+`;

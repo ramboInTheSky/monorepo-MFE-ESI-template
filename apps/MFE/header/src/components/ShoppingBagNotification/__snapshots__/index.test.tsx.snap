@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - ShoppingBagNotification:  ShoppingBagNotification with 0 items:  should match the snapshot  1`] = `<DocumentFragment />`;
+
+exports[`Components - ShoppingBagNotification:  ShoppingBagNotification with 1 item:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  color: #000000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #f7f7f7;
+  border-radius: 0.25rem;
+  width: 20rem;
+}
+
+.c1.c1 {
+  padding: 0.8125rem 1.1875rem 0.75rem 1rem;
+  width: 16rem;
+}
+
+.c2 {
+  margin: 0.625rem auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0rem 0rem;
+  padding: 1rem 1rem;
+  border-top: .0625rem solid #9e9e9e;
+}
+
+.c2.c2 > div,
+.c2.c2 > a {
+  width: 18rem;
+  height: 2.25rem;
+  margin: 0;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    width: 18rem;
+  }
+}
+
+@media (max-width:767px) {
+  .c1.c1 {
+    width: 15rem;
+  }
+}
+
+@media (max-width:767px) {
+  .c2.c2 > div,
+  .c2.c2 > a {
+    width: 16rem;
+  }
+}
+
+<div
+    class="c0"
+    data-testid="header-shopping-bag-notification"
+  >
+    <h4
+      class="MuiTypography-root c1 MuiTypography-h4"
+      data-testid="header-shopping-bag-notification-message"
+    >
+      You have 1 item in your bag
+    </h4>
+    <div
+      class="c2"
+      data-testid="header-shopping-bag-notification-view-edit-bag-btn"
+    >
+      <div>
+        CTA
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - ShoppingBagNotification:  ShoppingBagNotification with 5 items:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  color: #000000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #f7f7f7;
+  border-radius: 0.25rem;
+  width: 20rem;
+}
+
+.c1.c1 {
+  padding: 0.8125rem 1.1875rem 0.75rem 1rem;
+  width: 16rem;
+}
+
+.c2 {
+  margin: 0.625rem auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0rem 0rem;
+  padding: 1rem 1rem;
+  border-top: .0625rem solid #9e9e9e;
+}
+
+.c2.c2 > div,
+.c2.c2 > a {
+  width: 18rem;
+  height: 2.25rem;
+  margin: 0;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    width: 18rem;
+  }
+}
+
+@media (max-width:767px) {
+  .c1.c1 {
+    width: 15rem;
+  }
+}
+
+@media (max-width:767px) {
+  .c2.c2 > div,
+  .c2.c2 > a {
+    width: 16rem;
+  }
+}
+
+<div
+    class="c0"
+    data-testid="header-shopping-bag-notification"
+  >
+    <h4
+      class="MuiTypography-root c1 MuiTypography-h4"
+      data-testid="header-shopping-bag-notification-message"
+    >
+      You have 5 items in your bag
+    </h4>
+    <div
+      class="c2"
+      data-testid="header-shopping-bag-notification-view-edit-bag-btn"
+    >
+      <div>
+        CTA
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

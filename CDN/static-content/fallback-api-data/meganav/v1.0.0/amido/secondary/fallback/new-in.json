@@ -1,0 +1,338 @@
+{
+  "id": "a16db2c7-74e2-4c64-b795-3cb12b1ec349",
+  "title": "NEW IN",
+  "target": "/new-in",
+  "viewType": "secondary-navigation",
+  "realm": "next",
+  "territory": "MX",
+  "language": "en",
+  "items": [
+    {
+      "title": "NEW IN",
+      "type": "tab",
+      "items": [
+        {
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "title": "Womens",
+              "type": "category",
+              "items": [
+                {
+                  "title": "View All",
+                  "type": "link",
+                  "target": "/shop/gender-women/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Clothing",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-womenswear/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Shoes",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-footwear/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sleepwear",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-nightwear/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Bags & Accessories",
+                  "type": "link",
+                  "target": "/shop/gender-women-productaffiliation-accessories/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "title": "Mens",
+              "type": "category",
+              "items": [
+                {
+                  "title": "View All",
+                  "type": "link",
+                  "target": "/shop/gender-men/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Clothing",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-clothing/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Shoes",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-footwear/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Bags & Accessories",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-accessories/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Sleepwear",
+                  "type": "link",
+                  "target": "/shop/gender-men-productaffiliation-nightwear/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        },
+        {
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "title": "Girls",
+              "type": "category",
+              "items": [
+                {
+                  "title": "View All",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-gender-oldergirls-gender-youngergirls/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Shoes",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-gender-oldergirls-gender-youngergirls-productaffiliation-footwear/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Dresses",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-oldergirls-gender-youngergirls-category-dresses/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Tops, T-Shirts & Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-gender-oldergirls-gender-youngergirls-productaffiliation-tops/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Pants & Leggings",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-gender-oldergirls-gender-youngergirls-productaffiliation-trousersleggings/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "title": "Boys",
+              "type": "category",
+              "items": [
+                {
+                  "title": "View All",
+                  "type": "link",
+                  "target": "/shop/gender-newbornboys-gender-newbornunisex-gender-olderboys-gender-youngerboys/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Shoes",
+                  "type": "link",
+                  "target": "/shop/gender-newbornboys-gender-newbornunisex-gender-olderboys-gender-youngerboys-productaffiliation-footwear/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Tops, T-shirts & Polos",
+                  "type": "link",
+                  "target": "/shop/gender-newbornboys-gender-newbornunisex-gender-olderboys-gender-youngerboys-productaffiliation-tops/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Pants & Chinos",
+                  "type": "link",
+                  "target": "/shop/gender-newbornboys-gender-newbornunisex-gender-olderboys-gender-youngerboys-productaffiliation-trousers/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        },
+        {
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "title": "Baby",
+              "type": "category",
+              "items": [
+                {
+                  "title": "View All",
+                  "type": "link",
+                  "target": "/shop/gender-newbornboys-gender-newborngirls-gender-newbornunisex/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Baby Boy",
+                  "type": "link",
+                  "target": "/shop/gender-newbornboys/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Baby Girl",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "title": "Brands",
+              "type": "category",
+              "items": [
+                {
+                  "title": "View All",
+                  "type": "link",
+                  "target": "/shop/editorial-label/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Lipsy",
+                  "type": "link",
+                  "target": "/shop/brand-lipsy/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        },
+        {
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "title": "Home",
+              "type": "category",
+              "items": [
+                {
+                  "title": "View All",
+                  "type": "link",
+                  "target": "/shop/department-homeware/feat-newin",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "bolder",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        }
+      ],
+      "missions": null
+    }
+  ],
+  "banner": null
+}

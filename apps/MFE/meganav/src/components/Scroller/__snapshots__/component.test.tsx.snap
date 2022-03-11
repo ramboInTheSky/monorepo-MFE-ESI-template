@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabsScroll component:  Container:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="component__Container-sc-1vshyrh-0 etNKFQ"
+  />
+</DocumentFragment>
+`;

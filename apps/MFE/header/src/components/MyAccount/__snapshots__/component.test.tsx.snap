@@ -1,0 +1,268 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components: MyAccountLink should match the snapshot Container 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 5.375rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`components: MyAccountLink should match the snapshot IconTextContainer 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #ffffff;
+  padding: 0.625rem 0;
+}
+
+.c0 a:active,
+.c0 a:hover,
+.c0 a:focus,
+.c0 a:visited {
+  color: #ffffff;
+}
+
+.c0 img {
+  width: 5.375rem;
+  height: 2.75rem;
+}
+
+@media (min-width:1024px) {
+
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`components: MyAccountLink should match the snapshot IconTextContainer when showContainer is false 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #ffffff;
+  padding: 0.625rem 0;
+}
+
+.c0 a:active,
+.c0 a:hover,
+.c0 a:focus,
+.c0 a:visited {
+  color: #ffffff;
+}
+
+.c0 img {
+  width: 5.375rem;
+  height: 2.75rem;
+}
+
+@media (min-width:1024px) {
+
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`components: MyAccountLink should match the snapshot SignoutButton 1`] = `
+<DocumentFragment>
+  .c0 {
+  height: 2.25rem;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`components: MyAccountLink should match the snapshot SmallIconContainer 1`] = `
+<DocumentFragment>
+  .c0 {
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.c0 a {
+  padding: 0.625rem 0;
+  font-size: 0.9375rem;
+}
+
+.c0 img {
+  width: 5.375rem;
+  height: 5.375rem;
+  vertical-align: initial;
+}
+
+@media (min-width:768px) {
+  .c0 a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 a {
+    display: initial;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 a {
+    padding: 0.625rem;
+  }
+
+  .c0 img {
+    width: 5.375rem;
+    height: 2.75rem;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`components: MyAccountLink should match the snapshot ToolTip 1`] = `
+<DocumentFragment>
+  .c0 {
+  font-size: 0.75rem;
+  width: 14.5rem;
+  height: 8.625rem;
+  border: 0.0625rem solid #9e9e9e;
+  background: #fff;
+  border-radius: 0.25rem;
+  text-transform: capitalize;
+  text-align: center;
+  box-shadow: 0px 3px 4px 1px rgba(0,0,0,0.4);
+}
+
+.c0 hr {
+  border: 0.0625rem solid #eaeaea;
+}
+
+@media only screen and (device-width:414px) and (device-height:896px) and (-webkit-device-pixel-ratio:2) and (orientation:landscape) {
+  .c0 {
+    position: absolute;
+    top: -3.75rem;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`components: MyAccountLink should match the snapshot Username 1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  text-overflow: ellipsis;
+  max-width: 105px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media (min-width:1280px) {
+  .c0.c0 {
+    white-space: unset;
+  }
+}
+
+<span
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`components: MyAccountLink should match the snapshot ViewAccountSummaryLink 1`] = `
+<DocumentFragment>
+  .c0 {
+  padding: 0.8rem 0.75rem 0 0.75rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c0.c0 a,
+.c0.c0 a:hover {
+  position: initial;
+  color: #000000;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: inherit;
+}
+
+.c0.c0.c0 a:hover {
+  color: #000000;
+}
+
+.c0:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`components: MyAccountLink should match the snapshot hr 1`] = `
+<DocumentFragment>
+  <hr
+    class=""
+  />
+</DocumentFragment>
+`;

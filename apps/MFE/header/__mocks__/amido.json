@@ -1,0 +1,94 @@
+{
+  "id": "33d0153c-ed8b-4a65-b63c-5ad5edddd187",
+  "name": "Default",
+  "realm": "amido",
+  "territory": "GB",
+  "language": "en",
+  "regions": [
+    {
+      "type": "Brand",
+      "title": "Brand",
+      "accessibilityTitle": "Brand",
+      "elements": [
+        {
+          "elements": [],
+          "type": "link",
+          "url": "/",
+          "openInNewWindow": false,
+          "icon": "/icons/header/brand/amido/logo.svg",
+          "text": "Amido Logo",
+          "accessibilityText": "Amido Icon",
+          "tooltip": "Amido Icon",
+          "wideModeIcon": "/icons/header/brand/amido/logo.svg",
+          "narrowModeIcon": "/icons/header/brand/amido/logo.svg"
+        }
+      ]
+    },
+    {
+      "type": "QuickLinks",
+      "title": "QuickLinks",
+      "accessibilityTitle": "QuickLinks",
+      "elements": [
+        {
+          "elements": [
+            {
+              "type": "MyAccountLoggedIn",
+              "url": "/secure/accounts/transfer",
+              "openInNewWindow": false,
+              "icon": "/icons/header/quicklinks/amido/my-account.svg",
+              "text": "<username>",
+              "accessibilityText": "<username>",
+              "tooltip": "<username>'s account",
+              "wideModeIcon": "/icons/header/quicklinks/amido/my-account_desktop.svg",
+              "narrowModeIcon": "/icons/header/quicklinks/amido/my-account.svg"
+            },
+            {
+              "type": "MyAccountLoggedOut",
+              "url": "/secure/accounts/transfer",
+              "openInNewWindow": false,
+              "icon": "/icons/header/quicklinks/amido/my-account.svg",
+              "text": "My Account",
+              "accessibilityText": "Sign in to view account details",
+              "tooltip": "Sign in to view account details",
+              "wideModeIcon": "/icons/header/quicklinks/amido/my-account_desktop.svg",
+              "narrowModeIcon": "/icons/header/quicklinks/amido/my-account.svg"
+            }
+          ],
+          "type": "MyAccount",
+          "url": null,
+          "openInNewWindow": true,
+          "icon": null,
+          "text": "MyAccount",
+          "accessibilityText": "MyAccount",
+          "tooltip": null,
+          "wideModeIcon": null,
+          "narrowModeIcon": null
+        },
+        {
+          "elements": [],
+          "type": "link",
+          "url": "/help",
+          "openInNewWindow": true,
+          "icon": null,
+          "text": "Help",
+          "accessibilityText": "Help",
+          "tooltip": "Help - FAQ's, how to shop online, sizing guides and more",
+          "wideModeIcon": null,
+          "narrowModeIcon": null
+        },
+        {
+          "elements": [],
+          "type": "link",
+          "url": "/stores/",
+          "openInNewWindow": false,
+          "icon": null,
+          "text": "Store Locator",
+          "accessibilityText": "Store Locator",
+          "tooltip": "Find your nearest Amido Store",
+          "wideModeIcon": null,
+          "narrowModeIcon": null
+        }
+      ]
+    }
+  ]
+}

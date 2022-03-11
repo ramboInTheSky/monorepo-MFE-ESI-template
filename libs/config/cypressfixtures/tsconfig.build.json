@@ -1,0 +1,7 @@
+{
+  "extends": "../../../tools/config/tsconfig.build",
+  "compilerOptions": {
+    "resolveJsonModule": true
+  },
+  "exclude": ["**/*.test.ts"]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "@monorepo/settings-sdk",
+  "version": "4.3.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "module": "lib/index.es.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build-lib": "rollup -c && yalc push --safe --replace",
+    "build-ci": "rollup -c rollup.config.prod.js",
+    "lint": "eslint --ext .tsx,.ts,.js,.jsx src/",
+    "test:client": "nyc mocha -r ts-node/register tests/*.ts --exit",
+    "tsc": "tsc",
+    "build:server": "tsc /Server && ts-node Server/server",
+    "test:server": "mocha -r ts-node/register Server/tests/*.ts --exit",
+    "dev": "ts-node Server/server",
+    "test": "npm run test:client && npm run test:server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@monorepo/eslint": "^3.3.0",
+    "@types/chai": "4.2.7",
+    "@types/chai-http": "4.2.0",
+    "@types/express": "4.17.2",
+    "@types/mocha": "5.2.7",
+    "@types/node": "12.12.21",
+    "chai": "4.2.0",
+    "chai-http": "4.3.0",
+    "codecov": "3.6.5",
+    "coffeescript": "2.5.1",
+    "express": "4.17.1",
+    "mocha": "6.2.2",
+    "nyc": "15.0.0",
+    "prettier": "1.19.1",
+    "sinon": "8.1.1",
+    "sinon-express-mock": "2.2.1",
+    "supertest": "4.0.2",
+    "ts-mockito": "2.5.0",
+    "ts-node": "8.6.2",
+    "typescript": "3.7.4",
+    "yalc": "^1.0.0-pre.53"
+  },
+  "dependencies": {
+    "node-cache": "5.1.0",
+    "object-hash": "2.0.1"
+  },
+  "gitHead": "ddc830c814fe0ca4d5cb49e91bf965128ce83536"
+}

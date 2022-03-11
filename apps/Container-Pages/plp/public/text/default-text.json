@@ -1,0 +1,108 @@
+{
+  "labels": {
+    "sortMenu": "Sort",
+    "close": "Close",
+    "products": "Products",
+    "loadingProducts": "Loading products...",
+    "loadingPreviousPage": "Loading previous page...",
+    "loadingNextPage": "Loading next page...",
+    "loadingResults": "Loading results...",
+    "noOptionsAvailable": "This option isn't available with your current selection(s)",
+    "filterMenu": "Filter",
+    "filtersMobileTitle": "Filter Products",
+    "shopNow": "Shop Now",
+    "tooltipInStock": "View items that are in stock and available for Amido or large Home items that are in stock and available for 5 Day delivery.",
+    "tooltipBackInStock": "View best selling items that were previously out of stock but are now back in stock.",
+    "tooltipDeliverByChristmas": "View items that are available for delivery before Christmas (24th December",
+    "toolTipTermsAndConditionsStart": "Check our ",
+    "toolTipTermsAndConditions": "Terms & Conditions",
+    "toolTipTermsAndConditionsEnd": " for full details.",
+    "previous": "View Previous",
+    "next": "View Next",
+    "clearText": "Clear All"
+  },
+  "buttons": {
+    "viewMore": "View more",
+    "viewLess": "View less",
+    "viewAll": "View all",
+    "clear": "Clear",
+    "close": "Close",
+    "confirm": "Confirm",
+    "viewResults": "View",
+    "viewProducts": "Products",
+    "openFilters": "Open Filters",
+    "clearAll": "Clear All",
+    "backToTop": "Back to top"
+  },
+  "assetsAlt": {
+    "chevron": "Accordion chevron icon",
+    "closeIcon": "Close icon"
+  },
+  "pages": {
+    "noResults": {
+      "header": "We found no results that closely match your search for",
+      "subHeader": "Suggestions:",
+      "body": {
+        "item1": "You may have typed your word incorrectly - please check for misspellings",
+        "item2": "You may have been too specific - please broaden your search by using fewer keywords",
+        "item3": "Browse our products by selecting a category above",
+        "item4": "If you know it, please search by entering a product code"
+      }
+    },
+    "products": {
+      "noResults": "We found no results matching your search.",
+      "zeroResultsFor": "0 results for",
+      "showingResultsFor": "Showing results for",
+      "showingResultsNearestMatches": "Showing results for nearest matches"
+    },
+    "viewAllModal": {
+      "all": "All",
+      "alphabet": "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z",
+      "selected": "Selected",
+      "remove": "Remove",
+      "searchForA": "Search for a",
+      "noResults": "No results"
+    },
+    "filters": {
+      "priceRange": "Price Range:",
+      "clearText": "Clear",
+      "searchBrands": "Search Brands",
+      "priceFilterAriaLabels": {
+        "ariaLabelMin": "Set minimum value",
+        "ariaLabelMax": "Set maximum value"
+      }
+    },
+    "collaspedFilters": {
+      "from": "From"
+    },
+    "seoMetaData": {
+      "genderValues": {
+        "women": "Women's",
+        "men": "Men's",
+        "youngerboys": "Younger Boys'",
+        "youngergirls": "Younger Girls'",
+        "unisex": "Unisex",
+        "olderboys": "Older Boys'",
+        "oldergirls": "Older Girls'",
+        "newbornboys": "Baby Boys'",
+        "newborngirls": "Baby Girls'",
+        "girls": "Girls'",
+        "newbornunisex": "Baby",
+        "babyboys": "Baby Boys'",
+        "babygirls": "Baby Girls'",
+        "babyunisex": "Baby",
+        "boys": "Boys'"
+      }
+    },
+    "searchBanners": {
+      "readMore": "+ Read more",
+      "readLess": "- Read less"
+    }
+  },
+  "imageAlts": {
+    "backToTopIcon": "Arrow up",
+    "tabbedSearchBrands": "Search Icon",
+    "spinner": "Loading",
+    "sortCheck": "check icon"
+  }
+}

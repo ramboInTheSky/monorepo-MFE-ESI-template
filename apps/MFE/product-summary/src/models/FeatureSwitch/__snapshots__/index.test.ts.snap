@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - EnableFavourites:  should match the EnableFavourites 1`] = `
+Object {
+  "Value": false,
+}
+`;
+
+exports[`Model - EnableReviewStars:  should match the EnableReviewStars 1`] = `
+Object {
+  "Value": true,
+}
+`;

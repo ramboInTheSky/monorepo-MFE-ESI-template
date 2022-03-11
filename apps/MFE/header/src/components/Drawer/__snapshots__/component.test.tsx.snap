@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Drawer components:  DrawerContainer:  CloseIcon:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  height: 2.75rem;
+  width: 2.75rem;
+}
+
+<img
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Drawer components:  DrawerContainer:  should match the snapshot  1`] = `<DocumentFragment />`;

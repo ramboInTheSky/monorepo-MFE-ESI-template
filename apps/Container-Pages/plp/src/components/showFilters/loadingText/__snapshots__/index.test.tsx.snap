@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Tabbed Brand Search Bar Component when the filter is a brand filter should render the component correctly to match the snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+  white-space: normal;
+  text-align: left;
+  opacity: 1;
+}
+
+.c1 span {
+  color: #515151;
+}
+
+.c0 {
+  padding: 1.25rem;
+}
+
+<div
+    class="c0"
+  >
+    <p
+      class="MuiTypography-root c1 MuiTypography-body1"
+    >
+      Loading results...
+    </p>
+  </div>
+</DocumentFragment>
+`;

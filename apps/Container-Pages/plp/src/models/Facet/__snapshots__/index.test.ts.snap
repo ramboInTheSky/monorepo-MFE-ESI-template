@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - Facets:  should match the Facets 1`] = `
+Facets {
+  "test": Facet {
+    "c": 0,
+    "d": false,
+    "incompatibleWith": Array [],
+    "n": "",
+    "s": undefined,
+    "v": "",
+  },
+}
+`;

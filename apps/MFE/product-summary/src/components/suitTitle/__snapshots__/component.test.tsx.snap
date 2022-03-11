@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given Suit Title components TitleLink should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  text-transform: capitalize;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  -webkit-letter-spacing: 0.008rem;
+  -moz-letter-spacing: 0.008rem;
+  -ms-letter-spacing: 0.008rem;
+  letter-spacing: 0.008rem;
+  line-height: 1.313rem;
+  margin-bottom: 0.25rem;
+}
+
+.c0:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<a
+    class="MuiTypography-root MuiLink-root MuiLink-underlineHover c0 MuiTypography-colorPrimary"
+  >
+    TEST TITLE LINK
+  </a>
+</DocumentFragment>
+`;

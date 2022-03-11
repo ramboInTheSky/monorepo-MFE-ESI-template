@@ -1,0 +1,89 @@
+{
+  "filters": [
+    {
+      "name": "Feat",
+      "displayName": "",
+      "type": "feat",
+      "options": [
+        {
+          "n": "New In",
+          "c": 364,
+          "v": "newin",
+          "s": true
+        },
+        {
+          "n": "In Stock",
+          "c": 2405,
+          "v": "instock",
+          "s": true
+        }
+      ]
+    },
+    {
+      "name": "Size",
+      "displayName": "",
+      "type": "filter",
+      "options": [
+        {
+          "n": "8 Tall",
+          "c": 24,
+          "v": "8tall",
+          "s": true
+        },
+        {
+          "n": "18",
+          "c": 3,
+          "v": "18",
+          "s": true
+        }
+      ]
+    },
+    {
+      "name": "Price",
+      "displayName": "Price",
+      "type": "price",
+      "min": 0,
+      "max": 4000,
+      "selectedMin": 0,
+      "SelectedMax": 4000
+    }
+  ],
+  "items": [
+    {
+      "itemNumber": "R39359"
+    },
+    {
+      "itemNumber": "X800845"
+    },
+    {
+      "itemNumber": "X111111"
+    },
+    {
+      "itemNumber": "X2222"
+    },
+    {
+      "itemNumber": "X333"
+    },
+    {
+      "itemNumber": "X4444"
+    },
+    {
+      "itemNumber": "X5555"
+    },
+    {
+      "itemNumber": "X6666"
+    },
+    {
+      "itemNumber": "X800777845"
+    },
+    {
+      "itemNumber": "X80088845"
+    }
+  ],
+  "totalResults": 2403,
+  "keywordRedirect": {
+    "redirectedUrl": "/clearance",
+    "redirectedQuery": "clearance",
+    "originalQuery": "clearance"
+  }
+}

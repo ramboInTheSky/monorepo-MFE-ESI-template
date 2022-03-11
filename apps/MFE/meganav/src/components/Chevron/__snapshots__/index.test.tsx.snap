@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SnailTrailScrollIcon should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    style="transition: opacity 350ms ease-in-out; opacity: 0;"
+  >
+    <div
+      class="component__Container-sc-9bgwvf-1 eMcUZE"
+    >
+      <button
+        class="MuiButtonBase-root MuiIconButton-root"
+        data-testid="meganav-primarynav-arrow-right"
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <img
+            alt="fake"
+            src="fake"
+          />
+        </span>
+      </button>
+      <div
+        class="component__Gradient-sc-9bgwvf-0 hjYBjK"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`SnailTrailScrollIcon when running in rtl mode, it should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    style="transition: opacity 350ms ease-in-out; opacity: 0;"
+  >
+    <div
+      class="component__Container-sc-9bgwvf-1 eMcUZE"
+    >
+      <button
+        class="MuiButtonBase-root MuiIconButton-root"
+        data-testid="meganav-primarynav-arrow-right"
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <img
+            alt="fake"
+            src="fake"
+          />
+        </span>
+      </button>
+      <div
+        class="component__Gradient-sc-9bgwvf-0 hjYBjK"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

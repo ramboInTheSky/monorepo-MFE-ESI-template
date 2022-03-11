@@ -1,0 +1,1 @@
+the /static-content folder is only a stub, this will be replaced in deployed environments by the actual routing to "/static-content"

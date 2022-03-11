@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given Suit Title components  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  -webkit-letter-spacing: 0.008rem;
+  -moz-letter-spacing: 0.008rem;
+  -ms-letter-spacing: 0.008rem;
+  letter-spacing: 0.008rem;
+}
+
+<span
+    class="c0"
+  >
+    £TEST PRICE
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Given Suit Title components Container should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 0.375rem;
+}
+
+<div
+    class="c0"
+  >
+    TEST CONTAINER
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given Suit Title components PriceContainer  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+}
+
+<span
+    class="c0"
+  >
+    TEST CONTAINER
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Given Suit Title components PriceLabel should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  -webkit-letter-spacing: 0.008rem;
+  -moz-letter-spacing: 0.008rem;
+  -ms-letter-spacing: 0.008rem;
+  letter-spacing: 0.008rem;
+}
+
+<span
+    class="c0"
+  >
+    TEST LABEL
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Given Suit Title components PriceLink should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.875rem;
+  line-height: 1.313rem;
+}
+
+.c0:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<a
+    class="MuiTypography-root MuiLink-root MuiLink-underlineHover c0 MuiTypography-colorPrimary"
+  >
+    TEST LINK
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Given Suit Title components SalePriceValue  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  -webkit-letter-spacing: 0.008rem;
+  -moz-letter-spacing: 0.008rem;
+  -ms-letter-spacing: 0.008rem;
+  letter-spacing: 0.008rem;
+  color: #d91440;
+}
+
+<span
+    class="components__PriceValue-sc-1qz4811-3 c0"
+  >
+    £TEST PRICE
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Given Suit Title components WasPriceValue  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  -webkit-letter-spacing: 0.008rem;
+  -moz-letter-spacing: 0.008rem;
+  -ms-letter-spacing: 0.008rem;
+  letter-spacing: 0.008rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<span
+    class="components__PriceValue-sc-1qz4811-3 c0"
+  >
+    £TEST PRICE
+  </span>
+</DocumentFragment>
+`;

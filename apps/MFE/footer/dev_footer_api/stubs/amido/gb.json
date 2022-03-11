@@ -1,0 +1,687 @@
+{
+  "id": "2cc38db9-30cc-430b-ab78-63b50dd6f9a7",
+  "name": "Default",
+  "realm": "amido",
+  "territory": "GB",
+  "language": "en",
+  "regions": [
+    {
+      "type": "SocialMedia",
+      "title": "Our Social Networks",
+      "accessibilityTitle": "Our Social Networks",
+      "subRegions": [
+        {
+          "title": "",
+          "accessibilityTitle": "",
+          "elements": [
+            {
+              "type": "Link",
+              "url": "https://www.facebook.com/amidoofficial",
+              "openInNewWindow": true,
+              "name": "Facebook",
+              "icon": "/icons/footer/amido/socialmedia/icon-social-facebook.svg",
+              "text": "",
+              "accessibilityText": "facebook",
+              "tooltip": "facebook.com/amidoofficial",
+              "accessibilityTooltip": "facebook.com/amidoofficial",
+              "description": null,
+              "accessibilityDescription": null,
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "https://www.twitter.com/amidoofficial",
+              "openInNewWindow": true,
+              "name": "Twitter",
+              "icon": "/icons/footer/amido/socialmedia/icon-social-twitter.svg",
+              "text": "Twitter",
+              "accessibilityText": "twitter",
+              "tooltip": "twitter.com/amidoofficial",
+              "accessibilityTooltip": "twitter.com/amidoofficial",
+              "description": null,
+              "accessibilityDescription": null,
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "https://instagram.com/amidoofficial/",
+              "openInNewWindow": true,
+              "name": "Instagram",
+              "icon": "/icons/footer/amido/socialmedia/icon-social-instagram.svg",
+              "text": "Instagram",
+              "accessibilityText": "instagram",
+              "tooltip": "instagram.com/amidoofficial",
+              "accessibilityTooltip": "instagram.com/amidoofficial",
+              "description": null,
+              "accessibilityDescription": null,
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "https://www.pinterest.com/amidoofficial",
+              "openInNewWindow": true,
+              "name": "Pinterest",
+              "icon": "/icons/footer/amido/socialmedia/icon-social-pinterest.svg",
+              "text": "Pinterest",
+              "accessibilityText": "pinterest",
+              "tooltip": "pinterest.com/amidoofficial",
+              "accessibilityTooltip": "pinterest.com/amidoofficial",
+              "description": null,
+              "accessibilityDescription": null,
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "https://www.youtube.com/user/amidoshopping",
+              "openInNewWindow": true,
+              "name": "YouTube",
+              "icon": "/icons/footer/amido/socialmedia/icon-social-youtube.svg",
+              "text": "YouTube",
+              "accessibilityText": "youtube",
+              "tooltip": "youtube.com/amidoshopping",
+              "accessibilityTooltip": "youtube.com/amidoshopping",
+              "description": null,
+              "accessibilityDescription": null,
+              "className": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "QuickLinks",
+      "title": "QuickLinks",
+      "accessibilityTitle": "Quick Links",
+      "subRegions": [
+        {
+          "title": "",
+          "accessibilityTitle": "",
+          "elements": [
+            {
+              "type": "MyAccountLoggedIn",
+              "url": "/secure/accounts/transfer",
+              "openInNewWindow": false,
+              "name": "MyAccountLoggedIn",
+              "icon": "/icons/footer/amido/quicklinks/myaccount.svg",
+              "text": "<username>",
+              "accessibilityText": "My Account",
+              "tooltip": null,
+              "accessibilityTooltip": null,
+              "description": "View your Amido account",
+              "accessibilityDescription": "View your Amido account",
+              "className": null
+            },
+            {
+              "type": "MyAccountLoggedOut",
+              "url": "/secure/accounts/transfer",
+              "openInNewWindow": false,
+              "name": "MyAccountLoggedOut",
+              "icon": "/icons/footer/amido/quicklinks/myaccount.svg",
+              "text": "My Account",
+              "accessibilityText": "My Account",
+              "tooltip": null,
+              "accessibilityTooltip": null,
+              "description": "Sign-in to your account",
+              "accessibilityDescription": "Sign-in to your account",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "/storelocator",
+              "openInNewWindow": false,
+              "name": "StoreLocator",
+              "icon": "/icons/footer/amido/quicklinks/storelocator.svg",
+              "text": "Store Locator",
+              "accessibilityText": "Store Locator",
+              "tooltip": null,
+              "accessibilityTooltip": null,
+              "description": "Find your nearest store",
+              "accessibilityDescription": "Find your nearest store",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "https://chat.amido.com/",
+              "openInNewWindow": true,
+              "name": "StartAChat",
+              "icon": "/icons/footer/amido/quicklinks/startachat.svg",
+              "text": "Start a Chat",
+              "accessibilityText": "Start a Chat",
+              "tooltip": null,
+              "accessibilityTooltip": null,
+              "description": "For general enquiries",
+              "accessibilityDescription": "For general enquiries",
+              "className": null
+            },
+            {
+              "type": "LanguageSelector",
+              "url": "",
+              "openInNewWindow": false,
+              "name": "LanguageSelector",
+              "icon": "/icons/footer/amido/quicklinks/languageselector.svg",
+              "text": "Select Language",
+              "accessibilityText": "Select Language",
+              "tooltip": null,
+              "accessibilityTooltip": null,
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            }
+          ]
+        },
+        {
+          "title": "Logout",
+          "accessibilityTitle": "",
+          "elements": [
+            {
+              "type": "Logout",
+              "url": "/forget-me",
+              "openInNewWindow": false,
+              "name": "Logout",
+              "icon": "account_circle",
+              "text": "Not <username>?",
+              "accessibilityText": "Not <username>?",
+              "tooltip": null,
+              "accessibilityTooltip": null,
+              "description": "Logout of your account",
+              "accessibilityDescription": "Logout of your account",
+              "className": null
+            },
+            {
+              "type": "LogoutButton",
+              "url": "/forget-me",
+              "openInNewWindow": false,
+              "name": "LogoutButton",
+              "icon": "account_circle",
+              "text": "Sign Out",
+              "accessibilityText": "Sign Out",
+              "tooltip": null,
+              "accessibilityTooltip": null,
+              "description": "Logout of your account",
+              "accessibilityDescription": "Logout of your account",
+              "className": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "MainLinks",
+      "title": "MainLinks",
+      "accessibilityTitle": "MainLinks",
+      "subRegions": [
+        {
+          "title": "Help",
+          "accessibilityTitle": "Help",
+          "elements": [
+            {
+              "type": "Link",
+              "url": "/help",
+              "openInNewWindow": false,
+              "name": "FAQ",
+              "icon": null,
+              "text": "Frequently Asked Questions",
+              "accessibilityText": "Frequently Asked Questions",
+              "tooltip": "Frequently Asked Questions",
+              "accessibilityTooltip": "Frequently Asked Questions",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "/help/SubCategory/32250",
+              "openInNewWindow": false,
+              "name": "DeliveryInfo",
+              "icon": null,
+              "text": "Delivery Information",
+              "accessibilityText": "Delivery Information",
+              "tooltip": "Delivery Information",
+              "accessibilityTooltip": "Delivery Information",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "/secure/account/MyAccount/returns.aspx",
+              "openInNewWindow": false,
+              "name": "ReturnsInfo",
+              "icon": null,
+              "text": "Arrange A Return",
+              "accessibilityText": "Arrange A Return",
+              "tooltip": "Arrange a Return",
+              "accessibilityTooltip": "Arrange a Return",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "/help/Faq/32377",
+              "openInNewWindow": false,
+              "name": "ProductRecall",
+              "icon": null,
+              "text": "Product Recall",
+              "accessibilityText": "Product Recall",
+              "tooltip": "Product Recall",
+              "accessibilityTooltip": "Product Recall",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "tel: 0333 777 8000",
+              "openInNewWindow": false,
+              "name": "CustomerServices",
+              "icon": null,
+              "text": "Customer Services - 0333 777 8000",
+              "accessibilityText": "Customer Services - 0333 777 8000",
+              "tooltip": "Customer Services - 0333 777 8000",
+              "accessibilityTooltip": "Customer Services - 0333 777 8000",
+              "description": "Check your service provider for charges",
+              "accessibilityDescription": "Check your service provider for charges",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "/help/Faq/32475",
+              "openInNewWindow": false,
+              "name": "ContactUs",
+              "icon": null,
+              "text": "Contact Us",
+              "accessibilityText": "Contact Us",
+              "tooltip": "Contact Us",
+              "accessibilityTooltip": "Contact Us",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "https://accessible.amido.com",
+              "openInNewWindow": true,
+              "name": "AccessibleSite",
+              "icon": null,
+              "text": "Accessible Site",
+              "accessibilityText": "Accessible Site",
+              "tooltip": "Accessible Site",
+              "accessibilityTooltip": "Accessible Site",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "/help/Faq/32625",
+              "openInNewWindow": false,
+              "name": ">WebsiteAccessibilityPolicy",
+              "icon": null,
+              "text": "Website Accessibility Policy",
+              "accessibilityText": "Website Accessibility Policy",
+              "tooltip": "Website Accessibility Policy",
+              "accessibilityTooltip": "Website Accessibility Policy",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "https://www.accessable.co.uk/organisations/amido",
+              "openInNewWindow": true,
+              "name": "StoreAccessibility",
+              "icon": null,
+              "text": "Accessibility In Our Stores",
+              "accessibilityText": "Accessibility In Our Stores",
+              "tooltip": "Accessibility In Our Stores",
+              "accessibilityTooltip": "Accessibility In Our Stores",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "https://amido.clickspares.co.uk/",
+              "openInNewWindow": true,
+              "name": "SparePartsForFurniture",
+              "icon": null,
+              "text": "Spare Parts for Furniture",
+              "accessibilityText": "Spare Parts for Furniture",
+              "tooltip": "Spare Parts for Furniture",
+              "accessibilityTooltip": "Spare Parts for Furniture",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "/site-map",
+              "openInNewWindow": false,
+              "name": "Sitemap",
+              "icon": null,
+              "text": "Site Map",
+              "accessibilityText": "Site Map",
+              "tooltip": "Site Map",
+              "accessibilityTooltip": "Site Map",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "/help/faq/32476",
+              "openInNewWindow": false,
+              "name": "ComplaintsProcess",
+              "icon": null,
+              "text": "Complaints Process",
+              "accessibilityText": "Complaints Process",
+              "tooltip": "Complaints Process",
+              "accessibilityTooltip": "Complaints Process",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            }
+          ]
+        },
+        {
+          "title": "Shopping With Us",
+          "accessibilityTitle": "Shopping With Us",
+          "elements": [
+            {
+              "type": "Link",
+              "url": "/unlimited",
+              "openInNewWindow": false,
+              "name": "Amido Unlimited",
+              "icon": null,
+              "text": "Amido Unlimited",
+              "accessibilityText": "Amido Unlimited",
+              "tooltip": "Amido Unlimited",
+              "accessibilityTooltip": "Amido Unlimited",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "/credit",
+              "openInNewWindow": false,
+              "name": "AmidoCreditOptions",
+              "icon": null,
+              "text": "Amido Credit Options",
+              "accessibilityText": "Amido Credit Options",
+              "tooltip": "Amido Credit Options",
+              "accessibilityTooltip": "Amido Credit Options",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "/evouchers",
+              "openInNewWindow": false,
+              "name": "Evouchers",
+              "icon": null,
+              "text": "Evouchers",
+              "accessibilityText": "Evouchers",
+              "tooltip": "Evouchers",
+              "accessibilityTooltip": "Evouchers",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "https://flowers.amido.com/gift-cards",
+              "openInNewWindow": true,
+              "name": "GiftCards",
+              "icon": null,
+              "text": "Gift Cards",
+              "accessibilityText": "Gift Cards",
+              "tooltip": "Gift Cards",
+              "accessibilityTooltip": "Gift Cards",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "/shop/department-homeware-category-giftexperiences-0",
+              "openInNewWindow": false,
+              "name": "GiftExperiences",
+              "icon": null,
+              "text": "Gift Experiences",
+              "accessibilityText": "Gift Experiences",
+              "tooltip": "Gift Experiences",
+              "accessibilityTooltip": "Gift Experiences",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "https://flowers.amido.com",
+              "openInNewWindow": true,
+              "name": "Flowers",
+              "icon": null,
+              "text": "Flowers, Plants & Wine",
+              "accessibilityText": "Flowers, Plants & Wine",
+              "tooltip": "Flowers, Plants & Wine",
+              "accessibilityTooltip": "Flowers, Plants & Wine",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            }
+          ]
+        },
+        {
+          "title": "Privacy & Legal",
+          "accessibilityTitle": "Privacy & Legal",
+          "elements": [
+            {
+              "type": "Link",
+              "url": "/privacy",
+              "openInNewWindow": false,
+              "name": "Cookies&PrivacyPolicy",
+              "icon": null,
+              "text": "Cookies & Privacy Policy",
+              "accessibilityText": "Cookies & Privacy Policy",
+              "tooltip": "Cookies & Privacy Policy",
+              "accessibilityTooltip": "Cookies & Privacy Policy",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "/terms",
+              "openInNewWindow": false,
+              "name": "Terms&Conditions",
+              "icon": null,
+              "text": "Terms & Conditions",
+              "accessibilityText": "Terms & Conditions",
+              "tooltip": "Terms & Conditions",
+              "accessibilityTooltip": "Terms & Conditions",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            }
+          ]
+        },
+        {
+          "title": "More From Amido",
+          "accessibilityTitle": "More From Amido",
+          "elements": [
+            {
+              "type": "Link",
+              "url": "/apps",
+              "openInNewWindow": true,
+              "name": "Download the Amido App",
+              "icon": null,
+              "text": "Amido App",
+              "accessibilityText": "Amido App",
+              "tooltip": "Amido App",
+              "accessibilityTooltip": "Amido App",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "https://www.amido.com",
+              "openInNewWindow": true,
+              "name": "TheCompany",
+              "icon": null,
+              "text": "The Company",
+              "accessibilityText": "The Company",
+              "tooltip": "The Company",
+              "accessibilityTooltip": "The Company",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "https://www.amido.com/media/media-contacts",
+              "openInNewWindow": true,
+              "name": "Media&Press",
+              "icon": null,
+              "text": "Media & Press",
+              "accessibilityText": "Media & Press",
+              "tooltip": "Media & Press",
+              "accessibilityTooltip": "Media & Press",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "http://b2b.amido.com",
+              "openInNewWindow": true,
+              "name": "Business2Business",
+              "icon": null,
+              "text": "Business 2 Business",
+              "accessibilityText": "Business 2 Business",
+              "tooltip": "Business 2 Business",
+              "accessibilityTooltip": "Business 2 Business",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "/amido-franchise/",
+              "openInNewWindow": true,
+              "name": "AmidoFranchise",
+              "icon": null,
+              "text": "Amido Franchise",
+              "accessibilityText": "Amido Franchise",
+              "tooltip": "Amido Franchise",
+              "accessibilityTooltip": "Amido Franchise",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "https://careers.amido.com",
+              "openInNewWindow": true,
+              "name": "Careers@monorepo",
+              "icon": null,
+              "text": "Careers @ Amido",
+              "accessibilityText": "Careers @ Amido",
+              "tooltip": "Careers @ Amido",
+              "accessibilityTooltip": "Careers @ Amido",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "https://www.amido.com/~/media/Files/N/Amido-PLC-V2/documents/corporate-responsibility/human-rights-and-modern-slavery-2019.pdf",
+              "openInNewWindow": true,
+              "name": "ViewOurModernSlaveryStatement",
+              "icon": null,
+              "text": "View Our Modern Slavery Statement",
+              "accessibilityText": "View Our Modern Slavery Statement",
+              "tooltip": "View Our Modern Slavery Statement",
+              "accessibilityTooltip": "View Our Modern Slavery Statement",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            },
+            {
+              "type": "Link",
+              "url": "https://www.amido.com/~/media/Files/N/Amido-PLC-V2/documents/cr-reports/cr-2019.pdf",
+              "openInNewWindow": true,
+              "name": "CorporateResponsibilityReport",
+              "icon": null,
+              "text": "Corporate Responsibility Report",
+              "accessibilityText": "Corporate Responsibility Report",
+              "tooltip": "Corporate Responsibility Report",
+              "accessibilityTooltip": "Corporate Responsibility Report",
+              "description": "",
+              "accessibilityDescription": "",
+              "className": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Copyright",
+      "title": "Copyright",
+      "accessibilityTitle": "Copyright",
+      "subRegions": [
+        {
+          "title": "",
+          "accessibilityTitle": "",
+          "elements": [
+            {
+              "type": "MobileToggle",
+              "url": "/changedevice/mobile",
+              "openInNewWindow": true,
+              "name": "MobileToggle",
+              "icon": null,
+              "text": "View mobile site",
+              "accessibilityText": "View mobile site",
+              "tooltip": null,
+              "accessibilityTooltip": null,
+              "description": null,
+              "accessibilityDescription": null,
+              "className": null
+            },
+            {
+              "type": "DesktopToggle",
+              "url": "/changedevice/desktop",
+              "openInNewWindow": true,
+              "name": "DesktopToggle",
+              "icon": null,
+              "text": "View desktop site",
+              "accessibilityText": "View desktop site",
+              "tooltip": null,
+              "accessibilityTooltip": null,
+              "description": null,
+              "accessibilityDescription": null,
+              "className": null
+            },
+            {
+              "type": "Copyright",
+              "url": "",
+              "openInNewWindow": true,
+              "name": "Copyright",
+              "icon": null,
+              "text": "© <yyyy> Amido Ltd. All rights reserved.",
+              "accessibilityText": "© <yyyy> Amido Ltd. All rights reserved.",
+              "tooltip": null,
+              "accessibilityTooltip": null,
+              "description": null,
+              "accessibilityDescription": null,
+              "className": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` components: Li  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  list-style: none;
+  margin: 0 1rem 0 0;
+}
+
+.c0:last-child {
+  margin: "0 0.75rem 0 0";
+}
+
+<li
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[` components: Text  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  margin-right: 0.1rem;
+}
+
+<span
+    class="c0"
+  />
+</DocumentFragment>
+`;

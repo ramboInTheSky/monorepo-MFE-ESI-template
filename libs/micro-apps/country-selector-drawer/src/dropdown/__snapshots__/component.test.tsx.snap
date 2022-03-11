@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuItemCountryFlagImg component:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <img
+    class="component__MenuItemCountryFlagImg-sc-12h4p17-5 csySpc"
+  />
+</DocumentFragment>
+`;
+
+exports[`SelectedFormControl component:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="MuiFormControl-root component__SelectedFormControl-sc-12h4p17-2 ehNeAz"
+  />
+</DocumentFragment>
+`;
+
+exports[`SelectedMenuItem component:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <li
+    aria-disabled="false"
+    class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root component__SelectedMenuItem-sc-12h4p17-3 kwdflG MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+    role="menuitem"
+    tabindex="-1"
+  >
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </li>
+</DocumentFragment>
+`;
+
+exports[`StyledIcon component:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <img
+    class="component__StyledIcon-sc-12h4p17-4 cgiFIu"
+  />
+</DocumentFragment>
+`;
+
+exports[`StyledOutlinedInput component:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="MuiInputBase-root MuiOutlinedInput-root component__StyledOutlinedInput-sc-12h4p17-1 fjSKrf"
+  >
+    <input
+      class="MuiInputBase-input MuiOutlinedInput-input"
+      type="text"
+      value=""
+    />
+    <fieldset
+      aria-hidden="true"
+      class="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
+      style="padding-left: 8px;"
+    >
+      <legend
+        class="PrivateNotchedOutline-legend-2"
+        style="width: 0.01px;"
+      >
+        <span>
+          ​
+        </span>
+      </legend>
+    </fieldset>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`StyledSelect component:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="MuiInputBase-root MuiInput-root MuiInput-underline component__StyledSelect-sc-12h4p17-0 dbmTf"
+  >
+    <div
+      aria-haspopup="listbox"
+      class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+      role="button"
+      tabindex="0"
+    >
+      <span>
+        ​
+      </span>
+    </div>
+    <input
+      type="hidden"
+      value=""
+    />
+    <svg
+      aria-hidden="true"
+      class="MuiSvgIcon-root MuiSelect-icon"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M7 10l5 5 5-5z"
+      />
+    </svg>
+  </div>
+</DocumentFragment>
+`;

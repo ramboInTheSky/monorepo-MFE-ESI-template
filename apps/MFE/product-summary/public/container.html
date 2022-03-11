@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+  <head>
+    <title>Product Summary Test</title>
+    <meta
+      name="keywords"
+      content="Next,next.co.uk,Next Directory,Next Flowers,Next Electrics,fashion,clothes,womens,mens,childrens,home,furniture"
+    />
+    <meta
+      name="description"
+      content="The most comfortable spot in your home has to be your bed. Shop stylish bedsteads &amp; bed frames for an elegant addition. Next day delivery &amp; free returns available."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <esi:include src="__SITEURL__/productsummarystatic/dependencies/preloadvendor" onerror="continue" />
+    <esi:include src="__SITEURL__/productsummarystatic/baselinecss/materialui" onerror="continue" />
+    <esi:include src="__SITEURL__/productsummarystatic/baselinecss/custom" onerror="continue" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  </head>
+
+  <body>
+    <esi:include src="__SITEURL__/product-summary/__ITEM_NUMBER__" onerror="continue" />
+  </body>
+  <esi:include src="__SITEURL__/productsummarystatic/dependencies/bundlevendor" onerror="continue" />
+</html>

@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Desktop header When rendering should show the Desktop header 1`] = `
+<DocumentFragment>
+  .c0 {
+  -webkit-flex: 1 0 100%;
+  -ms-flex: 1 0 100%;
+  flex: 1 0 100%;
+  padding-bottom: 0.75rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    width: calc(75% - 1.5rem);
+    padding-top: 0.75rem;
+    -webkit-transform: translateY(-0.75rem);
+    -ms-transform: translateY(-0.75rem);
+    transform: translateY(-0.75rem);
+    position: fixed;
+    background: white;
+    z-index: 2;
+    max-width: 985px;
+    padding-bottom: 0.75rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    width: calc(75% - 1.5rem);
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    width: calc(80% - 1.5rem);
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    -webkit-flex: 1 0 25%;
+    -ms-flex: 1 0 25%;
+    flex: 1 0 25%;
+  }
+}
+
+@media (max-width:NaNpx) {
+  .c0 {
+    position: relative;
+    width: 100%;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div>
+      TEST PRODUCT TITLE 
+    </div>
+    <div>
+      TEST DESKTOP SORT 
+    </div>
+  </div>
+</DocumentFragment>
+`;

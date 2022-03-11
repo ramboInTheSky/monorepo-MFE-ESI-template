@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Product Component - TileCard should render as expected 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  height: auto;
+  overflow: inherit;
+}
+
+<div
+    class="MuiPaper-root MuiCard-root c0 MuiPaper-elevation1 MuiPaper-rounded"
+  />
+</DocumentFragment>
+`;
+
+exports[`Given a Product Component - TileCardBrandName should render as expected 1`] = `
+<DocumentFragment>
+  .c0 {
+  font-size: 1rem;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+<p
+    class="MuiTypography-root c0 MuiTypography-body1"
+  />
+</DocumentFragment>
+`;
+
+exports[`Given a Product Component - TileCardContent should render as expected 1`] = `
+<DocumentFragment>
+  .c0 {
+  padding: 0rem;
+  position: relative;
+}
+
+<div
+    class="MuiCardContent-root c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Given a Product Component - TileCardContent with Centered Theme should render as expected 1`] = `
+<DocumentFragment>
+  .c0 {
+  padding: 0rem;
+  position: relative;
+  text-align: center;
+}
+
+<div
+    class="MuiCardContent-root c0"
+  />
+</DocumentFragment>
+`;

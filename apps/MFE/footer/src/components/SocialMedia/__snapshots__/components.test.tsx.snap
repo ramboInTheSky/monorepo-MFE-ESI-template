@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialTitle:  should match the snapshot with SocialLinkIcon  1`] = `
+<DocumentFragment>
+  <img
+    class="components__SocialLinkIcon-sc-1h8wyu0-1 gLhcnT"
+  />
+</DocumentFragment>
+`;
+
+exports[`SocialTitle:  should match the snapshot with SocialTitle 1`] = `
+<DocumentFragment>
+  <p
+    class="MuiTypography-root components__SocialTitle-sc-1h8wyu0-0 eqGyQA MuiTypography-body1"
+  />
+</DocumentFragment>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - cookie:  should match the FilterCookie 1`] = `
+Object {
+  "filterCategorySettings": Object {
+    "test": Object {
+      "isOpen": true,
+      "viewMoreOpened": false,
+    },
+  },
+  "page": "test",
+}
+`;

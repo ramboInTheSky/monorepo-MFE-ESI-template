@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given Seo Heading renders correctly if browser 1`] = `
+<DocumentFragment>
+  <div
+    id="plp-seo-heading"
+  />
+</DocumentFragment>
+`;
+
+exports[`Given Seo Heading renders correctly if not browser 1`] = `
+<DocumentFragment>
+  <div
+    id="plp-seo-heading"
+  >
+    <div>
+      Test
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,18 @@
+{
+  "name": "dev_product_summary_server",
+  "version": "0.0.0",
+  "description": "this is a stub of the product summary api",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0",
+    "morgan": "^1.9.1",
+    "nodesi": "^1.13.0"
+  }
+}

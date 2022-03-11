@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Constants should match ACCOUNT_TYPE 1`] = `"AcctType"`;
+
+exports[`Constants should match BASELINECSS_CUSTOM 1`] = `"custom"`;
+
+exports[`Constants should match BASELINECSS_MATERIALUI 1`] = `"materialui"`;
+
+exports[`Constants should match BFPO 1`] = `"bfpo"`;
+
+exports[`Constants should match BR_COOKIE_COOKIE_CACHING_ID 1`] = `"_br_uid_2"`;
+
+exports[`Constants should match BR_COOKIE_COOKIE_FULL_RANGE 1`] = `100`;
+
+exports[`Constants should match BR_COOKIE_COOKIE_NAME 1`] = `"_br_mt_search"`;
+
+exports[`Constants should match BR_COOKIE_COOKIE_NUMBER_OF_DAYS 1`] = `1`;
+
+exports[`Constants should match BR_COOKIE_COOKIE_PARTS_LENGTH 1`] = `4`;
+
+exports[`Constants should match BR_COOKIE_COOKIE_UID_LENGTH 1`] = `2`;
+
+exports[`Constants should match BR_COOKIE_COOKIE_UID_PARTS 1`] = `2`;
+
+exports[`Constants should match BURGER_MENU_TEMPLATE 1`] = `"burgerMenu"`;
+
+exports[`Constants should match CHEVRON_ICON_URL 1`] = `"/icons/shared/chevron.svg"`;
+
+exports[`Constants should match CLOSE_ICON_URL 1`] = `"/icons/shared/close.svg"`;
+
+exports[`Constants should match CLOSE_SEARCH_DATA_GA 1`] = `"Close Search"`;
+
+exports[`Constants should match COMMON_ITEM_IMAGE_URL 1`] = `"/common/items/default/default/itemimages/altitembag/"`;
+
+exports[`Constants should match COOKIE_VALUE 1`] = `"AllowCookiesFromAmido=True"`;
+
+exports[`Constants should match COUNTRY_GB 1`] = `"gb"`;
+
+exports[`Constants should match COUNTRY_LANG_SELECTOR_DATA_GA 1`] = `"Country Language"`;
+
+exports[`Constants should match COUNTRY_SELECT_DROPDOWN_DATA_GA 1`] = `"Country Select"`;
+
+exports[`Constants should match COUNTRY_SELECTOR_DRAWER_BREAKPOINT 1`] = `"524px"`;
+
+exports[`Constants should match COUNTRY_SELECTOR_TYPING_DELAY_TIME 1`] = `2000`;
+
+exports[`Constants should match DEBOUNCE_TIME 1`] = `500`;
+
+exports[`Constants should match DEFAULT_HEADER_FILE_NAME 1`] = `"default-header.json"`;
+
+exports[`Constants should match DEFAULT_TEMPLATE 1`] = `"default"`;
+
+exports[`Constants should match DEV_ESI_HEADER 1`] = `"test-with-local-esi"`;
+
+exports[`Constants should match ENGLISH_LANGUAGE_CODE 1`] = `"en"`;
+
+exports[`Constants should match GTM_BLOOMREACH_INFO 1`] = `"bloomreach"`;
+
+exports[`Constants should match GTM_MONETATE_INFO 1`] = `"monetateEnabled"`;
+
+exports[`Constants should match GTM_UCM_INFO 1`] = `"isUserConsentFeatureEnabled"`;
+
+exports[`Constants should match HEADER_AUTOCOMPLETE_IMAGE_DATA_GA 1`] = `"image"`;
+
+exports[`Constants should match HEADER_AUTOCOMPLETE_LIST_ITEM_DATA_GA 1`] = `"list"`;
+
+exports[`Constants should match HEADER_AUTOCOMPLETE_SEE_ALL_RESULTS_DATA_GA 1`] = `"See All Results"`;
+
+exports[`Constants should match HEADER_NAV_BAR_HELP 1`] = `"Help"`;
+
+exports[`Constants should match HEADER_NAV_BAR_QUICK_LINKS 1`] = `"Quick Links"`;
+
+exports[`Constants should match HEADER_NAV_BAR_QUICK_LINKS_FAVOURITES 1`] = `"Favourites"`;
+
+exports[`Constants should match HEADER_NAV_BAR_QUICK_LINKS_MY_ACCOUNT 1`] = `"My Account"`;
+
+exports[`Constants should match HEADER_NAV_BAR_QUICK_LINKS_SHOPPING_BAG 1`] = `"Shopping bag"`;
+
+exports[`Constants should match HEADER_NAV_BAR_SHOPPING_BAG_CHECKOUT 1`] = `"Checkout"`;
+
+exports[`Constants should match HEADER_NAV_BAR_SHOPPING_BAG_VIEW_BAG 1`] = `"View Bag"`;
+
+exports[`Constants should match HEADER_NAV_BAR_STORE_LOCATOR 1`] = `"Store Locator"`;
+
+exports[`Constants should match IMAGE 1`] = `"image"`;
+
+exports[`Constants should match IN_STOCK 1`] = `"instock"`;
+
+exports[`Constants should match ITEM_ADD_TO_BAG_URL 1`] = `"/Item_AddToBag/"`;
+
+exports[`Constants should match JPG 1`] = `".jpg"`;
+
+exports[`Constants should match JSS_SERVERSIDE 1`] = `"header-jss-server-side-"`;
+
+exports[`Constants should match LANGUAGE_HEADER 1`] = `"x-monorepo-language"`;
+
+exports[`Constants should match LIMIT_AUTO_COMPLETE_SUGGESTIONS 1`] = `10`;
+
+exports[`Constants should match LOCAL_STORAGE_ACTIVE_DEPT_NAME 1`] = `"PrimaryNavDeptSelector"`;
+
+exports[`Constants should match LOCALHOST 1`] = `"localhost"`;
+
+exports[`Constants should match MIN_NUMBER_CHAR_TO_SHOW_AUTOCOMPLETE 1`] = `3`;
+
+exports[`Constants should match MODAL_TIMEOUT 1`] = `500`;
+
+exports[`Constants should match MY_ACCOUNT_URL 1`] = `"/myaccount"`;
+
+exports[`Constants should match AMIDO_COOKIE 1`] = `"AmidoConsentCookie"`;
+
+exports[`Constants should match AMIDO_DIRECT_COOKIE 1`] = `"AmidoDirectConsentCookie"`;
+
+exports[`Constants should match AMIDO_REALM 1`] = `"next"`;
+
+exports[`Constants should match NO_FOLLOW 1`] = `"nofollow"`;
+
+exports[`Constants should match OPEN_SEARCH_DATA_GA 1`] = `"Open Search"`;
+
+exports[`Constants should match PLP_ENTRYPOINT_ID 1`] = `"plp-entrypoint"`;
+
+exports[`Constants should match REALM_HEADER 1`] = `"x-monorepo-realm"`;
+
+exports[`Constants should match REGION_INTERNATIONAL 1`] = `"international"`;
+
+exports[`Constants should match REGION_UK 1`] = `"uk"`;
+
+exports[`Constants should match RPID 1`] = `"RPID"`;
+
+exports[`Constants should match RPID_COOKIE 1`] = `"RPId"`;
+
+exports[`Constants should match SEARCH_BLUR_BREAKPOINT 1`] = `"768px"`;
+
+exports[`Constants should match SEARCH_CLEAR_PREVIOUS_SEARCH_DATA_GA 1`] = `"Clear All Previous Search"`;
+
+exports[`Constants should match SEARCH_DATA_GA 1`] = `"Search"`;
+
+exports[`Constants should match SEARCH_DATA_GA_RECENT_SEARCH 1`] = `"Recent Search"`;
+
+exports[`Constants should match SEARCH_DELETE_CURRENT_SEARCH_DATA_GA 1`] = `"Delete Current Search"`;
+
+exports[`Constants should match SEARCH_ICON_DATA_GA 1`] = `"Press Icon"`;
+
+exports[`Constants should match SEARCH_KEY_PRESS_ENTER_DATA_GA 1`] = `"Key Press Enter"`;
+
+exports[`Constants should match SEARCH_PREVIOUS_SEARCH_DATA_GA 1`] = `"Previously Searched"`;
+
+exports[`Constants should match SITE_LAYOUT_HEADER 1`] = `"x-monorepo-viewport-size"`;
+
+exports[`Constants should match SITE_URL_HEADER 1`] = `"x-monorepo-siteurl"`;
+
+exports[`Constants should match SOFA_CATEGORY 1`] = `"sofas"`;
+
+exports[`Constants should match SOFA_CONTENT 1`] = `"SofaContent"`;
+
+exports[`Constants should match SOLD_OUT 1`] = `"soldout"`;
+
+exports[`Constants should match STICKY_HEADER_SCROLL_TRIGGER 1`] = `47`;
+
+exports[`Constants should match SUPPORTED_MY_ACCOUNT_TYPES 1`] = `
+Object {
+  "loggedIn": "MyAccountLoggedIn",
+  "loggedOut": "MyAccountLoggedOut",
+}
+`;
+
+exports[`Constants should match SUPPORTED_QUICKLINK_TYPES 1`] = `
+Object {
+  "Link": "link",
+  "MyAccount": "MyAccount",
+}
+`;
+
+exports[`Constants should match TERRITORY_HEADER 1`] = `"x-monorepo-territory"`;
+
+exports[`Constants should match TIME_MACHINE_DATE_COOKIE 1`] = `"time-machine-date"`;
+
+exports[`Constants should match TYPING_STATE 1`] = `
+Object {
+  "AUTO_COMPLETE": "AUTO_COMPLETE",
+  "IDLE": "IDLE",
+  "RECENT_SEARCH": "RECENT_SEARCH",
+}
+`;
+
+exports[`Constants should match UNDERSCORE 1`] = `"_"`;
+
+exports[`Constants should match UNLIMITED_CUSTOMER 1`] = `"unlimitedCustomer"`;
+
+exports[`Constants should match VISITED_PAGES 1`] = `"VisitedPages"`;

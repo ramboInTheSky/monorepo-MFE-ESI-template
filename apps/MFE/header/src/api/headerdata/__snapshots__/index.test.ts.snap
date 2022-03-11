@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a getHeaderData() Given an error request should call the error logger 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "Failed to load the header api: ",
+      [Error: 500 error],
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;

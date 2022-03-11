@@ -1,0 +1,142 @@
+{
+  "languages": [
+    {
+      "id": "1",
+      "displayText": "Bahasa Melayu",
+      "name": "ms",
+      "url": "/ms"
+    },
+    {
+      "id": "2",
+      "displayText": "български",
+      "name": "bg",
+      "url": "/bg"
+    },
+    {
+      "id": "3",
+      "displayText": "Čeština",
+      "name": "cs",
+      "url": "/cs"
+    },
+    {
+      "id": "4",
+      "displayText": "中文",
+      "name": "zh",
+      "url": "/zh"
+    },
+    {
+      "id": "5",
+      "displayText": "Dansk",
+      "name": "da",
+      "url": "/da"
+    },
+    {
+      "id": "6",
+      "displayText": "Deutsch",
+      "name": "de",
+      "url": "/de"
+    },
+    {
+      "id": "7",
+      "displayText": "English",
+      "name": "en",
+      "url": "/en"
+    },
+    {
+      "id": "8",
+      "displayText": "Español",
+      "name": "es",
+      "url": "/es"
+    },
+    {
+      "id": "9",
+      "displayText": "Français",
+      "name": "fr",
+      "url": "/fr"
+    },
+    {
+      "id": "10",
+      "displayText": "עברית",
+      "name": "he",
+      "url": "/he"
+    },
+    {
+      "id": "11",
+      "displayText": "Italiano",
+      "name": "it",
+      "url": "/it"
+    },
+    {
+      "id": "12",
+      "displayText": "Magyar",
+      "name": "hu",
+      "url": "/hu"
+    },
+    {
+      "id": "13",
+      "displayText": "Nederlands",
+      "name": "nl",
+      "url": "/nl"
+    },
+    {
+      "id": "14",
+      "displayText": "Polski",
+      "name": "pl",
+      "url": "/pl"
+    },
+    {
+      "id": "15",
+      "displayText": "Română",
+      "name": "ro",
+      "url": "/ro"
+    },
+    {
+      "id": "16",
+      "displayText": "العربية ",
+      "name": "ar",
+      "url": "/ar"
+    },
+    {
+      "id": "17",
+      "displayText": "Slovenčina ",
+      "name": "sk",
+      "url": "/sk"
+    },
+    {
+      "id": "18",
+      "displayText": "Slovenščina ",
+      "name": "sl",
+      "url": "/sl"
+    },
+    {
+      "id": "19",
+      "displayText": "Svenska ",
+      "name": "sv",
+      "url": "/sv"
+    },
+    {
+      "id": "20",
+      "displayText": "Ελληνικά ",
+      "name": "el",
+      "url": "/el"
+    },
+    {
+      "id": "21",
+      "displayText": "Русский ",
+      "name": "ru",
+      "url": "/ru"
+    },
+    {
+      "id": "22",
+      "displayText": "한국어 ",
+      "name": "ko",
+      "url": "/ko"
+    },
+    {
+      "id": "23",
+      "displayText": "日本語",
+      "name": "ja",
+      "url": "/ja"
+    }
+  ]
+}

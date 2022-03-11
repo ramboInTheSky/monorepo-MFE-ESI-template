@@ -1,0 +1,379 @@
+{
+  "totalResults": 96,
+  "filters": [
+    {
+      "name": "Feat",
+      "displayName": "",
+      "type": "feat",
+      "options": [
+        {
+          "n": "New In",
+          "c": 364,
+          "v": "newin",
+          "s": true
+        },
+        {
+          "n": "In Stock",
+          "c": 2405,
+          "v": "instock"
+        }
+      ]
+    },
+    {
+      "name": "Size",
+      "displayName": "Size",
+      "type": "filter",
+      "options": [
+        {
+          "n": "1 Tall",
+          "c": 24,
+          "v": "1tall",
+          "s": true
+        },
+        {
+          "n": "2",
+          "c": 3,
+          "v": "2",
+          "s": true
+        },
+        {
+          "n": "3",
+          "c": 3,
+          "v": "3",
+          "s": true
+        },
+        {
+          "n": "4 Tall",
+          "c": 24,
+          "v": "4tall",
+          "s": true
+        },
+        {
+          "n": "5",
+          "c": 3,
+          "v": "5",
+          "s": true
+        },
+        {
+          "n": "6 Tall",
+          "c": 24,
+          "v": "6tall",
+          "s": true
+        },
+        {
+          "n": "7",
+          "c": 3,
+          "v": "7",
+          "s": true
+        },
+        {
+          "n": "8 Tall",
+          "c": 24,
+          "v": "8tall",
+          "s": true
+        },
+        {
+          "n": "9",
+          "c": 3,
+          "v": "9",
+          "s": true
+        }
+      ]
+    },
+    {
+      "name": "Colour",
+      "displayName": "Display Colour",
+      "type": "filter",
+      "options": [
+        {
+          "n": "8 Tall",
+          "c": 24,
+          "v": "8tall",
+          "s": true
+        },
+        {
+          "n": "18",
+          "c": 3,
+          "v": "18",
+          "s": true
+        }
+      ]
+    },
+    {
+      "name": "Style",
+      "displayName": "Style",
+      "type": "filter",
+      "options": [
+        {
+          "n": "Aaaaa Aaaaaa",
+          "c": 24,
+          "v": "1tall",
+          "s": true
+        },
+        {
+          "n": "Bbbbbbbbbb",
+          "c": 3,
+          "v": "2",
+          "s": true
+        },
+        {
+          "n": "Dddddd Dddddd DDddddddddddd",
+          "c": 3,
+          "v": "3"
+        },
+        {
+          "n": "CCCCC",
+          "c": 24,
+          "v": "4tall",
+          "s": true
+        },
+        {
+          "n": "JJJJJJ",
+          "c": 3,
+          "v": "5"
+        },
+        {
+          "n": "VVVVV",
+          "c": 24,
+          "v": "6tall",
+          "s": true
+        },
+        {
+          "n": "AAAA",
+          "c": 3,
+          "v": "7"
+        },
+        {
+          "n": "XXXXX",
+          "c": 24,
+          "v": "8tall",
+          "s": true
+        },
+        {
+          "n": "9",
+          "c": 3,
+          "v": "9",
+          "s": true
+        },
+        {
+          "n": "10",
+          "c": 3,
+          "v": "10",
+          "s": true
+        },
+        {
+          "n": "11",
+          "c": 3,
+          "v": "11",
+          "s": true
+        },
+        {
+          "n": "12",
+          "c": 3,
+          "v": "12",
+          "s": true
+        },
+        {
+          "n": "13",
+          "c": 3,
+          "v": "13",
+          "s": true
+        },
+        {
+          "n": "14",
+          "c": 3,
+          "v": "14",
+          "s": true
+        },
+        {
+          "n": "15",
+          "c": 3,
+          "v": "15",
+          "s": true
+        },
+        {
+          "n": "16",
+          "c": 3,
+          "v": "16",
+          "s": true
+        },
+        {
+          "n": "17",
+          "c": 3,
+          "v": "17",
+          "s": true
+        },
+        {
+          "n": "18",
+          "c": 3,
+          "v": "18",
+          "s": true
+        },
+        {
+          "n": "19",
+          "c": 3,
+          "v": "19",
+          "s": true
+        },
+        {
+          "n": "20",
+          "c": 3,
+          "v": "20",
+          "s": true
+        },
+        {
+          "n": "21",
+          "c": 3,
+          "v": "21",
+          "s": true
+        }
+      ]
+    },
+    {
+      "name": "Price",
+      "displayName": "Price",
+      "type": "price",
+      "currencyCode": "GBP",
+      "min": 0,
+      "max": 100,
+      "selectedMin": 20,
+      "selectedMax": 100
+    }
+  ],
+  "items": [
+    {
+      "itemNumber": "X3999999",
+      "newIn": true
+    },
+    {
+      "itemNumber": "X3800845",
+      "newIn": false
+    },
+    {
+      "itemNumber": "X3111111",
+      "newIn": false
+    },
+    {
+      "itemNumber": "X32222",
+      "newIn": false
+    },
+    {
+      "itemNumber": "X3333",
+      "newIn": true
+    },
+    {
+      "itemNumber": "X34444",
+      "newIn": false
+    },
+    {
+      "itemNumber": "X35555",
+      "newIn": false
+    },
+    {
+      "itemNumber": "X36666",
+      "newIn": false
+    },
+    {
+      "itemNumber": "X380077784",
+      "newIn": false
+    },
+    {
+      "itemNumber": "X31008884",
+      "newIn": true
+    },
+    {
+      "itemNumber": "X32008884",
+      "newIn": true
+    },
+    {
+      "itemNumber": "X33008884",
+      "newIn": true
+    },
+    {
+      "itemNumber": "X34008884",
+      "newIn": true
+    },
+    {
+      "itemNumber": "X35008884",
+      "newIn": true
+    },
+    {
+      "itemNumber": "X36008884",
+      "newIn": true
+    },
+    {
+      "itemNumber": "X37008884",
+      "newIn": true
+    },
+    {
+      "itemNumber": "X37108884",
+      "newIn": true
+    },
+    {
+      "itemNumber": "X37208884",
+      "newIn": true
+    },
+    {
+      "itemNumber": "X37308884",
+      "newIn": true
+    },
+    {
+      "itemNumber": "X37408884",
+      "newIn": true
+    },
+    {
+      "itemNumber": "X37508884",
+      "newIn": true
+    },
+    {
+      "itemNumber": "X37608884",
+      "newIn": true
+    },
+    {
+      "itemNumber": "X37808884",
+      "newIn": true
+    },
+    {
+      "itemNumber": "X37908884",
+      "newIn": true
+    }
+  ],
+  "pagination": {
+    "totalResults": 2403,
+    "numberOfItems": 24,
+    "start": 0,
+    "previousPageUrl": "http://resourceUrl/resourceEndpoint?params",
+    "nextPageUrl": "http://resourceUrl/resourceEndpoint?params"
+  },
+  "keywordRedirect": {
+    "redirectedUrl": "/clearance",
+    "redirectedQuery": "clearance",
+    "originalQuery": "clearance"
+  },
+  "sorting": {
+    "selected": "newpop",
+    "options": [
+      {
+        "name": "Most Relevant",
+        "value": "score"
+      },
+      {
+        "name": "Most Popular",
+        "value": "newpop"
+      },
+      {
+        "name": "Alphabetical",
+        "value": "alpha"
+      },
+      {
+        "name": "Price: Low - High",
+        "value": "pricelow"
+      },
+      {
+        "name": "Price: High - Low",
+        "value": "pricehi"
+      }
+    ]
+  },
+  "redirect": null
+}

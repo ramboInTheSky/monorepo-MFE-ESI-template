@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SeoLink should not render as expected with no next pages available 1`] = `<DocumentFragment />`;
+
+exports[`SeoLink should not render as expected with no previous pages available 1`] = `<DocumentFragment />`;
+
+exports[`SeoLink should render as expected with next page 1`] = `<DocumentFragment />`;
+
+exports[`SeoLink should render as expected with previous page 1`] = `<DocumentFragment />`;

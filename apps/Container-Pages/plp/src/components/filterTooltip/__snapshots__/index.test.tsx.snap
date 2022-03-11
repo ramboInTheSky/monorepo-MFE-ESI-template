@@ -1,0 +1,597 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TooltipComponent:  should not break if filter is some other value: 'feat:TEST' 1`] = `
+<DocumentFragment>
+  .c0 {
+  z-index: 4;
+}
+
+.c1 {
+  box-shadow: 0rem 0.1875rem 0.25rem 0rem #888888;
+  width: 1.1875rem;
+  height: 1.1875rem;
+  margin: -1.5625rem 0.875rem 0.6875rem 15.0625rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-left: solid 0.0625rem gray;
+  border-bottom: solid 0.0625rem gray;
+  background-color: white;
+  position: absolute;
+  z-index: 2;
+}
+
+.c2 {
+  width: 1.1875rem;
+  height: 1.1875rem;
+  margin: -1.5625rem 0.875rem 0.6875rem 15.0625rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-left: solid 0.0625rem gray;
+  border-bottom: solid 0.0625rem gray;
+  background-color: white;
+  position: absolute;
+  z-index: 3;
+}
+
+.c3 {
+  box-shadow: 0rem 0.1875rem 0.25rem 0.0625rem #888888;
+  position: absolute;
+  left: 15.625rem;
+  width: 16.9375rem;
+  padding: 0 0.25rem 1rem 0.875rem;
+  border: solid 0.0625rem gray;
+  border-radius: 0.25rem;
+  background-color: white;
+  z-index: 2;
+  margin-top: -3.3rem;
+  min-height: 5.3125rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c5 {
+  height: 1.3125rem;
+  margin: 1rem 0rem 0.75rem 0.125rem;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 1.4;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c8 {
+  width: 14.875rem;
+  margin: 0.0625rem 0.8125rem 0 0.125rem;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c6 {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  padding-right: 0.9375rem;
+}
+
+.c7 {
+  height: 13.4px;
+  width: 13.4px;
+}
+
+<div
+    class="c0"
+    data-testid="plp-facet-tooltip-feat:test"
+  >
+    <span
+      class="c1"
+    />
+    <span
+      class="c2"
+    />
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <div
+          class="c5"
+          data-testid="plp-facet-tooltip-title-feat:test"
+        />
+        <button
+          class="c6"
+          data-testid="plp-filters-close-button"
+        >
+          <img
+            alt="Close Icon"
+            aria-label="feat:TEST-filter-tooltip-close"
+            class="c7"
+            src="/static-content/icons/shared/close-black.svg"
+          />
+        </button>
+      </div>
+      <div
+        class="c8"
+        data-testid="plp-facet-tooltip-body-feat:test"
+      >
+         
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TooltipComponent:  should render correctly if filter is 'feat:available', and trigger the correct function if the close button is clicked 1`] = `
+<DocumentFragment>
+  .c0 {
+  z-index: 4;
+}
+
+.c1 {
+  box-shadow: 0rem 0.1875rem 0.25rem 0rem #888888;
+  width: 1.1875rem;
+  height: 1.1875rem;
+  margin: -1.5625rem 0.875rem 0.6875rem 15.0625rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-left: solid 0.0625rem gray;
+  border-bottom: solid 0.0625rem gray;
+  background-color: white;
+  position: absolute;
+  z-index: 2;
+}
+
+.c2 {
+  width: 1.1875rem;
+  height: 1.1875rem;
+  margin: -1.5625rem 0.875rem 0.6875rem 15.0625rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-left: solid 0.0625rem gray;
+  border-bottom: solid 0.0625rem gray;
+  background-color: white;
+  position: absolute;
+  z-index: 3;
+}
+
+.c3 {
+  box-shadow: 0rem 0.1875rem 0.25rem 0.0625rem #888888;
+  position: absolute;
+  left: 15.625rem;
+  width: 16.9375rem;
+  padding: 0 0.25rem 1rem 0.875rem;
+  border: solid 0.0625rem gray;
+  border-radius: 0.25rem;
+  background-color: white;
+  z-index: 2;
+  margin-top: -3.3rem;
+  min-height: 5.3125rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c5 {
+  height: 1.3125rem;
+  margin: 1rem 0rem 0.75rem 0.125rem;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 1.4;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c8 {
+  width: 14.875rem;
+  margin: 0.0625rem 0.8125rem 0 0.125rem;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c9 {
+  color: #257F39;
+}
+
+.c6 {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  padding-right: 0.9375rem;
+}
+
+.c7 {
+  height: 13.4px;
+  width: 13.4px;
+}
+
+<div
+    class="c0"
+    data-testid="plp-facet-tooltip-feat:available"
+  >
+    <span
+      class="c1"
+    />
+    <span
+      class="c2"
+    />
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <div
+          class="c5"
+          data-testid="plp-facet-tooltip-title-feat:available"
+        >
+          In Stock
+        </div>
+        <button
+          class="c6"
+          data-testid="plp-filters-close-button"
+        >
+          <img
+            alt="Close Icon"
+            aria-label="feat:available-filter-tooltip-close"
+            class="c7"
+            src="/static-content/icons/shared/close-black.svg"
+          />
+        </button>
+      </div>
+      <div
+        class="c8"
+        data-testid="plp-facet-tooltip-body-feat:available"
+      >
+         
+        <span>
+          <a
+            aria-label="feat:available-filter-tooltip-terms"
+            class="c9"
+            href="/terms"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TooltipComponent:  should render correctly if filter is 'feat:backinstock' 1`] = `
+<DocumentFragment>
+  .c0 {
+  z-index: 4;
+}
+
+.c1 {
+  box-shadow: 0rem 0.1875rem 0.25rem 0rem #888888;
+  width: 1.1875rem;
+  height: 1.1875rem;
+  margin: -1.5625rem 0.875rem 0.6875rem 15.0625rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-left: solid 0.0625rem gray;
+  border-bottom: solid 0.0625rem gray;
+  background-color: white;
+  position: absolute;
+  z-index: 2;
+}
+
+.c2 {
+  width: 1.1875rem;
+  height: 1.1875rem;
+  margin: -1.5625rem 0.875rem 0.6875rem 15.0625rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-left: solid 0.0625rem gray;
+  border-bottom: solid 0.0625rem gray;
+  background-color: white;
+  position: absolute;
+  z-index: 3;
+}
+
+.c3 {
+  box-shadow: 0rem 0.1875rem 0.25rem 0.0625rem #888888;
+  position: absolute;
+  left: 15.625rem;
+  width: 16.9375rem;
+  padding: 0 0.25rem 1rem 0.875rem;
+  border: solid 0.0625rem gray;
+  border-radius: 0.25rem;
+  background-color: white;
+  z-index: 2;
+  margin-top: -3.3rem;
+  min-height: 5.3125rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c5 {
+  height: 1.3125rem;
+  margin: 1rem 0rem 0.75rem 0.125rem;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 1.4;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c8 {
+  width: 14.875rem;
+  margin: 0.0625rem 0.8125rem 0 0.125rem;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c6 {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  padding-right: 0.9375rem;
+}
+
+.c7 {
+  height: 13.4px;
+  width: 13.4px;
+}
+
+<div
+    class="c0"
+    data-testid="plp-facet-tooltip-feat:backinstock"
+  >
+    <span
+      class="c1"
+    />
+    <span
+      class="c2"
+    />
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <div
+          class="c5"
+          data-testid="plp-facet-tooltip-title-feat:backinstock"
+        >
+          Back in stock
+        </div>
+        <button
+          class="c6"
+          data-testid="plp-filters-close-button"
+        >
+          <img
+            alt="Close Icon"
+            aria-label="feat:backinstock-filter-tooltip-close"
+            class="c7"
+            src="/static-content/icons/shared/close-black.svg"
+          />
+        </button>
+      </div>
+      <div
+        class="c8"
+        data-testid="plp-facet-tooltip-body-feat:backinstock"
+      >
+         
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`TooltipComponent:  should render correctly if filter is 'feat:deliveryby' 1`] = `
+<DocumentFragment>
+  .c0 {
+  z-index: 4;
+}
+
+.c1 {
+  box-shadow: 0rem 0.1875rem 0.25rem 0rem #888888;
+  width: 1.1875rem;
+  height: 1.1875rem;
+  margin: -1.5625rem 0.875rem 0.6875rem 15.0625rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-left: solid 0.0625rem gray;
+  border-bottom: solid 0.0625rem gray;
+  background-color: white;
+  position: absolute;
+  z-index: 2;
+}
+
+.c2 {
+  width: 1.1875rem;
+  height: 1.1875rem;
+  margin: -1.5625rem 0.875rem 0.6875rem 15.0625rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-left: solid 0.0625rem gray;
+  border-bottom: solid 0.0625rem gray;
+  background-color: white;
+  position: absolute;
+  z-index: 3;
+}
+
+.c3 {
+  box-shadow: 0rem 0.1875rem 0.25rem 0.0625rem #888888;
+  position: absolute;
+  left: 15.625rem;
+  width: 16.9375rem;
+  padding: 0 0.25rem 1rem 0.875rem;
+  border: solid 0.0625rem gray;
+  border-radius: 0.25rem;
+  background-color: white;
+  z-index: 2;
+  margin-top: -3.3rem;
+  min-height: 5.3125rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c5 {
+  height: 1.3125rem;
+  margin: 1rem 0rem 0.75rem 0.125rem;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 1.4;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c8 {
+  width: 14.875rem;
+  margin: 0.0625rem 0.8125rem 0 0.125rem;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c9 {
+  color: #257F39;
+}
+
+.c6 {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  padding-right: 0.9375rem;
+}
+
+.c7 {
+  height: 13.4px;
+  width: 13.4px;
+}
+
+<div
+    class="c0"
+    data-testid="plp-facet-tooltip-feat:deliveryby"
+  >
+    <span
+      class="c1"
+    />
+    <span
+      class="c2"
+    />
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <div
+          class="c5"
+          data-testid="plp-facet-tooltip-title-feat:deliveryby"
+        >
+          Deliver by Christmas
+        </div>
+        <button
+          class="c6"
+          data-testid="plp-filters-close-button"
+        >
+          <img
+            alt="Close Icon"
+            aria-label="feat:deliveryby-filter-tooltip-close"
+            class="c7"
+            src="/static-content/icons/shared/close-black.svg"
+          />
+        </button>
+      </div>
+      <div
+        class="c8"
+        data-testid="plp-facet-tooltip-body-feat:deliveryby"
+      >
+         2021). 
+        <span>
+          <a
+            aria-label="feat:deliveryby-filter-tooltip-terms"
+            class="c9"
+            href="/terms"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

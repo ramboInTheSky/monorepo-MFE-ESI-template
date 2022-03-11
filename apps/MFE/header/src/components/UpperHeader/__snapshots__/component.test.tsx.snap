@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UpperHeader component:  Container:  should match the snapshot on desktop 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #000000;
+  color: #ffffff;
+  height: 2.75rem;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    height: 2.75rem;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`UpperHeader component:  Container:  should match the snapshot on desktop when scrolling 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #000000;
+  color: #ffffff;
+  height: 2.75rem;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    height: 2.75rem;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`UpperHeader component:  Container:  should match the snapshot on mobile when scrolling 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: none;
+  background-color: #000000;
+  color: #ffffff;
+  height: 2.75rem;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    height: 2.75rem;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;

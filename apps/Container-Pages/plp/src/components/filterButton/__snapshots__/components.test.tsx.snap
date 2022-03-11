@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshots - Filter Button StyledFilterButton 1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  padding-left: 0;
+  color: #257f39;
+  background-color: transparent;
+  overflow-anchor: none;
+  min-width: auto;
+}
+
+.c0.c0.c0.c0:hover {
+  background-color: transparent;
+}
+
+.c0.c0.c0.c0:focus {
+  border: none;
+}
+
+.c0.c0.c0.c0 span {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+<button
+    backgroundcolour="red"
+    class="MuiButtonBase-root MuiButton-root MuiButton-text c0"
+    focusoutlinecolour="pink"
+    tabindex="0"
+    textcolour="red"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      Test
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+</DocumentFragment>
+`;

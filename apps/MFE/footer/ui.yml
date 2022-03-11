@@ -1,0 +1,441 @@
+# Only build PR's into Master (i.e. 'going live')
+pr:
+  - master
+
+trigger:
+  branches:
+    include:
+      - feature/*
+      - master
+      - release/*
+  paths:
+    include:
+      - apps/MFE/footer
+    exclude:
+      - /
+
+resources:
+  repositories:
+    - repository: AmidoEcommerce
+      type: git
+      name: Amido.Ecommerce.Infrastructure/Amido.Ecommerce.Infrastructure.Templates
+      ref: refs/tags/1.0.113 # This will need to be updated/removed to use latest
+
+variables:
+  # Global Variables
+  - name: project
+    value: 'amido-ecommerce-footer-ui'
+  - name: tag
+    value: '$(Build.BuildId)'
+  - name: namespace
+    value: 'footer'
+  # Registrys
+  - name: registryName_sx
+    value: ecmbrowse01acrsxeuw
+  # - name: registryName_ci
+  #   value: ecmbrowse01acrcieuw
+  # - name: registryName_pp
+  #   value: ecmbrowse01acrppeuw
+  # - name: registryName_pd
+  #   value: ecmbrowse01acrpdeuw
+
+  # Subscriptions
+  - name: sx_subscription
+    value: 'ecmbrowse01spnsxeuw'
+  - name: ci_subscription
+    value: 'ecmbrowse01spncieuw'
+  # - name: pp_subscription
+  #   value: 'ecmbrowse01spnppeuw'
+  # - name: pd_subscription
+  #   value: 'ecmbrowse01spnpdeuw'
+
+  # Versioning
+  - name: Version.Major
+    value: 1
+  - name: Version.Minor
+    value: 0
+  - name: Version.Revision
+    value: $[counter(variables['Version.Minor'], 0)
+  # Application Variables
+  - name: helm_overrides
+    value: 'domain=$(ingress_domain),ingress.enabled=true,application.appInsightsKey=$(appInsightsKey),application.apiBaseUrl=$(apiBaseUrl),application.cdnBaseUrl=$(cdnBaseUrl),application.appUrl=$(appUrl),application.blobStorageSSRBaseURL=$(blobStorageSSRBaseURL),application.app_entrypoint=$(app_entrypoint),application.assets_path=$(assets_path),application.generate_sourcemap=$(generate_sourcemap),application.log_level=$(log_level)'
+  - name: helm_version
+    value: 3.3.1
+
+stages:
+  - stage: Prereqs
+    displayName: 'Prerequisites'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/build-updatebuildnumber.yml@AmidoEcommerce
+        parameters:
+          build_number: '$(Version.Major).$(Version.Minor).$(Version.Revision)'
+
+  - stage: Build
+    displayName: 'Build'
+    dependsOn: Prereqs
+    variables:
+      - group: 'Sandbox.eCommerce.Footer.Frontend.EUN'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/build-docker.yml@AmidoEcommerce
+        parameters:
+          projectName: $(project)
+          registryName: $(registryName_sx)
+          dockerContext: 'apps/MFE/footer/'
+          docker_build_args:
+            '--build-arg ASSETS_PATH=$(assets_path) --build-arg
+            REACT_APP_BLOB_STORAGE_SSR_BASEURL=$(blobStorageSSRBaseURL)'
+          dockerfile_name: 'Dockerfile'
+          nugetRestore: false
+          dockerBuildTarget: 'test'
+          testfileString: 'junit.xml'
+          search: true
+          searchfolders: |
+            /app
+          sourceFolder: '/testresults'
+          imagefilter: 'label=test=true'
+          testresultsfiles: '**/junit.xml'
+          testResultsFormat: 'JUnit'
+          host_port: 3003
+          disabledruleoptions: 'document-title,html-has-lang'
+          subscription: '$(sx_subscription)'
+          scan_image: 'true'
+      #           veracodeScan: true - TODO: Add the application to veracodeScan once access has been granted PBI in back log for this
+      #           appId: ''
+      #           applicationType: 'frontend'
+      #           service_connection: 'prisma_compute'
+
+      - job: Helm_Build
+        pool:
+          vmImage: 'ubuntu-latest'
+        steps:
+          - template: azDevOps/azure/templates/steps/pack-helm.yml@AmidoEcommerce # Template reference
+            parameters:
+              projectName: $(project)
+              registryName: $(registryName_sx)
+              Subscription: '$(sx_subscription)'
+              context: $(system.defaultWorkingDirectory)/apps/MFE/footer/charts/amido-ecommerce-footer-ui
+
+  - stage: deploy_sandbox_eun
+    displayName: 'Sandbox EUN'
+    dependsOn: Build
+    condition: and(succeeded('Build'), not(startsWith(variables['Build.SourceBranch'], 'refs/heads/release/')), or(eq(variables['Build.SourceBranch'], 'refs/heads/master'), or(eq(variables['Build.Reason'], 'PullRequest'), eq(variables['Build.Reason'], 'Manual'))))
+    variables:
+      - group: 'Sandbox.eCommerce.Footer.Frontend.EUN'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'sx'
+          # Platform Authentication
+          kubernetes_service_connection: 'Kubernetes_Sandbox.eCommerce_Browse01_EUN'
+          acr_service_connection: '$(sx_subscription)'
+          # Registry Configuration
+          registry_name: $(registryName_sx)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          # Resource Configuration
+          helm_version: $(helm_version)
+          chart_name: 'amido-ecommerce-footer-ui'
+          overrides: $(helmOverrides)
+          namespace: $(namespace)
+          # Test Configuration
+          lighthouse_test: true
+          relative_path_to_lighthouse_tests: 'apps/MFE/footer/lighthouse'
+          lighthouse_target_url: '$(appUrl)/footer'
+          upload_to_lighthouse_server: false
+          lighthouse_artifact_name: 'sxeun'
+
+  - stage: deploy_sandbox_euw
+    displayName: 'Sandbox EUW'
+    dependsOn: Build
+    condition: and(succeeded('Build'), not(startsWith(variables['Build.SourceBranch'], 'refs/heads/release/')), or(eq(variables['Build.SourceBranch'], 'refs/heads/master'), or(eq(variables['Build.Reason'], 'PullRequest'), eq(variables['Build.Reason'], 'Manual'))))
+    variables:
+      - group: 'Sandbox.eCommerce.Footer.Frontend.EUW'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'sx'
+          # Platform Authentication
+          kubernetes_service_connection: 'Kubernetes_Sandbox.eCommerce_Browse01_EUW'
+          acr_service_connection: '$(sx_subscription)'
+          # Registry Configuration
+          registry_name: $(registryName_sx)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          # Resource Configuration
+          helm_version: $(helm_version)
+          chart_name: 'amido-ecommerce-footer-ui'
+          overrides: $(helmOverrides)
+          namespace: $(namespace)
+          # Test Configuration
+          lighthouse_test: true
+          relative_path_to_lighthouse_tests: 'apps/MFE/footer/lighthouse'
+          lighthouse_target_url: '$(appUrl)/footer'
+          upload_to_lighthouse_server: false
+          lighthouse_artifact_name: 'sxeuw'
+
+  - stage: promote_ci
+    displayName: 'Promote to CI'
+    dependsOn:
+      - Build
+      - deploy_sandbox_eun
+      - deploy_sandbox_euw
+    condition:
+      and(succeeded('Build'), or(and(succeeded('deploy_sandbox_eun'), succeeded('deploy_sandbox_euw'),
+      eq(variables['Build.SourceBranch'], 'refs/heads/master')), startsWith(variables['Build.SourceBranch'],
+      'refs/heads/release/')))
+    jobs:
+      - template: azDevOps/azure/templates/jobs/promote-container.yml@AmidoEcommerce
+        parameters:
+          source_container_name: $(project)
+          destination_container_name: $(project)
+          source_acr: $(registryName_sx)
+          destination_acr: $(registryName_ci)
+          source_subscription: '$(sx_subscription)'
+          destination_subscription: '$(ci_subscription)'
+          tag: $(Build.BuildNumber)
+
+  - stage: deploy_ci_eun
+    displayName: 'CI EUN'
+    dependsOn: promote_ci
+    condition: succeeded('promote_ci')
+    variables:
+      - group: 'CI.eCommerce.Footer.Frontend.EUN'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'ci'
+          kubernetes_service_connection: 'Kubernetes_CI.eCommerce_Browse01_EUN'
+          registry_name: $(registryName_ci)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: 'amido-ecommerce-footer-ui'
+          overrides: $(helmOverrides)
+          namespace: $(namespace)
+          acr_service_connection: '$(ci_subscription)'
+          lighthouse_test: true
+          relative_path_to_lighthouse_tests: 'apps/MFE/footer/lighthouse'
+          lighthouse_target_url: '"$(appUrl)/footer"'
+          upload_to_lighthouse_server: false
+          lighthouse_artifact_name: 'cieun'
+
+  - stage: deploy_ci_euw
+    displayName: 'CI EUW'
+    dependsOn: promote_ci
+    condition: succeeded('promote_ci')
+    variables:
+      - group: 'CI.eCommerce.Footer.Frontend.EUW'
+    jobs:
+      - template: azDevOps/azure/templates/jobs/deploy-helm.yml@AmidoEcommerce
+        parameters:
+          environmentName: 'ci'
+          kubernetes_service_connection: 'Kubernetes_CI.eCommerce_Browse01_EUW'
+          registry_name: $(registryName_ci)
+          registry_login: '$(registryLogin)'
+          registry_pass: '$(registryPassword)'
+          helm_version: $(helm_version)
+          chart_name: 'amido-ecommerce-footer-ui'
+          overrides: $(helmOverrides)
+          namespace: $(namespace)
+          acr_service_connection: '$(ci_subscription)'
+          lighthouse_test: true
+          relative_path_to_lighthouse_tests: 'apps/MFE/footer/lighthouse'
+          lighthouse_target_url: '"$(appUrl)/footer"'
+          upload_to_lighthouse_server: false
+          lighthouse_artifact_name: 'cieuw'
+
+  # - stage: promote_preprod
+  #   displayName: 'Promote to Pre-Prod'
+  #   dependsOn:
+  #     - Build
+  #     - deploy_ci_eun
+  #     - deploy_ci_euw
+  #   condition:
+  #     and(succeeded('Build'), succeeded('deploy_ci_eun'), succeeded('deploy_ci_euw'),
+  #     startsWith(variables['Build.SourceBranch'], 'refs/heads/release/'))
+  #   jobs:
+  #     - template: azDevOps/azure/templates/jobs/promote-container.yml@AmidoEcommerce
+  #       parameters:
+  #         source_container_name: $(project)
+  #         destination_container_name: $(project)
+  #         source_acr: $(registryName_ci)
+  #         destination_acr: $(registryName_pp)
+  #         source_subscription: '$(ci_subscription)'
+  #         destination_subscription: '$(pp_subscription)'
+  #         tag: $(Build.BuildNumber)
+
+  # - stage: deploy_preprod_eun
+  #   displayName: 'PreProd EUN'
+  #   dependsOn: promote_preprod
+  #   condition: succeeded('promote_preprod')
+  #   variables:
+  #     - group: 'PreProd.eCommerce.Footer.Frontend.EUN'
+  #   jobs:
+  #     - template: azDevOps/azure/templates/jobs/deploy-helm.yml@AmidoEcommerce
+  #       parameters:
+  #         environmentName: 'pp'
+  #         kubernetes_service_connection: 'Kubernetes_PP.eCommerce_Browse01_EUN'
+  #         registry_name: $(registryName_pp)
+  #         registry_login: '$(registryLogin)'
+  #         registry_pass: '$(registryPassword)'
+  #         helm_version: $(helm_version)
+  #         chart_name: 'amido-ecommerce-footer-ui'
+  #         overrides: $(helmOverrides)
+  #         namespace: $(namespace)
+  #         acr_service_connection: '$(pp_subscription)'
+  #         lighthouse_test: true
+  #         lighthouse_target_url: '"$(appUrl)/footer"'
+  #         upload_to_lighthouse_server: false
+  #         lighthouse_artifact_name: 'ppeun'
+
+  # - stage: deploy_preprod_euw
+  #   displayName: 'PreProd EUW'
+  #   dependsOn: promote_preprod
+  #   condition: succeeded('promote_preprod')
+  #   variables:
+  #     - group: 'PreProd.eCommerce.Footer.Frontend.EUW'
+  #   jobs:
+  #     - template: azDevOps/azure/templates/jobs/deploy-helm.yml@AmidoEcommerce
+  #       parameters:
+  #         environmentName: 'pp'
+  #         kubernetes_service_connection: 'Kubernetes_PP.eCommerce_Browse01_EUW'
+  #         registry_name: $(registryName_pp)
+  #         registry_login: '$(registryLogin)'
+  #         registry_pass: '$(registryPassword)'
+  #         helm_version: $(helm_version)
+  #         chart_name: 'amido-ecommerce-footer-ui'
+  #         overrides: $(helmOverrides)
+  #         namespace: $(namespace)
+  #         acr_service_connection: '$(pp_subscription)'
+  #         lighthouse_test: true
+  #         lighthouse_target_url: '"$(appUrl)/footer"'
+  #         upload_to_lighthouse_server: false
+  #         lighthouse_artifact_name: 'ppeuw'
+
+  # - stage: 'Create_ServiceNow_Change'
+  #   displayName: 'Raise ServiceNow Change'
+  #   dependsOn:
+  #   - Build
+  #   - deploy_preprod_eun
+  #   - deploy_preprod_euw
+  #   condition: and(succeeded('Build'), succeeded('deploy_preprod_eun'), succeeded('deploy_preprod_euw'), startsWith(variables['Build.SourceBranch'], 'refs/heads/release/'))
+  #   variables:
+  #   - group: 'ServiceNow'
+  #   - name: 'Environment'
+  #     value: 'Production'
+  #   jobs:
+  #   - deployment: ServiceNowChangeRaise
+  #     environment: 'pd'
+  #   - job: servicenow_raise_change
+  #     displayName: 'Raise Change'
+  #     steps:
+  #       - task: ServiceNow-Change-Rasiser@0
+  #         inputs:
+  #           apiEndpoint: $(snowApi)
+  #           deploymentsDictionaryAPI: $(deploymentsApi)
+  #           buildNumber: '$(Build.BuildId)' #Must match in both stages
+  #           currentRepository: '$(Build.Repository.Name)' #Must match in both stages
+  #           deploymentEnvironment: '$(Environment)' #Must match in both stages
+  #           apiUser: $(snowUsername)
+  #           apiPassword: $(snowPassword)
+  #           snShortDescription: 'Deployment of $(Build.Repository.Name) to $(Environment) AKS Clusters'
+  #           snDescription: 'Deploy Release $(Build.BuildId) of the Cloud Based Shopping Bag onto the Production AKS clusters.'
+  #           snJustification: 'This change is required to allow the automated update of $(Build.Repository.Name) onto $(Environment)'
+  #           snCategory: 'Applications Software'
+  #           snTestPlan: 'This change has been tested on the UAT and Conv environments. Once this has been deployed onto $(Environment), our QA team will carry out any testing that is required and provide signoff.'
+  #           snRiskImpactAnalaysis: 'Any issues could mean that the Shopping Bag does not function correctly.'
+  #           snImplementationPlan: 'The pipeline will continue to run once this change is approved - $(System.TeamFoundationCollectionUri)$(System.TeamProject)/_build/?buildId=$(Build.BuildId). This will deploy $(Build.Repository.Name) onto $(Environment). The pipeline is being run from the following branch - $(Build.SourceBranch).'
+  #           snBackoutPlan: 'The current working release will be redeployed onto $(Environment) and the QA team will re-test to ensure that we are back to a working state.'
+  #           snAssignmentGroup: 'eCommerce'
+  #           snCmdbCi: amido.com'
+
+  # - stage: 'Check_ServiceNow_Change'
+  #   displayName: 'Check ServiceNow Change'
+  #   dependsOn:
+  #   - Create_ServiceNow_Change
+  #   condition: succeeded('Create_ServiceNow_Change')
+  #   variables:
+  #   - group: 'ServiceNow'
+  #   - name: 'Environment'
+  #     value: 'Production'
+  #   jobs:
+  #   - deployment: 'ServiceNowChangeCheck'
+  #     environment: 'pd'
+  #   - job: servicenow_change_status_check
+  #     displayName: 'Check Change Status on ServiceNow'
+  #     steps:
+  #     - task: ServiceNow-Change-Status-Checker@0
+  #       inputs:
+  #           apiEndpoint: $(snowApi)
+  #           deploymentsDictionaryAPI: $(deploymentsApi)
+  #           buildNumber: '$(Build.BuildId)' #Must match in both stages
+  #           currentRepository: '$(Build.Repository.Name)' #Must match in both stages
+  #           deploymentEnvironment: '$(Environment)' #Must match in both stages
+  #           apiUser: '$(snowUsername)'
+  #           apiPassword: '$(snowPassword)'
+
+  # - stage: promote_prod
+  #   displayName: 'Promote to Prod'
+  #   dependsOn:
+  #   - Check_ServiceNow_Change
+  #   condition: succeeded('Check_ServiceNow_Change')
+  #   jobs:
+  #     - template: azDevOps/azure/templates/jobs/promote-container.yml@AmidoEcommerce
+  #       parameters:
+  #         source_container_name: $(project)
+  #         destination_container_name: $(project)
+  #         source_acr: $(registryName_pp)
+  #         destination_acr: $(registryName_pd)
+  #         source_subscription: '$(pp_subscription)'
+  #         destination_subscription: '$(pd_subscription)'
+  #         tag: $(Build.BuildNumber)
+
+  # - stage: deploy_prod_eun
+  #   displayName: 'Prod EUN'
+  #   dependsOn: promote_prod
+  #   condition: succeeded('promote_prod')
+  #   variables:
+  #     - group: 'Prod.eCommerce.Footer.Frontend.EUN'
+  #   jobs:
+  #     - template: azDevOps/azure/templates/jobs/deploy-helm.yml@AmidoEcommerce
+  #       parameters:
+  #         environmentName: 'pd'
+  #         kubernetes_service_connection: 'Kubernetes_PD.eCommerce_Browse01_EUN'
+  #         registry_name: $(registryName_pd)
+  #         registry_login: '$(registryLogin)'
+  #         registry_pass: '$(registryPassword)'
+  #         helm_version: $(helm_version)
+  #         chart_name: 'amido-ecommerce-footer-ui'
+  #         overrides: $(helmOverrides)
+  #         namespace: $(namespace)
+  #         acr_service_connection: '$(pd_subscription)'
+  #         lighthouse_test: true
+  #         lighthouse_target_url: '"$(appUrl)/footer"'
+  #         upload_to_lighthouse_server: false
+  #         lighthouse_artifact_name: 'pdeun'
+
+  # - stage: deploy_prod_euw
+  #   displayName: 'Prod EUW'
+  #   dependsOn:
+  #     - promote_prod
+  #     - deploy_prod_eun
+  #   condition: and(succeeded('promote_prod'), succeeded('deploy_prod_eun'))
+  #   variables:
+  #     - group: 'Prod.eCommerce.Footer.Frontend.EUW'
+  #   jobs:
+  #     - template: azDevOps/azure/templates/jobs/deploy-helm.yml@AmidoEcommerce
+  #       parameters:
+  #         environmentName: 'pd'
+  #         kubernetes_service_connection: 'Prod.eCommerce.Account00.EUW'
+  #         registry_name: $(registryName_pd)
+  #         registry_login: '$(registryLogin)'
+  #         registry_pass: '$(registryPassword)'
+  #         helm_version: $(helm_version)
+  #         chart_name: 'amido-ecommerce-footer-ui'
+  #         overrides: $(helmOverrides)
+  #         namespace: $(namespace)
+  #         acr_service_connection: '$(pd_subscription)'
+  #         lighthouse_test: true
+  #         lighthouse_target_url: '"$(appUrl)/footer"'
+  #         upload_to_lighthouse_server: false
+  #         lighthouse_artifact_name: 'pdeuw'

@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a azoRegular font FONTS match snapshot 1`] = `
+"
+    <style id=\\"font-ssr-styles\\" type=\\"text/css\\">
+        @font-face {
+            font-family: \\"AzoSans\\";
+            src: url(\\"/fonts/AzoSans-Light-webfont.woff\\") format('woff'), url(\\"/fonts/AzoSans-Light-webfont.woff2\\") format('woff2'), url(\\"/fonts/AzoSans-Light-webfont.eot\\") format('eot');
+            font-weight: 400;
+        }
+        @font-face {
+            font-family: \\"AzoSansRegular\\";
+            src: url(\\"/fonts/AzoSans-Regular-webfont.woff\\") format('woff'), url(\\"/fonts/AzoSans-Regular-webfont.woff2\\") format('woff2');
+            font-weight: 700;
+        }
+        @font-face {
+            font-family: \\"AzoSansMedium\\";
+            src: url(\\"/fonts/AzoSans-Medium-webfont.woff\\") format('woff'), url(\\"/fonts/AzoSans-Medium-webfont.woff2\\") format('woff2'), url(\\"/fonts/AzoSans-Medium-webfont.eot\\") format('eot');
+            font-weight: 500;
+        }
+        @font-face {
+            font-family: \\"AzoSansItalic\\";
+            src: url(\\"/fonts/AzoSans-Italic-webfont.woff\\") format('woff'), url(\\"/fonts/AzoSans-Italic-webfont.woff2\\") format('woff2'), url(\\"/fonts/AzoSans-Italic-webfont.eot\\") format('eot');
+            font-weight: 400;
+        }
+        @font-face {
+            font-family: \\"AzoSans\\";
+            src: url(\\"/fonts/AzoSans-Light-webfont.woff\\") format('woff'), url(\\"/fonts/AzoSans-Light-webfont.woff2\\") format('woff2'), url(\\"/fonts/AzoSans-Light-webfont.eot\\") format('eot');
+            font-weight: 400;
+        }
+        @font-face {
+            font-family: \\"AzoSansRegular\\";
+            src: url(\\"/fonts/AzoSans-Regular-webfont.woff\\") format('woff'), url(\\"/fonts/AzoSans-Regular-webfont.woff2\\") format('woff2');
+            font-weight: 700;
+        }
+        @font-face {
+            font-family: \\"AzoSansMedium\\";
+            src: url(\\"/fonts/AzoSans-Medium-webfont.woff\\") format('woff'), url(\\"/fonts/AzoSans-Medium-webfont.woff2\\") format('woff2'), url(\\"/fonts/AzoSans-Medium-webfont.eot\\") format('eot');
+            font-weight: 500;
+        }
+        @font-face {
+            font-family: \\"AzoSansItalic\\";
+            src: url(\\"/fonts/AzoSans-Italic-webfont.woff\\") format('woff'), url(\\"/fonts/AzoSans-Italic-webfont.woff2\\") format('woff2'), url(\\"/fonts/AzoSans-Italic-webfont.eot\\") format('eot');
+            font-weight: 400;
+        }
+        #product {
+            font-family: \\"AzoSansRegular\\", \\"Helvetica Neue\\", Arial, sans-serif;
+        }
+    </style>"
+`;
+
+exports[`Given a azoRegular font buildFont returns correct string 1`] = `"url(\\"/fonts/Test-Font.woff\\") format('woff')"`;
+
+exports[`Given a azoRegular font fontBuilder returns several font declarations 1`] = `"url(\\"/fonts/Test-Font.woff\\") format('woff'), url(\\"/fonts/Test-Font.ttf\\") format('ttf'), url(\\"/fonts/Test-Font.otf\\") format('otf')"`;

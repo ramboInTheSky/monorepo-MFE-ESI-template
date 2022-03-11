@@ -1,0 +1,15 @@
+{
+  "extends": "../../../tsconfig.root",
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "types": [
+      "jest",
+      "node"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+  ]
+}

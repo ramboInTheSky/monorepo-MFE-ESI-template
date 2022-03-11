@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - settings:  should match the SettingsSdkKeys 1`] = `
+Object {
+  "AppCache": "monorepo.plp.frontend.appCacheTTL",
+  "BloomreachPersonalizationCookies": "monorepo.plp.frontend.bloomreachPersonalizationCookies",
+  "CorrelationHeaderName": "x-monorepo-correlation-id",
+  "DebounceTime": "monorepo.plp.frontend.debounceTime",
+  "Direction": "monorepo.plp.frontend.direction",
+  "FeatureSwitch": "monorepo.plp.frontend.featureSwitch",
+  "FetchTriggerOffset": "monorepo.plp.frontend.fetchTriggerOffset",
+  "FetchTriggerOffsetRows": "monorepo.plp.frontend.fetchTriggerOffsetRows",
+  "HideSearchFilterModalElements": "monorepo.plp.frontend.hideSearchFilterModalElements",
+  "InPageFilters": "monorepo.plp.frontend.inPageFilters",
+  "ItemsPerPage": "monorepo.plp.frontend.itemsPerPage",
+  "ItemsPerRow": "monorepo.plp.frontend.itemsPerRow",
+  "Language": "monorepo.plp.frontend.languageName",
+  "Realm": "monorepo.plp.frontend.realmName",
+  "SearchBannersAppCache": "monorepo.plp.frontend.searchBannerAppCacheTTL",
+  "SearchCacheControl": "monorepo.plp.frontend.cache-control.search",
+  "SeoFilters": "monorepo.plp.frontend.seoFilters",
+  "ShopCacheControl": "monorepo.plp.frontend.cache-control.shop",
+  "SingleOptionFacetList": "monorepo.plp.frontend.singleOptionFacetList",
+  "SubsequentPagesNonLazyloadRows": "monorepo.plp.frontend.subsequentPagesNonLazyloadRows",
+  "Territory": "monorepo.plp.frontend.territoryName",
+  "TerritoryDescription": "monorepo.plp.frontend.territoryDescription",
+  "TextData": "monorepo.plp.frontend.textData",
+  "ThemeVersion": "monorepo.plp.frontend.themeVersion",
+}
+`;

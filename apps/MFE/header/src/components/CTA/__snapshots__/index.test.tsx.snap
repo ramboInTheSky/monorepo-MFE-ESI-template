@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - CTA:  should match the snapshot 1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  width: 100%;
+  height: 100%;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  border: 0;
+  color: black;
+  opacity: 1;
+  border-radius: 0.25rem;
+  background-color: #30a74b;
+}
+
+.c0.c0:hover {
+  background-color: #30a74b;
+}
+
+.c0.c0:focus {
+  background-color: #30a74b;
+}
+
+.c0 span {
+  color: #ffffff;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.0625rem !important;
+  -moz-letter-spacing: 0.0625rem !important;
+  -ms-letter-spacing: 0.0625rem !important;
+  letter-spacing: 0.0625rem !important;
+}
+
+<a
+    aria-disabled="false"
+    class="MuiButtonBase-root MuiButton-root MuiButton-text c0"
+    href="/spiderman/"
+    tabindex="0"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      sample
+    </span>
+  </a>
+</DocumentFragment>
+`;

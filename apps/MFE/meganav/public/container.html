@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+  <head>
+    <title>Meganav Test</title>
+    <meta
+      name="keywords"
+      content="Next,next.co.uk,Next Directory,Next Flowers,Next Electrics,fashion,clothes,womens,mens,childrens,home,furniture"
+    />
+    <meta
+      name="description"
+      content="The most comfortable spot in your home has to be your bed. Shop stylish bedsteads &amp; bed frames for an elegant addition. Next day delivery &amp; free returns available."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <esi:include src="__SITEURL__/meganavstatic/dependencies/preloadvendor" onerror="continue" />
+    <esi:include src="__SITEURL__/meganavstatic/baselinecss/materialui" onerror="continue" />
+    <esi:include src="__SITEURL__/meganavstatic/baselinecss/custom" onerror="continue" />
+  </head>
+
+  <body>
+    <header>
+      <script>
+        // esi:include src="__SITEURL__/meganavstatic/seo-content/home/men" this will get the default number of links for "men"
+      </script>
+      <esi:include src="__SITEURL__/meganavstatic/seo-content/home/men" onerror="continue" />
+      <script>
+        // esi:include src="__SITEURL__/meganavstatic/seo-content/home/custom"
+      </script>
+      <esi:include src="__SITEURL__/meganavstatic/seo-content/home/custom" onerror="continue" />
+      <script>
+        // esi:include src="__SITEURL__/meganavstatic/seo-content/home/women"
+      </script>
+      <esi:include src="__SITEURL__/meganavstatic/seo-content/home/women" onerror="continue" />
+    </header>
+    <esi:include src="__SITEURL__/meganav" onerror="continue" />
+  </body>
+  <esi:include src="__SITEURL__/meganavstatic/dependencies/bundlevendor" onerror="continue" />
+</html>

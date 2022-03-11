@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CatalogueItem component:  Li  should match the snapshot  1`] = `
+<DocumentFragment>
+  <li
+    class="component__Container-sc-1cuh8iw-0 iyQmcU"
+    font-family=""
+    font-weight=""
+  />
+</DocumentFragment>
+`;
+
+exports[`CatalogueItem component:  Li  should match the snapshot if isDirectLink is false 1`] = `
+<DocumentFragment>
+  <li
+    class="component__Container-sc-1cuh8iw-0 fCDzjm"
+    font-family=""
+    font-weight=""
+  />
+</DocumentFragment>
+`;
+
+exports[`CatalogueItem component:  Li  should match the snapshot if there is no linkColour 1`] = `
+<DocumentFragment>
+  <li
+    class="component__Container-sc-1cuh8iw-0 fpVIaw"
+    font-family=""
+    font-weight=""
+  />
+</DocumentFragment>
+`;

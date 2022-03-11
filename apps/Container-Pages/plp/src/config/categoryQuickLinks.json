@@ -1,0 +1,93 @@
+{
+  "amido": {
+    "uk": [
+      {
+        "href": "{SITE_URL}/women",
+        "imageSrc": "{CDN_URL}/common/items/default/default/Sitemaps/X49/Departments/women.jpg",
+        "title": "Women",
+        "description": "From dresses to denim, browse catwalk inspired trends from this season’s women’s collection",
+        "imageAlt": "women"
+      },
+      {
+        "href": "{SITE_URL}/men",
+        "imageSrc": "{CDN_URL}/common/items/default/default/Sitemaps/X49/Departments/mens.jpg",
+        "title": "Men",
+        "description": "Be on trend with the latest men’s shirts, tops, trousers and jeans from this men’s clothing range.",
+        "imageAlt": "men"
+      },
+      {
+        "href": "{SITE_URL}/girls",
+        "imageSrc": "{CDN_URL}/common/items/default/default/Sitemaps/X49/Departments/girls.jpg",
+        "title": "Girls",
+        "description": "Gorgeous girls’ dresses and cool coloured jeans make up this fun and fashionable clothing range.",
+        "imageAlt": "girls"
+      },
+      {
+        "href": "{SITE_URL}/boys",
+        "imageSrc": "{CDN_URL}/common/items/default/default/Sitemaps/X49/Departments/boys.jpg",
+        "title": "Boys",
+        "description": "Mix and match these boys’ clothing and shoe collections for boys fashion he’ll love.",
+        "imageAlt": "boys"
+      },
+      {
+        "href": "{SITE_URL}/branded",
+        "imageSrc": "{CDN_URL}/common/items/default/default/Sitemaps/X49/Departments/brands.jpg",
+        "title": "Designer Brands",
+        "description": "Explore A-Z of the latest designer brands at Amido, with great delivery options.",
+        "imageAlt": "designer brands"
+      },
+      {
+        "href": "{SITE_URL}/shoes",
+        "imageSrc": "{CDN_URL}/common/items/default/default/Sitemaps/X49/Departments/shoes.jpg",
+        "title": "Shoes",
+        "description": "With our latest footwear collections you will always have your fashion foot forward.",
+        "imageAlt": "shoes"
+      },
+      {
+        "href": "{SITE_URL}/homeware",
+        "imageSrc": "{CDN_URL}/common/items/default/default/Sitemaps/X49/Departments/homeware.jpg",
+        "title": "Homeware",
+        "description": "Get that welcome home feel with stunning furniture collections with 5 day delivery.",
+        "imageAlt": "homeware"
+      }
+    ],
+    "international": [
+      {
+        "href": "{SITE_URL}/women",
+        "imageSrc": "{CDN_URL}/common/items/default/default/Sitemaps/X49/Departments/women.jpg",
+        "mpStart":"<!-- mp_trans_enable_start -->",
+        "title": "Women",
+        "description": "From dresses to denim, browse catwalk inspired trends from this season’s women’s collection",
+        "imageAlt": "women",
+        "mpEnd":"<!-- mp_trans_enable_end -->"
+      },
+      {
+        "href": "{SITE_URL}/men",
+        "imageSrc": "{CDN_URL}/common/items/default/default/Sitemaps/X49/Departments/mens.jpg",
+        "mpStart":"<!-- mp_trans_enable_start -->",
+        "title": "Men",
+        "description": "Be on trend with the latest men’s shirts, tops, trousers and jeans from this men’s clothing range.",
+        "imageAlt": "men",
+        "mpEnd":"<!-- mp_trans_enable_end -->"
+      },
+      {
+        "href": "{SITE_URL}/girls",
+        "imageSrc": "{CDN_URL}/common/items/default/default/Sitemaps/X49/Departments/girls.jpg", 
+        "mpStart":"<!-- mp_trans_enable_start -->",
+        "title": "Girls",
+        "description": "Gorgeous girls’ dresses and cool coloured jeans make up this fun and fashionable clothing range.",
+        "imageAlt": "girls",
+        "mpEnd":"<!-- mp_trans_enable_end -->"
+      },
+      {
+        "href": "{SITE_URL}/boys",
+        "imageSrc": "{CDN_URL}/common/items/default/default/Sitemaps/X49/Departments/boys.jpg",
+        "mpStart":"<!-- mp_trans_enable_start -->",
+        "title": "Boys",
+        "description": "Mix and match these boys’ clothing and shoe collections for boys fashion he’ll love.",
+        "imageAlt": "boys",
+        "mpEnd":"<!-- mp_trans_enable_end -->"
+      }
+    ]
+  }
+}

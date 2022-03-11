@@ -1,0 +1,531 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Facets - Filters:  When rendering for Price Facets When clicking the facet header, should display fiters, passing filters 1`] = `
+<DocumentFragment>
+  .c1.c1 {
+  background: transparent;
+  border-bottom: 0.0625rem solid #d1d1d1;
+  box-shadow: none;
+  margin: auto;
+}
+
+.c1::before {
+  content: none;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.c3 {
+  color: #257f39;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  cursor: pointer;
+  text-align: right;
+  margin-left: 1rem;
+}
+
+[dir="rtl"] .c3 {
+  margin-left: 0;
+  margin-right: 1rem;
+  text-align: left;
+}
+
+.c3:hover {
+  background: none;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c0 {
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+
+<fieldset
+    class="c0"
+  >
+    <div
+      class="MuiPaper-root MuiExpansionPanel-root c1 Mui-expanded MuiPaper-elevation1"
+    >
+      <div
+        aria-controls="plp-f-c-TEST_NAME"
+        aria-disabled="false"
+        aria-expanded="true"
+        aria-label="TEST DISPLAY NAME"
+        class="MuiButtonBase-root MuiExpansionPanelSummary-root WithStyles(ForwardRef(ExpansionPanelSummary))-root-22 Mui-expanded WithStyles(ForwardRef(ExpansionPanelSummary))-expanded-23"
+        data-testid="plp-f-f-test_name"
+        id="plp-f-h-TEST_NAME"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiExpansionPanelSummary-content WithStyles(ForwardRef(ExpansionPanelSummary))-content-25 Mui-expanded WithStyles(ForwardRef(ExpansionPanelSummary))-expanded-23"
+        >
+          <div
+            class="c2"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5"
+            >
+              <legend>
+                TEST DISPLAY NAME
+              </legend>
+            </h5>
+            <h5
+              class="MuiTypography-root MuiTypography-h5"
+            >
+              <button
+                aria-label="Clear"
+                class="c3"
+                data-testid="plp-filter-clear-link-test_name"
+              >
+                Clear
+              </button>
+            </h5>
+          </div>
+        </div>
+        <div
+          aria-disabled="false"
+          aria-hidden="true"
+          class="MuiButtonBase-root MuiIconButton-root MuiExpansionPanelSummary-expandIcon WithStyles(ForwardRef(ExpansionPanelSummary))-expandIcon-26 Mui-expanded WithStyles(ForwardRef(ExpansionPanelSummary))-expanded-23 MuiIconButton-edgeEnd"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <img
+              alt="Accordion chevron icon"
+              src="/static-content/icons/shared/chevron.svg"
+            />
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiCollapse-container MuiCollapse-entered"
+        style="min-height: 0px;"
+      >
+        <div
+          class="MuiCollapse-wrapper"
+        >
+          <div
+            class="MuiCollapse-wrapperInner"
+          >
+            <div
+              aria-labelledby="plp-f-h-TEST_NAME"
+              id="plp-f-c-TEST_NAME"
+              role="region"
+            >
+              <div
+                class="MuiExpansionPanelDetails-root WithStyles(ForwardRef(ExpansionPanelDetails))-root-27"
+              >
+                <div>
+                  TEST PRICE FACET
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+</DocumentFragment>
+`;
+
+exports[`Facets - Filters:  When rendering for filters When clicking the facet header, should display fiters, passing filters 1`] = `
+<DocumentFragment>
+  .c1.c1 {
+  background: transparent;
+  border-bottom: 0.0625rem solid #d1d1d1;
+  box-shadow: none;
+  margin: auto;
+}
+
+.c1::before {
+  content: none;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.c3 {
+  color: #257f39;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  cursor: pointer;
+  text-align: right;
+  margin-left: 1rem;
+}
+
+[dir="rtl"] .c3 {
+  margin-left: 0;
+  margin-right: 1rem;
+  text-align: left;
+}
+
+.c3:hover {
+  background: none;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c0 {
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+
+<fieldset
+    class="c0"
+  >
+    <div
+      class="MuiPaper-root MuiExpansionPanel-root c1 Mui-expanded MuiPaper-elevation1"
+    >
+      <div
+        aria-controls="plp-f-c-TEST_NAME"
+        aria-disabled="false"
+        aria-expanded="true"
+        aria-label="TEST DISPLAY NAME"
+        class="MuiButtonBase-root MuiExpansionPanelSummary-root WithStyles(ForwardRef(ExpansionPanelSummary))-root-6 Mui-expanded WithStyles(ForwardRef(ExpansionPanelSummary))-expanded-7"
+        data-testid="plp-f-f-test_name"
+        id="plp-f-h-TEST_NAME"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiExpansionPanelSummary-content WithStyles(ForwardRef(ExpansionPanelSummary))-content-9 Mui-expanded WithStyles(ForwardRef(ExpansionPanelSummary))-expanded-7"
+        >
+          <div
+            class="c2"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5"
+            >
+              <legend>
+                TEST DISPLAY NAME
+              </legend>
+            </h5>
+            <h5
+              class="MuiTypography-root MuiTypography-h5"
+            >
+              <button
+                aria-label="Clear"
+                class="c3"
+                data-testid="plp-filter-clear-link-test_name"
+              >
+                Clear
+              </button>
+            </h5>
+          </div>
+        </div>
+        <div
+          aria-disabled="false"
+          aria-hidden="true"
+          class="MuiButtonBase-root MuiIconButton-root MuiExpansionPanelSummary-expandIcon WithStyles(ForwardRef(ExpansionPanelSummary))-expandIcon-10 Mui-expanded WithStyles(ForwardRef(ExpansionPanelSummary))-expanded-7 MuiIconButton-edgeEnd"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <img
+              alt="Accordion chevron icon"
+              src="/static-content/icons/shared/chevron.svg"
+            />
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiCollapse-container MuiCollapse-entered"
+        style="min-height: 0px;"
+      >
+        <div
+          class="MuiCollapse-wrapper"
+        >
+          <div
+            class="MuiCollapse-wrapperInner"
+          >
+            <div
+              aria-labelledby="plp-f-h-TEST_NAME"
+              id="plp-f-c-TEST_NAME"
+              role="region"
+            >
+              <div
+                class="MuiExpansionPanelDetails-root WithStyles(ForwardRef(ExpansionPanelDetails))-root-11"
+              >
+                <div>
+                  TEST FACETS
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+</DocumentFragment>
+`;
+
+exports[`Facets - Filters:  When rendering for filters should match the snapshot  1`] = `
+<DocumentFragment>
+  .c1.c1 {
+  background: transparent;
+  border-bottom: 0.0625rem solid #d1d1d1;
+  box-shadow: none;
+  margin: auto;
+}
+
+.c1::before {
+  content: none;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.c3 {
+  color: #257f39;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  cursor: pointer;
+  text-align: right;
+  margin-left: 1rem;
+}
+
+[dir="rtl"] .c3 {
+  margin-left: 0;
+  margin-right: 1rem;
+  text-align: left;
+}
+
+.c3:hover {
+  background: none;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c0 {
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+
+<fieldset
+    class="c0"
+  >
+    <div
+      class="MuiPaper-root MuiExpansionPanel-root c1 MuiPaper-elevation1"
+    >
+      <div
+        aria-controls="plp-f-c-TEST_NAME"
+        aria-disabled="false"
+        aria-expanded="false"
+        aria-label="TEST DISPLAY NAME"
+        class="MuiButtonBase-root MuiExpansionPanelSummary-root WithStyles(ForwardRef(ExpansionPanelSummary))-root-1"
+        data-testid="plp-f-f-test_name"
+        id="plp-f-h-TEST_NAME"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiExpansionPanelSummary-content WithStyles(ForwardRef(ExpansionPanelSummary))-content-4"
+        >
+          <div
+            class="c2"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5"
+            >
+              <legend>
+                TEST DISPLAY NAME
+              </legend>
+            </h5>
+            <h5
+              class="MuiTypography-root MuiTypography-h5"
+            >
+              <button
+                aria-label="Clear"
+                class="c3"
+                data-testid="plp-filter-clear-link-test_name"
+              >
+                Clear
+              </button>
+            </h5>
+          </div>
+        </div>
+        <div
+          aria-disabled="false"
+          aria-hidden="true"
+          class="MuiButtonBase-root MuiIconButton-root MuiExpansionPanelSummary-expandIcon WithStyles(ForwardRef(ExpansionPanelSummary))-expandIcon-5 MuiIconButton-edgeEnd"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <img
+              alt="Accordion chevron icon"
+              src="/static-content/icons/shared/chevron.svg"
+            />
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </div>
+      </div>
+    </div>
+  </fieldset>
+</DocumentFragment>
+`;
+
+exports[`Facets - Filters:  When rendering for filters should not snapshot the clear links when isFilterSelected is not provided in the props or set to false 1`] = `
+<DocumentFragment>
+  .c1.c1 {
+  background: transparent;
+  border-bottom: 0.0625rem solid #d1d1d1;
+  box-shadow: none;
+  margin: auto;
+}
+
+.c1::before {
+  content: none;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.c0 {
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+
+<fieldset
+    class="c0"
+  >
+    <div
+      class="MuiPaper-root MuiExpansionPanel-root c1 MuiPaper-elevation1"
+    >
+      <div
+        aria-controls="plp-f-c-TEST_NAME"
+        aria-disabled="false"
+        aria-expanded="false"
+        aria-label="TEST DISPLAY NAME"
+        class="MuiButtonBase-root MuiExpansionPanelSummary-root WithStyles(ForwardRef(ExpansionPanelSummary))-root-17"
+        data-testid="plp-f-f-test_name"
+        id="plp-f-h-TEST_NAME"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiExpansionPanelSummary-content WithStyles(ForwardRef(ExpansionPanelSummary))-content-20"
+        >
+          <div
+            class="c2"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5"
+            >
+              <legend>
+                TEST DISPLAY NAME
+              </legend>
+            </h5>
+          </div>
+        </div>
+        <div
+          aria-disabled="false"
+          aria-hidden="true"
+          class="MuiButtonBase-root MuiIconButton-root MuiExpansionPanelSummary-expandIcon WithStyles(ForwardRef(ExpansionPanelSummary))-expandIcon-21 MuiIconButton-edgeEnd"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <img
+              alt="Accordion chevron icon"
+              src="/static-content/icons/shared/chevron.svg"
+            />
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </div>
+      </div>
+    </div>
+  </fieldset>
+</DocumentFragment>
+`;

@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a StarRatingContainer Component should match the snapshot when star rating is 0 1`] = `
+<DocumentFragment>
+  .c0 {
+  min-height: 1.125rem;
+  display: block;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0.05rem;
+  }
+}
+
+<a
+    class="c0 prod-summary-star-rating--hidden"
+    data-testid="product_summary_star-rating--hidden"
+    href="superman/URL"
+    tabindex="-1"
+    title="some text | 0 rating"
+  >
+    <div>
+      Star Rating 0
+    </div>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Given a StarRatingContainer Component should match the snapshot when star rating is 3 1`] = `
+<DocumentFragment>
+  .c0 {
+  min-height: 1.125rem;
+  display: block;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0.05rem;
+  }
+}
+
+<a
+    class="c0"
+    data-testid="product_summary_star-rating"
+    href="superman/URL"
+    tabindex="0"
+    title="some text | 3 rating"
+  >
+    <div>
+      Star Rating 3
+    </div>
+  </a>
+</DocumentFragment>
+`;

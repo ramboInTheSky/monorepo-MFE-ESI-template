@@ -1,0 +1,283 @@
+{
+  "tooltip": {
+    "margin": "0.5625rem 0 0 0"
+  },
+  "MyAccount": {
+    "xs": {
+      "order": "3",
+      "width": "7.5rem",
+      "margin": "0px 1rem 0px 0px"
+    },
+    "SmallIcon": {
+      "xs": {
+        "height": "2.875rem",
+        "padding": "0.625rem",
+        "width": "1.375rem",
+        "margin": "0"
+      },
+      "md": {
+        "width": "1.625rem",
+        "height": "1.625rem"
+      },
+      "lg": {
+        "margin": "0 0.5rem 0 0"
+      }
+    },
+    "IconOnly": {
+      "xs": {
+        "width": "auto",
+        "height": "auto",
+        "margin": "0"
+      },
+      "md": {
+        "width": "auto",
+        "height": "1.375rem"
+      },
+      "lg": {
+        "margin": "0 0.5rem 0 0"
+      }
+    },
+    "IconContainer": {
+      "xs": {
+        "padding": "1rem 0 1rem 0"
+      }
+    },
+    "Divider": {
+      "xs": {
+        "margin": "0.5rem 0.8rem 0 0.8rem"
+      }
+    }
+  },
+  "UpperHeader": {
+    "xs": {
+      "height": "2.75rem",
+      "lineHeight": "1.125rem",
+      "padding": "0 0.25rem 0 1rem",
+      "iconHitArea": "initial"
+    },
+    "sm": {
+      "height": "2.75rem"
+    },
+    "md": {
+      "height": "3.8125rem",
+      "padding": "0.75rem 1.25rem 0.75rem 2rem"
+    },
+    "lg": {
+      "height": "3.8125rem"
+    },
+    "xl": {
+      "height": "3.8125rem",
+      "padding": "0.75rem 1.875rem 0.75rem 2.5rem"
+    }
+  },
+  "Meganav": {
+    "md": {
+      "zIndex": "1",
+      "top": "auto"
+    },
+    "lg": {
+      "zIndex": "1",
+      "top": "auto"
+    }
+  },
+  "PrimaryNav": {
+    "xs": {
+      "height": "2.75rem"
+    },
+    "sm": {
+      "height": "2.75rem"
+    },
+    "md": {
+      "height": "2.75rem"
+    },
+    "lg": {
+      "height": "2.75rem"
+    },
+    "xl": {
+      "height": "2.75rem"
+    }
+  },
+  "Brand": {
+    "xs": {
+      "height": "1.5rem",
+      "width": "4.375rem",
+      "order": "1",
+      "margin": "0"
+    },
+    "md": {
+      "width": "5.375rem",
+      "height": "1.375rem",
+      "order": "1"
+    },
+    "lg": {
+      "width": "5.375rem",
+      "height": "1.375rem"
+    }
+  },
+  "SearchBox": {
+    "xs": {
+      "width": "2.75rem",
+      "height": "2.75rem",
+      "padding": "0.5rem 2.5rem 0.5rem 1rem",
+      "margin": "0 0 0 auto",
+      "borderRadius": "4px",
+      "order": "2"
+    },
+    "sm": {
+      "width": "2.75rem",
+      "height": "2.25rem",
+      "padding": "0.5rem",
+      "borderRadius": "4px",
+      "border": "2px solid #1d89dd"
+    },
+    "md": {
+      "width": "18rem",
+      "margin": "0 auto 0 1.125rem",
+      "height": "2.25rem",
+      "padding": "0.5rem 2.5rem 0.5rem 0.625rem",
+      "borderRadius": "4px",
+      "boxShadow": "0 0 0 2px #000000",
+      "border": "1px solid black",
+      "borderWidth": "0.0625rem"
+    },
+    "lg": {
+      "width": "18rem",
+      "height": "2.25rem",
+      "padding": "0.5rem 0.625rem",
+      "borderRadius": "1rem",
+      "border": "1px solid black"
+    }
+  },
+  "SearchBoxDivider": {
+    "md": {
+      "border": "0.0625rem solid #000000",
+      "display": "block"
+    }
+  },
+  "SearchBoxIcon": {
+    "xs": {
+      "height": "1.375rem",
+      "padding": "0.625rem",
+      "width": "1.375rem"
+    }
+  },
+  "Checkout": {
+    "xs": {
+      "width": "6.5rem",
+      "height": "2.25rem",
+      "order": "6",
+      "margin": "0",
+      "borderRadius": "0.25rem"
+    },
+    "sm": {
+      "width": "6.5rem",
+      "height": "2.25rem"
+    },
+    "md": {
+      "width": "6.5rem",
+      "height": "2.25rem",
+      "margin": "0.5rem 0.5rem 0.5rem 0.75rem"
+    },
+    "lg": {
+      "width": "6.25rem",
+      "height": "2.25rem"
+    },
+    "xl": {
+      "width": "10rem",
+      "height": "2.25rem"
+    }
+  },
+  "Quicklinks": {
+    "xs": {
+      "border": "1px #000 solid",
+      "background": "#ffffff",
+      "color": "#ffffff",
+      "borderRadius": "0.25rem",
+      "order": "3",
+      "margin": "0px",
+      "width": "auto"
+    },
+    "md": {
+      "width": "auto",
+      "order": "3",
+      "display": "flex"
+    },
+    "lg": {
+      "margin": "0"
+    }
+  },
+  "ShoppingBag": {
+    "xs": {
+      "padding": "0.625rem 0.625rem 0.5625rem 0.625rem",
+      "height": "2.875rem",
+      "order": "5",
+      "imageWidth": "1.375rem",
+      "imageHeight": "1.375rem",
+      "top": "0.875rem",
+      "left": "0",
+      "width": "2.75rem"
+    },
+    "md": {
+      "width": "auto",
+      "margin": "0 0 0 0.25rem",
+      "top": "1.1rem",
+      "imageWidth": "1.625rem",
+      "imageHeight": "1.625rem"
+    },
+    "lg": {
+      "top": "1.125rem"
+    },
+    "productImage": {
+      "lg": {
+        "height": "5.25rem",
+        "width": "3.5rem"
+      }
+    },
+    "itemsContainer": {
+      "lg": {
+        "maxHeight": "14.6875rem"
+      }
+    }
+  },
+  "CountrySelector": {
+    "xs": {
+      "order": "7",
+      "width": "2.75rem"
+    },
+    "md": {
+      "width": "auto"
+    },
+    "Container": {
+      "xs": {
+        "padding": "0.625rem"
+      }
+    }
+  },
+  "DrawerContainer": {
+    "xs": {
+      "width": "30rem"
+    }
+  },
+  "Favourites": {
+    "xs": {
+      "margin": "0.625rem 0.625rem 0.5rem",
+      "height": "1.625rem",
+      "order": "4",
+      "width": "1.375rem",
+      "linkHitArea": "initial"
+    },
+    "md": {
+      "height": "1.625rem"
+    },
+    "img": {
+      "xs":{
+        "height": "1.375rem",
+        "width": "1.375rem"
+      },
+      "md": {
+        "width": "1.625rem",
+        "height": "1.625rem"
+      }
+    }
+  }
+}

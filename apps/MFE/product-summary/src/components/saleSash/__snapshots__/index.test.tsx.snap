@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a SaleSash Component When no sale sash url is provided, it should match the snapshot  1`] = `<DocumentFragment />`;
+
+exports[`Given a SaleSash Component When not on sale, it should match the snapshot  1`] = `<DocumentFragment />`;
+
+exports[`Given a SaleSash Component should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  width: auto;
+  position: absolute;
+  z-index: 1;
+}
+
+.c0.TL {
+  left: 0;
+  top: 0;
+}
+
+.c0.TR {
+  left: 0;
+  top: 0;
+}
+
+.c0.BL {
+  left: 0;
+  top: 0;
+}
+
+.c0.BR {
+  left: 0;
+  top: 0;
+}
+
+<img
+    class="c0 TL"
+    data-testid="product_summary_sale_sash"
+    dir="ltr"
+    src="/static-content/images/plp/sale/test.jpg"
+  />
+</DocumentFragment>
+`;

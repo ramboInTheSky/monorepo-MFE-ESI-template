@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CountryChangeConfirmPopup component should match the snapshot 1`] = `
+<DocumentFragment>
+  .c1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 18rem;
+  height: 18.1875rem;
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 0.0625rem solid #eaeaea;
+  border-radius: 0.25rem;
+}
+
+.c2 {
+  width: 16rem;
+  height: 1.625rem;
+  margin: 0 0 0.4375rem;
+  font-size: 1.0625rem;
+  font-weight: bold;
+  line-height: 1.5;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c3 {
+  width: 16rem;
+  margin: 0.4375rem 0 1rem;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.43;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c4 {
+  display: block;
+}
+
+.c5 {
+  width: 100%;
+  font-size: 0.75rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+  margin: 0rem 0rem 0.75rem;
+  border: 0px;
+  color: #ffffff;
+  opacity: 1;
+  border-radius: 0.25rem;
+  background: #30a74b;
+  padding: 0.5625rem 0.5rem;
+}
+
+.c5:hover,
+.c5:active,
+.c5:focus {
+  background: #30a74b;
+  border: 0;
+  color: #ffffff;
+}
+
+.c6 {
+  width: 100%;
+  font-size: 0.75rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+  margin: 0px;
+  border: 0px;
+  color: #000000;
+  opacity: 1;
+  border-radius: 0.25rem;
+  border: 1px solid black;
+  background: #ffffff;
+  padding: 0.5625rem 0.5rem;
+}
+
+.c0 {
+  -webkit-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+  -webkit-animation-delay: 250ms;
+  animation-delay: 250ms;
+}
+
+.c0 > div:first-child {
+  position: fixed;
+}
+
+.c0.c0 > div:first-child {
+  background: rgba(0,0,0,0.9);
+}
+
+@media (min-width:768px) {
+  .c1 {
+    width: 35rem;
+    height: 13.1875rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 {
+    width: 34rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+}
+
+@media (min-width:768px) {
+  .c5 {
+    width: 12.5rem;
+    height: 2.75rem;
+    margin: 0rem 1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c6 {
+    width: 12.5rem;
+    height: 2.75rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 > div:first-child {
+    top: 2.75rem !important;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 > div:first-child {
+    top: 2.75rem !important;
+  }
+}
+
+<div
+    class="c0"
+    data-testid="modal"
+    role="presentation"
+    style="position: fixed; z-index: 1300; right: 0px; bottom: 0px; top: 0px; left: 0px;"
+  >
+    <div
+      aria-hidden="true"
+      class="MuiBackdrop-root"
+      style="opacity: 1; webkit-transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+    />
+    <div
+      data-test="sentinelStart"
+      tabindex="0"
+    />
+    <div
+      class="c1"
+      data-testid="header-country-change-modal-wrapper"
+    >
+      <h5
+        class="MuiTypography-root c2 MuiTypography-h5"
+      >
+        Confirm country change
+      </h5>
+      <p
+        class="MuiTypography-root c3 MuiTypography-body1"
+      >
+        Are you sure you want to navigate away from this site?
+      </p>
+      <p
+        class="MuiTypography-root c3 MuiTypography-body1"
+      >
+        If you navigate away from this site you will leave your shopping bag and it’s contents.
+      </p>
+      <div
+        class="c4"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text c5"
+          data-testid="header-country-change-modal-confirm"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            CONTINUE
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text c6"
+          data-testid="header-country-change-modal-cancel"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            CANCEL
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      data-test="sentinelEnd"
+      tabindex="0"
+    />
+  </div>
+</DocumentFragment>
+`;

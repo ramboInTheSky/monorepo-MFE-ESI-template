@@ -1,0 +1,87 @@
+{
+  "id": "a94c8a36-cda2-4569-8ab9-d29bb0fc4e62",
+  "title": "ACCESSORIES",
+  "target": "/brands/all",
+  "viewType": "secondary-navigation",
+  "realm": "amido",
+  "territory": "GB",
+  "language": "en",
+  "items": [
+    {
+      "title": "ACCESSORIES",
+      "type": "tab",
+      "items": [
+        {
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "title": "ACCESSORIES",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Accessories",
+                  "type": "link",
+                  "target": "/shop/brand-balenciagakids-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Bags & Wallets",
+                  "type": "link",
+                  "target": "/shop/brand-balmain-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Belts",
+                  "type": "link",
+                  "target": "/shop/brand-bosskidswear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Hats & Scarves",
+                  "type": "link",
+                  "target": "/shop/brand-burberrykids-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        }
+      ],
+      "missions": {
+        "noOfColumns": 2,
+        "title": null,
+        "items": [
+          {
+            "title": "New In",
+            "imageUrl": "/nxtcms/blueprint/servlet/resource/blob/4167892/f9e9391ccb7ddee2702ce982f939c3e2/artboard3-data.jpg",
+            "target": "/brands/all"
+          },
+          {
+            "title": "Accessories",
+            "imageUrl": "/nxtcms/blueprint/servlet/resource/blob/4167888/5e2697ef136b284da219603dee33ffec/artboard1-data.jpg",
+            "target": "/brands/all"
+          }
+        ],
+        "categoryLink": null
+      }
+    }
+  ],
+  "banner": null
+}

@@ -1,0 +1,413 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product:  should match the snapshot if product 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  height: auto;
+  overflow: inherit;
+}
+
+.c2 {
+  padding: 0rem;
+  position: relative;
+}
+
+.c1 {
+  position: relative;
+}
+
+<div
+    class="MuiPaper-root MuiCard-root c0 MuiPaper-elevation0"
+    data-testid="product_summary_tile_test_pid"
+  >
+    <div
+      class="c1"
+    >
+      <div>
+        TEST SWIPER CAROUSEL
+      </div>
+      <div>
+        favourites component
+      </div>
+    </div>
+    <div
+      class="MuiCardContent-root c2"
+      data-testid="product_tile_card_content_test_pid"
+    >
+      <div>
+        TEST TITLE
+      </div>
+      <div>
+        TEST PRICE
+      </div>
+      <div>
+        star Rating component
+      </div>
+      <div>
+        TEST CHIPS
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Product:  should match the snapshot if product and centralised 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  height: auto;
+  overflow: inherit;
+}
+
+.c2 {
+  padding: 0rem;
+  position: relative;
+  text-align: center;
+}
+
+.c1 {
+  position: relative;
+}
+
+<div
+    class="MuiPaper-root MuiCard-root c0 MuiPaper-elevation0"
+    data-testid="product_summary_tile_test_pid"
+  >
+    <div
+      class="c1"
+    >
+      <div>
+        TEST SWIPER CAROUSEL
+      </div>
+      <div>
+        favourites component
+      </div>
+    </div>
+    <div
+      class="MuiCardContent-root c2"
+      data-testid="product_tile_card_content_test_pid"
+    >
+      <div>
+        TEST TITLE
+      </div>
+      <div>
+        TEST PRICE
+      </div>
+      <div>
+        star Rating component
+      </div>
+      <div>
+        TEST CHIPS
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Product:  should match the snapshot if product with brand display and brand 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  height: auto;
+  overflow: inherit;
+}
+
+.c2 {
+  padding: 0rem;
+  position: relative;
+}
+
+.c1 {
+  position: relative;
+}
+
+.c3 {
+  min-height: 1.125rem;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0.05rem;
+}
+
+.c4 {
+  font-size: 1rem;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+<div
+    class="MuiPaper-root MuiCard-root c0 MuiPaper-elevation0"
+    data-testid="product_summary_tile_test_pid"
+  >
+    <div
+      class="c1"
+    >
+      <div>
+        TEST SWIPER CAROUSEL
+      </div>
+      <div>
+        favourites component
+      </div>
+    </div>
+    <div
+      class="MuiCardContent-root c2"
+      data-testid="product_tile_card_content_test_pid"
+    >
+      <a
+        class="c3"
+        data-testid="product_summary_tile_test_pid_brand_wrapper"
+      >
+        <p
+          class="MuiTypography-root c4 MuiTypography-body1"
+          data-testid="product_summary_tile_test_pid_brand_name"
+        >
+          next
+        </p>
+      </a>
+      <div>
+        TEST TITLE
+      </div>
+      <div>
+        TEST PRICE
+      </div>
+      <div>
+        star Rating component
+      </div>
+      <div>
+        TEST CHIPS
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Product:  should match the snapshot if suit 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  height: auto;
+  overflow: inherit;
+}
+
+.c2 {
+  padding: 0rem;
+  position: relative;
+}
+
+.c1 {
+  position: relative;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 0.375rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.875rem;
+  line-height: 1.313rem;
+}
+
+.c5:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c6 {
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  -webkit-letter-spacing: 0.008rem;
+  -moz-letter-spacing: 0.008rem;
+  -ms-letter-spacing: 0.008rem;
+  letter-spacing: 0.008rem;
+}
+
+.c8 {
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  -webkit-letter-spacing: 0.008rem;
+  -moz-letter-spacing: 0.008rem;
+  -ms-letter-spacing: 0.008rem;
+  letter-spacing: 0.008rem;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+}
+
+.c9 {
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  -webkit-letter-spacing: 0.008rem;
+  -moz-letter-spacing: 0.008rem;
+  -ms-letter-spacing: 0.008rem;
+  letter-spacing: 0.008rem;
+  color: #d91440;
+}
+
+.c3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  text-transform: capitalize;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  -webkit-letter-spacing: 0.008rem;
+  -moz-letter-spacing: 0.008rem;
+  -ms-letter-spacing: 0.008rem;
+  letter-spacing: 0.008rem;
+  line-height: 1.313rem;
+  margin-bottom: 0.25rem;
+}
+
+.c3:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<div
+    class="MuiPaper-root MuiCard-root c0 MuiPaper-elevation0"
+    data-testid="suit_summary_tile_test_pid"
+  >
+    <div
+      class="c1"
+    >
+      <div>
+        TEST SWIPER CAROUSEL
+      </div>
+    </div>
+    <div
+      class="MuiCardContent-root c2"
+      data-testid="suit_tile_card_content_test_pid"
+    >
+      <a
+        class="MuiTypography-root MuiLink-root MuiLink-underlineHover c3 MuiTypography-body1 MuiTypography-colorPrimary"
+        data-desc="Test"
+        data-label="Test"
+        data-testid="suit_summary_title"
+        data-usespan="False"
+        href="http://test.co.uk/test-url"
+        title="Test (007) | £20"
+      >
+        Test
+      </a>
+      <div
+        class="c4"
+      >
+        <a
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover c5 MuiTypography-h5 MuiTypography-colorPrimary"
+          data-testid="suit_summary_suit_price"
+          href="http://test.co.uk/test-url"
+          title="Test (007) | £20"
+        >
+          <span
+            class="c6"
+          >
+            Suit Price
+          </span>
+          <span
+            class="c7"
+          >
+            <span
+              class="c8"
+              data-testid="suit_price"
+            >
+              £10
+            </span>
+          </span>
+        </a>
+        <span
+          class="c9"
+          data-testid="suit_summary_suit_placeholder"
+        >
+           
+        </span>
+        <a
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover c5 MuiTypography-h5 MuiTypography-colorPrimary"
+          data-testid="suit_summary_jacket_price"
+          href="http://test.co.uk/test-url"
+          title="Test (007) | £20"
+        >
+          <span
+            class="c6"
+          >
+            Jacket
+          </span>
+          <span
+            class="c7"
+          >
+            <span
+              class="c8"
+              data-testid="jacket_price"
+            >
+              £20
+            </span>
+          </span>
+        </a>
+        <span
+          class="c9"
+        >
+           
+        </span>
+        <a
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover c5 MuiTypography-h5 MuiTypography-colorPrimary"
+          data-testid="suit_summary_trouser_price"
+          href="http://test.co.uk/test-url"
+          title="Test (007) | £20"
+        >
+          <span
+            class="c6"
+          >
+            Trousers
+          </span>
+          <span
+            class="c7"
+          >
+            <span
+              class="c8"
+              data-testid="trouser_price"
+            >
+              £10
+            </span>
+          </span>
+        </a>
+        <span
+          class="c9"
+        >
+           
+        </span>
+      </div>
+      <div>
+        TEST CHIPS
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

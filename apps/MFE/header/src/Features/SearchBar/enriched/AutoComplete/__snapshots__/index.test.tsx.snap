@@ -1,0 +1,641 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - EnrichAutoComplete:  should match the snapshot for AutoCompleteContainer - Show loader 1`] = `
+<DocumentFragment>
+  .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f7f7f7;
+  border-bottom: 0.0625rem solid #eaeaea;
+  border-top: 0.0625rem solid #eaeaea;
+  color: #000000;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c3.c3 {
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+}
+
+.c1.c1 {
+  padding: 0.75rem 1rem;
+}
+
+.c5.c5 {
+  padding: 0.25rem 1rem;
+}
+
+.c4 {
+  margin: 0;
+  background: white;
+  color: #000000;
+}
+
+.c6 ul li a {
+  -webkit-transition: -webkit-transform 0.1s ease,padding 0.15s ease;
+  -webkit-transition: transform 0.1s ease,padding 0.15s ease;
+  transition: transform 0.1s ease,padding 0.15s ease;
+}
+
+.c6 ul li a:hover {
+  padding-left: 0.5rem;
+}
+
+.c7 {
+  border-bottom: 0.0625rem solid #eaeaea;
+  padding-bottom: 1rem;
+}
+
+.c9 {
+  padding-top: 1rem;
+  min-height: 300px;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    background: white;
+    border: none;
+    padding: 1.5rem 0 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c3.c3 {
+    -webkit-letter-spacing: 0.0075rem;
+    -moz-letter-spacing: 0.0075rem;
+    -ms-letter-spacing: 0.0075rem;
+    letter-spacing: 0.0075rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c1.c1 {
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width:1280px) {
+  .c1.c1 {
+    padding: 0 2.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c5.c5 {
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width:1280px) {
+  .c5.c5 {
+    padding: 0 2.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem 0;
+  }
+}
+
+@media (min-width:400px) and (max-width:767px) {
+  .c8 ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .c8 ul li {
+    -webkit-flex-basis: calc(100% / 2);
+    -ms-flex-preferred-size: calc(100% / 2);
+    flex-basis: calc(100% / 2);
+    padding-right: 1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c7 {
+    border-bottom: 0;
+    padding-bottom: 0rem;
+    border-right: 0.0625rem solid #eaeaea;
+  }
+}
+
+@media (min-width:768px) {
+  .c9 {
+    padding-top: 0;
+    padding-left: 1rem;
+  }
+}
+
+<div
+    data-testid="header-enrich-auto-complete"
+  >
+    <div
+      class="PrivateHiddenCss-mdUp-8"
+    >
+      <div
+        class="c0 autocomplete-header"
+        data-testid="autocomplete-header"
+      >
+        <div
+          class="MuiContainer-root c1 MuiContainer-maxWidthXl"
+        >
+          <div
+            class="c2"
+          >
+            <h4
+              class="MuiTypography-root c3 MuiTypography-h4"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root c4"
+    >
+      <div
+        class="MuiContainer-root c5 MuiContainer-maxWidthXl"
+      >
+        <div
+          class="MuiGrid-root c6"
+        >
+          <div
+            class="MuiGrid-root c7 MuiGrid-item MuiGrid-grid-md-4"
+          >
+            <div
+              class="c8"
+            >
+              <ul>
+                <li>
+                  <a
+                    data-testid="first-anchor"
+                    href="/abc"
+                  >
+                    abc
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/abcdef"
+                  >
+                    abcdef
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root c9 MuiGrid-item MuiGrid-grid-md-8"
+          >
+            Loading...
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - EnrichAutoComplete:  should match the snapshot for AutoCompleteContainer - no result found 1`] = `
+<DocumentFragment>
+  .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f7f7f7;
+  border-bottom: 0.0625rem solid #eaeaea;
+  border-top: 0.0625rem solid #eaeaea;
+  color: #000000;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c3.c3 {
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+}
+
+.c1.c1 {
+  padding: 0.75rem 1rem;
+}
+
+.c5.c5 {
+  padding: 0.25rem 1rem;
+}
+
+.c4 {
+  margin: 0;
+  background: white;
+  color: #000000;
+}
+
+.c6 ul li a {
+  -webkit-transition: -webkit-transform 0.1s ease,padding 0.15s ease;
+  -webkit-transition: transform 0.1s ease,padding 0.15s ease;
+  transition: transform 0.1s ease,padding 0.15s ease;
+}
+
+.c6 ul li a:hover {
+  padding-left: 0.5rem;
+}
+
+.c7 {
+  padding: 0.5rem 0;
+  display: block;
+  font-size: 0.875rem;
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+.c7 strong {
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    background: white;
+    border: none;
+    padding: 1.5rem 0 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c3.c3 {
+    -webkit-letter-spacing: 0.0075rem;
+    -moz-letter-spacing: 0.0075rem;
+    -ms-letter-spacing: 0.0075rem;
+    letter-spacing: 0.0075rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c1.c1 {
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width:1280px) {
+  .c1.c1 {
+    padding: 0 2.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c5.c5 {
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width:1280px) {
+  .c5.c5 {
+    padding: 0 2.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c7 {
+    padding: 0.5rem 0;
+  }
+}
+
+<div
+    data-testid="header-enrich-auto-complete"
+  >
+    <div
+      class="PrivateHiddenCss-mdUp-38"
+    >
+      <div
+        class="c0 autocomplete-header"
+        data-testid="autocomplete-header"
+      >
+        <div
+          class="MuiContainer-root c1 MuiContainer-maxWidthXl"
+        >
+          <div
+            class="c2"
+          >
+            <h4
+              class="MuiTypography-root c3 MuiTypography-h4"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root c4"
+    >
+      <div
+        class="MuiContainer-root c5 MuiContainer-maxWidthXl"
+      >
+        <div
+          class="MuiGrid-root c6"
+        >
+          <span
+            class="c7"
+          >
+            No results found for  '
+            <strong>
+              aaaa
+            </strong>
+            '
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - EnrichAutoComplete:  should match the snapshot for AutoCompleteContainer - show data 1`] = `
+<DocumentFragment>
+  .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f7f7f7;
+  border-bottom: 0.0625rem solid #eaeaea;
+  border-top: 0.0625rem solid #eaeaea;
+  color: #000000;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c3.c3 {
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+}
+
+.c1.c1 {
+  padding: 0.75rem 1rem;
+}
+
+.c5.c5 {
+  padding: 0.25rem 1rem;
+}
+
+.c4 {
+  margin: 0;
+  background: white;
+  color: #000000;
+}
+
+.c6 ul li a {
+  -webkit-transition: -webkit-transform 0.1s ease,padding 0.15s ease;
+  -webkit-transition: transform 0.1s ease,padding 0.15s ease;
+  transition: transform 0.1s ease,padding 0.15s ease;
+}
+
+.c6 ul li a:hover {
+  padding-left: 0.5rem;
+}
+
+.c7 {
+  border-bottom: 0.0625rem solid #eaeaea;
+  padding-bottom: 1rem;
+}
+
+.c9 {
+  padding-top: 1rem;
+  min-height: 300px;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    background: white;
+    border: none;
+    padding: 1.5rem 0 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c3.c3 {
+    -webkit-letter-spacing: 0.0075rem;
+    -moz-letter-spacing: 0.0075rem;
+    -ms-letter-spacing: 0.0075rem;
+    letter-spacing: 0.0075rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c1.c1 {
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width:1280px) {
+  .c1.c1 {
+    padding: 0 2.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c5.c5 {
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width:1280px) {
+  .c5.c5 {
+    padding: 0 2.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem 0;
+  }
+}
+
+@media (min-width:400px) and (max-width:767px) {
+  .c8 ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .c8 ul li {
+    -webkit-flex-basis: calc(100% / 2);
+    -ms-flex-preferred-size: calc(100% / 2);
+    flex-basis: calc(100% / 2);
+    padding-right: 1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c7 {
+    border-bottom: 0;
+    padding-bottom: 0rem;
+    border-right: 0.0625rem solid #eaeaea;
+  }
+}
+
+@media (min-width:768px) {
+  .c9 {
+    padding-top: 0;
+    padding-left: 1rem;
+  }
+}
+
+<div
+    data-testid="header-enrich-auto-complete"
+  >
+    <div
+      class="PrivateHiddenCss-mdUp-23"
+    >
+      <div
+        class="c0 autocomplete-header"
+        data-testid="autocomplete-header"
+      >
+        <div
+          class="MuiContainer-root c1 MuiContainer-maxWidthXl"
+        >
+          <div
+            class="c2"
+          >
+            <h4
+              class="MuiTypography-root c3 MuiTypography-h4"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root c4"
+    >
+      <div
+        class="MuiContainer-root c5 MuiContainer-maxWidthXl"
+      >
+        <div
+          class="MuiGrid-root c6"
+        >
+          <div
+            class="MuiGrid-root c7 MuiGrid-item MuiGrid-grid-md-4"
+          >
+            <div
+              class="c8"
+            >
+              <ul>
+                <li>
+                  <a
+                    data-testid="first-anchor"
+                    href="/abc"
+                  >
+                    abc
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/abcdef"
+                  >
+                    abcdef
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root c9 MuiGrid-item MuiGrid-grid-md-8"
+          >
+            <ul>
+              <li>
+                <a
+                  href="/abc"
+                >
+                  <img
+                    alt="abc"
+                    src="abc.com/amido-something.jpg"
+                  />
+                   abc
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/abcdef"
+                >
+                  <img
+                    alt="abcdef"
+                    src="abcdef.com/amido-something.jpg"
+                  />
+                   abcdef
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

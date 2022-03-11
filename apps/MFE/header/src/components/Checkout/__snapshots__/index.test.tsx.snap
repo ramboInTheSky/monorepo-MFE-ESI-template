@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - Checkout:  should match the snapshot 1`] = `
+<DocumentFragment>
+  .c1.c1 {
+  width: 100%;
+  height: 100%;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+  margin: 0;
+  border: 0;
+  color: #ffffff;
+  opacity: 0.5;
+  border-radius: 0.25rem;
+  background-color: #30a74b;
+  padding: 0.5625rem 0.5rem;
+}
+
+.c1.c1:hover {
+  background-color: #30a74b;
+}
+
+.c1.c1:focus {
+  background-color: #30a74b;
+}
+
+.c1 span {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    width: 5.375rem;
+    height: 2.75rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    width: 5.375rem;
+    height: 2.75rem;
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    width: 5.375rem;
+    height: 2.75rem;
+  }
+}
+
+<div
+    class="c0 header-adaptive-checkout"
+    data-testid="header-adaptive-checkout"
+  >
+    <div
+      class="PrivateHiddenCss-smDown-6"
+    >
+      <a
+        aria-disabled="true"
+        class="MuiButtonBase-root MuiButton-root MuiButton-text c1 Mui-disabled Mui-disabled"
+        href="/shoppingbag"
+        rel="nofollow"
+        tabindex="-1"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          text
+        </span>
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

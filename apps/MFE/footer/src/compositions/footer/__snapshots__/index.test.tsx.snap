@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages: Footer -  When I try provide the data to the footer and an error has occured:  should show the default footer 1`] = `
+<DocumentFragment>
+  <footer
+    dir="ltr"
+  >
+    <div>
+      DEFAULT COPYRIGHT
+    </div>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Pages: Footer -  When the footer renders with regions  should show the default footer 1`] = `
+<DocumentFragment>
+  <footer
+    dir="ltr"
+  >
+    <div
+      data-testid="footer-container"
+    >
+      <div>
+        TEST REGION WRAPPER SocialMedia
+      </div>
+      <div>
+        TEST REGION WRAPPER QuickLinks
+      </div>
+      <div>
+        TEST REGION WRAPPER MainLinks
+      </div>
+      <div>
+        TEST REGION WRAPPER Copyright
+      </div>
+    </div>
+  </footer>
+</DocumentFragment>
+`;

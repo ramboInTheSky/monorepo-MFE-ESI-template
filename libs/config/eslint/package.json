@@ -1,0 +1,34 @@
+{
+  "name": "@monorepo/eslint",
+  "version": "3.3.0",
+  "author": "",
+  "description": "An eslint config",
+  "main": "./lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build-lib": "rollup -c && yalc push --safe --replace",
+    "build-ci": "rollup -c rollup.config.prod.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/plugin-transform-modules-commonjs": "^7.8.3",
+    "babel": "^6.23.0",
+    "yalc": "^1.0.0-pre.53"
+  },
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-compat": "^3.5.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^23.7.0",
+    "eslint-plugin-jest-dom": "^2.0.0",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  },
+  "gitHead": "ddc830c814fe0ca4d5cb49e91bf965128ce83536"
+}

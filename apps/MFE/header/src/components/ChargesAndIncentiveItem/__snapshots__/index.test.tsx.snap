@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - ChargesAndIncentiveItem:  Incentive in the Bag- ChargesAndIncentiveItem:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 0 1rem;
+}
+
+<div
+    class="c0"
+  >
+    <h5
+      class="MuiTypography-root MuiTypography-h5"
+    >
+      Welcome Offer
+    </h5>
+    <h5
+      class="MuiTypography-root MuiTypography-h5"
+      data-testid="header-mini-shopping-bag-additional-incentive"
+    >
+      -£10.00
+    </h5>
+  </div>
+</DocumentFragment>
+`;

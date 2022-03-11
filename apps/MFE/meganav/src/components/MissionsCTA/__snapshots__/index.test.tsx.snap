@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MissionsCTA should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="component__Container-sc-1il1g34-0 cPvqyc"
+    data-testid="missions-cta"
+  >
+    <a
+      aria-disabled="false"
+      class="MuiButtonBase-root MuiButton-root MuiButton-text"
+      data-ga-v1="Mission Block"
+      data-ga-v2="sampledept"
+      data-ga-v3="sample title"
+      href="http://IAmSiteUrlsampleurl"
+      style="text-transform: none;"
+      tabindex="0"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        <span
+          data-testid="missions-cta-buttonText"
+        >
+          sample title
+        </span>
+        <img
+          alt="Menu expand icon"
+          class="component__Image-sc-1il1g34-1 jDFJOF"
+          src="/static-content/icons/shared/chevron.svg"
+        />
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </a>
+  </div>
+</DocumentFragment>
+`;

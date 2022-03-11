@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainLinks:  AccordionMainLinks:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__AccordionMainLinks-sc-1gbtkx8-3 gStFtA"
+  />
+</DocumentFragment>
+`;
+
+exports[`MainLinks:  GridContainer:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__GridContainer-sc-1gbtkx8-0 dNbSzL"
+  />
+</DocumentFragment>
+`;
+
+exports[`MainLinks:  MainLinksHeader:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <p
+    class="MuiTypography-root components__MainLinksHeader-sc-1gbtkx8-2 gieCyz MuiTypography-body1"
+  />
+</DocumentFragment>
+`;
+
+exports[`MainLinks:  SubRegionGrid:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root components__SubRegionGrid-sc-1gbtkx8-1 jJXUOc"
+  />
+</DocumentFragment>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Models: Metadata should match the SeoMetadataProps 1`] = `
+Object {
+  "seoCanonical": "Canonical",
+  "seoDescription": "descr",
+  "seoKeywords": "keywords",
+  "seoRobots": "robots",
+  "seoTitle": "title",
+}
+`;

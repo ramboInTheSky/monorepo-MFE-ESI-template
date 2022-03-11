@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components/noResults - Italic should match the snapshot - Italic 1`] = `
+.c0 {
+  font-family: "AzoSansItalic","Helvetica Neue",Arial,sans-serif;
+  font-weight: normal;
+}
+
+<i
+  class="c0"
+/>
+`;
+
+exports[`Components/noResults - List should match the snapshot - List 1`] = `
+.c0 {
+  padding-inline-start: 1.25rem;
+}
+
+<ul
+  class="c0"
+/>
+`;
+
+exports[`Components/noResults - ListItem should match the snapshot - ListItem 1`] = `
+.c0 {
+  padding-bottom: 0.75rem;
+}
+
+<li
+  class="c0"
+/>
+`;

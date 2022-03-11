@@ -1,0 +1,109 @@
+{
+  "name": "@monorepo/country-selector-drawer",
+  "version": "1.2.0",
+  "description": "To display country selector drawer",
+  "author": "",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "module": "./lib/index.es.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build-lib": "rollup -c && yalc push --safe --replace",
+    "build-ci": "rollup -c rollup.config.prod.js",
+    "lint": "eslint --ext .tsx,.ts src/",
+    "tsc": "tsc",
+    "test": "jest src/",
+    "precommit": "npm run tsc && npm run test -- --coverage && jest-coverage-ratchet && git add package.json"
+  },
+  "resolutions": {
+    "@babel/preset-env": "^7.8.7"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.{ts,tsx}",
+      "!**/*.cy.{ts,tsx}"
+    ],
+    "coverageReporters": [
+      "json-summary",
+      "lcov",
+      "text"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "lines": 68.97,
+        "statements": 64.24,
+        "functions": 60.42,
+        "branches": 46.38
+      }
+    }
+  },
+  "devDependencies": {
+    "@babel/compat-data": "^7.8.0",
+    "@babel/core": "^7.8.7",
+    "@monorepo/babelconfig": "^3.3.0",
+    "@monorepo/eslint": "^3.3.0",
+    "@testing-library/jest-dom": "5.1.1",
+    "@testing-library/react": "^11.1.0",
+    "@types/jest": "^26.0.20",
+    "@types/node": "12.12.28",
+    "@types/react": "16.9.34",
+    "@types/react-redux": "^7.1.7",
+    "@types/styled-components": "^5.1.0",
+    "babel-eslint": "10.0.2",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "8.1.0",
+    "babel-plugin-dynamic-import-node": "^2.2.0",
+    "babel-plugin-named-asset-import": "^0.3.3",
+    "babel-plugin-styled-components": "1.12.0",
+    "babel-preset-react-app": "^9.1.1",
+    "jest": "24.9.0",
+    "jest-coverage-ratchet": "^0.2.3",
+    "jest-junit": "10.0.0",
+    "ts-jest": "24.3.0",
+    "typescript": "3.8.2",
+    "yalc": "^1.0.0-pre.53"
+  },
+  "dependencies": {
+    "@mui/material": "^5.2.8",
+    "@mui/styles": "^5.2.3",
+    "@monorepo/core-logger": "^7.3.0",
+    "@monorepo/cta": "^2.0.0",
+    "@monorepo/drawer": "^1.0.3",
+    "@monorepo/eventservice": "^6.4.1",
+    "@monorepo/theme-provider": "^9.0.0",
+    "@monorepo/themes": "^17.0.0",
+    "@monorepo/utils": "^6.4.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-mock-store": "^1.0.2",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.1.0",
+    "redux-devtools-extension": "^2.13.8"
+  },
+  "peerDependencies": {
+    "@mui/material": "^5.2.8",
+    "@mui/styles": "^5.2.3",
+    "@monorepo/core-logger": "^7.3.0",
+    "@monorepo/cta": "^2.0.0",
+    "@monorepo/drawer": "^1.0.3",
+    "@monorepo/eventservice": "^6.4.1",
+    "@monorepo/theme-provider": "^9.0.0",
+    "@monorepo/themes": "^17.0.0",
+    "@monorepo/utils": "^6.4.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-mock-store": "^1.0.2",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.1.0",
+    "redux-devtools-extension": "^2.13.8"
+  },
+  "gitHead": "ddc830c814fe0ca4d5cb49e91bf965128ce83536"
+}

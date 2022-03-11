@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tabbedFiltersPanel components Given a AlphabetSection should render the component correctly to match the snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  top: 0;
+  z-index: 1;
+  padding: 0.65rem 1rem;
+  min-height: 2.75rem;
+  background: #f7f7f7;
+  border-top: 0.0625rem solid #d1d1d1;
+  border-bottom: 0.0625rem solid #d1d1d1;
+}
+
+<p
+    class="MuiTypography-root c0 MuiTypography-body1"
+  />
+</DocumentFragment>
+`;
+
+exports[`tabbedFiltersPanel components Given a PromotedBrandsContainer should render the component correctly to match the snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: block;
+}
+
+<div
+    class="components__TabbedFilterContainer-sc-1ibyial-1 c0"
+  />
+</DocumentFragment>
+`;

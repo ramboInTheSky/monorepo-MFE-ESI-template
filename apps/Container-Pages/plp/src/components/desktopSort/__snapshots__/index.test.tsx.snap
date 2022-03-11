@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Desktop Sort:  When clicking the input should render the options 1`] = `
+@media (max-width:1023px) {
+
+}
+
+<div
+  class="MuiPaper-root MuiAutocomplete-paper MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <ul
+    aria-labelledby="desktop-sort-select-input-label"
+    class="MuiAutocomplete-listbox"
+    id="desktop-sort-select-input-popup"
+    role="listbox"
+  >
+    <li
+      aria-disabled="false"
+      aria-selected="true"
+      class="MuiAutocomplete-option"
+      data-focus="true"
+      data-option-index="0"
+      id="desktop-sort-select-input-option-0"
+      role="option"
+      tabindex="-1"
+    >
+      red
+    </li>
+    <li
+      aria-disabled="false"
+      aria-selected="false"
+      class="MuiAutocomplete-option"
+      data-option-index="1"
+      id="desktop-sort-select-input-option-1"
+      role="option"
+      tabindex="-1"
+    >
+      blue
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Given a Desktop Sort:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  padding: 0 1rem 0 0;
+}
+
+.c1 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  float: right;
+}
+
+.c1 div[role="presentation"] {
+  top: 2rem;
+  left: 0;
+}
+
+.c1 ul[role="listbox"] {
+  padding: 0;
+}
+
+.c1 li {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding: "0 0.5rem";
+}
+
+.c1 li[aria-selected="true"] {
+  background-color: #f7f7f7;
+  color: #000000;
+}
+
+.c1 li[aria-selected="true"]:focus {
+  background-color: #f7f7f7;
+  color: #000000;
+}
+
+.c1 li[data-focus="true"] {
+  background-color: #515151;
+  color: #ffffff;
+}
+
+.c3 {
+  width: 13.5rem;
+  height: 2.25rem;
+}
+
+.c3.c3.c3 > div > div > div {
+  top: calc(50%);
+  right: 0.875rem;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.c3.c3 > div > div {
+  padding: 0;
+}
+
+.c3.c3.c3 fieldset {
+  border: 0.0625rem solid #9e9e9e;
+  border-radius: 0.25rem;
+}
+
+.c4.c4.c4 > fieldset {
+  border: 0.0625rem solid #9e9e9e;
+  border-radius: 0.25rem;
+}
+
+.c4.c4.c4 > div {
+  padding-right: 0;
+}
+
+.c4.c4.c4.c4 input {
+  cursor: pointer;
+  padding: 0.625rem 2.25rem 0.5625rem 0.625rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: left;
+}
+
+.c2 {
+  -webkit-transform: translate(-0.3125rem,0.625rem) translateX(-100%) scale(1);
+  -ms-transform: translate(-0.3125rem,0.625rem) translateX(-100%) scale(1);
+  transform: translate(-0.3125rem,0.625rem) translateX(-100%) scale(1);
+}
+
+@media (max-width:1023px) {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="MuiFormControl-root c1"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root c2 MuiInputLabel-formControl"
+        data-shrink="false"
+        for="desktop-sort-select-input"
+      >
+        Sort
+      </label>
+      <div
+        aria-expanded="false"
+        class="MuiAutocomplete-root c3 MuiAutocomplete-hasPopupIcon"
+        data-testid="plp-desktop-sort-button"
+        role="combobox"
+      >
+        <div
+          class="MuiFormControl-root MuiTextField-root c4 MuiFormControl-fullWidth"
+          data-testid="plp-desktop-sort-select-input"
+        >
+          <div
+            class="MuiInputBase-root MuiOutlinedInput-root MuiAutocomplete-inputRoot MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
+          >
+            <input
+              aria-autocomplete="list"
+              aria-invalid="false"
+              autocapitalize="none"
+              autocomplete="off"
+              class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
+              id="desktop-sort-select-input"
+              name="desktop-sort-select-input"
+              spellcheck="false"
+              type="button"
+              value="red"
+            />
+            <div
+              class="MuiAutocomplete-endAdornment"
+            >
+              <button
+                aria-label="Open"
+                class="MuiButtonBase-root MuiIconButton-root MuiAutocomplete-popupIndicator"
+                tabindex="-1"
+                title="Open"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label"
+                >
+                  <img
+                    alt="Accordion chevron icon"
+                    class="material-icons "
+                    src="/static-content/icons/shared/chevron.svg"
+                  />
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <fieldset
+              aria-hidden="true"
+              class="PrivateNotchedOutline-root-2 MuiOutlinedInput-notchedOutline"
+              style="padding-left: 8px;"
+            >
+              <legend
+                class="PrivateNotchedOutline-legend-3"
+                style="width: 0.01px;"
+              >
+                <span>
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,244 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - MainLinks:  When one of the subregion does not have a title:  should only show Privacy & Legal and not show Help sub Region 1`] = `
+<DocumentFragment>
+  <div
+    class="PrivateHiddenCss-smDown-36"
+  >
+    <div
+      class="MuiGrid-root components__GridContainer-sc-1gbtkx8-0 dNbSzL MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        class="MuiGrid-root components__SubRegionGrid-sc-1gbtkx8-1 jJXUOc MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-3"
+      >
+        <h4
+          class="MuiTypography-root components__MainLinksHeader-sc-1gbtkx8-2 gieCyz MuiTypography-h4"
+          data-testid="footer-main-links-title-privacy-&-legal"
+        >
+          Privacy & Legal
+        </h4>
+        <div>
+          MainLinkList component
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="PrivateHiddenCss-mdUp-38"
+  >
+    <div
+      class="MuiGrid-root components__AccordionMainLinks-sc-1gbtkx8-3 gStFtA MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-3"
+      >
+        <div>
+          Accordion component
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - MainLinks:  should match the snapshot template for desktop version 1`] = `
+<DocumentFragment>
+  <div
+    class="PrivateHiddenCss-smDown-6"
+  >
+    <div
+      class="MuiGrid-root components__GridContainer-sc-1gbtkx8-0 dNbSzL MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        class="MuiGrid-root components__SubRegionGrid-sc-1gbtkx8-1 jJXUOc MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"
+      >
+        <h4
+          class="MuiTypography-root components__MainLinksHeader-sc-1gbtkx8-2 gieCyz MuiTypography-h4"
+          data-testid="footer-main-links-title-help"
+        >
+          Help
+        </h4>
+        <div>
+          MainLinkList component
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root components__SubRegionGrid-sc-1gbtkx8-1 jJXUOc MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"
+      >
+        <h4
+          class="MuiTypography-root components__MainLinksHeader-sc-1gbtkx8-2 gieCyz MuiTypography-h4"
+          data-testid="footer-main-links-title-privacy-&-legal"
+        >
+          Privacy & Legal
+        </h4>
+        <div>
+          MainLinkList component
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root components__SubRegionGrid-sc-1gbtkx8-1 jJXUOc MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"
+      >
+        <h4
+          class="MuiTypography-root components__MainLinksHeader-sc-1gbtkx8-2 gieCyz MuiTypography-h4"
+          data-testid="footer-main-links-title-other-services"
+        >
+          Other Services
+        </h4>
+        <div>
+          MainLinkList component
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root components__SubRegionGrid-sc-1gbtkx8-1 jJXUOc MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"
+      >
+        <h4
+          class="MuiTypography-root components__MainLinksHeader-sc-1gbtkx8-2 gieCyz MuiTypography-h4"
+          data-testid="footer-main-links-title-shop-by-country"
+        >
+          Shop By Country
+        </h4>
+        <div>
+          MainLinkList component
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="PrivateHiddenCss-mdUp-8"
+  >
+    <div
+      class="MuiGrid-root components__AccordionMainLinks-sc-1gbtkx8-3 gStFtA MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"
+      >
+        <div>
+          Accordion component
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"
+      >
+        <div>
+          Accordion component
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"
+      >
+        <div>
+          Accordion component
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"
+      >
+        <div>
+          Accordion component
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - MainLinks:  should match the snapshot template for tablet/mobile version 1`] = `
+<DocumentFragment>
+  <div
+    class="PrivateHiddenCss-smDown-21"
+  >
+    <div
+      class="MuiGrid-root components__GridContainer-sc-1gbtkx8-0 dNbSzL MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        class="MuiGrid-root components__SubRegionGrid-sc-1gbtkx8-1 jJXUOc MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"
+      >
+        <h4
+          class="MuiTypography-root components__MainLinksHeader-sc-1gbtkx8-2 gieCyz MuiTypography-h4"
+          data-testid="footer-main-links-title-help"
+        >
+          Help
+        </h4>
+        <div>
+          MainLinkList component
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root components__SubRegionGrid-sc-1gbtkx8-1 jJXUOc MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"
+      >
+        <h4
+          class="MuiTypography-root components__MainLinksHeader-sc-1gbtkx8-2 gieCyz MuiTypography-h4"
+          data-testid="footer-main-links-title-privacy-&-legal"
+        >
+          Privacy & Legal
+        </h4>
+        <div>
+          MainLinkList component
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root components__SubRegionGrid-sc-1gbtkx8-1 jJXUOc MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"
+      >
+        <h4
+          class="MuiTypography-root components__MainLinksHeader-sc-1gbtkx8-2 gieCyz MuiTypography-h4"
+          data-testid="footer-main-links-title-other-services"
+        >
+          Other Services
+        </h4>
+        <div>
+          MainLinkList component
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root components__SubRegionGrid-sc-1gbtkx8-1 jJXUOc MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"
+      >
+        <h4
+          class="MuiTypography-root components__MainLinksHeader-sc-1gbtkx8-2 gieCyz MuiTypography-h4"
+          data-testid="footer-main-links-title-shop-by-country"
+        >
+          Shop By Country
+        </h4>
+        <div>
+          MainLinkList component
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="PrivateHiddenCss-mdUp-23"
+  >
+    <div
+      class="MuiGrid-root components__AccordionMainLinks-sc-1gbtkx8-3 gStFtA MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"
+      >
+        <div>
+          Accordion component
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"
+      >
+        <div>
+          Accordion component
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"
+      >
+        <div>
+          Accordion component
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"
+      >
+        <div>
+          Accordion component
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

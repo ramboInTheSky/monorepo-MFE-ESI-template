@@ -1,0 +1,346 @@
+{
+  "id": "71225022-32f8-4803-9595-6f2459800d75",
+  "title": "GIRLS",
+  "target": "/girls",
+  "path": "GIRLS",
+  "viewType": "secondary-navigation",
+  "realm": "next",
+  "territory": "GB",
+  "language": "en",
+  "items": [
+    {
+      "title": "GIRLS",
+      "type": "tab",
+      "items": [
+        {
+          "title": "column1",
+          "type": "column",
+          "items": [
+            {
+              "title": "",
+              "type": "category",
+              "items": [
+                {
+                  "title": "GIRLS NEW IN",
+                  "type": "link",
+                  "target": "/shop/gender-oldergirls-gender-youngergirls/feat-newin",
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "title": "",
+              "type": "category",
+              "items": [
+                {
+                  "title": "THE GIRLS SHOP",
+                  "type": "link",
+                  "target": "/girls",
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "title": "Clothing",
+              "type": "category",
+              "linkColour": "#0000ff",
+              "fontWeight": "900",
+              "fontFamily": "Arial",
+              "items": [
+                {
+                  "title": "Bodysuits",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-category-bodysuits",
+                  "icon": null,
+                  "linkColour": "#008001",
+                  "fontWeight": "700",
+                  "fontFamily": "Century Gothic"
+                },
+                {
+                  "title": "Dresses",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-oldergirls-gender-youngergirls-category-dresses-0",
+                  "icon": null
+                },
+                {
+                  "title": "Jackets & Coats",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-gender-oldergirls-gender-youngergirls-productaffiliation-coatsandjackets-0",
+                  "icon": null,
+                  "linkColour": "#008001",
+                  "fontWeight": "700",
+                  "fontFamily": "Century Gothic"
+                },
+                {
+                  "title": "Jeans",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-oldergirls-gender-youngergirls-category-jeans-0",
+                  "icon": null
+                },
+                {
+                  "title": "Jumpsuits & Playsuits",
+                  "type": "link",
+                  "target": "/shop/gender-oldergirls-gender-youngergirls-productaffiliation-jumpsuitsandplaysuits-0",
+                  "icon": null
+                },
+                {
+                  "title": "Knitwear",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-gender-oldergirls-gender-youngergirls-productaffiliation-knitwear-0",
+                  "icon": null
+                },
+                {
+                  "title": "New In",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-gender-oldergirls-gender-youngergirls/feat-newin",
+                  "icon": null
+                },
+                {
+                  "title": "Nightwear & Pyjamas",
+                  "type": "link",
+                  "target": "/shop/gender-oldergirls-gender-youngergirls-productaffiliation-nightwear-0",
+                  "icon": null
+                },
+                {
+                  "title": "Schoolwear",
+                  "type": "link",
+                  "target": "/shop/gender-oldergirls-gender-youngergirls-productaffiliation-schoolwear-0",
+                  "icon": null
+                },
+                {
+                  "title": "Sets & Outfits",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-gender-oldergirls-gender-youngergirls-productaffiliation-outfits-0",
+                  "icon": null
+                },
+                {
+                  "title": "Shop All Girls",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-gender-oldergirls-gender-youngergirls-0",
+                  "icon": null
+                },
+                {
+                  "title": "Shorts & Skirts",
+                  "type": "link",
+                  "target": "/shop/gender-oldergirls-gender-youngergirls-productaffiliation-shortsandskirts-0",
+                  "icon": null
+                },
+                {
+                  "title": "Sportswear",
+                  "type": "link",
+                  "target": "/shop/gender-oldergirls-gender-youngergirls-productaffiliation-sportswear-0",
+                  "icon": null
+                },
+                {
+                  "title": "Sweatshirts & Hoodies",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-gender-oldergirls-gender-youngergirls-productaffiliation-sweatshirtsandhoodies-0",
+                  "icon": null
+                },
+                {
+                  "title": "Swim & Beach",
+                  "type": "link",
+                  "target": "/shop/gender-oldergirls-gender-youngergirls-productaffiliation-swimwear-0",
+                  "icon": null
+                },
+                {
+                  "title": "Tops, T-Shirts & Shirts",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-gender-oldergirls-gender-youngergirls-productaffiliation-tops-0",
+                  "icon": null
+                },
+                {
+                  "title": "Trousers & Leggings",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-gender-oldergirls-gender-youngergirls-productaffiliation-trousersleggings-0",
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "title": "Shoes & Accessories",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Bags & Accessories",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-gender-oldergirls-gender-youngergirls-productaffiliation-accessories-0",
+                  "icon": null
+                },
+                {
+                  "title": "Hats, Gloves & Scarves",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-gender-oldergirls-gender-youngergirls-productaffiliation-hatsglovesscarves-0",
+                  "icon": null
+                },
+                {
+                  "title": "Shoes, Trainers & Boots",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-gender-oldergirls-gender-youngergirls-productaffiliation-footwear-0",
+                  "icon": null
+                },
+                {
+                  "title": "Slippers",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-gender-oldergirls-gender-youngergirls-productaffiliation-footwear/category-slippers",
+                  "icon": null
+                },
+                {
+                  "title": "Socks & Tights",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-gender-oldergirls-gender-youngergirls-productaffiliation-hosieryandsocks-0",
+                  "icon": null
+                },
+                {
+                  "title": "Underwear",
+                  "type": "link",
+                  "target": "/shop/gender-oldergirls-gender-youngergirls-productaffiliation-underwear-0",
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "title": "Shop By Range",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Baby Girls 0mths-2yrs",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-0",
+                  "icon": null
+                },
+                {
+                  "title": "Older Girls 3yrs-16yrs",
+                  "type": "link",
+                  "target": "/shop/gender-oldergirls-0",
+                  "icon": null
+                },
+                {
+                  "title": "Younger Girls 3mths-7yrs",
+                  "type": "link",
+                  "target": "/shop/gender-youngergirls-0",
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "title": "Trending",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Co-Ords",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-gender-oldergirls-gender-youngergirls/designfeature-coord",
+                  "icon": null
+                },
+                {
+                  "title": "Kids Character Shop",
+                  "type": "link",
+                  "target": "/shop/promotion-charactershop-0",
+                  "icon": null
+                },
+                {
+                  "title": "Matching Family",
+                  "type": "link",
+                  "target": "/shop/promotion-justlikeme-0",
+                  "icon": null
+                },
+                {
+                  "title": "Prairie Girl",
+                  "type": "link",
+                  "target": "/shop/promotion-prairiegirl",
+                  "icon": null
+                },
+                {
+                  "title": "Sports",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-gender-oldergirls-gender-youngergirls-promotion-sportsinspiredfashion-0",
+                  "icon": null
+                },
+                {
+                  "title": "Stationary",
+                  "type": "link",
+                  "target": "/shop/productaffiliation-stationery/gender-olderboys-gender-oldergirls-gender-youngerboys-gender-youngergirls",
+                  "icon": null
+                },
+                {
+                  "title": "The Winter Edit",
+                  "type": "link",
+                  "target": "/shop/promotion-australiawinteredit/gender-newborngirls-gender-newbornunisex-gender-oldergirls-gender-youngergirls",
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "title": "Baby & Nursery",
+              "type": "category",
+              "items": [
+                {
+                  "title": "All Baby Girls",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-productaffiliation-newborn-0",
+                  "icon": null
+                },
+                {
+                  "title": "All Nursery",
+                  "type": "link",
+                  "target": "/shop/department-homeware-productaffiliation-nurseryandbaby-0",
+                  "icon": null
+                },
+                {
+                  "title": "Body Suits",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-category-bodysuits-0",
+                  "icon": null
+                },
+                {
+                  "title": "Explore the Baby Shop",
+                  "type": "link",
+                  "target": "/baby",
+                  "icon": null
+                },
+                {
+                  "title": "Rompersuits & Dungarees",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex/category-dungarees-category-rompersuits",
+                  "icon": null
+                },
+                {
+                  "title": "Sets & Outfits",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex/category-sets",
+                  "icon": null
+                },
+                {
+                  "title": "Sleepsuits",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-newbornunisex-category-sleepsuits-0",
+                  "icon": null
+                }
+              ]
+            },
+            {
+              "title": "Brands",
+              "type": "category",
+              "items": [
+                {
+                  "title": "New In Girls Brands",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-oldergirls-gender-youngergirls-editorial-label-editorial-lipsyandcompany/feat-newin",
+                  "icon": null
+                },
+                {
+                  "title": "Shop All Girls Brands",
+                  "type": "link",
+                  "target": "/shop/gender-newborngirls-gender-oldergirls-gender-youngergirls-editorial-label-editorial-lipsyandcompany-0",
+                  "icon": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "missions": null
+    }
+  ]
+}

@@ -1,0 +1,1865 @@
+{
+  "Empire": {
+    "EmpireName": "MONOREPO.PLP.FRONTEND",
+    "Settings": {
+      "monorepo.plp.frontend.appCacheTTL": {"Value": 0},
+      "monorepo.plp.frontend.themeVersion": {"Value": "v1.0.0"},
+      "monorepo.plp.frontend.textData": {"Value": "default-text"},
+      "monorepo.plp.frontend.cache-control.search": {"Value": "172800"},
+      "monorepo.plp.frontend.cache-control.shop": {"Value": "172800"},
+      "monorepo.plp.frontend.debounceTime": {"Value": 700},
+      "monorepo.plp.frontend.singleOptionFacetList": {
+        "Value": ["personalised", "feat", "sizetype", "deliverby"]
+      },
+      "monorepo.plp.frontend.searchBannerAppCacheTTL": {"Value": 0},
+      "monorepo.plp.frontend.itemsPerPage": {
+        "initial": {
+          "mobile": 8,
+          "tablet": 12,
+          "desktop": 24
+        },
+        "subsequent": {
+          "mobile": 8,
+          "tablet": 12,
+          "desktop": 16
+        }
+      },
+      "monorepo.plp.frontend.subsequentPagesNonLazyloadRows": {
+        "xs": 2,
+        "sm": 2,
+        "md": 2,
+        "lg": 2,
+        "xl": 2
+      },
+      "monorepo.plp.frontend.itemsPerRow": {
+        "inPageFiltersEnabled": {
+          "xs": 2,
+          "sm": 2,
+          "md": 2,
+          "lg": 3,
+          "xl": 4
+        },
+        "default": {
+          "xs": 2,
+          "sm": 2,
+          "md": 3,
+          "lg": 3,
+          "xl": 4
+        }
+      },
+      "monorepo.plp.frontend.inPageFilters": {
+        "enabled": {
+          "breakpoint": "md"
+        },
+        "disabled": {
+          "breakpoint": "lg"
+        }
+      },
+      "monorepo.plp.frontend.fetchTriggerOffsetRows": {
+        "xs": 2,
+        "sm": 2,
+        "md": 2,
+        "lg": 2,
+        "xl": 2
+      },
+      "monorepo.plp.frontend.fetchTriggerOffset": {
+        "inPageFiltersEnabled": {
+          "xs": 4,
+          "sm": 4,
+          "md": 4,
+          "lg": 6,
+          "xl": 8
+        },
+        "default": {
+          "xs": 4,
+          "sm": 4,
+          "md": 6,
+          "lg": 6,
+          "xl": 8
+        }
+      },
+      "monorepo.plp.frontend.seoFilters": {
+        "filterDepthCount": 6
+      },
+      "monorepo.plp.frontend.featureSwitch": {
+        "enablePageInFilters": false,
+        "overrideSeo": {
+          "metadata": true,
+          "headings": true
+        },
+        "enableSearchBanners": true,
+        "enableTooltips": false
+      },
+      "monorepo.plp.frontend.hideSearchFilterModalElements": {
+        "letterNav": false,
+        "searchBox": false
+      },
+      "monorepo.plp.frontend.bloomreachPersonalizationCookies": {
+        "bloomreachPersonalizationEnabled": false
+      }
+    },
+    "Realms": [
+      {
+        "RealmName": "amido",
+        "Settings": {
+          "monorepo.plp.frontend.realmName": {"Value": "amido"}
+        },
+        "Territories": [
+          {
+            "TerritoryName": "AE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "ar"},
+                  "monorepo.plp.frontend.direction": {"Value": "rtl"},
+                  "monorepo.plp.frontend.hideSearchFilterModalElements": {
+                    "letterNav": true,
+                    "searchBox": true
+                  },
+                  "monorepo.plp.frontend.featureSwitch": {
+                    "enablePageInFilters": false,
+                    "overrideSeo": {
+                      "metadata": true,
+                      "headings": true
+                    },
+                    "enableSearchBanners": true
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "United Arab Emirates"},
+              "monorepo.plp.frontend.territoryName": {"Value": "AE"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "16"}]
+            }
+          },
+          {
+            "TerritoryName": "AM",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Armenia"},
+              "monorepo.plp.frontend.territoryName": {"Value": "AM"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "AR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Argentina"},
+              "monorepo.plp.frontend.territoryName": {"Value": "AR"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "AT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "de",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "de"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Austria"},
+              "monorepo.plp.frontend.territoryName": {"Value": "AT"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "6"}]
+            }
+          },
+          {
+            "TerritoryName": "AU",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Australia"},
+              "monorepo.plp.frontend.territoryName": {"Value": "AU"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "AZ",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "ru"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Azerbaijan"},
+              "monorepo.plp.frontend.territoryName": {"Value": "AZ"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "21"}]
+            }
+          },
+          {
+            "TerritoryName": "BE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "fr",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "fr"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Belgium"},
+              "monorepo.plp.frontend.territoryName": {"Value": "BE"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "9"}]
+            }
+          },
+          {
+            "TerritoryName": "BG",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "bg",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "bg"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Bulgaria"},
+              "monorepo.plp.frontend.territoryName": {"Value": "BG"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "2"}]
+            }
+          },
+          {
+            "TerritoryName": "BH",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "ar"},
+                  "monorepo.plp.frontend.direction": {"Value": "rtl"},
+                  "monorepo.plp.frontend.hideSearchFilterModalElements": {
+                    "letterNav": true,
+                    "searchBox": true
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Bahrain"},
+              "monorepo.plp.frontend.territoryName": {"Value": "BH"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "16"}]
+            }
+          },
+          {
+            "TerritoryName": "BR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Brazil"},
+              "monorepo.plp.frontend.territoryName": {"Value": "BR"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "BY",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "ru"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Belarus"},
+              "monorepo.plp.frontend.territoryName": {"Value": "BY"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "21"}]
+            }
+          },
+          {
+            "TerritoryName": "CA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "fr",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "fr"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Canada"},
+              "monorepo.plp.frontend.territoryName": {"Value": "CA"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "9"}]
+            }
+          },
+          {
+            "TerritoryName": "CH",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "de",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "de"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Switzerland"},
+              "monorepo.plp.frontend.territoryName": {"Value": "CH"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "6"}]
+            }
+          },
+          {
+            "TerritoryName": "CL",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Chile"},
+              "monorepo.plp.frontend.territoryName": {"Value": "CL"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "CY",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Cyprus"},
+              "monorepo.plp.frontend.territoryName": {"Value": "CY"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "CZ",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "cs",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "cs"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Czech Republic"},
+              "monorepo.plp.frontend.territoryName": {"Value": "CZ"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "3"}]
+            }
+          },
+          {
+            "TerritoryName": "DE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "de",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "de"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Germany"},
+              "monorepo.plp.frontend.featureSwitch": {
+                "enablePageInFilters": true,
+                "overrideSeo": {
+                  "metadata": true,
+                  "headings": true
+                }
+              },
+              "monorepo.plp.frontend.territoryName": {"Value": "DE"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "6"}]
+            }
+          },
+          {
+            "TerritoryName": "DK",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "da",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "da"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Denmark"},
+              "monorepo.plp.frontend.territoryName": {"Value": "DK"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "5"}]
+            }
+          },
+          {
+            "TerritoryName": "EE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "ru"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"},
+                  "monorepo.plp.frontend.hideSearchFilterModalElements": {
+                    "letterNav": true,
+                    "searchBox": true
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Estonia"},
+              "monorepo.plp.frontend.territoryName": {"Value": "EE"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "21"}]
+            }
+          },
+          {
+            "TerritoryName": "EG",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "ar"},
+                  "monorepo.plp.frontend.direction": {"Value": "rtl"},
+                  "monorepo.plp.frontend.hideSearchFilterModalElements": {
+                    "letterNav": true,
+                    "searchBox": true
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Egypt"},
+              "monorepo.plp.frontend.territoryName": {"Value": "EG"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "16"}]
+            }
+          },
+          {
+            "TerritoryName": "ES",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "es",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "es"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Spain"},
+              "monorepo.plp.frontend.territoryName": {"Value": "ES"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "8"}]
+            }
+          },
+          {
+            "TerritoryName": "FI",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Finland"},
+              "monorepo.plp.frontend.territoryName": {"Value": "FI"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "FR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "fr",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "fr"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "France"},
+              "monorepo.plp.frontend.territoryName": {"Value": "FR"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "9"}]
+            }
+          },
+          {
+            "TerritoryName": "GB",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.featureSwitch": {
+                "enablePageInFilters": false,
+                "overrideSeo": {
+                  "metadata": true,
+                  "headings": true
+                },
+                "enableSearchBanners": true,
+                "enableTooltips": true
+              },
+              "monorepo.plp.frontend.territoryDescription": {"Value": "UK"},
+              "monorepo.plp.frontend.territoryName": {"Value": "GB"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "GE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Georgia"},
+              "monorepo.plp.frontend.territoryName": {"Value": "GE"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "GI",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Gibraltar"},
+              "monorepo.plp.frontend.territoryName": {"Value": "GI"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "GR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "el",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "el"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Greece"},
+              "monorepo.plp.frontend.territoryName": {"Value": "GR"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "20"}]
+            }
+          },
+          {
+            "TerritoryName": "HK",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "zh",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "zh"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"},
+                  "monorepo.plp.frontend.hideSearchFilterModalElements": {
+                    "letterNav": true,
+                    "searchBox": true
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Hong Kong"},
+              "monorepo.plp.frontend.territoryName": {"Value": "HK"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "4"}]
+            }
+          },
+          {
+            "TerritoryName": "HR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Croatia"},
+              "monorepo.plp.frontend.territoryName": {"Value": "HR"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "HU",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "hu",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "hu"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Hungary"},
+              "monorepo.plp.frontend.territoryName": {"Value": "HU"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "12"}]
+            }
+          },
+          {
+            "TerritoryName": "ID",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Indonesia"},
+              "monorepo.plp.frontend.territoryName": {"Value": "ID"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "IE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Ireland"},
+              "monorepo.plp.frontend.territoryName": {"Value": "IE"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "IL",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "he",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "he"},
+                  "monorepo.plp.frontend.direction": {"Value": "rtl"},
+                  "monorepo.plp.frontend.hideSearchFilterModalElements": {
+                    "letterNav": true,
+                    "searchBox": true
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Israel"},
+              "monorepo.plp.frontend.territoryName": {"Value": "IL"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "10"}]
+            }
+          },
+          {
+            "TerritoryName": "IN",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "India"},
+              "monorepo.plp.frontend.territoryName": {"Value": "IN"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "IS",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Iceland"},
+              "monorepo.plp.frontend.territoryName": {"Value": "IS"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "IT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "it",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "it"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Italy"},
+              "monorepo.plp.frontend.territoryName": {"Value": "IT"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "11"}]
+            }
+          },
+          {
+            "TerritoryName": "JP",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "ja",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "ja"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"},
+                  "monorepo.plp.frontend.hideSearchFilterModalElements": {
+                    "letterNav": true,
+                    "searchBox": true
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Japan"},
+              "monorepo.plp.frontend.territoryName": {"Value": "JP"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "23"}]
+            }
+          },
+          {
+            "TerritoryName": "KR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "ko",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "ko"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "South Korea"},
+              "monorepo.plp.frontend.territoryName": {"Value": "KR"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "22"}]
+            }
+          },
+          {
+            "TerritoryName": "KW",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "ar"},
+                  "monorepo.plp.frontend.direction": {"Value": "rtl"},
+                  "monorepo.plp.frontend.hideSearchFilterModalElements": {
+                    "letterNav": true,
+                    "searchBox": true
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Kuwait"},
+              "monorepo.plp.frontend.territoryName": {"Value": "KW"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "16"}]
+            }
+          },
+          {
+            "TerritoryName": "KZ",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "ru"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"},
+                  "monorepo.plp.frontend.hideSearchFilterModalElements": {
+                    "letterNav": true,
+                    "searchBox": true
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Kazakhstan"},
+              "monorepo.plp.frontend.territoryName": {"Value": "KZ"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "21"}]
+            }
+          },
+          {
+            "TerritoryName": "LB",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "ar"},
+                  "monorepo.plp.frontend.direction": {"Value": "rtl"},
+                  "monorepo.plp.frontend.hideSearchFilterModalElements": {
+                    "letterNav": true,
+                    "searchBox": true
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Lebanon"},
+              "monorepo.plp.frontend.territoryName": {"Value": "LB"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "16"}]
+            }
+          },
+          {
+            "TerritoryName": "LT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "ru"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"},
+                  "monorepo.plp.frontend.hideSearchFilterModalElements": {
+                    "letterNav": true,
+                    "searchBox": true
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Lithuania"},
+              "monorepo.plp.frontend.territoryName": {"Value": "LT"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "21"}]
+            }
+          },
+          {
+            "TerritoryName": "LU",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "fr",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "fr"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Luxembourg"},
+              "monorepo.plp.frontend.territoryName": {"Value": "LU"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "9"}]
+            }
+          },
+          {
+            "TerritoryName": "LV",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "ru"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"},
+                  "monorepo.plp.frontend.hideSearchFilterModalElements": {
+                    "letterNav": true,
+                    "searchBox": true
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Latvia"},
+              "monorepo.plp.frontend.territoryName": {"Value": "LV"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "21"}]
+            }
+          },
+          {
+            "TerritoryName": "MT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Malta"},
+              "monorepo.plp.frontend.territoryName": {"Value": "MT"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "MX",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Mexico"},
+              "monorepo.plp.frontend.territoryName": {"Value": "MX"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "8"}],
+              "monorepo.plp.frontend.featureSwitch": {
+                "overrideSeo": {
+                  "metadata": true,
+                  "headings": true
+                },
+                "enableSearchBanners": true
+              }
+            }
+          },
+          {
+            "TerritoryName": "MY",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "ms",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "ms"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Malaysia"},
+              "monorepo.plp.frontend.territoryName": {"Value": "MY"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "1"}]
+            }
+          },
+          {
+            "TerritoryName": "NL",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "nl",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "nl"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Netherlands"},
+              "monorepo.plp.frontend.territoryName": {"Value": "NL"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "13"}]
+            }
+          },
+          {
+            "TerritoryName": "NO",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Norway"},
+              "monorepo.plp.frontend.territoryName": {"Value": "NO"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "NZ",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "New Zealand"},
+              "monorepo.plp.frontend.territoryName": {"Value": "NZ"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "OM",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "ar"},
+                  "monorepo.plp.frontend.direction": {"Value": "rtl"},
+                  "monorepo.plp.frontend.hideSearchFilterModalElements": {
+                    "letterNav": true,
+                    "searchBox": true
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Oman"},
+              "monorepo.plp.frontend.territoryName": {"Value": "OM"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "16"}]
+            }
+          },
+          {
+            "TerritoryName": "PE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Peru"},
+              "monorepo.plp.frontend.territoryName": {"Value": "PE"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "PH",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Philippines"},
+              "monorepo.plp.frontend.territoryName": {"Value": "PH"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "PK",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Pakistan"},
+              "monorepo.plp.frontend.territoryName": {"Value": "PK"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "PL",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "pl",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "pl"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Poland"},
+              "monorepo.plp.frontend.territoryName": {"Value": "PL"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "14"}]
+            }
+          },
+          {
+            "TerritoryName": "PT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Portugal"},
+              "monorepo.plp.frontend.territoryName": {"Value": "PT"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "QA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "ar"},
+                  "monorepo.plp.frontend.direction": {"Value": "rtl"},
+                  "monorepo.plp.frontend.hideSearchFilterModalElements": {
+                    "letterNav": true,
+                    "searchBox": true
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Qatar"},
+              "monorepo.plp.frontend.territoryName": {"Value": "QA"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "16"}]
+            }
+          },
+          {
+            "TerritoryName": "RO",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "ro",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "ro"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Romania"},
+              "monorepo.plp.frontend.territoryName": {"Value": "RO"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "15"}]
+            }
+          },
+          {
+            "TerritoryName": "RS",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Serbia"},
+              "monorepo.plp.frontend.territoryName": {"Value": "RS"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "RU",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "ru"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"},
+                  "monorepo.plp.frontend.hideSearchFilterModalElements": {
+                    "letterNav": true,
+                    "searchBox": true
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Russia"},
+              "monorepo.plp.frontend.territoryName": {"Value": "RU"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "21"}]
+            }
+          },
+          {
+            "TerritoryName": "SA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "ar"},
+                  "monorepo.plp.frontend.direction": {"Value": "rtl"},
+                  "monorepo.plp.frontend.hideSearchFilterModalElements": {
+                    "letterNav": false,
+                    "searchBox": false
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Saudi Arabia"},
+              "monorepo.plp.frontend.territoryName": {"Value": "SA"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "16"}]
+            }
+          },
+          {
+            "TerritoryName": "SE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "sv",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "sv"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Sweden"},
+              "monorepo.plp.frontend.territoryName": {"Value": "SE"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "19"}]
+            }
+          },
+          {
+            "TerritoryName": "SG",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Singapore"},
+              "monorepo.plp.frontend.territoryName": {"Value": "SG"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "SI",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "sl",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "sl"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Slovenia"},
+              "monorepo.plp.frontend.territoryName": {"Value": "SI"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "18"}]
+            }
+          },
+          {
+            "TerritoryName": "SK",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "sk",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "sk"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Slovakia"},
+              "monorepo.plp.frontend.territoryName": {"Value": "SK"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "17"}]
+            }
+          },
+          {
+            "TerritoryName": "TH",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Thailand"},
+              "monorepo.plp.frontend.territoryName": {"Value": "TH"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "TR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Turkey"},
+              "monorepo.plp.frontend.territoryName": {"Value": "TR"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "TW",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "zh",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "zh"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"},
+                  "monorepo.plp.frontend.hideSearchFilterModalElements": {
+                    "letterNav": true,
+                    "searchBox": true
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Taiwan"},
+              "monorepo.plp.frontend.territoryName": {"Value": "TW"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "4"}]
+            }
+          },
+          {
+            "TerritoryName": "UA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "ru"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"},
+                  "monorepo.plp.frontend.hideSearchFilterModalElements": {
+                    "letterNav": true,
+                    "searchBox": true
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "Ukraine"},
+              "monorepo.plp.frontend.territoryName": {"Value": "UA"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}, {"Value": "21"}]
+            }
+          },
+          {
+            "TerritoryName": "US",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "USA"},
+              "monorepo.plp.frontend.territoryName": {"Value": "US"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          },
+          {
+            "TerritoryName": "ZA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "monorepo.plp.frontend.languageName": {"Value": "en"},
+                  "monorepo.plp.frontend.direction": {"Value": "ltr"}
+                }
+              }
+            ],
+            "Settings": {
+              "monorepo.plp.frontend.territoryDescription": {"Value": "South Africa"},
+              "monorepo.plp.frontend.territoryName": {"Value": "ZA"},
+              "monorepo.plp.alternativeLanguages": [{"Value": "7"}]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Personas": [
+    {
+      "PersonaName": "CustomerA",
+      "Settings": {
+        "monorepo.plp.frontend.direction": {"Value": "rtl"},
+        "monorepo.plp.enableMainMenu": {"Value": "false"}
+      }
+    },
+    {
+      "PersonaName": "CustomerB",
+      "Settings": {
+        "monorepo.plp.frontend.featureSwitch": {
+          "enablePageInFilters": false,
+          "overrideSeo": {
+            "metadata": true,
+            "headings": true
+          },
+          "enableSearchBanners": false
+        }
+      }
+    },
+    {
+      "PersonaName": "ReducedItemCount",
+      "Settings": {
+        "monorepo.plp.frontend.itemsPerPage": {
+          "initial": {
+            "mobile": 8,
+            "tablet": 12,
+            "desktop": 12
+          },
+          "subsequent": {
+            "mobile": 8,
+            "tablet": 12,
+            "desktop": 12
+          }
+        }
+      }
+    },
+    {
+      "PersonaName": "BloomreachPersonalizationCookieEnabled",
+      "Settings": {
+        "monorepo.plp.frontend.bloomreachPersonalizationCookies": {
+          "bloomreachPersonalizationEnabled": true
+        }
+      }
+    },
+    {
+      "PersonaName": "BatchOneRelease",
+      "Settings": {
+        "monorepo.plp.frontend.featureSwitch": {
+          "enablePageInFilters": false,
+          "overrideSeo": {
+            "metadata": true,
+            "headings": true
+          },
+          "enableSearchBanners": true,
+          "enableTooltips": false
+        },
+        "monorepo.plp.frontend.bloomreachPersonalizationCookies": {
+          "bloomreachPersonalizationEnabled": false
+        }
+      }
+    },
+    {
+      "PersonaName": "BatchOneReleasePLPOnly",
+      "Settings": {
+        "monorepo.plp.frontend.featureSwitch": {
+          "enablePageInFilters": false,
+          "overrideSeo": {
+            "metadata": true,
+            "headings": true
+          },
+          "enableSearchBanners": true,
+          "enableTooltips": false
+        },
+        "monorepo.plp.frontend.bloomreachPersonalizationCookies": {
+          "bloomreachPersonalizationEnabled": false
+        }
+      }
+    },
+    {
+      "PersonaName": "PolandRelease",
+      "Settings": {
+        "monorepo.plp.frontend.featureSwitch": {
+          "enablePageInFilters": false,
+          "overrideSeo": {
+            "metadata": true,
+            "headings": true
+          },
+          "enableSearchBanners": true,
+          "enableTooltips": false
+        },
+        "monorepo.plp.frontend.bloomreachPersonalizationCookies": {
+          "bloomreachPersonalizationEnabled": true
+        }
+      }
+    },
+    {
+      "PersonaName": "PolandReleasePLPOnly",
+      "Settings": {
+        "monorepo.plp.frontend.featureSwitch": {
+          "enablePageInFilters": false,
+          "overrideSeo": {
+            "metadata": true,
+            "headings": true
+          },
+          "enableSearchBanners": true,
+          "enableTooltips": false
+        },
+        "monorepo.plp.frontend.bloomreachPersonalizationCookies": {
+          "bloomreachPersonalizationEnabled": true
+        }
+      }
+    },
+    {
+      "PersonaName": "UKRelease",
+      "Settings": {
+        "monorepo.plp.frontend.featureSwitch": {
+          "enablePageInFilters": false,
+          "overrideSeo": {
+            "metadata": true,
+            "headings": true
+          },
+          "enableSearchBanners": true,
+          "enableTooltips": true
+        },
+        "monorepo.plp.frontend.bloomreachPersonalizationCookies": {
+          "bloomreachPersonalizationEnabled": true
+        }
+      }
+    },
+    {
+      "PersonaName": "UKReleasePLPOnly",
+      "Settings": {
+        "monorepo.plp.frontend.featureSwitch": {
+          "enablePageInFilters": false,
+          "overrideSeo": {
+            "metadata": true,
+            "headings": true
+          },
+          "enableSearchBanners": true,
+          "enableTooltips": true
+        },
+        "monorepo.plp.frontend.bloomreachPersonalizationCookies": {
+          "bloomreachPersonalizationEnabled": true
+        }
+      }
+    }
+  ]
+}

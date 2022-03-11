@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Utils: favourites Utils: getFavouriteIconPath should match the path when active 1`] = `"/static-content/icons/shared/favourites.svg#active"`;
+
+exports[`Utils: favourites Utils: getFavouriteIconPath should match the path when inactive 1`] = `"/static-content/icons/shared/favourites.svg#inactive"`;
+
+exports[`Utils: favourites Utils: getFavouriteIconPath should match the path when loading 1`] = `"/static-content/icons/shared/favourites.svg#loading"`;

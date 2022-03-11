@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a usePreloadImages hook When called with image urls should cache those image urls 1`] = `
+Array [
+  <img
+    src="firstUrl"
+  />,
+  <img
+    src="secondUrl"
+  />,
+]
+`;
+
+exports[`Given a usePreloadImages hook When called with image urls should only cache the new urls when called subsequently with other urls 1`] = `
+Array [
+  <img
+    src="firstUrl"
+  />,
+  <img
+    src="secondUrl"
+  />,
+  <img
+    src="thirdUrl"
+  />,
+  <img
+    src="fourthUrl"
+  />,
+]
+`;

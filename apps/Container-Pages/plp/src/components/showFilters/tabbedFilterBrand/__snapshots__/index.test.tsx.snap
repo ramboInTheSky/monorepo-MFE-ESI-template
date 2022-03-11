@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a TabbedFilterBrand component should render correctly to match the snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  overflow-y: auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c0.c0::-webkit-scrollbar {
+  display: none;
+}
+
+.c3 {
+  top: 0;
+  z-index: 1;
+  padding: 0.65rem 1rem;
+  min-height: 2.75rem;
+  background: #f7f7f7;
+  border-top: 0.0625rem solid #d1d1d1;
+  border-bottom: 0.0625rem solid #d1d1d1;
+}
+
+.c2 {
+  display: block;
+}
+
+.c1 {
+  display: block;
+}
+
+@media (max-width:0) {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+    class="c0"
+    data-testid="plp-tabbed-filters-panel-brand"
+  >
+    <div />
+    <div
+      class="c1"
+      data-testid="plp-tabbed-facets-panel-promoted-brands"
+    >
+      <div>
+        nike:top1
+      </div>
+      <div>
+        nike:top2
+      </div>
+      <div>
+        nike:top3
+      </div>
+      <div>
+        nike:top4
+      </div>
+      <div>
+        nike:top5
+      </div>
+    </div>
+    <div
+      class="c2"
+      data-testid="plp-tabbed-facets-other-brands"
+    >
+      <p
+        class="MuiTypography-root c3 MuiTypography-body1"
+        data-testid="plp-tabbed-brand-alphabet-title-0-9"
+      >
+        0-9
+      </p>
+      <div>
+        nike:1 nike
+      </div>
+      <div>
+        nike:3 nike
+      </div>
+      <p
+        class="MuiTypography-root c3 MuiTypography-body1"
+        data-testid="plp-tabbed-brand-alphabet-title-N"
+      >
+        N
+      </p>
+      <div>
+        nike:nike boots
+      </div>
+      <p
+        class="MuiTypography-root c3 MuiTypography-body1"
+        data-testid="plp-tabbed-brand-alphabet-title-R"
+      >
+        R
+      </p>
+      <div>
+        nike:restOfBrand1
+      </div>
+      <div>
+        nike:restOfBrand2
+      </div>
+      <div>
+        nike:restOfBrand3
+      </div>
+      <div>
+        nike:restOfBrand4
+      </div>
+      <div>
+        nike:restOfBrand5
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,881 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a TabbedFilter component When disabled, it should render the component correctly to match the snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  margin: 0;
+  min-height: -webkit-min-content;
+  min-height: -moz-min-content;
+  min-height: min-content;
+  padding: 0 1rem;
+  position: relative;
+  outline-offset: -0.13rem;
+  margin: 0;
+}
+
+.c2 {
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+  white-space: normal;
+  text-align: left;
+  opacity: 0.4;
+}
+
+.c2 span {
+  color: #515151;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  border-bottom: none;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.65rem 0;
+  width: 70%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c4 {
+  width: 2.75rem;
+  height: 2.75rem;
+  outline: none;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4.loading {
+  position: relative;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.c4.loading:after {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  border-radius: 100%;
+  width: 0px;
+  height: 0px;
+  border: 0.125rem solid rgba(102,143,112,0.05);
+  border-left-color: #30a74b;
+  border-top-color: #30a74b;
+  -webkit-animation: spin 0.6s infinite linear,grow 0.3s forwards ease-out;
+  animation: spin 0.6s infinite linear,grow 0.3s forwards ease-out;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.c3 {
+  position: absolute;
+  right: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  top: 0;
+  bottom: 0;
+}
+
+<button
+    class="components__NoBorderButton-sc-1hp5vxi-0 c0"
+    data-testid="plp-tabbed-key-filter-button-feat:newin"
+    disabled=""
+  >
+    <div
+      class="components__CenteredFlexContainer-sc-1hp5vxi-7 c1"
+    >
+      <p
+        class="MuiTypography-root c2 MuiTypography-body1"
+        disabled=""
+      >
+        Brand 
+        <span>
+          (20)
+        </span>
+      </p>
+      <div
+        class="c3"
+      >
+        <span
+          class="c4"
+          data-testid="plp-tabbed-filter-spinner"
+        />
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Given a TabbedFilter component When filter is loading and selected is not true after 5 seconds should set loading to false 1`] = `
+<DocumentFragment>
+  .c0 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  margin: 0;
+  min-height: -webkit-min-content;
+  min-height: -moz-min-content;
+  min-height: min-content;
+  padding: 0 1rem;
+  position: relative;
+  outline-offset: -0.13rem;
+  margin: 0;
+}
+
+.c2 {
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+  white-space: normal;
+  text-align: left;
+  opacity: 1;
+}
+
+.c2 span {
+  color: #515151;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  border-bottom: none;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.65rem 0;
+  width: 90%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c4 {
+  width: 2.75rem;
+  height: 2.75rem;
+  outline: none;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4.loading {
+  position: relative;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.c4.loading:after {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  border-radius: 100%;
+  width: 0px;
+  height: 0px;
+  border: 0.125rem solid rgba(102,143,112,0.05);
+  border-left-color: #30a74b;
+  border-top-color: #30a74b;
+  -webkit-animation: spin 0.6s infinite linear,grow 0.3s forwards ease-out;
+  animation: spin 0.6s infinite linear,grow 0.3s forwards ease-out;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.c3 {
+  position: absolute;
+  right: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  top: 0;
+  bottom: 0;
+}
+
+<button
+    class="components__NoBorderButton-sc-1hp5vxi-0 c0"
+    data-testid="plp-tabbed-facet-button-brand:dolce&gabbana"
+  >
+    <div
+      class="components__CenteredFlexContainer-sc-1hp5vxi-7 c1"
+    >
+      <p
+        class="MuiTypography-root c2 MuiTypography-body1"
+      >
+        Brand 
+        <span>
+          (20)
+        </span>
+      </p>
+      <div
+        class="c3"
+      >
+        <span
+          class="c4 loading"
+          data-testid="plp-tabbed-filter-spinner"
+        />
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Given a TabbedFilter component When is a non key filter, it should render the component correctly to match the snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  margin: 0;
+  min-height: -webkit-min-content;
+  min-height: -moz-min-content;
+  min-height: min-content;
+  padding: 0 1rem;
+  position: relative;
+  outline-offset: -0.13rem;
+  margin: 0;
+}
+
+.c2 {
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+  white-space: normal;
+  text-align: left;
+  opacity: 0.4;
+}
+
+.c2 span {
+  color: #515151;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  border-bottom: none;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.65rem 0;
+  width: 90%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c4 {
+  width: 2.75rem;
+  height: 2.75rem;
+  outline: none;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4.loading {
+  position: relative;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.c4.loading:after {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  border-radius: 100%;
+  width: 0px;
+  height: 0px;
+  border: 0.125rem solid rgba(102,143,112,0.05);
+  border-left-color: #30a74b;
+  border-top-color: #30a74b;
+  -webkit-animation: spin 0.6s infinite linear,grow 0.3s forwards ease-out;
+  animation: spin 0.6s infinite linear,grow 0.3s forwards ease-out;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.c3 {
+  position: absolute;
+  right: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  top: 0;
+  bottom: 0;
+}
+
+<button
+    class="components__NoBorderButton-sc-1hp5vxi-0 c0"
+    data-testid="plp-tabbed-facet-button-brand:dolce&gabbana"
+    disabled=""
+  >
+    <div
+      class="components__CenteredFlexContainer-sc-1hp5vxi-7 c1"
+    >
+      <p
+        class="MuiTypography-root c2 MuiTypography-body1"
+        disabled=""
+      >
+        Brand 
+        <span>
+          (20)
+        </span>
+      </p>
+      <div
+        class="c3"
+      >
+        <span
+          class="c4"
+          data-testid="plp-tabbed-filter-spinner"
+        />
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Given a TabbedFilter component should render the component correctly to match the snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  margin: 0;
+  min-height: -webkit-min-content;
+  min-height: -moz-min-content;
+  min-height: min-content;
+  padding: 0 1rem;
+  position: relative;
+  outline-offset: -0.13rem;
+  margin: 0;
+}
+
+.c2 {
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+  white-space: normal;
+  text-align: left;
+  opacity: 1;
+}
+
+.c2 span {
+  color: #515151;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  border-bottom: none;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.65rem 0;
+  width: 70%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c4 {
+  width: 2.75rem;
+  height: 2.75rem;
+  outline: none;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4.loading {
+  position: relative;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.c4.loading:after {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  border-radius: 100%;
+  width: 0px;
+  height: 0px;
+  border: 0.125rem solid rgba(102,143,112,0.05);
+  border-left-color: #30a74b;
+  border-top-color: #30a74b;
+  -webkit-animation: spin 0.6s infinite linear,grow 0.3s forwards ease-out;
+  animation: spin 0.6s infinite linear,grow 0.3s forwards ease-out;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.c3 {
+  position: absolute;
+  right: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  top: 0;
+  bottom: 0;
+}
+
+<button
+    class="components__NoBorderButton-sc-1hp5vxi-0 c0"
+    data-testid="plp-tabbed-key-filter-button-feat:newin"
+  >
+    <div
+      class="components__CenteredFlexContainer-sc-1hp5vxi-7 c1"
+    >
+      <p
+        class="MuiTypography-root c2 MuiTypography-body1"
+      >
+        Brand 
+        <span>
+          (20)
+        </span>
+      </p>
+      <div
+        class="c3"
+      >
+        <span
+          class="c4"
+          data-testid="plp-tabbed-filter-spinner"
+        />
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Given a TabbedFilter component should render the component correctly to match the snapshot 2`] = `
+<DocumentFragment>
+  .c0 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  margin: 0;
+  min-height: -webkit-min-content;
+  min-height: -moz-min-content;
+  min-height: min-content;
+  padding: 0 1rem;
+  position: relative;
+  outline-offset: -0.13rem;
+  margin: 0;
+}
+
+.c2 {
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+  white-space: normal;
+  text-align: left;
+  opacity: 1;
+}
+
+.c2 span {
+  color: #515151;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  border-bottom: none;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.65rem 0;
+  width: 70%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c4 {
+  width: 2.75rem;
+  height: 2.75rem;
+  outline: none;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4.loading {
+  position: relative;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.c4.loading:after {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  border-radius: 100%;
+  width: 0px;
+  height: 0px;
+  border: 0.125rem solid rgba(102,143,112,0.05);
+  border-left-color: #30a74b;
+  border-top-color: #30a74b;
+  -webkit-animation: spin 0.6s infinite linear,grow 0.3s forwards ease-out;
+  animation: spin 0.6s infinite linear,grow 0.3s forwards ease-out;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.c3 {
+  position: absolute;
+  right: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  top: 0;
+  bottom: 0;
+}
+
+<button
+    class="components__NoBorderButton-sc-1hp5vxi-0 c0"
+    data-testid="plp-tabbed-key-filter-button-feat:newin"
+  >
+    <div
+      class="components__CenteredFlexContainer-sc-1hp5vxi-7 c1"
+    >
+      <p
+        class="MuiTypography-root c2 MuiTypography-body1"
+      >
+        Brand 
+        <span>
+          (20)
+        </span>
+      </p>
+      <div
+        class="c3"
+      >
+        <span
+          class="c4 loading"
+          data-testid="plp-tabbed-filter-spinner"
+        />
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Given a TabbedFilterRenderer component should render component to match snapshot when there is filter state 1`] = `
+<DocumentFragment>
+  .c0 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  margin: 0;
+  min-height: -webkit-min-content;
+  min-height: -moz-min-content;
+  min-height: min-content;
+  padding: 0 1rem;
+  position: relative;
+  outline-offset: -0.13rem;
+  margin: 0;
+}
+
+.c2 {
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+  white-space: normal;
+  text-align: left;
+  opacity: 1;
+}
+
+.c2 span {
+  color: #515151;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex: 1 auto;
+  display: -webkit-flex;
+  border-bottom: none;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.65rem 0;
+  width: 70%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c4 {
+  width: 2.75rem;
+  height: 2.75rem;
+  outline: none;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4.loading {
+  position: relative;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.c4.loading:after {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  border-radius: 100%;
+  width: 0px;
+  height: 0px;
+  border: 0.125rem solid rgba(102,143,112,0.05);
+  border-left-color: #30a74b;
+  border-top-color: #30a74b;
+  -webkit-animation: spin 0.6s infinite linear,grow 0.3s forwards ease-out;
+  animation: spin 0.6s infinite linear,grow 0.3s forwards ease-out;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.c3 {
+  position: absolute;
+  right: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  top: 0;
+  bottom: 0;
+}
+
+<button
+    class="components__NoBorderButton-sc-1hp5vxi-0 c0"
+    data-testid="plp-tabbed-key-filter-button-brand:dolce&gabbana"
+  >
+    <div
+      class="components__CenteredFlexContainer-sc-1hp5vxi-7 c1"
+    >
+      <p
+        class="MuiTypography-root c2 MuiTypography-body1"
+      >
+        Brand 
+        <span>
+          (20)
+        </span>
+      </p>
+      <div
+        class="c3"
+      >
+        <span
+          class="c4"
+          data-testid="plp-tabbed-filter-spinner"
+        />
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;

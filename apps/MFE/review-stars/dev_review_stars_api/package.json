@@ -1,0 +1,18 @@
+{
+  "name": "dev_review_stars_server",
+  "version": "2.3.0",
+  "description": "this is a stub of the review stars api",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0",
+    "morgan": "^1.9.1",
+    "nodesi": "^1.13.0"
+  }
+}

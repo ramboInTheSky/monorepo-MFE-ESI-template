@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/plpstatic/static/js/main.0.0.0.chunk.js",
+    "main.js.map": "/plpstatic/static/js/main.0.0.0.chunk.js.map",
+    "runtime~main.js": "/plpstatic/static/js/runtime~main.0.0.0.js",
+    "runtime~main.js.map": "/plpstatic/static/js/runtime~main.0.0.0.js.map",
+    "static/css/2.0.0.0.chunk.css": "/plpstatic/static/css/2.0.0.0.chunk.css",
+    "static/js/2.0.0.0.chunk.js": "/plpstatic/static/js/2.0.0.0.chunk.js",
+    "static/js/2.0.0.0.chunk.js.map": "/plpstatic/static/js/2.0.0.0.chunk.js.map",
+    "app.html": "/plpstatic/app.html",
+    "static/css/2.0.0.0.chunk.css.map": "/plpstatic/static/css/2.0.0.0.chunk.css.map"
+  }
+}

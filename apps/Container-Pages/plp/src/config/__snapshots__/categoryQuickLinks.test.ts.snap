@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given Quicklinks Should match snapshot 1`] = `
+Object {
+  "amido": Object {
+    "international": Array [
+      Object {
+        "description": "From dresses to denim, browse catwalk inspired trends from this season’s women’s collection",
+        "href": "{SITE_URL}/women",
+        "imageAlt": "women",
+        "imageSrc": "{CDN_URL}/common/items/default/default/Sitemaps/X49/Departments/women.jpg",
+        "mpEnd": "<!-- mp_trans_enable_end -->",
+        "mpStart": "<!-- mp_trans_enable_start -->",
+        "title": "Women",
+      },
+      Object {
+        "description": "Be on trend with the latest men’s shirts, tops, trousers and jeans from this men’s clothing range.",
+        "href": "{SITE_URL}/men",
+        "imageAlt": "men",
+        "imageSrc": "{CDN_URL}/common/items/default/default/Sitemaps/X49/Departments/mens.jpg",
+        "mpEnd": "<!-- mp_trans_enable_end -->",
+        "mpStart": "<!-- mp_trans_enable_start -->",
+        "title": "Men",
+      },
+      Object {
+        "description": "Gorgeous girls’ dresses and cool coloured jeans make up this fun and fashionable clothing range.",
+        "href": "{SITE_URL}/girls",
+        "imageAlt": "girls",
+        "imageSrc": "{CDN_URL}/common/items/default/default/Sitemaps/X49/Departments/girls.jpg",
+        "mpEnd": "<!-- mp_trans_enable_end -->",
+        "mpStart": "<!-- mp_trans_enable_start -->",
+        "title": "Girls",
+      },
+      Object {
+        "description": "Mix and match these boys’ clothing and shoe collections for boys fashion he’ll love.",
+        "href": "{SITE_URL}/boys",
+        "imageAlt": "boys",
+        "imageSrc": "{CDN_URL}/common/items/default/default/Sitemaps/X49/Departments/boys.jpg",
+        "mpEnd": "<!-- mp_trans_enable_end -->",
+        "mpStart": "<!-- mp_trans_enable_start -->",
+        "title": "Boys",
+      },
+    ],
+    "uk": Array [
+      Object {
+        "description": "From dresses to denim, browse catwalk inspired trends from this season’s women’s collection",
+        "href": "{SITE_URL}/women",
+        "imageAlt": "women",
+        "imageSrc": "{CDN_URL}/common/items/default/default/Sitemaps/X49/Departments/women.jpg",
+        "title": "Women",
+      },
+      Object {
+        "description": "Be on trend with the latest men’s shirts, tops, trousers and jeans from this men’s clothing range.",
+        "href": "{SITE_URL}/men",
+        "imageAlt": "men",
+        "imageSrc": "{CDN_URL}/common/items/default/default/Sitemaps/X49/Departments/mens.jpg",
+        "title": "Men",
+      },
+      Object {
+        "description": "Gorgeous girls’ dresses and cool coloured jeans make up this fun and fashionable clothing range.",
+        "href": "{SITE_URL}/girls",
+        "imageAlt": "girls",
+        "imageSrc": "{CDN_URL}/common/items/default/default/Sitemaps/X49/Departments/girls.jpg",
+        "title": "Girls",
+      },
+      Object {
+        "description": "Mix and match these boys’ clothing and shoe collections for boys fashion he’ll love.",
+        "href": "{SITE_URL}/boys",
+        "imageAlt": "boys",
+        "imageSrc": "{CDN_URL}/common/items/default/default/Sitemaps/X49/Departments/boys.jpg",
+        "title": "Boys",
+      },
+      Object {
+        "description": "Explore A-Z of the latest designer brands at Amido, with great delivery options.",
+        "href": "{SITE_URL}/branded",
+        "imageAlt": "designer brands",
+        "imageSrc": "{CDN_URL}/common/items/default/default/Sitemaps/X49/Departments/brands.jpg",
+        "title": "Designer Brands",
+      },
+      Object {
+        "description": "With our latest footwear collections you will always have your fashion foot forward.",
+        "href": "{SITE_URL}/shoes",
+        "imageAlt": "shoes",
+        "imageSrc": "{CDN_URL}/common/items/default/default/Sitemaps/X49/Departments/shoes.jpg",
+        "title": "Shoes",
+      },
+      Object {
+        "description": "Get that welcome home feel with stunning furniture collections with 5 day delivery.",
+        "href": "{SITE_URL}/homeware",
+        "imageAlt": "homeware",
+        "imageSrc": "{CDN_URL}/common/items/default/default/Sitemaps/X49/Departments/homeware.jpg",
+        "title": "Homeware",
+      },
+    ],
+  },
+}
+`;

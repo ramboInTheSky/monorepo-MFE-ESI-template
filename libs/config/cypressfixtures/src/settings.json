@@ -1,0 +1,16 @@
+{
+  "gb": {
+    "territory": "GB",
+    "language": "en"
+  },
+  "saLTR": {
+    "language": "en",
+    "territory": "SA",
+    "siteUrl": "https://abc123.com"
+  },
+  "saRTL": {
+    "language": "ar",
+    "territory": "SA",
+    "siteUrl": "https://abc123.com"
+  }
+}

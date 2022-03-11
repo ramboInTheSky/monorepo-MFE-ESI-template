@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Missions Should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="component__Container-sc-133d1g8-0 fRlPBU"
+    data-testid="missions"
+    id="missions"
+  >
+    <div
+      data-testid="missionstitle"
+    >
+      MissionsTitle
+    </div>
+    <div
+      data-testid="missionsimagelist"
+    >
+      MissionsItemList
+    </div>
+    <div
+      data-testid="missionscta"
+    >
+      MissionsCTA
+    </div>
+  </div>
+  )
+</DocumentFragment>
+`;

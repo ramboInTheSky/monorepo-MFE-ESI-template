@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Feature/Searchbar - simple - components:  ClearButton:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  color: #257f39;
+  background: none;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.43;
+  padding: 0;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  border: 0;
+}
+
+.c0.c0:hover,
+.c0.c0:active {
+  background: inherit;
+  border: 0;
+}
+
+.c0.c0:focus {
+  border: 0;
+  border-radius: 0;
+}
+
+<button
+    class="MuiButtonBase-root MuiButton-root MuiButton-text c0"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Feature/Searchbar - simple - components:  CloseIcon:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  height: 2.75rem;
+  width: 2.75rem;
+}
+
+<img
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Feature/Searchbar - simple - components:  Container:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  background: white;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    border-radius: 0.25rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: 0.0625rem solid #eaeaea;
+    width: 5.375rem;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Feature/Searchbar - simple - components:  HeaderContainer:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f7f7f7;
+  border-top: 0.0625rem solid #eaeaea;
+  border-bottom: 0.0625rem solid #eaeaea;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: calc(0.75rem - 1px) 1.025rem calc(0.812rem - 1px) 1rem;
+  color: #000000;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    background: #f7f7f7;
+    padding: 0.5rem 0.625rem;
+    border-top: 0;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Feature/Searchbar - simple - components:  SeeAllLinkContainer:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  border-top: 0.0625rem solid #eaeaea;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+.c0 a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  color: #257f39;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  font-size: 0.875rem;
+}
+
+@media (min-width:768px) {
+  .c0 a {
+    padding-right: 1rem;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Feature/Searchbar - simple - components:  Title:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0.c0 {
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+}
+
+<p
+    class="MuiTypography-root c0 MuiTypography-body1"
+  />
+</DocumentFragment>
+`;
+
+exports[`Feature/Searchbar - simple - components:  Wrapper:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0.25rem 1rem;
+  color: #000000;
+}
+
+.c0 ul {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    padding: 0.125rem 0.625rem;
+  }
+}
+
+@media (min-width:400px) and (max-width:767px) {
+  .c0 ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .c0 ul li {
+    -webkit-flex-basis: calc(100% / 2);
+    -ms-flex-preferred-size: calc(100% / 2);
+    flex-basis: calc(100% / 2);
+    padding-right: 1rem;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;

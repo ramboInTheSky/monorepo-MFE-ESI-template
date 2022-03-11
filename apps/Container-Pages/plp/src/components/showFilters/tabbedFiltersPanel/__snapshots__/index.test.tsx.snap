@@ -1,0 +1,465 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a TabbedFiltersPanel component When facet is disabled should render the component correctly to match the snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+  white-space: normal;
+  text-align: left;
+  opacity: 1;
+}
+
+.c2 span {
+  color: #515151;
+}
+
+.c0 {
+  overflow-y: auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c0.c0::-webkit-scrollbar {
+  display: none;
+}
+
+.c1 {
+  padding: 1.25rem;
+}
+
+@media (max-width:0) {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+    class="c0"
+    data-testid="plp-tabbed-facets-panel"
+  >
+    <div
+      class="c1"
+    >
+      <p
+        class="MuiTypography-root c2 MuiTypography-body1"
+        data-testid="plp-tabbed-facets-no-options"
+      >
+        This option isn't available with your current selection(s)
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given a TabbedFiltersPanel component When facet is filter facet and When is fetching items with brand with no search criteria should render the component correctly to match the snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+  white-space: normal;
+  text-align: left;
+  opacity: 1;
+}
+
+.c2 span {
+  color: #515151;
+}
+
+.c0 {
+  overflow-y: auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c0.c0::-webkit-scrollbar {
+  display: none;
+}
+
+.c1 {
+  padding: 1.25rem;
+}
+
+@media (max-width:0) {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+    class="c0"
+    data-testid="plp-tabbed-facets-panel"
+  >
+    <div
+      class="c1"
+    >
+      <p
+        class="MuiTypography-root c2 MuiTypography-body1"
+        data-testid="plp-tabbed-facets-no-options"
+      >
+        This option isn't available with your current selection(s)
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given a TabbedFiltersPanel component When facet is filter facet and When is fetching items with brand with word search criteria should render the component correctly to match the snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+  white-space: normal;
+  text-align: left;
+  opacity: 1;
+}
+
+.c2 span {
+  color: #515151;
+}
+
+.c0 {
+  overflow-y: auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c0.c0::-webkit-scrollbar {
+  display: none;
+}
+
+.c1 {
+  padding: 1.25rem;
+}
+
+@media (max-width:0) {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+    class="c0"
+    data-testid="plp-tabbed-facets-panel"
+  >
+    <div
+      class="c1"
+    >
+      <p
+        class="MuiTypography-root c2 MuiTypography-body1"
+        data-testid="plp-tabbed-facets-no-options"
+      >
+        This option isn't available with your current selection(s)
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given a TabbedFiltersPanel component When filter is feat filter and When is fetching items should render the component correctly to match the snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+  white-space: normal;
+  text-align: left;
+  opacity: 1;
+}
+
+.c2 span {
+  color: #515151;
+}
+
+.c0 {
+  overflow-y: auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c0.c0::-webkit-scrollbar {
+  display: none;
+}
+
+.c1 {
+  padding: 1.25rem;
+}
+
+@media (max-width:0) {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+    class="c0"
+    data-testid="plp-tabbed-facets-panel"
+  >
+    <div
+      class="c1"
+    >
+      <p
+        class="MuiTypography-root c2 MuiTypography-body1"
+        data-testid="plp-tabbed-facets-no-options"
+      >
+        This option isn't available with your current selection(s)
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given a TabbedFiltersPanel component When filter is feat filter should render the component correctly to match the snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+  white-space: normal;
+  text-align: left;
+  opacity: 1;
+}
+
+.c2 span {
+  color: #515151;
+}
+
+.c0 {
+  overflow-y: auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c0.c0::-webkit-scrollbar {
+  display: none;
+}
+
+.c1 {
+  padding: 1.25rem;
+}
+
+@media (max-width:0) {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+    class="c0"
+    data-testid="plp-tabbed-facets-panel"
+  >
+    <div
+      class="c1"
+    >
+      <p
+        class="MuiTypography-root c2 MuiTypography-body1"
+        data-testid="plp-tabbed-facets-no-options"
+      >
+        This option isn't available with your current selection(s)
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given a TabbedFiltersPanel component When filter is price filter and When is fetching items should render the component correctly to match the snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+  white-space: normal;
+  text-align: left;
+  opacity: 1;
+}
+
+.c2 span {
+  color: #515151;
+}
+
+.c0 {
+  overflow-y: auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c0.c0::-webkit-scrollbar {
+  display: none;
+}
+
+.c1 {
+  padding: 1.25rem;
+}
+
+@media (max-width:0) {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+    class="c0"
+    data-testid="plp-tabbed-facets-panel"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c1"
+      >
+        <p
+          class="MuiTypography-root c2 MuiTypography-body1"
+        >
+          Loading results...
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given a TabbedFiltersPanel component When filter is price filter should render the component correctly to match the snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  overflow-y: auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c0.c0::-webkit-scrollbar {
+  display: none;
+}
+
+.c1 {
+  padding: 1.25rem;
+}
+
+@media (max-width:0) {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+    class="c0"
+    data-testid="plp-tabbed-facets-panel"
+  >
+    <div
+      class="c1"
+    >
+      <span>
+        Facet Price
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given a TabbedFiltersPanel component When no facet is present should render the component correctly to match the snapshot 1`] = `<DocumentFragment />`;

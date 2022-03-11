@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducers: favourites Store: Helpers: updateFavouritesInState() -  When updateFavouritesInState is called and hasFavourites is true should match the snapshot of the window.AmidoFavourites.Data 1`] = `
+Object {
+  "ShoppingListItems": Array [
+    Object {
+      "test": "test",
+    },
+  ],
+}
+`;

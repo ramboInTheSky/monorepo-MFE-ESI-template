@@ -1,0 +1,58 @@
+{
+  "data": {
+    "ShoppingLists": [
+      {
+        "ListId": 39931807,
+        "ListName": "Favourite List",
+        "TypeId": 1,
+        "DateAdded": "/Date(-62135596800000)/",
+        "DateUpdated": "/Date(1621516301237)/",
+        "DefaultList": true,
+        "IsAuthenticated": false
+      }
+    ],
+    "ShoppingListItems": [
+      {
+        "ItemNumber": "499-373",
+        "OptionCode": "-1",
+        "ItemSizeOptions": null,
+        "Chain": null,
+        "ItemUrl": null,
+        "DateAdded": "/Date(-62135596800000)/",
+        "DateUpdated": "/Date(-62135596800000)/",
+        "ItemDescription": null,
+        "SizeDescription": null,
+        "LinkedItemNumber": "",
+        "LinkedOptionNo": "",
+        "ItemBrand": null,
+        "ItemCategory": null,
+        "ImageUrl": null,
+        "FormattedPrice": null,
+        "LightboxUrl": null,
+        "Price": null,
+        "MinPrice": null,
+        "MaxPrice": null,
+        "ListId": 39931807,
+        "LegalWarning": null,
+        "ItemSearchDescription": null,
+        "Department": null,
+        "Colour": null,
+        "Fit": null,
+        "StyleDescription": null,
+        "PremiumSiteIndicator": null,
+        "IsTradable": false
+      }
+    ],
+    "MaximumLimit": 150,
+    "ExceededLimitBy": 0,
+    "InvalidItemsCount": 0,
+    "ValidItemsCount": 0,
+    "AuthenticatedUser": false,
+    "IdentifiedUser": false,
+    "FavouriteLoginPromptDisplayed": false,
+    "HardLogoutPromptDisplayed": false,
+    "SoftLoginFirstname": "",
+    "LegalWarningBannerMessage": null
+  },
+  "Success": true
+}

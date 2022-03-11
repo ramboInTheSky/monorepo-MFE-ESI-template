@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Products components - ProductGrid 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  z-index: 0;
+}
+
+<div
+    class="MuiGrid-root c0 MuiGrid-container"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Products components - ProductGridItem 1`] = `
+<DocumentFragment>
+  .c0 {
+  padding: 0 1rem 0 1rem;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+}
+
+<div
+    class="MuiGrid-root c0 MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-6 MuiGrid-grid-xl-6"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Products components - ProductGridItem when 1`] = `
+<DocumentFragment>
+  .c0 {
+  padding: 0 1rem 0 1rem;
+}
+
+@media (max-width:767px) {
+  .c0 {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+}
+
+<div
+    class="MuiGrid-root c0 MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-6 MuiGrid-grid-xl-6"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Products components - ProductGridWrapper 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  -webkit-flex: 1 0 80%;
+  -ms-flex: 1 0 80%;
+  flex: 1 0 80%;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    -webkit-flex: 1 0 25%;
+    -ms-flex: 1 0 25%;
+    flex: 1 0 25%;
+    padding-top: 4rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    -webkit-flex: 1 0 75%;
+    -ms-flex: 1 0 75%;
+    flex: 1 0 75%;
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    -webkit-flex: 1 0 80%;
+    -ms-flex: 1 0 80%;
+    flex: 1 0 80%;
+  }
+}
+
+<div
+    class="MuiGrid-root c0 MuiGrid-container"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Products components - ProductGridWrapper with larger header 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  -webkit-flex: 1 0 80%;
+  -ms-flex: 1 0 80%;
+  flex: 1 0 80%;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    -webkit-flex: 1 0 25%;
+    -ms-flex: 1 0 25%;
+    flex: 1 0 25%;
+    padding-top: 4.25rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    -webkit-flex: 1 0 75%;
+    -ms-flex: 1 0 75%;
+    flex: 1 0 75%;
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    -webkit-flex: 1 0 80%;
+    -ms-flex: 1 0 80%;
+    flex: 1 0 80%;
+  }
+}
+
+<div
+    class="MuiGrid-root c0 MuiGrid-container"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Products components - ProductsGridContainer 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  -webkit-flex: 1 0 80%;
+  -ms-flex: 1 0 80%;
+  flex: 1 0 80%;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  min-width: 0;
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    -webkit-flex: 1 0 75%;
+    -ms-flex: 1 0 75%;
+    flex: 1 0 75%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    -webkit-flex: 1 0 75%;
+    -ms-flex: 1 0 75%;
+    flex: 1 0 75%;
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    -webkit-flex: 1 0 80%;
+    -ms-flex: 1 0 80%;
+    flex: 1 0 80%;
+  }
+}
+
+<div
+    class="MuiGrid-root c0 MuiGrid-container"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;

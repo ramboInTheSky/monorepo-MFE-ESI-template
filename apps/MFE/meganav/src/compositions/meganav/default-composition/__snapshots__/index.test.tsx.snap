@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages: MegaNav -  When the meganav renders with regions  should show the default meganav 1`] = `
+<DocumentFragment>
+  <div>
+    I AM PRIMARY NAV COMPONENT
+  </div>
+  <div>
+    I AM Secondary NAV COMPONENT
+  </div>
+  ,
+</DocumentFragment>
+`;

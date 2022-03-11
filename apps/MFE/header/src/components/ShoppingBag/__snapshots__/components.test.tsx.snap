@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShoppingBag Components:  ShoppingBagLink should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  height: 2.75rem;
+  line-height: 1.125rem;
+}
+
+.c0.c0 i {
+  font-style: normal;
+  font-size: 0.688rem;
+  text-align: center;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-weight: bold;
+  position: absolute;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  color: #fff;
+}
+
+.c0.c0 a {
+  padding: 0.625rem 0;
+}
+
+.c0.c0 button {
+  padding: 0.625rem 0.625rem 0.5625rem 0.625rem;
+  border: 0;
+  background: 0;
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    line-height: initial;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    height: 2.8125rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c0.c0 i {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width:1024px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`ShoppingBag Components:  ToolTipContent should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  padding-top: 0.0625rem;
+  border: 0.0625rem solid #9e9e9e;
+  background: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.4);
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;

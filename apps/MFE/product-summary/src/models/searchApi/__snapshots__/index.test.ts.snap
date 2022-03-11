@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - ProductSummary:  should match the expected ProductSummary model structure 1`] = `
+ProductSummaryApiContract {
+  "brand": undefined,
+  "colourways": Array [
+    ColourwayApiContract {
+      "colour": "1111",
+      "fits": Array [
+        "Regular",
+      ],
+      "itemNumber": "1111",
+      "itemPrice": Object {
+        "maxPrice": 10,
+        "minPrice": 10,
+        "saleMaxPrice": 1,
+        "saleMinPrice": 2,
+        "wasMaxPrice": 10,
+        "wasMinPrice": 10,
+      },
+      "minPrice": undefined,
+      "overallStarRating": undefined,
+      "personalisedType": undefined,
+      "title": "white",
+      "url": "www.test.com",
+    },
+  ],
+  "currencyCode": "GBP",
+  "department": undefined,
+  "fit": undefined,
+  "itemNumber": "1234",
+  "title": "title",
+}
+`;

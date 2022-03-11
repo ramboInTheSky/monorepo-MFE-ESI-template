@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - MainLinks/MainLinksList:  When there are missing data in the object:  should match the snapshot template when accessibilityText is null in the elements 1`] = `
+<DocumentFragment>
+  <ul
+    class="components__MainList-sc-1br2y2p-0 eSqwdx"
+    data-testid="footer-main-links-title-help-list"
+  />
+</DocumentFragment>
+`;
+
+exports[`Components - MainLinks/MainLinksList:  When there are missing data in the object:  should match the snapshot template when text is null in the elements 1`] = `
+<DocumentFragment>
+  <ul
+    class="components__MainList-sc-1br2y2p-0 eSqwdx"
+    data-testid="footer-main-links-title-help-list"
+  />
+</DocumentFragment>
+`;
+
+exports[`Components - MainLinks/MainLinksList:  When there are missing data in the object:  should match the snapshot template when url and accessibilityText is null in the elements 1`] = `
+<DocumentFragment>
+  <ul
+    class="components__MainList-sc-1br2y2p-0 eSqwdx"
+    data-testid="footer-main-links-title-help-list"
+  />
+</DocumentFragment>
+`;
+
+exports[`Components - MainLinks/MainLinksList:  When there are missing data in the object:  should match the snapshot template when url is null in the elements 1`] = `
+<DocumentFragment>
+  <ul
+    class="components__MainList-sc-1br2y2p-0 eSqwdx"
+    data-testid="footer-main-links-title-help-list"
+  />
+</DocumentFragment>
+`;
+
+exports[`Components - MainLinks/MainLinksList:  When there are missing data in the object:  should only return View Help Topics when AmidoDeviceType=Mobile and its Amido International 1`] = `
+<DocumentFragment>
+  <ul
+    class="components__MainList-sc-1br2y2p-0 eSqwdx"
+    data-testid="footer-main-links-title-help-list"
+  >
+    <li>
+      <a
+        aria-label="View Help Topics"
+        class="MuiTypography-root MuiLink-root MuiLink-underlineHover components__MainListLink-sc-1br2y2p-1 loqvJU MuiTypography-colorPrimary"
+        data-testid="footer-main-links-view-help-topics"
+        href="http://superman.com/help"
+        target="_blank"
+      >
+        View Help Topics
+      </a>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`Components - MainLinks/MainLinksList:  should match the snapshot template 1`] = `
+<DocumentFragment>
+  <ul
+    class="components__MainList-sc-1br2y2p-0 eSqwdx"
+    data-testid="footer-main-links-title-help-list"
+  >
+    <li>
+      <a
+        aria-label="View Help Topics"
+        class="MuiTypography-root MuiLink-root MuiLink-underlineHover components__MainListLink-sc-1br2y2p-1 loqvJU MuiTypography-colorPrimary"
+        data-testid="footer-main-links-view-help-topics"
+        href="https://www.amido.com/help"
+        target="_blank"
+      >
+        View Help Topics
+      </a>
+    </li>
+    <li>
+      <a
+        aria-label="Accessibility In Our Stores"
+        class="MuiTypography-root MuiLink-root MuiLink-underlineHover components__MainListLink-sc-1br2y2p-1 loqvJU MuiTypography-colorPrimary"
+        data-testid="footer-main-links-accessibility-in-our-stores"
+        href="https://www.accessable.co.uk/organisations/amido"
+        target="_blank"
+      >
+        Accessibility In Our Stores
+      </a>
+    </li>
+    <li>
+      <a
+        aria-label="Site Map"
+        class="MuiTypography-root MuiLink-root MuiLink-underlineHover components__MainListLink-sc-1br2y2p-1 loqvJU MuiTypography-colorPrimary"
+        data-testid="footer-main-links-site-map"
+        href="xxxxx"
+        target="_blank"
+      >
+        Site Map
+      </a>
+    </li>
+    <li>
+      <a
+        aria-label="Customer Services telephone number"
+        class="MuiTypography-root MuiLink-root MuiLink-underlineHover components__MainListLink-sc-1br2y2p-1 loqvJU MuiTypography-colorPrimary"
+        data-testid="footer-main-links-customer-services--0333-777-8000"
+        href="tel: 0333 777 8000"
+        target="_blank"
+      >
+        Customer Services- 0333 777 8000
+      </a>
+      <small>
+        Check your service provider for charges
+      </small>
+    </li>
+    <li>
+      <a
+        aria-label="Contact Us"
+        class="MuiTypography-root MuiLink-root MuiLink-underlineHover components__MainListLink-sc-1br2y2p-1 loqvJU MuiTypography-colorPrimary"
+        data-testid="footer-main-links-contact-us"
+        href="https://www.amido.com/help/Faq/32475"
+        target="_blank"
+      >
+        Contact Us
+      </a>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`Components - MainLinks/MainLinksList:  should match the snapshot template when the title is Privacy & Legal  1`] = `
+<DocumentFragment>
+  <ul
+    class="components__MainList-sc-1br2y2p-0 eSqwdx"
+    data-testid="footer-main-links-title-privacy-&-legal-list"
+  >
+    <li>
+      <a
+        aria-label="Terms & Conditions"
+        class="MuiTypography-root MuiLink-root MuiLink-underlineHover components__MainListLink-sc-1br2y2p-1 loqvJU MuiTypography-colorPrimary"
+        data-testid="footer-main-links-terms-&-conditions"
+        href="http://superman.com/terms"
+        target="_self"
+      >
+        Terms & Conditions
+      </a>
+    </li>
+    <li>
+      <a
+        aria-label="Manage Cookies"
+        class="MuiTypography-root MuiLink-root MuiLink-underlineHover components__MainListLink-sc-1br2y2p-1 loqvJU test MuiTypography-colorPrimary"
+        data-testid="footer-main-links-manage-cookies"
+        href="#"
+        target="_self"
+      >
+        Manage Cookies
+      </a>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`Components - MainLinks/MainLinksList:  should match the snapshot template when the title is Shop By Country  1`] = `
+<DocumentFragment>
+  <ul
+    class="components__MainList-sc-1br2y2p-0 eSqwdx"
+    data-testid="footer-main-links-title-shop-by-country-list"
+  >
+    <div>
+      CountrySelector component
+    </div>
+  </ul>
+</DocumentFragment>
+`;

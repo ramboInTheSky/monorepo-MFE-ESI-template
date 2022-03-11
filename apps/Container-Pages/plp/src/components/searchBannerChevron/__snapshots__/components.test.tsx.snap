@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBannerChevron Chevron is closed 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: inline;
+  cursor: pointer;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  margin-bottom: 0.2rem;
+}
+
+<img
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`SearchBannerChevron Chevron is open 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: inline;
+  cursor: pointer;
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  margin-bottom: 0.2rem;
+}
+
+<img
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`SearchBannerChevron ChevronContainer 1`] = `
+<DocumentFragment>
+  @media (min-width:768px) {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+    class="c0"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;

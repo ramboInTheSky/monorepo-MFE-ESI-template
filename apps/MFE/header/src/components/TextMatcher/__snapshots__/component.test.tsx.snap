@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextMatcher component:  Span:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+}
+
+<span
+    class="c0"
+  />
+</DocumentFragment>
+`;

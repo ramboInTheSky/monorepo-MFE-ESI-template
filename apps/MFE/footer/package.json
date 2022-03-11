@@ -1,0 +1,242 @@
+{
+  "name": "ecommerce-footer",
+  "version": "1.8.20",
+  "private": true,
+  "scripts": {
+    "build": "cross-env LOG_LEVEL=warn node scripts/build.js",
+    "build:local": "cross-env NODE_OPTIONS=--openssl-legacy-provider LOG_LEVEL=warn GENERATE_SOURCEMAP=false REACT_APP_ENTRYPOINT=/footer ASSETS_PATH=/footerstatic node scripts/build.js",
+    "dev": "node scripts/start.js",
+    "dev:headless": "cross-env NODE_OPTIONS=--openssl-legacy-provider REACT_APP_API_BASEURL=http://localhost:3040 LOG_LEVEL=warn npm-run-all -p stub-footer-api dev",
+    "start": "cross-env NODE_ENV=production LOG_LEVEL=warn node --inspect ./build/index.js",
+    "start:container": "cross-env npm-run-all -p -r container start",
+    "start:headless": "cross-env NODE_OPTIONS=--openssl-legacy-provider DEV_URL_OVERRIDE=http://localhost:3002 NODE_ENV=production REACT_APP_API_BASEURL=http://localhost:3040 npm-run-all -p stub-footer-api start",
+    "start:headless:container": "cross-env NODE_ENV=production DEV_URL_OVERRIDE=http://localhost:3002 REACT_APP_API_BASEURL=http://localhost:3040 npm-run-all -p stub-footer-api start:container",
+    "test": "jest src/",
+    "test:integration": "cross-env DEV_URL_OVERRIDE=http://localhost:3333 REACT_APP_API_BASEURL=http://localhost:3040 NODE_ENV=production START_SERVER_AND_TEST_INSECURE=1 npm-run-all -p -r stub-footer-api cypress:integration",
+    "test:parallel": "cross-env DEV_URL_OVERRIDE=http://localhost:3333 REACT_APP_API_BASEURL=http://localhost:3040 NODE_ENV=production START_SERVER_AND_TEST_INSECURE=1 npm-run-all -p -r stub-footer-api cypress:parallel",
+    "cypress:integration": "start-server-and-test start:container http://localhost:3333/  \"cypress run --config video=false \"",
+    "cypress:parallel": "start-server-and-test start:container http://localhost:3333/  \"cypress run --config video=false --record --key #{CYPRESS_RECORD_KEY}# --parallel --ci-build-id #{Build.BuildNumber}# --group 'Azure CI' \"",
+    "test:integration:interactive": "npm run build:local && cross-env DEV_URL_OVERRIDE=http://localhost:3333 REACT_APP_API_BASEURL=http://localhost:3040 NODE_ENV=production START_SERVER_AND_TEST_INSECURE=1 npm-run-all -p stub-footer-api cypress:interactive",
+    "cypress:interactive": "start-server-and-test start:container http://localhost:3333/ \"cypress open --browser chrome \"",
+    "test-ci": "npm run tsc && jest src/ --ci --coverage --reporters=default --reporters=jest-junit",
+    "lint": "eslint --ext .tsx,.ts src/",
+    "tsc": "tsc",
+    "cypress": "cypress open --browser chrome",
+    "container": "node footer-container-service/index.js",
+    "stub-footer-api": "node dev_footer_api/index.js",
+    "precommit": "npm run tsc && npm run test -- --coverage && jest-coverage-ratchet && git add package.json && npm run build:local && npm run test:integration",
+    "start:mfe": "npm-run-all build:local start:headless"
+  },
+  "dependencies": {
+    "@babel/compat-data": "^7.8.0",
+    "@babel/core": "7.5.5",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.8.3",
+    "@babel/plugin-proposal-numeric-separator": "^7.8.3",
+    "@mui/material": "^5.2.8",
+    "@mui/styles": "^5.2.3",
+    "@monorepo/accordion": "^7.3.0",
+    "@monorepo/apiconfig": "^3.3.0",
+    "@monorepo/babelconfig": "^3.3.0",
+    "@monorepo/core-logger": "^7.3.0",
+    "@monorepo/middlewares": "^8.0.0",
+    "@monorepo/react-ssr-dev-utils": "^3.0.1",
+    "@monorepo/settings-sdk": "^4.3.0",
+    "@monorepo/theme-provider": "^9.0.0",
+    "@monorepo/themes": "^17.0.0",
+    "@monorepo/utils": "^6.4.0",
+    "@svgr/webpack": "4.3.2",
+    "@types/clean-css": "^4.2.1",
+    "@types/express": "4.17.4",
+    "@types/helmet": "0.0.45",
+    "@types/morgan": "^1.9.0",
+    "@types/node": "13.11.0",
+    "@types/react": "16.9.32",
+    "@types/react-dom": "16.9.6",
+    "@types/react-redux": "^7.1.7",
+    "@types/redux-mock-store": "^1.0.2",
+    "@types/styled-components": "^5.0.1",
+    "@types/uuid": "^7.0.2",
+    "@types/webpack-env": "1.15.1",
+    "applicationinsights": "^1.8.0",
+    "axios": "^0.19.2",
+    "babel-eslint": "10.0.2",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "8.1.0",
+    "babel-plugin-dynamic-import-node": "^2.2.0",
+    "babel-plugin-named-asset-import": "^0.3.3",
+    "babel-preset-react-app": "^9.0.1",
+    "camelcase": "^5.2.0",
+    "case-sensitive-paths-webpack-plugin": "2.2.0",
+    "clean-css": "^4.2.3",
+    "cookie-parser": "^1.4.5",
+    "cross-env": "^7.0.0",
+    "css-loader": "2.1.1",
+    "dotenv": "6.2.0",
+    "dotenv-expand": "4.2.0",
+    "escape-string-regexp": "^2.0.0",
+    "eslint": "^6.8.0",
+    "eslint-loader": "2.2.1",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0",
+    "file-loader": "3.0.1",
+    "fs-extra": "7.0.1",
+    "helmet": "^3.21.2",
+    "html-webpack-plugin": "4.0.0-beta.5",
+    "identity-obj-proxy": "3.0.0",
+    "is-wsl": "^1.1.0",
+    "lodash": "4.17.20",
+    "merge-deep": "3.0.3",
+    "mini-css-extract-plugin": "0.5.0",
+    "morgan": "^1.10.0",
+    "node-cache": "^5.1.0",
+    "nodesi": "^1.13.0",
+    "npm-run-all": "^4.1.5",
+    "optimize-css-assets-webpack-plugin": "5.0.3",
+    "pnp-webpack-plugin": "1.5.0",
+    "postcss-flexbugs-fixes": "4.1.0",
+    "postcss-loader": "3.0.0",
+    "postcss-normalize": "7.0.1",
+    "postcss-preset-env": "6.7.0",
+    "postcss-safe-parser": "4.0.1",
+    "react": "^16.13.1",
+    "react-app-polyfill": "^1.0.2",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-mock-store": "^1.5.4",
+    "redux-thunk": "^2.3.0",
+    "resolve": "1.12.0",
+    "resolve-url-loader": "3.1.0",
+    "sass-loader": "7.2.0",
+    "semver": "6.3.0",
+    "source-map-support": "^0.5.6",
+    "start-server-webpack-plugin": "^2.2.5",
+    "style-loader": "1.0.0",
+    "styled-components": "5.1.0",
+    "terser-webpack-plugin": "1.4.1",
+    "ts-node": "^8.8.2",
+    "ts-pnp": "1.1.2",
+    "typescript": "3.8.3",
+    "url-loader": "2.1.0",
+    "uuid": "^3.4.0",
+    "webpack": "4.39.1",
+    "webpack-bundle-analyzer": "^3.8.0",
+    "webpack-dev-server": "3.2.1",
+    "webpack-manifest-plugin": "2.0.4",
+    "webpack-node-externals": "^1.7.2",
+    "write-file-webpack-plugin": "^4.5.0"
+  },
+  "devDependencies": {
+    "@monorepo/cypress-fixtures": "file:../../../libs/config/cypressfixtures",
+    "@monorepo/eslint": "file:../../../libs/config/eslint",
+    "@testing-library/jest-dom": "^5.1.1",
+    "@testing-library/react": "^9.5.0",
+    "@types/jest": "25.1.5",
+    "@types/supertest": "^2.0.8",
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "@typescript-eslint/parser": "^2.22.0",
+    "cypress": "^4.0.2",
+    "eslint-config-react-app": "^5.0.1",
+    "eslint-plugin-flowtype": "3.13.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.14.3",
+    "eslint-plugin-react-hooks": "^1.6.1",
+    "husky": "^4.2.3",
+    "jest": "24.8.0",
+    "jest-coverage-ratchet": "^0.2.3",
+    "jest-environment-jsdom-fourteen": "0.1.0",
+    "jest-junit": "^10.0.0",
+    "jest-resolve": "24.8.0",
+    "jest-watch-typeahead": "0.3.1",
+    "start-server-and-test": "^1.10.8",
+    "supertest": "^4.0.2"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.8.0"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/src"
+    ],
+    "coverageReporters": [
+      "json-summary",
+      "lcov",
+      "text"
+    ],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.{ts,tsx}",
+      "!**/*.cy.{ts,tsx}"
+    ],
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
+      "<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}"
+    ],
+    "testEnvironment": "jest-environment-jsdom-fourteen",
+    "transform": {
+      "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/babel-jest",
+      "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
+      "^(?!.*\\.(js|jsx|ts|tsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|ts|tsx)$",
+      "^.+\\.module\\.(css|sass|scss)$"
+    ],
+    "setupFiles": [
+      "./setupTests.ts",
+      "react-app-polyfill/jsdom"
+    ],
+    "setupFilesAfterEnv": [
+      "./setupTestsAfterEnv.ts"
+    ],
+    "modulePaths": [],
+    "moduleNameMapper": {
+      "@mockData/(.*)": "<rootDir>/__mocks__/$1",
+      "^@app/(.*)$": "<rootDir>/src/$1",
+      "^react-native$": "react-native-web",
+      "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy"
+    },
+    "moduleFileExtensions": [
+      "web.js",
+      "js",
+      "web.ts",
+      "ts",
+      "web.tsx",
+      "tsx",
+      "json",
+      "web.jsx",
+      "jsx",
+      "node"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "lines": 96.75,
+        "statements": 96.67,
+        "functions": 97.24,
+        "branches": 87.89
+      }
+    },
+    "watchPlugins": [
+      "jest-watch-typeahead/filename",
+      "jest-watch-typeahead/testname"
+    ]
+  },
+  "jest-junit": {}
+}

@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshots - Selected Facets RemoveSelectedFacet 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 100%;
+  border: 0.0625rem solid #d1d1d1;
+  background: url(/static-content/icons/shared/close-black.svg) center no-repeat;
+  background-size: 0.5rem;
+  cursor: pointer;
+}
+
+<button
+    class="c0"
+  >
+    Test
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Snapshots - Selected Facets StyledList 1`] = `
+<DocumentFragment>
+  .c0 {
+  list-style-type: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+<ul
+    class="c0"
+  >
+    Test
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`Snapshots - Selected Facets StyledListItem 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0.5rem 0.625rem 0.5rem 0;
+}
+
+<li
+    class="c0"
+  >
+    Test
+  </li>
+</DocumentFragment>
+`;
+
+exports[`Snapshots - Selected Facets StyledRemove 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: #257f39;
+  display: inline-block;
+  margin-right: 10px;
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+<div
+    class="c0"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Snapshots - Selected Facets StyledSelectedFacetLabel 1`] = `
+<DocumentFragment>
+  .c0 {
+  height: 1.25rem;
+  line-height: 1.25rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 10.5rem;
+}
+
+<p
+    class="MuiTypography-root c0 MuiTypography-body1"
+  >
+    Test
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Snapshots - Selected Facets StyledSelectedFacetsContainer 1`] = `
+<DocumentFragment>
+  .c0 {
+  margin: 1rem 1rem 0 0.5rem;
+  width: 16.25rem;
+}
+
+.c0 > button {
+  float: right;
+  padding: 0;
+  text-align: right;
+  display: block;
+}
+
+<div
+    class="c0"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Snapshots - Selected Facets StyledSelectedFacetsList 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 16.25rem;
+  border-top: 0.0625rem solid #d1d1d1;
+  float: left;
+  margin-top: 0.5rem;
+  overflow-y: auto;
+  height: 14.5rem;
+}
+
+<div
+    class="c0"
+  >
+    Test
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Snapshots - Selected Facets StyledSelectedFacetsTitle 1`] = `
+<DocumentFragment>
+  .c0 {
+  float: left;
+}
+
+<p
+    class="MuiTypography-root c0 MuiTypography-body1"
+  >
+    Test
+  </p>
+</DocumentFragment>
+`;

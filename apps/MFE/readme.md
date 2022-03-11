@@ -1,0 +1,1 @@
+- Micro-Frontends (MFE) a highly cacheable component to be ESI'd into a container page 

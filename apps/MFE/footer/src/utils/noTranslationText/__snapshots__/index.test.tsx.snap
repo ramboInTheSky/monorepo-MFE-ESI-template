@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Util - noTranslationText,:  should match the snapshot template 1`] = `
+Object {
+  "__html": "<!--mp_trans_disable_start-->en<!--mp_trans_disable_end-->",
+}
+`;

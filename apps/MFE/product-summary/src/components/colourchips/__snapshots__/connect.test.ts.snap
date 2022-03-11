@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given connect - mapStateToProps() should render the right url the 'colourWayImageUrlBuilder' 1`] = `"http://testcdn.co.uk/search/224x336/my-item-number.jpg"`;

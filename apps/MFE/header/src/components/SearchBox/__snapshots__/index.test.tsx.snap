@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - SearchBox:  should match the snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  color: #000;
+  background: #fff;
+  height: 2.75rem;
+}
+
+.c1 {
+  height: 100%;
+  margin: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border-left: 0;
+}
+
+.c1 div {
+  margin: 0;
+}
+
+.c2 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.c3 {
+  height: 100%;
+  width: calc(100% + 2rem);
+}
+
+.c3 input {
+  padding: 0.625rem 0;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  font-size: 0.875rem;
+}
+
+.c3 input::-ms-clear {
+  display: none;
+}
+
+.c3 input::-webkit-input-placeholder {
+  color: #515151;
+  opacity: 1;
+}
+
+.c3 input::-moz-placeholder {
+  color: #515151;
+  opacity: 1;
+}
+
+.c3 input:-ms-input-placeholder {
+  color: #515151;
+  opacity: 1;
+}
+
+.c3 input::placeholder {
+  color: #515151;
+  opacity: 1;
+}
+
+.c4.c4 {
+  display: none;
+  background: none;
+}
+
+.c5.c5 {
+  width: 3.25rem;
+  padding: 0;
+  background: #fff;
+  min-width: auto;
+  border: inherit;
+}
+
+.c5.c5:hover,
+.c5.c5:active {
+  background: #fff;
+  border: 0;
+}
+
+.c5.c5:focus {
+  border: 0;
+  border-radius: 0;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    border: 0.0625rem solid #eaeaea;
+    border-radius: 0.25rem;
+    width: 5.375rem;
+    height: 2.75rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c0:focus-within {
+    background: #ffffff;
+  }
+
+  .c0:focus-within button {
+    background: #ffffff;
+  }
+
+  .c0:focus-within button:hover,
+  .c0:focus-within button:active {
+    background: #ffffff;
+  }
+}
+
+@media (max-width:767px) {
+  .c0:focus-within {
+    border: 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 input {
+    padding: 0.625rem 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c4.c4 {
+    border-right: 0;
+    top: -1px;
+    height: calc(100% + 2px);
+    position: relative;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <form
+      class="c1"
+    >
+      <label
+        class="c2"
+        for="header-small-screen-search-box"
+      >
+        I am placeholder
+      </label>
+      <div
+        class="MuiInputBase-root c3"
+        required=""
+      >
+        <input
+          autocomplete="off"
+          class="MuiInputBase-input"
+          data-ga-enter-event="Key Press Enter"
+          data-ga-v1="Search"
+          data-testid="header-search-bar-text-input"
+          id="header-small-screen-search-box"
+          label="Search"
+          name="header-small-screen-search-box"
+          placeholder="I am placeholder"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <hr
+        class="MuiDivider-root c4 MuiDivider-vertical"
+      />
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text c5"
+        data-ga-v1="Search"
+        data-ga-v3="Press Icon"
+        data-testid="header-search-bar-button"
+        tabindex="0"
+        type="submit"
+        value=""
+      >
+        <span
+          class="MuiButton-label"
+        >
+          <img
+            alt="Search Icon"
+            class=""
+            src="/hello/something/asd.jpg"
+          />
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components/MainLinks/MainLinkList - Components should match the snapshot - MainList 1`] = `
+<DocumentFragment>
+  <ul
+    class="components__MainList-sc-1br2y2p-0 eSqwdx"
+  />
+</DocumentFragment>
+`;
+
+exports[`Components/MainLinks/MainLinkList - Components should match the snapshot - MainListLink 1`] = `
+<DocumentFragment>
+  <a
+    aria-label="Some text"
+    class="MuiTypography-root MuiLink-root MuiLink-underlineHover components__MainListLink-sc-1br2y2p-1 loqvJU MuiTypography-colorPrimary"
+    href="/"
+    target="_blank"
+  >
+    Test
+  </a>
+</DocumentFragment>
+`;

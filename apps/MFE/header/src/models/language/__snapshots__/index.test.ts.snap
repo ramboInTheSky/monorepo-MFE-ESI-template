@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - Autocomplete:  should match the Language 1`] = `
+Language {
+  "displayText": "",
+  "id": "",
+  "name": "",
+  "url": "",
+}
+`;
+
+exports[`Model - Autocomplete:  should match the LanguageOptions 1`] = `
+LanguageOptions {
+  "Languages": Array [],
+}
+`;
+
+exports[`Model - Autocomplete:  should match the ReturnLanguage 1`] = `
+ReturnLanguage {
+  "Language": Language {
+    "displayText": "",
+    "id": "",
+    "name": "",
+    "url": "",
+  },
+  "isActiveLanguage": false,
+}
+`;

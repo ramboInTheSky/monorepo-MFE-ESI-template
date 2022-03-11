@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Facet Components FacetCountLabel 1`] = `
+<DocumentFragment>
+  .c0 {
+  color: #515151;
+  display: inline-block;
+  margin-left: 0.125rem;
+}
+
+<span
+    class="c0"
+  >
+    Test
+  </span>
+</DocumentFragment>
+`;
+
+exports[`Facet Components FacetLabelText featAvailable 1`] = `
+<DocumentFragment>
+  .c0 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: auto;
+}
+
+<span
+    class="c0"
+    data-testid="plp-facet-modal-label-feat:available"
+    title="feat:available"
+  />
+</DocumentFragment>
+`;
+
+exports[`Facet Components FacetLabelText featDeliverBy 1`] = `
+<DocumentFragment>
+  .c0 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 7.25rem;
+}
+
+<span
+    class="c0"
+    data-testid="plp-facet-modal-label-feat:deliveryby"
+    title="feat:deliveryby"
+  />
+</DocumentFragment>
+`;
+
+exports[`Facet Components FacetTooltipIcon 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: none;
+  opacity: 1;
+  position: absolute;
+  right: -0.3125rem;
+  padding-top: 0rem;
+  width: 2rem;
+  height: 2rem;
+  z-Index: 0;
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    display: block;
+  }
+}
+
+<img
+    alt="SVG TEST"
+    class="c0 plp-facet-tooltip"
+    src="/static-content/icons/shared/help-question.svg"
+  />
+</DocumentFragment>
+`;

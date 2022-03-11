@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrimaryNav component:  Container:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="component__Container-sc-1lxer2w-0 hzSxHY"
+  />
+</DocumentFragment>
+`;
+
+exports[`PrimaryNav component:  SnailTrailWrapper:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="component__SnailTrailWrapper-sc-1lxer2w-1 gdKftL"
+  />
+</DocumentFragment>
+`;

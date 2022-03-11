@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - Drawer:  should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    aria-hidden="true"
+    class="MuiDrawer-root MuiDrawer-modal component__DrawerContainer-sc-199uwq4-0 bTxIgI drawer"
+    data-testid="drawer"
+    role="presentation"
+    style="position: fixed; z-index: 1300; right: 0px; bottom: 0px; top: 0px; left: 0px; visibility: hidden;"
+  >
+    <div
+      aria-hidden="true"
+      class="MuiBackdrop-root"
+      style="opacity: 0; visibility: hidden;"
+    />
+    <div
+      data-test="sentinelStart"
+      tabindex="0"
+    />
+    <div
+      class="MuiPaper-root MuiDrawer-paper MuiDrawer-paperAnchorLeft MuiPaper-elevation16"
+      style="visibility: hidden; webkit-transform: translateX(-0px); transform: translateX(-0px);"
+      tabindex="-1"
+    >
+      <div>
+         dummy 
+      </div>
+    </div>
+    <div
+      data-test="sentinelEnd"
+      tabindex="0"
+    />
+  </div>
+</DocumentFragment>
+`;

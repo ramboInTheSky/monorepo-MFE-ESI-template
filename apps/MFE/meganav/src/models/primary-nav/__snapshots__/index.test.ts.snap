@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model: PrimaryNav should match the DefaultConfig 1`] = `
+DefaultConfig {
+  "country": "",
+  "version": "",
+}
+`;
+
+exports[`Model: PrimaryNav should match the PrimaryNav 1`] = `
+PrimaryNav {
+  "id": "",
+  "items": Array [],
+  "target": "",
+  "title": "",
+  "viewType": "",
+}
+`;
+
+exports[`Model: PrimaryNav should match the PrimaryNavItem 1`] = `
+PrimaryNavItem {
+  "excludeFrom": undefined,
+  "fontFamily": undefined,
+  "fontWeight": undefined,
+  "linkColour": undefined,
+  "path": "",
+  "target": "",
+  "title": "",
+}
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ENV:  should match the SettingsSdkKeys 1`] = `
+Object {
+  "ASSETS_PATH": "/productsummarystatic",
+  "DEVELOPMENT": false,
+  "DEV_URL_OVERRIDE": "",
+  "ENVIRONMENT_NAME": "test",
+  "FNC_NAME": undefined,
+  "LOG_LEVEL": undefined,
+  "NODE_ENV": "batman",
+  "POD_NAME": undefined,
+  "PORT": 3001,
+  "PRODUCTION": false,
+  "REACT_APP_API_BASEURL": "superman",
+  "REACT_APP_APPINSIGHTS_KEY": "c620fe2b-48e7-4354-be16-d4cc42937bbd",
+  "REACT_APP_BLOB_STORAGE_PATH": "/static-content",
+  "REACT_APP_BLOB_STORAGE_SSR_BASEURL": "https://ecmbrowsefdsxeuw.azurefd.net",
+  "REACT_APP_CDN_BASEURL": "spiderman",
+  "REACT_APP_ENABLE_CYPRESS_SETTINGS": false,
+  "REACT_APP_SERVE_PATH_PREFIX": "",
+  "REACT_APP_USE_TIME_MACHINE_COOKIE": "false",
+}
+`;

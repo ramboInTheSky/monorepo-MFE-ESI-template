@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getSettingsHeaders When headers has data should return the data 1`] = `
+Object {
+  "x-monorepo-correlation-id": "aaa-bbb-ccc",
+  "x-monorepo-language": "en",
+  "x-monorepo-persona": "personaStub",
+  "x-monorepo-realm": "Amido",
+  "x-monorepo-siteurl": "http://test.com",
+  "x-monorepo-territory": "GB",
+  "x-monorepo-time-machine-date": "timeMachineStub",
+  "x-monorepo-viewport-size": "desktop",
+}
+`;
+
+exports[`getSettingsHeadersAsObject When headers has data should return the data 1`] = `
+Object {
+  "language": "en",
+  "persona": "personaStub",
+  "realm": "Amido",
+  "territory": "GB",
+  "timeMachine": "timeMachineStub",
+  "viewportSize": "desktop",
+}
+`;

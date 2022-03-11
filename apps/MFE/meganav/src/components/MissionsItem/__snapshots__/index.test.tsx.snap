@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MissionsItem should match the snapshot 1`] = `
+<DocumentFragment>
+  <a
+    class="component__Container-sc-1f3bafh-3 fcFMdR"
+    data-ga-v1="Mission Block"
+    data-ga-v2="sample department"
+    data-ga-v3="sample title"
+    data-testid="missions-item"
+    href="/en/gb/sampletarget"
+  >
+    <div
+      class="component__ImageWrapper-sc-1f3bafh-1 leAPac"
+    >
+      <img
+        alt="sample title"
+        class="component__ImageContainer-sc-1f3bafh-2 cCcrTk"
+        src="/sampleurl"
+      />
+    </div>
+    <span
+      class="component__ImageTitle-sc-1f3bafh-0 jRughh"
+    >
+       sample title 
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`MissionsItem should match the snapshot with different no of columns 1`] = `
+<DocumentFragment>
+  <a
+    class="component__Container-sc-1f3bafh-3 fcFMdR"
+    data-ga-v1="Mission Block"
+    data-ga-v2="sample department"
+    data-ga-v3="sample title"
+    data-testid="missions-item"
+    href="/en/gb/sampletarget"
+  >
+    <div
+      class="component__ImageWrapper-sc-1f3bafh-1 leAPac"
+    >
+      <img
+        alt="sample title"
+        class="component__ImageContainer-sc-1f3bafh-2 cCcrTk"
+        src="/sampleurl"
+      />
+    </div>
+    <span
+      class="component__ImageTitle-sc-1f3bafh-0 jRughh"
+    >
+       sample title 
+    </span>
+  </a>
+</DocumentFragment>
+`;

@@ -1,0 +1,61 @@
+{
+  "primary": {
+    "light": "#41C960",
+    "normal": "#ffffff",
+    "dark": "#e94f33"
+  },
+  "secondary": {
+    "light": "#333",
+    "normal": "#000",
+    "dark": "#000"
+  },
+  "tertiary": {
+    "light": "#41C960",
+    "normal": "#30a74b",
+    "dark": "#257F39"
+  },
+  "cta": {
+    "buttons": {
+      "color": "#ffffff",
+      "backgroundColor": "#30a74b",
+      "border": "-",
+      "borderRadius": "-",
+      "gutter": "-"
+    }
+  },
+  "notifications": {
+    "success": {
+      "light": "#f4f9f6",
+      "normal": "#257f38"
+    },
+    "information": {
+      "light": "#f4f9fd",
+      "normal": "#1d89dd"
+    },
+    "warning": {
+      "light": "#fdf9f5",
+      "normal": "#d88f31"
+    },
+    "error": {
+      "light": "#fdf3f5",
+      "normal": "#D91440"
+    }
+  },
+  "grey": {
+    "100": "#f7f7f7",
+    "200": "#eaeaea",
+    "300": "#d1d1d1",
+    "400": "#b7b7b7",
+    "500": "#9e9e9e",
+    "600": "#515151",
+    "700": "#383838",
+    "800": "#1e1e1e",
+    "900": "#121212"
+  },
+  "background": {
+    "white": "#fff",
+    "black": "black",
+    "overlay": "rgba(0, 0, 0, 0.9)",
+    "transparent": "rgba(0, 0, 0, 0)"
+  }
+}

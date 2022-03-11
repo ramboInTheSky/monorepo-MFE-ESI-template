@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ENV:  should match the SettingsSdkKeys 1`] = `
+Object {
+  "ASSETS_PATH": "/footerstatic",
+  "DEVELOPMENT": false,
+  "DEV_URL_OVERRIDE": "",
+  "LOG_LEVEL": undefined,
+  "NODE_ENV": "batman",
+  "POD_NAME": undefined,
+  "PORT": 3002,
+  "PRODUCTION": false,
+  "REACT_APP_API_BASEURL": "superman",
+  "REACT_APP_APPINSIGHTS_KEY": "c620fe2b-48e7-4354-be16-d4cc42937bbd",
+  "REACT_APP_BLOB_STORAGE_PATH": "/static-content",
+  "REACT_APP_BLOB_STORAGE_SSR_BASEURL": "https://ecmbrowsefdsxeuw.azurefd.net",
+  "REACT_APP_CDN_BASEURL": "spiderman",
+  "REACT_APP_ENTRYPOINT": "/footer",
+}
+`;

@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CatalogueList component:  Accordion  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="MuiPaper-root MuiExpansionPanel-root component__Accordion-z12n81-0 fPINyK MuiExpansionPanel-rounded MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    fake
+    <div
+      class="MuiCollapse-container MuiCollapse-hidden"
+      style="min-height: 0px;"
+    >
+      <div
+        class="MuiCollapse-wrapper"
+      >
+        <div
+          class="MuiCollapse-wrapperInner"
+        >
+          <div
+            role="region"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CatalogueList component:  AccordionPanelDeatails  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="MuiExpansionPanelDetails-root component__AccordionPanelDetails-z12n81-1 hPeBtL"
+  />
+</DocumentFragment>
+`;
+
+exports[`CatalogueList component:  AccordionPanelSummary  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    aria-disabled="false"
+    class="MuiButtonBase-root MuiExpansionPanelSummary-root component__AccordionPanelSummary-z12n81-2 hyjHLB"
+    role="button"
+    tabindex="0"
+  >
+    <div
+      class="MuiExpansionPanelSummary-content"
+    />
+  </div>
+  )
+</DocumentFragment>
+`;
+
+exports[`CatalogueList component:  Container  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="component__Container-z12n81-4 bGAZEG"
+  />
+</DocumentFragment>
+`;
+
+exports[`CatalogueList component:  Hidden  should match the snapshot  1`] = `<DocumentFragment />`;
+
+exports[`CatalogueList component:  ImagePlaceholder no icon should match the snapshot  1`] = `
+<DocumentFragment>
+  <span
+    class="component__ImagePlaceholder-z12n81-7 isyRBY"
+  />
+</DocumentFragment>
+`;
+
+exports[`CatalogueList component:  ImagePlaceholder with icon should match the snapshot  1`] = `
+<DocumentFragment>
+  <span
+    class="component__ImagePlaceholder-z12n81-7 hkVFwd"
+  />
+</DocumentFragment>
+`;
+
+exports[`CatalogueList component:  List  should match the snapshot  1`] = `
+<DocumentFragment>
+  <ul
+    class="component__List-z12n81-6 jXsPjN"
+  />
+</DocumentFragment>
+`;
+
+exports[`CatalogueList component:  Title  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="component__Title-z12n81-5 iUVXTe"
+    font-family=""
+    font-weight=""
+  />
+</DocumentFragment>
+`;
+
+exports[`CatalogueList component:  Title  should match the snapshot if isFirstElement is true 1`] = `
+<DocumentFragment>
+  <div
+    class="component__Title-z12n81-5 cBzBws"
+    font-family=""
+    font-weight=""
+  />
+</DocumentFragment>
+`;

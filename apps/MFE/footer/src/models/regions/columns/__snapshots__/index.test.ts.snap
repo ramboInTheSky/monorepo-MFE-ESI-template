@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model: Regions/columns should match the snapshot - DefaultColumns 1`] = `
+Object {
+  "lg": 3,
+  "sm": 6,
+  "xs": 12,
+}
+`;

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - QuickLink:  should match the snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  list-style: none;
+  margin: 15px;
+  width: 28px;
+  height: 28px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  list-style: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  width: 14px;
+  height: 20px;
+}
+
+<li
+    class="c0"
+  >
+    <div
+      data-testid="quicklink-container"
+    >
+      <a
+        class="c1"
+        href="http://hello.com/help"
+        rel="nofollow"
+      >
+        <img
+          alt="help"
+          class="c2"
+          src="/stores.svg"
+        />
+      </a>
+    </div>
+  </li>
+</DocumentFragment>
+`;

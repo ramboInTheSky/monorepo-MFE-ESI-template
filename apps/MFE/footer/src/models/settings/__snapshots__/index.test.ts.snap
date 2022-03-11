@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - settings:  should match the SettingsSdkKeys 1`] = `
+Object {
+  "appCache": "footer.frontend.appCacheTTL",
+  "cacheControl": "footer.frontend.cache-control.max-age",
+  "cacheControlDefaultFooter": "footer.frontend.cache-control.default-footer.max-age",
+  "correlationHeaderName": "x-monorepo-correlation-id",
+  "direction": "footer.frontend.direction",
+  "language": "footer.frontend.languageName",
+  "languageId": "footer.alternativeLanguages",
+  "realm": "footer.frontend.realmName",
+  "sessionHeaderName": "x-monorepo-session-id",
+  "territory": "footer.frontend.territoryName",
+  "textData": "footer.frontend.textData",
+  "themeVersion": "footer.frontend.themeVersion",
+  "variant": "footer.frontend.variant",
+}
+`;

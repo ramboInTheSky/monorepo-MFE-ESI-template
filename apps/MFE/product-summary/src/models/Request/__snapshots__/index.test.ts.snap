@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - RequestState:  should match the RequestState 1`] = `
+Object {
+  "headers": Object {
+    "myHeader": "test",
+    "x-monorepo-language": "en",
+  },
+  "isEnglishLang": true,
+}
+`;

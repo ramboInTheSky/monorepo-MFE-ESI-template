@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - MiniShoppingBagDescription:  should match the snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  width: 100%;
+  margin-right: 16px;
+  font-size: 12px;
+}
+
+.c0 .mt-5px {
+  margin-top: 5px;
+}
+
+.c0 .block {
+  display: block;
+}
+
+.c1 {
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 1rem;
+}
+
+.c2 {
+  color: #515151;
+}
+
+.c3 {
+  font-weight: bold;
+  text-align: right;
+  margin-top: 1rem;
+}
+
+.c4 {
+  font-weight: bold;
+  font-size: 12px;
+  text-align: right;
+  display: block;
+  margin-top: 18px;
+  color: black;
+}
+
+<div
+    class="c0"
+  >
+    <div>
+      <h2
+        class="c1"
+        data-testid="header-mini-shopping-bag-item-name"
+      >
+        <span>
+          ProductName
+        </span>
+      </h2>
+      <div
+        class="c2"
+        data-testid="header-mini-shopping-bag-item-title"
+      >
+        TPSearchDescription
+      </div>
+    </div>
+    <p
+      class="c3"
+      data-testid="header-mini-shopping-bag-item-price"
+    >
+      £10.00
+    </p>
+    <div>
+      <span
+        class="block"
+      >
+        sizeText SizeDescription
+      </span>
+      <span
+        class="block mt-5px"
+      >
+        qtyText 2
+      </span>
+    </div>
+    <span
+      class="c4"
+    >
+      StockMessage ciStoreName
+    </span>
+  </div>
+</DocumentFragment>
+`;

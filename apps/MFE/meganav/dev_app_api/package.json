@@ -1,0 +1,18 @@
+{
+  "name": "dev_meganav_server",
+  "version": "0.0.0",
+  "description": "this is a stub of the meganav api",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "npm-run-all": "^4.1.5"
+  }
+}

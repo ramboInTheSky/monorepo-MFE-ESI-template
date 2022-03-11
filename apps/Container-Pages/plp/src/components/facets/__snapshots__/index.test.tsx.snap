@@ -1,0 +1,1281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter:  When is fetching page items should render correctly 1`] = `
+<DocumentFragment>
+  .c4 {
+  color: #515151;
+  display: inline-block;
+  margin-left: 0.125rem;
+}
+
+.c1 {
+  opacity: 0;
+  position: absolute;
+  left: -200px;
+}
+
+.c3 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: auto;
+}
+
+.c2.c2 {
+  outline: none;
+  position: relative;
+  margin: 0;
+  padding-left: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+}
+
+.c2.c2:before {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0.3125rem;
+  left: 0;
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  pointer-events: auto;
+  content: "";
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0.0625rem solid #949494;
+  border-radius: 0.25rem;
+  margin: 0.0625rem;
+  -webkit-transition: background-color 0.1s ease-out,border-color 0.1s ease-out,boxShadow 0.1s ease-out;
+  transition: background-color 0.1s ease-out,border-color 0.1s ease-out,boxShadow 0.1s ease-out;
+}
+
+.c2.c2:after {
+  position: absolute;
+  display: block;
+  content: "";
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  width: 0.625rem;
+  height: 0.25rem;
+  top: 0.75rem;
+  left: 0.3125rem;
+  border-color: #000;
+  border: 0.125rem solid;
+  border-top: none;
+  opacity: 0;
+}
+
+.c2.c2.c2.c2:after {
+  flip: false;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  top: 0.75rem;
+  opacity: 0;
+  /*! @noflip */
+  border-right: none;
+  -webkit-transform: scale(0.25) rotate(-45deg);
+  -ms-transform: scale(0.25) rotate(-45deg);
+  transform: scale(0.25) rotate(-45deg);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 13rem;
+}
+
+<div
+    class="c0"
+  >
+    <input
+      class="c1"
+      data-testid="plp-facet-checkbox-undefined"
+      id="plp-facet-checkbox-undefined"
+      name="plp-facet-checkbox-undefined"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="MuiTypography-root c2 MuiTypography-body1"
+      data-testid="plp-facet-checkbox-label-undefined"
+      for="plp-facet-checkbox-undefined"
+      id="plp-facet-checkbox-label-undefined"
+      tabindex="-1"
+    >
+      <span
+        class="c3"
+        data-testid="plp-facet-modal-label-undefined"
+      />
+      <span
+        class="c4"
+        data-testid="plp-facet-modal-count-label-undefined-undefined"
+      >
+        ()
+      </span>
+    </label>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Filter:  should render correctly 1`] = `
+<DocumentFragment>
+  .c4 {
+  color: #515151;
+  display: inline-block;
+  margin-left: 0.125rem;
+}
+
+.c1 {
+  opacity: 0;
+  position: absolute;
+  left: -200px;
+}
+
+.c3 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: auto;
+}
+
+.c2.c2 {
+  outline: none;
+  position: relative;
+  margin: 0;
+  padding-left: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+}
+
+.c2.c2:before {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0.3125rem;
+  left: 0;
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  pointer-events: auto;
+  content: "";
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0.0625rem solid #949494;
+  border-radius: 0.25rem;
+  margin: 0.0625rem;
+  -webkit-transition: background-color 0.1s ease-out,border-color 0.1s ease-out,boxShadow 0.1s ease-out;
+  transition: background-color 0.1s ease-out,border-color 0.1s ease-out,boxShadow 0.1s ease-out;
+}
+
+.c2.c2:after {
+  position: absolute;
+  display: block;
+  content: "";
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  width: 0.625rem;
+  height: 0.25rem;
+  top: 0.75rem;
+  left: 0.3125rem;
+  border-color: #000;
+  border: 0.125rem solid;
+  border-top: none;
+  opacity: 0;
+}
+
+.c2.c2.c2.c2:after {
+  flip: false;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  top: 0.75rem;
+  opacity: 0;
+  /*! @noflip */
+  border-right: none;
+  -webkit-transform: scale(0.25) rotate(-45deg);
+  -ms-transform: scale(0.25) rotate(-45deg);
+  transform: scale(0.25) rotate(-45deg);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 13rem;
+}
+
+<div
+    class="c0"
+  >
+    <input
+      class="c1"
+      data-testid="plp-facet-checkbox-undefined"
+      id="plp-facet-checkbox-undefined"
+      name="plp-facet-checkbox-undefined"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="MuiTypography-root c2 MuiTypography-body1"
+      data-testid="plp-facet-checkbox-label-undefined"
+      for="plp-facet-checkbox-undefined"
+      id="plp-facet-checkbox-label-undefined"
+      tabindex="-1"
+    >
+      <span
+        class="c3"
+        data-testid="plp-facet-modal-label-undefined"
+      />
+      <span
+        class="c4"
+        data-testid="plp-facet-modal-count-label-undefined-undefined"
+      >
+        ()
+      </span>
+    </label>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Filter:  should show view all 1`] = `
+<DocumentFragment>
+  .c4 {
+  color: #515151;
+  display: inline-block;
+  margin-left: 0.125rem;
+}
+
+.c1 {
+  opacity: 0;
+  position: absolute;
+  left: -200px;
+}
+
+.c3 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: auto;
+}
+
+.c2.c2 {
+  outline: none;
+  position: relative;
+  margin: 0;
+  padding-left: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+}
+
+.c2.c2:before {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0.3125rem;
+  left: 0;
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  pointer-events: auto;
+  content: "";
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0.0625rem solid #949494;
+  border-radius: 0.25rem;
+  margin: 0.0625rem;
+  -webkit-transition: background-color 0.1s ease-out,border-color 0.1s ease-out,boxShadow 0.1s ease-out;
+  transition: background-color 0.1s ease-out,border-color 0.1s ease-out,boxShadow 0.1s ease-out;
+}
+
+.c2.c2:after {
+  position: absolute;
+  display: block;
+  content: "";
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  width: 0.625rem;
+  height: 0.25rem;
+  top: 0.75rem;
+  left: 0.3125rem;
+  border-color: #000;
+  border: 0.125rem solid;
+  border-top: none;
+  opacity: 0;
+}
+
+.c2.c2.c2.c2:after {
+  flip: false;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  top: 0.75rem;
+  opacity: 0;
+  /*! @noflip */
+  border-right: none;
+  -webkit-transform: scale(0.25) rotate(-45deg);
+  -ms-transform: scale(0.25) rotate(-45deg);
+  transform: scale(0.25) rotate(-45deg);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 13rem;
+}
+
+.c5.c5 {
+  padding-left: 0;
+  color: #257f39;
+  background-color: transparent;
+  overflow-anchor: none;
+  min-width: auto;
+}
+
+.c5.c5.c5.c5:hover {
+  background-color: transparent;
+}
+
+.c5.c5.c5.c5:focus {
+  border: none;
+}
+
+.c5.c5.c5.c5 span {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+<div
+    class="c0"
+  >
+    <input
+      class="c1"
+      data-testid="plp-facet-checkbox-undefined"
+      id="plp-facet-checkbox-undefined"
+      name="plp-facet-checkbox-undefined"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="MuiTypography-root c2 MuiTypography-body1"
+      data-testid="plp-facet-checkbox-label-undefined"
+      for="plp-facet-checkbox-undefined"
+      id="plp-facet-checkbox-label-undefined"
+      tabindex="-1"
+    >
+      <span
+        class="c3"
+        data-testid="plp-facet-modal-label-undefined"
+      />
+      <span
+        class="c4"
+        data-testid="plp-facet-modal-count-label-undefined-undefined"
+      >
+        ()
+      </span>
+    </label>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-text c5 MuiButton-disableElevation"
+      data-testid="plp-view-all-button"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        View all
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Filter:  should show view less when isViewMoreOpen 1`] = `
+<DocumentFragment>
+  .c4 {
+  color: #515151;
+  display: inline-block;
+  margin-left: 0.125rem;
+}
+
+.c1 {
+  opacity: 0;
+  position: absolute;
+  left: -200px;
+}
+
+.c3 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: auto;
+}
+
+.c2.c2 {
+  outline: none;
+  position: relative;
+  margin: 0;
+  padding-left: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+}
+
+.c2.c2:before {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0.3125rem;
+  left: 0;
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  pointer-events: auto;
+  content: "";
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0.0625rem solid #949494;
+  border-radius: 0.25rem;
+  margin: 0.0625rem;
+  -webkit-transition: background-color 0.1s ease-out,border-color 0.1s ease-out,boxShadow 0.1s ease-out;
+  transition: background-color 0.1s ease-out,border-color 0.1s ease-out,boxShadow 0.1s ease-out;
+}
+
+.c2.c2:after {
+  position: absolute;
+  display: block;
+  content: "";
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  width: 0.625rem;
+  height: 0.25rem;
+  top: 0.75rem;
+  left: 0.3125rem;
+  border-color: #000;
+  border: 0.125rem solid;
+  border-top: none;
+  opacity: 0;
+}
+
+.c2.c2.c2.c2:after {
+  flip: false;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  top: 0.75rem;
+  opacity: 0;
+  /*! @noflip */
+  border-right: none;
+  -webkit-transform: scale(0.25) rotate(-45deg);
+  -ms-transform: scale(0.25) rotate(-45deg);
+  transform: scale(0.25) rotate(-45deg);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 13rem;
+}
+
+.c5.c5 {
+  padding-left: 0;
+  color: #257f39;
+  background-color: transparent;
+  overflow-anchor: none;
+  min-width: auto;
+}
+
+.c5.c5.c5.c5:hover {
+  background-color: transparent;
+}
+
+.c5.c5.c5.c5:focus {
+  border: none;
+}
+
+.c5.c5.c5.c5 span {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+<div
+    class="c0"
+  >
+    <input
+      class="c1"
+      data-testid="plp-facet-checkbox-undefined"
+      id="plp-facet-checkbox-undefined"
+      name="plp-facet-checkbox-undefined"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="MuiTypography-root c2 MuiTypography-body1"
+      data-testid="plp-facet-checkbox-label-undefined"
+      for="plp-facet-checkbox-undefined"
+      id="plp-facet-checkbox-label-undefined"
+      tabindex="-1"
+    >
+      <span
+        class="c3"
+        data-testid="plp-facet-modal-label-undefined"
+      />
+      <span
+        class="c4"
+        data-testid="plp-facet-modal-count-label-undefined-undefined"
+      >
+        ()
+      </span>
+    </label>
+    <div
+      class="MuiCollapse-container MuiCollapse-entered"
+      style="min-height: 0px;"
+    >
+      <div
+        class="MuiCollapse-wrapper"
+      >
+        <div
+          class="MuiCollapse-wrapperInner"
+        >
+          <div
+            class="c0"
+          >
+            <input
+              class="c1"
+              data-testid="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-undefined"
+              name="plp-facet-checkbox-undefined"
+              type="checkbox"
+              value=""
+            />
+            <label
+              class="MuiTypography-root c2 MuiTypography-body1"
+              data-testid="plp-facet-checkbox-label-undefined"
+              for="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-label-undefined"
+              tabindex="-1"
+            >
+              <span
+                class="c3"
+                data-testid="plp-facet-modal-label-undefined"
+              />
+              <span
+                class="c4"
+                data-testid="plp-facet-modal-count-label-undefined-undefined"
+              >
+                ()
+              </span>
+            </label>
+            <input
+              class="c1"
+              data-testid="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-undefined"
+              name="plp-facet-checkbox-undefined"
+              type="checkbox"
+              value=""
+            />
+            <label
+              class="MuiTypography-root c2 MuiTypography-body1"
+              data-testid="plp-facet-checkbox-label-undefined"
+              for="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-label-undefined"
+              tabindex="-1"
+            >
+              <span
+                class="c3"
+                data-testid="plp-facet-modal-label-undefined"
+              />
+              <span
+                class="c4"
+                data-testid="plp-facet-modal-count-label-undefined-undefined"
+              >
+                ()
+              </span>
+            </label>
+            <input
+              class="c1"
+              data-testid="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-undefined"
+              name="plp-facet-checkbox-undefined"
+              type="checkbox"
+              value=""
+            />
+            <label
+              class="MuiTypography-root c2 MuiTypography-body1"
+              data-testid="plp-facet-checkbox-label-undefined"
+              for="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-label-undefined"
+              tabindex="-1"
+            >
+              <span
+                class="c3"
+                data-testid="plp-facet-modal-label-undefined"
+              />
+              <span
+                class="c4"
+                data-testid="plp-facet-modal-count-label-undefined-undefined"
+              >
+                ()
+              </span>
+            </label>
+            <input
+              class="c1"
+              data-testid="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-undefined"
+              name="plp-facet-checkbox-undefined"
+              type="checkbox"
+              value=""
+            />
+            <label
+              class="MuiTypography-root c2 MuiTypography-body1"
+              data-testid="plp-facet-checkbox-label-undefined"
+              for="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-label-undefined"
+              tabindex="-1"
+            >
+              <span
+                class="c3"
+                data-testid="plp-facet-modal-label-undefined"
+              />
+              <span
+                class="c4"
+                data-testid="plp-facet-modal-count-label-undefined-undefined"
+              >
+                ()
+              </span>
+            </label>
+            <input
+              class="c1"
+              data-testid="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-undefined"
+              name="plp-facet-checkbox-undefined"
+              type="checkbox"
+              value=""
+            />
+            <label
+              class="MuiTypography-root c2 MuiTypography-body1"
+              data-testid="plp-facet-checkbox-label-undefined"
+              for="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-label-undefined"
+              tabindex="-1"
+            >
+              <span
+                class="c3"
+                data-testid="plp-facet-modal-label-undefined"
+              />
+              <span
+                class="c4"
+                data-testid="plp-facet-modal-count-label-undefined-undefined"
+              >
+                ()
+              </span>
+            </label>
+            <input
+              class="c1"
+              data-testid="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-undefined"
+              name="plp-facet-checkbox-undefined"
+              type="checkbox"
+              value=""
+            />
+            <label
+              class="MuiTypography-root c2 MuiTypography-body1"
+              data-testid="plp-facet-checkbox-label-undefined"
+              for="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-label-undefined"
+              tabindex="-1"
+            >
+              <span
+                class="c3"
+                data-testid="plp-facet-modal-label-undefined"
+              />
+              <span
+                class="c4"
+                data-testid="plp-facet-modal-count-label-undefined-undefined"
+              >
+                ()
+              </span>
+            </label>
+            <input
+              class="c1"
+              data-testid="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-undefined"
+              name="plp-facet-checkbox-undefined"
+              type="checkbox"
+              value=""
+            />
+            <label
+              class="MuiTypography-root c2 MuiTypography-body1"
+              data-testid="plp-facet-checkbox-label-undefined"
+              for="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-label-undefined"
+              tabindex="-1"
+            >
+              <span
+                class="c3"
+                data-testid="plp-facet-modal-label-undefined"
+              />
+              <span
+                class="c4"
+                data-testid="plp-facet-modal-count-label-undefined-undefined"
+              >
+                ()
+              </span>
+            </label>
+            <input
+              class="c1"
+              data-testid="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-undefined"
+              name="plp-facet-checkbox-undefined"
+              type="checkbox"
+              value=""
+            />
+            <label
+              class="MuiTypography-root c2 MuiTypography-body1"
+              data-testid="plp-facet-checkbox-label-undefined"
+              for="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-label-undefined"
+              tabindex="-1"
+            >
+              <span
+                class="c3"
+                data-testid="plp-facet-modal-label-undefined"
+              />
+              <span
+                class="c4"
+                data-testid="plp-facet-modal-count-label-undefined-undefined"
+              >
+                ()
+              </span>
+            </label>
+            <input
+              class="c1"
+              data-testid="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-undefined"
+              name="plp-facet-checkbox-undefined"
+              type="checkbox"
+              value=""
+            />
+            <label
+              class="MuiTypography-root c2 MuiTypography-body1"
+              data-testid="plp-facet-checkbox-label-undefined"
+              for="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-label-undefined"
+              tabindex="-1"
+            >
+              <span
+                class="c3"
+                data-testid="plp-facet-modal-label-undefined"
+              />
+              <span
+                class="c4"
+                data-testid="plp-facet-modal-count-label-undefined-undefined"
+              >
+                ()
+              </span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-text c5 MuiButton-disableElevation"
+      data-testid="plp-view-more-button"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        View less
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Filter:  should show view more 1`] = `
+<DocumentFragment>
+  .c4 {
+  color: #515151;
+  display: inline-block;
+  margin-left: 0.125rem;
+}
+
+.c1 {
+  opacity: 0;
+  position: absolute;
+  left: -200px;
+}
+
+.c3 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: auto;
+}
+
+.c2.c2 {
+  outline: none;
+  position: relative;
+  margin: 0;
+  padding-left: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+}
+
+.c2.c2:before {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0.3125rem;
+  left: 0;
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  pointer-events: auto;
+  content: "";
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0.0625rem solid #949494;
+  border-radius: 0.25rem;
+  margin: 0.0625rem;
+  -webkit-transition: background-color 0.1s ease-out,border-color 0.1s ease-out,boxShadow 0.1s ease-out;
+  transition: background-color 0.1s ease-out,border-color 0.1s ease-out,boxShadow 0.1s ease-out;
+}
+
+.c2.c2:after {
+  position: absolute;
+  display: block;
+  content: "";
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  width: 0.625rem;
+  height: 0.25rem;
+  top: 0.75rem;
+  left: 0.3125rem;
+  border-color: #000;
+  border: 0.125rem solid;
+  border-top: none;
+  opacity: 0;
+}
+
+.c2.c2.c2.c2:after {
+  flip: false;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  top: 0.75rem;
+  opacity: 0;
+  /*! @noflip */
+  border-right: none;
+  -webkit-transform: scale(0.25) rotate(-45deg);
+  -ms-transform: scale(0.25) rotate(-45deg);
+  transform: scale(0.25) rotate(-45deg);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 13rem;
+}
+
+.c5.c5 {
+  padding-left: 0;
+  color: #257f39;
+  background-color: transparent;
+  overflow-anchor: none;
+  min-width: auto;
+}
+
+.c5.c5.c5.c5:hover {
+  background-color: transparent;
+}
+
+.c5.c5.c5.c5:focus {
+  border: none;
+}
+
+.c5.c5.c5.c5 span {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+<div
+    class="c0"
+  >
+    <input
+      class="c1"
+      data-testid="plp-facet-checkbox-undefined"
+      id="plp-facet-checkbox-undefined"
+      name="plp-facet-checkbox-undefined"
+      type="checkbox"
+      value=""
+    />
+    <label
+      class="MuiTypography-root c2 MuiTypography-body1"
+      data-testid="plp-facet-checkbox-label-undefined"
+      for="plp-facet-checkbox-undefined"
+      id="plp-facet-checkbox-label-undefined"
+      tabindex="-1"
+    >
+      <span
+        class="c3"
+        data-testid="plp-facet-modal-label-undefined"
+      />
+      <span
+        class="c4"
+        data-testid="plp-facet-modal-count-label-undefined-undefined"
+      >
+        ()
+      </span>
+    </label>
+    <div
+      class="MuiCollapse-container MuiCollapse-hidden"
+      style="min-height: 0px;"
+    >
+      <div
+        class="MuiCollapse-wrapper"
+      >
+        <div
+          class="MuiCollapse-wrapperInner"
+        >
+          <div
+            class="c0"
+          >
+            <input
+              class="c1"
+              data-testid="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-undefined"
+              name="plp-facet-checkbox-undefined"
+              type="checkbox"
+              value=""
+            />
+            <label
+              class="MuiTypography-root c2 MuiTypography-body1"
+              data-testid="plp-facet-checkbox-label-undefined"
+              for="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-label-undefined"
+              tabindex="-1"
+            >
+              <span
+                class="c3"
+                data-testid="plp-facet-modal-label-undefined"
+              />
+              <span
+                class="c4"
+                data-testid="plp-facet-modal-count-label-undefined-undefined"
+              >
+                ()
+              </span>
+            </label>
+            <input
+              class="c1"
+              data-testid="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-undefined"
+              name="plp-facet-checkbox-undefined"
+              type="checkbox"
+              value=""
+            />
+            <label
+              class="MuiTypography-root c2 MuiTypography-body1"
+              data-testid="plp-facet-checkbox-label-undefined"
+              for="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-label-undefined"
+              tabindex="-1"
+            >
+              <span
+                class="c3"
+                data-testid="plp-facet-modal-label-undefined"
+              />
+              <span
+                class="c4"
+                data-testid="plp-facet-modal-count-label-undefined-undefined"
+              >
+                ()
+              </span>
+            </label>
+            <input
+              class="c1"
+              data-testid="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-undefined"
+              name="plp-facet-checkbox-undefined"
+              type="checkbox"
+              value=""
+            />
+            <label
+              class="MuiTypography-root c2 MuiTypography-body1"
+              data-testid="plp-facet-checkbox-label-undefined"
+              for="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-label-undefined"
+              tabindex="-1"
+            >
+              <span
+                class="c3"
+                data-testid="plp-facet-modal-label-undefined"
+              />
+              <span
+                class="c4"
+                data-testid="plp-facet-modal-count-label-undefined-undefined"
+              >
+                ()
+              </span>
+            </label>
+            <input
+              class="c1"
+              data-testid="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-undefined"
+              name="plp-facet-checkbox-undefined"
+              type="checkbox"
+              value=""
+            />
+            <label
+              class="MuiTypography-root c2 MuiTypography-body1"
+              data-testid="plp-facet-checkbox-label-undefined"
+              for="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-label-undefined"
+              tabindex="-1"
+            >
+              <span
+                class="c3"
+                data-testid="plp-facet-modal-label-undefined"
+              />
+              <span
+                class="c4"
+                data-testid="plp-facet-modal-count-label-undefined-undefined"
+              >
+                ()
+              </span>
+            </label>
+            <input
+              class="c1"
+              data-testid="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-undefined"
+              name="plp-facet-checkbox-undefined"
+              type="checkbox"
+              value=""
+            />
+            <label
+              class="MuiTypography-root c2 MuiTypography-body1"
+              data-testid="plp-facet-checkbox-label-undefined"
+              for="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-label-undefined"
+              tabindex="-1"
+            >
+              <span
+                class="c3"
+                data-testid="plp-facet-modal-label-undefined"
+              />
+              <span
+                class="c4"
+                data-testid="plp-facet-modal-count-label-undefined-undefined"
+              >
+                ()
+              </span>
+            </label>
+            <input
+              class="c1"
+              data-testid="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-undefined"
+              name="plp-facet-checkbox-undefined"
+              type="checkbox"
+              value=""
+            />
+            <label
+              class="MuiTypography-root c2 MuiTypography-body1"
+              data-testid="plp-facet-checkbox-label-undefined"
+              for="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-label-undefined"
+              tabindex="-1"
+            >
+              <span
+                class="c3"
+                data-testid="plp-facet-modal-label-undefined"
+              />
+              <span
+                class="c4"
+                data-testid="plp-facet-modal-count-label-undefined-undefined"
+              >
+                ()
+              </span>
+            </label>
+            <input
+              class="c1"
+              data-testid="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-undefined"
+              name="plp-facet-checkbox-undefined"
+              type="checkbox"
+              value=""
+            />
+            <label
+              class="MuiTypography-root c2 MuiTypography-body1"
+              data-testid="plp-facet-checkbox-label-undefined"
+              for="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-label-undefined"
+              tabindex="-1"
+            >
+              <span
+                class="c3"
+                data-testid="plp-facet-modal-label-undefined"
+              />
+              <span
+                class="c4"
+                data-testid="plp-facet-modal-count-label-undefined-undefined"
+              >
+                ()
+              </span>
+            </label>
+            <input
+              class="c1"
+              data-testid="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-undefined"
+              name="plp-facet-checkbox-undefined"
+              type="checkbox"
+              value=""
+            />
+            <label
+              class="MuiTypography-root c2 MuiTypography-body1"
+              data-testid="plp-facet-checkbox-label-undefined"
+              for="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-label-undefined"
+              tabindex="-1"
+            >
+              <span
+                class="c3"
+                data-testid="plp-facet-modal-label-undefined"
+              />
+              <span
+                class="c4"
+                data-testid="plp-facet-modal-count-label-undefined-undefined"
+              >
+                ()
+              </span>
+            </label>
+            <input
+              class="c1"
+              data-testid="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-undefined"
+              name="plp-facet-checkbox-undefined"
+              type="checkbox"
+              value=""
+            />
+            <label
+              class="MuiTypography-root c2 MuiTypography-body1"
+              data-testid="plp-facet-checkbox-label-undefined"
+              for="plp-facet-checkbox-undefined"
+              id="plp-facet-checkbox-label-undefined"
+              tabindex="-1"
+            >
+              <span
+                class="c3"
+                data-testid="plp-facet-modal-label-undefined"
+              />
+              <span
+                class="c4"
+                data-testid="plp-facet-modal-count-label-undefined-undefined"
+              >
+                ()
+              </span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-text c5 MuiButton-disableElevation"
+      data-testid="plp-view-more-button"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        View more
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;

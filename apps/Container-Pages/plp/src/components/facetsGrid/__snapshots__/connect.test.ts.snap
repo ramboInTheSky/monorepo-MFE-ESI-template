@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given connect - mapStateToProps() should return all facets correctly 1`] = `
+Object {
+  "facets": Array [
+    Object {
+      "c": 1,
+      "d": false,
+      "incompatibleWith": Array [],
+      "n": "opt1",
+      "v": "opt1",
+    },
+    Object {
+      "c": 1,
+      "d": false,
+      "incompatibleWith": Array [
+        "opt3",
+      ],
+      "n": "opt2",
+      "v": "opt2",
+    },
+    Object {
+      "c": 1,
+      "d": false,
+      "incompatibleWith": Array [
+        "opt2",
+      ],
+      "n": "opt3",
+      "v": "opt3",
+    },
+  ],
+}
+`;

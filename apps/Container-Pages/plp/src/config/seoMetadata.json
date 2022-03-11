@@ -1,0 +1,72 @@
+{
+  "amido": {
+    "uk": {
+      "category": {
+        "withFilters": {
+          "title": "Buy {Filters} {SearchTerm} Online | Amido Clothing UK",
+          "description": "Shop a wide range of {Filters} {SearchTerm} with Amido Clothing UK. Choose from 1000s of products. Order {Filters} {SearchTerm} now with express delivery.",
+          "keywords": "kids designer clothes, luxury childrenswear, amido clothing",
+          "robots": ""
+        },
+        "withoutFilters": {
+          "title": "Buy {SearchTerm} Online | Amido Clothing UK",
+          "description": "Shop a wide range of {SearchTerm} with Amido Clothing UK. Choose from 1000s of products here. Order {SearchTerm} now with express delivery.",
+          "keywords": "kids designer clothes, luxury childrenswear, amido clothing",
+          "robots": ""
+        }
+      },
+      "keyword": {
+        "withFilters": {
+          "title": "Buy {SearchTerm} in {Filters} from the Amido Clothing UK online shop",
+          "description": "Shop for {SearchTerm} in {Filters} at amidoclothing.co.uk. Amido day delivery and free returns available. 1000s of products online. Buy {SearchTerm} now!",
+          "keywords": "amidoclothing,amidoclothing.co.uk,childrens",
+          "robots": ""
+        },
+        "withoutFilters": {
+          "title": "Buy {SearchTerm} from the Amido UK online shop",
+          "description": "Shop for {SearchTerm} at amidoclothing.co.uk. Amido day delivery and free returns available. 1000s of products online. Buy {SearchTerm} now!",
+          "keywords": "amidoclothing,amidoclothing.co.uk,childrens",
+          "robots": ""
+        }
+      }
+    },
+    "international": {
+      "category": {
+        "withFilters": {
+          "mpStart": "<!-- mp_trans_enable_start -->",
+          "title": "Buy {Filters} {SearchTerm} Online | Amido Clothing {CountryName}",
+          "description": "Shop a wide range of {Filters} {SearchTerm} with Amido Clothing {CountryName} now with express delivery.",
+          "keywords": "kids designer clothes, luxury childrenswear, amido clothing",
+          "robots": "",
+          "mpEnd": "<!-- mp_trans_enable_end -->"
+        },
+        "withoutFilters": {
+          "mpStart": "<!-- mp_trans_enable_start -->",
+          "title": "Buy {SearchTerm} Online | Amido Clothing {CountryName}",
+          "description": "Shop a wide range of {SearchTerm} with Amido Clothing {CountryName} now with express delivery.",
+          "keywords": "kids designer clothes, luxury childrenswear, amido clothing",
+          "robots": "",
+          "mpEnd": "<!-- mp_trans_enable_end -->"
+        }
+      },
+      "keyword": {
+        "withFilters": {
+          "mpStart": "<!-- mp_trans_enable_start -->",
+          "title": "Buy {SearchTerm} in {Filters} from | Amido Clothing {CountryName}",
+          "description": "Shop for {SearchTerm} in {Filters} at - Amido Clothing {CountryName}. International shipping and returns available. Buy {SearchTerm} in {Filters} now!",
+          "keywords": "",
+          "robots": "",
+          "mpEnd": "<!-- mp_trans_enable_end -->"
+        },
+        "withoutFilters": {
+          "mpStart": "<!-- mp_trans_enable_start -->",
+          "title": "Buy {SearchTerm} from | Amido Clothing {CountryName}",
+          "description": "Shop for {SearchTerm} at - Amido Clothing {CountryName}. International shipping and returns available. Buy now!",
+          "keywords": "",
+          "robots": "",
+          "mpEnd": "<!-- mp_trans_enable_end -->"
+        }
+      }
+    }
+  }
+}

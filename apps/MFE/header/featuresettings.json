@@ -1,0 +1,3938 @@
+{
+  "Empire": {
+    "EmpireName": "MONOREPO.HEADER.FRONTEND",
+    "Settings": {
+      "header.frontend.countrySelector": {
+        "ShowCountrySelector": false,
+        "ShowBFPOFlag": false,
+        "Endpoint": "/ChannelSelector/GetCountrySelection"
+      },
+      "header.frontend.appCacheTTL": {
+        "Value": "3600"
+      },
+      "header.frontend.variant": {
+        "Value": "default"
+      },
+      "header.frontend.defaultDataVersion": {
+        "Value": "v1.0.0"
+      },
+      "header.frontend.themeVersion": {
+        "Value": "v1.0.0"
+      },
+      "header.frontend.template": {
+        "Value": "default"
+      },
+      "header.frontend.countrySelectorVersion": {
+        "Value": "v1.0.0"
+      },
+      "header.frontend.cache-control.max-age": {
+        "Value": "3600"
+      },
+      "header.frontend.cache-control.default-header.max-age": {
+        "Value": "no-store"
+      },
+      "header.frontend.enableFavourites": {
+        "Value": false
+      },
+      "header.frontend.geolocationVersion": {
+        "Value": 12
+      },
+      "header.frontend.featureSwitch": {
+        "SearchBar": {
+          "SimpleSearch": {
+            "Value": true,
+            "RecentSearch": {
+              "MaxItems": 6
+            },
+            "Autocomplete": {
+              "MaxItems": 10
+            }
+          },
+          "EnrichSearch": {
+            "Value": false,
+            "RecentSearch": {
+              "MaxItems": 12
+            },
+            "Autocomplete": {
+              "MaxItems": 10,
+              "ProductsMaxItems": {
+                "xs": 8,
+                "sm": 8,
+                "md": 4,
+                "lg": 4,
+                "xl": 5
+              }
+            }
+          }
+        }
+      },
+      "header.frontend.bloomReachCachingCookieList": {
+        "Value": "01,02"
+      },
+      "header.frontend.bloomReachCachingEnabled": {
+        "Value": true
+      },
+
+      "header.frontend.bloomreachDomainKey": {
+        "Value": "amido_global"
+      },
+      "header.frontend.monetateSDK": {
+        "Value": false
+      },
+      "header.frontend.enableGoogleAnalyticsSDK": {
+        "Value": false
+      },
+      "header.frontend.textData": {
+        "Value": "default-text"
+      },
+      "header.frontend.enableQueueIt": {
+        "Value": false
+      },
+      "header.frontend.enableSaleWarningModal": {
+        "Value": false
+      },
+      "header.frontend.userConsentManagement.enabled": {
+        "Value": false,
+        "options": {
+          "autoLanguageDetection": true,
+          "dataDomainScriptGuid": {
+            "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+            "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+          }
+        }
+      },
+      "header.frontend.abPlatformTesting.enabled": {
+        "Value": false
+      }
+    },
+    "Realms": [
+      {
+        "RealmName": "amido",
+        "Settings": {
+          "header.frontend.realmName": {
+            "Value": "amido"
+          },
+          "header.frontend.bookmarkTitle": "Amido",
+          "header.frontend.countrySelector": {
+            "ShowCountrySelector": true,
+            "ShowBFPOFlag": true,
+            "Endpoint": "/ChannelSelector/GetCountrySelection"
+          },
+          "header.frontend.autoComplete": {
+            "accountId": 6116,
+            "domainKey": "amido_global",
+            "authKey": "harovpat1tpa716o"
+          },
+          "header.frontend.enableFavourites": {
+            "Value": false
+          },
+          "header.frontend.enableSaleWarningModal": {
+            "Value": true
+          },
+          "header.frontend.googleAnalytics": {
+            "uk": {
+              "account": "GTM-KMS4Q5K",
+              "environmentKeys": {
+                "dev": "&gtm_auth=7xkG6xPKrPxzzEeB3hLFHw&gtm_preview=env-3",
+                "uat": "&gtm_auth=_ZZUNtBhFJmC1r_2qjDKpA&gtm_preview=env-4",
+                "conv": "&gtm_auth=ZYi9RiutEBKmsbZIzt8Pmw&gtm_preview=env-5",
+                "live": ""
+              }
+            },
+            "international": {
+              "account": "GTM-NJXS6J6",
+              "environmentKeys": {
+                "dev": "&gtm_auth=XdNWDgDuO3l_7VJFbKMXEA&gtm_preview=env-3",
+                "uat": "&gtm_auth=Nsd2IE0STNkQlYCP0C7clw&gtm_preview=env-4",
+                "conv": "&gtm_auth=xjfCXhqM9ckwKdBx7kfHcA&gtm_preview=env-5",
+                "live": ""
+              }
+            }
+          },
+          "header.frontend.enableQueueIt": {
+            "Value": true
+          },
+          "header.frontend.style": {
+            "Value": "amido"
+          }
+        },
+        "Territories": [
+          {
+            "TerritoryName": "AE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "AE"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "United Arab Emirates"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "MENA"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "AED"
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/amido.ae/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/amido.ae/entry.js"
+                }
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": false
+              }
+            }
+          },
+          {
+            "TerritoryName": "AM",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "AM"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Armenia"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "EasternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "USD"
+              }
+            }
+          },
+          {
+            "TerritoryName": "AR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "AR"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Argentina"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "SouthernHemisphere"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "USD"
+              }
+            }
+          },
+          {
+            "TerritoryName": "AT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "de",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "de"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "AT"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Austria"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "6"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "WesternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "EUR"
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "TerritoryName": "AU",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "AU"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Australia"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "SouthernHemisphere"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "AUD"
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/amido.com.au/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/amido.com.au/entry.js"
+                }
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": false
+              }
+            }
+          },
+          {
+            "TerritoryName": "AZ",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "AZ"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Azerbaijan"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "WesternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "USD"
+              }
+            }
+          },
+          {
+            "TerritoryName": "BE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "fr",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "fr"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "BE"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Belgium"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "9"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "WesternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "EUR"
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/be.amido.com/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/be.amido.com/entry.js"
+                }
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": false
+              }
+            }
+          },
+          {
+            "TerritoryName": "BG",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "bg",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "bg"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "BG"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Bulgaria"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "2"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "EasternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "BGN"
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "TerritoryName": "BH",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "BH"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Bahrain"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "MENA"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "BHD"
+              }
+            }
+          },
+          {
+            "TerritoryName": "BR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "BR"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Brazil"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "SouthernHemisphere"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "USD"
+              }
+            }
+          },
+          {
+            "TerritoryName": "BY",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "BY"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Belarus"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "EasternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "USD"
+              }
+            }
+          },
+          {
+            "TerritoryName": "CA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "fr",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "fr"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "CA"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Canada"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "9"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "WesternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "CAD"
+              }
+            }
+          },
+          {
+            "TerritoryName": "CH",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "de",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "de"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "CH"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Switzerland"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "6"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "WesternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "CHF"
+              }
+            }
+          },
+          {
+            "TerritoryName": "CL",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "CL"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Chile"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "SouthernHemisphere"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "USD"
+              }
+            }
+          },
+          {
+            "TerritoryName": "CY",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "CY"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Cyprus"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "WesternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "EUR"
+              }
+            }
+          },
+          {
+            "TerritoryName": "CZ",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "cs",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "cs"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "CZ"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Czech Republic"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "3"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "EasternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "CZK"
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "TerritoryName": "DE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "de",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "de"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "DE"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Germany"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "6"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "Germany"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "EUR"
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/amido.de/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/amido.de/entry.js"
+                }
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": false
+              }
+            }
+          },
+          {
+            "TerritoryName": "DK",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "da",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "da"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "DK"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Denmark"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "5"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "WesternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "DKK"
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "TerritoryName": "EE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "EE"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Estonia"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "EasternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "EUR"
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "TerritoryName": "EG",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "EG"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Egypt"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "MENA"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "EGP"
+              }
+            }
+          },
+          {
+            "TerritoryName": "ES",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "es",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "es"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "ES"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Spain"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "8"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "WesternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "EUR"
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "TerritoryName": "FI",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "FI"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Finland"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "WesternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "EUR"
+              }
+            }
+          },
+          {
+            "TerritoryName": "FR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "fr",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "fr"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "FR"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "France (Monaco)"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "9"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "WesternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "EUR"
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/fr.amido.com/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/fr.amido.com/entry.js"
+                }
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "TerritoryName": "GB",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "GB"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "United Kingdom"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              },
+              "header.frontend.currencyCode": {
+                "Value": "GBP"
+              },
+              "header.frontend.autoComplete": {
+                "accountId": 6042,
+                "domainKey": "amido",
+                "authKey": "vyzz50jis1i9dbxj"
+              },
+              "header.frontend.bloomReachCachingCookieList": {
+                "Value": "_br_val_1,_br_val_2,_br_val_3,_br_val_4"
+              },
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "UK"
+              },
+              "header.frontend.bloomreachDomainKey": {
+                "Value": "amido"
+              },
+              "header.frontend.featureSwitch": {
+                "SearchBar": {
+                  "SimpleSearch": {
+                    "Value": false,
+                    "RecentSearch": {
+                      "MaxItems": 6
+                    },
+                    "Autocomplete": {
+                      "MaxItems": 10
+                    }
+                  },
+                  "EnrichSearch": {
+                    "Value": true,
+                    "RecentSearch": {
+                      "MaxItems": 12
+                    },
+                    "Autocomplete": {
+                      "MaxItems": 10,
+                      "ProductsMaxItems": {
+                        "xs": 8,
+                        "sm": 8,
+                        "md": 4,
+                        "lg": 4,
+                        "xl": 5
+                      }
+                    }
+                  }
+                }
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/amido.com.local.uat2.test/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/conv.amido.com/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/www.amido.com/entry.js"
+                }
+              },
+              "header.frontend.abPlatformTesting.enabled": {
+                "Value": false
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": false
+              }
+            }
+          },
+          {
+            "TerritoryName": "GE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "GE"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Georgia"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "WesternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "USD"
+              }
+            }
+          },
+          {
+            "TerritoryName": "GI",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "GI"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Gibraltar"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "WesternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "EUR"
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "TerritoryName": "GR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "el",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "el"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "GR"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Greece"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "20"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "WesternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "EUR"
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "TerritoryName": "HK",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "zh",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "zh"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "HK"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Hong Kong"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "4"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "FarEast"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "HKD"
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/hk.amido.com/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/hk.amido.com/entry.js"
+                }
+              }
+            },
+            "header.frontend.enableGoogleAnalyticsSDK": {
+              "Value": false
+            }
+          },
+          {
+            "TerritoryName": "HR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "HR"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Croatia"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "EasternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "HRK"
+              }
+            }
+          },
+          {
+            "TerritoryName": "HU",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "hu",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "hu"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "HU"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Hungary"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "12"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "EasternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "HUF"
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "TerritoryName": "ID",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "ID"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Indonesia"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "FarEast"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "USD"
+              }
+            }
+          },
+          {
+            "TerritoryName": "IE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "IE"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Ireland"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "Eire"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "EUR"
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/amido.ie/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/amido.ie/entry.js"
+                }
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": false
+              }
+            }
+          },
+          {
+            "TerritoryName": "IL",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "he",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "he"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "IL"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Israel"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "10"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "Israel"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "ILS"
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/amido.co.il/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/amido.co.il/entry.js"
+                }
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": false
+              }
+            }
+          },
+          {
+            "TerritoryName": "IN",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "IN"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "India"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+              "header.frontend.bloomReachCachingEnabled": {
+                "Value": false
+              },
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "MENA"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "INR"
+              }
+            }
+          },
+          {
+            "TerritoryName": "IS",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "IS"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Iceland"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "WesternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "EUR"
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": true
+              }
+            }
+          },
+          {
+            "TerritoryName": "IT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "it",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "it"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "IT"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Italy"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "11"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "WesternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "EUR"
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "TerritoryName": "JP",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ja",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "ja"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "JP"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Japan"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "23"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "FarEast"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "JPY"
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/jp.amido.com/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/jp.amido.com/entry.js"
+                }
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": false
+              }
+            }
+          },
+          {
+            "TerritoryName": "KR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ko",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "ko"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "KR"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "South Korea"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "22"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "FarEast"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "KRW"
+              }
+            }
+          },
+          {
+            "TerritoryName": "KW",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "KW"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Kuwait"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "MENA"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "KWD"
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/kw.amido.com/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/kw.amido.com/entry.js"
+                }
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": false
+              }
+            }
+          },
+          {
+            "TerritoryName": "KZ",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "KZ"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Kazakhstan"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "EasternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "KZT"
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/amido.com.kz/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/amido.com.kz/entry.js"
+                }
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": false
+              }
+            }
+          },
+          {
+            "TerritoryName": "LB",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "LB"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Lebanon"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "MENA"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "USD"
+              }
+            }
+          },
+          {
+            "TerritoryName": "LT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "LT"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Lithuania"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "EasternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "EUR"
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": false
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/amido.lt/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/amido.lt/entry.js"
+                }
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "TerritoryName": "LU",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "fr",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "fr"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "LU"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Luxembourg"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "9"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "WesternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "EUR"
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "TerritoryName": "LV",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "LV"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Latvia"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "EasternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "EUR"
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "TerritoryName": "MT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "MT"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Malta"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "WesternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "EUR"
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/amido.com.mt/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/amido.com.mt/entry.js"
+                }
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": false
+              }
+            }
+          },
+          {
+            "TerritoryName": "MX",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "MX"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Mexico"
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+              "header.frontend.currencyCode": {
+                "Value": "USD"
+              },
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "SouthernHemisphere"
+              },
+              "header.frontend.bloomreachDomainKey": {
+                "Value": "amido_global"
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": true
+              }
+            }
+          },
+          {
+            "TerritoryName": "MY",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ms",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "ms"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "MY"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Malaysia"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "1"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "FarEast"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "MYR"
+              }
+            }
+          },
+          {
+            "TerritoryName": "NL",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "nl",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "nl"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "NL"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Netherlands"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "13"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "WesternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "EUR"
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/nl.amido.com/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/nl.amido.com/entry.js"
+                }
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": false
+              }
+            }
+          },
+          {
+            "TerritoryName": "NO",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "NO"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Norway"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "WesternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "NOK"
+              }
+            }
+          },
+          {
+            "TerritoryName": "NZ",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "NZ"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "New Zealand"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "SouthernHemisphere"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "NZD"
+              }
+            }
+          },
+          {
+            "TerritoryName": "OM",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "OM"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Oman"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "MENA"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "OMR"
+              }
+            }
+          },
+          {
+            "TerritoryName": "PE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "PE"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Peru"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "SouthernHemisphere"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "USD"
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": true
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/pe.amido.com/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/pe.amido.com/entry.js"
+                }
+              }
+            }
+          },
+          {
+            "TerritoryName": "PH",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "PH"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Philippines"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "FarEast"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "USD"
+              }
+            }
+          },
+          {
+            "TerritoryName": "PK",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "PK"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Pakistan"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "MENA"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "USD"
+              }
+            }
+          },
+          {
+            "TerritoryName": "PL",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "pl",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "pl"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "PL"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Poland"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "14"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "EasternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "PLN"
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/amido.pl/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/amido.pl/entry.js"
+                }
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": false
+              }
+            }
+          },
+          {
+            "TerritoryName": "PT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "PT"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Portugal"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "WesternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "EUR"
+              }
+            }
+          },
+          {
+            "TerritoryName": "QA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "QA"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Qatar"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "MENA"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "QAR"
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/amido.qa/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/amido.qa/entry.js"
+                }
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": false
+              }
+            }
+          },
+          {
+            "TerritoryName": "RO",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ro",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "ro"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "RO"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Romania"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "15"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "EasternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "RON"
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "TerritoryName": "RS",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "RS"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Serbia"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "EasternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "RSD"
+              }
+            }
+          },
+          {
+            "TerritoryName": "RU",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "RU"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Russia"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "Russia"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "RUB"
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/ru.com/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/ru.com/entry.js"
+                }
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": false
+              }
+            }
+          },
+          {
+            "TerritoryName": "SA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "SA"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Saudi Arabia"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "MENA"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "SAR"
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/sa.amido.com/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/sa.amido.com/entry.js"
+                }
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": false
+              }
+            }
+          },
+          {
+            "TerritoryName": "SE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "sv",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "sv"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "SE"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Sweden"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "19"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "WesternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "SEK"
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "TerritoryName": "SG",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "SG"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Singapore"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "FarEast"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "SGD"
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/amido.sg/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/amido.sg/entry.js"
+                }
+              }
+            }
+          },
+          {
+            "TerritoryName": "SI",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "sl",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "sl"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "SI"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Slovenia"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "18"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "EasternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "EUR"
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "TerritoryName": "SK",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "sk",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "sk"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "SK"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Slovakia"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "17"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "EasternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "EUR"
+              },
+              "header.frontend.userConsentManagement.enabled": {
+                "Value": false,
+                "options": {
+                  "autoLanguageDetection": true,
+                  "dataDomainScriptGuid": {
+                    "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+                    "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+                  }
+                }
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/amido.com.sk/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/amido.com.sk/entry.js"
+                }
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": false
+              }
+            }
+          },
+          {
+            "TerritoryName": "TH",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "TH"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Thailand"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "FarEast"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "USD"
+              }
+            }
+          },
+          {
+            "TerritoryName": "TR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "TR"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Turkey"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "MENA"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "TRY"
+              }
+            }
+          },
+          {
+            "TerritoryName": "TW",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "zh",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "zh"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "TW"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Taiwan"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "4"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "FarEast"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "TWD"
+              }
+            }
+          },
+          {
+            "TerritoryName": "UA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "UA"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "Ukraine"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "EasternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "UAH"
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/amido.ua/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/amido.ua/entry.js"
+                }
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": false
+              }
+            }
+          },
+          {
+            "TerritoryName": "US",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "US"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "USA"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "EasternEurope"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "USD"
+              },
+              "header.frontend.monetateSDK": {
+                "enabled": false,
+                "environmentKeys": {
+                  "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+                  "conv": "//se.monetate.net/js/2/a-4295dd5d/p/us.amido.com/entry.js",
+                  "live": "//se.monetate.net/js/2/a-4295dd5d/p/us.amido.com/entry.js"
+                }
+              },
+              "header.frontend.enableGoogleAnalyticsSDK": {
+                "Value": false
+              }
+            }
+          },
+          {
+            "TerritoryName": "ZA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "header.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "header.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "header.frontend.territoryName": {
+                "Value": "ZA"
+              },
+              "header.frontend.fullTerritoryName": {
+                "Value": "South Africa"
+              },
+              "header.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ],
+
+              "header.frontend.bloomreachGroupLocation": {
+                "Value": "SouthernHemisphere"
+              },
+              "header.frontend.currencyCode": {
+                "Value": "ZAR"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Personas": [
+    {
+      "PersonaName": "CustomerA",
+      "Settings": {
+        "header.frontend.direction": {
+          "Value": "rtl"
+        },
+        "header.enableMainMenu": {
+          "Value": "false"
+        }
+      }
+    },
+    {
+      "PersonaName": "CustomerB",
+      "Settings": {
+        "header.frontend.enableFavourites": {
+          "Value": false
+        },
+        "header.frontend.monetateSDK": {
+          "enabled": false,
+          "environmentKeys": {
+            "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+            "conv": "//se.monetate.net/js/2/a-4295dd5d/p/fr.amido.com/entry.js",
+            "live": "//se.monetate.net/js/2/a-4295dd5d/p/fr.amido.com/entry.js"
+          }
+        },
+        "header.frontend.enableGoogleAnalyticsSDK": {
+          "Value": true
+        }
+      }
+    },
+    {
+      "PersonaName": "GTMEnabled",
+      "Settings": {
+        "header.frontend.enableGoogleAnalyticsSDK": {
+          "Value": true
+        }
+      }
+    },
+    {
+      "PersonaName": "MonetateEnabled",
+      "Settings": {
+        "header.frontend.enableGoogleAnalyticsSDK": {
+          "Value": true
+        },
+        "header.frontend.monetateSDK": {
+          "enabled": true,
+          "environmentKeys": {
+            "uat": "//se.monetate.net/js/2/a-4295dd5d/d/mx-uat22.test.ecomm.systems/entry.js",
+            "conv": "//se.monetate.net/js/2/a-4295dd5d/p/fr.amido.com/entry.js",
+            "live": "//se.monetate.net/js/2/a-4295dd5d/p/fr.amido.com/entry.js"
+          }
+        }
+      }
+    },
+    {
+      "PersonaName": "FavouritesDisabled",
+      "Settings": {
+        "header.frontend.enableFavourites": {
+          "Value": false
+        }
+      }
+    },
+    {
+      "PersonaName": "UCMEnabled",
+      "Settings": {
+        "header.frontend.enableGoogleAnalyticsSDK": {
+          "Value": true
+        },
+        "header.frontend.userConsentManagement.enabled": {
+          "Value": true,
+          "options": {
+            "autoLanguageDetection": true,
+            "dataDomainScriptGuid": {
+              "conv": "f7b25b1a-13f6-481c-8cc7-175280b707d8-test",
+              "live": "f7b25b1a-13f6-481c-8cc7-175280b707d8"
+            }
+          }
+        }
+      }
+    },
+    {
+      "PersonaName": "UCMGTMDisabled",
+      "Settings": {
+        "header.frontend.enableGoogleAnalyticsSDK": {
+          "Value": false
+        },
+        "header.frontend.userConsentManagement.enabled": {
+          "Value": false
+        }
+      }
+    },
+    {
+      "PersonaName": "UCMDisabledGTMEnabled",
+      "Settings": {
+        "header.frontend.enableGoogleAnalyticsSDK": {
+          "Value": true
+        },
+        "header.frontend.userConsentManagement.enabled": {
+          "Value": false
+        }
+      }
+    },
+    {
+      "PersonaName": "VisionHeader",
+      "Settings": {
+        "header.frontend.variant": {
+          "Value": "vision"
+        }
+      }
+    }
+  ]
+}

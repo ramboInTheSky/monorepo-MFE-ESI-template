@@ -1,0 +1,486 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewAllModal:  should match the snapshot when letter nav is hidden 1`] = `
+<body>
+  <div
+    aria-hidden="true"
+  />
+  .c3 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+}
+
+.c2 {
+  border-bottom: .0625rem solid #9e9e9e;
+  background-color: #f7f7f7;
+  padding: 1rem;
+  height: 2.75rem;
+}
+
+.c2 > button {
+  float: right;
+  padding: 0;
+  text-align: right;
+  display: block;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  background-color: white;
+  width: 43.75rem;
+  outline: none;
+  border-radius: 0;
+}
+
+.c6 > button {
+  text-transform: uppercase;
+  float: right;
+  margin: 1rem;
+  width: 8.563rem;
+  height: 2rem;
+}
+
+.c6 > button span {
+  font-size: 0.75rem;
+  padding: 0.563rem 0.75rem 0.5rem 0.75rem;
+  -webkit-letter-spacing: 0.054rem;
+  -moz-letter-spacing: 0.054rem;
+  -ms-letter-spacing: 0.054rem;
+  letter-spacing: 0.054rem;
+}
+
+<div
+    aria-describedby="plp-modal-description"
+    aria-labelledby="plp-modal-title"
+    class="c0 platform_modernisation_plp"
+    data-testid="plp-view-all-modal"
+    role="presentation"
+    style="position: fixed; z-index: 1300; right: 0px; bottom: 0px; top: 0px; left: 0px;"
+  >
+    <div
+      aria-hidden="true"
+      class="MuiBackdrop-root"
+      style="opacity: 1; webkit-transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+    />
+    <div
+      data-test="sentinelStart"
+      tabindex="0"
+    />
+    <div
+      class="c1"
+      style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      tabindex="-1"
+    >
+      <div
+        class=""
+      >
+        <div
+          class="MuiToolbar-root MuiToolbar-dense c2"
+        >
+          <h4
+            class="MuiTypography-root c3 MuiTypography-h4"
+          >
+            test
+          </h4>
+          <div>
+            TEST SEARCH MODAL
+          </div>
+          <div>
+            TEST FILTER BUTTON - 
+            Close
+          </div>
+        </div>
+      </div>
+      <div
+        class="c4"
+      >
+        <div>
+          TEST FACETS GRID
+        </div>
+        <div
+          class="c5"
+        >
+          <div>
+            TEST SELECTED FACETS
+          </div>
+          <div
+            class="c6"
+          >
+            <div>
+              TEST FILTER BUTTON - 
+              Confirm test
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      data-test="sentinelEnd"
+      tabindex="0"
+    />
+  </div>
+</body>
+`;
+
+exports[`ViewAllModal:  should match the snapshot when search box is hidden 1`] = `
+<body>
+  <div
+    aria-hidden="true"
+  />
+  .c3 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+}
+
+.c2 {
+  border-bottom: .0625rem solid #9e9e9e;
+  background-color: #f7f7f7;
+  padding: 1rem;
+  height: 2.75rem;
+}
+
+.c2 > button {
+  float: right;
+  padding: 0;
+  text-align: right;
+  display: block;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  background-color: white;
+  width: 43.75rem;
+  outline: none;
+  border-radius: 0;
+}
+
+.c6 > button {
+  text-transform: uppercase;
+  float: right;
+  margin: 1rem;
+  width: 8.563rem;
+  height: 2rem;
+}
+
+.c6 > button span {
+  font-size: 0.75rem;
+  padding: 0.563rem 0.75rem 0.5rem 0.75rem;
+  -webkit-letter-spacing: 0.054rem;
+  -moz-letter-spacing: 0.054rem;
+  -ms-letter-spacing: 0.054rem;
+  letter-spacing: 0.054rem;
+}
+
+<div
+    aria-describedby="plp-modal-description"
+    aria-labelledby="plp-modal-title"
+    class="c0 platform_modernisation_plp"
+    data-testid="plp-view-all-modal"
+    role="presentation"
+    style="position: fixed; z-index: 1300; right: 0px; bottom: 0px; top: 0px; left: 0px;"
+  >
+    <div
+      aria-hidden="true"
+      class="MuiBackdrop-root"
+      style="opacity: 1; webkit-transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+    />
+    <div
+      data-test="sentinelStart"
+      tabindex="0"
+    />
+    <div
+      class="c1"
+      style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      tabindex="-1"
+    >
+      <div
+        class=""
+      >
+        <div
+          class="MuiToolbar-root MuiToolbar-dense c2"
+        >
+          <h4
+            class="MuiTypography-root c3 MuiTypography-h4"
+          >
+            test
+          </h4>
+          <div>
+            TEST FILTER BUTTON - 
+            Close
+          </div>
+        </div>
+      </div>
+      <div>
+        TEST CHARACTER FILTER 
+      </div>
+      <div
+        class="c4"
+      >
+        <div>
+          TEST FACETS GRID
+        </div>
+        <div
+          class="c5"
+        >
+          <div>
+            TEST SELECTED FACETS
+          </div>
+          <div
+            class="c6"
+          >
+            <div>
+              TEST FILTER BUTTON - 
+              Confirm test
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      data-test="sentinelEnd"
+      tabindex="0"
+    />
+  </div>
+</body>
+`;
+
+exports[`ViewAllModal:  when not open, it should match the snapshot  1`] = `<DocumentFragment />`;
+
+exports[`ViewAllModal:  when open, it should match the snapshot  1`] = `
+.c3 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+}
+
+.c2 {
+  border-bottom: .0625rem solid #9e9e9e;
+  background-color: #f7f7f7;
+  padding: 1rem;
+  height: 2.75rem;
+}
+
+.c2 > button {
+  float: right;
+  padding: 0;
+  text-align: right;
+  display: block;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  background-color: white;
+  width: 43.75rem;
+  outline: none;
+  border-radius: 0;
+}
+
+.c6 > button {
+  text-transform: uppercase;
+  float: right;
+  margin: 1rem;
+  width: 8.563rem;
+  height: 2rem;
+}
+
+.c6 > button span {
+  font-size: 0.75rem;
+  padding: 0.563rem 0.75rem 0.5rem 0.75rem;
+  -webkit-letter-spacing: 0.054rem;
+  -moz-letter-spacing: 0.054rem;
+  -ms-letter-spacing: 0.054rem;
+  letter-spacing: 0.054rem;
+}
+
+<body>
+  <div
+    aria-hidden="true"
+  />
+  <div
+    aria-describedby="plp-modal-description"
+    aria-labelledby="plp-modal-title"
+    class="c0 platform_modernisation_plp"
+    data-testid="plp-view-all-modal"
+    role="presentation"
+    style="position: fixed; z-index: 1300; right: 0px; bottom: 0px; top: 0px; left: 0px;"
+  >
+    <div
+      aria-hidden="true"
+      class="MuiBackdrop-root"
+      style="opacity: 1; webkit-transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+    />
+    <div
+      data-test="sentinelStart"
+      tabindex="0"
+    />
+    <div
+      class="c1"
+      style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      tabindex="-1"
+    >
+      <div
+        class=""
+      >
+        <div
+          class="MuiToolbar-root MuiToolbar-dense c2"
+        >
+          <h4
+            class="MuiTypography-root c3 MuiTypography-h4"
+          >
+            test
+          </h4>
+          <div>
+            TEST SEARCH MODAL
+          </div>
+          <div>
+            TEST FILTER BUTTON - 
+            Close
+          </div>
+        </div>
+      </div>
+      <div>
+        TEST CHARACTER FILTER 
+      </div>
+      <div
+        class="c4"
+      >
+        <div>
+          TEST FACETS GRID
+        </div>
+        <div
+          class="c5"
+        >
+          <div>
+            TEST SELECTED FACETS
+          </div>
+          <div
+            class="c6"
+          >
+            <div>
+              TEST FILTER BUTTON - 
+              Confirm test
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      data-test="sentinelEnd"
+      tabindex="0"
+    />
+  </div>
+</body>
+`;

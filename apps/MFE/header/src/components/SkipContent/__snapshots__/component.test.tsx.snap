@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search component:  Container 1:  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  position: fixed;
+  top: -100px;
+  width: 13.125rem;
+  color: #000000;
+  background: #ffffff;
+  border: 0.125rem solid #1d89dd;
+  height: 2.75rem;
+  z-index: 10;
+  padding-top: 0.625rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  text-align: center;
+}
+
+.c0:focus {
+  top: 0;
+}
+
+<button
+    class="c0"
+  />
+</DocumentFragment>
+`;

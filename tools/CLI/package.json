@@ -1,0 +1,16 @@
+{
+  "name": "CLI",
+  "version": "1.0.0",
+  "description": "This is to create a scaffolding CLI to allow devs to scaffold apps and libs with a single command line script.",
+  "main": "initYalc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "mustache": "^4.2.0"
+  }
+}

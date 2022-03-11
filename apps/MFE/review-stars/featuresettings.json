@@ -1,0 +1,2708 @@
+{
+  "Empire": {
+    "EmpireName": "MONOREPO.REVIEWSTARS.FRONTEND",
+    "Settings": {
+      "reviewstars.frontend.imageCdnUrl": {
+        "Value": "https://xcdn.amido.com/Common/Items/Default/Default/ItemImages/"
+      },
+      "reviewstars.frontend.appCacheTTL": {
+        "Value": "3600"
+      },
+      "reviewstars.frontend.themeVersion": {
+        "Value": "v7.0.0"
+      },
+      "reviewstars.frontend.cache-control.max-age": {
+        "Value": "no-store"
+      },
+      "reviewstars.frontend.cache-control.default-reviewstars.max-age": {
+        "Value": "no-store"
+      }
+    },
+    "Realms": [
+      {
+        "RealmName": "next",
+        "Settings": {
+          "reviewstars.frontend.realmName": {
+            "Value": "next"
+          }
+        },
+        "Territories": [
+          {
+            "TerritoryName": "AE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "AE"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "AM",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "AM"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "AR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "AR"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "AT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "de",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "de"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "AT"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "6"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "AU",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "AU"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "AZ",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "AZ"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "BE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "fr",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "fr"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "BE"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "9"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "BG",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "bg",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "bg"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "BG"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "2"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "BH",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "BH"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "BR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "BR"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "BY",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "BY"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "CA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "fr",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "fr"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "CA"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "9"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "CH",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "de",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "de"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "CH"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "6"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "CL",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "CL"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "CY",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "CY"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "CZ",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "cs",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "cs"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "CZ"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "3"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "DE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "de",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "de"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "DE"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "6"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "DK",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "da",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "da"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "DK"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "5"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "EE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "EE"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "EG",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "EG"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "ES",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "es",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "es"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "ES"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "8"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "FI",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "FI"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "FR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "fr",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "fr"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "FR"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "9"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "GB",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "GB"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "Search"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "GE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "GE"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "GI",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "GI"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "GR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "el",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "el"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "GR"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "20"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "HK",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "zh",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "zh"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "HK"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "4"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "HR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "HR"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "HU",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "hu",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "hu"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "HU"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "12"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "ID",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "ID"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "IE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "IE"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "IL",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "he",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "he"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "IL"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "10"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "IN",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "IN"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "IS",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "IS"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "IT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "it",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "it"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "IT"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "11"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "JP",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ja",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "ja"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "JP"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "23"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "KR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ko",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "ko"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "KR"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "22"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "KW",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "KW"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "KZ",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "KZ"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "LB",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "LB"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "LT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "LT"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "LU",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "fr",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "fr"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "LU"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "9"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "LV",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "LV"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "MT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "MT"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "MX",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "es",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "es"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "MX"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "8"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "MY",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ms",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "ms"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "MY"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "1"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "NL",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "nl",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "nl"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "NL"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "13"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "NO",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "NO"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "NZ",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "NZ"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "OM",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "OM"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "PE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "PE"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "PH",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "PH"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "PK",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "PK"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "PL",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "pl",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "pl"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "PL"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "14"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "PT",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "PT"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "QA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "QA"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "RO",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ro",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "ro"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "RO"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "15"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "RS",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "RS"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "RU",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "RU"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "SA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ar",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "ar"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "rtl"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "SA"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "16"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "SE",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "sv",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "sv"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "SE"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "19"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "SG",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "SG"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "SI",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "sl",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "sl"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "SI"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "18"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "SK",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "sk",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "sk"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "SK"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "17"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "TH",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "TH"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "TR",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "TR"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "TW",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "zh",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "zh"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "TW"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "4"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "UA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              },
+              {
+                "LanguageName": "ru",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "ru"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "UA"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                },
+                {
+                  "Value": "21"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "US",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "US"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          },
+          {
+            "TerritoryName": "ZA",
+            "Languages": [
+              {
+                "LanguageName": "en",
+                "Settings": {
+                  "reviewstars.frontend.languageName": {
+                    "Value": "en"
+                  },
+                  "reviewstars.frontend.direction": {
+                    "Value": "ltr"
+                  }
+                }
+              }
+            ],
+            "Settings": {
+              "reviewstars.frontend.territoryName": {
+                "Value": "ZA"
+              },
+              "reviewstars.frontend.imageCdnUrl.product": {
+                "Value": "SearchAlt"
+              },
+              "reviewstars.alternativeLanguages": [
+                {
+                  "Value": "7"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Personas": [
+    {
+      "PersonaName": "CustomerA",
+      "Settings": {
+        "reviewstars.frontend.direction": {
+          "Value": "rtl"
+        },
+        "reviewstars.enableMainMenu": {
+          "Value": "false"
+        }
+      }
+    }
+  ]
+}

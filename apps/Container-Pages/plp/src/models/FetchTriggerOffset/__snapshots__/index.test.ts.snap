@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - FetchTriggerOffset:  should match the FetchTriggerOffset 1`] = `
+Object {
+  "default": Object {
+    "lg": 6,
+    "md": 6,
+    "sm": 4,
+    "xl": 8,
+    "xs": 4,
+  },
+  "inPageFiltersEnabled": Object {
+    "lg": 6,
+    "md": 4,
+    "sm": 4,
+    "xl": 8,
+    "xs": 4,
+  },
+}
+`;

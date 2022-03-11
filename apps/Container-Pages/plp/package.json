@@ -1,0 +1,284 @@
+{
+  "name": "plp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cross-env NODE_ENV=production LOG_LEVEL=warn node scripts/build.js",
+    "build:local": "cross-env NODE_OPTIONS=--openssl-legacy-provider REACT_APP_LOCAL=1 LOG_LEVEL=warn ASSETS_PATH=/plpstatic NODE_ENV=production node scripts/build.js",
+    "build:dev": "cross-env REACT_APP_LOCAL=1 LOG_LEVEL=warn REACT_APP_SERVE_PATH_PREFIX=/dev04 ASSETS_PATH=/dev04/plpstatic NODE_ENV=production node scripts/build.js",
+    "dev": "cross-env  node scripts/start.js",
+    "dev:esi": "cross-env USE_DEV_ESI=true npm-run-all -p esi dev",
+    "dev:headless": "cross-env NODE_OPTIONS=--openssl-legacy-provider REACT_APP_LOCAL=1 LOG_LEVEL=warn REACT_APP_API_BASEURL_SEARCH=http://localhost:3090 REACT_APP_API_BASEURL_SEARCH_BANNER=http://localhost:3339 REACT_APP_USE_TIME_MACHINE_COOKIE=true npm-run-all -p stub-search-api dev",
+    "dev:headless:esi": "cross-env NODE_OPTIONS=--openssl-legacy-provider  USE_DEV_ESI=true REACT_APP_LOCAL=1 LOG_LEVEL=warn REACT_APP_API_BASEURL_SEARCH=http://localhost:3090 REACT_APP_API_BASEURL_SEARCH_BANNER=http://localhost:3339 REACT_APP_USE_TIME_MACHINE_COOKIE=true npm-run-all -p stub-search-api stub-search-banner esi dev",
+    "lint": "eslint --ext .tsx,.ts src/",
+    "start:noesi": "cross-env NODE_ENV=production node ./build/index.js",
+    "start": "cross-env NODE_ENV=production npm-run-all -p esi start:noesi",
+    "start:dev": "cross-env ASSETS_PATH=/dev04/plpstatic USE_DEV_ESI=true REACT_APP_SERVE_PATH_PREFIX=/dev04 NODE_ENV=production npm-run-all -p esi start:noesi",
+    "start:headless": "cross-env NODE_ENV=production REACT_APP_INCLUDE_VENDORS=1 REACT_APP_API_BASEURL_SEARCH=http://localhost:3090 REACT_APP_API_BASEURL_SEARCH_BANNER=http://localhost:3339 npm-run-all -p stub-search-api start",
+    "start:headless:esi": "cross-env USE_DEV_ESI=true REACT_APP_LOCAL=1 REACT_APP_API_BASEURL_SEARCH=http://localhost:3090 REACT_APP_API_BASEURL_SEARCH_BANNER=http://localhost:3339 REACT_APP_INCLUDE_VENDORS=1 NODE_ENV=production  npm-run-all -p stub-search-api stub-search-banner esi start:noesi",
+    "start:headless:esi:dev": "cross-env ASSETS_PATH=/dev04/plpstatic REACT_APP_SERVE_PATH_PREFIX=/dev04 USE_DEV_ESI=true REACT_APP_LOCAL=1 REACT_APP_API_BASEURL_SEARCH=http://localhost:3090 REACT_APP_API_BASEURL_SEARCH_BANNER=http://localhost:3339 REACT_APP_INCLUDE_VENDORS=1 NODE_ENV=production  npm-run-all -p stub-search-api stub-search-banner esi start:noesi",
+    "test": "jest src/",
+    "test-ci": "jest src/ --ci --reporters=default --reporters=jest-junit",
+    "test:integration": "cross-env ASSETS_PATH=/plpstatic USE_LOCAL_STATIC_CONTENT=false USE_DEV_ESI=true NODE_ENV=production CYPRESS_TEST_TAGS=build REACT_APP_ENABLE_CYPRESS_SETTINGS=1 REACT_APP_INCLUDE_VENDORS=1 REACT_APP_LOCAL=1 REACT_APP_PROD_SUMM_BASEURL=http://localhost:3011 REACT_APP_API_BASEURL_SEARCH=http://localhost:3090 REACT_APP_API_BASEURL_SEARCH_BANNER=http://localhost:3339 START_SERVER_AND_TEST_INSECURE=1 npm-run-all -p -r esi:integration stub-search-api stub-search-banner mock-product-summary cypress:integration",
+    "test:integration:interactive": "cross-env USE_DEV_ESI=true REACT_APP_ENABLE_CYPRESS_SETTINGS=1 CYPRESS_TEST_TAGS=build REACT_APP_INCLUDE_VENDORS=1 REACT_APP_PROD_SUMM_BASEURL=http://localhost:3011 REACT_APP_API_BASEURL_SEARCH=http://localhost:3090 REACT_APP_API_BASEURL_SEARCH_BANNER=http://localhost:3339 NODE_ENV=production START_SERVER_AND_TEST_INSECURE=1 npm-run-all -p stub-search-api stub-search-banner mock-product-summary esi:integration cypress:interactive",
+    "test:parallel": "cross-env ASSETS_PATH=/plpstatic USE_LOCAL_STATIC_CONTENT=false USE_DEV_ESI=true NODE_ENV=production CYPRESS_TEST_TAGS=build REACT_APP_ENABLE_CYPRESS_SETTINGS=1 REACT_APP_INCLUDE_VENDORS=1 REACT_APP_LOCAL=1 REACT_APP_PROD_SUMM_BASEURL=http://localhost:3011 REACT_APP_API_BASEURL_SEARCH=http://localhost:3090 REACT_APP_API_BASEURL_SEARCH_BANNER=http://localhost:3339 START_SERVER_AND_TEST_INSECURE=1 npm-run-all -p -r esi:integration stub-search-api stub-search-banner mock-product-summary cypress:parallel",
+    "tsc": "tsc",
+    "esi:integration": "cross-env REACT_APP_NO_PASS_THROUGH=1 node dev_cache_server/index.js",
+    "esi": "cross-env REACT_APP_NO_PASS_THROUGH=0 node dev_cache_server/index.js",
+    "mock-product-summary": "node dev_fragment_server/index.js",
+    "stub-search-api": "node dev_search_server/index.js",
+    "stub-search-banner": "node dev_search_banner_server/index.js",
+    "cypress": "cypress open --browser chrome",
+    "cypress:integration": "start-server-and-test start:noesi http://localhost:3009/  \"cypress run --config video=false \"",
+    "cypress:parallel": "start-server-and-test start:noesi http://localhost:3009/  \"cypress run --config video=false --record --key #{CYPRESS_RECORD_KEY}# --parallel --ci-build-id #{Build.BuildNumber}# --group 'Azure CI' \"",
+    "cypress:interactive": "start-server-and-test dev http://localhost:3009/ \"cypress open --browser chrome \"",
+    "test:post-deploy": "cross-env NODE_ENV=production REACT_APP_APP_URL=$npm_config_url CYPRESS_TEST_TAGS=postdeploy cypress run --config video=false",
+    "start:page": "npm-run-all dev:headless:esi"
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
+      "pre-commit": "npm run tsc && npm run lint && npm run test -- --coverage && jest-coverage-ratchet && git add package.json",
+      "pre-push": "npm run build:local && npm run test:integration"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.{ts,tsx}",
+      "!**/*.cy.{ts,tsx}"
+    ],
+    "coverageReporters": [
+      "json-summary",
+      "lcov",
+      "text"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "lines": 98.57,
+        "statements": 98.43,
+        "functions": 98.01,
+        "branches": 93.78
+      }
+    },
+    "moduleFileExtensions": [
+      "web.js",
+      "js",
+      "web.ts",
+      "ts",
+      "web.tsx",
+      "tsx",
+      "json",
+      "web.jsx",
+      "jsx",
+      "node"
+    ],
+    "moduleNameMapper": {
+      "@mockData/(.*)": "<rootDir>/__mocks__/$1",
+      "^@app/(.*)$": "<rootDir>/src/$1",
+      "^react-native$": "react-native-web",
+      "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy"
+    },
+    "modulePaths": [],
+    "roots": [
+      "<rootDir>/src"
+    ],
+    "setupFiles": [
+      "./setupTests.ts",
+      "react-app-polyfill/jsdom"
+    ],
+    "setupFilesAfterEnv": [
+      "./setupTestsAfterEnv.ts"
+    ],
+    "testEnvironment": "jest-environment-jsdom-sixteen",
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
+      "<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}"
+    ],
+    "transform": {
+      "^.+\\.(js|jsx|ts|tsx)$": "../../../node_modules/babel-jest",
+      "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
+      "^(?!.*\\.(js|jsx|ts|tsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|ts|tsx)$",
+      "^.+\\.module\\.(css|sass|scss)$"
+    ],
+    "watchPlugins": [
+      "jest-watch-typeahead/filename",
+      "jest-watch-typeahead/testname"
+    ]
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.8.0"
+  },
+  "dependencies": {
+    "@axe-core/react": "^4.3.1",
+    "@babel/compat-data": "^7.8.0",
+    "@babel/core": "7.5.5",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.8.3",
+    "@babel/plugin-proposal-numeric-separator": "^7.8.3",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled-base": "^11.0.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.2.8",
+    "@mui/styles": "^5.2.3",
+    "@monorepo/apiconfig": "^3.3.0",
+    "@monorepo/babelconfig": "^3.3.0",
+    "@monorepo/core-logger": "^7.3.0",
+    "@monorepo/cypress-fixtures": "^5.3.0",
+    "@monorepo/eslint": "^3.3.0",
+    "@monorepo/eventservice": "^6.4.1",
+    "@monorepo/middlewares": "^8.0.0",
+    "@monorepo/react-ssr-dev-utils": "^3.0.1",
+    "@monorepo/settings-sdk": "^4.3.0",
+    "@monorepo/theme-provider": "^9.0.0",
+    "@monorepo/themes": "^17.0.0",
+    "@monorepo/utils": "^6.4.0",
+    "@svgr/webpack": "4.3.2",
+    "@testing-library/jest-dom": "^5.1.1",
+    "@testing-library/react": "^9.5.0",
+    "@types/clean-css": "^4.2.1",
+    "@types/express": "4.17.4",
+    "@types/helmet": "0.0.45",
+    "@types/jest": "25.1.5",
+    "@types/js-cookie": "^2.2.6",
+    "@types/morgan": "^1.9.0",
+    "@types/node": "13.11.0",
+    "@types/react": "16.9.34",
+    "@types/react-dom": "16.9.6",
+    "@types/react-redux": "^7.1.7",
+    "@types/redux-mock-store": "^1.0.2",
+    "@types/styled-components": "^5.0.1",
+    "@types/supertest": "^2.0.8",
+    "@types/uuid": "^7.0.2",
+    "@types/webpack-env": "1.15.1",
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "@typescript-eslint/parser": "^2.22.0",
+    "applicationinsights": "^1.8.0",
+    "axios": "^0.19.2",
+    "babel-eslint": "10.0.2",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-dynamic-import-node": "^2.2.0",
+    "babel-plugin-named-asset-import": "^0.3.3",
+    "babel-plugin-styled-components": "^1.10.0",
+    "babel-preset-react-app": "^9.0.1",
+    "camelcase": "^5.2.0",
+    "case-sensitive-paths-webpack-plugin": "2.2.0",
+    "cookie-parser": "^1.4.5",
+    "cross-env": "^7.0.0",
+    "css-loader": "2.1.1",
+    "custom-event-polyfill": "^1.0.7",
+    "dotenv": "6.2.0",
+    "dotenv-expand": "4.2.0",
+    "escape-string-regexp": "^2.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-react-app": "^5.0.0",
+    "eslint-loader": "2.2.1",
+    "eslint-plugin-flowtype": "^4.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-react": "7.14.3",
+    "eslint-plugin-react-hooks": "^1.6.1",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0",
+    "file-loader": "3.0.1",
+    "fs-extra": "7.0.1",
+    "helmet": "^3.21.2",
+    "html-minifier": "^4.0.0",
+    "html-webpack-plugin": "4.0.0-beta.5",
+    "identity-obj-proxy": "3.0.0",
+    "immer": "^9.0.6",
+    "is-wsl": "^1.1.0",
+    "jest-styled-components": "^7.0.2",
+    "js-cookie": "^2.2.1",
+    "lodash": "4.17.20",
+    "merge-deep": "3.0.3",
+    "mini-css-extract-plugin": "0.5.0",
+    "morgan": "^1.10.0",
+    "node-cache": "^5.1.0",
+    "nodesi": "^1.13.0",
+    "normalizr": "^3.6.0",
+    "npm-run-all": "^4.1.5",
+    "optimize-css-assets-webpack-plugin": "5.0.3",
+    "pnp-webpack-plugin": "1.5.0",
+    "postcss-flexbugs-fixes": "4.1.0",
+    "postcss-loader": "3.0.0",
+    "postcss-normalize": "7.0.1",
+    "postcss-preset-env": "6.7.0",
+    "postcss-safe-parser": "4.0.1",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-app-polyfill": "^1.0.2",
+    "react-redux": "^7.2.0",
+    "react-transition-group": "^4.4.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-mock-store": "^1.5.4",
+    "redux-thunk": "^2.3.0",
+    "resolve": "1.12.0",
+    "resolve-url-loader": "3.1.0",
+    "sass-loader": "7.2.0",
+    "semver": "6.3.0",
+    "source-map-support": "^0.5.6",
+    "start-server-and-test": "^1.10.8",
+    "start-server-webpack-plugin": "^2.2.5",
+    "style-loader": "1.0.0",
+    "styled-components": "^5.1.0",
+    "supertest": "^4.0.2",
+    "swiper": "6.5.7",
+    "terser-webpack-plugin": "1.4.1",
+    "ts-node": "^8.8.2",
+    "ts-pnp": "1.1.2",
+    "typescript": "3.8.3",
+    "url-loader": "2.1.0",
+    "uuid": "^3.4.0",
+    "webpack": "4.39.1",
+    "webpack-bundle-analyzer": "^3.8.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "3.2.1",
+    "webpack-manifest-plugin": "2.0.4",
+    "webpack-node-externals": "^1.7.2",
+    "write-file-webpack-plugin": "^4.5.0"
+  },
+  "devDependencies": {
+    "axe-core": "^4.3.4",
+    "cypress-axe": "^0.13.0",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "commitizen": "^4.2.4",
+    "cypress": "^6.8.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^4.2.3",
+    "jest": "24.8.0",
+    "jest-coverage-ratchet": "^0.2.3",
+    "jest-environment-jsdom-sixteen": "1.0.3",
+    "jest-junit": "^10.0.0",
+    "jest-resolve": "24.8.0",
+    "jest-watch-typeahead": "0.3.1",
+    "prettier": "^1.19.1"
+  },
+  "jest-junit": {},
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "workspaces": [
+    "true"
+  ]
+}

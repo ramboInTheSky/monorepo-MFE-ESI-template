@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CollaspedFilter component should render the component 1`] = `
+<DocumentFragment>
+  .c0 {
+  margin: 0.5rem 0 0;
+}
+
+<h5
+    class="MuiTypography-root c0 MuiTypography-h5"
+    data-testid="plp-collasped-facet-abc"
+  >
+    ABC (2):
+  </h5>
+  .c0 {
+  text-overflow: ellipsis;
+  max-width: 210px;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  font-size: 0.875rem;
+  -webkit-letter-spacing: 0.008rem;
+  -moz-letter-spacing: 0.008rem;
+  -ms-letter-spacing: 0.008rem;
+  letter-spacing: 0.008rem;
+  line-height: 1.5;
+}
+
+<span
+    class="c0"
+  >
+    <span
+      data-testid="plp-collasped-facet-abc-123"
+    >
+      123, 
+    </span>
+    <span
+      data-testid="plp-collasped-facet-abc-234"
+    >
+      234
+    </span>
+  </span>
+  .c0 {
+  margin: 0.5rem 0 0;
+}
+
+<h5
+    class="MuiTypography-root c0 MuiTypography-h5"
+    data-testid="plp-collasped-facet-def"
+  >
+    DEF (2):
+  </h5>
+  .c0 {
+  text-overflow: ellipsis;
+  max-width: 210px;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  font-size: 0.875rem;
+  -webkit-letter-spacing: 0.008rem;
+  -moz-letter-spacing: 0.008rem;
+  -ms-letter-spacing: 0.008rem;
+  letter-spacing: 0.008rem;
+  line-height: 1.5;
+}
+
+<span
+    class="c0"
+  >
+    <span
+      data-testid="plp-collasped-facet-def-123"
+    >
+      123, 
+    </span>
+    <span
+      data-testid="plp-collasped-facet-def-234"
+    >
+      234
+    </span>
+  </span>
+  .c0 {
+  margin: 0.5rem 0 0;
+}
+
+<h5
+    class="MuiTypography-root c0 MuiTypography-h5"
+    data-testid="plp-collasped-facet-ert"
+  >
+    ert (2):
+  </h5>
+  .c0 {
+  text-overflow: ellipsis;
+  max-width: 210px;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  font-size: 0.875rem;
+  -webkit-letter-spacing: 0.008rem;
+  -moz-letter-spacing: 0.008rem;
+  -ms-letter-spacing: 0.008rem;
+  letter-spacing: 0.008rem;
+  line-height: 1.5;
+}
+
+<span
+    class="c0"
+  >
+    <span
+      data-testid="plp-collasped-facet-ert-123"
+    >
+      123, 
+    </span>
+    <span
+      data-testid="plp-collasped-facet-ert-234"
+    >
+      234
+    </span>
+  </span>
+</DocumentFragment>
+`;

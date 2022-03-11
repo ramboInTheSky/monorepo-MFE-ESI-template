@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BurgerMenuHeader component:  Header should match the snapshot  1`] = `
+<DocumentFragment>
+  @media (max-width:767px) {
+  .c0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+}
+
+<header
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`BurgerMenuHeader component:  InnerContainer should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  background-color: inherit;
+  z-index: 2;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: 1280px;
+}
+
+.c0 .header-adaptive-brand {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c0 .header-adaptive-my-account {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 15px;
+  width: 28px;
+  height: 28px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 .header-adaptive-search {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.c0 .header-adaptive-links {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  width: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .header-adaptive-checkout {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.c0 .favourites {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 15px;
+  width: 28px;
+  height: 28px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.c0 .countrylangselector {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: auto;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  min-width: auto;
+  margin: 15px;
+}
+
+.c0 .shoppingbag {
+  margin: 20px 15px 20px 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 2.75rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 5.375rem;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    height: 2.75rem;
+  }
+
+  .c0 .header-adaptive-brand {
+    width: 5.375rem;
+  }
+
+  .c0 .header-adaptive-search {
+    margin: 10rem;
+    width: 5.375rem;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  .c0 .header-adaptive-links {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    width: 5.375rem;
+  }
+}
+
+@media (max-width:767px) {
+  .c0 .header-adaptive-brand {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .c0 .header-adaptive-brand a {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .c0 .shoppingbag {
+    margin: 10px;
+  }
+
+  .c0 .header-adaptive-search {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    margin: 10px;
+  }
+
+  .c0 .header-adaptive-my-account {
+    display: none;
+  }
+
+  .c0 .favourites {
+    display: none;
+  }
+
+  .c0 .countrylangselector {
+    display: none;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 .header-adaptive-brand {
+    width: 5.375rem;
+    height: 2.75rem;
+  }
+}
+
+<nav
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`BurgerMenuHeader component:  VerticalDivider should match the snapshot  1`] = `
+<DocumentFragment>
+  @media (max-width:767px) {
+  .c0 {
+    border-left: 1px solid #eaeaea;
+    height: 24px;
+    color: #eaeaea;
+    margin: 0px 4px;
+  }
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;

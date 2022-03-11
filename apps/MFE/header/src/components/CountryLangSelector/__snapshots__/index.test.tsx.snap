@@ -1,0 +1,1075 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - CountryLangSelector:  should match the snapshot 1`] = `
+<DocumentFragment>
+  .c18.c18 {
+  width: 100%;
+  height: 100%;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+  margin: 0;
+  border: 0;
+  color: black;
+  opacity: 1;
+  border-radius: 0.25rem;
+  background-color: #30a74b;
+  padding: 0.5625rem 0.5rem;
+}
+
+.c18.c18:hover {
+  background-color: #30a74b;
+}
+
+.c18.c18:focus {
+  background-color: #30a74b;
+}
+
+.c18 span {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.c3 {
+  position: initial;
+}
+
+.c3.c3 > div:first-child {
+  background: rgba(0,0,0,0.9);
+}
+
+.c3.c3 > div:nth-child(3) {
+  overflow-y: initial;
+  width: 100%;
+}
+
+.c0 {
+  height: 2.75rem;
+  font-size: 0.9375rem;
+}
+
+.c22 {
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  margin: -0.125rem 0 0 0.25rem;
+  top: 0;
+}
+
+.c14 {
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  color: #257f39;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  font-size: 0.875rem;
+}
+
+.c14:visited {
+  color: #257f39;
+}
+
+.c7.c7 {
+  width: 4.5rem;
+  background: #f7f7f7;
+  color: #257f39;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  border-radius: 0;
+  border: 0;
+}
+
+.c7.c7:hover,
+.c7.c7:active {
+  background: #f7f7f7;
+  border: 0;
+}
+
+.c7.c7:focus {
+  border: 0;
+  border-radius: 0;
+}
+
+.c7.c7 span {
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+}
+
+.c1 {
+  cursor: pointer;
+  padding: 0.625rem 0;
+  background-color: transparent;
+  border: none;
+}
+
+.c1:active {
+  background-color: transparent;
+  border: none;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0.5rem 0;
+  line-height: 1.25rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 0.125rem solid #ffffff;
+  border-radius: 50%;
+  width: 1.375rem;
+  height: 1.375rem;
+  background: #ffffff;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #ffffff;
+  height: 21.75rem;
+  width: 100%;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 1rem;
+  height: 2.75rem;
+  background: #f7f7f7;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0.5rem 1rem 0;
+}
+
+.c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0.5rem 1rem;
+  height: 2.75rem;
+}
+
+.c16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: .125rem solid #257F39;
+  background: rgba(48,167,75,0.05);
+  font-weight: 500;
+  border-radius: 0.25rem;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  width: calc((100% - 1rem) / 2);
+  height: 2.75rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.c16:focus {
+  outline: none;
+}
+
+.c6 {
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.c21.c21 {
+  color: #257f39;
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  font-weight: 500;
+  padding-right: 0.25rem;
+}
+
+.c19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 0.75rem 1rem 0;
+}
+
+.c20 {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.c20:active {
+  background-color: transparent;
+  border: none;
+}
+
+.c11 {
+  width: 100%;
+  height: 2.75rem;
+}
+
+.c11.c11 > div {
+  padding: 0.625rem 2.25rem 0.625rem 0.625rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.c11.c11 > div:focus {
+  background-color: transparent;
+}
+
+.c11.c11.selectOpen {
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.c11.c11 .selectBody {
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.c10.c10.c10 > fieldset {
+  border: .0625rem solid #9e9e9e;
+}
+
+.c9 {
+  margin: 0.5rem 0;
+}
+
+.c9:hover {
+  border: none;
+}
+
+.c12 {
+  top: calc(50% - 0.25rem);
+  right: 1rem;
+}
+
+@media (min-width:524px) {
+  .c3.c3 > div:nth-child(3) {
+    overflow-y: auto;
+    width: 5.375rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c2 {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+@media (min-width:524px) {
+  .c4 {
+    width: 5.375rem;
+    height: 100%;
+  }
+}
+
+@media (min-width:524px) {
+  .c8 {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c17 {
+    font-size: 0.875rem !important;
+    height: 2.25rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c16 {
+    height: 2rem;
+  }
+}
+
+@media (min-width:524px) {
+  .c11 {
+    width: 28rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c11 {
+    height: 2rem;
+  }
+}
+
+<div
+    class="c0 countrylangselector"
+    data-testid="header-country-lang-selector"
+  >
+    <div
+      class=""
+    >
+      <button
+        class="c1"
+      >
+        <img
+          alt="gb"
+          class="c2"
+          data-testid="header-country-lang-flag"
+          src="spiderman/platmod/icons/shared/countryflags/gb.png"
+        />
+      </button>
+      <div
+        class="MuiDrawer-root MuiDrawer-modal c3"
+        data-testid="header-drawer-country-selector"
+        role="presentation"
+        style="position: fixed; z-index: 1300; right: 0px; bottom: 0px; top: 0px; left: 0px;"
+      >
+        <div
+          aria-hidden="true"
+          class="MuiBackdrop-root"
+          style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+        />
+        <div
+          data-test="sentinelStart"
+          tabindex="0"
+        />
+        <div
+          class="MuiPaper-root MuiDrawer-paper MuiDrawer-paperAnchorRight MuiPaper-elevation16"
+          tabindex="-1"
+        >
+          <div
+            class="c4"
+          >
+            <div
+              class="c5"
+            >
+              <h4
+                class="MuiTypography-root c6 MuiTypography-h4"
+              >
+                CHANGE COUNTRY
+              </h4>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text c7"
+                data-testid="country-selector-close-button"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  Close
+                </span>
+              </button>
+            </div>
+            <div
+              class="c8"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                Location
+              </p>
+              <div
+                class="MuiFormControl-root c9"
+              >
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root c10 c11 MuiInputBase-formControl"
+                  data-testid="country-selector-select-menu"
+                >
+                  <div
+                    aria-haspopup="listbox"
+                    aria-labelledby="mui-component-select-country-selector-select"
+                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+                    id="mui-component-select-country-selector-select"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span>
+                      ​
+                    </span>
+                  </div>
+                  <input
+                    id="country-selector-select"
+                    name="country-selector-select"
+                    type="hidden"
+                    value="GB"
+                  />
+                  <img
+                    class="c12 material-icons MuiSelect-icon MuiSelect-iconOutlined"
+                    src="/static-content/icons/shared/chevron.svg"
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="PrivateNotchedOutline-root-20 MuiOutlinedInput-notchedOutline"
+                    style="padding-left: 8px;"
+                  >
+                    <legend
+                      class="PrivateNotchedOutline-legend-21"
+                      style="width: 0.01px;"
+                    >
+                      <span>
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c13"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                Can't find the country you're looking for?
+              </p>
+              <a
+                class="c14"
+                data-testid="country-selector-ROWLink"
+                href="amido.com/countryselect"
+              >
+                View All Countries
+              </a>
+            </div>
+            <div
+              class="c8"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                Language
+              </p>
+              <div
+                class="c15"
+              >
+                <button
+                  class="c16"
+                  data-ga-v1="Country Language"
+                  data-ga-v2="United Kingdom"
+                  data-ga-v3="English"
+                  data-testid="country-selector-language-button-0"
+                >
+                  English
+                </button>
+              </div>
+            </div>
+            <div
+              class="c17"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text c18"
+                data-testid="country-selector-CTA-button"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  Shop now
+                </span>
+              </button>
+            </div>
+            <div
+              class="c19"
+            >
+              <button
+                class="c20"
+                data-testid="country-selector-stay-text"
+              >
+                <span
+                  class="MuiTypography-root c21 MuiTypography-body1"
+                >
+                  Stay on Amido.co.uk
+                </span>
+                <img
+                  class="c22"
+                  src="/static-content/icons/shared/chevron.svg"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          data-test="sentinelEnd"
+          tabindex="0"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Components - CountryLangSelector:  should match the snapshot when international country 1`] = `
+<DocumentFragment>
+  .c18.c18 {
+  width: 100%;
+  height: 100%;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0625rem;
+  -moz-letter-spacing: 0.0625rem;
+  -ms-letter-spacing: 0.0625rem;
+  letter-spacing: 0.0625rem;
+  margin: 0;
+  border: 0;
+  color: black;
+  opacity: 1;
+  border-radius: 0.25rem;
+  background-color: #30a74b;
+  padding: 0.5625rem 0.5rem;
+}
+
+.c18.c18:hover {
+  background-color: #30a74b;
+}
+
+.c18.c18:focus {
+  background-color: #30a74b;
+}
+
+.c18 span {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.c3 {
+  position: initial;
+}
+
+.c3.c3 > div:first-child {
+  background: rgba(0,0,0,0.9);
+}
+
+.c3.c3 > div:nth-child(3) {
+  overflow-y: initial;
+  width: 100%;
+}
+
+.c0 {
+  height: 2.75rem;
+  font-size: 0.9375rem;
+}
+
+.c14 {
+  font-family: "AzoSansRegular","Helvetica Neue",Arial,sans-serif;
+  color: #257f39;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  font-size: 0.875rem;
+}
+
+.c14:visited {
+  color: #257f39;
+}
+
+.c7.c7 {
+  width: 4.5rem;
+  background: #f7f7f7;
+  color: #257f39;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  border-radius: 0;
+  border: 0;
+}
+
+.c7.c7:hover,
+.c7.c7:active {
+  background: #f7f7f7;
+  border: 0;
+}
+
+.c7.c7:focus {
+  border: 0;
+  border-radius: 0;
+}
+
+.c7.c7 span {
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+}
+
+.c1 {
+  cursor: pointer;
+  padding: 0.625rem 0;
+  background-color: transparent;
+  border: none;
+}
+
+.c1:active {
+  background-color: transparent;
+  border: none;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0.5rem 0;
+  line-height: 1.25rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 0.125rem solid #ffffff;
+  border-radius: 50%;
+  width: 1.375rem;
+  height: 1.375rem;
+  background: #ffffff;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #ffffff;
+  height: 21.75rem;
+  width: 100%;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 1rem;
+  height: 2.75rem;
+  background: #f7f7f7;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0.5rem 1rem 0;
+}
+
+.c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0.5rem 1rem;
+  height: 2.75rem;
+}
+
+.c16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: .125rem solid #257F39;
+  background: rgba(48,167,75,0.05);
+  font-weight: 500;
+  border-radius: 0.25rem;
+  font-family: "AzoSansMedium","Helvetica Neue",Arial,sans-serif;
+  width: calc((100% - 1rem) / 2);
+  height: 2.75rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.c16:focus {
+  outline: none;
+}
+
+.c6 {
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.c11 {
+  width: 100%;
+  height: 2.75rem;
+}
+
+.c11.c11 > div {
+  padding: 0.625rem 2.25rem 0.625rem 0.625rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.c11.c11 > div:focus {
+  background-color: transparent;
+}
+
+.c11.c11.selectOpen {
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.c11.c11 .selectBody {
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.c10.c10.c10 > fieldset {
+  border: .0625rem solid #9e9e9e;
+}
+
+.c9 {
+  margin: 0.5rem 0;
+}
+
+.c9:hover {
+  border: none;
+}
+
+.c12 {
+  top: calc(50% - 0.25rem);
+  right: 1rem;
+}
+
+@media (min-width:524px) {
+  .c3.c3 > div:nth-child(3) {
+    overflow-y: auto;
+    width: 5.375rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c2 {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+@media (min-width:524px) {
+  .c4 {
+    width: 5.375rem;
+    height: 100%;
+  }
+}
+
+@media (min-width:524px) {
+  .c8 {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c17 {
+    font-size: 0.875rem !important;
+    height: 2.25rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c16 {
+    height: 2rem;
+  }
+}
+
+@media (min-width:524px) {
+  .c11 {
+    width: 28rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c11 {
+    height: 2rem;
+  }
+}
+
+<div
+    class="c0 countrylangselector"
+    data-testid="header-country-lang-selector"
+  >
+    <div
+      class=""
+    >
+      <button
+        class="c1"
+      >
+        <img
+          alt="gb"
+          class="c2"
+          data-testid="header-country-lang-flag"
+          src="spiderman/platmod/icons/shared/countryflags/gb.png"
+        />
+      </button>
+      <div
+        class="MuiDrawer-root MuiDrawer-modal c3"
+        data-testid="header-drawer-country-selector"
+        role="presentation"
+        style="position: fixed; z-index: 1300; right: 0px; bottom: 0px; top: 0px; left: 0px;"
+      >
+        <div
+          aria-hidden="true"
+          class="MuiBackdrop-root"
+          style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+        />
+        <div
+          data-test="sentinelStart"
+          tabindex="0"
+        />
+        <div
+          class="MuiPaper-root MuiDrawer-paper MuiDrawer-paperAnchorRight MuiPaper-elevation16"
+          tabindex="-1"
+        >
+          <div
+            class="c4"
+          >
+            <div
+              class="c5"
+            >
+              <h4
+                class="MuiTypography-root c6 MuiTypography-h4"
+              >
+                CHANGE COUNTRY
+              </h4>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text c7"
+                data-testid="country-selector-close-button"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  Close
+                </span>
+              </button>
+            </div>
+            <div
+              class="c8"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                Location
+              </p>
+              <div
+                class="MuiFormControl-root c9"
+              >
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root c10 c11 MuiInputBase-formControl"
+                  data-testid="country-selector-select-menu"
+                >
+                  <div
+                    aria-haspopup="listbox"
+                    aria-labelledby="mui-component-select-country-selector-select"
+                    class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+                    id="mui-component-select-country-selector-select"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span>
+                      ​
+                    </span>
+                  </div>
+                  <input
+                    id="country-selector-select"
+                    name="country-selector-select"
+                    type="hidden"
+                    value="GB"
+                  />
+                  <img
+                    class="c12 material-icons MuiSelect-icon MuiSelect-iconOutlined"
+                    src="/static-content/icons/shared/chevron.svg"
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="PrivateNotchedOutline-root-43 MuiOutlinedInput-notchedOutline"
+                    style="padding-left: 8px;"
+                  >
+                    <legend
+                      class="PrivateNotchedOutline-legend-44"
+                      style="width: 0.01px;"
+                    >
+                      <span>
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+            <div
+              class="c13"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                Can't find the country you're looking for?
+              </p>
+              <a
+                class="c14"
+                data-testid="country-selector-ROWLink"
+                href="amido.com/countryselect"
+              >
+                View All Countries
+              </a>
+            </div>
+            <div
+              class="c8"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                Language
+              </p>
+              <div
+                class="c15"
+              >
+                <button
+                  class="c16"
+                  data-ga-v1="Country Language"
+                  data-ga-v2="United Kingdom"
+                  data-ga-v3="English"
+                  data-testid="country-selector-language-button-0"
+                >
+                  English
+                </button>
+              </div>
+            </div>
+            <div
+              class="c17"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text c18"
+                data-testid="country-selector-CTA-button"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiButton-label"
+                >
+                  Shop now
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          data-test="sentinelEnd"
+          tabindex="0"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

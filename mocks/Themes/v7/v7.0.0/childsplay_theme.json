@@ -1,0 +1,166 @@
+{
+  "font": {
+    "regular": {
+      "family": "\"AzoSansRegular\"",
+      "filename": "AzoSans-Regular-webfont",
+      "formats": ["woff", "woff2"],
+      "weight": 700
+    },
+    "light": {
+      "family": "\"AzoSans\"",
+      "filename": "AzoSans-Light-webfont",
+      "formats": ["woff", "woff2", "eot"],
+      "weight": 400
+    },
+    "medium": {
+      "family": "\"AzoSansMedium\"",
+      "filename": "AzoSans-Medium-webfont",
+      "formats": ["woff", "woff2", "eot"],
+      "weight": 500
+    },
+    "italic": {
+      "family": "\"AzoSansItalic\"",
+      "filename": "AzoSans-Italic-webfont",
+      "formats": ["woff", "woff2", "eot"],
+      "weight": 400
+    },
+    "default": "\"Helvetica Neue\", Arial, sans-serif"
+  },
+  "form": {
+    "buttonPrimary": {
+      "border": ".0625rem solid #000000",
+      "background": "#000000",
+      "color": "#ffffff",
+      "radius": "0rem"
+    },
+    "buttonSecondary": {
+      "border": ".0625rem solid #000000",
+      "background": "#ffffff",
+      "color": "#000000",
+      "radius": "0rem"
+    },
+    "buttonTertiary": {
+      "border": "0",
+      "background": "#f18101",
+      "color": "#ffffff",
+      "radius": "0rem"
+    },
+    "default": {
+      "border": ".0625rem solid #9e9e9e",
+      "background": "#ffffff",
+      "radius": "0"
+    },
+    "disabled": {
+      "border": ".0625rem solid #dedede",
+      "background": "#ffffff",
+      "radius": "0"
+    },
+    "focusActive": {
+      "border": ".0625rem solid #000000",
+      "background": "#ffffff",
+      "radius": "0"
+    },
+    "invalid": {
+      "border": ".0625rem solid #d91440",
+      "background": "#ffffff",
+      "radius": "0"
+    },
+    "selectedAccent": {
+      "border": ".125rem solid #000000",
+      "background": "#ffffff",
+      "radius": "0"
+    },
+    "selectedBlock": {
+      "border": ".125rem solid #000000",
+      "background": "rgba(255, 226, 216, 0.39)",
+      "radius": "0"
+    },
+    "success": {
+      "border": ".0625rem solid #257F39",
+      "background": "#ffffff",
+      "radius": "0"
+    }
+  },
+  "text": {
+    "default": "#000000",
+    "disabled": "#c5c5c5",
+    "reversed": "#ffffff",
+    "error": "#d91440",
+    "hyperlink": "#000000",
+    "muted": "#515151",
+    "strong": "#000000",
+    "success": "#257f39",
+    "warning": "#d88f31",
+    "navigation": {
+      "link": "#000000",
+      "linkActive": "#ffffff",
+      "linkClearance": "#af2429",
+      "fontWeight": 300
+    }
+  },
+  "footer": {
+    "socialMedia": {
+      "background": "initial"
+    },
+    "quickLinks": {
+      "background": "#f7f7f7"
+    },
+    "mainLinks": {
+      "background": "#f7f7f7"
+    },
+    "copyright": {
+      "background": "#f7f7f7"
+    }
+  },
+  "header": {
+    "navUpperBackground": {
+      "default": "#ffffff",
+      "color": "#000000"
+    },
+    "navLowerBackground": {
+      "default": "#ffffff",
+      "desktop": "#ffffff",
+      "active": "#000000",
+      "border": ".0625rem solid #000000"
+    },
+    "searchBar": {
+      "radius": "0rem",
+      "color": "#000",
+      "background": "#fff",
+      "border": "0.0625rem solid #eaeaea"
+    },
+    "shoppingBag": {
+      "color": "#000"
+    },
+    "myAccount": {
+      "background": "#fff",
+      "radius": "0.25rem"
+    }
+  },
+  "popover": {
+    "border": "0.0625rem solid #000000",
+    "radius": "0"
+  },
+  "utilities": {
+    "divider": "0.0625rem solid #eaeaea",
+    "dividerDark": ".0625rem solid #9e9e9e",
+    "backgroundAccent": "#f7f7f7",
+    "activeBorder": "0.125rem solid #000000",
+    "chipBorderRadius": "0rem"
+  },
+  "drawer": {
+    "headerBackground": "#f7f7f7",
+    "headerBorder": ".0625rem solid #d8d8d8"
+  },
+  "plp": {
+    "layout": {
+      "flexDirection": "column",
+      "hasColourChips": "none",
+      "hasBrandName": "flex"
+    },
+    "listing": {
+      "textAlign": "center"
+    },
+    "facetDivider": "0.0625rem solid #d1d1d1"
+  }
+}

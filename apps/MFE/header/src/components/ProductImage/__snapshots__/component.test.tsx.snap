@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Image Components:  Image  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  height: 2.75rem;
+  width: 5.375rem;
+}
+
+<img
+    class="c0"
+  />
+</DocumentFragment>
+`;
+
+exports[`Product Image Components:  ImageWrapper  should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  padding: 1rem;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;

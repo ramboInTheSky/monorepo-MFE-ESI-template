@@ -1,0 +1,164 @@
+{
+  "results": [
+    {
+      "countryCode": "GB",
+      "name": "United Kingdom",
+      "nameWithCurrency": "United Kingdom (£)",
+      "isNonStandard": false,
+      "promotedCountryIndex": 1,
+      "region": "Europe",
+      "languages": [
+        {
+          "id": "en",
+          "default": true,
+          "targetUrl": "//www.amido.com",
+          "name": "English"
+        }
+      ]
+    },
+    {
+      "countryCode": "DE",
+      "name": "Germany",
+      "nameWithCurrency": "Germany (£)",
+      "isNonStandard": false,
+      "promotedCountryIndex": 3,
+      "region": "Europe",
+      "languages": [
+        {
+          "id": "de",
+          "default": true,
+          "targetUrl": "//www.amido.de/de",
+          "name": "German"
+        }
+      ]
+    },
+    {
+      "countryCode": "IN",
+      "name": "Ireland",
+      "nameWithCurrency": "Ireland (£)",
+      "isNonStandard": false,
+      "promotedCountryIndex": 4,
+      "region": "Europe",
+      "languages": [
+        {
+          "id": "en",
+          "default": true,
+          "targetUrl": "//www.amido.ie/en",
+          "name": "English"
+        }
+      ]
+    },
+    {
+      "countryCode": "PT",
+      "name": "Portugal",
+      "nameWithCurrency": "Portugal (£)",
+      "isNonStandard": false,
+      "promotedCountryIndex": 0,
+      "region": "Europe",
+      "languages": [
+        {
+          "id": "ept",
+          "default": true,
+          "targetUrl": "//www.amido.pt/en",
+          "name": "English"
+        }
+      ]
+    },
+    {
+      "countryCode": "AU",
+      "name": "Austria",
+      "nameWithCurrency": "Austria (£)",
+      "isNonStandard": false,
+      "promotedCountryIndex": 1,
+      "region": "Europe",
+      "languages": [
+        {
+          "id": "en",
+          "default": true,
+          "targetUrl": "//www.amido.com",
+          "name": "English"
+        }
+      ]
+    },
+    {
+      "countryCode": "FR",
+      "name": "France",
+      "nameWithCurrency": "France (£)",
+      "isNonStandard": false,
+      "promotedCountryIndex": 1,
+      "region": "Europe",
+      "languages": [
+        {
+          "id": "en",
+          "default": true,
+          "targetUrl": "//www.amido.com",
+          "name": "English"
+        }
+      ]
+    },
+    {
+      "countryCode": "MX",
+      "name": "Mexico",
+      "nameWithCurrency": "Mexico (£)",
+      "isNonStandard": false,
+      "promotedCountryIndex": 1,
+      "region": "Americas",
+      "languages": [
+        {
+          "id": "en",
+          "default": true,
+          "targetUrl": "//www.amido.com",
+          "name": "English"
+        }
+      ]
+    },
+    {
+      "countryCode": "KH",
+      "name": "Cambodia",
+      "nameWithCurrency": "Cambodia (£)",
+      "isNonStandard": false,
+      "promotedCountryIndex": 1,
+      "region": "Asia Pacific",
+      "languages": [
+        {
+          "id": "en",
+          "default": true,
+          "targetUrl": "//www.amido.com",
+          "name": "English"
+        }
+      ]
+    },
+    {
+      "countryCode": "BF",
+      "name": "Burkina Faso",
+      "nameWithCurrency": "Burkina Faso (£)",
+      "isNonStandard": false,
+      "promotedCountryIndex": 1,
+      "region": "Middle East / Africa",
+      "languages": [
+        {
+          "id": "en",
+          "default": true,
+          "targetUrl": "//www.amido.com",
+          "name": "English"
+        }
+      ]
+    },
+    {
+      "countryCode": "BFPO",
+      "name": "Brittish Forces Post Office",
+      "nameWithCurrency": "Brittish Forces Post Office (£)",
+      "isNonStandard": true,
+      "promotedCountryIndex": 1,
+      "region": "Europe",
+      "languages": [
+        {
+          "id": "en",
+          "default": true,
+          "targetUrl": "//www.amido.com",
+          "name": "English"
+        }
+      ]
+    }
+  ]
+}

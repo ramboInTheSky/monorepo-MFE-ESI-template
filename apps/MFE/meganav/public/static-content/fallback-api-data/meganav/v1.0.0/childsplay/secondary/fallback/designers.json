@@ -1,0 +1,423 @@
+{
+  "id": "586d39f4-45d8-4cc0-820f-72d0861576ca",
+  "title": "DESIGNERS",
+  "target": "/brands/all",
+  "viewType": "secondary-navigation",
+  "realm": "amido",
+  "territory": "GB",
+  "language": "en",
+  "items": [
+    {
+      "title": "DESIGNERS",
+      "type": "tab",
+      "items": [
+        {
+          "title": null,
+          "type": "column",
+          "items": [
+            {
+              "title": "A-Z DESIGNERS",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Shop All A-Z Designers",
+                  "type": "link",
+                  "target": "/brands/all",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Baby",
+                  "type": "link",
+                  "target": "/brands/baby",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Boys",
+                  "type": "link",
+                  "target": "/brands/boys",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Girls",
+                  "type": "link",
+                  "target": "/brands/girls",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Shoes",
+                  "type": "link",
+                  "target": "/brands/footwear",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "",
+              "fontFamily": null,
+              "icon": null
+            },
+            {
+              "title": "POPULAR DESIGNERS",
+              "type": "category",
+              "items": [
+                {
+                  "title": "Alexander McQueen",
+                  "type": "link",
+                  "target": "/shop/brand-alexandermcqueen-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Balenciaga Kids",
+                  "type": "link",
+                  "target": "/shop/brand-balenciagakids-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Balmain Kids",
+                  "type": "link",
+                  "target": "/shop/brand-balmain-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Bonpoint",
+                  "type": "link",
+                  "target": "/shop/brand-bonpoint-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Boss Kidswear",
+                  "type": "link",
+                  "target": "/shop/brand-bosskidswear-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Burberry Kids",
+                  "type": "link",
+                  "target": "/shop/brand-burberrykids-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Canada goose",
+                  "type": "link",
+                  "target": "/shop/brand-canadagoose-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Chloe Kids",
+                  "type": "link",
+                  "target": "/shop/brand-chloekids-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "DKNY",
+                  "type": "link",
+                  "target": "/shop/brand-dkny-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Dolce & Gabbana Kids",
+                  "type": "link",
+                  "target": "/shop/brand-dolcegabbanakids-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Dsquared2 Kids",
+                  "type": "link",
+                  "target": "/shop/brand-dsquared2kids-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Emporio Armani",
+                  "type": "link",
+                  "target": "/shop/brand-emporioarmani-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Fendi Kids",
+                  "type": "link",
+                  "target": "/shop/brand-fendikids-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Givenchy Kids",
+                  "type": "link",
+                  "target": "/shop/brand-givenchykids-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Golden Goose",
+                  "type": "link",
+                  "target": "/shop/brand-goldengoosekids-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Gucci Kids",
+                  "type": "link",
+                  "target": "/shop/brand-guccikids-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Guess",
+                  "type": "link",
+                  "target": "/shop/brand-guess-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Kenzo Kids",
+                  "type": "link",
+                  "target": "/shop/brand-kenzokids-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Marc Jacobs",
+                  "type": "link",
+                  "target": "/shop/brand-marcjacobs-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Mini Rodini",
+                  "type": "link",
+                  "target": "/shop/brand-minirodini-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Molo",
+                  "type": "link",
+                  "target": "/shop/brand-molo-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Moncler Enfant",
+                  "type": "link",
+                  "target": "/shop/brand-monclerenfant-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Monnalisa",
+                  "type": "link",
+                  "target": "/shop/brand-monnalisa",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Moon Boots",
+                  "type": "link",
+                  "target": "/shop/brand-moonboots-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Moschino Kids",
+                  "type": "link",
+                  "target": "/shop/brand-moschinokids-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "MSGM",
+                  "type": "link",
+                  "target": "/shop/brand-msgm-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Paul Smith Junior",
+                  "type": "link",
+                  "target": "/shop/brand-paulsmithjunior-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Ralph Lauren Kids",
+                  "type": "link",
+                  "target": "/shop/brand-ralphlaurenkids-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Stone Island Junior",
+                  "type": "link",
+                  "target": "/shop/brand-stoneislandjunior-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Tommy Hilfiger",
+                  "type": "link",
+                  "target": "/shop/brand-tommyhilfiger-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "UGG",
+                  "type": "link",
+                  "target": "/shop/brand-ugg-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Veja",
+                  "type": "link",
+                  "target": "/shop/brand-veja-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                },
+                {
+                  "title": "Versace",
+                  "type": "link",
+                  "target": "/shop/brand-versace-0",
+                  "icon": null,
+                  "linkColour": "",
+                  "fontWeight": "",
+                  "fontFamily": null
+                }
+              ],
+              "linkColour": "",
+              "fontWeight": "",
+              "fontFamily": null,
+              "icon": null
+            }
+          ]
+        }
+      ],
+      "missions": {
+        "noOfColumns": 3,
+        "title": null,
+        "items": [
+          {
+            "title": "Gucci Kids",
+            "imageUrl": "/nxtcms/blueprint/servlet/resource/blob/4171802/0769e6d96ec8c44c54ee08bbc99c6b3c/gucci-june-data.jpg",
+            "target": "/shop/brand-guccikids-0"
+          },
+          {
+            "title": "Burberry Kids",
+            "imageUrl": "/nxtcms/blueprint/servlet/resource/blob/4171806/a02eebb591d44139b764288a5759b0d4/burberry-june-data.jpg",
+            "target": "/shop/brand-burberrykids-0"
+          },
+          {
+            "title": "Fendi Kids",
+            "imageUrl": "/nxtcms/blueprint/servlet/resource/blob/4171798/960643041f73acd3d01cc3f0c9ba7cd6/fendi-june-data.jpg",
+            "target": "/shop/brand-fendi-0"
+          },
+          {
+            "title": "Moncler Enfant",
+            "imageUrl": "/nxtcms/blueprint/servlet/resource/blob/4171804/51e4492dfbe0c27a36981d40e96bfd3f/moncler-june-data.jpg",
+            "target": "/shop/brand-monclerenfant-0"
+          },
+          {
+            "title": "Dolce & Gabbana",
+            "imageUrl": "/nxtcms/blueprint/servlet/resource/blob/4171808/0433ac6e76e1c10fd2f56fbadbe1625f/dg-june-data.jpg",
+            "target": "/shop/brand-dolcegabbanakids-0"
+          },
+          {
+            "title": "Givenchy Kids",
+            "imageUrl": "/nxtcms/blueprint/servlet/resource/blob/4171800/e25e366c03bb05be07ca16f12a34bb04/givenchy-june-data.jpg",
+            "target": "/shop/brand-givenchykids-0"
+          }
+        ],
+        "categoryLink": null
+      }
+    }
+  ],
+  "banner": null
+}

@@ -1,0 +1,13 @@
+{
+  "name": "footer-lighthouse",
+  "version": "1.0.0",
+  "description": "Run Google Lighthouse for the footer UI",
+  "scripts": {
+    "lh:collect": "lhci collect",
+    "lh:assert": "lhci assert",
+    "lh:upload": "lhci upload"
+  },
+  "devDependencies": {
+    "@lhci/cli": "^0.6.0"
+  }
+}

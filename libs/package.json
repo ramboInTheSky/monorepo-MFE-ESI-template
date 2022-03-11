@@ -1,0 +1,25 @@
+{
+  "name": "libs",
+  "version": "2.9.1",
+  "description": "Lerna Package.json to be able to bootstrap in this particular location ONLY",
+  "scripts": {},
+  "private": true,
+  "devDependencies": {
+    "@monorepo/accordion": "^7.3.0",
+    "@monorepo/apiconfig": "^3.3.0",
+    "@monorepo/babelconfig": "^3.3.0",
+    "@monorepo/core-logger": "^7.3.0",
+    "@monorepo/cta": "^2.0.0",
+    "@monorepo/cypress-fixtures": "^6.4.1",
+    "@monorepo/drawer": "^1.0.1",
+    "@monorepo/eslint": "^3.3.0",
+    "@monorepo/eventservice": "^5.3.0",
+    "@monorepo/middlewares": "^6.4.0",
+    "@monorepo/settings-sdk": "^4.3.0",
+    "@monorepo/theme-provider": "^9.0.0",
+    "@monorepo/themes": "^17.0.0",
+    "@monorepo/utils": "^6.4.0"
+  },
+  "author": "_Alz",
+  "license": "ISC"
+}

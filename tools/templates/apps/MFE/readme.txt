@@ -1,0 +1,1 @@
+Template for container application - contains its own components and ability to ESI MFEs

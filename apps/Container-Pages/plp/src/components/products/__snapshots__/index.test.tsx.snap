@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given the <Products /> component, Given no items are present When a request has finished should render a no results message 1`] = `
+<DocumentFragment>
+  <div>
+    ProductsRoot 
+    <div>
+      ProductsHeader 
+    </div>
+    <div
+      class="plp-product-grid-wrapper"
+    >
+      ProductGridWrapper 
+      <div
+        data-testid="plp-no-results-container"
+      >
+        NoResultsContainer We found no results matching your search.
+      </div>
+      <div>
+        ProductGrid 
+      </div>
+    </div>
+    <div>
+      BackToTop 
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given the <Products /> component, Given no items are present When a request is in progress should not render a no results message 1`] = `
+<DocumentFragment>
+  <div>
+    ProductsRoot 
+    <div>
+      ProductsHeader 
+    </div>
+    <div
+      class="plp-product-grid-wrapper"
+    >
+      ProductGridWrapper 
+      <div
+        ariavaluetext="Loading products..."
+        testid="plp-results-loading-page-spinner"
+      >
+        Spinner 
+      </div>
+      <div>
+        ProductGrid 
+      </div>
+    </div>
+    <div>
+      BackToTop 
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given the <Products /> component, When page items are being fetched should render the next page loading indicator 1`] = `
+<DocumentFragment>
+  <div>
+    ProductsRoot 
+    <div>
+      ProductsHeader 
+    </div>
+    <div
+      class="plp-product-grid-wrapper"
+    >
+      ProductGridWrapper 
+      <div
+        ariavaluetext="Loading products..."
+        testid="plp-results-loading-page-spinner"
+      >
+        Spinner 
+      </div>
+      <div>
+        ProductGrid 
+        <div
+          data-index="0"
+          data-testid="plp-product-grid-item"
+          id="plp-product-summary-tile-1"
+        >
+          ProductGridItem itemNumber: 1, newIn: true, 
+        </div>
+        <div
+          data-index="1"
+          data-testid="plp-product-grid-item"
+          id="plp-product-summary-tile-2"
+        >
+          ProductGridItem itemNumber: 2, newIn: false, html: foo...
+        </div>
+      </div>
+    </div>
+    <div>
+      BackToTop 
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given the <Products /> component, When previous page is loading, should render the previous page loading indicator 1`] = `
+<DocumentFragment>
+  <div>
+    ProductsRoot 
+    <div>
+      ProductsHeader 
+    </div>
+    <div
+      ariavaluetext="Loading previous page..."
+      testid="plp-previous-page-spinner"
+    >
+      PrevNextSpinner 
+    </div>
+    <div
+      class="plp-product-grid-wrapper"
+    >
+      ProductGridWrapper 
+      <div>
+        ProductGrid 
+        <div
+          data-index="0"
+          data-testid="plp-product-grid-item"
+          id="plp-product-summary-tile-1"
+        >
+          ProductGridItem itemNumber: 1, newIn: true, 
+        </div>
+        <div
+          data-index="1"
+          data-testid="plp-product-grid-item"
+          id="plp-product-summary-tile-2"
+        >
+          ProductGridItem itemNumber: 2, newIn: false, html: foo...
+        </div>
+      </div>
+    </div>
+    <div>
+      BackToTop 
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Given the <Products /> component, When the next page is loading, should render the next page loading indicator 1`] = `
+<DocumentFragment>
+  <div>
+    ProductsRoot 
+    <div>
+      ProductsHeader 
+    </div>
+    <div
+      class="plp-product-grid-wrapper"
+    >
+      ProductGridWrapper 
+      <div>
+        ProductGrid 
+        <div
+          data-index="0"
+          data-testid="plp-product-grid-item"
+          id="plp-product-summary-tile-1"
+        >
+          ProductGridItem itemNumber: 1, newIn: true, 
+        </div>
+        <div
+          data-index="1"
+          data-testid="plp-product-grid-item"
+          id="plp-product-summary-tile-2"
+        >
+          ProductGridItem itemNumber: 2, newIn: false, html: foo...
+        </div>
+      </div>
+    </div>
+    <div
+      ariavaluetext="Loading next page..."
+      testid="plp-next-page-spinner"
+    >
+      PrevNextSpinner 
+    </div>
+    <div>
+      BackToTop 
+    </div>
+  </div>
+</DocumentFragment>
+`;

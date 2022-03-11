@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model - Colourway:  should match the Colourway 1`] = `
+Colourway {
+  "colour": undefined,
+  "fits": undefined,
+  "itemNumber": undefined,
+  "itemPrice": undefined,
+  "url": undefined,
+}
+`;

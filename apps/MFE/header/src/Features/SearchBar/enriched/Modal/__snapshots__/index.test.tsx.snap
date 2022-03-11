@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - EnrichModal:  should match the snapshot 1`] = `
+<DocumentFragment>
+  .c0 > div {
+  -webkit-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+  -webkit-animation-delay: 250ms;
+  animation-delay: 250ms;
+}
+
+.c0 > div > div:first-child {
+  position: fixed;
+  top: 0;
+  background: rgba(0,0,0,0.9);
+}
+
+@media (min-width:768px) {
+  .c0 > div {
+    top: 2.75rem !important;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 > div {
+    top: 2.75rem !important;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <div
+      data-testid="modal"
+    >
+      Modal Component
+    </div>
+  </div>
+</DocumentFragment>
+`;

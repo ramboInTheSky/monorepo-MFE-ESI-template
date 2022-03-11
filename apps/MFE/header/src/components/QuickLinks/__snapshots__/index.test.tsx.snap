@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components - QuickLinks:  should match the snapshot 1`] = `
+<DocumentFragment>
+  .c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: inherit;
+  font-size: 12px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-letter-spacing: 0.0075rem;
+  -moz-letter-spacing: 0.0075rem;
+  -ms-letter-spacing: 0.0075rem;
+  letter-spacing: 0.0075rem;
+}
+
+.c2:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c1 {
+  list-style: none;
+  margin: 0 1rem 0 0;
+}
+
+.c1:last-child {
+  margin: "0 0.75rem 0 0";
+}
+
+.c3 {
+  margin-right: 0.1rem;
+}
+
+.c4 {
+  cursor: pointer;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+<ul
+    class="c0"
+  >
+    <li
+      class="c1"
+    >
+      <div
+        data-testid="quicklink-container"
+      >
+        <a
+          class="c2"
+          data-ga-v1="Quick Links"
+          data-ga-v2="Help"
+          href="spiderman/help"
+          rel="nofollow"
+        >
+          <span
+            class="c3"
+          >
+            help
+          </span>
+          <img
+            alt="help"
+            class="c4"
+            src="/stores.svg"
+          />
+        </a>
+      </div>
+    </li>
+  </ul>
+</DocumentFragment>
+`;

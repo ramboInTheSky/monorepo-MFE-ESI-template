@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Embedded Reviews component -  should match the snapshot template with test props 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root component__ReviewPanelContainer-sc-1cotioo-0 bbEvAT MuiGrid-container MuiGrid-align-items-xs-center"
+    data-testid="review-panel-container"
+  >
+    <div
+      class="MuiGrid-root component__ReviewTitleContainer-sc-1cotioo-1 gCqIBd MuiGrid-item MuiGrid-grid-xs-6"
+      data-testid="review-title-container"
+    >
+      Reviews
+    </div>
+    <div
+      class="MuiGrid-root component__ReviewProviderLogoContainer-sc-1cotioo-2 yoQKM MuiGrid-item MuiGrid-grid-xs-6"
+      data-testid="review-provider-logo-container"
+    >
+      <img
+        alt="Feefo Reviews at amido"
+        src="https://xcdn.amido.com/content/platmod/images/pdp/brand/amido/review-provider.svg"
+      />
+    </div>
+    <div
+      class="MuiGrid-root component__ReviewSummaryContainer-sc-1cotioo-3 gkGBMH MuiGrid-item MuiGrid-grid-xs-12"
+      data-testid="review-summary-container"
+    >
+      No reviews have been submitted yet.
+    </div>
+  </div>
+</DocumentFragment>
+`;

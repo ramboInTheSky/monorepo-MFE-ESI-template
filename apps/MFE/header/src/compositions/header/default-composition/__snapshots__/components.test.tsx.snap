@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UpperHeader component:  InnerContainer should match the snapshot  1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  background-color: inherit;
+  z-index: 2;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 1280px;
+  padding: 0.625rem 0;
+}
+
+.c0 .header-adaptive-brand {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  width: 5.375rem;
+  min-width: 5.375rem;
+  width: 5.375rem;
+}
+
+.c0 .header-adaptive-my-account {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.c0 .header-adaptive-search {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  width: 5.375rem;
+  min-width: 5.375rem;
+}
+
+.c0 .header-adaptive-links {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  width: 5.375rem;
+  min-width: 5.375rem;
+}
+
+.c0 .header-adaptive-checkout {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.c0 .favourites {
+  width: 2.75rem;
+  min-width: 2.75rem;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.c0 .countrylangselector {
+  width: 5.375rem;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  min-width: 5.375rem;
+}
+
+.c0 .shoppingbag {
+  width: 5.375rem;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  min-width: 2.75rem;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    padding: 0.625rem 0;
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    padding: 0.625rem 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 .shoppingbag {
+    margin: 10rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    height: 2.75rem;
+  }
+
+  .c0 .header-adaptive-brand {
+    width: 5.375rem;
+  }
+
+  .c0 .header-adaptive-search {
+    margin: 10rem;
+    width: 5.375rem;
+  }
+
+  .c0 .header-adaptive-links {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    width: 5.375rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .c0 .header-adaptive-brand {
+    width: 5.375rem;
+    height: 2.75rem;
+  }
+}
+
+<nav
+    class="c0"
+  />
+</DocumentFragment>
+`;

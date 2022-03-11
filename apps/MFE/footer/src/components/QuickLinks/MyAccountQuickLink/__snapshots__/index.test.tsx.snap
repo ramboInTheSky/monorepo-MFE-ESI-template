@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a MyAccountQuickLink When the user is logged in Then it renders the account quick link as logged in 1`] = `
+<DocumentFragment>
+  <a
+    data-testid="footer-quick-links-name"
+    href="http://somethingtesting.co.uk/secure/accounts/transfers"
+  >
+    TEST NAME
+  </a>
+</DocumentFragment>
+`;

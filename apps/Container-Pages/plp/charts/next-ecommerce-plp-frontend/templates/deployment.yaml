@@ -1,0 +1,94 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{include "monorepo-plp-frontend.fullname" .}}
+  labels: 
+    {{- include "monorepo-plp-frontend.labels" . | nindent 4}}
+    'restartEnabled': 'true'
+  annotations:
+    'kubernetes.io/change-cause': '{{ .Values.image.repository }}:{{ .Chart.AppVersion }} Deployed on {{ now | date "2006-01-02T15:04:05Z" }}'
+spec:
+  replicas: {{.Values.replicaCount}}
+  selector:
+    matchLabels: {{- include "monorepo-plp-frontend.selectorLabels" . | nindent 6}}
+  template:
+    metadata:
+      labels: {{- include "monorepo-plp-frontend.selectorLabels" . | nindent 8}}
+      annotations:
+        'kubernetes.io/change-cause': '{{ .Values.image.repository }}:{{ .Chart.AppVersion }} Deployed on {{ now | date "2006-01-02T15:04:05Z" }}'
+    spec:
+      imagePullSecrets:
+        - name: {{.Values.image.imagePullSecret}}
+      securityContext: {{- toYaml .Values.podSecurityContext | nindent 8}}
+      containers:
+        - name: {{.Chart.Name}}
+          securityContext: {{- toYaml .Values.securityContext | nindent 12}}
+          image: '{{ .Values.image.repository }}:{{ .Chart.AppVersion }}'
+          imagePullPolicy: {{.Values.image.pullPolicy}}
+          ports:
+            - name: http
+              containerPort: 80
+          livenessProbe:
+            httpGet:
+              path: {{.Values.application.app_serve_path_prefix}}/shop/health
+              port: 3000
+          readinessProbe:
+            httpGet:
+              path: {{.Values.application.app_serve_path_prefix}}/shop/health
+              port: 3000
+          {{- if  .Values.ignore_resource_limits -}}
+          {{ else }}
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}
+          {{- end }}  
+          env:
+            - name: REACT_APP_API_BASEURL_SEARCH
+              value: {{.Values.application.apiBaseUrlSearch}}
+            - name: REACT_APP_API_BASEURL_PRODUCT_SUMMARY
+              value: {{.Values.application.apiBaseUrlProductSummary}}
+            - name: REACT_APP_API_BASEURL_SEARCH_BANNER
+              value: {{.Values.application.apiBaseUrlSearchBanner}}
+            - name: REACT_APP_BLOB_STORAGE_SSR_BASEURL
+              value: {{.Values.application.blobStorageSSRBaseURL}}
+            - name: REACT_APP_CDN_BASEURL
+              value: {{.Values.application.cdnBaseUrl}}
+            - name: REACT_APP_APPINSIGHTS_KEY
+              value: {{.Values.application.appInsightsKey}}
+            - name: REACT_APP_APP_URL
+              value: {{.Values.application.appUrl}}
+            - name: REACT_APP_PROD_SUMM_BASEURL
+              value: {{.Values.application.appProdSummBaseUrl}}
+            - name: REACT_APP_PROD_SUMM_ASSETS_PATH
+              value: {{.Values.application.appProdSummAssetsPath}}
+            - name: REACT_APP_HEADER_BASEURL
+              value: {{.Values.application.appHeaderBaseUrl}}
+            - name: REACT_APP_HEADER_ASSETS_PATH
+              value: {{.Values.application.appHeaderAssetsPath}}
+            - name: REACT_APP_MEGANAV_BASEURL
+              value: {{.Values.application.appMeganavBaseUrl}}
+            - name: REACT_APP_FOOTER_BASEURL
+              value: {{.Values.application.appFooterBaseUrl}}
+            - name: REACT_APP_FOOTER_ASSETS_PATH
+              value: {{.Values.application.appFooterAssetsPath}}
+            - name: REACT_APP_SERVE_PATH_PREFIX
+              value: {{.Values.application.app_serve_path_prefix}}
+            - name: REACT_APP_USE_TIME_MACHINE_COOKIE
+              value: {{.Values.application.useTimeMachineCookie}}
+            - name: ASSETS_PATH
+              value: {{.Values.application.assets_path}}
+            - name: PORT
+              value: '3000'
+            - name: USE_DEV_ESI
+              value: {{.Values.application.useDevEsi}}
+            - name: ENVIRONMENT_NAME
+              value: {{.Values.application.environmentName}}  
+            - name: LOG_LEVEL
+              value: {{.Values.application.log_level}}
+            - name: REACT_APP_BLOB_STORAGE_OVERRIDE
+              value: {{.Values.application.blob_storage_override}}
+            
+      dnsConfig:
+        options:
+          - name: single-request-reopen
+          - name: ndots
+            value: "3"

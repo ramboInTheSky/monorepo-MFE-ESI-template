@@ -1,0 +1,27 @@
+{
+  "id": "4f84ff96-d1d3-4c7a-a0eb-09e4f0793859",
+  "title": "Home",
+  "target": "/amido",
+  "viewType": "primary-navbar",
+  "realm": "amido",
+  "territory": "GB",
+  "language": "en",
+  "items": [
+    {
+      "title": "CLOTHING",
+      "path": "CLOTHING",
+      "target": "/shop/feat-sale",
+      "linkColour": "#000000",
+      "fontWeight": "bold",
+      "fontFamily": null
+    },
+    {
+      "title": "ACCESSORIES",
+      "path": "ACCESSORIES",
+      "target": "/brands/all",
+      "linkColour": "#000000",
+      "fontWeight": "bold",
+      "fontFamily": null
+    }
+  ]
+}

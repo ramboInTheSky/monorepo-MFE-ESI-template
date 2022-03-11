@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Templates should return the HTML for SEO_HEADING_TEMPLATE 1`] = `"<h1>EXAMPLE_heading</h1>"`;
+
+exports[`Templates should return the HTML for SEO_METADATA_TEMPLATE 1`] = `
+"
+<title>EXAMPLE_heading</title>
+<meta name=\\"description\\" content=\\"EXAMPLE_description\\"/>
+<meta name=\\"keywords\\" content=\\"EXAMPLE_keywords\\"/>
+<meta name=\\"robots\\" content=\\"EXAMPLE_robots\\"/>
+<link rel=\\"canonical\\" href=\\"EXAMPLE_canonical\\"/>
+"
+`;

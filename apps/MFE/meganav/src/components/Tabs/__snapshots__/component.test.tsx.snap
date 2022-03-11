@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs components:  Container:  TabShocks:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="component__TabShocks-sc-1qs3e0-0 crCZni"
+  />
+</DocumentFragment>
+`;
+
+exports[`Tabs components:  Container:  should match the snapshot  1`] = `
+<DocumentFragment>
+  <div
+    class="component__Container-sc-1qs3e0-1 jyJPLo"
+  />
+</DocumentFragment>
+`;
